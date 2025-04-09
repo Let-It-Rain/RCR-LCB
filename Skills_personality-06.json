@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +2 Charge Count",
+          "name": "Цикл энергии",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             }
@@ -26,20 +26,20 @@
         },
         {
           "level": 2,
-          "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +3 Charge Count",
+          "name": "Цикл энергии",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 3</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             }
@@ -47,20 +47,20 @@
         },
         {
           "level": 4,
-          "name": "Energy Cycle",
-          "desc": "[WhenUse] Gain +4 Charge Count",
+          "name": "Цикл энергии",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 4</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             }
@@ -73,14 +73,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cleanup Support",
-          "desc": "[WhenUse] Gain +2 Charge Count\nClash Power +1 when Shielded",
+          "name": "Зачищающее подкрепление",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2\nСила в столкновении +1, пока есть щит",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttackHead] При 10 и более на счётчике [Charge:`Заряда`], получает 2 [ChargeForceField:`Зарядных барьера`] на следующий ход"
                 }
               ]
             }
@@ -88,20 +88,20 @@
         },
         {
           "level": 2,
-          "name": "Cleanup Support",
-          "desc": "[WhenUse] Gain +3 Charge Count\nClash Power +2 when Shielded",
+          "name": "Зачищающее подкрепление",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3\nСила в столкновении <style=\"highlight\">+2</style>, пока есть щит",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Charge Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Charge Count, gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> При 10 и более на счётчике [Charge:`Заряда`], получает 2 [ChargeForceField:`Зарядных барьера`] на следующий ход"
                 }
               ]
             }
@@ -109,20 +109,20 @@
         },
         {
           "level": 4,
-          "name": "Cleanup Support",
-          "desc": "[WhenUse] Gain +3 Charge Count\nClash Power +2 when Shielded",
+          "name": "Зачищающее подкрепление",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3\nСила в столкновении +2, пока есть щит",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Charge Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 5+ Charge Count, gain 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> for every 5 Charge Count next turn (Max 4)"
+                  "desc": "[OnSucceedAttack] При <style=\"highlight\">5</style> и более на счётчике [Charge:`Заряда`], получает 1 [ChargeForceField:`Зарядный барьер`] <style=\"highlight\">за каждые 5 счётчиков</style> [Charge:`Заряда`] на следующий ход <style=\"highlight\">(До 4)</style>"
                 }
               ]
             }
@@ -135,18 +135,18 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+          "name": "Установка зарядного барьера",
+          "desc": "[WhenUse] При 10 и более на счётчике [Charge:`Заряда`], тратит весь счётчик [Charge:`Заряда`], чтобы дать (Потраченный счётчик / 2) [ChargeForceField:`Зарядных барьеров`] двум союзникам с наименьшим процентом ОЗ (Округляется вниз)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] Получает 2 [ChargeForceField:`Зарядных барьера`] на следующий ход"
                 }
               ]
             }
@@ -154,18 +154,18 @@
         },
         {
           "level": 4,
-          "name": "Deploy Charge Barrier",
-          "desc": "[WhenUse] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (Rounded Down) to 2 allies with the lowest HP percentage",
+          "name": "Установка зарядного барьера",
+          "desc": "[WhenUse] При 10 и более на счётчике [Charge:`Заряда`], тратит весь счётчик [Charge:`Заряда`], чтобы дать (Потраченный счётчик / 2) [ChargeForceField:`Зарядных барьеров`] двум союзникам с наименьшим процентом ОЗ (Округляется вниз)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> next turn"
+                  "desc": "[OnSucceedAttack] Получает 2 [ChargeForceField:`Зарядных барьера`] на следующий ход"
                 }
               ]
             }
@@ -178,16 +178,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[WhenUse] Gain 2 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 times per turn)",
+          "name": "Блок",
+          "desc": "[WhenUse] Получает 2 [ChargeForceField:`Зарядных барьера`] (До 3 раз за ход)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Guard",
-          "desc": "[WhenUse] Gain <style=\"highlight\">3</style> <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Charge Barrier</color></link></u> (3 times per turn)",
+          "name": "Блок",
+          "desc": "[WhenUse] Получает <style=\"highlight\">3</style> [ChargeForceField:`Зарядных барьера`] (До 3 раз за ход)",
           "coinlist": [
             {}
           ]
@@ -199,17 +199,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Track",
+          "name": "Слежка",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -217,17 +217,17 @@
         },
         {
           "level": 2,
-          "name": "Track",
+          "name": "Слежка",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -235,17 +235,17 @@
         },
         {
           "level": 4,
-          "name": "Track",
-          "desc": "At 2+ Haste, Final Power +1",
+          "name": "Слежка",
+          "desc": "<style=\"highlight\">Итоговая сила +1 при 2 и более [Agility:`Спешках`]</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -258,27 +258,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Goin' First",
-          "desc": "[WhenUse] Gain 1 Haste next turn",
+          "name": "Ход первым",
+          "desc": "[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 2)"
+                  "desc": "[OnSucceedAttack] Если быстрее цели, повышает счётчик [Laceration:`Кровотечения`] цели на разницу в скорости (До 2)"
                 }
               ]
             }
@@ -286,27 +286,27 @@
         },
         {
           "level": 2,
-          "name": "Goin' First",
-          "desc": "[WhenUse] Gain 2 Haste next turn",
+          "name": "Ход первым",
+          "desc": "[WhenUse] Получает <style=\"highlight\">2</style> [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 3)"
+                  "desc": "[OnSucceedAttack] Если быстрее цели, повышает счётчик [Laceration:`Кровотечения`] цели на разницу в скорости (До <style=\"highlight\">3</style>)"
                 }
               ]
             }
@@ -314,27 +314,27 @@
         },
         {
           "level": 4,
-          "name": "Goin' First",
-          "desc": "At 6+ Speed, Coin Power +1\n[WhenUse] Gain 2 Haste next turn",
+          "name": "Ход первым",
+          "desc": "<style=\"highlight\">Сила монет +1, если скорость 6 и выше</style>\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 4)"
+                  "desc": "[OnSucceedAttack] Если быстрее цели, повышает счётчик [Laceration:`Кровотечения`] цели на разницу в скорости (До <style=\"highlight\">4</style>)"
                 }
               ]
             }
@@ -347,13 +347,13 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Rampage",
-          "desc": "At 8+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.3% damage per 1% missing HP)",
+          "name": "Погром",
+          "desc": "Сила монет +1, если скорость 8 и выше\nНа 0.3% больше урона за каждый 1% потерянных ОЗ цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 SP per Bleed on target (Max 5)"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает 1 СД за каждое [Laceration:`Кровотечение`] на цели (До 5)"
                 }
               ]
             },
@@ -361,14 +361,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bleed"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -376,13 +376,13 @@
         },
         {
           "level": 4,
-          "name": "Rampage",
-          "desc": "At 6+ Speed, Coin Power +1\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)",
+          "name": "Погром",
+          "desc": "Сила монет +1, если скорость <style=\"highlight\">6</style> и выше\nНа <style=\"highlight\">0.5%</style> больше урона за каждый 1% потерянных ОЗ цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Heal 1 SP per Bleed on target (Max 10)"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает 1 СД за каждое [Laceration:`Кровотечение`] на цели (До <style=\"highlight\">10</style>)"
                 }
               ]
             },
@@ -390,14 +390,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bleed"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Bleed"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -410,16 +410,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Quickness",
-          "desc": "[OnSucceedEvade] Gain 1 Haste next turn (3 times per turn)",
+          "name": "Проворность",
+          "desc": "[OnSucceedEvade] Получает 1 [Agility:`Спешку`] на следующий ход (До 3 раз за ход)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Quickness",
-          "desc": "If target has 7+ Bleed, gain +2 Coin Power\n[OnSucceedEvade] Gain 1 Haste next turn (3 times per turn)",
+          "name": "Проворность",
+          "desc": "<style=\"highlight\">Сила монет +2 против целей с 7 и более [Laceration:`Кровотечения`]</style>\n[OnSucceedEvade] Получает 1 [Agility:`Спешку`] на следующий ход (До 3 раз за ход)",
           "coinlist": [
             {}
           ]
@@ -431,13 +431,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Expend Knowledge",
-          "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+          "name": "Трата знаний",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга во всех своих слотах навыков",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 1"
                 }
               ]
             }
@@ -445,16 +445,16 @@
         },
         {
           "level": 2,
-          "name": "Expend Knowledge",
-          "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Clash Power +1",
+          "name": "Трата знаний",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга во всех своих слотах навыков\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3-х и более [KnowledgeExplored:`Откровениях`](#f8c200)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 3+ [KnowledgeExplored], reuse Coin once"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 3-х и более [KnowledgeExplored:`Откровениях`](#f8c200), подкидывает монету ещё раз</style>"
                 }
               ]
             }
@@ -462,16 +462,16 @@
         },
         {
           "level": 4,
-          "name": "Expend Knowledge",
-          "desc": "[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Clash Power +([KnowledgeExplored] - 1)",
+          "name": "Трата знаний",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга во всех своих слотах навыков\n[WhenUse] Сила в столкновении <style=\"highlight\">повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reuse Coin ([KnowledgeExplored] - 1) times"
+                  "desc": "[OnSucceedAttack] Подкидывает монету ещё (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1) раз"
                 }
               ]
             }
@@ -484,15 +484,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Unveil",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+          "name": "Снятие печати",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга во всех своих слотах навыков",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -500,15 +500,15 @@
         },
         {
           "level": 2,
-          "name": "Unveil",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] At 3+ [KnowledgeExplored], Coin Power +1",
+          "name": "Снятие печати",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга во всех своих слотах навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3-х и более [KnowledgeExplored:`Откровениях`](#f9c200)</style>",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 3 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -516,15 +516,15 @@
         },
         {
           "level": 4,
-          "name": "Unveil",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\n[WhenUse] Coin Power +([KnowledgeExplored] - 1)",
+          "name": "Снятие печати",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга во всех своих слотах навыков\n[WhenUse] Повышает Силу монет <style=\"highlight\">на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -537,18 +537,18 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Cyclical Knowledge",
-          "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +1.5% more damage per [Sinking] on target (Max 15%)",
+          "name": "Круговорот знаний",
+          "desc": "[WhenUse] При 2-х и более [KnowledgeExplored:`Откровениях`](#f8c200) повышает Силу монет на число [KnowledgeExplored:`Откровений`](#f8c200)\n[WhenUse] На 1.5% больше урона за каждое [Sinking:`Утопание`] на цели (До 15%)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                  "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 СД"
                 }
               ]
             }
@@ -556,18 +556,18 @@
         },
         {
           "level": 4,
-          "name": "Cyclical Knowledge",
-          "desc": "[WhenUse] At 2+ [KnowledgeExplored], gain Coin Power equal to [KnowledgeExplored]\n[WhenUse] Deal +3% more damage per [Sinking] on target (Max 30%)",
+          "name": "Круговорот знаний",
+          "desc": "[WhenUse] При 2-х и более [KnowledgeExplored:`Откровениях`](#f8c200) повышает Силу монет на число [KnowledgeExplored:`Откровений`](#f8c200)\n[WhenUse] На <style=\"highlight\">3%</style> больше урона за каждое [Sinking:`Утопание`] на цели (До <style=\"highlight\">30%</style>)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 4</style>"
                 },
                 {
-                  "desc": "[EndSkill] If target is Staggered or defeated, heal 10 SP"
+                  "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 СД"
                 }
               ]
             }
@@ -580,16 +580,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guiding Steps",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+          "name": "Направляющие шажки",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга во всех своих слотах навыков",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Guiding Steps",
-          "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+          "name": "Направляющие шажки",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга во всех своих слотах навыков",
           "coinlist": [
             {}
           ]
@@ -601,20 +601,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Deduction Start",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "name": "Начнём с дедуктивных размышлений",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             }
@@ -622,20 +622,20 @@
         },
         {
           "level": 2,
-          "name": "Deduction Start",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count",
+          "name": "Начнём с дедуктивных размышлений",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             }
@@ -643,20 +643,20 @@
         },
         {
           "level": 4,
-          "name": "Deduction Start",
-          "desc": "[WhenUse] Gain +2 [Vibration] Count\n<style=\"highlight\">At 6+ [Vibration] Count, Coin Power +1</style>",
+          "name": "Начнём с дедуктивных размышлений",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n<style=\"highlight\">Сила монет +1 при 6 и более единицах на своём счётчике [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             }
@@ -669,27 +669,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Morph Cane Technique",
-          "desc": "[WhenUse] Gain +3 [Vibration] Count",
+          "name": "Приём трансформирующейся тростью",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 9+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Если на цели 9 и более [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
                 }
               ]
             }
@@ -697,27 +697,27 @@
         },
         {
           "level": 2,
-          "name": "Morph Cane Technique",
-          "desc": "<style=\"highlight\">[WhenUse] If target has 8+ [Vibration], Clash Power +1</style>\n[WhenUse] Gain +3 [Vibration] Count\n<style=\"highlight\">At 6+ [Vibration] Count, Coin Power +1</style>",
+          "name": "Приём трансформирующейся тростью",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 8 и более [Vibration:`Тремора`]</style>\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n<style=\"highlight\">Сила монет +1 при 6 и более единицах на своём счётчике [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has <style=\"highlight\">7</style>+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Если на цели <style=\"highlight\">7</style> и более [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -725,27 +725,27 @@
         },
         {
           "level": 4,
-          "name": "Morph Cane Technique",
-          "desc": "[WhenUse] If target has <style=\"highlight\">6</style>+ [Vibration], Clash Power +1\n[WhenUse] Gain +3 [Vibration] Count\nAt <style=\"highlight\">5</style>+ [Vibration] Count, Coin Power +1",
+          "name": "Приём трансформирующейся тростью",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с <style=\"highlight\">6</style> и более [Vibration:`Тремора`]\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\nСила монет +1 при <style=\"highlight\">5</style> и более единицах на своём счётчике [Vibration:`Тремора`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has <style=\"highlight\">6</style>+ [Vibration], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Если на цели <style=\"highlight\">6</style> и более [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -758,20 +758,20 @@
       "levelList": [
         {
           "level": 3,
-          "name": "You're the Culprit!",
-          "desc": "[WhenUse] If target has 6+ [Vibration], Clash Power +1\n[WhenUse] Consume 10 [Vibration] Count on self to gain Coin Power +2",
+          "name": "Виновный — вы!",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Сила монет +2 при трате 10 единиц из собственного счётчика [Vibration:`Тремора`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill consumed [Vibration] Count on use, trigger [FusionVibration] into [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] Если навык потратил единицы из собственного счётчика [Vibration:`Тремора`], [FusionVibration:`Производит наложение амплитуды`] с [VibrationEcho:`Тремором — Эхо`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
                 }
               ]
             },
@@ -779,7 +779,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- If this unit did not consume [Vibration] Count with Skill use, activate the above effect, then trigger [VibrationExplosion] on self"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1\n- Если не удалось потратить единицы из собственного счётчика [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] на себе после этого"
                 }
               ]
             }
@@ -787,34 +787,34 @@
         },
         {
           "level": 4,
-          "name": "You're the Culprit!",
-          "desc": "[WhenUse] Clash Power +1 for every <style=\"highlight\">6</style> [Vibration] on target <style=\"highlight\">(max 2)</style>\n[WhenUse] At <style=\"highlight\"> less than 15 [Vibration] Count on self</style>, consume 10 [Vibration] Count to gain Coin Power +2\n<style=\"highlight\">[WhenUse] Consume 15 [Vibration] Count on self to gain Coin Power +3</style>",
+          "name": "Виновный — вы!",
+          "desc": "[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6</style> [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] <style=\"highlight\">Если на своём счётчике [Vibration:`Тремора`] менее 15 единиц,</style> Сила монет +2 при трате 10 единиц из собственного счётчика [Vibration:`Тремора`]\n<style=\"highlight\">[WhenUse] Сила монет +3 при трате 15 единиц из собственного счётчика [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this Skill consumed [Vibration] Count on use, trigger [FusionVibration] into [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] Если навык потратил единицы из собственного счётчика [Vibration:`Тремора`], [FusionVibration:`Производит наложение амплитуды`] с [VibrationEcho:`Тремором — Эхо`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При трате 10 и более единиц из собственного счётчика [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Skill consumed 10+ [Vibration] Count on Skill Use, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n- If this unit consumed less than 15 [Vibration] Count, trigger [VibrationExplosion] on self after activating the above effect</style>"
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">При трате 10 и более единиц из собственного счётчика [Vibration:`Тремора`],</style> [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1\n- Если потратилось <style=\"highlight\">менее 15</style> единиц своего счётчика [Vibration:`Тремора`], [VibrationExplosion:`провоцирует Тремор`]</style> на себе после этого"
                 }
               ]
             }
@@ -827,16 +827,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wait?!",
-          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max 7)",
+          "name": "Минуточку?!",
+          "desc": "[WhenUse] Получает щит на (Счётчик [Vibration:`Тремора`] цели × 2) ОЗ (До 7)",
           "coinlist": [
             {}
           ]
         },
         {
           "level": 4,
-          "name": "Wait?!",
-          "desc": "[WhenUse] Gain 2 x ([Vibration] Count on target) as Shield HP (max <style=\"highlight\">13</style>)",
+          "name": "Минуточку?!",
+          "desc": "[WhenUse] Получает щит на (Счётчик [Vibration:`Тремора`] цели × 2) ОЗ (До <style=\"highlight\">13</style>)",
           "coinlist": [
             {}
           ]
@@ -848,13 +848,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slam",
+          "name": "Удар",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -869,20 +869,20 @@
         },
         {
           "level": 2,
-          "name": "Slam",
-          "desc": "If target has 6+ [Burst], Coin Power +1",
+          "name": "Удар",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Burst:`Разрывами`]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]</style>"
                 }
               ]
             }
@@ -890,26 +890,26 @@
         },
         {
           "level": 4,
-          "name": "Slam",
-          "desc": "If target has 6+ [Burst], Coin Power +1",
+          "name": "Удар",
+          "desc": "Сила монет +1 против целей с 6 и более [Burst:`Разрывами`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]</style>"
                 }
               ]
             }
@@ -922,7 +922,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bonecrusher",
+          "name": "Костолом",
           "desc": "",
           "coinlist": [
             {
@@ -935,7 +935,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -943,23 +943,23 @@
         },
         {
           "level": 2,
-          "name": "Bonecrusher",
-          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Костолом",
+          "desc": "<style=\"highlight\">[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ его счётчика: Сила монет +1 вместо повышения его счётчика или нанесения силы\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [TakeHpHealReduce] next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [TakeHpHealReduce:`Понижение восстановления ОЗ`] на следующий ход</style>"
                 }
               ]
             }
@@ -967,26 +967,26 @@
         },
         {
           "level": 4,
-          "name": "Bonecrusher",
-          "desc": "If target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n- If target is a <Bloodfiend> or a <Bloodbag>, gain an additional Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Костолом",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Burst:`Разрывами`]</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ его счётчика: Сила монет +1 вместо повышения его счётчика или нанесения силы\n<style=\"highlight\">- Сила монет ещё +1 против <Кровожадов> или <Кровососов></style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +1 [Burst] Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [TakeHpHealReduce] next turn"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [TakeHpHealReduce:`Понижения восстановления ОЗ`] на следующий ход"
                 }
               ]
             }
@@ -999,20 +999,20 @@
       "levelList": [
         {
           "level": 3,
-          "name": "A Cheerful Hunt's End",
-          "desc": "[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Радостный конец охоты",
+          "desc": "[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ его счётчика: Сила монет +1 вместо повышения его счётчика или нанесения силы\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
@@ -1021,27 +1021,27 @@
         },
         {
           "level": 4,
-          "name": "A Cheerful Hunt's End",
-          "desc": "If target has 6+ [Burst], Coin Power +1\n[WhenUse] If target has 15+ [Burst] and 3+ [Burst] Count: this Skill does not inflict [Burst] or [Burst] Count; instead, gain Coin Power +1\n- If target is a <Bloodfiend> or a <Bloodbag>, gain an additional Coin Power +1\n[WinDuel] Inflict +2 [Burst] Count",
+          "name": "Радостный конец охоты",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Burst:`Разрывами`]</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ его счётчика: Сила монет +1 вместо повышения его счётчика или нанесения силы\n<style=\"highlight\">- Сила монет ещё +1 против <Кровожадов> или <Кровососов></style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 15+ [Burst], or has less than 30% HP, Reuse this Coin (once per Skill)"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 15 и более [Burst:`Разрывов`] или у неё меньше 30% ОЗ, заново подкидывает монету (Единожды за навык)</style>"
                 }
               ]
             }
@@ -1054,7 +1054,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Emergency Styptics",
+          "name": "Экстренная Кровоостановка",
           "desc": "",
           "coinlist": [
             {
@@ -1068,8 +1068,8 @@
         },
         {
           "level": 4,
-          "name": "Emergency Styptics",
-          "desc": "[StartBattle] Lose 2 [Laceration] Potency on self (3 times per turn. If [Laceration] Potency drops to 0 or less, the Bleed effect expires)",
+          "name": "Экстренная Кровоостановка",
+          "desc": "[StartBattle] Снижает свою силу [Laceration:`Кровотечения`] на 2 (Трижды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1087,33 +1087,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Take the Shot",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "name": "Сделать выстрел",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             }
@@ -1121,33 +1121,33 @@
         },
         {
           "level": 2,
-          "name": "Take the Shot",
-          "desc": "[WhenUse] Gain +2 [Breath] Count<style=\"highlight\"></style>",
+          "name": "Сделать выстрел",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]<style=\"highlight\"></style><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [Breath]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [Breath]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 }
               ]
             }
@@ -1155,33 +1155,33 @@
         },
         {
           "level": 4,
-          "name": "Take the Shot",
-          "desc": "[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+          "name": "Сделать выстрел",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 3</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]<style=\"highlight\"></style><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             }
@@ -1194,30 +1194,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Marked",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 20% chance that this unit activates [CoveringFire]\n[WhenUse] Gain +1 [Breath] Count",
+          "name": "Цель отмечена",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`]<style=\"highlight\"></style>, который должен потратиться при использовании этого навыка\n[WhenUse] Если Корректировщик Офиса Точки Хитклиф на поле боя, каждый грех в наибольшем резонансе повышает шанс активации [CoveringFire:`Обнаружения цели`] на 20%\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 3 [Bullet]"
+                  "desc": "Тратит до 3 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы`] на следующий ход"
                 }
               ]
             }
@@ -1225,33 +1225,33 @@
         },
         {
           "level": 2,
-          "name": "Target Marked",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 20% chance that this unit activates [CoveringFire]\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+          "name": "Цель отмечена",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`]<style=\"highlight\"></style>, который должен потратиться при использовании этого навыка\n[WhenUse] Если Корректировщик Офиса Точки Хитклиф на поле боя, каждый грех в наибольшем резонансе повышает шанс активации [CoveringFire:`Обнаружения цели`] на 20%\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 3 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит до 3 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage<style=\"highlight\"></style>"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Binding] next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Reduction] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы`] на следующий ход"
                 }
               ]
             }
@@ -1259,39 +1259,39 @@
         },
         {
           "level": 4,
-          "name": "Target Marked",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 25% chance that this unit activates [CoveringFire]\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count",
+          "name": "Цель отмечена",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`]<style=\"highlight\"></style>, который должен потратиться при использовании этого навыка\n[WhenUse] Если Корректировщик Офиса Точки Хитклиф на поле боя, каждый грех в наибольшем резонансе повышает шанс активации [CoveringFire:`Обнаружения цели`] на <style=\"highlight\">25%</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 3</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 3 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит до 3 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage<style=\"highlight\"></style>"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">+([Bullet] spent x 10)% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">На (Потраченные [Bullet:`Патроны`] × 10)% больше урона при критическом попадании</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+20% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">На 20% больше урона при критическом попадании</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Reduction] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы`] на следующий ход"
                 }
               ]
             }
@@ -1304,45 +1304,45 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Full-Stop to Life",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, activate [CoveringFire]\n[WhenUse] Gain 5 [Breath]",
+          "name": "Точка к жизни",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`]<style=\"highlight\"></style>, который должен потратиться при использовании этого навыка\n[WhenUse] Если Корректировщик Офиса Точки Хитклиф на поле боя, активирует [CoveringFire:`Обнаружение цели`]\n[WhenUse] Получает 5 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 10% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 2 [Bullet]"
+                  "desc": "Тратит до 2 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 10% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target is Staggered, +30% Damage on Critical Hit"
+                  "desc": "Если цель оглушена, на 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`]"
                 }
               ]
             }
@@ -1350,45 +1350,45 @@
         },
         {
           "level": 4,
-          "name": "Full-Stop to Life",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] If Full-Stop Office Fixer Heathcliff is on the field, activate [CoveringFire]\n[WhenUse] Gain 5 [Breath]\n<style=\"highlight\">[WinDuel] Gain +2 [Breath] Count</style>",
+          "name": "Точка к жизни",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`]<style=\"highlight\"></style>, который должен потратиться при использовании этого навыка\n[WhenUse] Если Корректировщик Офиса Точки Хитклиф на поле боя, активирует [CoveringFire:`Обнаружение цели`]\n[WhenUse] Получает 5 [Breath:`Дыхания`]\n<style=\"highlight\">[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x <style=\"highlight\">15</style>)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × <style=\"highlight\">15</style>)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на <style=\"highlight\">15%</style> от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 2 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит до 2 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x <style=\"highlight\">15</style>)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × <style=\"highlight\">15</style>)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на <style=\"highlight\">15%</style> от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target is Staggered, +30% Damage on Critical Hit<style=\"highlight\"></style>"
+                  "desc": "Если цель оглушена, на 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PenetrateTakeDamageUp:`Уязвимости к Пронзающему урону`]"
                 }
               ]
             }
@@ -1401,8 +1401,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Combat Poise",
-          "desc": "Turn Start: at 0 [Bullet], activate 'Beyond the Shadow' instead\n[OnSucceedEvade] Gain 1 [Breath] (3 times per turn)",
+          "name": "Боевое дыхание",
+          "desc": "[TurnStartBattle] При отсутствии [Bullet:`Патронов`]<style=\"highlight\"></style>, использует навык 「За пределами тени」 вместо этого\n[OnSucceedEvade] Получает 1 [Breath:`Дыхание`] (3 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1415,8 +1415,8 @@
         },
         {
           "level": 4,
-          "name": "Combat Poise",
-          "desc": "Turn Start: at 0 [Bullet], activate 'Beyond the Shadow' instead\n[OnSucceedEvade] Gain 1 [Breath] (<style=\"highlight\">5</style> times per turn)",
+          "name": "Боевое дыхание",
+          "desc": "[TurnStartBattle] При отсутствии [Bullet:`Патронов`], использует навык 「За пределами тени」 вместо этого\n[OnSucceedEvade] Получает 1 [Breath:`Дыхание`] (<style=\"highlight\">5 раз</style> за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1434,43 +1434,43 @@
       "levelList": [
         {
           "level": 2,
-          "name": "Combo: Target Marked",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain +2 [Breath] Count\n[DefeatDuel] Final Power +5",
+          "name": "Комбо: Цель отмечена",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`], который должен потратиться при использовании этого навыка\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[DefeatDuel] Итоговая сила +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 3 [Bullet]"
+                  "desc": "Тратит до 3 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "На 30% больше урона при критическом попадании"
                 }
               ]
             }
@@ -1478,49 +1478,49 @@
         },
         {
           "level": 4,
-          "name": "Combo: Target Marked",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain +<style=\"highlight\">3</style> [Breath] Count\n[DefeatDuel] Final Power +5",
+          "name": "Комбо: Цель отмечена",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`], который должен потратиться при использовании этого навыка\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 3</style>\n[DefeatDuel] Итоговая сила +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 3 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит до 3 [Bullet:`Патронов`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage<style=\"highlight\"></style>"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">+([Bullet] spent x 10)% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">На (Потраченные [Bullet:`Патроны`] × 10)% больше урона при критическом попадании</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+20% Damage on Critical Hit</style>"
+                  "desc": "<style=\"highlight\">На 20% больше урона при критическом попадании</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Reduction] next turn<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit<style=\"highlight\"></style>"
+                  "desc": "На 30% больше урона при критическом попадании"
                 }
               ]
             }
@@ -1533,58 +1533,58 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Combo: Full-Stop to Life",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain 5 [Breath]\n[DefeatDuel] Final Power +5",
+          "name": "Комбо: Точка к жизни",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`], который должен потратиться при использовании этого навыка\n[WhenUse] Получает 5 [Breath:`Дыхания`]\n[DefeatDuel] Итоговая сила +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 10% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 2 [Bullet]"
+                  "desc": "Тратит 2 [Bullet:`Патрона`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x 10)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × 10)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by 10% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 10% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target is Staggered, +30% Damage on Critical Hit"
+                  "desc": "Если цель оглушена, на 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "На 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "Deal +(target's Pierce Res. x 50)% more damage"
+                  "desc": "На (Сопротивление цели к Пронзающему урону × 50)% больше урона"
                 }
               ]
             }
@@ -1592,58 +1592,58 @@
         },
         {
           "level": 4,
-          "name": "Combo: Full-Stop to Life",
-          "desc": "Base Power +1 for every [Bullet] about to be spent by this Skill\n[WhenUse] Gain 5 [Breath]\n<style=\"highlight\">[WinDuel] Gain +2 [Breath] Count</style>\n[DefeatDuel] Final Power +5",
+          "name": "Комбо: Точка к жизни",
+          "desc": "Базовая сила +1 за каждый [Bullet:`Патрон`], который должен потратиться при использовании этого навыка\n[WhenUse] Получает 5 [Breath:`Дыхания`]\n<style=\"highlight\">[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2</style>\n[DefeatDuel] Итоговая сила +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Spend 1 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x <style=\"highlight\">15</style>)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × <style=\"highlight\">15</style>)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на <style=\"highlight\">15%</style> от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend up to 2 [Bullet]<style=\"highlight\"></style>"
+                  "desc": "Тратит 2 [Bullet:`Патрона`]"
                 },
                 {
-                  "desc": "Deal +([Bullet] spent x <style=\"highlight\">15</style>)% more damage"
+                  "desc": "На (Потраченные [Bullet:`Патроны`] × <style=\"highlight\">15</style>)% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise the target's Stagger Threshold by <style=\"highlight\">15</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на <style=\"highlight\">15%</style> от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target is Staggered, +30% Damage on Critical Hit<style=\"highlight\"></style>"
+                  "desc": "Если цель оглушена, на 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PenetrateTakeDamageUp:`Уязвимости к Пронзающему урону`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">+50% Damage on Critical Hit</style>"
+                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
                 },
                 {
-                  "desc": "Deal +(target's Pierce Res. x 50)% more damage<style=\"highlight\"></style>"
+                  "desc": "На (Сопротивление цели к Пронзающему урону × 50)% больше урона"
                 }
               ]
             }
@@ -1656,20 +1656,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Beyond the Shadow",
-          "desc": "[DuelCounter]\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] [FullReload] (once per Encounter)",
+          "name": "За пределами тени",
+          "desc": "[DuelCounter]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndBattle] [FullReload:`Перезаряжается`] (Единожды за битву)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             }
@@ -1677,20 +1677,20 @@
         },
         {
           "level": 4,
-          "name": "Beyond the Shadow",
-          "desc": "[DuelCounter]\n<style=\"highlight\">+20% Damage on Critical Hit</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] [FullReload] (once per Encounter)",
+          "name": "За пределами тени",
+          "desc": "[DuelCounter]\n<style=\"highlight\">На 20% больше урона при критическом попадании</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndBattle] [FullReload:`Перезаряжается`] (Единожды за битву)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1703,20 +1703,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Melee Support",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "name": "Рукопашная поддержка",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             }
@@ -1724,20 +1724,20 @@
         },
         {
           "level": 4,
-          "name": "Melee Support",
-          "desc": "<style=\"highlight\">+20% Damage on Critical Hit</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Рукопашная поддержка",
+          "desc": "<style=\"highlight\">На 20% больше урона при критическом попадании</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             }
