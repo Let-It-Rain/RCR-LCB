@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 9156,
-      "name": "Decamillennial Hearthflame",
-      "desc": "Turn End: enemies with 3+ [Combustion] Count activates [Combustion] one more time (reduce [Combustion] Count by 1)",
+      "name": "Десятилетний очаг",
+      "desc": "Конец хода: противники с 3 и более счётчиками [Combustion:`Огня`] активируют [Combustion:`Огонь`] дважды (Снижает счётчик [Combustion:`Огня`] на 1).",
       "simpleDesc": [
         {
           "abilityID": 9156,
@@ -13,326 +13,326 @@
     },
     {
       "id": 9158,
-      "name": "Purloined Flame",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Combustion] or 'Unique Burn'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nOn Hit with a Skill(including E.G.O Skills): if the target has 3+ [Combustion] Count, activate [Combustion] once on the target. (target loses 1 [Combustion] Count; activates once per Skill)\n\nTurn End: targets with 3+ [Combustion] Count activates [Combustion] one more time (target loses 1 [Combustion] Count)\n\nIf a target with [Combustion] is defeated(for Abnormalities, when the Core is defeated), inflict its remaining [Combustion] Potency to one of the enemies with the least [Combustion] Potency at the next Turn Start.\n\nTurn Start: for this turn, inflict 4 [AttackDown] to enemies with [Combustion]\n\nIf a target with [Combustion] is defeated, at the next Turn Start, (defeated enemy's [Combustion] Potency / 15) allies with Skills that inflict [Combustion] gain 2 [AttackDmgUp]. (once per turn)",
+      "name": "Украденное пламя",
+      "desc": "Начало столкновения: активируется при 5 или более айдишках на поле боя, чьи Аткующие навыки наносят силу [Combustion:`Огня`], повышают его счётчик, или наносят Особый Огонь. (ЭГО навыки не учитываются)\n\nПри попадании навыком (ЭГО навыки учитываются): если цель имеет 3 и более счётчика [Combustion:`Огня`], активирует [Combustion:`Огонь`] огонь на цели (Цель теряет 1 счётчик [Combustion:`Огня`]; активируется единожды за навык).\n\nКонец хода: противники с 3 и более счётчиками [Combustion:`Огня`] активируют [Combustion:`Огонь`] ещё один раз (Тратит 1 счётчик [Combustion:`Огня`]).\n\nЕсли цель с [Combustion:`Огнём`] побеждена (Для чурок, когда сломано Ядро), наносит его оставшуюся силу [Combustion:`Огня`] одному из противников с наименьшей силой [Combustion:`Огня`].\n\nНачало хода: наносит 4 [AttackDown:`Понижения уровня атаки`] противникам с [Combustion:`Огнём`].\n\nЕсли цель с [Combustion:`Огнём`] побеждена, в начале следующего хода, (Потенциал [Combustion:`Огня`] побеждённого противника / 15) союзников с навыками, которые наносят [Combustion:`Огонь`], получают 2 [AttackDmgUp:`Повышения урона`]. (Единожды за ход)",
       "simpleDesc": [
         {
           "abilityID": 9158,
-          "simpleDesc": "Activate [Combustion] once"
+          "simpleDesc": "Активирует [Combustion:`Огонь`]"
         },
         {
           "abilityID": 91581,
-          "simpleDesc": "Activate [Combustion] 1 more time"
+          "simpleDesc": "Активирует [Combustion:`Огонь`] ещё один раз"
         },
         {
           "abilityID": 91582,
-          "simpleDesc": "Inflict ([Combustion] Potency on defeated enemy)/2 [Combustion] Potency"
+          "simpleDesc": "Наносит (Потенциал [Combustion:`Огня`] побеждённого противника / 2) потенциала [Combustion:`Огня`]"
         },
         {
           "abilityID": 91583,
-          "simpleDesc": "Inflict 4 [AttackDown]"
+          "simpleDesc": "Наносит 4 [AttackDown:`Понижения уровня атаки`]"
         },
         {
           "abilityID": 91583,
-          "simpleDesc": "Gain 2 [AttackDmgUp]"
+          "simpleDesc": "Даёт 2 [AttackDmgUp:`Повышения урона`]"
         }
       ]
     },
     {
       "id": 9160,
-      "name": "Ruptured Blood Sac",
-      "desc": "On ally Clash Win: activate the enemy's [Laceration] once (3 times per turn)",
+      "name": "Порванный кровяной мешок",
+      "desc": "При победе союзника в столкновении: активирует [Laceration:`Кровотечение`] противника. (Трижды за ход)",
       "simpleDesc": [
         {
           "abilityID": 9160,
-          "simpleDesc": "Activate Bleed once"
+          "simpleDesc": "Активирует [Laceration:`Кровотечение`]"
         }
       ]
     },
     {
       "id": 9162,
-      "name": "Hemorrhagic Shock",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Laceration] or 'Unique Bleed' effects. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nOn ally Clash Win: activate the enemy's [Laceration] once. (once per turn for each ally)\n\nEnemies become Staggerable by [Laceration] Damage; if an enemy gets Staggered due to [Laceration] damage mid-Clash, activate [Laceration] (# of remaining enemy Coins) times\n\nIf all enemies have [Laceration], they lose 2 Defense Levels. At Turn End, inflict (# of [Laceration] activations x 2) [DefenseDown] (max 20)\n\nWhen inflicting [Laceration] Potency or 'Unique Bleed' with Skill effects, inflict 3 [Laceration] Potency and +1 [Laceration] Count on the target",
+      "name": "Геморрагический шок",
+      "desc": "Начало боя: активируется при 5 или более айдишках на поле боя, чьи Аткующие навыки наносят силу [Laceration:`Кровотечения`], повышают его счётчик, или наносят Особое Кровотечение. (ЭГО навыки не учитываются)\n\nПри победе союзника в столкновении: активирует [Laceration:`Кровотечение`] противника. (Единожды за ход на айдишку)\n\nВраги становятся оглушаемыми от урона [Laceration:`Кровотечением`]; если противник оглушается от урона [Laceration:`Кровотечением`] посреди столкновения с союзником, активирует его [Laceration:`Кровотечение`] (# оставшихся монет противника) раз.\n\nЕсли все противники имеют [Laceration:`Кровотечение`], они теряют 2 Уровня защиты. В конце хода наносит (# активаций [Laceration:`Кровотечения`] × 2) [DefenseDown:`Понижений уровня защиты`]. (До 20)\n\nПри повышении счётчика или нанесении силы [Laceration:`Кровотечения`] или Особого Кровотечения, наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1.",
       "simpleDesc": [
         {
           "abilityID": 9162,
-          "simpleDesc": "On Clash Win, activate Bleed on the target once"
+          "simpleDesc": "При победе в столкновении активирует [Laceration:`Кровотечение`] цели"
         },
         {
           "abilityID": 91621,
-          "simpleDesc": "After Clashing, activate the enemy's [Laceration] (# of remaining Coins on self) times"
+          "simpleDesc": "После столкновения, активирует [Laceration:`Кровотечение`] противника (# оставшихся монет противника) раз"
         },
         {
           "abilityID": 91622,
-          "simpleDesc": "Inflict (# of [Laceration] activations x 2) [DefenseDown] (max 20)"
+          "simpleDesc": "Наносит (# активаций [Laceration:`Кровотечения`] × 2) [DefenseDown:`Понижений уровня защиты`]. (Макс. 20)"
         },
         {
           "abilityID": 91623,
-          "simpleDesc": "Inflict 3 Bleed Potency and +1 Bleed Count"
+          "simpleDesc": "Наносит 3 потенциала [Laceration:`Кровотечения`] и повышает его счётчик на 1"
         }
       ]
     },
     {
       "id": 9163,
-      "name": "Gemstone Oscillator",
-      "desc": "When winning a Clash with a Skill that consumed [Vibration] Count: if the target does not have [Vibration], inflict +2 [Vibration] Count\n\nAt 3+ Sloth Reson. including this Skill, inflict +3 [Vibration] Count instead",
+      "name": "Самоцветный резонатор",
+      "desc": "При победе в столкновении навыком, который потратил счётчик [Vibration:`Тремора`]: если цель не имеет [Vibration:`Тремор`], повышает счётчик [Vibration:`Тремора`] на 2.\n\nПри 3+ резонансе Лености включая этот навык: повышает счётчик [Vibration:`Тремора`] на 3 вместо этого.",
       "simpleDesc": [
         {
           "abilityID": 9163,
-          "simpleDesc": "When winning a Clash with a Skill that consumed [Vibration] Count, inflict +2 [Vibration] Count"
+          "simpleDesc": "При победе в столкновении навыком, который потратил счётчик [Vibration:`Тремора`], повышает счётчик [Vibration:`Тремора`] на 2"
         },
         {
           "abilityID": 91631,
-          "simpleDesc": "When winning a Clash with a Skill that consumed [Vibration] Count and is a part of a 3+ Sloth Reson.: inflict +3 [Vibration] Count"
+          "simpleDesc": "При победе в столкновении навыком, который потратил счётчик [Vibration:`Тремора`] и который является частью 3+ резонанса Лености: повышает счётчик [Vibration:`Тремора`] на 3"
         }
       ]
     },
     {
       "id": 9164,
-      "name": "Wobbling Keg",
-      "desc": "Turn Start: at 8+ [Vibration] Count, Clash Power +1\n\nWhen defeating or Staggering an enemy with a Skill that consumes [Vibration] Count on self: gain +([Vibration] Count consumed / 4) [Vibration] Count (once per Skill)",
+      "name": "Шатающийся бочонок",
+      "desc": "Конец хода: при 8+ счётчиках [Vibration:`Тремора`] на себе: +1 к Силе в столкновении.\n\nПри победе над противником или его Оглушении навыком, который тратит свой счётчик [Vibration:`Тремора`]: повышает счётчик [Vibration:`Тремора`] цели на (Потраченный счётчик [Vibration:`Тремора`] / 4). (Единожды за навык)",
       "simpleDesc": [
         {
           "abilityID": 9164,
-          "simpleDesc": "At 8+ Tremor Count, Clash Power +1"
+          "simpleDesc": "При 8+ счётчиках тремора, Сила в столкновении +1"
         },
         {
           "abilityID": 91641,
-          "simpleDesc": "When winning a Clash with a Skill that consumes [Vibration] Count: gain [Vibration] Count"
+          "simpleDesc": "При победе в столкновении навыком, который тратит счётчики [Vibration:`Тремор`]: даёт счётчики [Vibration:`Тремор`]"
         }
       ]
     },
     {
       "id": 9166,
-      "name": "Epicenter",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n(If an Identity only has Attack Skills that gain [Vibration] Count on self, this E.G.O Gift does not activate for them)\n\nWhen winning a Clash with a Skill that consumed [Vibration] Count on self: if the target does not have [Vibration], inflict +3 [Vibration] Count\n\nTurn Start: gain Clash Power +([Vibration] Count on self / 5) (max 3)\n\nWhen using a Skill that consumes [Vibration] Count on self: if the target is defeated or Staggered, gain +([Vibration] Count consumed / 2) [Vibration] Count (once per Skill)",
+      "name": "Эпицентр",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, чьи навыки наносят силу [Vibration:`Тремора`] или повышают его счётчик. (ЭГО навыки не учитываются)\n(Не распространяется на айдишек, повышающих только свой счётчик [Vibration:`Тремора`])\n\nПри победе в столкновении навыком, повышающим счётчик [Vibration:`Тремора`] на себе: если цель не имеет [Vibration:`Тремор`], повышает его счётчик на 3.\n\nНачало хода: +(Счётчик [Vibration:`Тремора`] на себе / 5) к Силе в столкновении. (До 3)\n\nПри использовании навыка, повышающего свой счётчик [Vibration:`Тремора`]: если цель побеждена или оглушена, повышает свой счётчик [Vibration:`Тремора`] на (Потраченный счётчик [Vibration:`Тремора`] / 2). (Единожды за навык)",
       "simpleDesc": [
         {
           "abilityID": 9166,
-          "simpleDesc": "When winning a Clash with a Skill that consumed [Vibration] Count on self: if the target does not have [Vibration], inflict +3 [Vibration] Count"
+          "simpleDesc": "При победе в столкновении навыком, повышающим счётчик [Vibration:`Тремора`] на себе: если цель не имеет [Vibration:`Тремор`], повышает его счётчик на 3"
         },
         {
           "abilityID": 91661,
-          "simpleDesc": "Turn Start: gain ([Vibration] Count on self / 5) Clash Power"
+          "simpleDesc": "Начало хода: +(Счётчик [Vibration:`Тремора`] на себе / 5) к Силе в столкновении (до 3)"
         },
         {
           "abilityID": 91662,
-          "simpleDesc": "When winning a Clash with a Skill that consumes [Vibration] Count: gain [Vibration] Count"
+          "simpleDesc": "При победе в столкновении навыком, который тратит счётчик [Vibration:`Тремора`]: повышает свой счётчик [Vibration:`Тремора`]"
         }
       ]
     },
     {
       "id": 9167,
-      "name": "Omnivibro-octovecti-bell",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n(If an Identity only has Attack Skills that gain [Vibration] Count on self, this E.G.O Gift does not activate for them)\n\nWhen winning a Clash with a Skill that inflicts [Vibration] Potency or Count, or consumes [Vibration] Count on self: inflict (# of remaining Coins) [Vibration] Potency against the target; if the target does not have [Vibration], inflict +3 [Vibration] Count\n\nTurn Start: gain (1 + ([Vibration] Count on self / 5)) [ParryingResultUp]. (max 3)\n\nWhen using a Skill that consumes [Vibration] Count on self: when defeating or Staggering a target, gain ([Vibration] Count consumed / 2) [Vibration] Count (once per Skill)\n\nSkills that consume [Vibration] Count on self deal +([Vibration] consumed on self + [Vibration] Potency on the enemy + 5)% more damage (except E.G.O Skills; max 50%)",
+      "name": "Омнивибро-октовекти-колокол",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, чьи навыки наносят силу [Vibration:`Тремора`] или повышают его счётчик, или наносят Особый Тремор. (ЭГО навыки не учитываются)\n(Не распространяется на айдишек, повышающих только свой счётчик [Vibration:`Тремора`])\n\nПри победе в столкновени навыком, который повышает счётчик или наносит силу [Vibration:`Тремора`], или же тратит свой счётчик [Vibration:`Тремора`]: наносит (# оставшихся монет) единиц потенциала [Vibration:`Тремора`] на цель; если цель не имеет [Vibration:`Тремор`], повышает его счётчик на 3.\n\nНачало хода: даёт (1 + (Счётчик [Vibration:`Тремора`] на себе / 5)) [ParryingResultUp:`Повышений силы в поединке`]. (До 3)\n\nИспользуя навык, который тратит свой счётчик [Vibration:`Тремора`]: при победе над противником или его оглушении, повышает свой счётчик [Vibration:`Тремора`] на (Потраченный счётчик [Vibration:`Тремора`] / 2). (Единожды за навык)\n\nНавыки, которые тратят свой счётчик [Vibration:`Тремора`], наносят на (Потраченный счётчик [Vibration:`Тремора`] на себе + сила [Vibration:`Тремора`] цели + 5)% больше урона. (ЭГО навыки не учитываются; Макс. 50%)",
       "simpleDesc": [
         {
           "abilityID": 9167,
-          "simpleDesc": "On Clash Win, inflict Tremor equal to the # of remaining Coins. If the target does not have [Vibration], inflict Tremor Count"
+          "simpleDesc": "При победе в столкновении: наносит тремор, равный количеству оставшихся монет. Если цель не имеет тремор, наносит тремор"
         },
         {
           "abilityID": 91671,
-          "simpleDesc": "Turm Start: gain Clash Power Up based on Tremor Count on self"
+          "simpleDesc": "Начало хода: даёт Повышение силы в поединке на основе счётчиков тремора на себе"
         },
         {
           "abilityID": 91672,
-          "simpleDesc": "When winning a Clash with a Skill that consumes [Vibration] Count: gain [Vibration] Count"
+          "simpleDesc": "При победе в столкновении навыком, который тратит счётчик [Vibration:`Тремор`] на себе: повышает свой счётчик [Vibration:`Тремора`]"
         },
         {
           "abilityID": 91673,
-          "simpleDesc": "Skills that consume [Tremor] Count deal more damage"
+          "simpleDesc": "Навыки, которые тратят свой счётчик [Vibration:`Тремора`] наносят больше урона"
         }
       ]
     },
     {
       "id": 9168,
-      "name": "Shard of Apocalypse",
-      "desc": "If the target has less than 15 [Burst] Potency, inflict 1 additional Potency when inflicting [Burst] Potency",
+      "name": "Осколок апокалипсиса",
+      "desc": "Если цель имеет менее 15 [Burst:`Разрывов`], наносит 1 дополниельный [Burst:`Разрыв`] при его нанесении.",
       "simpleDesc": [
         {
           "abilityID": 9168,
-          "simpleDesc": "Inflict 1 additional [Burst] Potency"
+          "simpleDesc": "Наносит дополнительную единицу потенциала разрыва"
         }
       ]
     },
     {
       "id": 9170,
-      "name": "Eerie Effigy",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Burst] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n[Burst] effects deal +100% more damage against enemy Shields\nIf the target has less than 15 [Burst] Potency, inflict 2 more Potency when inflicting [Burst] Potency\n\nIf [Burst] cannot be applied due to Skill effects, gain Coin Power +1 instead",
+      "name": "Жуткое чучело",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, чьи навыки наносят силу или повышают счётчик [Burst:`Разрыва`]. (ЭГО навыки не учитываются)\n\nЭффект [Burst:`Разрыва`] наносит на 100% больше урона против щита противников.\n\nЕсли цель имеет менее 15 [Burst:`Разрывов`], наносит 1 дополниельный [Burst:`Разрыв`] при его нанесении.\n\nЕсли [Burst:`Разрыв`] не может быть нанесён эффектами навыков, даёт +1 к Силе монет вместо этого.",
       "simpleDesc": [
         {
           "abilityID": 9170,
-          "simpleDesc": "Rupture effects deal +100% more damage against Shields"
+          "simpleDesc": "Разрыв наносит на 100% больше урона против щита противников"
         },
         {
           "abilityID": 91701,
-          "simpleDesc": "Inflict 2 additional [Burst] Potency"
+          "simpleDesc": "Наносит 2 дополнительные единицы потенциала [Burst:`Разрыва`]"
         },
         {
           "abilityID": 91702,
-          "simpleDesc": "If [Burst] cannot be applied due to Skill effects, gain Coin Power +1 instead"
+          "simpleDesc": "Если [Burst:`Разрыв`] не может быть нанесён эффектами навыков, даёт +1 к Силе монет вместо этого"
         }
       ]
     },
     {
       "id": 9171,
-      "name": "Ruin",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Burst] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\n[Burst] effects deal +150% more damage against enemy Shield\n\nTurn Start: enemies or Parts with [Burst] lose (3 + ([Burst] Potency / 2)) Offense Level and Defense Level. (max 6)\n\nWhen inflicting [Burst] Potency with Skill effects, inflict 2 [Burst] Potency and +1 [Burst] Count against the target. If the target has less than 15 [Burst] Potency, inflict 2 additional [Burst] Potency.\n\nIf [Burst] cannot be applied due to Skill effects, gain Coin Power +(4 / # of Coins) instead",
+      "name": "Разрушение",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, чьи навыки наносят силу или повышают счётчик [Burst:`Разрыва`]. (ЭГО навыки не учитываются)\n\nЭффект [Burst:`Разрыва`] наносит на 150% больше урона против щита противников.\n\nНачало хода: противники или части чурки с [Burst:`Разрывом`] теряют (3 + (Сила [Burst:`Разрыва`] / 2)) Уровней защиты и атаки. (До 6)\n\nПри нанесении [Burst:`Разрыва`] эффектами навыков, наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 1. Если цель имеет менее 15 [Burst:`Разрывов`], наносит 2 дополнительных [Burst:`Разрыва`].\n\nЕсли [Burst:`Разрыв`] не может быть нанесён эффектами навыков, даёт +(4 / # монет) к Силе монет вместо этого.",
       "simpleDesc": [
         {
           "abilityID": 9171,
-          "simpleDesc": "[Burst] effects deal +150% more damage against Shields"
+          "simpleDesc": "Разрыв наносит на 150% больше урона против щита противников."
         },
         {
           "abilityID": 91711,
-          "simpleDesc": "Enemies with [Burst] lose Offense and Defense Levels"
+          "simpleDesc": "Противники с [Burst:`Разрывом`] теряют уровни защиты и атаки"
         },
         {
           "abilityID": 91712,
-          "simpleDesc": "When inflicting [Burst] Potency with Skill effects, Inflict 2 [Burst] Potency and +1 [Burst] Count on target"
+          "simpleDesc": "При нанесении единиц потенциала [Burst:`Разрыва`] эффектами навыков, наносит 2 единицы потенциала [Burst:`Разрыва`] и повышает его счётчик на 1"
         },
         {
           "abilityID": 91713,
-          "simpleDesc": "If [Burst] cannot be applied due to Skill effects, gain Coin Power +(4 / # of Coins) instead"
+          "simpleDesc": "Если [Burst:`Разрыв`] не может быть нанесён эффектами навыков, даёт +(4 / # монет) к Силе монет вместо этого"
         }
       ]
     },
     {
       "id": 9172,
-      "name": "Cantabile",
-      "desc": "When using base Attack Skills, if the target has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 3)",
+      "name": "Кантабиле",
+      "desc": "При использовании Базовых Атакующих навыков и если цель имеет 5 и более [Sinking:`Утопания`], восстанавливает (Сила [Sinking:`Утопания`] цели / 10) СД. (До 3)",
       "simpleDesc": [
         {
           "abilityID": 9172,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Восстанавливает СД на основе утопания цели"
         }
       ]
     },
     {
       "id": 9173,
-      "name": "Faded Overcoat",
-      "desc": "Turn End: if there are 3+ enemies with -45 SP, all allies gain 2 [AttackUp] next turn",
+      "name": "Выцветшее пальто",
+      "desc": "Конец хода: если на поле боя имеется 3 и более противника с -45 СД, все союзники получают 2 [AttackUp:`Повышения уровня атаки`]</style> на следующий ход.",
       "simpleDesc": [
         {
           "abilityID": 9173,
-          "simpleDesc": "All allies gain 2 [AttackUp]"
+          "simpleDesc": "Все союзники получают 2 [AttackUp:`Повышение уровня атаки`]</style>"
         }
       ]
     },
     {
       "id": 9175,
-      "name": "Surging Globe",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen using a base Attack Skill, if the enemy has 5+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 5)\n\nTurn End: next turn, all allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)",
+      "name": "Растущий глобус",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, чьи навыки наносят силу [Sinking:`Утопания`], повышают его счётчик, или наносят Особое Утопание. (ЭГО навыки не учитываются)\n\nПри использовании Базовых Атакующих навыков и если цель имеет 5 и более [Sinking:`Утопания`], восстанавливает (Сила [Sinking:`Утопания`] цели / 10) СД. (До 5)\n\nКонец хода: все союзники получают (# противников с -45 СД) [AttackUp:`Повышений уровня атаки`]</style> на следующий ход. (До 3)",
       "simpleDesc": [
         {
           "abilityID": 9175,
-          "simpleDesc": "Heal SP based on Sinking on the target"
+          "simpleDesc": "Восстанавливает СД на основе утопания цели"
         },
         {
           "abilityID": 91751,
-          "simpleDesc": "All allies gain [AttackUp] equal to the number of enemies with -45 SP (max 3)"
+          "simpleDesc": "Все союзники получают (# противников с -45 СД) [AttackUp:`Повышений уровня атаки`]</style> на следующий ход (Макс. 3)"
         }
       ]
     },
     {
       "id": 9176,
-      "name": "Impending Wave",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen hitting and dealing HP damage to an enemy with a Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking', inflict 4 [Sinking] Potency and +3 [Sinking] Count at Turn End (once per turn for each enemy)\nCombat Start: when activating Gloom or Lust A-Reson., inflict 3 [Sinking] and +3 [Sinking] on all enemies (for Abnormalities, a random Part)\n\nAfter using a base Attack Skill, if the target has 10+ [Sinking] Potency, heal ([Sinking] Potency on the target / 10) SP on self (max 5) and inflict the same amount as [DefenseDown] against the target (max 5; once per turn for each enemy)\n\nTurn End: all allies gain [AttackUp] equal to the number of enemies with -45 SP or without SP next turn (max 6)\n\nWhen activating the [Sinking] effect(including 'Unique Sinking') on the target with an On Hit effect from a Base Attack Skill that inflicts or gains [Sinking] Potency, [Sinking] Count, or 'Unique Sinking', heal 5 SP at Turn End (2 times per turn per Identity)\nIf the unit was at 45 SP at Turn Start, the effect changes to the following: when hitting and activating the [Sinking] effect(including 'Unique Sinking') on the target with a base Attack Skill, inflict +3 [Sinking] Count against the targeted enemy (2 times per turn per Identity)",
+      "name": "Надвигающаяся волна",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, чьи навыки наносят силу [Sinking:`Утопания`], повышают его счётчик, или наносят Особое Утопание. (ЭГО навыки не учитываются)\n\nПри нанесении урона по ОЗ противнику вышеописанными навыками, наносит 4 [Sinking:`Утопания`] и повышает его счётчик на 3 в конце хода. (Единожды за ход на противника)\n\nПосле использования Базовых Атакующих навыков, если цель имела 5 и более [Sinking:`Утопания`], восстанавливает (Сила [Sinking:`Утопания`] цели / 10) СД и наносит такое же количество [DefenseDown:`Понижений уровня защиты`] на цель. (До 5; единожды за ход на противника)\n\nКонец хода: все союзники получают (# противников с -45 СД) [AttackUp:`Повышений уровня атаки`]</style> на следующий ход. (До 6)\n\nПри активации эффектов [Sinking:`Утопания`] (Включая Особое Утопание) на цели при попадании вышеописанными навыками, восстанавливает 5 СД в конце хода. (Дважды за ход на айдишку)\nЕсли к концу хода было 45 СД, вместо этого повышает счётчик [Sinking:`Утопания`] на 3. (Дважды за ход на айдишку)",
       "simpleDesc": [
         {
           "abilityID": 9176,
-          "simpleDesc": "Inflict Sinking Potency and Count"
+          "simpleDesc": "При нанесении урона навыками, которые наносят утопание: наносит больше единиц потенциала и счётчика [Sinking:`Утопания`] в конце хода"
         },
         {
           "abilityID": 91761,
-          "simpleDesc": "Inflict Defense Level Down"
+          "simpleDesc": "Восстанавливает СД и Наносит [DefenseDown:`Понижение уровня защиты`] на основе утопания цели"
         },
         {
           "abilityID": 91762,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "Все союзники получают [AttackUp:`Повышение уровня атаки`]</style>, равное количеству противников с -45 СД"
         },
         {
           "abilityID": 91763,
-          "simpleDesc": "Inflict Sinking Count"
+          "simpleDesc": "+2 к нанесённому потенциалу [Sinking:`Утопания`]"
         }
       ]
     },
     {
       "id": 9178,
-      "name": "Angel's Cut",
-      "desc": "Turn End: when an ally has more than 20 Poise Potency, the said unit consumes 1 Poise Potency to gain +1 Poise Count",
+      "name": "Доля ангела",
+      "desc": "Конец хода: когда союзник имеет более 20 [Breath:`Дыхания`], он тратит 1 его силу для повышения счётчика на 1.",
       "simpleDesc": [
         {
           "abilityID": 9178,
-          "simpleDesc": "Consume 1 Poise Potency to gain 1 Poise Count"
+          "simpleDesc": "Тратит 1 единицу потенциала дыхания для повышения счётчика на 1"
         }
       ]
     },
     {
       "id": 9180,
-      "name": "Cask Spirits",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply or gain [Breath] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn End: If an ally has more than 20 [Breath] Potency on self, the ally consumes 1 [Breath] Potency to gain 1 [Breath] Count\n\nTurn End: 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count] gain 2 [Agility] and 1 [AttackUp] (can activate on the same Identity)\n\nWhen gaining [Breath] Potency from Skill effects, gain additional 2 [Breath] Potency and +2 [Breath] Count. If the sum of [Breath] Potency and Count on self is less than 20, gain 3 [Breath] Potency and +3 [Breath] Count instead.\n\nCombat End: at more than 40 [Breath] Potency, consume 15 [Breath] Potency to [Discard] 1 Skill of the lowest rank in all of that unit's Skill Slots (once per turn for each character)",
+      "name": "Бочка с духами",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, которые получают силу или счётчик [Breath:`Дыхания`] от эффектов навыков. (ЭГО навыки не учитываются)\n\nКонец хода: когда союзник имеет более 20 [Breath:`Дыхания`], он тратит 1 его силу для повышения счётчика на 1.\n\nКонец хода: 1 союзник с наибольшей силой [Breath:`Дыхания`] и 1 союзник с наибольшим счётчиком получают 2 [Agility:`Спешки`] и 1 [AttackUp:`Повышение уровня атаки`]. (Может быть применено к одной айдишке)\n\nПри получении силы [Breath:`Дыхания`] от эффектов навыков, 2 [Breath:`Дыхания`] и повышает его счётчик на 2. Если же сумма счётчика и силы [Breath:`Дыхания`] менее 20, тогда даёт 3 [Breath:`Дыхания`] и повышает его счётчик на 3 вместо этого.\n\nКонец боевой фазы: при более 40 [Breath:`Дыхания`], тратит 15 его силы для [Discard:`Сброса`] 1 навыка низшего ранга во всех слотах навыков. (Единожды за ход на айдишку)",
       "simpleDesc": [
         {
           "abilityID": 9180,
-          "simpleDesc": "Gain Poise Count"
+          "simpleDesc": "Повышает счётчик дыхания"
         },
         {
           "abilityID": 91801,
-          "simpleDesc": "Apply 2 Haste and 1 Offense Level Up"
+          "simpleDesc": "Даёт 2 спешки и 1 повышение уровня атаки"
         },
         {
           "abilityID": 91802,
-          "simpleDesc": "When gaining [Breath] Potency with Skill effects, gain additional Potency and Count"
+          "simpleDesc": "При получении единиц потенциала [Breath:`Дыхания`] эффектами навыков, получает дополнительные счётчики и потенциал"
         },
         {
           "abilityID": 91803,
-          "simpleDesc": "Discard a Skill of the lowest rank in this unit's Skill Slot"
+          "simpleDesc": "Сбрасывает навык низшего ранга во всех слотах навыков"
         }
       ]
     },
     {
       "id": 9181,
-      "name": "Miniature Telepole",
-      "desc": "After Attack with a Skill Attack that consumed 7+ [Charge] Count on self: if the target is defeated, gain ([Charge] Count consumed by the Skill / 4) [Charge] Count",
+      "name": "Миниатюрный телефонный столб",
+      "desc": "После атаки навыком, который потратил 7+ счётчиков [Charge:`Заряда`]: если противник побеждён, повышает счётчик [Charge:`Заряда`] на (Потраченный этим навыком счётчик [Charge:`Заряда`] / 4).",
       "simpleDesc": [
         {
           "abilityID": 9181,
-          "simpleDesc": "Gain [Charge] Count based on [Charge] Count consumed"
+          "simpleDesc": "Повышает счётчик заряда на основе потраченных счётчиков"
         }
       ]
     },
     {
       "id": 9183,
-      "name": "Insulator",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nAfter Attack With a Skill Attack that consumes [Charge] Count on self: if the target is defeated, gain ([Charge] Count consumed by the Skill / 3) [Charge] Count\n\nTurn Start: at less than 3 [Charge] Count, gain +3 [Charge] Count\nTurn Start: at 3+ [Charge] Count, gain 1 [AttackDmgUp]",
+      "name": "Изолятор",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, которые повышают счётчик [Charge:`Заряда`] или Особого Заряда. (ЭГО навыки не учитываются)\n\nПосле атаки навыком, который потратил счётчик [Charge:`Заряда`]: если противник побеждён, повышает счётчик [Charge:`Заряда`] на (Потраченный этим навыком счётчик [Charge:`Заряда`] / 3).\n\nНачало хода: при менее чем 3 счётчиках [Charge:`Заряда`], повышает его счётчик на 3, а в ином случае даёт 1 [AttackDmgUp:`Повышение урона`].",
       "simpleDesc": [
         {
           "abilityID": 9183,
-          "simpleDesc": "Gain [Charge] Count based on [Charge] Count consumed"
+          "simpleDesc": "Повышает счётчик заряда на основе потраченных счётчиков"
         },
         {
           "abilityID": 91831,
-          "simpleDesc": "Gain 1 [AttackDmgUp] or [Charge] Count based on [Charge] Count"
+          "simpleDesc": "Даёт 1 повышение урона или повышает счётчик заряда на основе потраченных счётчиков"
         }
       ]
     },
     {
       "id": 9184,
-      "name": "T-5 Perpetual Motion Machine",
-      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: at less than 3 [Charge] Count, gain +3 [Charge] Count.\nTurn Start: at 5+ [Charge] Count, gain +2 min/max Speed, 1 [Enhancement], and 2 [AttackDmgUp].\n\nAfter Attack with a Skill that consumed [Charge] Count on self: if the target is defeated, gain +([Charge] Count consumed by the Skill / 3) [Charge] Count; next turn, gain 1 [PlusCoinValueUp]\n\nAfter Attack with a Skill 3 that consumed [Charge] Count on self: if the target is defeated, or if the ally who used the Skill is at 3+ [Charge], they add 1 Skill 3 to the list of Skills for the next upcoming turn. (once per turn for each ally; 'Unique Charge' does not interact with this effect)",
+      "name": "Вечный двигатель T-5",
+      "desc": "Начало столкновения: эффект активируется при наличии 5 и более айдишек на поле боя, которые повышают счётчик [Charge:`Заряда`] или Особого Заряда. (ЭГО навыки не учитываются)\n\nНачало хода: при менее чем 3 счётчиках [Charge:`Заряда`], повышает его счётчик на 3.\n\nНачало хода: при 5 и более счётчиках [Charge:`Заряда`], даёт +2 к минимальной и максиамльной скорости, 1 [Enhancement:`Повышение силы атаки`] и 2 [AttackDmgUp:`Повышения урона`]\n\nПосле атаки навыком, который потратил счётчики [Charge:`Заряда`]: если цель побеждена, повышает счётчик [Charge:`Заряда`] на (Счётчик [Charge:`Заряда`], потраченный этим навыком / 3) и даёт 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход\n\nПосле атаки третьим навыком, который потратил счётчик [Charge:`Заряда`]: если цель побеждена, или же использовавший этот навык союзник имел 3+ счётчика [Charge:`Заряда`], добавляет третий навык этой айдишке к следующим в очереди навыкам на приборной панели. (Единожды за ход на айдишку)",
       "simpleDesc": [
         {
           "abilityID": 9184,
-          "simpleDesc": "Gain 1 [AttackDmgUp] or [Charge] Count based on [Charge] Count"
+          "simpleDesc": "Даёт 1 [AttackDmgUp:`Повышение урона`] или повышает счётчик заряда [Charge:`Заряда`] на основе потраченного счётчика [Charge:`Заряда`]"
         },
         {
           "abilityID": 91841,
-          "simpleDesc": "Gain [Charge] Count based on [Charge] Count consumed. Next turn, gain [PlusCoinValueUp]"
+          "simpleDesc": "Повышает счётчик заряда [Charge:`Заряда`] на основе потраченного счётчика [Charge:`Заряда`]. Даёт [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход"
         },
         {
           "abilityID": 91842,
-          "simpleDesc": "After Attack with a Skill 3 that consumed [Charge] Count, add 1 Skill 3 to the Skill list"
+          "simpleDesc": "После атаки третьим навыком, потратившим счётчик [Charge:`Заряда`], добавляет один третий навык в очередь навыков"
         }
       ]
     }
