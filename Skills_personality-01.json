@@ -399,7 +399,7 @@
         {
           "level": 4,
           "name": "Пустое пространство",
-          "desc": "Базовая сила +1 за каждые 5 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 2)\n<style=\"highlight\">[OnSucceedEvade] На 1 наносимый навыками [Burst] больше в следующем ходе при первом его нанесении (До 3)</style>",
+          "desc": "Базовая сила +1 за каждые 5 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 2)\n<style=\"highlight\">[OnSucceedEvade] На 1 наносимый навыками <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> больше в следующем ходе при первом его нанесении (До 3)</style>",
           "coinlist": [
             {}
           ]
@@ -1070,7 +1070,7 @@
         {
           "level": 4,
           "name": "Набрызг",
-          "desc": "Базовая сила +1 <style=\"highlight\">за каждое [Laceration] на цели (До 10)</style>",
+          "desc": "Базовая сила +1 <style=\"highlight\">за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели (До 10)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1398,7 +1398,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
@@ -1408,7 +1408,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
@@ -1420,12 +1420,12 @@
         {
           "level": 2,
           "name": "Правда, следует оговориться, что ЭГО снаряжения — это стандартизированное оборудование,",
-          "desc": "<style=\"highlight\">[StartBattle] При проигрыше в столкновении, получает Итоговую силу, равную количеству навыков, на которые нацелен Саня (До 2)</style>\n[WhenUse] Получает <style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Если цель имеет 15+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3+ счётчика: навык не наносит <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> своими эффектами\n<style=\"highlight\">[DefeatDuel] Наносит на 1 [Burst] больше эффектами этого навыка</style>",
+          "desc": "<style=\"highlight\">[StartBattle] При проигрыше в столкновении, получает Итоговую силу, равную количеству навыков, на которые нацелен Саня (До 2)</style>\n[WhenUse] Получает <style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Если цель имеет 15+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3+ счётчика: навык не наносит <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> своими эффектами\n<style=\"highlight\">[DefeatDuel] Наносит на 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> больше эффектами этого навыка</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
@@ -1435,7 +1435,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
@@ -1452,7 +1452,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
@@ -1462,7 +1462,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
@@ -1484,7 +1484,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
@@ -1496,12 +1496,12 @@
         {
           "level": 2,
           "name": "при сопоставлении с ЭГО снаряжением из L Corp. в зависимости от степени настройки на Аномалию,",
-          "desc": "<style=\"highlight\">[StartBattle] При проигрыше в столкновении, получает Итоговую силу, равную количеству навыков, на которые нацелен Саня (До 3)</style>\n[WhenUse] Получает <style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Если цель имеет 15+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3+ счётчика: навык не повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> своими эффектами\n<style=\"highlight\">[DefeatDuel] Наносит на 1 [Burst] больше эффектами этого навыка</style>",
+          "desc": "<style=\"highlight\">[StartBattle] При проигрыше в столкновении, получает Итоговую силу, равную количеству навыков, на которые нацелен Саня (До 3)</style>\n[WhenUse] Получает <style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Если цель имеет 15+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3+ счётчика: навык не повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> своими эффектами\n<style=\"highlight\">[DefeatDuel] Наносит на 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> больше эффектами этого навыка</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> <style=\"highlight\">на 2</style>"
@@ -1518,7 +1518,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
@@ -1640,14 +1640,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             }
@@ -1661,14 +1661,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Combustion]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Combustion]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             }
@@ -1682,20 +1682,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [Combustion]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [Combustion]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color></style>"
                 }
               ]
             }
@@ -1756,7 +1756,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">На 2.5% больше урона за каждый [Combustion] на цели (До 30%)</style>"
+                  "desc": "<style=\"highlight\">На 2.5% больше урона за каждый <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> на цели (До 30%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если цель имеет 6 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели на 2"
@@ -1787,7 +1787,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">5%</style> больше урона за каждый [Combustion] на цели (До <style=\"highlight\">60%</style>)"
+                  "desc": "На <style=\"highlight\">5%</style> больше урона за каждый <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> на цели (До <style=\"highlight\">60%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если цель имеет 6 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели на 2"
@@ -1809,14 +1809,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
@@ -1830,7 +1830,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 2% больше урона за каждый [Combustion] на цели (До 60%)"
+                  "desc": "На 2% больше урона за каждый <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> на цели (До 60%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели (До 30) и понижает его счётчик на 2"
@@ -1847,14 +1847,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
@@ -1868,7 +1868,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 2% больше урона за каждый [Combustion] на цели (До 60%)"
+                  "desc": "На 2% больше урона за каждый <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> на цели (До 60%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели (До 30) и понижает его счётчик на 2"
@@ -1890,14 +1890,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если остался щит, наносит ещё 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>\n- Если остался щит, наносит ещё 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если остался щит, наносит ещё 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>\n- Если остался щит, наносит ещё 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             }
@@ -1911,14 +1911,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если остался щит, наносит ещё 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>\n- Если остался щит, наносит ещё 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion]\n- Если остался щит, наносит ещё 1 [Combustion]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>\n- Если остался щит, наносит ещё 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>"
                 }
               ]
             }

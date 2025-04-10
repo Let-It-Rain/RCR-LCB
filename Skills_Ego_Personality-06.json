@@ -264,15 +264,15 @@
           "level": 1,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "If target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max 20%)",
+          "desc": "If target has <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, deal +((the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage (max 20%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
                 }
               ]
             }
@@ -282,18 +282,18 @@
           "level": 3,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "If target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">25%</style>)\n<style=\"highlight\">- At 4+ highest Reson., deal +(5 + (the sum of [Vibration] Potency and Count on target)/2)% more damage instead (max 35%)</style>",
+          "desc": "If target has <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, deal +((the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage (max <style=\"highlight\">25%</style>)\n<style=\"highlight\">- At 4+ highest Reson., deal +(5 + (the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage instead (max 35%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and <style=\"highlight\">+2 [Vibration] Count</style>"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> and <style=\"highlight\">+2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> into <sprite name=\"VibrationEcho\"><color=#e30000><u><link=\"VibrationEcho\">Тремор: Эхо</link></u></color></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -303,18 +303,18 @@
           "level": 4,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "If target has [Vibration], deal +(<style=\"highlight\">5 +</style> (the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">30%</style>)\n- At 4+ highest Reson., deal +(<style=\"highlight\">7.5 +</style> (the sum of [Vibration] Potency and Count on target)/<style=\"highlight\">1.5</style>)% more damage instead (max <style=\"highlight\">40%</style>)",
+          "desc": "If target has <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, deal +(<style=\"highlight\">5 +</style> (the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage (max <style=\"highlight\">30%</style>)\n- At 4+ highest Reson., deal +(<style=\"highlight\">7.5 +</style> (the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/<style=\"highlight\">1.5</style>)% more damage instead (max <style=\"highlight\">40%</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and <style=\"highlight\">+3</style> [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> and <style=\"highlight\">+3</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> into <sprite name=\"VibrationEcho\"><color=#e30000><u><link=\"VibrationEcho\">Тремор: Эхо</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -329,15 +329,15 @@
           "level": 1,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[CantIdentify]\nTargets randomly\nIf target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max 25%)\n- At 4+ highest Reson., raise the above cap to (max 35%)",
+          "desc": "[CantIdentify]\nTargets randomly\nIf target has <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, deal +((the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage (max 25%)\n- At 4+ highest Reson., raise the above cap to (max 35%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> and +3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
                 }
               ]
             }
@@ -347,21 +347,21 @@
           "level": 3,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[CantIdentify]\nTargets randomly\nIf target has [Vibration], deal +((the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">30%</style>)\n- At 4+ highest Reson., <style=\"highlight\">deal +(5 + (the sum of [Vibration] Potency and Count on target)/2)% more damage instead (max 40%)</style>",
+          "desc": "[CantIdentify]\nTargets randomly\nIf target has <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, deal +((the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage (max <style=\"highlight\">30%</style>)\n- At 4+ highest Reson., <style=\"highlight\">deal +(5 + (the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage instead (max 40%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> and +3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> into <sprite name=\"VibrationEcho\"><color=#e30000><u><link=\"VibrationEcho\">Тремор: Эхо</link></u></color></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1</style>"
                 }
               ]
             }
@@ -371,21 +371,21 @@
           "level": 4,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[CantIdentify]\nTargets randomly\nIf target has [Vibration], deal +(<style=\"highlight\">5</style> + (the sum of [Vibration] Potency and Count on target)/2)% more damage (max <style=\"highlight\">40%</style>)\n- At 4+ highest Reson., deal +(<style=\"highlight\">7.5</style> + (the sum of [Vibration] Potency and Count on target)/<style=\"highlight\">1.5</style>)% more damage instead (max <style=\"highlight\">50%</style>)",
+          "desc": "[CantIdentify]\nTargets randomly\nIf target has <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, deal +(<style=\"highlight\">5</style> + (the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/2)% more damage (max <style=\"highlight\">40%</style>)\n- At 4+ highest Reson., deal +(<style=\"highlight\">7.5</style> + (the sum of <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Potency and Count on target)/<style=\"highlight\">1.5</style>)% more damage instead (max <style=\"highlight\">50%</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">6</style> [Vibration] and <style=\"highlight\">+6</style> [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">6</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> and <style=\"highlight\">+6</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationEcho]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> into <sprite name=\"VibrationEcho\"><color=#e30000><u><link=\"VibrationEcho\">Тремор: Эхо</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -400,7 +400,7 @@
           "level": 1,
           "name": "Лассо",
           "abName": "Охотник за розами",
-          "desc": "Coin Power +1 for every 7 [Burst] on target (max 2)",
+          "desc": "Coin Power +1 for every 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -412,24 +412,24 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]"
+                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силки</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)"
+                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> Count for every 2 Gluttony Reson. (max 3)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
                 }
               ]
             }
@@ -439,7 +439,7 @@
           "level": 3,
           "name": "Лассо",
           "abName": "Охотник за розами",
-          "desc": "<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn",
+          "desc": "<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn",
           "coinlist": [
             {
               "coindescs": [
@@ -451,24 +451,24 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силки</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Laceration] equal to (this unit's Speed/2) between the targets (max 3)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> equal to (this unit's Speed/2) between the targets (max 3)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Burst] equal to (this unit's Speed/2) between the targets (max 3)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> equal to (this unit's Speed/2) between the targets (max 3)</style>"
                 }
               ]
             }
@@ -478,7 +478,7 @@
           "level": 4,
           "name": "Лассо",
           "abName": "Охотник за розами",
-          "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn<style=\"highlight\"></style>",
+          "desc": "If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 2)\n[BeforeAttack] Gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -490,27 +490,27 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силки</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [TakeHpHealReduce] next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижение восстановления ОЗ</link></u></color> next turn</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> Count for every 2 Gluttony Reson. (max 3)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Laceration] equal to this unit's Speed between the targets (max 7)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> equal to this unit's Speed between the targets (max 7)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict [Burst] equal to this unit's Speed between the targets (max 7)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Randomly inflict <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> equal to this unit's Speed between the targets (max 7)</style>"
                 }
               ]
             }
@@ -525,32 +525,32 @@
           "level": 1,
           "name": "Лассо",
           "abName": "Охотник за розами",
-          "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 7 [Burst] on target (max 2)",
+          "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Snare]"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силки</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Laceration] on target (Max 20%)"
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (Max 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Burst] on target (Max 20%)"
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (Max 20%)"
                 }
               ]
             }
@@ -560,32 +560,32 @@
           "level": 3,
           "name": "Лассо",
           "abName": "Охотник за розами",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 [Burst] on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 [Agility] next turn</style>",
+          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the sum of this unit and the target's Speed is 6 or greater, Coin Power +1</style>\nCoin Power +1 for every 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 2)\n<style=\"highlight\">[BeforeAttack] Gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силки</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> Count<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Laceration] on target <style=\"highlight\">(max 30%)</style>"
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target <style=\"highlight\">(max 30%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Burst] on target <style=\"highlight\">(max 30%)</style>"
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target <style=\"highlight\">(max 30%)</style>"
                 }
               ]
             }
@@ -595,35 +595,35 @@
           "level": 4,
           "name": "Лассо",
           "abName": "Охотник за розами",
-          "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 [Burst] on target (max 2)\n[BeforeAttack] Gain 2 [Agility] next turn\n<style=\"highlight\">[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight</style>",
+          "desc": "[CantIdentify]\nTargets randomly\nIf the sum of this unit and the target's Speed is 6 or greater, Coin Power +1\nCoin Power +1 for every 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 2)\n[BeforeAttack] Gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn\n<style=\"highlight\">[BeforeAttack] At 4+ Gluttony or Lust Reson., gain +1 Atk Weight</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Snare]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силки</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 3 [TakeHpHealReduce] next turn</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 3 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижение восстановления ОЗ</link></u></color> next turn</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> Count<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Laceration] on target (max 30%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (max 30%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal +1% more damage for every [Burst] on target (max 30%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Deal +1% more damage for every <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> on target (max 30%)<style=\"highlight\"></style>"
                 }
               ]
             }

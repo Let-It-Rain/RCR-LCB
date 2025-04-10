@@ -82,13 +82,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 50% и более ОЗ, активирует [Laceration:`Кровотечение`] на себе и тратит 1 его счётчик"
+                  "desc": "[OnSucceedAttack] При 50% и более ОЗ, активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на себе и тратит 1 его счётчик"
                 }
               ]
             },
@@ -98,7 +98,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"WornHeart\"><color=#9f6a3a><u><link=\"WornHeart\">Болезненных сердца</link></u></color> и <sprite name=\"BloodyHand\"><color=#f8c200><u><link=\"BloodyHand\">Окровавленных рук</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 10 <sprite name=\"WornHeart\"><color=#9f6a3a><u><link=\"WornHeart\">Болезненных сердца</link></u></color>, получает 3 дополнительных <sprite name=\"BloodyHand\"><color=#f8c200><u><link=\"BloodyHand\">Окровавленных руки</link></u></color> и 1 [AttackUp:`Повышение уровня атаки`] на следующий ход"
+                  "desc": "[OnSucceedAttack] При 10 <sprite name=\"WornHeart\"><color=#9f6a3a><u><link=\"WornHeart\">Болезненных сердца</link></u></color>, получает 3 дополнительных <sprite name=\"BloodyHand\"><color=#f8c200><u><link=\"BloodyHand\">Окровавленных руки</link></u></color> и 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -136,7 +136,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
@@ -159,7 +159,7 @@
                   "desc": "[OnSucceedAttack] Если навык поглотил 30 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>, и так же имеется 30 <sprite name=\"BloodyHand_3rd\"><color=#f8c200><u><link=\"BloodyHand_3rd\">Окровавленной руки III</link></u></color>, заново подкидывает монету"
                 },
                 {
-                  "desc": "- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "- Если не удалось поглотить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -1911,7 +1911,7 @@
         {
           "level": 1,
           "name": "Сияющие воспоминания о приключении",
-          "desc": "[StartBattle] Даёт 1 [ParryingResultUp:`Повышение силы в столкновении`] и 1 [AttackDmgUp:`Повышение урона`] случайному Балбесу\n[StartBattle] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> Дон Кихоту и его Свернувшейся Мечте",
+          "desc": "[StartBattle] Даёт 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы в столкновении</link></u></color> и 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> случайному Балбесу\n[StartBattle] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> Дон Кихоту и его Свернувшейся Мечте",
           "coinlist": [
             {
               "coindescs": [
