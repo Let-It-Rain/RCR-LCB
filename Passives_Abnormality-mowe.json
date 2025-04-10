@@ -2,83 +2,83 @@
   "dataList": [
     {
       "id": 835001,
-      "name": "Stored Blood",
-      "desc": "At Turn End, depending on the [KeptBlood] value on self:\n- At a value lesser than or equal to 5 [KeptBlood], gain 1 [Binding], 1 [Vulnerable], and 1 [AttackDown] next turn for every [KeptBlood] lost\n- At a value greater than 5 [KeptBlood], gain 2 [AttackUp] and 2 [DefenseUp] for every excess value"
+      "name": "Запас крови",
+      "desc": "В начале хода получает эффекты в зависимости от [KeptBlood:`Накопленной крови`]:\n- При 5 и менее [KeptBlood:`Накопленной крови`], получает по 1 [Binding:`Связыванию`], 1 [Vulnerable:`Уязвимости`] и 1 [AttackDown:`Понижению уровня атаки`] за каждую единицу потерянного [KeptBlood:`Накопленной крови`] на следующий ход;\n- Если же 5 и более [KeptBlood:`Запаса рови`], каждый ход получает по 2 [AttackUp:`Повышения уровня атаки`] и 2 [DefenseUp:`Повышения уровня защиты`] за каждую единицу [KeptBlood:`Накопленной крови`] после 5-ти."
     },
     {
       "id": 835002,
-      "name": "Must Retain Blood",
-      "desc": "Gains a new pattern when [KeptBlood] reaches 0 for the first time\nFix this unit's speed to 10 when using the Skill 'I Am... The Prince... of the Parade...!'"
+      "name": "Надобно сохранять кровь",
+      "desc": "Когда [KeptBlood:`Накопленная кровь`] кончается, меняет поведение:\n- При использовании навыка «Я же... принц... сего шествия!..», скорость Кассетти фиксируется на 10."
     },
     {
       "id": 835003,
-      "name": "The Prince's Frenzy",
-      "desc": "When this unit reaches 30% HP, gain [BloodyCrave]"
+      "name": "Беснования принца",
+      "desc": "При достижении 30% от максимальных ОЗ, Кассетти предаётся [BloodyCrave:`Кровавой жажде`]."
     },
     {
       "id": 835004,
-      "name": "Hardblood Glaive",
-      "desc": "Prioritizes targets with the highest sum of [Laceration] Potency and Count\nOn Hit, if the target has [Laceration], heal 2% HP"
+      "name": "Глефа из застывшей крови",
+      "desc": "Кассетти выбирает целью противника с наибольшей суммой силы и счётчика [Laceration:`Кровотечения`].\n\nЕсли на цели есть [Laceration:`Кровотечение`] в момент удара, Кассетти восстанавливает 2% от максимальных ОЗ."
     },
     {
       "id": 835005,
-      "name": "Sanguivore - Coagulation",
-      "desc": "When this unit has [Laceration]:\n- Gain 1 Offense Level Up and 1 Defense Level Up for every 5 [Laceration] (max 10)\n- Gain 1 Clash Power Up for every 10 [Laceration] (max 5)\n- Take 50% less damage from [Laceration] (rounded down)"
+      "name": "Гематофаг — Свёртка",
+      "desc": "Если имеется [Laceration:`Кровотечение`]:\n- Получает 1 [AttackUp:`Повышение уровня атаки`] и 1 [DefenseUp:`Повышение уровня защиты`] за каждые 5 [Laceration:`Кровотечения`] на себе; (До 10)\n- Получает 1 [ParryingResultUp:`Повышение силы в столкновении`] за каждые 10 [Laceration:`Кровотечения`]; (До 5)\n- Получает на 50% меньше урона от [Laceration:`Кровотечения`]."
     },
     {
       "id": 9014501,
-      "name": "Blood Coagulation",
-      "desc": "Gain +1 [Laceration] Count every time this unit is hit\nTurn End: consume 3 [Laceration] Count on self to gain 1 [HardenedBlood]"
+      "name": "Застывание крови",
+      "desc": "При получении удара повышает свой счётчик [Laceration:`Кровотечения`] на 1.\nВ конце хода теряет 3 единицы из счётчика [Laceration:`Кровотечения`] для получения 1 [HardenedBlood:`Застывшей крови`]."
     },
     {
       "id": 9014502,
-      "name": "Thirst for Blood",
-      "desc": "Prioritizes targets with [Laceration]\nTurn End: if this unit failed to deal any damage this turn, gain 2 [Vulnerable] and 2 [AttackUp] next turn"
+      "name": "Жажда крови",
+      "desc": "Выбирает целью противников с [Laceration:`Кровотечением`].\n\nЕсли не удалось нанести никакого урона в течение хода, получает 2 [Vulnerable:`Уязвимости`] и 2 [AttackUp:`Повышения уровня атаки`] на следующий ход."
     },
     {
       "id": 9014503,
-      "name": "Bloodsucking",
-      "desc": "Take 10% less damage from [Laceration] (rounded down)\nOn Hit, if the target has [Laceration], heal 10% of the damage dealt"
+      "name": "Высасывание крови",
+      "desc": "Получает на 10% меньше урона от [Laceration:`Кровотечения`].\n\nВосстанавливает ОЗ на 10% от урона, нанесённого цели с [Laceration:`Кровотечением`]."
     },
     {
       "id": 9014801,
-      "name": "Rough Bloodsucking",
-      "desc": "Take 20% less damage from [Laceration] (rounded down)\nOn Hit, if the target has [Laceration], heal 15% of the damage dealt"
+      "name": "Упорное высасывание крови",
+      "desc": "Получает на 20% меньше урона от [Laceration:`Кровотечения`].\n\nВосстанавливает ОЗ на 15% от урона, нанесённого цели с [Laceration:`Кровотечением`]."
     },
     {
       "id": 9014802,
-      "name": "Power Leakage",
-      "desc": "When hit, if the attacker used a Skill that gains [Charge], the attacker steals 1 [Charge] Count from this unit.\n(Once per Skill. Does not activate if this unit does not have [Charge])"
+      "name": "Утечка энергии",
+      "desc": "При получении удара, если атаковавший использовал навык, повышающий счётчик [Charge:`Заряда`], переносит 1 единицу счётчика [Charge:`Заряда`] с себя атакующему. (Единожды за навык, активируется только при наличии [Charge:`Заряда`])"
     },
     {
       "id": 9015101,
-      "name": "Blood to Brain",
-      "desc": "Take 30% less damage from [Laceration] (rounded down)\nOn Hit, if the target has [Laceration], heal 15% of the damage dealt"
+      "name": "Поток крови к мозгу",
+      "desc": "Получает на 30% меньше урона от [Laceration:`Кровотечения`]. \n\nВосстанавливает ОЗ на 15% от урона, нанесённого цели с [Laceration:`Кровотечением`]."
     },
     {
       "id": 9015102,
-      "name": "Prosthesis Model - L37",
-      "desc": "Turn Start: At less than 5 [Charge] Count, gain 1 [Reduction]\nTurn Start: At 5+ [Charge] Count, gain 2 [ParryingResultUp]"
+      "name": "Протез модели L37",
+      "desc": "При менее 5 единиц на счётчике [Charge:`Заряда`] в начале хода, получает 1 [Reduction:`Понижение силы атаки`].\n\nПри 5 и более единицах на счётчике [Charge:`Заряда`] в начале хода, получает 2 [ParryingResultUp:`Повышение силы в столкновении`]."
     },
     {
       "id": 9015201,
-      "name": "A Young Kindred",
-      "desc": "Take 30% less damage from [Laceration] (rounded down)\nOn Hit, if the target has [Laceration], heal 25% of the damage dealt"
+      "name": "Новоиспечённый потомок",
+      "desc": "Саша получает на 30% меньше урона от [Laceration:`Кровотечения`]. \n\nВосстанавливает ОЗ на 25% от урона, нанесённого цели с [Laceration:`Кровотечением`]."
     },
     {
       "id": 9014803,
-      "name": "Tenacious",
-      "desc": "Self-inflicted damage due to this unit's Skills does not reduce this unit's HP under 1"
+      "name": "Упорство",
+      "desc": "Не может умереть от урона, наносимого собственными навыками."
     },
     {
       "id": 834801,
-      "name": "Burst Bloodbag",
-      "desc": "Combat Start: starts the Encounter only with half of max HP"
+      "name": "Надрывающийся кровесосуд",
+      "desc": "Входит в бой с половиной от максимальных ОЗ."
     },
     {
       "id": 834802,
-      "name": "The Seventh Kindred",
-      "desc": "Gain +1 Slot for every ally at 1 HP (2 times max)"
+      "name": "Седьмой сородич",
+      "desc": "+1 слот навыков за каждого союзника с 1 ОЗ. (До 2-ух раз)"
     }
   ]
 }

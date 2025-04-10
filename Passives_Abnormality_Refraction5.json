@@ -2,123 +2,123 @@
   "dataList": [
     {
       "id": 863001,
-      "name": "Melee Combat",
-      "desc": "If this unit's Speed is faster than the target's, deal +10% more damage for every Speed difference (max 30%)\nIf this unit's Speed is slower than the target's deal -10% less damage for every Speed difference (max 30%)"
+      "name": "Ближний бой",
+      "desc": "Если скорость выше скорости цели, на 10% больше урона за каждую единицу в разнице (До 30%)\nЕсли скорость ниже скорости цели, на 10% меньше урона за каждую единицу в разнице (До 30%)"
     },
     {
       "id": 863002,
-      "name": "Charge Forth",
-      "desc": "Raise Min & Max Speed values by 1 for every 5 [Breath] on self (max 4)"
+      "name": "Рывок вперёд",
+      "desc": "Повышает максимальную и минимальную скорость на 1 за каждые 5 [Breath:`Дыхания`] (До 4)"
     },
     {
       "id": 863003,
-      "name": "Summon Targets",
-      "desc": "At 75%- HP, gain a new pattern\nWhen gaining a new pattern, summon G Corp. Head Manager and Downcast Veteran; then, inflict Stigmatized on the target with the least current HP\n- Change Min & Max Speed values on self to 1.\n- Gain 300 Shield HP."
+      "name": "Призыв целей",
+      "desc": "При менее чем 75% ОЗ меняет поведение\nПри новом поведении призывает командира дивизии Корп. G и ветеранов Дымной Войны; затем [FellBulletMark:`Стигматизирует`] цель с наименьшими ОЗ\n- Скорость фиксируется на 1\n- Получает 300 щита."
     },
     {
       "id": 863004,
-      "name": "Designate Target",
-      "desc": "When using Designated Target Fire or Target Readjustment Fire: among targets with the slowest Speed, inflict [FellBulletMark] against target with the least current HP"
+      "name": "Назначить цель",
+      "desc": "При использовании навыков 'Прицельный огонь' или 'Корректировка цели': между целями с наименьшей скоростью, [FellBulletMark:`Стигматизирует`] ту, что имеет наименьшие текущие ОЗ"
     },
     {
       "id": 863201,
-      "name": "Oxygen Supply",
-      "desc": "At the first Turn Start of the turn Sleeping Bag of a Bygone Day appeared, it gains 10 [Breath] Potency and +10 [Breath] Count\n\nTurn End: at less than 10 [Breath] Potency or [Breath] Count, consume HP from the Head Part equal to 2% of the Core's max HP to gain 5 [Breath] and +5 [Breath] Count (cannot be Part broken or defeated due to this effect)"
+      "name": "Подача кислорода",
+      "desc": "В начале первого хода с момента появления на поле боя, получает 10 [Breath:`Дыхания`] и повышает его счётчик на 10\n\nКонец хода: при менее чем 10 [Breath:`Дыхания`] или его счётчика, тратит ОЗ Головы, равное 2% от максимальных ОЗ ядра, чтобы получить 5 [Breath:`Дыхания`] и повысить его счётчик на 5 (Не может сломать часть или умереть из-за этого эффекта)"
     },
     {
       "id": 863202,
-      "name": "Deep Breath",
-      "desc": "Multiply Critical Chance from [Breath] effects by x 1.5\n\nOn Crit:\n- At 15+ [Breath] Potency, consume up to ([Breath] Potency on self / 5) [Breath] Potency to deal +([Breath] Potency consumed x 4)% more damage on Crit\n- At 15+ [Breath] Count, consume up t ([Breath] Count on self / 5) [Breath] Count to deal +([Breath] Count consumed x 8)% more damage on Crit"
+      "name": "Глубокий вдох",
+      "desc": "Увеличивает шанс критического попадания от эффектов [Breath:`Дыхания`] в полтора раза\n\nПри критическом попадании:\n- При 15 и более единицах потенциала [Breath:`Дыхания`], тратит до (Потенциал [Breath:`Дыхания`] / 5) [Breath:`Дыхания`], чтобы увеличить урон критической атаки на (Потраченный потенциал [Breath:`Дыхания`] × 4)%\n- При 15 и более счётчиках [Breath:`Дыхания`], тратит до (Счётчик [Breath:`Дыхания`] / 5) счётчиков [Breath:`Дыхания`], чтобы увеличить урон критической атаки на (Потраченный счётчик [Breath:`Дыхания`] × 8)%"
     },
     {
       "id": 863203,
-      "name": "Oxygen-saturated",
-      "desc": "In the turn this unit uses 'That's... Mine!', fix its Speed to 1. At Turn Start, apply 6 [Breath] Potency and +6 [Breath] Count to all units present on the Stage.\n\nAt the end of the same turn, consume any excess [Breath] Potency and [Breath] Count past 5 Potency and 5 Count; then, at the next Turn Start, apply the same amount of [Breath] Potency and [Breath] Count consumed to the Head Part"
+      "name": "Насыщенность кислородом",
+      "desc": "В ходе, где используется навык 'Это... МОЁ!!', фиксирует свою скорость на 1. В начале хода, даёт 6 [Breath:`Дыхания`] и повышает его счётчик на 6 всем присутствующим на поле боя.\n\nВ начале того же хода, тратит всё лишнее [Breath:`Дыхание`] и его счётчики после 5; затем, в начале следующего хода, даёт то же количество потраченного потенциала и счётчика [Breath:`Дыхания`] Голове"
     },
     {
       "id": 863204,
-      "name": "Shattered Ribcage",
-      "desc": "When the Body Part is broken, remove the Body Part next turn and replace it with a Person Part"
+      "name": "Раздробленная грудная клетка",
+      "desc": "Когда Тело сломано, заменяет в следующем ходу эту часть на \"Человек\""
     },
     {
       "id": 863205,
-      "name": "Ribcage Regeneration",
-      "desc": "At Combat End, halve the [Breath] Potency and [Breath] Count on the Person Part\nNext Turn, the Person Part disappears and is replaced by Body Part"
+      "name": "Регенерация грудной клетки",
+      "desc": "В начале боевой фазы, теряет половину [Breath:`Дыхания`] и его счётчиков на части \"Человек\"\nВ следующем ходу, часть \"Человек\" заменяется Телом"
     },
     {
       "id": 863206,
-      "name": "Excruciating Suffering",
-      "desc": "Every time this unit loses a Clash and takes a hit, lose 1 [Breath] Potency\n\nEvery time this unit is hit by an Unopposed Attack, lose 1 [Breath] Count\n\nThis unit's [Breath] Potency and [Breath] Count, regardless of whether an attack hit Critically or whether its Passive activated, does not drop below 5"
+      "name": "Мучительные страдания",
+      "desc": "Каждый раз при проигрыше в столкновении и получении удара, теряет 1 [Breath:`Дыхание`]\nКаждый раз при получении удара от односторонней атаки, теряет 1 счётчик [Breath:`Дыхания`]\n\nПотенциал и счётчик [Breath:`Дыхания`] не опускаются ниже 5"
     },
     {
       "id": 863207,
-      "name": "Anguished Screaming",
-      "desc": "At 40% or less Core HP, use 'Share the Pain' next turn"
+      "name": "Озлобленный крик",
+      "desc": "При менее чем 40% ОЗ ядра, использует 'Разделить страдание' в следующем ходу"
     },
     {
       "id": 863208,
-      "name": "After Effect",
-      "desc": "When the Person dies, both the Body and the Head Parts gain +0.2 Resistance to Slash, Pierce, and Blunt until next turn (once per Encounter)"
+      "name": "Последствия",
+      "desc": "Когда часть \"Человек\" сломана, Тело и Голова получают +0.2 к сопротивлению всем типам атак до следующего хода (Единожды за столкновение)"
     },
     {
       "id": 863301,
-      "name": "Indulgent Petals",
-      "desc": "Turn End: at 20+ [BloodDinner], consume up to 50 [BloodDinner] and heal the Core and the Head Parts equal to [BloodDinner] consumed\n- Does not activate if the Head Part is either Staggered or Destroyed"
+      "name": "Нежные лепестки",
+      "desc": "Конец хода: при 20 и более [BloodDinner:`Кровавого пиршества`], поглощает до 50 [BloodDinner:`Кровавого пиршества`] и восстанавливает ОЗ Ядра и Головы на поглощённое [BloodDinner:`Кровавое пиршество`]\n- Не активируется, если Голова сломана или оглушена"
     },
     {
       "id": 863302,
-      "name": "A Drop of Nourishment",
-      "desc": "After Attack, heal the Core and the Part equal to the amount of damage this unit's Attack Skill dealt\n- Does not activate if the Head Part is either Staggered or Destroyed"
+      "name": "Капля питания",
+      "desc": "После атаки, восстанавливает ОЗ Ядра и самой части на количество нанесённого урона\n- Не активируется, если Голова сломана или оглушена"
     },
     {
       "id": 863303,
-      "name": "Yearning",
-      "desc": "Turn End: if this unit healed HP, gain 1 [AttackUp] and 1 [DefenseDown] next turn for every 10 HP healed (max 10)"
+      "name": "Тоска",
+      "desc": "Конец хода: если ОЗ восстанавливались в течении хода, получает 1 [AttackUp:`Повышение уровня атаки`] и 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход за каждые 10 восстановленных ОЗ (До 10)"
     },
     {
       "id": 863304,
-      "name": "Bloodthirsty Stench",
-      "desc": "At 100+ [BloodDinner], use a special Skill\nTurn End: at 500+ [BloodDinner_Accumulation] by this unit, or if this unit is at less than 60% HP, gain a new pattern"
+      "name": "Кровожадный смрад",
+      "desc": "При 100 и более [BloodDinner:`Кровавого пиршества`], использует особую атаку\n\nКонец хода: при 500 и более [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] этим противником, или при менее чем 60% ОЗ, меняет поведение"
     },
     {
       "id": 863305,
-      "name": "Refracted Sin",
-      "desc": "[Combustion], [Laceration], [Vibration], [Burst], and [Sinking] Potency only stacks up to 50 (including the Unique variations of above Keywords)"
+      "name": "Преломленный грех",
+      "desc": "[Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`], и [Sinking:`Утопание`] складывается только до 50 (Включая особые вариации этих эффектов)"
     },
     {
       "id": 863306,
-      "name": "Sharp Thorn",
-      "desc": "If this unit's Body Part takes damage from an enemy Skill, inflict +1 [Laceration] Count on the attacker (once per turn per Identity)"
+      "name": "Острые шипы",
+      "desc": "Если тело получает урон от навыков противников, повышает атакующему счётчик [Laceration:`Кровотечения`] на 1 (Единожды за ход на айдишку)"
     },
     {
       "id": 863307,
-      "name": "Endless Thirst",
-      "desc": "Turn Start: gain 1 [DefenseDown] for every 100 [BloodDinner_Accumulation] by this unit (max 10)\nTurn Start: gain 1 [TakeHpHealIncrease] for every 200 [BloodDinner_Accumulation] by this unit (max 5)"
+      "name": "Нескончаемая жажда",
+      "desc": "Начало хода: получает 1 [DefenseDown:`Понижение уровня защиты`] за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] этим противником (До 10)\n\nНачало хода: получает 1 [TakeHpHealIncrease:`Повышение восстановления ОЗ`] за каждые 200 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] этим противником (До 5)"
     },
     {
       "id": 863308,
-      "name": "Endless Yearning",
-      "desc": "Triggers a Choice Event every 'multiple of 3' turns."
+      "name": "Нескончаемая тоска",
+      "desc": "Каждый ход, кратный трём, происходит событие выбора"
     },
     {
       "id": 863309,
-      "name": "Increased Refraction Rate",
-      "desc": "If 9 turns have passed since this unit appeared on the field, starting next turn, gain 1 [AttackUp] every turn past the 10th turn (max 10)"
+      "name": "Повышенние скорости преломления",
+      "desc": "Если с момента появления на поле боя прошло 9 ходов, то начиная со следуюшего хода получает 1 [AttackUp:`Повышение уровня атаки`] каждый ход (До 10)"
     },
     {
       "id": 863101,
-      "name": "Designated Execution",
-      "desc": "When killed by Der Fluchschütze, apply 1 [Agility], 1 [Enhancement], and 2 [AttackDmgUp] next turn to Der Fluchschütze"
+      "name": "Назначенное исполнение",
+      "desc": "При смерти от Проклятого стрелка, даёт 1 [Agility:`Спешку`], 1 [Enhancement:`Повышение силы атаки`], и 2 [AttackDmgUp:`Повышения урона`] Проклятому стрелку на следующий ход"
     },
     {
       "id": 863102,
-      "name": "First Strike Wins",
-      "desc": "When killed by a Sinner, give 3 E.G.O resources in the affinity of the Skill that killed this unit"
+      "name": "Первый удар побеждает",
+      "desc": "При убийсте балбесом, даёт 3 ЭГО ресурса греха навыка, который убил этого противника"
     },
     {
       "id": 863103,
-      "name": "Not Me",
-      "desc": "If this unit doesn't have Stigmatized at Combat Start, gain 300 Shield."
+      "name": "Не я",
+      "desc": "Если этот противник не был [FellBulletMark:`Стигматизирован`] в начале боевой фазы, он получает 300 щита"
     }
   ]
 }

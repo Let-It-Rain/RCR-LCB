@@ -1,75 +1,74 @@
 {
     "dataList": [
-        {
-            "id": 837101,
-            "name": "Casual Opportunity",
-            "desc": "Turn Start: if this unit's Speed is faster than the target's, gain 1 [PenetrateDamageUp]"
-        },
-        {
-            "id": 837102,
-            "name": "Leisurely Breathing",
-            "desc": "Turn End: Heal 7 SP\nTurn End: Gain [Agility] equal to ([Breath] on self/4) next turn (max 3)"
-        },
-        {
-            "id": 837103,
-            "name": "Single Combat",
-            "desc": "Use Salut if the target is Staggered"
-        },
-        {
-            "id": 837104,
-            "name": "Focused Attack",
-            "desc": "When using a Skill against the same Slot this unit successfully hit last turn, gain the following effects based on the number of consecutive turns it successfully hit the Slot\nResets if this unit failed to attack last turn.\n- 1 Consecutive hit: Clash Power +1\n- 2 Consecutive hits: Base Power +1\n- 3 Consecutive hits: Base Power +1, Coin Power +1"
-        },
-        {
-            "id": 837201,
-            "name": "I'll Cut You First!",
-            "desc": "Prioritizes [LineCutting]."
-        },
-        {
-            "id": 837202,
-            "name": "Hardblood Scissor",
-            "desc": "On Clash Win, if the target has [Laceration], heal this unit's Part & Core by 40% of the HP damage dealt.\nAfter Attack, if this unit healed at least 100 HP, heal 10 SP\nThis effect does not activate On Hit with an Unbreakable Coin Skill if it loses the Clash.",
-            "summary": "Heal when attacking enemies with Bleed. When this unit heals 100 HP, heal SP as well."
-        },
-        {
-            "id": 837203,
-            "name": "I Don't Need Ugly Things!!",
-            "desc": "If there are any enemies with 30% or less HP, use 'I Don't Need Ugly Things!!' Skill."
-        },
-        {
-            "id": 837204,
-            "name": "It's Not Over Yet",
-            "desc": "Gains a new pattern at 40% of this unit's max HP\nUpon pattern change, gain 10 [Laceration] and 2 [BloodScissor]."
-        },
-        {
-            "id": 837205,
-            "name": "Bloodfeast",
-            "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface."
-        },
-        {
-            "id": 837206,
-            "name": "Bloodsteeped Scissors",
-            "desc": "Combat Start: gain 10 [BloodScissor]\n- [BloodScissor] cannot drop below 1\n- At 10+ [BloodScissor], convert them to [BloodScissorTwo].\n- At 20+ [BloodScissor], convert them to [BloodScissorThree].\nIf this unit consumes [BloodScissor] and drops below the above thresholds, convert them accordingly."
-        },
-        {
-            "id": 837207,
-            "name": "Starved and Withered",
-            "desc": "Combat Start: gain [StarvingBarberTwo]"
-        },
-        {
-            "id": 837208,
-            "name": "Blood... Blood... Blood...!",
-            "desc": "Turn End: If Panicked, recover from Panic at the next Turn Start and reset SP to 0.\nWhen recovering from Panic:\n- Consume 30 [BloodDinner] to gain 2 [Enhancement] and 1 [BloodScissor] next turn, and heal 20 SP.\n- If this unit failed to consume [BloodScissor], gain 30 [Laceration], immediately take the damage from [Laceration], then lose 3 [Laceration] Count. Then, gain 2 [Enhancement], 2 [AttackDmgUp], and heal 20 SP next turn."
-        },
-        {
-            "id": 9999997,
-            "name": "Panic Recovery",
-            "desc": "Turn End: if in Panic, reset SP to 0."
-        },
-        {
-            "id": 9999996,
-            "name": "Fixed Panic",
-            "desc": "This unit's Panic Type does not change when inflicted with an effect that changes Panic Types. Instead, this unit is inflicted with an effect that is inflicted against targets without SP."
-        }
+      {
+        "id": 837101,
+        "name": "Удобный случай",
+        "desc": "В начале хода: если быстрее цели, получает 1 [PenetrateDamageUp:`Повышение Пронзающего урона`]."
+      },
+      {
+        "id": 837102,
+        "name": "Размеренное дыхание",
+        "desc": "В конце хода восстанавливает 7 СД и получает [Agility:`Спешку`], равную ([Breath:`Дыхание`] / 4) на следующий ход (До 3)"
+      },
+      {
+        "id": 837103,
+        "name": "Поединок",
+        "desc": "Использует навык «Салют», если цель оглушена."
+      },
+      {
+        "id": 837104,
+        "name": "Прицельная атака",
+        "desc": "При использовании навыка против того же слота навыков своего противника, по которому Камилл успешно попал в прошлом ходу, он получает эффекты в зависимости от количества последовательных попаданий по нему.\nСбрасывается, если не удалось атаковать в прошлом ходу.\n- 1 последовательное попадание: Сила в столкновении +1\n- 2 последовательных попадания: Базовая сила +1\n- 3 последовательных попадания: Базовая сила +1, Сила монет +1"
+      },
+      {
+        "id": 837201,
+        "name": "Я первая тебя разрежу!",
+        "desc": "Отдаёт приоритет [LineCutting:`Цели шитья`]."
+      },
+      {
+        "id": 837202,
+        "name": "Ножницы из застывшей крови",
+        "desc": "Восстанавливает ОЗ части и ядра на 40% от урона, нанесённого цели с [Laceration:`Кровотечением`].\n\nПосле атаки, если восстановилось хотя бы 100 ОЗ, восстанавливает 10 СД.\n\nДля навыков с [SuperCoin:`Вечными монетами`]: эффект не срабатывает при попадании после проигрыша в столкновении."
+      },
+      {
+        "id": 837203,
+        "name": "Мне не нужны уродливые вещи!!",
+        "desc": "Если есть противники с 30% или менее ОЗ, использует навык «Мне не нужны уродливые вещи!!»."
+      },
+      {
+        "id": 837204,
+        "name": "Это ещё не конец",
+        "desc": "Меняет поведение при 40% от максимального ОЗ, при этом получает 10 [Laceration:`Кровотечения`] и 2 [BloodScissor:`Окровавленных лезвия ножниц`]."
+      },
+      {
+        "id": 837205,
+        "name": "Кровавый пир",
+        "desc": "Если находится на поле боя или является одним из тех, кто может появиться на этом этапе, увеличивает значение [BloodDinner:`Кровавого пиршества`] на величину урона от [Laceration:`Кровотечения`], полученного всеми участниками битвы.\nПри выходе на поле боя, пропитавшая его спящая кровь заполняет поверхность."
+      },
+      {
+        "id": 837206,
+        "name": "Пропитанные кровью ножницы",
+        "desc": "В начале боевой фазы получает 10 [BloodScissor:`Окровавленных лезвий ножниц`].\n\n- Количество [BloodScissor:`Окровавленных лезвий ножниц`] не может опуститься ниже 1\n- При 10+ [BloodScissor:`Окровавленных лезвий ножниц`] они переходят в [BloodScissorTwo:`Окровавленные лезвия ножниц II`]\n- При 20+ [BloodScissor:`Окровавленных лезвий ножниц`] они переходят в [BloodScissorThree:`Окровавленные лезвия ножниц III`]\n\nПри расходовании [BloodScissor:`Окровавленных лезвий ножниц`], если их количество падает ниже значений фаз, их фаза снижается."
+      },
+      {
+        "id": 837207,
+        "name": "Голод и иссушение",
+        "desc": "Находится в состоянии [StarvingBarberTwo:`Иссушения`] на протяжении всей битвы."
+      },
+      {
+        "id": 837208,
+        "name": "Кровь... Кровь... КРОВЬ...!",
+        "desc": "В конце хода: если в состоянии срыва, восстанавливается от срыва в начале следующего хода и сбрасывает СД до 0.\n\nПри восстановлении от срыва:\n- Поглощает 30 [BloodDinner:`Кровавого пиршества`], чтобы получить 2 [Enhancement:`Повышения силы атаки`] и 1 [BloodScissor:`Окровавленные лезвия ножниц`] в следующем ходу, а так же восстанавливает 20 СД.\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 30 урона [Laceration:`Кровотечением`] и теряет 3 его счётчика. После этого получает 2 [Enhancement:`Повышения силы атаки`], 2 [AttackDmgUp:`Повышения урона`], а так же восстанавливает 20 СД в следующем ходу."
+      },
+      {
+        "id": 9999997,
+        "name": "Выход из срыва",
+        "desc": "Если в конце хода находится в состоянии срыва, восстанавливает СД до 0."
+      },
+      {
+        "id": 9999996,
+        "name": "Неизменный тип срыва",
+        "desc": "При получении эффектов, меняющих тип срыва, его тип остаётся неизменным. Вместо этого эффект работает как на противнике без силы духа."
+      }
     ]
-}
+  }
