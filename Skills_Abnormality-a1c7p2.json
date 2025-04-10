@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Walk With Grace...",
-          "desc": "Prioritize an unstaggered ally. If the target is an ally, gain Clash Power +10, and fix the damage to 0 at all times\nClash Power +1 for every 3 [Laceration] on the target (max 3)",
+          "name": "Идти с грацией...",
+          "desc": "Приоритет отдаётся союзнику без оглушения: если цель — союзник, Сила в столкновении +10 и урон не наносится\nСила в столкновении +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]\n- If the target is an ally, replace this effect with 3 [AttackUp] until next turn"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\nЕсли цель — союзник, заменяет эффект на 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> до следующего хода"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Move With Beauty...",
-          "desc": "Prioritize an unstaggered ally. If the target is an ally, gain Clash Power +10, and fix the damage to 0 at all times\nClash Power +1 for every 3 [Laceration] on the target (max 3)",
+          "name": "Двигаться с красотой...",
+          "desc": "Приоритет отдаётся союзнику без оглушения: если цель — союзник, Сила в столкновении +10 и урон не наносится\nСила в столкновении +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count\n- If the target is an ally, replace this effect with 3 [DefenseUp] until next turn"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3\nЕсли цель — союзник, заменяет эффект на 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> до следующего хода"
                 }
               ]
             }
@@ -43,26 +43,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Beckon the Audience Hither...",
-          "desc": "[WhenUse] Final Power +1 for every 5 [FestivalFever] on self or every 6 [Laceration] on the target (max 4)\n[WhenUse] At less than 15 [BloodDinner], gain 15 [Laceration] and immediately trigger it once, then reduce [Laceration] Count by 1 (at less than 10% HP, activate only the part of this effect where this unit gains [Laceration] Potency and Count)\n[EndSkill] Consume 15 [BloodDinner]",
+          "name": "Поманить публику сюда...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 <sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Праздничной горячки</link></u></color> на себе или каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 4)\n[WhenUse] При менее 15 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>, получает 15 урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color> и теряет 1 его счётчик (При ОЗ менее 10% только получает 15 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>)\n[EndSkill] Поглощает 15 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackUp] and 1 [DefenseUp] for every 6 [Laceration] on the target (max 3 of each)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> и 1 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3 каждого)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +5 [Laceration] Count"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [BloomingThorns]"
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущих шипа</link></u></color>"
                 }
               ]
             }
@@ -75,23 +75,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Parade of Wonders",
-          "desc": "[CantIdentify]\nPrioritizes enemies for its main target, and prioritizes allies for its sub-targets. If the target is an ally, Clash Power +10 and always fix the damage to 0.\n[WhenUse] Clash Power +1 for every 20 [BloodDinner_Accumulation] by this unit (max 10)\n[WhenUse] At less than 25 [BloodDinner], gain 25 [Laceration], immediately trigger it once, then lose 1 [Laceration] Count (at less than 10% HP, activate only the part of this effect where this unit gains [Laceration] Potency and Count)\n[EndSkill] Consume 25 [BloodDinner]\n[EndBattle] Consume all [FestivalFever]",
+          "name": "Парад чудес",
+          "desc": "[CantIdentify]\nГлавной целью становятся противники, а союзники дополнительными: если цель — союзник, Сила в столкновении +10 и урон не наносится\n[WhenUse] Сила в столкновении +1 за каждые 20 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Поглощённого собой кровавого пиршества</link></u></color> (До 10)\n[WhenUse] При менее 25 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>, получает 25 урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color> и теряет 1 его счётчик (При ОЗ менее 10% только получает 25 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>)\n[EndSkill] Поглощает 25 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>\n[EndBattle] Тратит всю <sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Праздничную горячку</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AttackUp] and [DefenseUp] until next turn based on [FestivalFever] (1 per 3 [FestivalFever], max 3 of each)"
+                  "desc": "[OnSucceedAttack] Даёт 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> до следующего хода за каждые 3 <sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Праздничной горячки</link></u></color> (До 3 каждого)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count\n- If the target is an ally, replace this effect with 5 [BloomingThorns]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3\nЕсли цель — союзник, заменяет эффект на 5 <sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущих шипов</link></u></color>"
                 }
               ]
             }
@@ -104,36 +104,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Parade Repeats for Eternity",
-          "desc": "[WhenUse] Clash Power +1 for every 20 [BloodDinner_Accumulation] by this unit (max 10)\n[WhenUse] At less than 50 [BloodDinner], gain 25 [Laceration], +2 [Laceration] Count, immediately trigger it twice, then reduce [Laceration] Count by 2 (at less than 10% HP, activate only the part of this effect where this unit gains [Laceration] Potency and Count)\n[WhenUse] Consume half of [BloodDinner]\n[EndBattle] Consume all [IncompleteParade]\n[EndBattle] Gain 10 [FestivalFever]",
+          "name": "Вечный парад",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 20 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Поглощённого собой кровавого пиршества</link></u></color> (До 10)\n[WhenUse] При менее 50 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>, дважды получает 25 урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color> (При ОЗ менее 10% только получает 25 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и 2 его счётчика)\n[WhenUse] Поглощает половину <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>\n[EndBattle] Тратит весь <sprite name=\"IncompleteParade\"><color=#e30000><u><link=\"IncompleteParade\">Несовершенный парад</link></u></color>\n[EndBattle] Получает 10 <sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Праздничной горячки</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by 25% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal by 25% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[EndCoin] Gain 1 [BloomingThorns] for every 10 [BloodDinner] consumed by this Skill (max 10)"
+                  "desc": "[EndCoin] Получает 1 <sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущий шип</link></u></color> за каждые 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>, поглощённого этой атакой (До 10)"
                 }
               ]
             }
@@ -146,20 +146,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "And that's all it does...",
-          "desc": "[DuelCounter]\n[WhenUse] At 5+ [FestivalFever], Clash Power +3\n[StartBattle] Gain 5 [BloomingThorns]\n[DefeatDuel] Lose 5 [BloomingThorns]",
+          "name": "И это всё, что нужно...",
+          "desc": "[DuelCounter]\n[WhenUse] При 5 и более <sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Праздничной горячки</link></u></color>, Сила в столкновении +3\n[StartBattle] Получает 5 <sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущего шипа</link></u></color>\n[DefeatDuel] Теряет 5 <sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущего шипа</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -172,42 +172,42 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Finale",
-          "desc": "[WhenUse] Consume half of [BloodDinner]\n[WinDuel] Deal +([BloodDinner] consumed by this Skill)% more damage (max 150%)\n[DefeatDuel] Deal -50% less damage, and the damage from this Skill does not Stagger the target\n[EndSkill] This unit's SP drops to -45",
+          "name": "Финал",
+          "desc": "[WhenUse] Поглощает половину <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>\n[WinDuel] Наносит на (Поглощённое атакой [BloodDinner:`Кровавое пиршество`])% больше урона (До 150%)\n[DefeatDuel] Атака наносит на 50% меньше урона и не может оглушить\n[EndSkill] СД падает до -45",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +6 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 6"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict 6 [Burst]"
+                  "desc": "[WinDuelAttack] Наносит 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +6 [Burst] Count"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 6"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[EndCoin] Gain 1 [BloomingThorns] for every 10 [BloodDinner] consumed by this Skill (max 10)"
+                  "desc": "[EndCoin] Получает 1 <sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущий шип</link></u></color> за каждые 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>, поглощённого этой атакой (До 10)"
                 }
               ]
             }
@@ -220,20 +220,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dragon of the Spring",
-          "desc": "[WhenUse] Gain 2 [Agility] next turn",
+          "name": "Весенний дракон",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -246,20 +246,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lotus in Autumn",
-          "desc": "[WhenUse] Gain 2 [Agility] next turn",
+          "name": "Осенний лотос",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -272,20 +272,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faint Trace",
-          "desc": "[WhenUse] Gain 3 [Agility] next turn",
+          "name": "Слабый след",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к Рубящему урону</link></u></color>"
                 }
               ]
             }
@@ -298,20 +298,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pallid Trace",
-          "desc": "If user's Speed is faster than target's by 5+, Clash Power +5",
+          "name": "Бледный след",
+          "desc": "Сила в столкновении +5, если скорость выше скорости цели на 5 или более",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 100 Bonus Damage"
+                  "desc": "[OnSucceedAttack] Наносит 100 дополнительного урона"
                 }
               ]
             }
@@ -324,20 +324,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Red Arwe",
-          "desc": "[WhenUse] Gain 2 [Agility] next turn",
+          "name": "Красная стрела",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 50 Bonus Damage"
+                  "desc": "[OnSucceedAttack] Наносит 50 дополнительного урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 50 Bonus Damage"
+                  "desc": "[OnSucceedAttack] Наносит 50 дополнительного урона"
                 }
               ]
             }
@@ -350,20 +350,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blak Arwe",
-          "desc": "[WhenUse] Gain 2 [Agility] next turn",
+          "name": "Чёрная стрела",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [MentalCrack]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"MentalCrack\"><color=#e30000><u><link=\"MentalCrack\">Ментального разлома</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [MentalCrack]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"MentalCrack\"><color=#e30000><u><link=\"MentalCrack\">Ментального разлома</link></u></color>"
                 }
               ]
             }
@@ -376,13 +376,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mirror of Water",
-          "desc": "[CanDuelGuard]\n[WhenUse] Gain 3 [Protection]\n[WinDuel] Deal HP damage equal to the final Clash Power of this Skill",
+          "name": "Водное зеркало",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок с поединком</link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WinDuel] Наносит урон по ОЗ, равный Итоговой силе этого навыка",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
@@ -395,8 +395,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electron Accelerator Rail Activation",
-          "desc": "[StartBattle] Gain 10 [Enhancement] and [Agility] next turn",
+          "name": "Активация рельсотронного-ускорителя электронов",
+          "desc": "[StartBattle] Получает 10 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышений силы атаки</link></u></color> и 10 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -414,8 +414,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Arwe",
-          "desc": "[WhenUse] Gain 5 [PenetrateDamageUp]",
+          "name": "Стрела",
+          "desc": "[WhenUse] Получает 5 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышений Пронзающего урона</link></u></color>",
           "coinlist": [
             {
               "coindescs": [

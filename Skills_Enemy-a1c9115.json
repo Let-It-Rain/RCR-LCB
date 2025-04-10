@@ -5,30 +5,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sky-clearing Cut",
-          "desc": "[StartBattle] If the main target has 5+ [Laceration], Atk Weight +1\n[StartBattle] If this unit will use 4+ Attack Skills this turn, Final Power +5\n[WinDuel] All allies heal 15 SP\nIf the target has 7+ [Laceration], deal +30% more damage",
+          "name": "Разрез, расчищающий небо",
+          "desc": "[StartBattle] Вес атаки +1, если у главной цели 10 и более [Laceration:`Кровотечения`]\n[StartBattle] при 5 и более атакующих навыках в слотах на начало хода, Итоговая сила +5\n[WinDuel] Восстанавливает 15 СД всем союзникам\nНаносит на 30% урона целям с 7 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target has 7+ [Laceration], deal +50% damage"
+                  "desc": "На 50% больше урона целям с 7 и более [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +10 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 10"
                 }
               ]
             }
@@ -41,16 +41,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rules of the Backstreets",
-          "desc": "[WhenUse] Add 1 more coin per every surviving other ally (max 3)",
+          "name": "Правила подворотен",
+          "desc": "[WhenUse] Получает ещё 1 монету за каждого другого  живого союзника (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[EnemyKill] All allies heal 20 SP"
+                  "desc": "[EnemyKill] Восстанавливает 20 СД всем союзникам"
                 }
               ]
             }

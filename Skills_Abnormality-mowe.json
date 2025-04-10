@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Grovel Before Me",
-          "desc": "[WhenUse] If the target has 4+ [Laceration], Clash Power +1",
+          "name": "Преклонитесь передо мной",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pathetic One",
-          "desc": "[WhenUse] If the target has 4+ [Laceration], Clash Power +1",
+          "name": "Жалкие людишки",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -43,14 +43,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Go... Go Away...!",
-          "desc": "[WhenUse] If the target has 4+ [Laceration], Clash Power +1\n[WhenUse] Deal +5% more damage for every [Laceration] Count on the target (max 20%)",
+          "name": "Ступайте вон... Вон!..",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] На 5% больше урона за каждую единицу счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 20%)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -63,34 +63,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Parade's Prince",
-          "desc": "[StartBattle] Gain Atk Weight equal to the number of targets with [Laceration] (max 5)\n[WhenUse] If the target has 4+ [Laceration], Base Power +1\n[WhenUse] If the target has 3+ [Laceration], Coin Power +1\n[DefeatDuel] Lose 1 [KeptBlood]",
+          "name": "Князь парада",
+          "desc": "[StartBattle] Вес атаки +(Количество противников с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>) (До 5)\n[WhenUse] Базовая сила +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Сила монет +1 против целей с 3 и выше на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Тратит 1 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Накопленную кровь</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -103,26 +103,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blood... Blood... Blood...!",
-          "desc": "[WhenUse] If the target has 8+ [Laceration], Coin Power +1\n[DefeatDuel] Lose 1 [KeptBlood]",
+          "name": "Кровь... Крови... Крови!..",
+          "desc": "[WhenUse] Сила монет +1 против целей с 8 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Тратит 1 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Накопленную кровь</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 10+ [Laceration], the next Coin deals +20% more damage"
+                  "desc": "[OnSucceedAttack] На 20% больше урона для следующей монеты против целей с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [KeptBlood]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Накопленную кровь</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -135,8 +135,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Leave Me Alone...!",
-          "desc": "[WhenUseEvade] Base Power +1 for every [Laceration] Count on the target (max 4)",
+          "name": "Оставьте меня!..",
+          "desc": "[WhenUse] Базовая сила +1 за каждую единицу счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 4)",
           "coinlist": [
             {}
           ]
@@ -148,34 +148,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I Am... The Prince... of the Parade...!",
-          "desc": "[CantDuel]\n[WhenUse] Double the amount healed by Hardblood[TabExplain] Glaive\n[WhenUse] Reset SP to 0\n[EndSkill] Gain 10 [KeptBlood]\nDoes not get Staggered this turn; ends turn after using this Skill.",
+          "name": "Я же... принц... сего шествия!..",
+          "desc": "[CantDuel]\n[WhenUse] Удваивает восстановление ОЗ от пассивного умения «Глефа из застывшей крови»\n[WhenUse] Сбрасывает СД до 0\n[EndSkill] Получает 10 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Накопленной крови</link></u></color>\nКассетти не может быть оглушён в этот ход; завершает ход после использования этого навыка",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             }
@@ -188,34 +188,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'm... Never... Going Back...!",
-          "desc": "[WhenUse] Clash Power +1 for every 5 [Laceration] on target (max 3)\n[WhenUse] If the target has 4+ [Laceration], Coin Power +1\n[WhenUse] Deal +5% more damage for every [Laceration] on target (max 20%)\n[WhenUse] Double the amount healed by Hardblood[TabExplain] Glaive\n[EndSkill] Gain 10 [KeptBlood]",
+          "name": "Я не вернусь... во веки веков!..",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3)\n[WhenUse] Сила монет +1 против целей с 4 и более на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели\n[WhenUse] Наносит н 5% больше урона за каждую единицу счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели (До 20%)\n[WhenUse] Удваивает восстановление ОЗ от пассивного умения «Глефа из застывшей крови»\n[EndSkill] Получает 10 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Накопленной крови</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             }

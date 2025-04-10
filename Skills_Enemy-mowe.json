@@ -5,13 +5,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coagulated Arm",
+          "name": "Отвердевшая рука",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -24,20 +24,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Jag",
+          "name": "Усиленный укол застывшей кровью",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -50,28 +50,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Collecting Blood",
-          "desc": "If target has 10+ [Laceration], deal +20% damage",
+          "name": "Сбор крови",
+          "desc": "На 20% больше урона против целей с 10 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более [Laceration:`Кровотечения`], поглощает до 10 [Laceration:`Кровотечения`] с цели на себя для восстановления (Поглощённое [Laceration:`Кровотечение`] × 2)% от максимальных ОЗ"
                 }
               ]
             }
@@ -84,13 +83,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -103,13 +102,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coagulated Arm",
+          "name": "Отвердевшая рука",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -122,20 +121,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Slice",
+          "name": "Усиленный разрез застывшей кровью",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -148,28 +147,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Collecting Blood",
-          "desc": "If target has 10+ [Laceration], deal +20% damage",
+          "name": "Сбор крови",
+          "desc": "На 20% больше урона против целей с 10 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более [Laceration:`Кровотечения`], поглощает до 10 [Laceration:`Кровотечения`] с цели на себя для восстановления (Поглощённое [Laceration:`Кровотечение`] × 2)% от максимальных ОЗ"
                 }
               ]
             }
@@ -182,13 +180,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -201,16 +199,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coagulated Arm",
+          "name": "Отвердевшая рука",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -223,16 +221,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Strike",
+          "name": "Усиленный удар застывшей кровью",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -245,28 +243,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Collecting Blood",
-          "desc": "If target has 10+ [Laceration], deal +20% damage",
+          "name": "Сбор крови",
+          "desc": "На 20% больше урона против целей с 10 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более [Laceration:`Кровотечения`], поглощает до 10 [Laceration:`Кровотечения`] с цели на себя для восстановления (Поглощённое [Laceration:`Кровотечение`] × 2)% от максимальных ОЗ"
                 }
               ]
             }
@@ -279,13 +276,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -298,16 +295,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rip",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Разрезание",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -320,26 +317,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stab Down",
-          "desc": "[WhenUse] Gain +5 [Charge] Count",
+          "name": "Рубка",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -352,24 +349,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% HP to gain Coin Power +2",
+          "name": "Оружие, усиленное застывшей кровью",
+          "desc": "[WhenUse] Сила монет +2 при трате всего имеющегося счётчика [Charge:`Заряда`] и (2 × (15 - потраченный счётчик [Charge:`Заряда`]))% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [DefenseDown:`Понижений уровня защиты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более [Laceration:`Кровотечения`], поглощает до 10 [Laceration:`Кровотечения`] с цели на себя для восстановления (Поглощённое [Laceration:`Кровотечение`] × 2)% от максимальных ОЗ"
                 }
               ]
             }
@@ -382,8 +378,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Блок",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -401,16 +397,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Thrust",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Укол",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -423,26 +419,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cleave",
-          "desc": "[WhenUse] Gain +5 [Charge] Count",
+          "name": "Разрез",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -455,24 +451,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% HP to gain Coin Power +2",
+          "name": "Оружие, усиленное застывшей кровью",
+          "desc": "[WhenUse] Сила монет +2 при трате всего имеющегося счётчика [Charge:`Заряда`] и (2 × (15 - потраченный счётчик [Charge:`Заряда`]))% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более [Laceration:`Кровотечения`], поглощает до 10 [Laceration:`Кровотечения`] с цели на себя для восстановления (Поглощённое [Laceration:`Кровотечение`] × 2)% от максимальных ОЗ"
                 }
               ]
             }
@@ -485,8 +480,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Уворот",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -504,19 +499,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spear Swing",
-          "desc": "[WhenUse] Gain +2 [Charge] Count",
+          "name": "Взмах копьём",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -529,32 +524,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tear Up Wound",
-          "desc": "[WhenUse] Gain +5 [Charge] Count",
+          "name": "Усугубление раны",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -567,27 +562,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Weapon",
-          "desc": "[WhenUse] Consume all [Charge] Count on self and consume 2(15 - [Charge] Count consumed)% HP to gain Coin Power +2",
+          "name": "Оружие, усиленное застывшей кровью",
+          "desc": "[WhenUse] Сила монет +2 при трате всего имеющегося счётчика [Charge:`Заряда`] и (2 × (15 - потраченный счётчик [Charge:`Заряда`]))% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Absorb up to 10 [Laceration] Potency from the target and heal ([Laceration] Potency absorbed x 2)% HP (this effect does not lower the target's [Laceration] Potency under 1)",
-                  "summary": "[OnSucceedAttack] Absorb [Laceration] on target to heal"
+                  "desc": "[OnSucceedAttack] Если на цели 2 и более [Laceration:`Кровотечения`], поглощает до 10 [Laceration:`Кровотечения`] с цели на себя для восстановления (Поглощённое [Laceration:`Кровотечение`] × 2)% от максимальных ОЗ"
                 }
               ]
             }
@@ -600,8 +594,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Блок",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -619,13 +613,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Activate Prosthesis",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain 3 [AttackUp]",
+          "name": "Запуск протеза",
+          "desc": "[WhenUse] При 10 и более единицах на счётчике [Charge:`Заряда`], тратит 5 единиц счётчика [Charge:`Заряда`] для получения 3 [AttackUp:`Повышений уровня атаки`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -638,23 +632,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Mark",
-          "desc": "[StartBattle] At 5- [Charge] Count, gain 5 [Charge] Count, 3 [Laceration] Count, and 1 [Vulnerable]\n[WhenUse] At 10+ [Charge] Count, consume 5 [Charge] Count to gain 3 [AttackUp]",
+          "name": "Метка гарпуном",
+          "desc": "[StartBattle] При 5 и менее единицах на своём счётчике [Charge:`Заряда`], повышает свой счётчик [Charge:`Заряда`] на 5, свой счётчик [Laceration:`Кровотечения`] на 3 и получает 1 [Vulnerable:`Уязвимость`]\n[WhenUse] При 10 и более единицах на счётчике [Charge:`Заряда`], тратит 5 единиц счётчика [Charge:`Заряда`] для получения 3 [AttackUp:`Повышений уровня атаки`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -667,26 +661,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Harpoon",
-          "desc": "[WhenUse] Consume 10% HP on self to gain +10 [Charge] Count",
+          "name": "Усиленный застывшей кровью гарпун",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 10",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count."
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`]"
                 }
               ]
             }
@@ -699,8 +693,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -718,16 +712,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Activate Prosthesis",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% more damage\n[WhenUse] At 5- [Charge] Count, lose 10% HP and gain +5 [Charge] Count",
+          "name": "Запуск протеза",
+          "desc": "[WhenUse] При 10 и более единицах на счётчике [Charge:`Заряда`], тратит 3 единицы счётчика [Charge:`Заряда`] для получения +1 к Силе монет\n[WhenUse] При 15 и более единицах на счётчике [Charge:`Заряда`], тратит ещё 3 единицы счётчика [Charge:`Заряда`] для повышения урона атаки на 20%\n[WhenUse] При 5 и менее единиц на счётчике [Charge:`Заряда`], тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
@@ -740,36 +734,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Reflux",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% more damage\n[WhenUse] At 5- [Charge] Count, lose 10% HP and gain +5 [Charge] Count",
+          "name": "Обратное течение крови",
+          "desc": "[WhenUse] При 10 и более единицах на счётчике [Charge:`Заряда`], тратит 3 единицы счётчика [Charge:`Заряда`] для получения +1 к Силе монет\n[WhenUse] При 15 и более единицах на счётчике [Charge:`Заряда`], тратит ещё 3 единицы счётчика [Charge:`Заряда`] для повышения урона атаки на 20%\n[WhenUse] При 5 и менее единиц на счётчике [Charge:`Заряда`], тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -782,29 +776,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bioenergy Conversion Charge",
-          "desc": "[WhenUse] Consume 10% HP on self to gain +15 [Charge] Count",
+          "name": "Конверсивная подзарялка биоэнергией",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 15",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
                 }
               ]
             }
@@ -817,8 +811,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Laceration] Count on self (max 2)",
+          "name": "Блок",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы счётчика [Laceration:`Кровотечения`] на себе (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -836,23 +830,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Hardblood Transfusion",
-          "desc": "[WhenUse] At 10+ [Charge] Count, consume 3 [Charge] Count to gain Coin Power +1\n[WhenUse] At 15+ [Charge] Count, consume 3 additional [Charge] Count to deal +20% more damage\n[WhenUse] At 5- [Charge] Count, lose 10% HP and gain +5 [Charge] Count",
+          "name": "Перемещение крови",
+          "desc": "[WhenUse] При 10 и более единицах на счётчике [Charge:`Заряда`], тратит 3 единицы счётчика [Charge:`Заряда`] для получения +1 к Силе монет\n[WhenUse] При 15 и более единицах на счётчике [Charge:`Заряда`], тратит ещё 3 единицы счётчика [Charge:`Заряда`] для повышения урона атаки на 20%\n[WhenUse] При 5 и менее единиц на счётчике [Charge:`Заряда`], тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -865,39 +859,39 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bioenergy Conversion Recharge",
-          "desc": "[WhenUse] Consume 10% HP on self to gain +15 [Charge] Count",
+          "name": "Конверсивная подзарялка биоэнергией",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 15",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
                 }
               ]
             }

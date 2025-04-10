@@ -1,58 +1,59 @@
 {
     "dataList": [
-        {
-            "id": 107804,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Let's Get Packing",
-                    "desc": "If this unit has [AaCeSeBa], add 'Inflict 1 [Paralysis] next turn' to Coin effects\nTargets the unit with the lowest Speed\n[EndBattle] Spend all [Charge] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 3 [Breath]."
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Deal bonus damage equal to [Breath] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 1 [Breath] and +3 [Breath] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Randomly select 1 of 4 effects ([Protection], [Enhancement], [Vulnerable], [Paralysis]). Inflict or apply 3 of the selected effect."
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Target loses SP equal to [Charge] Count on this unit"
-                                },
-                                {
-                                    "desc": "[EnemyKill] All enemies lose 10 Sp."
-                                },
-                                {
-                                    "desc": "[EnemyKillFail] Gain 2 [Paralysis] next turn."
-                                }
-                            ]
-                        }
-                    ]
-                }
+      {
+        "id": 107804,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Возьмёмся за упаковку",
+            "desc": "Если есть [AaCeSeBa:`ХО! ХО! ХО!`], наносит каждой монетой 1 [Paralysis:`Паралич`] на следующий ход\nНацеливается на противника с наименьшей скоростью\n[EndBattle] Тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> и повышает его счётчик на 3"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Случайно накладывает 1 [Protection:`Защищённость`], [Enhancement:`Повышение силы атаки`], [Vulnerable:`Уязвимость`] или [Paralysis:`Паралич`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Цель теряет СД в количестве счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Сантаты"
+                  },
+                  {
+                    "desc": "[EnemyKill] Все противники теряют 10 СД"
+                  },
+                  {
+                    "desc": "[EnemyKillFail] Получает 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход."
+                  }
+                ]
+              }
             ]
-        }
+          }
+        ]
+      }
     ]
-}
+  }
+  

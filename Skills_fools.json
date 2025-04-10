@@ -5,16 +5,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gimme Candy.",
-          "desc": "Prioritizes targets with [CandyForCharon]\n[EndSkill] If the target does not have [CandyForCharon], inflict [CandyForCharon]",
+          "name": "Дай конфет.",
+          "desc": "Выбирает цели, у которых, наверное, есть [CandyForCharon:`Конфеты`]\n[EndSkill] Если у цели небыло предполагаемых [CandyForCharon:`Конфет`], они у неё появляются",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has [CandyForCharon], the target becomes Staggered next turn."
+                  "desc": "[OnSucceedAttack] Если у цели были [CandyForCharon:`Конфеты?`], оглушает её на следующем ходу"
                 }
               ]
             }
@@ -27,7 +27,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "No Candy.",
+          "name": "Нет конфет.",
           "desc": "",
           "coinlist": [
             {
@@ -46,20 +46,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You...",
+          "name": "Ты...",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             }
@@ -72,20 +72,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... Kkomi's angry.",
-          "desc": "[BeforeAttack] Gain Atk Weight equal to number of enemies with [CandyForCharon]\n[WhenUse] Gain Clash Power equal to the number of enemies with [CandyForCharon]",
+          "name": "... Ккоми злой.",
+          "desc": "[BeforeAttack] Количество целей и сила в столкновении повышаются на количество противников с предполагаемыми [CandyForCharon:`Конфетами`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             }
@@ -98,8 +98,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vroom-Vroom",
-          "desc": "[WhenUse] Gain Clash Power equal to the number of Identities with [CandyForCharon]\nDeal +10% more damage for every Identity with [CandyForCharon] (max 100%)",
+          "name": "Врум-врум",
+          "desc": "[WhenUse] Сила в столкновении повышается на количество противников с предполагаемыми [CandyForCharon:`Конфетами`], а урон на 10% (До 100%)",
           "coinlist": [
             {},
             {}
@@ -112,8 +112,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You hit Kkomi.",
-          "desc": "[WhenUse] Gain 2 [ParryingResultUp] and 2 [Agility] next turn",
+          "name": "Ты сделал больно Ккоми.",
+          "desc": "[WhenUse] Получает 2 [ParryingResultUp:`Повышения силы в столкновении`] и 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

@@ -5,26 +5,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...nocking",
-          "desc": "[WhenUse] If target has 5+ [Sinking], inflict 1 [AttackDown]",
+          "name": "...тук",
+          "desc": "[WhenUse] Наносит 1 [AttackDown:`Понижение уровня атаки`] целям с 5 и более [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -37,23 +37,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...to Clean",
-          "desc": "[WhenUse] If the target is at 10 or less SP, inflict 2 [AttackDown]\n[WinDuel] Inflict 1 [Vulnerable]",
+          "name": "...очистить",
+          "desc": "[WhenUse] Наносит 2 [AttackDown:`Понижения уровня атаки`], если СД цели 10 или менее\n[WinDuel] Наносит 1 [Vulnerable:`Уязвимость`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PlusCoinValueDown] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }
@@ -66,36 +66,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...mmands...!",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Sinking] on target (max 3)\n[WinDuel] All allies heal 5 SP",
+          "name": "...иледи...!",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (макс. 3)\n[WinDuel] Все союзники восстанавливают 5 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             }
@@ -108,33 +108,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...of Dust",
-          "desc": "[WhenUse] Base Power +1 for every 6 [Sinking] on target (max 3)\n[WhenUse] Deal +10% more damage for every 6 [Sinking] Count on target (max 30%)",
+          "name": "...из Праха",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 6 [Sinking:`Утопания`] на цели (макс. 3)\n[WhenUse] Наносит на 10% больше урона за каждые 6 счётчиков [Sinking:`Утопания`] цели (До 30%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity bonus damage equal to [Sinking] on target. Reduce [Sinking] Count on target by 1"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity bonus damage equal to [Sinking] on target. Reduce [Sinking] Count on target by 1"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Gloom Affinity bonus damage equal to [Sinking] on target."
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 3+ [Sinking] Count, Reuse this Coin (twice)"
+                  "desc": "[OnSucceedAttack] Если у цели 3 и более счётчика [Sinking:`Утопания`], заново подкидывает монету (Дважды)"
                 }
               ]
             }
@@ -147,8 +147,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slipp...",
-          "desc": "If this unit has remaining Shield HP at Turn End, lower Stagger threshold by 50",
+          "name": "Скольз...",
+          "desc": "Если остаётся щит к концу хода, снижает свою границу выносливости на 50",
           "coinlist": [
             {}
           ]
@@ -160,20 +160,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Damn Pl...",
+          "name": "Проклятые пле...",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackUp] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackUp:`Повышение уровня атаки`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackUp] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackUp:`Повышение уровня атаки`] на следующий ход"
                 }
               ]
             }
@@ -186,20 +186,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Remo...",
-          "desc": "[WinDuel] Base Power +1",
+          "name": "Я сотру...",
+          "desc": "[WinDuel] Базовая сила +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target has [AttackDown], deal 20% of damage dealt as bonus Blunt damage"
+                  "desc": "[OnSucceedAttack] Если у цели есть [AttackDown:`Понижение уровня атаки`], наносит ещё 20% от нанесённого урона Дробящим уроном"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the target has [AttackDown], deal 20% of damage dealt as bonus Blunt damage"
+                  "desc": "[OnSucceedAttack] Если у цели есть [AttackDown:`Понижение уровня атаки`], наносит ещё 20% от нанесённого урона Дробящим уроном"
                 }
               ]
             }
@@ -212,28 +212,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Make Things...",
-          "desc": "[WinDuel] If the target has 2+ [AttackDown], Base Power +1\n[WhenUse] If the target has [DefenseDown], deal 30% of damage dealt as bonus Blunt damage",
+          "name": "Снова все...",
+          "desc": "[WinDuel] Если у цели 2 и более [AttackDown:`Понижения уровня атаки`], Базовая сила +1\n[WhenUse] Если у цели есть [DefenseDown:`Понижение уровня защиты`], наносит ещё 30% от нанесённого урона Дробящим уроном",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 4 SP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
                 }
               ]
             }
@@ -246,29 +246,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "... ove You",
-          "desc": "Prioritizes targets with the most negative effects\n[WinDuel] Coin Power +1 for every 3 [DefenseDown] on target (max 3)",
+          "name": "Раздав..",
+          "desc": "Выбирает цели с наибольшим количеством отрицательных эффектов\n[WinDuel] Сила монет +1 за каждые 3 [DefenseDown:`Понижения уровня защиты`] на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal +30% more damage for every 2 [AttackDown] on target (max 120%)"
+                  "desc": "[OnSucceedAttack] На 30% больше урона за каждые 2 [AttackDown:`Понижения уровня атаки`] цели (До 120%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] If the target has 3+ negative effects, reuse this coin (once)"
+                  "desc": "[OnSucceedAttackHead] Если на цели 3 и более отрицательных эффекта, заново подкидывает монету (Единожды)"
                 }
               ]
             }
@@ -281,8 +281,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
-          "desc": "[StartBattle] Gain 20 additional Shield HP for every surviving ally",
+          "name": "Блок",
+          "desc": "[StartBattle] Получает ещё 20 ОЗ щита за каждого живого союзника",
           "coinlist": [
             {
               "coindescs": [
@@ -300,13 +300,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Marc...",
+          "name": "Сби...",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -319,13 +319,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...te",
-          "desc": "[WhenUse] If the target has 2+ negative effects, Base Power +1",
+          "name": "...се",
+          "desc": "[WhenUse] Если на цели 2 и более отрицательных эффекта, Базовая сила +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -338,23 +338,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fl...he",
-          "desc": "[WhenUse] If the target has 4+ negative effects, Coin Power +1",
+          "name": "Про...",
+          "desc": "[WhenUse] Если на цели 4 и более отрицательных эффекта, Сила монеты +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PenetrateTakeDamageUp] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -367,26 +367,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cou...oit",
-          "desc": "[WhenUse] If the target has 5+ negative effects, Base Power +2\n[WhenUse] If the target has 5+ negative effects, deal +30% more damage",
+          "name": "Пря..",
+          "desc": "[WhenUse] Если на цели 5 и более отрицательных эффектов, Базовая сила +2\n[WhenUse] Если на цели 5 и более отрицательных эффектов, наносит на 30% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has 5+ negative effects, reuse this coin (2 times max)"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более отрицательных эффектов, заново подкидывает монету (До 2 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove 1 random removable negative effect applied on target"
+                  "desc": "[OnSucceedAttack] Убирает 1 случайный съёмный отрицательный эффект с цели"
                 }
               ]
             }
@@ -400,7 +400,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[OnSucceedEvade] Heal 5 SP (2 times max)",
+          "desc": "[OnSucceedEvade] Восстанавливает 5 СД (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [

@@ -1,1186 +1,1186 @@
 {
     "dataList": [
-        {
-            "id": 9015801,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Slam",
-                    "desc": "[WhenUse] If this unit has [HardenedBlood], and if this Skill's Coin effect inflicts [Burst], inflict +1 [Laceration] Count as well",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+      {
+        "id": 9015801,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный удар застывшей кровью",
+            "desc": "[WhenUse] Если имеется [HardenedBlood:`Застывшая кровь`] и эффекты монет могут нанести [Burst:`Разрыв`], повышает счётчик [Laceration:`Кровотечения`] ещё на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015802,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Aimless Wrath",
-                    "desc": "[WhenUse] If the target has 5+ [Laceration], Coin Power +1\n[WhenUse] If this unit has 3+ [HardenedBlood], and if this Skill's Coin effect inflicts [Burst], inflict 2 [Laceration] as well",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has [Laceration], gain 1 [HardenedBlood]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015802,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Безудержный гнев",
+            "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Если имеется 3 и более [HardenedBlood:`Застывшей крови`], а эффекты монеты могут нанести [Burst:`Разрыв`], наносит ещё 2 [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`], получает 1 [HardenedBlood:`Застывшую кровь`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015803,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Unbridled Smite",
-                    "desc": "[WhenUse] If the target has 5+ [Laceration], Coin Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 10+ [Laceration], deal +20% more damage"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015803,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Неистовое возмездие",
+            "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:`Кровотечения`], на 20% больше урона"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015804,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Guard",
-                    "desc": "[WhenUse] If the target has [Laceration], gain 1 [HardenedBlood]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015804,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Блок",
+            "desc": "[WhenUse] Если на цели есть [Laceration:`Кровотечение`], получает 1 [HardenedBlood:`Застывшую кровь`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": ""
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015901,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Slam",
-                    "desc": "[WhenUse] If this unit has [HardenedBlood], and if this Skill's Coin effect inflicts [Burst], inflict +1 [Laceration] Count as well",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015901,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный удар застывшей кровью",
+            "desc": "[WhenUse] Если имеется [HardenedBlood:`Застывшая кровь`] и эффекты монет могут нанести [Burst:`Разрыв`], повышает счётчик [Laceration:`Кровотечения`] ещё на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015902,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Aimless Wrath",
-                    "desc": "[WhenUse] If the target has 5+ [Laceration], Coin Power +1\n[WhenUse] If this unit has 3+ [HardenedBlood], and if this Skill's Coin effect inflicts [Burst], inflict +1 [Laceration] Count as well",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has [Laceration], gain 1 [HardenedBlood]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015902,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Безудержный гнев",
+            "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Если имеется 3 и более [HardenedBlood:`Застывшей крови`], а эффект монеты могут нанести [Burst:`Разрыв`], повышает счётчик [Laceration:`Кровотечения`] ещё на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`], получает 1 [HardenedBlood:`Застывшую кровь`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015903,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Unbridled Smite",
-                    "desc": "[WhenUse] If the target has 5+ [Laceration], Coin Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 10+ [Laceration], deal +20% more damage"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015903,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Неистовое возмездие",
+            "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:`Кровотечения`], на 20% больше урона"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9015904,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Guard",
-                    "desc": "[WhenUse] If the target has [Laceration], gain 1 [HardenedBlood]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": ""
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9015904,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Блок",
+            "desc": "[WhenUse] Если на цели есть [Laceration:`Кровотечение`], получает 1 [HardenedBlood:`Застывшую кровь`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": ""
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9016901,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Thrash",
-                    "desc": "[DefeatDuel] Gain 10 [Laceration] and +1 [Laceration] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 10 [Laceration] and 1 [BloodyHand]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9016901,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный взмах застывшей кровью",
+            "desc": "[DefeatDuel] Получает 10 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 10 [Laceration:`Кровотечения`] и 1 [BloodyHand:`Окровавленную руку`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9016902,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Lash",
-                    "desc": "[WhenUse] If the target has 8+ [Laceration], deal +20% damage",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 6+ [Laceration], gain 1 [HardenedBlood]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 20 [Laceration] and 2 [BloodyHand]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9016902,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный хлыст застывшей кровью",
+            "desc": "[WhenUse] Наносит на 20% больше урона против целей с 8 и более [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 6 и более [Laceration:`Кровотечения`], получает 1 [HardenedBlood:`Застывшую кровь`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 20 [Laceration:`Кровотечения`] и 2 [BloodyHand:`Окровавленные руки`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9016903,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Strike",
-                    "desc": "[WhenUse] If the target has 6+ [Laceration], Base Power +1\n[WhenUse] When inflicting [Laceration] with this Skill, inflict [Burst] equal to [HardenedBlood] on self as well\n[EndSkill] Consume all [HardenedBlood] and [BloodyHand]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([Laceration] on target)% HP (max 20%)"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9016903,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный удар застывшей кровью",
+            "desc": "[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Базовая сила +1\n[WhenUse] При нанесении [Laceration:`Кровотечения`] этой атакой, наносит [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]\n[EndSkill] Тратит всю [HardenedBlood:`Застывшую кровь`] и [BloodyHand:`Окровавленные руки`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 20%)"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9016904,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Counter",
-                    "desc": "[WhenUse] Base Power +1 for every [HardenedBlood] on self",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9016904,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Контратака",
+            "desc": "[WhenUse] Базовая сида +1 за каждую [HardenedBlood:`Застывшую кровь`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017001,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Thrash",
-                    "desc": "[DefeatDuel] Gain 10 [Laceration] and +1 [Laceration] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 10 [Laceration] and 1 [BloodyHand]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017001,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный взмах застывшей кровью",
+            "desc": "[DefeatDuel] Получает 10 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 10 [Laceration:`Кровотечения`] и 1 [BloodyHand:`Окровавленную руку`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017002,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Lash",
-                    "desc": "[WhenUse] If the target has 4+ [Laceration], deal +10% more damage",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 6+ [Laceration], gain 1 [HardenedBlood]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 20 [Laceration] and 2 [BloodyHand]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017002,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный хлыст застывшей кровью",
+            "desc": "[WhenUse] Наносит на 10% больше урона против целей с 4 и более [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 6 и более [Laceration:`Кровотечения`], получает 1 [HardenedBlood:`Застывшую кровь`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 20 [Laceration:`Кровотечения`] и 2 [BloodyHand:`Окровавленные руки`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017003,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Strike",
-                    "desc": "[WhenUse] If the target has 6+ [Laceration], Base Power +1\n[WhenUse] When inflicting [Laceration] with this Skill, inflict [Burst] equal to [HardenedBlood] on self as well\n[EndSkill] Consume all [HardenedBlood] and [BloodyHand]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([Laceration] on target)% HP (max 20%)"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017003,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Усиленный удар застывшей кровью",
+            "desc": "[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Базовая сила +1\n[WhenUse] При нанесении [Laceration:`Кровотечения`] этой атакой, наносит [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]\n[EndSkill] Тратит всю [HardenedBlood:`Застывшую кровь`] и [BloodyHand:`Окровавленные руки`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 20%)"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017004,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Counter",
-                    "desc": "[WhenUse] Base Power +1 for every [HardenedBlood] on self",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttackHead] Inflict 2 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017004,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Контратака",
+            "desc": "[WhenUse] Базовая сила +1 за каждую [HardenedBlood:`Застывшую кровь`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017101,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Please answer the survey.",
-                    "desc": "[WhenUse] Gain 5 [Laceration] and +1 [Laceration] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017101,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Пройдите опрос",
+            "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017102,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Don't! Don't Cut Me Off!",
-                    "desc": "[WhenUse] Gain 5 [Laceration] and +1 [Laceration] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 5+ [Laceration], gain 1 [BloodyHand]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017102,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Нет! Не обрывай меня!",
+            "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration:`Кровотечения`], получает 1 [BloodyHand:`Окровавленную руку`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017103,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Faded Patience",
-                    "desc": "[WhenUse] Consume up to 50 [BloodDinner]; gain 1 [BloodyHand] for every 10 [BloodDinner] consumed\n[WhenUse] If the target has 5+ [Laceration], Coin Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndSkill] If this unit failed to consume [BloodDinner] with this Skill, gain 10 [Laceration] and 1 [BloodyHand]."
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017103,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Иссякшее терпение",
+            "desc": "[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodyHand:`Окровавленную руку`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[EndSkill] Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 10 [Laceration:`Кровотечения`] и 1 [BloodyHand:`Окровавленную руку`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017104,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Endless Atonement",
-                    "desc": "[WhenUse] If the target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every [HardenedBlood] on self\n[DefeatDuel] Lose 2 [BloodyHand]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Consume all [BloodyHand] to inflict +3 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Consume all [HardenedBlood] on self to increase [BloodDinner] by (consumed [HardenedBlood] x 3) and gain 5 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([Laceration] on target)% HP (max 30%)"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017104,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Бесконечное искупление",
+            "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила в столкновении +1 за каждую [HardenedBlood:`Застывшую кровь`]\n[DefeatDuel] Теряет 2 [BloodyHand:`Окровавленные руки`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Тратит все [BloodyHand:`Окровавленные руки`], чтобы повысить счётчик [Laceration:`Кровотечения`] цели на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Тратит всю [HardenedBlood:`Застывшую кровь`], чтобы повысить [BloodDinner:`Кровавое пиршество`] на (Потраченная [HardenedBlood:`Застывшая кровь`] × 3) и получить 5 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 30%)"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017105,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Counter",
-                    "desc": "[WhenUse] At 1+ [BloodyHand], Base Power +1\n[WhenUse] At 3+ [HardenedBlood], Coin Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017105,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Контратака",
+            "desc": "[WhenUse] Если есть [BloodyHand:`Окровавленная рука`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017201,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Please answer the survey.",
-                    "desc": "[WhenUse] Gain 5 [Laceration] and +1 [Laceration] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017201,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Пройдите опрос",
+            "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017202,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Don't! Don't Cut Me Off!",
-                    "desc": "[WhenUse] Gain 5 [Laceration] and +1 [Laceration] Count",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 5+ [Laceration], gain 1 [BloodyHand]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017202,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Нет! Не обрывай меня!",
+            "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration:`Кровотечения`], получает 1 [BloodyHand:`Окровавленную руку`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017203,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Faded Patience",
-                    "desc": "[WhenUse] Consume up to 50 [BloodDinner]; gain 1 [BloodyHand] for every 10 [BloodDinner] consumed\n[WhenUse] If the target has 5+ [Laceration], Coin Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[EndSkill] If this unit failed to consume [BloodDinner] with this Skill, gain 10 [Laceration] and 1 [BloodyHand]."
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017203,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Иссякшее терпение",
+            "desc": "[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodyHand:`Окровавленную руку`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[EndSkill] Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 10 [Laceration:`Кровотечения`] и 1 [BloodyHand:`Окровавленную руку`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017204,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Endless Atonement",
-                    "desc": "[WhenUse] If the target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every [HardenedBlood] on self\n[DefeatDuel] Lose 2 [BloodyHand]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Consume all [BloodyHand] to inflict +3 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Consume all [HardenedBlood] on self to increase [BloodDinner] by (consumed [HardenedBlood] x 3) and gain 5 [Laceration]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([Laceration] on target)% HP (max 30%)"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017204,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Бесконечное искупление",
+            "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила в столкновении +1 за каждую [HardenedBlood:`Застывшую кровь`] на себе\n[DefeatDuel] Треяет 2 [BloodyHand:`Окровавленные руки`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Тратит все [BloodyHand:`Окровавленные руки`], чтобы повысить счётчик [Laceration:`Кровотечения`] на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Тратит всю [HardenedBlood:`Застывшую кровь`], чтобы увеличить [BloodDinner:`Кровавое пиршество`] на (Потраченная [HardenedBlood:`Застывшая кровь`] × 3) и получить 5 [Laceration:`Кровотечения`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 30%)"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017205,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Counter",
-                    "desc": "[WhenUse] At 1+ [BloodyHand], Base Power +1\n[WhenUse] At 3+ [HardenedBlood], Coin Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017205,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Контратака",
+            "desc": "[WhenUse] Если есть [BloodyHand:`Окровавленная рука`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017301,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Downward Cut",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttackHead] Inflict 2 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017301,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Рубящий удар застывшей кровью",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:`Разрыва`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017302,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Carve",
-                    "desc": "[WhenUse] Final Power +1 for every 5 [FestivalFever] on self or every 6 [Laceration] on the target (max 2)\n[WhenUse] Gain 15 [Laceration], immediately trigger it once, and reduce [Laceration] Count by 1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 6+ [Laceration], gain 1 [HardenedBlood]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 1 [BloomingThorns]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017302,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Разрез застывшей кровью",
+            "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 15 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 6 и более [Laceration:`Кровотечения`], получает 1 [HardenedBlood:`Застывшую кровь`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 1 [BloomingThorns:`Цветущий шип`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017303,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Power Unfurling",
-                    "desc": "[WhenUse] Gain 15 [Laceration] and +2 [Laceration] Count, immediately trigger it twice, then reduce [Laceration] Count by 2\n[EndBattle] Consume all [HardenedBlood] and [FestivalFever]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict [Laceration] and [Burst] equal to [HardenedBlood] on self"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([FestivalFever] x 2.5)% HP (max 20%)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 2 [FestivalFever]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017303,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Высвобождение силы застывшей крови",
+            "desc": "[WhenUse] Дважды получает 15 урона [Laceration:`Кровотечением`]\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит [Laceration:`Кровотечение`] и [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 2.5)% ОЗ (До 20%)"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Получает 2 [FestivalFever:`Праздничных горячки`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017304,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Evade",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +1\n[StartBattle] Gain 2 [FestivalFever]\n[OnDefeatEvade] Lose 2 [FestivalFever]",
-                    "coinlist": [
-                        {}
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017304,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Уворот",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1\n[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
+            "coinlist": [
+              {}
             ]
-        },
-        {
-            "id": 9017401,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Lash",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttackHead] Inflict 2 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017401,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Хлёсткий удар застывшей кровью",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:`Разрыва`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017402,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Wild Jag",
-                    "desc": "[WhenUse] Final Power +1 for every 5 [FestivalFever] on self or every 6 [Laceration] on the target (max 2)\n[WhenUse] Gain 15 [Laceration], immediately trigger it once, and reduce [Laceration] Count by 1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] If the target has 6+ [Laceration], gain 1 [HardenedBlood]"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 1 [BloomingThorns]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017402,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Дикий рывок застывшей крови",
+            "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 15 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Если на цели 6 и более [Laceration:`Кровотечения`], получает 1 [HardenedBlood:`Застывшую кровь`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 1 [BloomingThorns:`Цветущий шип`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017403,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Hardblood Power Unfurling",
-                    "desc": "[WhenUse] Gain 15 [Laceration] and +2 [Laceration] Count, immediately trigger it twice, then reduce [Laceration] Count by 2\n[EndBattle] Consume all [HardenedBlood] and [FestivalFever]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict [Laceration] and [Burst] equal to [HardenedBlood] on self"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([FestivalFever] x 2.5)% HP (max 20%)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 2 [FestivalFever]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017403,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Высвобождение силы застывшей крови",
+            "desc": "[WhenUse] Получает 15 [Laceration:`Кровотечения`] и дважды активирует его\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит [Laceration:`Кровотечение`] и [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 2.5)% ОЗ (До 20%)"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Получает 2 [FestivalFever:`Праздничных горячки`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017404,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Evade",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +1\n[StartBattle] Gain 2 [FestivalFever]\n[OnDefeatEvade] Lose 2 [FestivalFever]",
-                    "coinlist": [
-                        {}
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017404,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Уворот",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1\n[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
+            "coinlist": [
+              {}
             ]
-        },
-        {
-            "id": 9017501,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Welcome to the Festival of Wonders!",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +2",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttackHead] Inflict 3 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017501,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Добро пожаловать на Фестиваль чудес!",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                  },
+                  {
+                    "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:`Разрыва`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017502,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Join the Joyful Parade!",
-                    "desc": "[WhenUse] Final Power +1 for every 5 [FestivalFever] on self or every 6 [Laceration] on the target (max 3)\n[WhenUse] At less than 20 [BloodDinner], gain 20 [Laceration] and immediately trigger it once, then reduce [Laceration] Count by 1\n[EndSkill] Consume 20 [BloodDinner]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 1 [HardenedBlood] for every 6 [Laceration] on the target (max 2)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[WinDuelAttack] Inflict 4 [Laceration] and +3 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 2~3 [BloomingThorns]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017502,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Присоединяйся к радостному параду!",
+            "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] При менее 20 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик\n[EndSkill] Поглощает 20 [BloodDinner:`Кровавого пиршества`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Получает 1 [HardenedBlood:`Застывшую кровь`] за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[WinDuelAttack] Наносит 4 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 2~3 [BloomingThorns:`Цветущих шипа`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017503,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Blossom your Smiles of Joy!",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Coin Power +1\n[WhenUse] If the target has 6+ [Laceration], Clash Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {},
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[WinDuelAttack] Gain 2 [FestivalFever]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017503,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Расцветайте улыбками радости!",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Сила монет +1\n[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Сила в столкновении +1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                  }
+                ]
+              },
+              {},
+              {
+                "coindescs": [
+                  {
+                    "desc": "[WinDuelAttack] Получает 2 [FestivalFever:`Праздничной горячки`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017504,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Eternal Kingdom of Happiness, La Manchaland!",
-                    "desc": "[WhenUse] At less than 40 [BloodDinner], gain 20 [Laceration] and +2 [Laceration] Count, immediately trigger it twice, then reduce [Laceration] Count by 2\n[EndSkill] Consume 40 [BloodDinner]\n[EndBattle] Consume all [HardenedBlood] and [FestivalFever]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict [Laceration] and [Burst] equal to [HardenedBlood] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([FestivalFever] x 4)% HP (max 40%)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 5 [BloomingThorns]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017504,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Вечное королевство счастья, Ла-Манчаленд!",
+            "desc": "[WhenUse] При менее 40 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и дважды активирует его\n[EndSkill] Поглощает 40 [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит [Laceration:`Кровотечение`] и [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 4)% ОЗ (До 40%)"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 5 [BloomingThorns:`Цветущих шипов`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017505,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Evade",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +2\n[StartBattle] Gain 3 [FestivalFever]\n[OnDefeatEvade] Lose 3 [FestivalFever]",
-                    "coinlist": [
-                        {}
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017505,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Уворот",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2\n[StartBattle] Получает 3 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 3 [FestivalFever:`Праздничной горячки`]",
+            "coinlist": [
+              {}
             ]
-        },
-        {
-            "id": 9017601,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Welcome to the Festival of Wonders!",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +2",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +3 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttackHead] Inflict 3 [Burst]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017601,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Добро пожаловать на Фестиваль чудес!",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:`Разрыва`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017602,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Let's All Match Our Steps, Dance!",
-                    "desc": "[WhenUse] Final Power +1 for every 5 [FestivalFever] on self or every 6 [Laceration] on the target (max 3)\n[WhenUse] At less than 20 [BloodDinner], gain 20 [Laceration] and immediately trigger it once, then reduce [Laceration] Count by 1\n[EndSkill] Consume 20 [BloodDinner]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 1 [HardenedBlood] for every 6 [Laceration] on the target (max 2)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[WinDuelAttack] Inflict 4 [Laceration] and +3 [Laceration] Count"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 2~3 [BloomingThorns]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017602,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Давайте танцевать в такт!",
+            "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] При менее 20 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик\n[EndSkill] Поглощает 20 [BloodDinner:`Кровавого пиршества`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Получает 1 [HardenedBlood:`Застывшую кровь`] за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[WinDuelAttack] Наносит 4 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 2~3 [BloomingThorns:`Цветущих шипа`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017603,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Lose Yourself in the Singing!",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Coin Power +1\n[WhenUse] If the target has 6+ [Laceration], Clash Power +1",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                                }
-                            ]
-                        },
-                        {},
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[WinDuelAttack] Gain 2 [FestivalFever]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017603,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Растворись в пении!",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Сила монет +1\n[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Сила в столкновении +1",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                  }
+                ]
+              },
+              {},
+              {
+                "coindescs": [
+                  {
+                    "desc": "[WinDuelAttack] Получает 2 [FestivalFever:`Праздничной горячки`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017604,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Eternal Kingdom of Happiness, La Manchaland!",
-                    "desc": "[WhenUse] At less than 40 [BloodDinner], gain 20 [Laceration] and +2 [Laceration] Count, immediately trigger it twice, then reduce [Laceration] Count by 2\n[EndSkill] Consume 40 [BloodDinner]\n[EndBattle] Consume all [HardenedBlood] and [FestivalFever]",
-                    "coinlist": [
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[OnSucceedAttack] Inflict [Laceration] and [Burst] equal to [HardenedBlood] on self"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Heal ([FestivalFever] x 4)% HP (max 40%)"
-                                }
-                            ]
-                        },
-                        {
-                            "coindescs": [
-                                {
-                                    "desc": "[SuperCoin]"
-                                },
-                                {
-                                    "desc": "[OnSucceedAttack] Gain 5 [BloomingThorns]"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017604,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Вечное королевство счастья, Ла-Манчаленд!",
+            "desc": "[WhenUse] При менее 40 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и дважды активирует его \n[EndSkill] Поглощает 40 [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+            "coinlist": [
+              {
+                "coindescs": [
+                  {
+                    "desc": "[OnSucceedAttack] Наносит [Laceration:`Кровотечение`] и [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 4)% ОЗ (До 40%)"
+                  }
+                ]
+              },
+              {
+                "coindescs": [
+                  {
+                    "desc": "[SuperCoin:`Вечная монета`]"
+                  },
+                  {
+                    "desc": "[OnSucceedAttack] Получает 5 [BloomingThorns:`Цветущих шипов`]"
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "id": 9017605,
-            "levelList": [
-                {
-                    "level": 1,
-                    "name": "Evade",
-                    "desc": "[WhenUse] At 5+ [FestivalFever], Final Power +2\n[StartBattle] Gain 3 [FestivalFever]\n[OnDefeatEvade] Lose 3 [FestivalFever]",
-                    "coinlist": [
-                        {}
-                    ]
-                }
+          }
+        ]
+      },
+      {
+        "id": 9017605,
+        "levelList": [
+          {
+            "level": 1,
+            "name": "Уворот",
+            "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2\n[StartBattle] Получает 3 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 3 [FestivalFever:`Праздничной горячки`]",
+            "coinlist": [
+              {}
             ]
-        }
+          }
+        ]
+      }
     ]
-}
+  }
