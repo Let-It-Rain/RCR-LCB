@@ -2,92 +2,92 @@
   "dataList": [
     {
       "id": "BurstAgility",
-      "name": "Deathrite【Haste】",
-      "desc": "Base Stack: 3\nWhen getting Rupture triggered by getting hit by an Attack Skill from a target with 10+ Speed, lose 1 Stack and gain +1 Rupture Count\nAt 0 Stack, take Gluttony damage equal to Rupture Potency on self; then, this effect expires\n※ Cannot gain additional Stacks of this effect while it is already active",
-      "summary": "If conditions are met: inflict Gluttony bonus damage",
+      "name": "Смертный ритуал",
+      "desc": "Базовое значение: 3\n· При получении урона от [Burst:`Разрыва`] после принятия атаки от противника со скоростью 10 и выше, значение понижается на 1, а счётчик [Burst:`Разрыва`] повышается на 1\n· Когда эффект истекает, наносит урон Чревоугодием в количестве силы [Burst:`Разрыва`]\n※ Количество эффекта не может увеличиться, пока он активен",
+      "summary": "При соблюдении условий наносит урон Чревоугодием",
       "undefined": "-"
     },
     {
       "id": "LegStrength",
-      "name": "Strider【Mao】",
-      "desc": "Max Stack: 3\nTurn End: gain 5 Haste next turn\nReduced by 1 at Turn End",
-      "summary": "If conditions are met: inflict Gluttony bonus damage",
+      "name": "Стремительность 【Мао】",
+      "desc": "Максимальное значение: 3\n· В конце хода получает 5 [Agility:`Спешки`] на следующий ход, а значение понижается на 1",
+      "summary": "Получает 5 [Agility:`Спешки`] на следующий ход",
       "undefined": "-"
     },
     {
       "id": "DarkBeast_LowMorale",
-      "name": "Deception",
-      "desc": "- Low Morale\n- If this unit's Speed is faster than the target or when using an Unopposed Attack, deal +10% more damage against the target",
+      "name": "Обман (Низкий дух)",
+      "desc": "· Если быстрее цели или используется односторонняя атака, наносит на 10% больше урона",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DarkBeast_Panic",
-      "name": "Deception",
-      "desc": "- Panic\n- If this unit's Speed is faster than the target or when using an Unopposed Attack, deal +20% more damage against the target; if this unit's Speed is faster than the target's, take -20% less damage",
+      "name": "Обман (Паника)",
+      "desc": "· Если быстрее цели или используется односторонняя атака, наносит на 20% больше урона\n· Получает на 20% меньше урона от атак противников с меньшей скоростью",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RepressedMurderousIntend",
-      "name": "Repressed Bloodthirst",
-      "desc": "Offense Level -10, Defense Level -10",
+      "name": "Подавленная жажда крови",
+      "desc": "· Уровень атаки снижен на 10\n· Уровень защиты снижен на 10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeighedMurderousIntend",
-      "name": "Crushed Bloodthirst",
-      "desc": "Offense Level -25, Defense Level -25",
+      "name": "Раздавленная жада крови",
+      "desc": "· Уровень атаки снижен на 25\n· Уровень защиты снижен на 25",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFingerBook",
-      "name": "The Middle's Vendetta Mark",
-      "desc": "Max Stack: 10\nWhen attacked by The Middle, take +3% more damage per Stack (max 30%)",
+      "name": "Метка воздаяния",
+      "desc": "Максимальное значение: 10\n· Получает на 3% больше урона от противников из Среднего пальца за каждое значение (До 30%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Persistent",
-      "name": "Persistence",
-      "desc": "Max Stack: 4\nWhen taking lethal damage, 80% chance to not take that damage, heal 60 HP, recover from Stagger, and lose this effect\n\nThe above effects do not activate under the following conditions:\n- When the Coin damage taken exceeds this unit's max HP\n- When this unit has the HP Healing Down effect\nReduced by 1 at Turn End",
+      "name": "Упорство",
+      "desc": "Максимальное значение: 4\n· При получении смертельного урона, с 80% шансом игнорирует его и немедленно восстанавливает 60 ОЗ, выходя из оглушения, а эффект теряется (Не срабатывает, если урон больше максимальных ОЗ или действует эффект [TakeHpHealReduce:`Понижения восстановления ОЗ`])\n· В конце хода понижается на 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BackstreetsNight_LowMorale",
-      "name": "Night in the Backstreets",
-      "desc": "- Low Morale\n- Turn Start: gain 1 Attack Power Up, 1 HP Healing Boost, and 1 Fragile",
+      "name": "Ночь в подворотнях (Низкий дух)",
+      "desc": "Начало хода: получает 1 [AttackUp:`Повышение уровня атаки`], 1 [TakeHpHealIncrease:`Повышение восстановления ОЗ`] и 1 [Vulnerable:`Уязвимость`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BackstreetsNight_Panic",
-      "name": "Night in the Backstreets",
-      "desc": "- Panic\n- Turn Start: gain 2 Attack Power Up, 2 HP Healing Boost, and 1 Fragile",
+      "name": "Ночь в подворотнях (Паника)",
+      "desc": "Начало хода: получает 2 [AttackUp:`Повышения уровня атаки`], 2 [TakeHpHealIncrease:`Повышения восстановления ОЗ`] и 1 [Vulnerable:`Уязвимость`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperA",
-      "name": "The First Wave",
-      "desc": "The first wave ends after {0} turn(s)",
+      "name": "Первая волна",
+      "desc": "Ходов до кончания первой волны: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperB",
-      "name": "The Second Wave",
-      "desc": "The second wave ends after {0} turn(s)",
+      "name": "Вторая волна",
+      "desc": "Ходов до кончания второй волны: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SweeperC",
-      "name": "The Third Wave",
-      "desc": "The third wave ends after {0} turn(s)",
+      "name": "Третья волна",
+      "desc": "Ходов до кончания третьей волны: {0}",
       "summary": "",
       "undefined": "-"
     }

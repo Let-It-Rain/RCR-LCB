@@ -2,128 +2,128 @@
   "dataList": [
     {
       "id": "BloodyHand",
-      "name": "Bloodied Hand",
-      "desc": "- Max Value: 10\n- Base Value: 0\n- At 10 Stack: inflict +1 additional Rupture On Hit with this unit's Skill",
+      "name": "Окровавленная рука",
+      "desc": "Максимальное значение: 10\n· Когда значение достигает 10: наносит ешё 1 [Burst:`Разрыв`] при ударе",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns",
-      "name": "Blooming Thorn",
-      "desc": "- Max Value: 10\n- When taking damage from Skills, inflict Bleed equal to half of this effect's Stack against the Attacker (rounded up)",
-      "summary": "Inflict Bleed equal to Stack against the Attacker",
+      "name": "Цветущий шип",
+      "desc": "Максимальное значение: 10\n· При получении урона от навыков, наносит атаковавшему [Laceration:`Кровотечение`] в количестве половины значения этого эффекта",
+      "summary": "Наносит [Laceration:`Кровотечение`] на атакующего",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns_2nd",
-      "name": "Bloodwoven Thorn",
-      "desc": "- Any effects that gain Blooming Thorn gain this effect instead\n- Max Value: 10\n- Turn Start: gain 1 Offense Level Up per 3 Stack (max 3)\n- When taking damage from Skills, inflict Bleed equal to this effect's Stack against the Attacker, then lose 1 Stack (rounded up)\n- On Hit, inflict +1 more Bleed and Bleed Count with this unit's Skill effects\n- When applying Offense Level Up or Defense Level Up to an other ally with Skill Coin effects, apply 1 Clash Power Up next turn as well\n- All Skills that consume Bloodfeast gain Coin Power +1",
-      "summary": "Inflict Bleed on the Attacker equal to Stack\nInflict +1 more Bleed Potency & Count\nApply 1 Clash Power Up to allies\nIf the Skill consumes Bloodfeast, Coin Power +1",
+      "name": "Кровотканый шип",
+      "desc": "Считается [BloomingThorns:`Цветущим шипом`]\n· Максимальное значение: 10\n· В начале хода получает 1 [AttackUp:`Повышение уровня атаки`] за каждые 3 накопленного значения (До 3)\n· При получении урона от навыков, наносит атаковавшему [Laceration:`Кровотечение`] в количестве значения этого эффекта, затем значение эффекта понижается на 1\n· При ударе наносит ещё 1 [Laceration:`Кровотечение`] или его счётчик эффектами навыков\n· При накладывании на союзников [AttackUp:`Повышения уровня атаки`] и [DefenseUp:`Повышения уровня защиты`] так же даёт им 1 [ParryingResultUp:`Повышение силы в столкновении`] на следующий ход\n· Все атаки, которые поглощают [BloodDinner:`Кровавое пиршество`], получают +1 к Силе монет",
+      "summary": "· Наносит [Laceration:`Кровотечение`] атакующему\n· Больше наносимого [Laceration:`Кровотечения`]\n· Даёт 1 [ParryingResultUp:`Повышение силы в столкновении`]",
       "undefined": "-"
     },
     {
       "id": "BloomingThorns_3rd",
-      "name": "Bloodmolded Thorn",
-      "desc": "- Any effects that gain Blooming Thorn gain this effect instead\n- Max Value: 10\n- Turn Start: gain 1 Offense Level Up per 2 Stack (max 5)\n- When taking damage from Skills, inflict Bleed equal to this effect's Stack against the Attacker, then lose 1 Stack (rounded up)\n- On Hit, inflict +2 more Bleed and Bleed Count with this unit's Skill effects\n- When applying Offense Level Up or Defense Level Up to an other ally with Skill Coin effects, apply 2 Clash Power Up next turn as well\n- All Skills that consume Bloodfeast gain Coin Power +2 and deal +50% more damage\n- When using 'The Parade Repeats for Eternity' Skill, instead of healing HP, heal the same value as SP",
-      "summary": "Inflict Bleed on the Attacker equal to Stack\nInflict +2 more Bleed Potency & Count\nApply 2 Clash Power Up to allies\nIf the Skill consumes Bloodfeast, Coin Power +2 and deal +50% more damage",
+      "name": "Кровавый литой шип",
+      "desc": "Считается [BloomingThorns:`Цветущим шипом`]\n· Максимальное значение: 10\n· В начале хода получает 1 [AttackUp:`Повышение уровня атаки`] за каждые 2 накопленного значения (До 5)\n· При получении урона от навыков, наносит атаковавшему [Laceration:`Кровотечение`] в количестве значения этого эффекта, затем значение эффекта понижается на 1\n· При ударе наносит ещё 2 [Laceration:`Кровотечения`] или его счётчика эффектами навыков\n· При накладывании на союзников [AttackUp:`Повышения уровня атаки`] и [DefenseUp:`Повышения уровня защиты`] так же даёт им 2 [ParryingResultUp:`Повышения силы в столкновении`] на следующий ход\n· Все атаки, которые поглощают [BloodDinner:`Кровавое пиршество`], получают +1 к Силе монет и наносят на 50% больше урона\n· При использовании атаки 「Парад длится вечно」, вместо восстановления ОЗ, восстанавливает такое же количество СД",
+      "summary": "· Наносит [Laceration:`Кровотечение`] атакующему\n· Больше наносимого [Laceration:`Кровотечения`]\n· Даёт 1 [ParryingResultUp:`Повышение силы в столкновении`]",
       "undefined": "-"
     },
     {
       "id": "FestivalFever",
-      "name": "Festive Fever",
-      "desc": "- Max Value: 10\n- Turn Start: gain 1 Offense Level Up per 3 Stack (max 3)\n- Used for special skills",
+      "name": "Праздничная горячка",
+      "desc": "· Максимальное значение: 10\n· В начале хода получает 1 [AttackUp:`Повышение уровня атаки`] за каждые 3 накопленного значения (До 3)\n· Используется для особых атак",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IncompleteParade",
-      "name": "Imperfect Parade",
-      "desc": "- Max Value: 50\n- Gain 2 when a Bloodbag dies\n- Gain 3 when a Bloodfiend dies\n- Turn Start: gain 1 Fragile every time this unit consumes 5 cumulative Stack",
+      "name": "Несовершенный парад",
+      "desc": "· Максимальное значение: 50\n· Увеличивается на 2 при смерти Кровососа\n· Увеличивается на 3 при смерти Кровожада\n· В начале хода получает 1 [Vulnerable:`Уязвимость`] за каждые 5 потраченного значения",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBloodDolci_LowMorale",
-      "name": "Bridle of Nihility",
-      "desc": "- Low Morale\n- Turn Start: gain 1 Attack Power Up and 3 Defense Level Down\n- Turn End: take 5 SP damage",
-      "summary": "Gain 1 Attack Power Up & 3 Defense Level Down",
+      "name": "Узда Небытия (Низкий дух)",
+      "desc": "· В начале хода получает 1 [ResultEnhancement:`Повышение силы`] и 3 [DefenseDown:`Понижения уровня защиты`]\n· В конце хода теряет 5 СД",
+      "summary": "Получает 1 [ResultEnhancement:`Повышение силы`] и 3 [DefenseDown:`Понижения уровня защиты`]",
       "undefined": "-"
     },
     {
       "id": "FamineBloodDolci_Panic",
-      "name": "Bridle of Nihility",
-      "desc": "- Panic\n- Turn Start: gain 2 Attack Power Up and 6 Defense Level Down\n- Turn End: heal 10 SP",
-      "summary": "Gain 2 Attack Power Up & 6 Defense Level Down",
+      "name": "Узда Небытия (Паника)",
+      "desc": "· В начале хода получает 2 [ResultEnhancement:`Повышения силы`] и 6 [DefenseDown:`Понижений уровня защиты`]\n· В конце хода восстанавливает 10 СД",
+      "summary": "Получает 2 [ResultEnhancement:`Повышения силы`] и 6 [DefenseDown:`Понижений уровня защиты`]",
       "undefined": "-"
     },
     {
       "id": "StarvingDolcineaOne",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 35 Offense Level\n- Lose 35 Defense Level",
+      "name": "Иссохший",
+      "desc": "<i>Изголодавшийся по крови очень, очень давно</i>\n· Уровень атаки снижен на 35\n· Уровень защиты снижен на 35",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingDolcineaServant",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 15 Offense Level\n- Lose 15 Defense Level",
+      "name": "Иссохший",
+      "desc": "<i>Изголодавшийся по крови очень, очень давно</i>\n· Уровень атаки снижен на 15\n· Уровень защиты снижен на 15",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ThornyFall_LowMorale",
-      "name": "Thorns",
-      "desc": "Clash Win: gain 1 Damage Up",
-      "summary": "Clash Win: gain 1 Damage Up",
+      "name": "Шипы (Низкий дух)",
+      "desc": "При победе в столкновении получает 1 [AttackDmgUp:`Повышение урона`]",
+      "summary": "Получает 1 [AttackDmgUp:`Повышение урона`]",
       "undefined": "-"
     },
     {
       "id": "ThornyFall_Panic",
-      "name": "Thorns",
-      "desc": "Clash Win: gain 1 Damage Up\nTurn End: gain 2 Clash Power Up next turn",
-      "summary": "Clash Win: gain 1 Damage Up",
+      "name": "Шипы (Паника)",
+      "desc": "· При победе в столкновении получает 1 [AttackDmgUp:`Повышение урона`]\n· В конце хода получает 2 [ParryingResultUp:`Повышения силы в столкновении`] на следующий ход",
+      "summary": "Победа в поединке: получает 1 Усиление урона",
       "undefined": "-"
     },
     {
       "id": "HonorableDuel_Don",
-      "name": "Honorable Duel",
-      "desc": "A Reminiscted Tale of Adventures\nBecome immensely powerful",
+      "name": "Почётная дуэль",
+      "desc": "<i>Отголосок воспоминаний о приключениях</i>\nСтановится невероятно сильной",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HonorableDuel_Knight",
-      "name": "Honorable Duel",
-      "desc": "Reminisced Tales of Adventure",
+      "name": "Почётная дуэль",
+      "desc": "<i>Отголосок воспоминаний о приключениях</i>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingPriestOne",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 15 Offense Level\n- Lose 15 Defense Level",
+      "name": "Иссохший",
+      "desc": "<i>Изголодавшийся по крови очень, очень давно</i>\n· Уровень атаки снижен на 15\n· Уровень защиты снижен на 15",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBloodPriestServant_LowMorale",
-      "name": "Hunger",
-      "desc": "- Low Morale\n- Turn Start: gain 1 Clash Power Up and 3 Defense Level Down\n- Turn End: take 5 SP damage",
+      "name": "Голод (Низкий дух)",
+      "desc": "· В начале хода получает 1 [ParryingResultUp:`Повышение силы в столкновении`] и 3 [DefenseDown:`Понижения уровня защиты`]\n· В конце хода теряет 5 СД",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBloodPriestServant_Panic",
-      "name": "Hunger",
-      "desc": "- Panic\n- Turn Start: gain 2 Clash Power Up and 6 Defense Level Down\n- Turn End: heal 10 SP",
+      "name": "Голод (Паника)",
+      "desc": "· В начале хода получает 2 [ParryingResultUp:`Повышения силы в столкновении`] и 6 [DefenseDown:`Понижений уровня защиты`]\n· В конце хода восстанавливает 10 СД",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnstoppableFunny",
-      "name": "Unstoppable Bliss",
-      "desc": "On Death:\n- Gain 1 E.G.O resource for 3 least-owned E.G.O resources\n- Inflict +3 Bleed Count against an enemy (prioritizes the unit that killed this unit)\n- All allies at 5+ Festive Fever gain 1 Haste next turn\n- All allies without Festive Fever gain 1 Clash Power Up",
-      "summary": "Gain 1 of each 3 E.G.O resources\nInflict +3 Bleed Count",
+      "name": "Безудержное блаженство",
+      "desc": "После смерти:\n· Добавляет 1 к трём наименее имеющимся ЭГО ресурсам\n· Повышает счётчик [Laceration:`Кровотечения`] атакующему или случайному противнику на 3\n· Все союзники с 5 и более [FestivalFeverRodion:`Праздничной горячки`] получают 1 [Agility:`Спешку`] на следующий ход\n· Все союзники без  [FestivalFeverRodion:`Праздничной горячки`] получают 1 [ParryingResultUp:`Повышение силы в столкновении`]",
+      "summary": "Получает 1 из каждого из 3-х ЭГО ресурсов\nНаносит +3 Кровотечения",
       "undefined": "-"
     }
   ]

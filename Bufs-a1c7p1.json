@@ -2,183 +2,183 @@
   "dataList": [
     {
       "id": "BloodScissor",
-      "name": "Blood-tinged Scissorblades",
-      "desc": "- Max Value: 10\n- Stage 1 Blood-tinged Scissorblades\n- Used for special skills",
+      "name": "Окровавленные лезвия ножниц",
+      "desc": "Максимальное значение: 10\n· Первая стадия [BloodScissor:`Окровавленных лезвий ножниц`]\n· Используется для особых атак",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorTwo",
-      "name": "Blood-tinged Scissorblades II",
-      "desc": "- Max Value: 20\n- Stage 2 Blood-tinged Scissorblades\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills",
+      "name": "Окровавленные лезвия ножниц II",
+      "desc": "Максимальное значение: 20\n· Вторая стадия [BloodScissorTwo:`Окровавленных лезвий ножниц`]\n· В начале хода получает 1 [AttackUp:`Повышение уровня атаки`] и 1 [DefenseDown:`Понижение уровня защиты`] за каждые 5 накопленного значения\n· Используется для особых атак",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorThree",
-      "name": "Blood-tinged Scissorblades III",
-      "desc": "- Max Value: 30\n- Stage 3 Blood-tinged Scissorblades\n- Turn Start: gain 2 Offense Level Up and 1 Defense Level Down for every 5 Stack\n- Used for certain Skills",
+      "name": "Окровавленные лезвия ножниц III",
+      "desc": "Максимальное значение: 30\n· Третья стадия [BloodScissorThree:`Окровавленных лезвий ножниц`]\n· В начале хода получает 2 [AttackUp:`Повышения уровня атаки`] и 1 [DefenseDown:`Понижение уровня защиты`] за каждые 5 накопленного значения\n· Используется для особых атак",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner",
-      "name": "Bloodfeast",
-      "desc": "- Max Value: 999\n- Stores all Bleed damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters\n- Among allies, if there is a higher Kindred who also consumes Bloodfeast in the same turn, this unit cannot consume Bloodfeast until that ally consumes it first.",
+      "name": "Кровавое пиршество",
+      "desc": "Может достигать 999\n· Накапливает весь урон от [Laceration:`Кровотечения`], нанесённый в этой битве\n· Общее для всех участников битвы\n· Если среди союзников есть более старший Сородич, который также поглощает [BloodDinner:`Кровавое пиршество`], этот не сможет поглотить его, пока более старший Сородич не сделает это первым",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodDinner_Accumulation",
-      "name": "Bloodfeast Consumed",
-      "desc": "- Max Value: 999\n- Total Bloodfeast consumed in this Encounter: {0}",
+      "name": "Поглощённое кровавое пиршество",
+      "desc": "Может достигать 999\n· Общее количество поглощённого [BloodDinner:`Кровавого пиршества`] за эту битву: {0}",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBlood_LowMorale",
-      "name": "Hunger",
-      "desc": "- Low Morale\n- Turn Start: gain 1 Bind and 3 Attack Power Up. Turn End: take 5 SP damage",
+      "name": "Голод (Низкий дух)",
+      "desc": "В начале хода получает 1 [Binding:`Связывание`] и 2 [ResultEnhancement:`Повышения силы`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FamineBlood_Panic",
-      "name": "Hunger",
-      "desc": "- Panic\nTurn Start: Gain 2 Bind and 4 Attack Power Up.",
+      "name": "Голод (Паника)",
+      "desc": "В начале хода получает 2 [Binding:`Связывания`] и 4 [ResultEnhancement:`Повышения силы`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DuelDeclaration_Camille",
-      "name": "Declared Duel - Camille",
-      "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. \n- Replaced when another unit inflicts Declared Duel on the same target.",
+      "name": "Вызван Камиллой на дуэль",
+      "desc": "· В столкновении между Камиллом и целью, которой была [DuelDeclaration:`Объявлена дуэль`], первый получает +1 к Силе в столкновении, а так же 1 [Agility:`Спешку`] на следующий ход при ударе (До 4 за ход)\n· Исчезает, когда Камилл объявляет дуэль другой цели\n· Заменяется, когда дуэль объявляет другой участник битвы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RecklessDuel",
-      "name": "Foolhardy Duel",
-      "desc": "Turn End: gain 1 Clash Power Up next turn for every 10% of the missing HP. (max 5)\nTurn End: gain 1 Bind next turn for every 10% of the missing HP. (max 5)",
+      "name": "Безрассудная дуэль",
+      "desc": "В конце хода получает 1 [ParryingResultUp:`Повышение силы в столкновении`] и 1 [Binding:`Связывание`] на следующий ход за каждые 10% потерянных ОЗ (До 5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConcentratedAttack",
-      "name": "Focused Attack",
-      "desc": "Used on certain Slots",
+      "name": "Сосредоточенная атака",
+      "desc": "Камилл получает следующие приемущества против слота навыков, по которому успешно нанёс удар на прошлом ходу:\n  - 1 последовательное попадание: Сила в столкновении +1\n  - 2 последовательных попадания: Базовая сила +1\n  - 3 последовательных попадания: Базовая сила +1, Сила монет +1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TrulyWeak",
-      "name": "The Weak",
-      "desc": "- Deal -10% damage\n- Turn End: Reduce Value by 1",
+      "name": "Слабость",
+      "desc": "Наносимый урон -10%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RealPaperBear",
-      "name": "An Actual Bear",
-      "desc": "- It eats people. How fearsome!",
+      "name": "Настоящий Медведь",
+      "desc": "Он ест людей. Как страшно!",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodScissorScars",
-      "name": "A Deep Wound",
-      "desc": "- On Clash Lose: gain +3 Bleed Count and trigger Bleed on self. Then, lose 1 Bleed Count.\n- Expires at Turn End",
+      "name": "Глубокий Порез",
+      "desc": "· Счётчик [Laceration:`Кровотечения`] повышается на 3, после чего оно активируется, понижая счётчик на 1\n· Истекает в конце хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LineCutting",
-      "name": "Sewing Target",
-      "desc": "- Prioritized by ???.\n- Expires at Turn End",
+      "name": "Цель шитья",
+      "desc": "· Является приоритетной целью для ???.\n· Истекает в конце хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingBarberOne",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 15 Offense Level\n- Lose 15 Defense Level",
+      "name": "Иссохший",
+      "desc": "<i>Изголодавшийся по крови очень, очень давно</i>\n· Уровень атаки снижен на 15\n· Уровень защиты снижен на 15",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StarvingBarberTwo",
-      "name": "Withered",
-      "desc": "- Starved for blood for a long, long time.\n- Lose 25 Offense Level\n- Lose 25 Defense Level",
+      "name": "Иссохший",
+      "desc": "<i>Изголодавшийся по крови очень, очень давно</i>\n· Уровень атаки снижен на 25\n· Уровень защиты снижен на 25",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloodShooting",
-      "name": "Blood-shooting!!",
-      "desc": "On Death:\n- Bloodfeast +30\n- gain 2 E.G.O resource for the least-owned E.G.O resource\n- Next turn: all allies gain 0.1 to all Phys. Resistances. This effect can stack. (max 5)",
+      "name": "Кровопускание!!",
+      "desc": "После смерти:\n· [BloodDinner:`Кровавое пиршество`] увеличивается на 30\n· Добавляет 2 к наименее имеющемуся ЭГО ресурсу\n· На следующий ход: физические сопротивления всех союзников ослабляются на 0.1 (Накапливается до 0.5)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RighteousFeeling",
-      "name": "HOW RIGHTEOUS!!",
-      "desc": "- At every Turn End: gain 1 Haste, 3 Offense Level Up, and 3 Defense Level Down next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 1 Clash Power Up next turn (once per turn)",
+      "name": "КАКАЯ ПРАВЕДНОСТЬ!!",
+      "desc": "· В конце каждого хода получает 1 [Agility:`Спешку`], 3 [AttackUp:`Повышения уровня атаки`] и 3 [DefenseDown:`Понижения уровня защиты`] на следующий ход\n  - Получает ещё 2 [AttackUp:`Повышения уровня атаки`] после каждых 3 прошедших ходов (До 6)\n· При победе в столкновении восстанавливает 3 СД\n· При убийстве получает 1 [ParryingResultUp:`Повышение силы в столкновении`] на следующий ход (Единожды за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DuelDeclarationMeursault",
-      "name": "Declared Duel - Meursault",
-      "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. \n- Replaced when another unit inflicts Declared Duel on the same target.",
+      "name": "Вызван Мерсо на дуэль",
+      "desc": "· В столкновении между Мерсо и целью, которой была [DuelDeclaration:`Объявлена дуэль`], первый получает +1 к Силе в столкновении, а так же 1 [Agility:`Спешку`] на следующий ход при ударе (До 4 за ход)\n· Исчезает, когда Мерсо объявляет дуэль другой цели\n· Заменяется, когда дуэль объявляет другой участник битвы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ConcentratedAttackMeursault",
-      "name": "Focused Attack - Meursault",
-      "desc": "<Focused Encounters Only>\nThe unit that inflicted this Focused Attack gains the following effects based on the target Slot's Focused Attack Stack.\n  · 1x Stack: Gain Clash Power +1\n  · 2x Stack: Gain Base Power +1\n  · 3x Stack: Gain Base Power +1 and Coin Power +1\n- Expires if, for a turn, the unit that inflicted it fails to hit the Slot inflicted with their Focused Attack.",
+      "name": "Сосредоточенная атака - Мерсо",
+      "desc": "(Только фокусированные столкновения)\n· Мерсо получает следующие приемущества против слота навыков в зависимости от значения [ConcentratedAttackMeursault:`Сосредоточенной атаки - Мерсо`] на нём:\n  - 1x: Сила в столкновении +1\n  - 2x: Базовая сила +1\n  - 3x: Базовая сила +1, Сила монет +1\n· Исчезает в конце хода, если Мерсо не удалось нанести удар по этому слоту навыков\n· Исчезает, когда Мерсо снова накладывает её на другой слот навыков\n· Заменяется, когда накладывается альтернативная [ConcentratedAttackMeursault:`Сосредоточенная атака`]\n· Переместится на другой слот навыков, если этот будет побеждён",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_LowMorale",
-      "name": "Duel Specialist",
-      "desc": "- Low Morale\n- Turn Start: Gain 2 Offense Level Up. On Clash Lose, gain 1 Defense Level Down(max 3 per turn). Min. Speed -1",
+      "name": "Специалист по дуэлям (Низкий дух)",
+      "desc": "· В начале хода получает 2 [AttackUp:`Повышения уровня атаки`]\n· При поражении в столкновении получает 1 [DefenseDown:`Понижение уровня защиты`] (До 3 раз за ход). Мин. скорость -1\n· Минимальная скорость понижается на 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Duello_Panic",
-      "name": "Duel Specialist",
-      "desc": "- Panic\n- Turn Start: Gain 4 Offense Level Up. On Clash Lose, gain 2 Defense Level Down(max 6 per turn). Min. Speed -1",
+      "name": "Специалист по дуэлям (Паника)",
+      "desc": "· В начале хода получает 4 [AttackUp:`Повышения уровня атаки`]\n· При поражении в столкновении получает 2 [DefenseDown:`Понижения уровня защиты`] (До 6 раз за ход). Мин. скорость -1\n· Минимальная скорость понижается на 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RighteousFeelingSancho",
-      "name": "I will take responsibility, through my bloody tears.",
-      "desc": "- Gain 1 additional Hardblood every time this unit gains Hardblood. (5 times per turn)\n- At every Turn End: gain 2 Haste and 3 Offense Level Up next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 1 Clash Power Up next turn (once per turn)",
+      "name": "Я возьму ответственность через кровавые слёзы.",
+      "desc": "· Получает 1 дополнительную [BloodArmorPersonalityFirst:`Кровавую броню`] при её получении (До 5 раз за ход)\n· В конце каждого хода получает 2 [Agility:`Спешки`] и 3 [AttackUp:`Повышения уровня атаки`] на следующий ход\n  - Получает 2 дополнительных [AttackUp:`Повышения уровня атаки`] после каждых 3 прошедших ходов (До 6)\n· При победе в столкновении восстанавливает 3 СД\n· При убийстве получает 1 [ParryingResultUp:`Повышение силы в столкновении`] на следующий ход (Единожды за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfinishedDreamSancho",
-      "name": "In which is recounted the thralldom to blood thicker than water.",
-      "desc": "- Gain 2 additional Hardblood every time this unit gains Hardblood. (5 times per turn)\n- At every Turn End: gain 2 Haste and 3 Offense Level Up next turn\n- Gain 2 additional Offense Level Up after every 3 cumulative turns (max 6)\n- On Clash Win, heal 3 SP\n- On Kill, gain 2 Clash Power Up next turn (once per turn)",
+      "name": "В которой повествуется о порабощении кровью гуще воды",
+      "desc": "· Получает 2 дополнительной [BloodArmorPersonalityFirst:`Кровавой брони`] при её получении (До 5 раз за ход)\n· В конце каждого хода получает 2 [Agility:`Спешки`] и 3 [AttackUp:`Повышения уровня атаки`] на следующий ход\n  - Получает 2 дополнительных [AttackUp:`Повышения уровня атаки`] после каждых 3 прошедших ходов (До 6)\n· При победе в столкновении восстанавливает 3 СД\n· При убийстве получает 2 [ParryingResultUp:`Повышения силы в столкновении`] на следующий ход (Единожды за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeSancho",
-      "name": "Which treats the banquet of blood for the Family's suffering.",
-      "desc": "Gain Clash Power Up equal to Stack\nDeal +10% more damage",
+      "name": "Что готовит кровавый пир для страдающей Семьи",
+      "desc": "· Получает [ParryingResultUp:`Повышения силы в столкновении`] равное количеству этого эффекта\n· На 10% больше наносимого урона",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FragmentOfHopeTwoSancho",
-      "name": "Of how a lone Bloodfiend came to bear the guilt of slaying the Father who forsook his Children.",
-      "desc": "- Clash Power +4 for every value\n- Apply Shield to self and all allies at Combat Start\n- Deal +20% more damage\n- On Hit, deal 1 fixed damage as well",
+      "name": "О том, как некий Кровожад в одиночку понёс вину за отцеубийство.",
+      "desc": "· +4 к Силе в столкновении за каждое значение\n· Накладывает щит на себя и на всех союзников в начале боевой фазы\n· На 20% больше наносимого урона\n· При ударе также наносит 1 фиксированного урона",
       "summary": "",
       "undefined": "-"
     }
