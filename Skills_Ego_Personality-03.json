@@ -12,10 +12,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Счётчика"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
                 }
               ]
             }
@@ -30,13 +30,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Наносит +4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Счётчика"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
                 }
               ]
             }
@@ -51,13 +51,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Наносит +4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Счётчика"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
                 }
               ]
             }
@@ -72,21 +72,21 @@
           "level": 1,
           "name": "Пирамида Хеопса",
           "abName": "Хз при чём он тут",
-          "desc": "[CantIdentify]\nTargets randomly\n",
+          "desc": "[CantIdentify]\nЕбашит рандомно\n",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 2"
+                  "desc": "[OnSucceedAttack] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; потом, уменьшает на враге<sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Счётчик на 2"
                 }
               ]
             }
@@ -96,21 +96,21 @@
           "level": 3,
           "name": "Пирамида Хеопса",
           "abName": "Хз при чём он тут",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nЕбашит рандомно",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 2"
+                  "desc": "[OnSucceedAttack] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; потом, уменьшает на враге<sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Счётчик на 2"
                 }
               ]
             }
@@ -120,21 +120,21 @@
           "level": 4,
           "name": "Пирамида Хеопса",
           "abName": "Хз при чём он тут",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nЕбашит рандомно",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 2"
+                  "desc": "[OnSucceedAttack] Провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; потом, уменьшает на враге<sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Счётчик на 2"
                 }
               ]
             }
@@ -149,12 +149,12 @@
           "level": 1,
           "name": "Электрический визг",
           "abName": "Мечтающая электрическая овечка",
-          "desc": "[BeforeAttack] Gain (Envy Reson. - 2) Atk Weight (max 1)\n[BeforeAttack] If this unit has 20+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count, Spend 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to deal +30% more damage",
+          "desc": "[BeforeAttack] Получает (Рез. зависти. - 2) Радиус атаки (Макс. 1)\n[BeforeAttack] Если данный союзник имеет 20+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика, тратит 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика чтобы нанести на +30% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count"
+                  "desc": "[EnemyKill] Получает +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика"
                 }
               ]
             }
@@ -164,12 +164,12 @@
           "level": 3,
           "name": "Электрический визг",
           "abName": "Мечтающая электрическая овечка",
-          "desc": "[BeforeAttack] Gain (Envy Reson. - 2) Atk Weight (max 2)\n[BeforeAttack] Deal ((Envy Reson. - 3) x 5)% more damage (max 15%)\n[BeforeAttack] If this unit has 20+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count, Spend 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to deal +35% more damage",
+          "desc": "[BeforeAttack] Получает (Рез. зависти. - 2) Радиус атаки (Макс. 2)\n[BeforeAttack] Наносит ((Рез. зависти. - 3) x 5)% больше урона (Макс. 15%)\n[BeforeAttack] Если данный союзник имеет 20+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика, тратит 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика чтобы нанести на +35% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count"
+                  "desc": "[EnemyKill] Получает +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика"
                 }
               ]
             }
@@ -179,12 +179,12 @@
           "level": 4,
           "name": "Электрический визг",
           "abName": "Мечтающая электрическая овечка",
-          "desc": "[BeforeAttack] Gain (Envy Reson. - 2) Atk Weight (max 3)\n[BeforeAttack] Deal +((Envy Reson. - 3) x 10)% more damage (max 30%)\n[BeforeAttack] If this unit has 20+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count, Spend 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to deal +40% more damage",
+          "desc": "[BeforeAttack] Получает (Рез. зависти. - 2) Радиус атаки (Макс. 3)\n[BeforeAttack] Наносит +((Рез. зависти. - 3) x 10)% больше урона (Макс. 30%)\n[BeforeAttack] Если данный союзник имеет 20+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика, тратит 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика чтобы нанести на +40% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count"
+                  "desc": "[EnemyKill] Получает +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика"
                 }
               ]
             }
@@ -199,12 +199,12 @@
           "level": 1,
           "name": "Электрический визг",
           "abName": "Мечтающая электрическая овечка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (Envy Reson. - 2) Atk Weight (max 1)\n[BeforeAttack] Deal +((Envy Reson. - 3) x 5)% more damage (max 15%)\n[BeforeAttack] At less than 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count, spend 1.5% of this unit's max HP per missing <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to raise <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to 20\n[BeforeAttack] Spend up to 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to deal +2.5% more damage for every spent <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count (max 50%)",
+          "desc": "[CantIdentify]\nЕбашит рандомно\n[BeforeAttack] Получает (Рез. зависти. - 2) Радиус атаки (Макс. 1)\n[BeforeAttack] Наносит +((Рез. зависти. - 3) x 5)% больше урона (Макс. 15%)\n[BeforeAttack] При менее, чем 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика, тратит 1.5% своего хп за каждый недостающий <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика чтобы увеличить его <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика до 20\n[BeforeAttack] тратит до 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика чтобы нанести на +2.5% больше урона за каждый потраченный<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика (Макс. 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +3 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count"
+                  "desc": "[EnemyKill] Получает +3 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика"
                 }
               ]
             }
@@ -214,12 +214,12 @@
           "level": 3,
           "name": "Электрический визг",
           "abName": "Мечтающая электрическая овечка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (Envy Reson. - 2) Atk Weight (max <style=\"highlight\">2</style>)\n[BeforeAttack] Deal +((Envy Reson. - 3) x <style=\"highlight\">8</style>)% more damage (max <style=\"highlight\">24</style>%)\n[BeforeAttack] At less than 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count, spend 1.5% of this unit's max HP per missing <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to raise <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to 20\n[BeforeAttack] Spend up to 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to deal +<style=\"highlight\">3.5</style>% more damage for every spent <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count (max <style=\"highlight\">70</style>%)",
+          "desc": "[CantIdentify]\nЕбашит рандомно\n[BeforeAttack] Получает (Рез. зависти. - 2) Радиус атаки (Макс. <style=\"highlight\">2</style>)\n[BeforeAttack] Наносит +((Рез. зависти. - 3) x <style=\"highlight\">8</style>)% больше урона (Макс. <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее, чем 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика, тратит 1.5% своего хп за каждый недостающий <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика чтобы увеличить его <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика до 20\n[BeforeAttack] тратит до 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика чтобы нанести на +<style=\"highlight\">3.5</style>% больше урона за каждый потраченный<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика (Макс. <style=\"highlight\">70</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +3 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count"
+                  "desc": "[EnemyKill] Получает +3 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика"
                 }
               ]
             }
@@ -229,12 +229,12 @@
           "level": 4,
           "name": "Электрический визг",
           "abName": "Мечтающая электрическая овечка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (Envy Reson. - 2) Atk Weight (max <style=\"highlight\">3</style>)\n[BeforeAttack] Deal +((Envy Reson. - 3) x <style=\"highlight\">12</style>)% more damage (max <style=\"highlight\">36</style>%)\n[BeforeAttack] At less than 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count, spend <style=\"highlight\">1</style>% of this unit's max HP per missing <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to raise <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to 20\n[BeforeAttack] Spend up to 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count to deal +<style=\"highlight\">5</style>% more damage for every spent <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count (max <style=\"highlight\">100</style>%)",
+          "desc": "[CantIdentify]\nЕбашит рандомно\n[BeforeAttack] Получает (Рез. зависти. - 2) Радиус атаки (Макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Наносит +((Рез. зависти. - 3) x <style=\"highlight\">12</style>)% больше урона (Макс. <style=\"highlight\">36</style>%)\n[BeforeAttack] При менее, чем 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика, тратит <style=\"highlight\">1</style>% своего хп за каждый недостающий <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика чтобы увеличить его <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика до 20\n[BeforeAttack] тратит до 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика чтобы нанести на +<style=\"highlight\">5</style>% больше урона за каждый потраченный<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчика (Макс. <style=\"highlight\">100</style>%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Gain +3 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Count"
+                  "desc": "[EnemyKill] Получает +3 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Счётчика"
                 }
               ]
             }
@@ -249,7 +249,7 @@
           "level": 1,
           "name": "Воющая-Миркалла",
           "abName": "Четыре сотни роз",
-          "desc": "This unit's HP does not drop below 1 while using this Skill.\nClash Power +1 for every 100 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> by this unit (max 2)\n[BeforeAttack] At less than 50 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
+          "desc": "ХП этого союзника не падает ниже 1 во время данного скилла.\nСила клеша +1 за каждые 100 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> у этого союзника (Макс. 2)\n[BeforeAttack] При менее, чем 50 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> каждым ударом\n[EndSkill] Следующие 3 хода, теряет 10 рассудка в конце хода.",
           "coinlist": [
             {
               "coindescs": [
@@ -257,7 +257,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "Deal +0.1% more damage for every <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 10%)"
+                  "desc": "Наносит +0.1% больше урона за каждый <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 10%)"
                 }
               ]
             },
@@ -267,7 +267,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 100+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max 10%)"
+                  "desc": "При 100+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. 10%)"
                 }
               ]
             },
@@ -277,7 +277,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 200+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max 20%)"
+                  "desc": "При 200+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. 20%)"
                 }
               ]
             },
@@ -287,10 +287,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 300+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max 30%)"
+                  "desc": "При 300+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. 30%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> based on the highest Lust A-Reson. (max 3)"
+                  "desc": "[WinDuelAttack] Наносит <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> равное числу абсолютного резонанса похоти. (Макс. 3)"
                 }
               ]
             }
@@ -300,7 +300,7 @@
           "level": 3,
           "name": "Воющая-Миркалла",
           "abName": "Четыре сотни роз",
-          "desc": "This unit's HP does not drop below 1 while using this Skill.\n<style=\"highlight\">If target has 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power +1</style>\nClash Power +1 for every 100 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> by this unit (max <style=\"highlight\">3</style>)\n[BeforeAttack] At less than <style=\"highlight\">75</style> <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
+          "desc": "ХП этого союзника не падает ниже 1 во время данного скилла.\n<style=\"highlight\">Если цель имеет 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Сила Монетки +1</style>\nСила клеша +1 за каждые 100 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> у этого союзника (Макс. <style=\"highlight\">3</style>)\n[BeforeAttack] При менее, чем <style=\"highlight\">75</style> <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> каждым ударом\n[EndSkill] Следующие 3 хода, теряет 10 рассудка в конце хода.",
           "coinlist": [
             {
               "coindescs": [
@@ -308,7 +308,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "Deal +0.1% more damage for every <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 10%)<style=\"highlight\"></style>"
+                  "desc": "Наносит +0.1% больше урона за каждый <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 10%)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -318,7 +318,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 100+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max <style=\"highlight\">15</style>%)"
+                  "desc": "При 100+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. <style=\"highlight\">15</style>%)"
                 }
               ]
             },
@@ -328,7 +328,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 200+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max <style=\"highlight\">25</style>%)"
+                  "desc": "При 200+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. <style=\"highlight\">25</style>%)"
                 }
               ]
             },
@@ -338,10 +338,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 300+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max <style=\"highlight\">40</style>%)"
+                  "desc": "При 300+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. <style=\"highlight\">40</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> based on the highest Lust A-Reson. (max 3)"
+                  "desc": "[WinDuelAttack] Наносит <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> равное числу абсолютного резонанса похоти. (Макс. 3)"
                 }
               ]
             }
@@ -351,7 +351,7 @@
           "level": 4,
           "name": "Воющая-Миркалла",
           "abName": "Четыре сотни роз",
-          "desc": "This unit's HP does not drop below 1 while using this Skill.\n<style=\"highlight\">Coin Power +1 for every 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (max 2)</style>\nClash Power +1 for every 100 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> by this unit (max <style=\"highlight\">5</style>)\n[BeforeAttack] At less than <style=\"highlight\">100</style> <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> with every Hit\n[EndSkill] For 3 turns, lose 10 SP at Turn End.",
+          "desc": "ХП этого союзника не падает ниже 1 во время данного скилла.\n<style=\"highlight\">Сила Монетки +1 за каждый 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (Макс. 2)</style>\nСила клеша +1 за каждые 100 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> у этого союзника (Макс. <style=\"highlight\">5</style>)\n[BeforeAttack] При менее, чем <style=\"highlight\">100</style> <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> каждым ударом\n[EndSkill] Следующие 3 хода, теряет 10 рассудка в конце хода.",
           "coinlist": [
             {
               "coindescs": [
@@ -359,7 +359,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "Deal +0.1% more damage for every <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 10%)"
+                  "desc": "Наносит +0.1% больше урона за каждый <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 10%)"
                 }
               ]
             },
@@ -369,7 +369,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 100+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max <style=\"highlight\">20</style>%)"
+                  "desc": "При 100+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. <style=\"highlight\">20</style>%)"
                 }
               ]
             },
@@ -379,7 +379,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 200+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max <style=\"highlight\">30</style>%)"
+                  "desc": "При 200+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. <style=\"highlight\">30</style>%)"
                 }
               ]
             },
@@ -389,10 +389,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "At 300+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: deal +0.1% more damage for every value (max <style=\"highlight\">50</style>%)"
+                  "desc": "При 300+ <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color>: Наносит +0.1% больше урона за каждый счётчик пиршества (Макс. <style=\"highlight\">50</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> based on the highest Lust A-Reson. (max <style=\"highlight\">4</style>)"
+                  "desc": "[WinDuelAttack] Наносит <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> равное числу абсолютного резонанса похоти. (Макс. <style=\"highlight\">4</style>)"
                 }
               ]
             }
@@ -407,28 +407,28 @@
           "level": 1,
           "name": "Воющая-Миркалла",
           "abName": "Четыре сотни роз",
-          "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power -1\n[BeforeAttack] At less than 150 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> with every hit\n[BeforeAttack] Gain 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, and activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on self immediately. Lose 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count",
+          "desc": "[CantIdentify]\nЕбашит рандомно\nХП этого союзника не падает ниже 1 во время данного скилла.\nЕсли цель имеет 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Сила Монетки -1\n[BeforeAttack] При менее, чем 150 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> каждым ударом\n[BeforeAttack] Получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, и прокает <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на себе незамедлительно. Теряет 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Счётчика",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> for every 50 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 10)"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> за каждый 50 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 10)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 100- <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] При 100- <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% more damage for every 100 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 25%)"
+                  "desc": "Наносит +5% больше урона за каждый 100 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 25%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> based on the highest Lust A-Reson. (max 3)"
+                  "desc": "[WinDuelAttack] Наносит <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> равное числу абсолютного резонанса похоти. (Макс. 3)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Heal by 50% of the HP damage dealt (max 10)"
+                  "desc": "[WinDuelAttack] Восстанавливает 50% своего хп от нанесённого урона (Макс. 10)"
                 }
               ]
             }
@@ -438,28 +438,28 @@
           "level": 3,
           "name": "Воющая-Миркалла",
           "abName": "Четыре сотни роз",
-          "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power -1\n<style=\"highlight\">At 200+ <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> by this unit, Coin Power -1</style>\n[BeforeAttack] At less than 150 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> with every hit\n[BeforeAttack] Gain 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, and activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on self immediately. Lose 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count",
+          "desc": "[CantIdentify]\nЕбашит рандомно\nХП этого союзника не падает ниже 1 во время данного скилла.\nЕсли цель имеет 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Сила Монетки -1\n<style=\"highlight\">При 200+ <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> у этого союзника, Сила Монетки -1</style>\n[BeforeAttack] При менее, чем 150 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> каждым ударом\n[BeforeAttack] Получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, и прокает <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на себе незамедлительно. Теряет 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Счётчика",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> for every 50 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> за каждые 50 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 10)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 100- <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 100- <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +<style=\"highlight\">10</style>% more damage for every 100 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max <style=\"highlight\">50</style>%)"
+                  "desc": "Наносит +<style=\"highlight\">10</style>% больше урона за каждый 100 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. <style=\"highlight\">50</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> based on the highest Lust A-Reson. (max <style=\"highlight\">4</style>)"
+                  "desc": "[WinDuelAttack] Наносит <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> равное числу абсолютного резонанса похоти. (Макс. <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Heal by 50% of the HP damage dealt (max 10)"
+                  "desc": "[WinDuelAttack] Восстанавливает 50% своего хп от нанесённого урона (Макс. 10)"
                 }
               ]
             }
@@ -469,28 +469,28 @@
           "level": 4,
           "name": "Воющая-Миркалла",
           "abName": "Четыре сотни роз",
-          "desc": "[CantIdentify]\nTargets randomly\nThis unit's HP does not drop below 1 while using this Skill.\nIf target has 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power -1\nAt 200+ <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> by this unit, Coin Power -1\n[BeforeAttack] At less than 150 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> with every hit\n[BeforeAttack] Gain 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, and activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on self immediately. Lose 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nЕбашит рандомно\nХП этого союзника не падает ниже 1 во время данного скилла.\nЕсли цель имеет 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Сила Монетки -1\nПри 200+ <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитое пиршество</link></u></color> у этого союзника, Сила Монетки -1\n[BeforeAttack] При менее, чем 150 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> каждым ударом\n[BeforeAttack] Получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, и прокает <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на себе незамедлительно. Теряет 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Счётчика<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> for every 50 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max 10)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> за каждые 50 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. 10)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 100- <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, inflict 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 100- <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +<style=\"highlight\">20</style>% more damage for every 100 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (max <style=\"highlight\">100</style>%)"
+                  "desc": "Наносит +<style=\"highlight\">20</style>% больше урона за каждый 100 <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитое пиршество</link></u></color> (Макс. <style=\"highlight\">100</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> based on the highest Lust A-Reson. (max <style=\"highlight\">5</style>)"
+                  "desc": "[WinDuelAttack] Наносит <sprite name=\"ThirstyRose\"><color=#e30000><u><link=\"ThirstyRose\">Алчущие розы</link></u></color> равное числу абсолютного резонанса похоти. (Макс. <style=\"highlight\">5</style>)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Heal by 50% of the HP damage dealt (max 10)"
+                  "desc": "[WinDuelAttack] Восстанавливает 50% своего хп от нанесённого урона (Макс. 10)"
                 }
               ]
             }
