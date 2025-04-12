@@ -2,119 +2,119 @@
   "dataList": [
     {
       "id": "FusionVibration",
-      "name": "Amplitude Entanglement",
-      "desc": "- Fuses the effects of the Tremor type added by Amplitude Entanglement and the Tremor type currently on target together under Tremor - Superposition.\n- Potency and Count values do not change over Entanglement.\n- When triggering Amplitude Conversion on Tremor - Superposition, it activates as Amplitude Entanglement instead.\n- Turn End: converted into base Tremor.",
+      "name": "Наложение амплитуд",
+      "desc": "· Накладывает амплитуды особых видов [Vibration:`Тремора`] друг на друга, образуя [VibrationNesting:`Тремор — Суперпозицию`]\n· При попытке [Switch_Vibration:`Преобразовать амплитуду`] на [VibrationNesting:`Треморе — Суперпозиции`], вместо этого происходит [FusionVibration:`Наложение амплитуд`]\n\n「[VibrationNesting:`Тремор — Суперпозиция`]:\n· Сочетает в себе все эффекты особых видов [Vibration:`Тремора`], которые были или нанеслись с [FusionVibration:`Наложением амплитуд`]」",
       "summary": ""
     },
     {
       "id": "VibrationNesting",
-      "name": "Tremor - Superposition",
-      "desc": "- Gained through Amplitude Entanglement\n- When triggering Amplitude Conversion, add the effects of the resulting Tremor type to the list of active Tremor effects under Tremor - Superposition.",
+      "name": "Тремор — Суперпозиция",
+      "desc": "Сочетает в себе все эффекты особых видов [Vibration:`Тремора`], которые были или нанеслись с [FusionVibration:`Наложением амплитуд`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationDistribution",
-      "name": "Tremor - Distribution",
-      "desc": "- Turn End: Gain ((sum of all allies' Tremor Count) / (# of surviving allies)) Offense Level Up next turn (max 5)\n- For {1} turns, when hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by {0}\n- Turn End: reduce the Count by 1\n- (Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)",
+      "name": "Тремор — Распределение",
+      "desc": "· В конце хода получает (Сумма счётчика [Vibration:`Тремора`] всех союзников / число живых союзников) [AttackUp:`Повышений уровня атаки`] на следующий ход (До 5)\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TcorpSpecialInvestigator",
-      "name": "T Corp. Special Investigator Badge",
-      "desc": "-When this unit takes lethal damage, their HP does not drop below 1, instantly heals 80% of their max HP, and recovers from Stagger. (Once per Encounter)\n- When this buff effect activates, starting next turn, this unit gains 2 Attack Power Up at every Turn Start for 5 turns.",
+      "name": "Значок Особого следователя Корп. T",
+      "desc": "· После получения смертельного урона впервые за битву ОЗ не могут упасть ниже 1, после чего они восстанавливаются до 80%\n· После своей активации, начиная со следующего хода, получает 2 [ResultEnhancement:`Повышения силы`] в течение 5 ходов",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationChain",
-      "name": "Tremor - Chain",
-      "desc": "- Lose 1 Clash Power for every 10 Tremor Potency on self (max 3)\n- For {1} Turns: When Hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by {0}.\n- Turn End: reduce the Count by 1\n- (Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)",
-      "summary": "Lose 1 Clash Power for every 10 Tremor Potency on self\nRaise Stagger Threshold by {0}",
+      "name": "Тремор — Цепи",
+      "desc": "· Теряет 1 Силу в столкновении за каждые 10 [VibrationChainPersonality:`Тремора`] на себе (До 3)\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]<size=1%>{1}{0}</size>",
+      "summary": "Сила в столкновении понижается<size=1%>{0}</size>",
       "undefined": "-"
     },
     {
       "id": "TimeRentalTwo",
-      "name": "T Corp. Borrowed Time",
-      "desc": "Turn End:\n- Gain {1} Haste, Clash Power Up, and Fragile next turn.\n- At 1 Count, gain {0} Bind next turn instead.\n- Gain 1 Stack and lose 1 Count\n- If this unit has more Bind than it has Haste, the Borrowed Time effect expires and this unit gets Staggered.",
+      "name": "Одолженное время Корп. T",
+      "desc": "В конце хода потенциал повышается на 1, а счётчик понижается на 1\n\nВ конце хода:\n· Получает {1} [Agility:`Спешки`], [ParryingResultUp:`Повышений силы в столкновении`] и [Vulnerable:`Уязвимостей`] на следующий ход\n· Если количество [Binding:`Связывания`] превышает количество [Agility:`Спешки`], [TimeRentalTwo:`Одолженное время`] прекращает своё действие, оглушая носителя\n\nКогда счётчик достигает 1 к концу хода:\n· Получает {0} [Binding:`Связывания`] на следующий ход вместо тех эффектов",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAccumulation",
-      "name": "Time Delay",
-      "desc": "As long as this effect is active, damage dealt against this unit is stored and not taken.\nTurn End: reduce value by 1\nTurn End: If there is only 1 value left of this effect, the effect expires after dealing (2 x stored damage) Sloth damage to this unit\nWhen this effect is active, its value cannot be gained or be refreshed.",
+      "name": "Накопление времени",
+      "desc": "В конце хода понижается на 1\n\n· Пока эффект в действии, урон накапливается без снижения ОЗ\n· Если к концу хода значение равняется 1, наносит двойное количество накопленного урона в виде урона Леностю\n· Значение эффекта не может измениться другими факторами",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultDown",
-      "name": "Clash Power Down",
-      "desc": "In a Clash, lose Clash Power equal to the value",
+      "name": "Понижение силы в столкновении",
+      "desc": "Во время столкновения его сила понижается на количество эффекта",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ParryingResultUp",
-      "name": "Clash Power Up",
-      "desc": "In a Clash, gain Clash Power equal to the value",
-      "summary": "In a Clash, gain Clash Power equal to the value",
+      "name": "Повышение силы в столкновении",
+      "desc": "Во время столкновения его сила повышается на количество эффекта",
+      "summary": "Во время поединка повышает силу в поединке на счётчик эффекта.",
       "undefined": "-"
     },
     {
       "id": "LimitedTime",
-      "name": "Stolen Time",
-      "desc": "- Turn Start: At 200+ value, gain ({0}- 200)/50 Offense Level Up & Defense Level Up.\n- Turn Start: At less than 200 value, gain (200 - {0})/50 Offense Level Down & Defense Level Down.",
+      "name": "Украденное время",
+      "desc": "· Если в начале хода значение равно или превышает 200, получает (({0} - 200) / 50) [AttackUp:`Повышений уровня атаки`] и [DefenseUp:`Повышений уровня защиты`]\n· Если в начале хода значение менее 200, получает ((200 - {0}) / 50) [AttackDown:`Понижений уровня атаки`] и [DefenseDown:`Понижений уровня защиты`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OwnTime",
-      "name": "Shared Time",
-      "desc": "- Turn Start: At 40+ value, gain ({0}- 40)/10 Offense Level Up & Defense Level Up.\n- Turn Start: At less than 40 value, gain (40 - {0})/10 Offense Level Down & Defense Level Down.",
+      "name": "Распределённое время",
+      "desc": "· Если в начале хода значение равно или превышает 40, получает (({0} - 40) / 10) [AttackUp:`Повышений уровня атаки`] и [DefenseUp:`Повышений уровня защиты`]\n· Если в начале хода значение менее 40, получает ((40 - {0}) / 10) [AttackDown:`Понижений уровня атаки`] и [DefenseDown:`Понижений уровня защиты`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EquitableDistribution",
-      "name": "Joint Time Expenditure",
-      "desc": "When spending Shared Time, the Brains spend an equal amount of time across the board.",
+      "name": "Издержки распределённого времени",
+      "desc": "При трате [OwnTime:`Распределённого времени`] все Мозги тратят одинаковое количество",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfairDistribution",
-      "name": "Infighting",
-      "desc": "When spending Shared Time, the Brains no longer spend an equal amount of time across the board.\nTurn Start: all parts lose Protection equal to the number of Parts with different remaining Time values.",
+      "name": "Распри",
+      "desc": "· При трате [OwnTime:`Распределённого времени`] все Мозги теперь тратят его вразнобой\n· В начале хода все части теряют [Protection:`Защищённость`] по числу частей, имеющих разное количество [OwnTime:`Распределённого времени`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAcceleration",
-      "name": "Time Acceleration",
-      "desc": "- Gain 5 Speed\n- Enhances this unit's Skills.\n- Gain 1 Fragile; when Tremor Burst, Skill or Coin effect raises this unit's Stagger Threshold, it raises it by +50% more.",
+      "name": "Ускорение времени",
+      "desc": "· Скорость повышается на 5\n· Атаки усиливаются\n· Получает 1 [Vulnerable:`Уязвимость`]\n· Повышение границ выносливости при [VibrationExplosion:`Провокации Тремора`] или эффектами навыков или монет увеличивается на 50%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_LowMorale",
-      "name": "Broken Unity",
-      "desc": "- Low Morale\nGain 1 Fragile. Gain 1 Tremor Count when hit. (3 times max)",
+      "name": "Расколотое единство (Низкий дух)",
+      "desc": "· Получает 1 [Vulnerable:`Уязвимость`]\n· При получении урона свой счётчик [Vibration:`Тремора`] повышается на 1 (До 3)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_Panic",
-      "name": "Broken Unity",
-      "desc": "- Panic\nGain 2 Fragile. Gain 2 Tremor Count when hit. (3 times max)",
+      "name": "Расколотое единство (Паника)",
+      "desc": "· Получает 2 [Vulnerable:`Уязвимости`]\n· При получении урона свой счётчик [Vibration:`Тремора`] повышается на 2 (До 3)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeKillerWatch",
-      "name": "Time Relief Entitlement",
-      "desc": "Targeted by the Time Ripper while Time Acceleration is active.",
+      "name": "Цель спасения времени",
+      "desc": "Становится целью Потрошителя времени, пока его [TimeAcceleration:`Ускорение времени`] активно",
       "summary": "",
       "undefined": "-"
     }
