@@ -3,41 +3,41 @@
     {
       "id": "FusionVibration",
       "name": "Наложение амплитуд",
-      "desc": "· Накладывает амплитуды особых видов [Vibration:`Тремора`] друг на друга, образуя [VibrationNesting:`Тремор — Суперпозицию`]\n· При попытке [Switch_Vibration:`Преобразовать амплитуду`] на [VibrationNesting:`Треморе — Суперпозиции`], вместо этого происходит [FusionVibration:`Наложение амплитуд`]\n\n「[VibrationNesting:`Тремор — Суперпозиция`]:\n· Сочетает в себе все эффекты особых видов [Vibration:`Тремора`], которые были или нанеслись с [FusionVibration:`Наложением амплитуд`]」",
+      "desc": "· Накладывает амплитуды особых видов <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> друг на друга, образуя <sprite name=\"VibrationNesting\"><color=#e30000><u><link=\"VibrationNesting\">Тремор — Суперпозицию</link></u></color>\n· При попытке <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразовать амплитуду</link></u></color> на <sprite name=\"VibrationNesting\"><color=#e30000><u><link=\"VibrationNesting\">Треморе — Суперпозиции</link></u></color>, вместо этого происходит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложение амплитуд</link></u></color>\n\n「<sprite name=\"VibrationNesting\"><color=#e30000><u><link=\"VibrationNesting\">Тремор — Суперпозиция</link></u></color>:\n· Сочетает в себе все эффекты особых видов <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, которые были или нанеслись с <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложением амплитуд</link></u></color>」",
       "summary": ""
     },
     {
       "id": "VibrationNesting",
       "name": "Тремор — Суперпозиция",
-      "desc": "Сочетает в себе все эффекты особых видов [Vibration:`Тремора`], которые были или нанеслись с [FusionVibration:`Наложением амплитуд`]",
+      "desc": "Сочетает в себе все эффекты особых видов <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, которые были или нанеслись с <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложением амплитуд</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationDistribution",
       "name": "Тремор — Распределение",
-      "desc": "· В конце хода получает (Сумма счётчика [Vibration:`Тремора`] всех союзников / число живых союзников) [AttackUp:`Повышений уровня атаки`] на следующий ход (До 5)\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
+      "desc": "· В конце хода получает (Сумма счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> всех союзников / число живых союзников) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход (До 5)\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TcorpSpecialInvestigator",
       "name": "Значок Особого следователя Корп. T",
-      "desc": "· После получения смертельного урона впервые за битву ОЗ не могут упасть ниже 1, после чего они восстанавливаются до 80%\n· После своей активации, начиная со следующего хода, получает 2 [ResultEnhancement:`Повышения силы`] в течение 5 ходов",
+      "desc": "· После получения смертельного урона впервые за битву ОЗ не могут упасть ниже 1, после чего они восстанавливаются до 80%\n· После своей активации, начиная со следующего хода, получает 2 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышения силы</link></u></color> в течение 5 ходов",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VibrationChain",
       "name": "Тремор — Цепи",
-      "desc": "· Теряет 1 Силу в столкновении за каждые 10 [VibrationChainPersonality:`Тремора`] на себе (До 3)\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]<size=1%>{1}{0}</size>",
+      "desc": "· Теряет 1 Силу в столкновении за каждые 10 <sprite name=\"VibrationChainPersonality\"><color=#e30000><u><link=\"VibrationChainPersonality\">Тремора</link></u></color> на себе (До 3)\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><size=1%>{1}{0}</size>",
       "summary": "Сила в столкновении понижается<size=1%>{0}</size>",
       "undefined": "-"
     },
     {
       "id": "TimeRentalTwo",
       "name": "Одолженное время Корп. T",
-      "desc": "В конце хода потенциал повышается на 1, а счётчик понижается на 1\n\nВ конце хода:\n· Получает {1} [Agility:`Спешки`], [ParryingResultUp:`Повышений силы в столкновении`] и [Vulnerable:`Уязвимостей`] на следующий ход\n· Если количество [Binding:`Связывания`] превышает количество [Agility:`Спешки`], [TimeRentalTwo:`Одолженное время`] прекращает своё действие, оглушая носителя\n\nКогда счётчик достигает 1 к концу хода:\n· Получает {0} [Binding:`Связывания`] на следующий ход вместо тех эффектов",
+      "desc": "В конце хода потенциал повышается на 1, а счётчик понижается на 1\n\nВ конце хода:\n· Получает {1} <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышений силы в столкновении</link></u></color> и <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> на следующий ход\n· Если количество <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> превышает количество <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженное время</link></u></color> прекращает своё действие, оглушая носителя\n\nКогда счётчик достигает 1 к концу хода:\n· Получает {0} <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход вместо тех эффектов",
       "summary": "",
       "undefined": "-"
     },
@@ -65,56 +65,56 @@
     {
       "id": "LimitedTime",
       "name": "Украденное время",
-      "desc": "· Если в начале хода значение равно или превышает 200, получает (({0} - 200) / 50) [AttackUp:`Повышений уровня атаки`] и [DefenseUp:`Повышений уровня защиты`]\n· Если в начале хода значение менее 200, получает ((200 - {0}) / 50) [AttackDown:`Понижений уровня атаки`] и [DefenseDown:`Понижений уровня защиты`]",
+      "desc": "· Если в начале хода значение равно или превышает 200, получает (({0} - 200) / 50) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color>\n· Если в начале хода значение менее 200, получает ((200 - {0}) / 50) <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижений уровня атаки</link></u></color> и <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OwnTime",
       "name": "Распределённое время",
-      "desc": "· Если в начале хода значение равно или превышает 40, получает (({0} - 40) / 10) [AttackUp:`Повышений уровня атаки`] и [DefenseUp:`Повышений уровня защиты`]\n· Если в начале хода значение менее 40, получает ((40 - {0}) / 10) [AttackDown:`Понижений уровня атаки`] и [DefenseDown:`Понижений уровня защиты`]",
+      "desc": "· Если в начале хода значение равно или превышает 40, получает (({0} - 40) / 10) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color>\n· Если в начале хода значение менее 40, получает ((40 - {0}) / 10) <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижений уровня атаки</link></u></color> и <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EquitableDistribution",
       "name": "Издержки распределённого времени",
-      "desc": "При трате [OwnTime:`Распределённого времени`] все Мозги тратят одинаковое количество",
+      "desc": "При трате <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> все Мозги тратят одинаковое количество",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfairDistribution",
       "name": "Распри",
-      "desc": "· При трате [OwnTime:`Распределённого времени`] все Мозги теперь тратят его вразнобой\n· В начале хода все части теряют [Protection:`Защищённость`] по числу частей, имеющих разное количество [OwnTime:`Распределённого времени`]",
+      "desc": "· При трате <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> все Мозги теперь тратят его вразнобой\n· В начале хода все части теряют <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> по числу частей, имеющих разное количество <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeAcceleration",
       "name": "Ускорение времени",
-      "desc": "· Скорость повышается на 5\n· Атаки усиливаются\n· Получает 1 [Vulnerable:`Уязвимость`]\n· Повышение границ выносливости при [VibrationExplosion:`Провокации Тремора`] или эффектами навыков или монет увеличивается на 50%",
+      "desc": "· Скорость повышается на 5\n· Атаки усиливаются\n· Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>\n· Повышение границ выносливости при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокации Тремора</link></u></color> или эффектами навыков или монет увеличивается на 50%",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_LowMorale",
       "name": "Расколотое единство (Низкий дух)",
-      "desc": "· Получает 1 [Vulnerable:`Уязвимость`]\n· При получении урона свой счётчик [Vibration:`Тремора`] повышается на 1 (До 3)",
+      "desc": "· Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>\n· При получении урона свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> повышается на 1 (До 3)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_Panic",
       "name": "Расколотое единство (Паника)",
-      "desc": "· Получает 2 [Vulnerable:`Уязвимости`]\n· При получении урона свой счётчик [Vibration:`Тремора`] повышается на 2 (До 3)",
+      "desc": "· Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>\n· При получении урона свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> повышается на 2 (До 3)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TimeKillerWatch",
       "name": "Цель спасения времени",
-      "desc": "Становится целью Потрошителя времени, пока его [TimeAcceleration:`Ускорение времени`] активно",
+      "desc": "Становится целью Потрошителя времени, пока его <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">Ускорение времени</link></u></color> активно",
       "summary": "",
       "undefined": "-"
     }
