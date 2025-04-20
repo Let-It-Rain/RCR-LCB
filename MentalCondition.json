@@ -2,73 +2,73 @@
   "dataList": [
     {
       "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercent",
-      "add": "Increases after winning a Clash based on the Clash count\n<size=95%>(Base Value is {0}, raised by {1}% per Clash count after 1)</size>",
-      "min": "Decreases after winning a Clash based on the Clash count\n<size=95%>(Base Value is {0}, raised by {1}% per Clash count after 1)</size>"
+      "add": "Повышается в победе в столкновении в зависимости от числа Комбо\n(Базовое число: {0}, повышается на {1}% за каждое Комбо после 1)",
+      "min": "Понижается в победе в столкновении в зависимости от числа Комбо\n(Базовое число: {0}, повышается на {1}% за каждое Комбо после 1)"
     },
     {
       "id": "OnKillEnemyAsLevelRatioMultiply",
-      "add": "Increase by {0} after this unit defeats an enemy whose level was higher than or equal to this unit’s",
-      "min": "Decrease by {0} after this unit defeats an enemy whose level was higher than or equal to this unit’s"
+      "add": "Если уровень побеждённого противника выше своего уровня, повышается в зависимости от разницы в уровне\n(Базовое число: {0}, повышается на {0} за уровень)",
+      "min": "Если уровень побеждённого противника выше своего уровня, понижается в зависимости от уровня\n(Базовое число: {0}, повышается на {0} за уровень)"
     },
     {
       "id": "OnKillEnemyByOtherAllyAsLevelRatioMultiply",
-      "add": "Increase by {0} after an ally defeats an enemy whose level was higher than or equal to the unit’s",
-      "min": "Decrease by {0} after an ally defeats an enemy whose level was higher than or equal to the unit’s"
+      "add": "Если уровень побеждённого союзником противника выше своего уровня, повышается в зависимости от разницы в уровне\n(Базовое число: {0}, повышается на {0} за уровень)",
+      "min": "Если уровень побеждённого союзником противника выше своего уровня, понижается в зависимости от уровня\n(Базовое число: {0}, повышается на {0} за уровень)"
     },
     {
       "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercent",
-      "add": "Increases after losing a Clash based on the Clash count\n<size=95%>(Base Value is {0}, raised by {1}% per Clash count after 1)</size>",
-      "min": "Decreases after losing a Clash based on the Clash count\n<size=95%>(Base Value is {0}, raised by {1}% per Clash count after 1)</size>"
+      "add": "Повышается в поражении в столкновении в зависимости от числа Комбо\n(Базовое число: {0}, повышается на {1}% за каждое Комбо после 1)",
+      "min": "Понижается в поражении в столкновении в зависимости от числа Комбо\n(Базовое число: {0}, повышается на {1}% за каждое Комбо после 1)"
     },
     {
       "id": "OnDieAllyAsLevelRatio",
-      "add": "If the level of the defeated ally was higher than or equal to the unit’s,\nincrease based on the level difference\n<size=95%>(Base Value is {0}, raised by {0} per level)</size>",
-      "min": "If the level of the defeated ally was higher than or equal to the unit’s,\ndecrease based on the level difference\n<size=95%>(Base Value is {0}, raised by {0} per level)</size>"
+      "add": "Если уровень поверженного союзника выше уровня противника, повышается в зависимости от разницы в уровне\n(Базовое число: {0}, повышается на {0} за уровень)",
+      "min": "Если уровень поверженного союзника выше уровня противника, понижается в зависимости от уровня\n(Базовое число: {0}, повышается на {0} за уровень)"
     },
     {
       "id": "OnRoundStartAfterEvent",
-      "add": "Increased by {0} at the start of the turn",
-      "min": "Decreased by {0} at the start of the turn"
+      "add": "Сила духа повышается на {0} в начале хода",
+      "min": "Сила духа понижается на {0} в начале хода"
     },
     {
       "id": "OnKillEnemyMp",
-      "add": "Increase by {0} after this unit defeats an enemy regardless of their level",
-      "min": "Decrease by {0} after this unit defeats an enemy regardless of their level"
+      "add": "Сила духа повышается на {0} при убийстве противника независимо от его уровня",
+      "min": "Сила духа понижается на {0} при убийстве противника независимо от его уровня"
     },
     {
       "id": "OnDieAllyMp",
-      "add": "If an ally is defeated, increase by {0} regardless of the ally's level",
-      "min": "If an ally is defeated, decrease by {0} regardless of the ally's level"
+      "add": "Сила духа повышается на {0} при смерти союзника независимо от его уровня",
+      "min": "Сила духа понижается на {0} при смерти союзника независимо от его уровня"
     },
     {
       "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
-      "add": "Increase by {0} after an ally defeats an enemy whose level was higher than or equal to this unit’s",
-      "min": "Decrease by {0} after an ally defeats an enemy whose level was higher than or equal to this unit’s. Does not decrease when the enemy was defeated by an Assist Attack."
+      "add": "Сила духа повышается на {0}, если союзник побеждает противника с бо́льшим уровнем",
+      "min": "Сила духа понижается на {0}, если союзник побеждает противника с бо́льшим уровнем Понижение не происходит, если противник был повержен [CoverAttack:`Вспомогательной атакой`]"
     },
     {
       "id": "OnDieBladeLineageAlly",
-      "add": "If a Blade Lineage ally is defeated, gain {0} regardless of the ally's level",
-      "min": "If a Blade Lineage ally is defeated, lose {0} regardless of the ally's level"
+      "add": "Сила духа повышается на {0} при смерти союзника из Родословной клинка независимо от его уровня",
+      "min": "Сила духа понижается на {0} при смерти союзника из Родословной клинка независимо от его уровня"
     },
     {
       "id": "OnWinDuelLessMpTarget",
-      "add": "Increases by {0} after winning a Clash against an enemy with SP lower than this unit's",
-      "min": "Decreases by {0} after winning a Clash against an enemy with SP lower than this unit's"
+      "add": "Сила духа повышается на {0} при победе в столкновении против цели с более низкой силой духа",
+      "min": "Сила духа понижается на {0} при победе в столкновении против цели с более низкой силой духа"
     },
     {
       "id": "OnLoseDuelLessMpTarget",
-      "add": "Increases by {0} after losing a Clash against an enemy with SP lower than this unit's",
-      "min": "Decreases by {0} after losing a Clash against an enemy with SP lower than this unit's"
+      "add": "Сила духа повышается на {0} при поражении в столкновении против цели с более низкой силой духа",
+      "min": "Сила духа понижается на {0} при поражении в столкновении против цели с более низкой силой духа"
     },
     {
       "id": "OnKillEnemyByOtherAlly",
-      "add": "Increase by {0} after an ally defeats an enemy regardless of their level",
-      "min": "Decrease by {0} after an ally defeats an enemy regardless of their level"
+      "add": "Сила духа повышается на {0} после того, как союзник побеждает противника, независимо от его уровня",
+      "min": "Сила духа понижается на {0} после того, как союзник побеждает противника, независимо от его уровня"
     },
     {
       "id": "OnWinDuelAnyTarget",
-      "add": "Increased by {0} on Clash Win",
-      "min": "Decreased by {0} on Clash Lose"
+      "add": "Сила духа повышается на {0} при победе в столкновении",
+      "min": "Сила духа понижается на {0} при поражении в столкновении"
     }
   ]
 }
