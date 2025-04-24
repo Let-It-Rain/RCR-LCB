@@ -7,15 +7,15 @@
           "level": 1,
           "name": "Ослепляющие нюдсы",
           "abName": "А мне скинешь?",
-          "desc": "[EndSkill] Heal 15 SP for 4 allies with the least SP",
+          "desc": "[EndSkill] Восстанавливает 15 СД четырём союзникам с наименьшей СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +3 Charge Count"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Give +1 Poise Count to 1 random ally"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] на 1 случайному союзнику"
                 }
               ]
             }
@@ -25,18 +25,18 @@
           "level": 3,
           "name": "Ослепляющие нюдсы",
           "abName": "А мне скинешь?",
-          "desc": "[EndSkill] Heal 20 SP for 4 allies with the least SP",
+          "desc": "[EndSkill] Восстанавливает <style=\"highlight\">20</style> CД четырём союзникам с наименьшей СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +4 Charge Count"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 4</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Give +1 Poise Count to 1 random ally"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] на 1 случайному союзнику"
                 },
                 {
-                  "desc": "[EndSkillHead] Apply 1 <sprite name=\"PenetrateResultUp\"><color=#f8c200><u><link=\"PenetrateResultUp\">Повышение силы колющей атаки</link></u></color> and 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> to 4 allies with the highest SP"
+                  "desc": "<style=\"highlight\">[EndSkillHead] Даёт 1 [PenetrateResultUp:`Повышение силы Пронзающей атаки`] и 1 [AttackDmgUp:`Повышение урона`] четырём союзникам с наибольшей СД</style>"
                 }
               ]
             }
@@ -46,18 +46,18 @@
           "level": 4,
           "name": "Ослепляющие нюдсы",
           "abName": "А мне скинешь?",
-          "desc": "[EndSkill] Heal 25 SP for 4 allies with the least SP",
+          "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25</style> СД четырём союзникам с наименьшей СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 Charge Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 6</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Give +2 Poise Count to 1 random ally"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style> случайному союзнику"
                 },
                 {
-                  "desc": "[EndSkill] Apply 2 <sprite name=\"PenetrateResultUp\"><color=#f8c200><u><link=\"PenetrateResultUp\">Повышение силы колющей атаки</link></u></color> and 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> to 4 allies with the highest SP"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Даёт <style=\"highlight\">2</style> [PenetrateResultUp:`Повышения силы Пронзающей атаки`] и <style=\"highlight\">2</style> [AttackDmgUp:`Повышения урона`] четырём союзникам с наибольшей СД"
                 }
               ]
             }
@@ -72,15 +72,15 @@
           "level": 1,
           "name": "Ослепляющие нюдсы",
           "abName": "А мне скинешь?",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Poise and +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Pride Fragility this turn and next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [IndigoTakeDamageUp:`Уязвимости к Гордыне`] на этот и следующий ход"
                 }
               ]
             }
@@ -90,21 +90,21 @@
           "level": 3,
           "name": "Ослепляющие нюдсы",
           "abName": "А мне скинешь?",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Heal 3% of Max HP on self"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Восстанавливает 3% от максимальных ОЗ</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Poise and +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Pride Fragility this turn and next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [IndigoTakeDamageUp:`Уязвимости к Гордыне`] на этот и следующий ход"
                 },
                 {
-                  "desc": "[EndSkillTail] Apply 2 Damage Up this turn and next turn to 4 allies with the least SP"
+                  "desc": "<style=\"highlight\">[EndSkillTail] Даёт 2 [AttackDmgUp:`Повышения урона`] четырём союзникам с наименьшей СД на этот и следующий ход</style>"
                 }
               ]
             }
@@ -114,21 +114,21 @@
           "level": 4,
           "name": "Ослепляющие нюдсы",
           "abName": "А мне скинешь?",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 3% of Max HP on self"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Восстанавливает 3% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Poise and +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Pride Fragility this turn and next turn"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [IndigoTakeDamageUp:`Уязвимости к Гордыне`] на этот и следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Apply 2 Damage Up this turn and next turn to 4 allies with the least SP"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Даёт 2 [AttackDmgUp:`Повышения урона`] четырём союзникам с наименьшей СД на этот и следующий ход"
                 }
               ]
             }
@@ -148,26 +148,26 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 15% of Max HP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает 15% от максимальных ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lose 1~2 SP"
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)"
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 4~8% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 4~8% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"ShamrockTakeDamageUp\"><color=#e30000><u><link=\"ShamrockTakeDamageUp\">Уязвимость к Чревоугодию</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp:`Уязвимость к Чревоугодию`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1~3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1~3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -177,31 +177,31 @@
           "level": 3,
           "name": "Взмах крыльев",
           "abName": "Монетки реюз хаха",
-          "desc": "If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead",
+          "desc": "<style=\"highlight\">При избыточном восстановлении ОЗ, восстанавливает их союзнику с наименьшим процентом ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal <style=\"highlight\">18%</style> of Max HP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">18%</style> от максимальных ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lose 1~2 SP"
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)"
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by <style=\"highlight\">6~10</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">6~10%</style> от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"ShamrockTakeDamageUp\"><color=#e30000><u><link=\"ShamrockTakeDamageUp\">Уязвимость к Чревоугодию</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp:`Уязвимость к Чревоугодию`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1~3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1~3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -211,31 +211,31 @@
           "level": 4,
           "name": "Взмах крыльев",
           "abName": "Монетки реюз хаха",
-          "desc": "If this Skill's healing exceeds this unit's max HP, redirect the excess healing to 1 ally with the least HP percentage instead",
+          "desc": "При избыточном восстановлении ОЗ, восстанавливает их союзнику с наименьшим процентом ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal <style=\"highlight\">20</style>% of Max HP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">20%</style> от максимальных ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Lose 1~2 SP"
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)"
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by <style=\"highlight\">8~12</style>% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">8~12%</style> от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"ShamrockTakeDamageUp\"><color=#e30000><u><link=\"ShamrockTakeDamageUp\">Уязвимость к Чревоугодию</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp:`Уязвимость к Чревоугодию`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1~<style=\"highlight\">4</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1~<style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -250,15 +250,15 @@
           "level": 1,
           "name": "Взмах крыльев",
           "abName": "Монетки реюз хаха",
-          "desc": "[CantIdentify]\nTargets the unit with the least Core HP\n[BeforeAttack] Deal 5% HP damage to at most 5 random other allies\n- Heal HP on self equal to the damage dealt to allies.\n- If this unit dealt damage to an ally, gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> this turn, and gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn.\n(Once per turn. The 'dealt damage' includes damage dealt to Shield HP. This effect can kill allies.)",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ Ядра\n[BeforeAttack] До 5 других случайных союзников теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников\n- Получает 2 [Enhancement:`Повышения силы атаки`] и 2 [Agility:`Спешки`] при нанесении урона союзникам\n(Единожды за ход; засчитывается нанесённый урон по щиту; может убить союзников)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Heal self by 10% of damage dealt"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на 10% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 1~4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит 1~4 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -268,15 +268,15 @@
           "level": 3,
           "name": "Взмах крыльев",
           "abName": "Монетки реюз хаха",
-          "desc": "[CantIdentify]\nTargets the unit with the least Core HP\n<style=\"highlight\">[BeforeAttack] Gain (# of highest Reson. -2) Atk Weight (max 1)</style>\n[BeforeAttack] Deal 5% HP damage to at most 5 random other allies\n- Heal HP on self equal to the damage dealt to allies.\n- If this unit dealt damage to an ally, gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> this turn, and gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn.\n(Once per turn. The 'dealt damage' includes damage dealt to Shield HP. This effect can kill allies.)\n<style=\"highlight\">[EndSkill] If this Skill's healing exceeds this unit's max HP, gain (excess heal/max HP) x 10 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> next turn. (max 3 per turn)</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ Ядра\n<style=\"highlight\">[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 1)</style>\n[BeforeAttack] До 5 других случайных союзников теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников\n- Получает 2 [Enhancement:`Повышения силы атаки`] и 2 [Agility:`Спешки`] при нанесении урона союзникам\n(Единожды за ход; засчитывается нанесённый урон по щиту; может убить союзников)\n<style=\"highlight\">[EndSkill] При избыточном восстановлении ОЗ, получает ((Избыточное восстановление / максимальные ОЗ) × 10) [AttackUp:`Повышений уровня атаки`] на следующий ход (До 3 за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Heal self by <style=\"highlight\">15</style>% of damage dealt"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на <style=\"highlight\">15%</style> от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict <style=\"highlight\">2~5</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">2~5</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -286,18 +286,18 @@
           "level": 4,
           "name": "Взмах крыльев",
           "abName": "Монетки реюз хаха",
-          "desc": "[CantIdentify]\nTargets the unit with the least Core HP\n[BeforeAttack] Gain (# of highest Reson. -2) Atk Weight (max <style=\"highlight\">2</style>)\n[BeforeAttack] Deal 5% HP damage to at most 5 random other allies\n- Heal HP on self equal to the damage dealt to allies.\n- If this unit dealt damage to an ally, gain 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> this turn, and gain 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color> next turn.\n(Once per turn. The 'dealt damage' includes damage dealt to Shield HP. This effect can kill allies.)\n[EndSkill] If this Skill's healing exceeds this unit's max HP, gain (excess heal/max HP) x 10 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> next turn. (max <style=\"highlight\">6</style> per turn)",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ Ядра\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] До 5 других случайных союзников теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников\n- Получает 2 [Enhancement:`Повышения силы атаки`] и 2 [Agility:`Спешки`] при нанесении урона союзникам\n(Единожды за ход; засчитывается нанесённый урон по щиту; может убить союзников)\n[EndSkill] При избыточном восстановлении ОЗ, получает ((Избыточное восстановление / максимальные ОЗ) × 10) [AttackUp:`Повышений уровня атаки`] на следующий ход (До <style=\"highlight\">6</style> за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Heal self by <style=\"highlight\">20</style>% of damage dealt"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает ОЗ на <style=\"highlight\">20%</style> от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict <style=\"highlight\">3~6</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3~6</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[EnemyKill] Gain 1<sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> next turn (max 3)"
+                  "desc": "<style=\"highlight\">[EnemyKill] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход (До 3)</style>"
                 }
               ]
             }
@@ -311,19 +311,19 @@
         {
           "level": 1,
           "name": "Царство небесное",
-          "abName": "Портрет ушедших дней",
-          "desc": "[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n[EndSkill] Heal 2 allies with the lowest HP percentages by (5 + (sum of <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Potency and Count on the main target)/3)% HP (max 15%)",
+          "abName": "Алюминь...",
+          "desc": "[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[EndSkill] Восстанавливает (5 + (Сумма [Sinking:`Утопания`] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшим процентом ОЗ на момент окончания навыка (Восстанавливает до 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse:`Проклятие`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваный гость</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]"
                 }
               ]
             }
@@ -332,22 +332,22 @@
         {
           "level": 3,
           "name": "Царство небесное",
-          "abName": "Портрет ушедших дней",
-          "desc": "[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n<style=\"highlight\">- If the said Reson. was a Gloom Reson., gain +1 Atk Weight</style>\n[EndSkill] Heal 2 allies with the lowest HP percentages by (<style=\"highlight\">10</style> + (sum of <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Potency and Count on the main target)/3)% HP (max 15%)",
+          "abName": "Алюминь...",
+          "desc": "[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n<style=\"highlight\">- Количество целей +1, если грехом наибольшего резонанса является Уныние</style>\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма [Sinking:`Утопания`] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшим процентом ОЗ на момент окончания навыка (Восстанавливает до 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse:`Проклятие`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ Gloom Reson., inflict 1 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимость к Унынию</link></u></color></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваный гость</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -356,22 +356,22 @@
         {
           "level": 4,
           "name": "Царство небесное",
-          "abName": "Портрет ушедших дней",
-          "desc": "[BeforeAttack] At 4+ highest Reson., gain +1 Atk Weight\n- If the said Reson. was a Gloom Reson., gain +1 Atk Weight\n[EndSkill] Heal 2 allies with the lowest HP percentages by (10 + (sum of <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Potency and Count on the main target)/3)% HP (max <style=\"highlight\">20</style>%)\n<style=\"highlight\">- If the highest Reson. was a 4+ Gloom Reson., heal 10% more of the max HP</style>",
+          "abName": "Алюминь...",
+          "desc": "[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n- Количество целей +1, если грехом наибольшего резонанса является Уныние\n[EndSkill] Восстанавливает (10 + (Сумма [Sinking:`Утопания`] и его счётчика на основной цели) / 3)% от максимальных ОЗ двум союзникам с наименьшим процентом ОЗ на момент окончания навыка (Восстанавливает до <style=\"highlight\">20%</style>)\n<style=\"highlight\">- При 4 и более грехах в наибольшем резонансе Уныния дополнительно восстанавливает 10% от максимальных ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 3</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 4+ Gloom Reson., inflict 1 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимость к Унынию</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваный гость</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -385,22 +385,22 @@
         {
           "level": 1,
           "name": "Царство небесное",
-          "abName": "Портрет ушедших дней",
-          "desc": "[CantIdentify]\nPrioritizes targets with the most <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>\n[BeforeAttack] Lose HP by 10% of Max HP (does not get Staggered due to this effect)\n[EndSkill] Heal 3 other allies with the lowest HP percentages by (5 + (sum of <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Potency and Count on the main target)/3)% HP (max 10%)\n- At 4+ highest Reson., heal 1 additional ally",
+          "abName": "Алюминь...",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим [Sinking:`Утопанием`]\n[BeforeAttack] Теряет 10% от максимальных ОЗ (Не может оглушить)\n[EndSkill] Восстанавливает (5 + (Сумма [Sinking:`Утопания`] и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с наименьшим процентом ОЗ на момент окончания навыка (Кроме себя; до 10%)\n- Если в резонансе 4 и более греха, восстанавливает ОЗ ещё одному союзнику",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse:`Проклятие`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 3+ Gloom Reson., inflict 1 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимость к Унынию</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваный гость</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]"
                 }
               ]
             }
@@ -409,25 +409,25 @@
         {
           "level": 3,
           "name": "Царство небесное",
-          "abName": "Портрет ушедших дней",
-          "desc": "[CantIdentify]\nPrioritizes targets with the most <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>\n[BeforeAttack] Lose HP by 10% of Max HP (does not get Staggered due to this effect)\n[EndSkill] Heal 3 other allies with the lowest HP percentages by (<style=\"highlight\">10</style> + (sum of <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Potency and Count on the main target)/3)% HP (max <style=\"highlight\">15</style>%)\n- At 4+ highest Reson., heal 1 additional ally",
+          "abName": "Алюминь...",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим [Sinking:`Утопанием`]\n[BeforeAttack] Теряет 10% от максимальных ОЗ (Не может оглушить)\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма [Sinking:`Утопания`] и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с наименьшим процентом ОЗ на момент окончания навыка (Кроме себя; до <style=\"highlight\">15%</style>)\n- Если в резонансе 4 и более греха, восстанавливает ОЗ ещё одному союзнику",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 3+ Gloom Reson., inflict 1 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимость к Унынию</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваный гость</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эхо особняка</link></u></color> next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [EchoOfMansion:`Эха особняка`] на следующий ход</style>"
                 }
               ]
             }
@@ -436,25 +436,25 @@
         {
           "level": 4,
           "name": "Царство небесное",
-          "abName": "Портрет ушедших дней",
-          "desc": "[CantIdentify]\nPrioritizes targets with the most <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>\n[BeforeAttack] Lose HP by 10% of Max HP (does not get Staggered due to this effect)\n[EndSkill] Heal 3 other allies with the lowest HP percentages by (10 + (sum of <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Potency and Count on the main target)/3)% HP (max 15%)\n- At 4+ highest Reson., heal 1 additional ally\n<style=\"highlight\">- If the said Reson. was a Gloom Reson., heal an additional 5% HP</style>",
+          "abName": "Алюминь...",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим [Sinking:`Утопанием`]\n[BeforeAttack] Теряет 10% от максимальных ОЗ (Не может оглушить)\n[EndSkill] Восстанавливает (10 + (Сумма [Sinking:`Утопания`] и его счётчика на основной цели) / 3)% от максимальных ОЗ трём союзникам с наименьшим процентом ОЗ на момент окончания навыка (Восстанавливает до 15%)\n- Если в резонансе 4 и более греха, восстанавливает ОЗ ещё одному союзнику\n<style=\"highlight\">- Если это резонанс Уныния, повышает восстановление ОЗ на 5%</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на <style=\"highlight\">3</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <style=\"highlight\">For every 3</style> Gloom Reson., inflict 1 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимость к Унынию</link></u></color> <style=\"highlight\">(max 2)</style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] <style=\"highlight\">за каждые 3</style> греха Утопания в резонансе <style=\"highlight\">(До 2)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваный гость</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эхо особняка</link></u></color> next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [EchoOfMansion:`Эха особняка`] на следующий ход"
                 }
               ]
             }
@@ -469,19 +469,19 @@
           "level": 1,
           "name": "Ночной паралич",
           "abName": "Мягкая Кроватка",
-          "desc": "[BeforeAttack] Gain (highest Reson. + 5) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count (max 10)\n[EndSkill] If there are any targets in Staggered, Low Morale, or Panic states, heal 10 SP",
+          "desc": "[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[EndSkill] Если есть цели, которые оглушены, в состоянии пониженной морали, или в состоянии паники, восстанавливает 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремор`] на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -491,25 +491,25 @@
           "level": 3,
           "name": "Ночной паралич",
           "abName": "Мягкая Кроватка",
-          "desc": "<style=\"highlight\">If target has less than 0 SP, deal +1% more damage for every SP value below 0 (max 45%)</style>\n[BeforeAttack] Gain (highest Reson. + 5) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count (max 10)\n[EndSkill] If there are any targets in Staggered, Low Morale, or Panic states, heal 10 SP",
+          "desc": "<style=\"highlight\">Если у цели менее 0 СД, наносит на 1% больше урона за каждую единицу СД цели ниже 0 (До 45%)</style>\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[EndSkill] Если есть цели, которые оглушены, в состоянии пониженной морали, или в состоянии паники, восстанавливает 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель не является вышеописанной, наносит 5 [Sinking:`Утопания`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce the target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 2"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель не является вышеописанной, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -519,25 +519,25 @@
           "level": 4,
           "name": "Ночной паралич",
           "abName": "Мягкая Кроватка",
-          "desc": "If target has less than 0 SP, deal +1% more damage for every SP value below 0 (max 45%)\n[BeforeAttack] Gain (highest Reson. + 5) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count (max 10)\n[EndSkill] If there are any targets in Staggered, Low Morale, or Panic states, heal 10 SP<style=\"highlight\"></style>",
+          "desc": "Если у цели менее 0 СД, наносит на 1% больше урона за каждую единицу СД цели ниже 0 (До 45%)\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[EndSkill] Если есть цели, которые оглушены, в состоянии пониженной морали, или в состоянии паники, восстанавливает 10 СД<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если цель не является вышеописанной, наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color> <style=\"highlight\">twice</style>; then, reduce the target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 2"
+                  "desc": "[OnSucceedAttack] Если цель не является вышеописанной, [VibrationExplosion:`Провоцирует Тремор`] <style=\"highlight\">дважды</style> и понижает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -552,26 +552,26 @@
           "level": 1,
           "name": "Ночной паралич",
           "abName": "Мягкая Кроватка",
-          "desc": "[CantIdentify]\nTargets randomly\n[BeforeAttack] Gain (highest Reson. + 5) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count (max 10)\n[BeforeAttack] Heal 10 HP",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётик [Vibration:`Тремора`] на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -581,32 +581,32 @@
           "level": 3,
           "name": "Ночной паралич",
           "abName": "Мягкая Кроватка",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">If the main target is in Staggered, Low Morale, or Panic states, Base Power +1</style>\n[BeforeAttack] Gain (highest Reson. + 5) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count (max 10)\n[BeforeAttack] Heal 10 HP\n<style=\"highlight\">[EndSkill] Heal 5 SP for every enemy that is in Staggered, Low Morale, or Panic states</style>",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Если главная цель оглушена, в состоянии пониженной морали, или в состоянии паники, Базовая сила +1</style>\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ\n<style=\"highlight\">[EndSkill] Восстанавливает 5 СД за каждую цель, которая оглушена, в состоянии пониженной морали, или в панике</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётик [Vibration:`Тремора`] на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> and +2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Если цель не является вышеописанной, наносит 5 [Sinking:`Утопания`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce the target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
+                  "desc": "[OnSucceedAttack] Если цель не является вышеописанной, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -616,35 +616,35 @@
           "level": 4,
           "name": "Ночной паралич",
           "abName": "Мягкая Кроватка",
-          "desc": "[CantIdentify]\nTargets randomly\nIf the main target is in Staggered, Low Morale, or Panic states, Base Power +<style=\"highlight\">2</style>\n[BeforeAttack] Gain (highest Reson. + 5) <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count (max 10)\n[BeforeAttack] Heal 10 HP\n[EndSkill] Heal 5 SP for every enemy that is in Staggered, Low Morale, or Panic states<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли главная цель оглушена, в состоянии пониженной морали, или в состоянии паники, Базовая сила <style=\"highlight\">+2</style>\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ\n[EndSkill] Восстанавливает 5 СД за каждую цель, которая оглушена, в состоянии пониженной морали, или в панике",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётик [Vibration:`Тремора`] на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, inflict 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> and +2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Если цель не является вышеописанной, наносит 5 [Sinking:`Утопания`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce the target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель не является вышеописанной, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in Staggered, Low Morale, or Panic states, trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce the target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если цель не является вышеописанной, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>; then, reduce target's <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }

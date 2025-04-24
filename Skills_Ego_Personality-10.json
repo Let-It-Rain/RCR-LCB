@@ -6,16 +6,16 @@
         {
           "level": 1,
           "name": "Фонарь",
-          "abName": "ФаеЛантерн",
+          "abName": "Фонарь фей",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 allies with the lowest HP Percentages by 10% of Max HP."
+                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ 10% от максимальных ОЗ"
                 }
               ]
             }
@@ -24,16 +24,16 @@
         {
           "level": 3,
           "name": "Фонарь",
-          "abName": "ФаеЛантерн",
-          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "abName": "Фонарь фей",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 allies with the lowest HP by 12% of Max HP."
+                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ <style=\"highlight\">12%</style> от максимальных ОЗ"
                 }
               ]
             }
@@ -42,16 +42,16 @@
         {
           "level": 4,
           "name": "Фонарь",
-          "abName": "ФаеЛантерн",
-          "desc": "[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "abName": "Фонарь фей",
+          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 2 allies with the lowest HP by 15% of Max HP."
+                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ <style=\"highlight\">15%</style> от максимальных ОЗ"
                 }
               ]
             }
@@ -65,16 +65,16 @@
         {
           "level": 1,
           "name": "Фонарь",
-          "abName": "ФаеЛантерн",
-          "desc": "[CantIdentify] \nTarget the unit with the most HP",
+          "abName": "Фонарь фей",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict +2 Rupture Count"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона"
                 }
               ]
             }
@@ -83,19 +83,19 @@
         {
           "level": 3,
           "name": "Фонарь",
-          "abName": "ФаеЛантерн",
-          "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "abName": "Фонарь фей",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict +3 Rupture Count"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Defense Level Down"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на <style=\"highlight\">50%</style> от нанесённого урона"
                 }
               ]
             }
@@ -104,19 +104,19 @@
         {
           "level": 4,
           "name": "Фонарь",
-          "abName": "ФаеЛантерн",
-          "desc": "[CantIdentify]\nTarget the unit with the most HP\n[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "abName": "Фонарь фей",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик [Burst:`Разрыва`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [DefenseDown:`Понижений уровня защиты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal self by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона"
                 }
               ]
             }
@@ -136,10 +136,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -149,15 +149,15 @@
           "level": 3,
           "name": "9:2",
           "abName": "Подкожный жир",
-          "desc": "[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -167,18 +167,18 @@
           "level": 4,
           "name": "9:2",
           "abName": "Подкожный жир",
-          "desc": "[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1\n[BeforeAttack] At 4+ (Highest Lust A-Reson.), additional Atk Weight +1",
+          "desc": "[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха\n<style=\"highlight\">- Количество целей повышается ещё на 1 при наибольшем абсолютном резонансе Похоти в 4 и более греха</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 10+ <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 1 Attack Power Down and 1 Defense Power Down next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит 1 [Reduction:`Понижение силы атаки`] и 1 [Disarming:`Понижение силы защиты`] на следующий ход</style>"
                 }
               ]
             }
@@ -193,15 +193,15 @@
           "level": 1,
           "name": "9:2",
           "abName": "Подкожный жир",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 6 Burn"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит 6 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -211,18 +211,18 @@
           "level": 3,
           "name": "9:2",
           "abName": "Подкожный жир",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 6 Burn"
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 6 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 10+ <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 1 Lust Fragility next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход</style>"
                 }
               ]
             }
@@ -232,18 +232,18 @@
           "level": 4,
           "name": "9:2",
           "abName": "Подкожный жир",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ (Lust Reson.), Atk Weight +1\n[BeforeAttack] At 4+ (Highest Lust A-Reson), additional Atk Weight +1",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха\n<style=\"highlight\">- Количество целей повышается ещё на 1 при наибольшем абсолютном резонансе Похоти в 4 и более греха</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has no <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 6 Burn"
+                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 6 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Burn"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target has 10+ <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, inflict 2 Lust Fragility next turn"
+                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход"
                 }
               ]
             }
@@ -258,21 +258,21 @@
           "level": 1,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[BeforeAttack] At 4+ highest Reson., Atk Weight +1",
+          "desc": "[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Apply 10% of this unit's max HP as Shield to self and 1 other ally with the least current HP, and apply 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> as well"
+                  "desc": "[EndSkill] Даёт себе и союзнику с наименьшими ОЗ щит на 10% от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`]"
                 },
                 {
-                  "desc": "- At 4+ highest Reson., apply it to 1 more ally"
+                  "desc": "- Если в наибольшем резонансе 4 и более греха, ещё 1 союзник получает щит и [ShieldManagerCryingToad:`Слезинку`] "
                 },
                 {
-                  "desc": "- If the affected unit already has <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>, change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 2"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>' and 'change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 3' instead."
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -282,18 +282,18 @@
           "level": 3,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "<style=\"highlight\">[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)</style>",
+          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+(Число грехов в наибольшем резонансе - 2) (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Apply <style=\"highlight\">14%</style> of this unit's max HP as Shield to self and <style=\"highlight\">(1 + (highest Reson. - 2))</style> allies with the least current HP, and apply 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> as well\n<style=\"highlight\">(max # of other allies that gain <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>: 3)</style>"
+                  "desc": "[EndSkill] Даёт себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> союзникам с наименьшими ОЗ щит на <style=\"highlight\">14%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] <style=\"highlight\">(До 3 других союзников)</style>"
                 },
                 {
-                  "desc": "- If the affected unit already has <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>, change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 2<style=\"highlight\"></style>"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>' and 'change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -303,18 +303,18 @@
           "level": 4,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Apply <style=\"highlight\">20%</style> of this unit's max HP as Shield to self and (1 + (highest Reson. - 2)) allies with the least current HP, and apply 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> as well\n(max # of other allies that gain <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>: 3)"
+                  "desc": "[EndSkill] Даёт себе и (1 + (Число грехов в наибольшем резонансе - 2)) союзникам с наименьшими ОЗ щит на <style=\"highlight\">20%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 3 других союзников)"
                 },
                 {
-                  "desc": "- If the affected unit already has <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>, change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 2<style=\"highlight\"></style>"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>' and 'change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -329,21 +329,21 @@
           "level": 1,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 4+ highest Reson., Atk Weight +1\n[BeforeAttack] Gain +5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] Gain (15 + 2.5(highest Reson.))% of this unit's max HP as Shield to self and gain 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>. (max 25%)"
+                  "desc": "[EndSkill] Получает щит на (15 + (Число грехов в наибольшем резонансе × 2.5))% от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 25%)"
                 },
                 {
-                  "desc": "- If this unit already has <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>, change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 2"
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2 "
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'gain 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>' and 'change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 3' instead."
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -353,21 +353,21 @@
           "level": 3,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[CantIdentify]\nTargets Randomly\n<style=\"highlight\">[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)</style>\n[BeforeAttack] Gain <style=\"highlight\">+10 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color></style> to this Skill Slot next turn",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей <style=\"highlight\">+(Число грехов в наибольшем резонансе - 2) (До 2)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] Gain (<style=\"highlight\">18</style> + <style=\"highlight\">3</style>(highest Reson.))% of this unit's max HP as Shield to self and gain 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>. (max <style=\"highlight\">30%</style>)"
+                  "desc": "[EndSkill] Получает щит на (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "- If this unit already has <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>, change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 2<style=\"highlight\"></style>"
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>' and 'change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -377,24 +377,24 @@
           "level": 4,
           "name": "Крик из пещер",
           "abName": "Блюблюблю лягушка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. - 2) Atk Weight (max 2)\n[BeforeAttack] Gain +10 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)\n[BeforeAttack] Этот слот получает 10 [Aggro:`Провокаций`] на следующий ход<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> and <style=\"highlight\">+3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> Count</style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] <style=\"highlight\">и повышает его счётчик на 3</style>"
                 },
                 {
-                  "desc": "[EndSkill] Gain (<style=\"highlight\">20</style> + <style=\"highlight\">5</style>(highest Reson.))% of this unit's max HP as Shield to self and gain 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>. (max <style=\"highlight\">40%</style>)"
+                  "desc": "[EndSkill] Получает щит на (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "- If this unit already has <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>, change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 2<style=\"highlight\"></style>"
+                  "desc": "- Если на уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
                 },
                 {
-                  "desc": "- At 4+ highest Gloom A-Reson., this Skill's above effects change to 'apply 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color>' and 'change the <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинка</link></u></color> value to 3' instead.<style=\"highlight\"></style>"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 },
                 {
-                  "desc": "<style=\"highlight\">- At 4+ Gloom Reson., gain additional Shield equal to 10% of this unit's max HP</style>"
+                  "desc": "<style=\"highlight\">- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает щит ещё на 10% от максимальных ОЗ</style>"
                 }
               ]
             }
@@ -409,22 +409,22 @@
           "level": 1,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] If target has <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, immediately activate it twice and reduce it by 2",
+          "desc": "[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>\n- Inflict 1 additional <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> for every 3 negative effect on target that aren't <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> or <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color> (max 2)"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 отрицательных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -432,27 +432,27 @@
         },
         {
           "level": 3,
-          "name": "Хексы гвоздь",
+          "name": "Проклятый гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "<style=\"highlight\">[BeforeAttack] At 4+ Envy Reson. including this Skill, Atk Weight +1</style>\n[EndSkill] If target has <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, immediately activate it twice and reduce it by 2",
+          "desc": "<style=\"highlight\">[BeforeAttack] При 4 и более грехах в резонансе Зависти, включая этот навык, Количество целей +1</style>\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>\n- Inflict 1 additional <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> for every 3 negative effect on target that aren't <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> or <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color> (max 2)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 отрицательных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Inflict 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }
@@ -460,30 +460,30 @@
         },
         {
           "level": 4,
-          "name": "Хексы гвоздь",
+          "name": "Проклятый гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "<style=\"highlight\">[BeforeAttack] For every 3 Envy Reson. including this Skill, Atk Weight +1 (max 2)</style>\n[EndSkill] If target has <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, immediately activate it twice and reduce it by 2",
+          "desc": "[BeforeAttack] Количество целей повышается на 1 <style=\"highlight\">за каждые 3</style> греха в резонансе Зависти, включая этот навык (До 2)\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>\n- Inflict 1 additional <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> for every <style=\"highlight\">2</style> negative effect on target that aren't <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> or <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color> (max 2)"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые <style=\"highlight\">2</style> отрицательных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, inflict 1 <sprite name=\"ParryingResultDown\"><color=#e30000><u><link=\"ParryingResultDown\">Понижение силы в поединке</link></u></color> (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`], если на цели 4 и более [Curse:`Проклятия`] (Единожды за ход)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> next turn (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"
                 }
               ]
             }
@@ -496,24 +496,24 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хексы гвоздь",
+          "name": "Проклятый гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] If target has <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, immediately activate it twice and reduce it by 2",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -521,27 +521,27 @@
         },
         {
           "level": 3,
-          "name": "Хексы гвоздь",
+          "name": "Проклятый гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] If target has <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, immediately activate it twice and reduce it by 2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Inflict 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }
@@ -549,33 +549,33 @@
         },
         {
           "level": 4,
-          "name": "Хексы гвоздь",
+          "name": "Проклятый гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] If target has <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>, immediately activate it twice and reduce it by 2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Наносит 3 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ Envy Reson. including this Skill, inflict 1 <sprite name=\"ParryingResultDown\"><color=#e30000><u><link=\"ParryingResultDown\">Понижение силы в поединке</link></u></color> (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехах в резонансе Зависти, включая этот навык, наносит 1 [ParryingResultDown:`Понижение силы в поединке`] (Единожды за ход)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> next turn (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Inflict 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color> next turn (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }

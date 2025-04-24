@@ -1,4 +1,4 @@
-﻿{
+{
   "dataList": [
     {
       "id": 2090411,
@@ -12,10 +12,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -25,18 +25,18 @@
           "level": 3,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[BeforeAttack] If main target has 50%+ HP, Atk Weight +1",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Tremor and +5 Tremor Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает его счётчик на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Trigger Tremor Burst"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] [VibrationExplosion:`Провоцирует Тремор`]</style>"
                 }
               ]
             }
@@ -46,18 +46,18 @@
           "level": 4,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[BeforeAttack] If main target has 50%+ HP, Atk Weight +1;\nIf main target has 75%+ HP, additional Atk Weight +1",
+          "desc": "[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели\n<style=\"highlight\">- Количество целей повышается ещё на 1, если у главной цели 75% и более ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Tremor and +7 Tremor Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает его счётчик на 7"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 Bind next turn"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -72,15 +72,15 @@
           "level": 1,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -90,18 +90,18 @@
           "level": 3,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If main target has 50%+ HP, Atk Weight +1",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 Defense Level Down"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -111,18 +111,18 @@
           "level": 4,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If main target has 50%+ HP, Atk Weight +1;\nIf main target has 75%+ HP, additional Atk Weight +1",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели\n<style=\"highlight\">- Количество целей повышается ещё на 1, если у главной цели 75% и более ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 30% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Defense Level Down"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [DefenseDown:`Понижений уровня защиты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -142,10 +142,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Sloth Fragility next turn"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Heal 2 other allies with the least HP percentage for 15% of this unit's Max HP"
+                  "desc": "[EndSkill] Восстанавливает 15% ОЗ двум союзникам с наименьшим процентом ОЗ"
                 }
               ]
             }
@@ -160,13 +160,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Sloth Fragility next turn"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Heal 2 other allies with the least HP percentage for 25% of this unit's Max HP"
+                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25%</style> ОЗ двум союзникам с наименьшим процентом ОЗ"
                 },
                 {
-                  "desc": "[EndSkillHead] If target is Staggered or defeated, apply 10% of this unit's Max HP as Shield to allies that this unit healed"
+                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, накладывает щит в 10% от своих максимальных ОЗ союзникам, которым восстановило ОЗ"
                 }
               ]
             }
@@ -181,13 +181,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Sloth Fragility next turn"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Heal 2 other allies with the least HP percentage for 30% of this unit's Max HP"
+                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">30%</style> ОЗ двум союзникам с наименьшим процентом ОЗ"
                 },
                 {
-                  "desc": "[EndSkillHead] If target is Staggered or defeated, apply 15% of this unit's Max HP as Shield to allies that this unit healed"
+                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, накладывает щит в <style=\"highlight\">15%</style> от своих максимальных ОЗ союзникам, которым восстановило ОЗ"
                 }
               ]
             }
@@ -202,15 +202,15 @@
           "level": 1,
           "name": "Пурсуанс",
           "abName": "Очищение иисуса христа",
-          "desc": "[CantIdentify]\nTargets randomly",
+          "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 15 SP damage"
+                  "desc": "[OnSucceedAttack] Цели теряют 15 СД"
                 }
               ]
             }
@@ -220,18 +220,18 @@
           "level": 3,
           "name": "Пурсуанс",
           "abName": "Очищение иисуса христа",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 50%- HP, Atk Weight +1",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 20 SP damage"
+                  "desc": "[OnSucceedAttack] Цели теряют <style=\"highlight\">20</style> СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] If target is Staggered or defeated, heal 5 SP on self"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель оглушена или побеждена, восстанавливает 5 СД</style>"
                 }
               ]
             }
@@ -241,18 +241,18 @@
           "level": 4,
           "name": "Пурсуанс",
           "abName": "Очищение иисуса христа",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 50%- HP, Atk Weight +2",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 20 SP damage"
+                  "desc": "[OnSucceedAttack] Цели теряют 20 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target is Staggered or defeated, heal 7 SP on self"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель оглушена или побеждена, восстанавливает <style=\"highlight\">7</style> СД"
                 }
               ]
             }
@@ -267,17 +267,15 @@
           "level": 1,
           "name": "Кровяное желание",
           "abName": "Красные тапочки",
-          "desc": "Coin Power +1 for every 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (max 6)\n[StartBattle] The main target for this Skill does not lose <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count for this turn.\n[EndSkill] For 3 turns, Lose 10 SP at Turn End.",
+          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До 6)\n[StartBattle] Основная цель не теряет счётчик [Laceration:`Кровотечения`] в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Lust Affinity damage equal to <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target.\n- At 4+ Lust Reson., inflict Lust Affinity damage equal to (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x 1.2).\n(<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency up to only 99 will be used to calculate for this Skill.)",
-                  "summary": "[OnSucceedAttack] Deal Lust Affinity damage based on <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target"
+                  "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве силы [Laceration:`Кровотечения`] цели\n- При резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила [Laceration:`Кровотечения`] цели × 1.2) вместо этого"
                 },
                 {
-                  "desc": "[EnemyKill] If this Skill or its Coin effects dealt damage that exceeds the target's(In Focused Encounters, the Core's) remaining HP, deal the excess damage as fixed damage between all enemies.",
-                  "summary": "[EnemyKill] Inflict the excess damage between all enemies."
+                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся ОЗ цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками"
                 }
               ]
             }
@@ -287,17 +285,15 @@
           "level": 3,
           "name": "Кровяное желание",
           "abName": "Красные тапочки",
-          "desc": "Coin Power +1 for every 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (max <style=\"highlight\">9</style>)\n[StartBattle] The main target for this Skill does not lose <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count for this turn.\n[EndSkill] For 3 turns, Lose 10 SP at Turn End.",
+          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Основная цель не теряет счётчик [Laceration:`Кровотечения`] в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Lust Affinity damage equal to <style=\"highlight\">(<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x 1.2)</style>.\n- At 4+ Lust Reson., inflict Lust Affinity damage equal to (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x <style=\"highlight\">1.5</style>).\n<style=\"highlight\">- At 4+ Lust A-Reson., inflict Lust Affinity damage equal to (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x 1.8).</style>\n(<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency up to only 99 will be used to calculate for this Skill.)",
-                  "summary": "[OnSucceedAttack] Deal Lust Affinity damage based on <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target"
+                  "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве <style=\"highlight\">(</style>Сила [Laceration:`Кровотечения`] цели <style=\"highlight\">× 1.2)</style>\n- При резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.5</style>) вместо этого\n<style=\"highlight\">- При абсолютном резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила [Laceration:`Кровотечения`] цели × 1.8) вместо этого</style>"
                 },
                 {
-                  "desc": "[EnemyKill] If this Skill or its Coin effects dealt damage that exceeds the target's(In Focused Encounters, the Core's) remaining HP, deal the excess damage as fixed damage between all enemies.",
-                  "summary": "[EnemyKill] Inflict the excess damage between all enemies."
+                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся ОЗ цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками"
                 }
               ]
             }
@@ -307,17 +303,15 @@
           "level": 4,
           "name": "Кровяное желание",
           "abName": "Красные тапочки",
-          "desc": "Coin Power +1 for every 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (max <style=\"highlight\">13</style>)\n[StartBattle] The main target for this Skill does not lose <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count for this turn.\n[EndSkill] For 3 turns, Lose 10 SP at Turn End.",
+          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Основная цель не теряет счётчик [Laceration:`Кровотечения`] в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Lust Affinity damage equal to (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x <style=\"highlight\">1.5</style>)\n- At 4+ Lust Reson., inflict Lust Affinity damage equal to (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x <style=\"highlight\">1.8</style>).\n- At 4+ Lust A-Reson., inflict Lust Affinity damage equal to (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency on target x <style=\"highlight\">2</style>).\n(<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Potency up to only 99 will be used to calculate for this Skill.)",
-                  "summary": "[OnSucceedAttack] Deal Lust Affinity damage based on <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target"
+                  "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.5</style>)\n- При резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.8</style>) вместо этого\n- При абсолютном резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">2</style>) вместо этого"
                 },
                 {
-                  "desc": "[EnemyKill] If this Skill or its Coin effects dealt damage that exceeds the target's(In Focused Encounters, the Core's) remaining HP, deal the excess damage as fixed damage between all enemies.",
-                  "summary": "[EnemyKill] Inflict the excess damage between all enemies."
+                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся ОЗ цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками"
                 }
               ]
             }
@@ -332,13 +326,12 @@
           "level": 1,
           "name": "Кровяное желание",
           "abName": "Красные тапочки",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (# of highest Reson. - 2) Atk Weight (max 2)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict (2 + (Lust Reson.)) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>\n(Maximum Lust Reson. taken into account : 4)",
-                  "summary": "[OnSucceedAttack] Inflict (2 + (Lust Reson.)) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит (2 + (Число грехов резонансе Похоти)) [Laceration:`Кровотечения`] (До 6)"
                 }
               ]
             }
@@ -348,16 +341,15 @@
           "level": 3,
           "name": "Кровяное желание",
           "abName": "Красные тапочки",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (# of highest Reson. - 2) Atk Weight (max 2)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict (<style=\"highlight\">3</style> + (Lust Reson.)) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>\n(Maximum Lust Reson. taken into account : <style=\"highlight\">5</style>)",
-                  "summary": "[OnSucceedAttack] Inflict (3 + (Lust Reson.)) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит (<style=\"highlight\">3</style> + (Число грехов резонансе Похоти)) [Laceration:`Кровотечения`] (До <style=\"highlight\">8</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2</style>"
                 }
               ]
             }
@@ -367,16 +359,15 @@
           "level": 4,
           "name": "Кровяное желание",
           "abName": "Красные тапочки",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (# of highest Reson. - 2) Atk Weight (max 2)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict (<style=\"highlight\">4</style> + (Lust Reson.)) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>\n(Maximum Lust Reson. taken into account : <style=\"highlight\">6</style>)",
-                  "summary": "[OnSucceedAttack] Inflict (4 + (Lust Reson.)) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит (<style=\"highlight\">4</style> + (Число грехов резонансе Похоти)) [Laceration:`Кровотечения`] (До <style=\"highlight\">10</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <style=\"highlight\">на 3</style>"
                 }
               ]
             }
@@ -391,22 +382,22 @@
           "level": 1,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] Heal self and 2 other allies with the least HP percentage for 12.5% of this unit's max HP",
+          "desc": "[EndSkill] Восстанавливает ОЗ себе и двум другим союзникам с наименьшим процентом ОЗ на 12.5% от своих максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -416,22 +407,22 @@
           "level": 3,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] Heal self and 2 other allies with the least HP percentage for 12.5% of this unit's max HP\n<style=\"highlight\">- Each heal-receiving unit heals +2.5% more HP for every 2 negative effect on themselves (max 7.5)</style>",
+          "desc": "[EndSkill] Восстанавливает ОЗ себе и двум другим союзникам с наименьшим процентом ОЗ на 12.5% от своих максимальных ОЗ\n<style=\"highlight\">- Каждый получающий лечение союзник восстанавливает ещё 2.5% ОЗ за каждые 2 отрицательных эффекта на себе (До 7.5%)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -441,22 +432,22 @@
           "level": 4,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] Heal self and 2 other allies with the least HP percentage for <style=\"highlight\">15%</style> of this unit's max HP\n- Each heal-receiving unit heals +2.5% more HP for <style=\"highlight\">every</style> negative effect on themselves (max <style=\"highlight\">10%</style>)\n<style=\"highlight\">- At 4+ Envy Reson. including this Skill, heal 1 additional ally</style>",
+          "desc": "[EndSkill] Восстанавливает ОЗ себе и двум другим союзникам с наименьшим процентом ОЗ на <style=\"highlight\">15%</style> от своих максимальных ОЗ\n- Каждый получающий лечение союзник восстанавливает ещё 2.5% ОЗ <style=\"highlight\">за каждый</style> отрицательный эффект на себе (До <style=\"highlight\">10%</style>)\n<style=\"highlight\">- При резонансе Зависти в 4 и более греха, включая этот Навык, восстанавливает ОЗ ещё одному союзнику</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict <style=\"highlight\">3</style> <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -471,25 +462,25 @@
           "level": 1,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Heal 3 other allies with the least HP percentage for 15% of this unit's max HP",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает ОЗ трём другим союзникам с наименьшим процентом ОЗ на 15% от своих максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -499,25 +490,25 @@
           "level": 3,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Heal 3 other allies with the least HP percentage for 15% of this unit's max HP\n<style=\"highlight\">- Each heal-receiving unit gains 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> until next turn for every 2 negative effect on themselves (max 2)</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает ОЗ трём другим союзникам с наименьшим процентом ОЗ на 15% от своих максимальных ОЗ<style=\"highlight\">, а так же даёт им 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за каждый отрицательный эффект на них (До 3)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict 2 <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -527,25 +518,25 @@
           "level": 4,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nTargets randomly\n[EndSkill] Heal 3 other allies with the least HP percentage for <style=\"highlight\">20%</style> of this unit's max HP\n- Each heal-receiving unit gains 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> until next turn for <style=\"highlight\">every</style> negative effect on themselves (max <style=\"highlight\">3</style>)\n<style=\"highlight\">- At 4+ Envy Reson. including this Skill, heal 1 additional ally</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает ОЗ трём другим союзникам с наименьшим процентом ОЗ на <style=\"highlight\">20%</style> от своих максимальных ОЗ, а так же даёт им 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за <style=\"highlight\">каждый</style> отрицательный эффект на них (До <style=\"highlight\">3</style>)\n<style=\"highlight\">- При резонансе Зависти в 4 и более греха, включая этот Навык, восстанавливает ОЗ ещё одному союзнику</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Inflict <style=\"highlight\">3</style> <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвозди</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -558,17 +549,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Indicant's Trial",
-          "abName": "Burning Duchess",
-          "desc": "[EndSkill] Heal (1 + highest Reson.) allies with the least HP percentages for 15% of their max HP (max 3 allies)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Пытка гусями",
+          "abName": "Ебучие гуси!",
+          "desc": "[EndSkill] Восстанавливает 15% от максимальных ОЗ (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this hits the main target, inflict (1 + (Wrath Reson. / 3)) [BirdCage] next turn on main target (max 2; rounded down)"
+                  "desc": "[OnSucceedAttack] Наносит главной цели (1 + (Число грехов в резонансе Гнева / 3)) [BirdCage:`Обжигающей птичьей клетки`] на следующий ход (До 2; округляется вниз)"
                 }
               ]
             },
@@ -577,17 +568,17 @@
         },
         {
           "level": 3,
-          "name": "Indicant's Trial",
-          "abName": "Burning Duchess",
-          "desc": "<style=\"highlight\">[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)</style>\n[EndSkill] Heal (1 + highest Reson.) allies with the least HP percentage for <style=\"highlight\">18</style>% of their max HP (max 3 allies)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Пытка гусями",
+          "abName": "Ебучие гуси!",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">18%</style> от максимальных ОЗ (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">8</style> [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">8</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this hits the main target, inflict (1 + (Wrath Reson. / 3)) [BirdCage] next turn on main target (max <style=\"highlight\">3</style>; rounded down)"
+                  "desc": "[OnSucceedAttack] Наносит главной цели (1 + (Число грехов в резонансе Гнева / 3)) [BirdCage:`Обжигающей птичьей клетки`] на следующий ход (До <style=\"highlight\">3</style>; округляется вниз)"
                 }
               ]
             },
@@ -596,17 +587,17 @@
         },
         {
           "level": 4,
-          "name": "Indicant's Trial",
-          "abName": "Burning Duchess",
-          "desc": "[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)\n[EndSkill] Heal (1 + highest Reson.) allies with the least HP percentage for <style=\"highlight\">20</style>% of their max HP (max 3 allies)\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Пытка гусями",
+          "abName": "Ебучие гуси!",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)\n[EndSkill] Восстанавливает <style=\"highlight\">20%</style> от максимальных ОЗ (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Combustion]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this hits the main target, inflict (1 + (Wrath Reson. / 3)) [BirdCage] next turn on main target (max 3; rounded down)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит главной цели (1 + (Число грехов в резонансе Гнева / 3)) [BirdCage:`Обжигающей птичьей клетки`] на следующий ход (До 3; округляется вниз)"
                 }
               ]
             },
@@ -620,33 +611,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Indicant's Trial",
-          "abName": "Burning Duchess",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)",
+          "name": "Пытка гусями",
+          "abName": "Ебучие гуси!",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 6 [Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this hits the main target, inflict (1 + Wrath Reson.) [BirdCage] on main target (max 3)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + число грехов в резонансе Гнева) [BirdCage:`Обжигающей птичьей клетки`] на следующий ход (До 3)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Deal +1% damage on main target for every [Combustion] Potency on main target (max 50%)"
+                  "desc": "На 1% больше урона главной цели за каждую единицу силы [Combustion:`Огня`] на ней (До 50%)"
                 },
                 {
-                  "desc": "[EnemyKill] Apply 1 [CrimsonResultUp] and 1 [CrimsonDamageUp] to (1 + highest Reson.) allies with the least HP percentages (max 4 allies; once per Skill)"
+                  "desc": "[EnemyKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 4 союзников; единожды за навык)"
                 }
               ]
             }
@@ -654,33 +645,33 @@
         },
         {
           "level": 3,
-          "name": "Indicant's Trial",
-          "abName": "Burning Duchess",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)",
+          "name": "Пытка гусями",
+          "abName": "Ебучие гуси!",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict <style=\"highlight\">8</style> [Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">8</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this hits the main target, inflict (1 + Wrath Reson.) [BirdCage] on main target (max <style=\"highlight\">4</style>)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + число грехов в резонансе Гнева) [BirdCage:`Обжигающей птичьей клетки`] на следующий ход (До <style=\"highlight\">4</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Deal +1% damage on main target for every [Combustion] Potency on main target (max 50%)"
+                  "desc": "На 1% больше урона главной цели за каждую единицу силы [Combustion:`Огня`] на ней (До 50%)"
                 },
                 {
-                  "desc": "[EnemyKill] Apply 1 [CrimsonResultUp] and 1 [CrimsonDamageUp] to (1 + highest Reson.) allies with the least HP percentages (max <style=\"highlight\">5</style> allies; once per Skill)"
+                  "desc": "[EnemyKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До <style=\"highlight\">5</style> союзников; единожды за навык)"
                 }
               ]
             }
@@ -688,36 +679,36 @@
         },
         {
           "level": 4,
-          "name": "Indicant's Trial",
-          "abName": "Burning Duchess",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest Reson. / 2) Atk Weight (max 3; rounded down)",
+          "name": "Пытка гусями",
+          "abName": "Ебучие гуси!",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict <style=\"highlight\">10</style> [Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">10</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Inflict +1 [Combustion] Count</style>"
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1</style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this hits the main target, inflict (1 + Wrath Reson.) [BirdCage] on main target (max <style=\"highlight\">5</style>)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + число грехов в резонансе Гнева) [BirdCage:`Обжигающей птичьей клетки`] на следующий ход (До <style=\"highlight\">5</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Deal +<style=\"highlight\">2</style>% damage on the main target for every [Combustion] Potency on the main target (max <style=\"highlight\">100</style>%)"
+                  "desc": "На <style=\"highlight\">2%</style> больше урона главной цели за каждую единицу силы [Combustion:`Огня`] на ней (До <style=\"highlight\">100%</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Apply 1 [CrimsonResultUp] and 1 [CrimsonDamageUp] to (1 + highest Reson.) allies with the least HP percentages (max <style=\"highlight\">6</style> allies; once per Skill)"
+                  "desc": "[EnemyKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До <style=\"highlight\">6</style> союзников; единожды за навык)"
                 }
               ]
             }
