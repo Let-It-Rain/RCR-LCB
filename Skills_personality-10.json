@@ -1201,20 +1201,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Is it You?!",
-          "desc": "[WhenUse] Gain +2 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn\n[WhenUse] Heal 5 SP on self",
+          "name": "Это ведь ты?!",
+          "desc": "[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Восстанавливает 5 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1222,20 +1222,20 @@
         },
         {
           "level": 2,
-          "name": "Is it You?!",
-          "desc": "<style=\"highlight\">If target has 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn\n[WhenUse] Heal 5 SP on self",
+          "name": "Это ведь ты?!",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход\n[WhenUse] Восстанавливает 5 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1243,20 +1243,20 @@
         },
         {
           "level": 4,
-          "name": "Is it You?!",
-          "desc": "If target has 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">5</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn\n[WhenUse] Heal 5 SP on self\n<style=\"highlight\">- At max SP, gain Clash Power +1 instead</style>",
+          "name": "Это ведь ты?!",
+          "desc": "Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Восстанавливает 5 СД\n<style=\"highlight\">- Сила монет +1 вместо этого, если уже 45 СД</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1269,21 +1269,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Payback with Interest",
-          "desc": "[WhenUse] Gain +2 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn\n[StartBattle] This Skill gains (highest Reson. / 3) Offense Level (max 2, rounded down)",
+          "name": "Усердная месть",
+          "desc": "[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход\n[StartBattle] Поднимает Уровень атаки навыка на (Число грехов в наибольшем резонансе / 3) (До 2)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 4+ Reson. that includes this Skill, deal +10% more damage"
+                  "desc": "На 10% больше урона при 4 и более грехах в резонансе, включающем этот навык"
                 }
               ]
             }
@@ -1291,21 +1291,21 @@
         },
         {
           "level": 2,
-          "name": "Payback with Interest",
-          "desc": "<style=\"highlight\">If target has 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">3</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn\n[StartBattle] This Skill gains (highest Reson. / <style=\"highlight\">2</style>) Offense Level (max <style=\"highlight\">3</style>, rounded down)",
+          "name": "Усердная месть",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход\n[StartBattle] Поднимает Уровень атаки навыка на (Число грехов в наибольшем резонансе / <style=\"highlight\">2</style>) (До <style=\"highlight\">3</style>)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 4+ Reson. that includes this Skill, deal <style=\"highlight\">+15%</style> more damage"
+                  "desc": "На <style=\"highlight\">15%</style> больше урона при 4 и более грехах в резонансе, включающем этот навык"
                 }
               ]
             }
@@ -1313,21 +1313,21 @@
         },
         {
           "level": 4,
-          "name": "Payback with Interest",
-          "desc": "If target has 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power +1\n[WhenUse] Gain +<style=\"highlight\">5</style> <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокация</link></u></color> to this Skill Slot next turn\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n<style=\"highlight\">- If the said Reson. includes an A-Reson., double the Offense Level gained from the above effect</style>",
+          "name": "Усердная месть",
+          "desc": "Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n[StartBattle] Поднимает Уровень атаки навыка на (Число грехов в наибольшем резонансе / 2) (До 3)\n<style=\"highlight\">- Если грехом резонанса была Зависть, удваивает полученный Уровень атаки</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At <style=\"highlight\">3</style>+ Reson. that includes this Skill, deal <style=\"highlight\">+20%</style> more damage"
+                  "desc": "На <style=\"highlight\">20%</style> больше урона при <style=\"highlight\">3</style> и более грехах в резонансе, включающем этот навык"
                 }
               ]
             }
@@ -1340,24 +1340,24 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Write 'em all down",
-          "desc": "Deal +1% more damage for every 2 [VengeanceBookSinclair] (max 15%)\nIf target has 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, Coin Power +1\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)",
+          "name": "Запишите их всех",
+          "desc": "Наносит на 1% больше урона за каждые 2 [VengeanceBookSinclair:`Книги мести`] (До 15%)\nСила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[StartBattle] Поднимает Уровень атаки навыка на (Число грехов в наибольшем резонансе / 2) (До 3)",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2.5% more damage for every Reson. that includes this Skill (max 15%)"
+                  "desc": "На 2.5% больше урона за каждый грех в резонансе, включающем этот навык (До 15%)"
                 },
                 {
-                  "desc": "Deal +7.5% more damage for every 10 [VengeanceBookSinclair] (max 22.5%)"
+                  "desc": "На 7.5% больше урона за каждые 10 [VengeanceBookSinclair:`Книги мести`] (До 22.5%)"
                 }
               ]
             }
@@ -1365,24 +1365,24 @@
         },
         {
           "level": 4,
-          "name": "Write 'em all down",
-          "desc": "Deal +1% more damage for every <style=\"highlight\">1</style> [VengeanceBookSinclair] (max <style=\"highlight\">30%</style>)\n<style=\"highlight\">Coin Power +1 for every 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> on target (max 2)</style>\n[StartBattle] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down)\n<style=\"highlight\">- If the said Reson. includes an A-Reson., double the Offense Level gained from the above effect</style>",
+          "name": "Запишите их всех",
+          "desc": "Наносит на 1% больше урона <style=\"highlight\">за каждую</style> [VengeanceBookSinclair:`Книгу мести`] (До <style=\"highlight\">30%</style>)\nСила монет +1 <style=\"highlight\">за каждые 6</style> [Laceration:`Кровотечения`] на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] Поднимает Уровень атаки навыка на (Число грехов в наибольшем резонансе / 2) (До 3)\n<style=\"highlight\">- Если грехом резонанса была Зависть, удваивает полученный Уровень атаки</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">4</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+5%</style> more damage for every Reson. that includes this Skill (max <style=\"highlight\">30%</style>)"
+                  "desc": "На <style=\"highlight\">5%</style> больше урона за каждый грех в резонансе, включающем этот навык (До <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "Deal <style=\"highlight\">+15%</style> more damage for every 10 [VengeanceBookSinclair] (max <style=\"highlight\">45%</style>)"
+                  "desc": "На <style=\"highlight\">15%</style> больше урона за каждые 10 [VengeanceBookSinclair:`Книги мести`] (До <style=\"highlight\">45%</style>)"
                 }
               ]
             }
@@ -1395,20 +1395,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Warmup in the East",
-          "desc": "[StartBattle] Gain 20% of missing HP as Shield (once per turn)",
+          "name": "Разминка на востоке города",
+          "desc": "[StartBattle] Получает щит на 20% от потерянных ОЗ (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наности 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наности 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1416,20 +1416,20 @@
         },
         {
           "level": 4,
-          "name": "Warmup in the East",
-          "desc": "<style=\"highlight\">[StartBattle] Skill behavior changes based on the sum of Envy A-Reson.:\n- At 4+ sum of A-Reson., use 'Payback with Interest' as Counter\n- At 6+ sum of A-Reson., use 'Write 'em all down' as Counter\n(Activates from the leftmost Skill Slot. Activates 2 times per turn)</style>\n[StartBattle] Gain <style=\"highlight\">30%</style> of missing HP as Shield (once per turn)",
+          "name": "Разминка на востоке города",
+          "desc": "<style=\"highlight\">[StartBattle] Использует другой навык в зависимости от абсолютного резонанса Зависти:\n- При сумме в 4+ греха использует 「Усердная месть」\n- При сумме в 6+ грехов использует 「Запишите их всех」\n(Дважды за ход; начиная с самого левого слота навыков)</style>\n[StartBattle] Получает щит на <style=\"highlight\">30%</style> от потерянных ОЗ (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наности 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наности 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
