@@ -1353,20 +1353,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Blinkstep",
-          "desc": "[WhenUse] If target has 6+ [Burst], Coin Power +1",
+          "name": "В мгновение ока",
+          "desc": "[WhenUse] Если на цели <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1 силу монет",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -1374,23 +1374,23 @@
         },
         {
           "level": 2,
-          "name": "Blinkstep",
-          "desc": "[WhenUse] If target has <style=\"highlight\">4</style>+ [Burst], Coin Power +1\n<style=\"highlight\">[WinDuel] Inflict +1 [Burst] Count</style>",
+          "name": "В мгновение ока",
+          "desc": "[WhenUse] Если на целе есть <style=\"highlight\">4</style>+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>,Получае 1 Силу монет\n<style=\"highlight\">[WinDuel] Наносит 1 Счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)</style> "
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и больше, Подкидывает монетку ещё раз (Единожды за навык)</style> "
                 }
               ]
             }
@@ -1398,23 +1398,23 @@
         },
         {
           "level": 4,
-          "name": "Blinkstep",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1</style>\n[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "В мгновение ока",
+          "desc": "<style=\"highlight\">Если скорость этого юнита больше цели на 3 значения и больше, Получает 1 Силу монет</style>\n[WhenUse] Если на целе 4+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1 Силу монет\n[WinDuel] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При скорости 10 и больше, Подкидывает монетку ещё раз (Единожды за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1427,20 +1427,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Clearing the Path, My Lord.",
-          "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Очищаю Путь, Мой Господь.",
+          "desc": "[WhenUse] Если на целе 4+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1 силу монет\n[WinDuel] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target has [BurstAgility] or [BurstZilu], deal +30% damage"
+                  "desc": "Если на целе есть [BurstAgility] и [BurstZilu], Наносит на 30% больше урона"
                 }
               ]
             }
@@ -1448,20 +1448,20 @@
         },
         {
           "level": 2,
-          "name": "Clearing the Path, My Lord.",
-          "desc": "[WhenUse] If target has 4+ [Burst], Coin Power +1\n<style=\"highlight\">[WhenUse] Gain 2 [Agility] next turn (once per turn)</style>\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Очищаю Путь, Мой Господь.",
+          "desc": "[WhenUse] Если на целе есть 4+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1 Силу монет\n<style=\"highlight\">[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за навык)</style>\n[WinDuel] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 счёчтик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "If target has [BurstAgility] or [BurstZilu], deal +30% damage<style=\"highlight\"></style>"
+                  "desc": "Если на целе есть [BurstAgility] и [BurstZilu], Наносит на 30% больше урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1469,23 +1469,23 @@
         },
         {
           "level": 4,
-          "name": "Clearing the Path, My Lord.",
-          "desc": "<style=\"highlight\">If this unit's Speed is faster than the target's, deal +(Speed difference x [EnhanceZilu] on self)% damage (max 50%)</style>\n<style=\"highlight\">If this unit's Speed is faster than the target's by 3 or more, Coin Power +1\n[WhenUse] If target has 4+ [Burst], Coin Power +1</style>\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WinDuel] Inflict +1 [Burst] Count",
+          "name": "Очищаю Путь, Мой Господь.",
+          "desc": "<style=\"highlight\">Если этот юнит быстрее цели, Наносит на (Разница скорости * [EnhanceZilu] на себе)% больше урона (макс 50%)</style>\n<style=\"highlight\">Если этот юнит быстрее цели на 3 значения и больше, Получает 1 Силу монет\n[WhenUse] Если на цели 4+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1 Силу монет</style>\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[WinDuel] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Burst]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst]</style>"
                 },
                 {
-                  "desc": "If target has [BurstAgility] or [BurstZilu], deal <style=\"highlight\">+50%</style> damage"
+                  "desc": "Если на цели есть [BurstAgility] и [BurstZilu], Наносит на <style=\"highlight\">50%</style> больше урона"
                 }
               ]
             }
@@ -1498,36 +1498,36 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Traceless to Sight and Sound Alike.",
-          "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[BeforeUse] At 10+ [EnhanceZilu], activate 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst]",
+          "name": "Незаметная ни для глаза, ни для уха.",
+          "desc": "Если этот юнит быстрее цели, наносит на (разница в скорости * Потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели)% больше урона (макс 50%)\nЕсли этот юнит быстрее цели на 2 значения и больше, Получает 1 Силу монет\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[BeforeUse] При 10+ [EnhanceZilu], Активирует навык 'Восходящая техника Хэйшоу - Мао: Проявление расщепления облаков' место этого\n[WhenUse] Получает 3 [LegStrength]\n[WinDuel] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 10+ Speed, deal +30% damage"
+                  "desc": "При 10+ скорости, Наносит на 30% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
+                  "desc": "[OnSucceedAttack] При 10+ скорости, Подбрасывает монетку ещё раз (Единожды за скил)"
                 }
               ]
             }
@@ -1535,39 +1535,39 @@
         },
         {
           "level": 4,
-          "name": "Traceless to Sight and Sound Alike.",
-          "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)</style>\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[BeforeUse] At 10+ [EnhanceZilu], activate 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n<style=\"highlight\">[WhenUse] If target has 15+ [Burst], Coin Power +1</style>\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count",
+          "name": "Незаметная ни для глаза, ни для уха.",
+          "desc": "Если этот юнит быстрее цели, Наносит на (Разница в скорости * Потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели)% больше урона (макс 50%)\n<style=\"highlight\">Если этот юнит быстрее цели, Получает Силу монеты в зависимости от разницы в скорости (1 Сила мнет за каждые 2 еденицы скорости разницы; макс 2)</style>\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[BeforeUse] При 10+ [EnhanceZilu], Активирут навык 'Восходящая техника Хэйшоу - Мао: Проявление расщепления облаков' за место этого\n<style=\"highlight\">[WhenUse] Если на цели 15+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1 Силу монет</style>\n[WhenUse] Получает 3 [LegStrength]\n[WinDuel] Наносит 2 сётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstAgility]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 10+ Speed, deal +30% damage<style=\"highlight\"></style>"
+                  "desc": "При 10+ скорости, наносит на 30% больше урона<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 10+ скорости, Подбрасывает монетку ещё раз (Единожды за скил)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [BurstAgility]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility]</style>"
                 }
               ]
             }
@@ -1580,20 +1580,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "It Shall be Done.",
-          "desc": "[DuelCounter]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Gain 3 [LegStrength]",
+          "name": "Будет Сделано.",
+          "desc": "[DuelCounter]\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[WhenUse] Этот навык получает +1 Уровень атаки за кажды 10% ОЗ этого юнита который сумарно потерял за этот бой (макс 6; на основе максимального ОЗ в момент активации)\n[WhenUse] Получает 3 [LegStrength]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 }
               ]
             }
@@ -1601,20 +1601,20 @@
         },
         {
           "level": 4,
-          "name": "It Shall be Done.",
-          "desc": "[DuelCounter]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Gain 3 [LegStrength]\n<style=\"highlight\">[WhenUse] If this unit's Speed is faster than the target's by 2 or more, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2)</style>",
+          "name": "Будет Сделано.",
+          "desc": "[DuelCounter]\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[WhenUse] Этот навык получает +1 Уровень атаки за кажды 10% ОЗ этого юнита который сумарно потерял за этот бой (макс 6; на основе максимального ОЗ в момент активации)\n[WhenUse] Получает 3 [LegStrength]\n<style=\"highlight\">[WhenUse] Если этот юнит быстрее цели на 2 значения ибольше, Получает Базовою мощность, основанную на разнице скорости (Получает 1 Базовую силу за кадлы  2 еденицы разницы в скорости; макс 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack]Наносит 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1627,42 +1627,42 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
-          "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\nIf this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[WhenUse] If target has 15+ [Burst], Coin Power +1\n[WhenUse] At 10+ Speed, gain 20 [Breath]; if this unit has less than 4 [Breath] Count, raise [Breath] Count up to 4\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count\n[EndSkill] Consume 10 [EnhanceZilu]",
+          "name": "Восходящая техника Хэйшоу - Мао: Проявление расщепления облаков",
+          "desc": "Если этот юнит быстрее цели, Ноносит на (Разница в скорости * потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели)% больше урона (макс 50%)\nЕсли этот юнит быстрее цели на 2 значения и больше, Получате 1 Силу монет\n[WhenUse] Если на цели 15+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, Получает 1  Силу монет\n[WhenUse] При 10+ Скорости, Получает 20 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>; Если этот юнит имеет меньше 4 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> до 4\n[WhenUse] Получает 3 [LegStrength]\n[WinDuel] Наносит 2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\n[EndSkill] Тратит 10 [EnhanceZilu]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstZilu]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstZilu]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 10+ Speed, deal +30% damage"
+                  "desc": "При 10+ Скорости, Наносит на 30% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)"
+                  "desc": "[OnSucceedAttack] При 10+ Скорости, Подкидывает монетку ещё раз (Единожды за навык)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict [BurstZilu]"
+                  "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]"
                 }
               ]
             }
@@ -1670,45 +1670,45 @@
         },
         {
           "level": 4,
-          "name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
-          "desc": "If this unit's Speed is faster than the target's, deal +(Speed difference x [Burst] Potency on target)% damage (max 50%)\n<style=\"highlight\">If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2)</style>\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 10 [Burst] on target (max 2)</style>\n[WhenUse] At 10+ Speed, gain 20 [Breath]; if this unit has less than 4 [Breath] Count, raise [Breath] Count up to 4\n[WhenUse] Gain 3 [LegStrength]\n[WinDuel] Inflict +2 [Burst] Count\n[EndSkill] Consume 10 [EnhanceZilu]",
+          "name": "Восходящая техника Хэйшоу - Мао: Проявление расщепления облаков",
+          "desc": "Если этот юнит быстрее целм, Наносит на (разница в скорости * потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели)% больше урона (макс 50%)\n<style=\"highlight\">Если этот юнит быстрее цели, Получает Силу монет за разницу в скрости (Получает 1 Силу монет за каждые  2 еденцы разности скрости; макс 2)</style>\n<style=\"highlight\">[WhenUse] Получает 1 силу монет за каждые 10 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (макс 2)</style>\n[WhenUse] При 10+ Скорости, Получает 20 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>; Если этот бнит имеет меньше 4 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> до 4\n[WhenUse] Получает 3 [LegStrength]\n[WinDuel] Наносит 2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\n[EndSkill] Тратит 10 [EnhanceZilu]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstZilu]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstZilu]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstAgility]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] наносит 1 [Burst]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "At 10+ Speed, deal +30% damage<style=\"highlight\"></style>"
+                  "desc": "При 10+ Скорости, Наносит на 30% Больше урона<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Speed, Reuse Coin once (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 10+ скорости, Подбрасывает монетку ещё раз (Единожды за скил)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict [BurstZilu]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Inflict [BurstAgility]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility]</style>"
                 }
               ]
             }
@@ -1721,8 +1721,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swiftfeet Protection",
-          "desc": "[CanDuelGuard]\nExclusive Skill for [SupportProtect]\n[BeforeUse] At 10+ [EnhanceZilu], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Cannot be Staggered by damage until this Skill ends\n[WhenUse] Gain 2 [Protection] (once per turn)",
+          "name": "Быстроногая защита",
+          "desc": "[CanDuelGuard]\nИсклюзивный навык для [SupportProtect]\n[BeforeUse] При 10+ [EnhanceZilu], Активирует навык 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' за место этого \n[WhenUse] Этот навык получает 1 Уровень защиты за каждые 10% ОЗ этого юнита сумарно потеряные за этот бой (макс 6; На основе максимального ОЗ в момент активации)\n[WhenUse] Не может быть оглушен уроном, пока этот навык не закончится.\n[WhenUse] Получает 2 [Protection] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1736,7 +1736,7 @@
         {
           "level": 4,
           "name": "Swiftfeet Protection",
-          "desc": "[CanDuelGuard]\nExclusive Skill for [SupportProtect]\n[BeforeUse] At 10+ [EnhanceZilu], activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead\n[WhenUse] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation)\n[WhenUse] Cannot be Staggered by damage until this Skill ends\n[WhenUse] Gain 2 [Protection] (once per turn)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\nИсклюзивный навык для [SupportProtect]\n[BeforeUse] При 10+ [EnhanceZilu], Активирует навык 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' за место этого \n[WhenUse] Этот навык получает 1 Уровень защиты за каждые 10% ОЗ этого юнита сумарно потеряные за этот бой (макс 6; На основе максимального ОЗ в момент активации)\n[WhenUse] Не может быть оглушен уроном, пока этот навык не закончится.\n[WhenUse] Получает 2 [Protection] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
