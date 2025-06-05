@@ -583,32 +583,32 @@
         }
       ]
     },
-    {
+     {
       "id": 2100811,
       "levelList": [
         {
           "level": 1,
-          "name": "Tears of the Tarnished Blood",
-          "abName": "Yinglong",
-          "desc": "[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Слёзы осквернённой крови",
+          "abName": "Иньлун",
+          "desc": "[StartBattle] Получает <sprite name=\"YesdragonNodie\"><color=#f8c200><u><link=\"YesdragonNodie\">Отвержение</link></u></color>\n[BeforeAttack] Получает <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглу для похорон цветов</link></u></color> в количестве грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Skill (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если ОЗ 30% и менее, или же значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> достигло 20, вновь подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -616,27 +616,27 @@
         },
         {
           "level": 3,
-          "name": "Tears of the Tarnished Blood",
-          "abName": "Yinglong",
-          "desc": "<style=\"highlight\">At 6+ [YesdragonSelf], Coin Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Слёзы осквернённой крови",
+          "abName": "Иньлун",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color></style>\n[StartBattle] Получает <sprite name=\"YesdragonNodie\"><color=#f8c200><u><link=\"YesdragonNodie\">Отвержение</link></u></color>\n[BeforeAttack] Получает <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглу для похорон цветов</link></u></color> в количестве грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Skill (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если ОЗ 30% и менее, или же значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> достигло 20, вновь подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -644,30 +644,30 @@
         },
         {
           "level": 4,
-          "name": "Tears of the Tarnished Blood",
-          "abName": "Yinglong",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 [YesdragonSelf] on self (max 3)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain [YesdragonSelf] equal to Gluttony Reson. (max 5)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\n- Does not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Слёзы осквернённой крови",
+          "abName": "Иньлун",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6</style> <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> <style=\"highlight\">(До 3)</style>\n[StartBattle] Получает <sprite name=\"YesdragonNodie\"><color=#f8c200><u><link=\"YesdragonNodie\">Отвержение</link></u></color>\n[BeforeAttack] Получает <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглу для похорон цветов</link></u></color> в количестве грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing HP on self (max 40%)</style>"
+                  "desc": "<style=\"highlight\">На 1% больше урона за каждые 2% потерянных ОЗ (До 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Skill (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если ОЗ 30% и менее, или же значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> достигло 20, вновь подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -680,27 +680,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tears of the Tarnished Blood",
-          "abName": "Yinglong",
-          "desc": "[CantIdentify]\nTargets randomly\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
+          "name": "Слёзы осквернённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantIdentify]\nСлучайная цель\n[StartBattle] Получает <sprite name=\"YesdragonNodie\"><color=#f8c200><u><link=\"YesdragonNodie\">Отвержение</link></u></color>\n[BeforeAttack] Получает <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглу для похорон цветов</link></u></color> в количестве (Число грехов в резонансе Чревоугодия + 4) (До 10)\n[BeforeAttack] Теряет ОЗ в количестве (Значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Skill (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если ОЗ 30% и менее, или же значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> достигло 20, вновь подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -708,27 +708,27 @@
         },
         {
           "level": 3,
-          "name": "Tears of the Tarnished Blood",
-          "abName": "Yinglong",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">At 10+ [YesdragonSelf], Base Power +1</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
+          "name": "Слёзы осквернённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Базовая сила +1 при 10 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color></style>\n[StartBattle] Получает <sprite name=\"YesdragonNodie\"><color=#f8c200><u><link=\"YesdragonNodie\">Отвержение</link></u></color>\n[BeforeAttack] Получает <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглу для похорон цветов</link></u></color> в количестве (Число грехов в резонансе Чревоугодия + 4) (До 10)\n[BeforeAttack] Теряет ОЗ в количестве (Значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Skill (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если ОЗ 30% и менее, или же значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> достигло 20, вновь подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -736,30 +736,30 @@
         },
         {
           "level": 4,
-          "name": "Tears of the Tarnished Blood",
-          "abName": "Yinglong",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">Base Power +1 for every 10 [YesdragonSelf] on self (max 2)</style>\n[StartBattle] Gain [YesdragonNodie]\n[BeforeAttack] Gain (Gluttony Reson. + 4) [YesdragonSelf] (max 10)\n[BeforeAttack] Take ([YesdragonSelf] on self x 2) HP damage\nDoes not get Staggered if this lowers this unit's HP below a Stagger Threshold; instead, remove the Stagger Threshold higher than this unit's current HP",
+          "name": "Слёзы осквернённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantIdentify]\nСлучайная цель\nБазовая сила +1 <style=\"highlight\">за каждые 10</style> <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> <style=\"highlight\">(До 2)</style>\n[StartBattle] Получает <sprite name=\"YesdragonNodie\"><color=#f8c200><u><link=\"YesdragonNodie\">Отвержение</link></u></color>\n[BeforeAttack] Получает <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглу для похорон цветов</link></u></color> в количестве (Число грехов в резонансе Чревоугодия + 4) (До 10)\n[BeforeAttack] Теряет ОЗ в количестве (Значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\"> Deal +1% damage for every 2% missing HP on self (max 40%)</style>"
+                  "desc": "<style=\"highlight\">На 1% больше урона за каждые 2% потерянных ОЗ (До 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 30% or less HP, or is at 20 [YesdragonSelf] Stack, Reuse this Skill (once per Skill)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если ОЗ 30% и менее, или же значение <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Иглы для похорон цветов</link></u></color> достигло 20, вновь подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Consume all HP on self to deal +20% damage with this Coin (once per Turn)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
