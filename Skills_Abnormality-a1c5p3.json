@@ -989,7 +989,7 @@
         {
           "level": 1,
           "name": "Глубокий вдох",
-          "desc": "[StartBattle] Получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 10\nКритические удары этого навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[EndBattle] Получает 1 <sprite name=\"PlusCoinValueUp\"><color=#f8c200><u><link=\"PlusCoinValueUp\">Усиление положительной монеты</link></u></color> на следующий ход за каждого живого союзника",
+          "desc": "[StartBattle] Получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 10\nРаскумары этого навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[EndBattle] Получает 1 <sprite name=\"PlusCoinValueUp\"><color=#f8c200><u><link=\"PlusCoinValueUp\">Усиление положительной монеты</link></u></color> на следующий ход за каждого живого союзника",
           "coinlist": [
             {
               "coindescs": [
@@ -1006,7 +1006,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "Критические удары навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
+          "desc": "Раскумары навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1025,7 +1025,7 @@
         {
           "level": 1,
           "name": "Выслеживание добычи",
-          "desc": "Наносит на 30% больше урона при критическом попадании",
+          "desc": "Наносит на 30% больше урона при раскумаре",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,12 +1061,12 @@
         {
           "level": 1,
           "name": "Перерезать горло",
-          "desc": "Критические удары навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\nНаносит на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели\n[WhenUse] Оглушается в конце хода, если не останется<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
+          "desc": "Раскумары навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\nНаносит на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели\n[WhenUse] Оглушается в конце хода, если не останется<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "На 50% больше урона при критической атаке"
+                  "desc": "На 50% больше урона при раскумаре"
                 },
                 {
                   "desc": "[OnSucceedAttack] Оглушает цель на следующий ход"
@@ -1100,7 +1100,7 @@
         {
           "level": 1,
           "name": "Чтобы выжить",
-          "desc": "Наносит на 30% больше урона при критическом попадании",
+          "desc": "Наносит на 30% больше урона при раскумаре",
           "coinlist": [
             {
               "coindescs": [
@@ -1179,12 +1179,12 @@
         {
           "level": 1,
           "name": "Охота должна завершиться...",
-          "desc": "Критические удары навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\nНаносит на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели",
+          "desc": "Раскумары навыка не расходуют счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\nНаносит на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "На 50% больше урона при критическом попадании"
+                  "desc": "На 50% больше урона при раскумаре"
                 },
                 {
                   "desc": "[OnSucceedAttack] Оглушает цель на следующий ход"
@@ -1282,7 +1282,7 @@
         {
           "level": 1,
           "name": "Засада",
-          "desc": "Наносит на 50% больше урона при критическом попадании\n- Ещё на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели",
+          "desc": "Наносит на 50% больше урона при раскумаре\n- Ещё на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели",
           "coinlist": [
             {
               "coindescs": [
@@ -1369,7 +1369,7 @@
         {
           "level": 1,
           "name": "Спастись...",
-          "desc": "На 100% больше урона при критическом попадании\n- Ещё на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели",
+          "desc": "На 100% больше урона при раскумаре\n- Ещё на 5% больше урона за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели",
           "coinlist": [
             {
               "coindescs": [
