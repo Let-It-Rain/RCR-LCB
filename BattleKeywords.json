@@ -2059,8 +2059,8 @@
     },
     {
       "id": "FireBulletPropellant",
-      "name": "Scorch Propellant Ammo",
-      "desc": "- Max Capacity: 15\n- Unique Ammo\n- Spent by certain Skills\n- Counts as \"Ammo\"",
+      "name": "Зажигательные патроны",
+      "desc": "<u>Особые Патроны</u>\nМаксимальное значение: 15\n· Могут быть переданы другим союзникам в качестве обычных <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патронов</link></u></color> через своё пассивное умение 「Почтение к боеприпасам」\n· Считаются за обычные <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патроны</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
@@ -2073,36 +2073,36 @@
     },
     {
       "id": "BulletPropellantAlly",
-      "name": "Tigermark Round",
-      "desc": "- Unique Ammo\n- At 8+ (cumulative sum of Tigermark Rounds and Savage Tigermark Rounds spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive\n- Max Capacity: 12",
+      "name": "Патрон тигровой метки",
+      "desc": "<u>Особые Патроны</u>\nМаксимальное значение: 12\n· При 8 и более в сумме потраченных за всю битву <sprite name=\"BulletPropellantAlly\"><color=#ff1919><u><link=\"BulletPropellantAlly\">Патронов тигровой метки</link></u></color> и <sprite name=\"BulletPropellantSpecialAlly\"><color=#f01313><u><link=\"BulletPropellantSpecialAlly\">Патронов свирепой тигровой метки</link></u></color> получает <sprite name=\"HugeIrritationAlly\"><color=#f8c200><u><link=\"HugeIrritationAlly\">Неумолимый дух — Шин</link></u></color> вместо обычного <sprite name=\"IrritationAlly\"><color=#f8c200><u><link=\"IrritationAlly\">Неумолимого духа</link></u></color> от своего пассивного умения 「Чернокрылый тигр [揷翅虎]」",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BulletPropellantSpecialAlly",
-      "name": "Savage Tigermark Round",
-      "desc": "- Unique Ammo\n- At 8+ (cumulative sum of Tigermark Rounds and Savage Tigermark Rounds spent), gain Unrelenting Spirit - Shin [剛氣-心] instead of Unrelenting Spirit [剛氣] from this unit's Passive\n- Actives the same way as Tigermark Round does\n- Max Capacity: 8",
+      "name": "Патрон свирепой тигровой метки",
+      "desc": "<u>Особые Патроны</u>\nМаксимальное значение: 8\n· Используются вместо <sprite name=\"BulletPropellantAlly\"><color=#ff1919><u><link=\"BulletPropellantAlly\">Патронов тигровой метки</link></u></color>\n· При 8 и более в сумме потраченных за всю битву <sprite name=\"BulletPropellantAlly\"><color=#ff1919><u><link=\"BulletPropellantAlly\">Патронов тигровой метки</link></u></color> и <sprite name=\"BulletPropellantSpecialAlly\"><color=#f01313><u><link=\"BulletPropellantSpecialAlly\">Патронов свирепой тигровой метки</link></u></color> получает <sprite name=\"HugeIrritationAlly\"><color=#f8c200><u><link=\"HugeIrritationAlly\">Неумолимый дух — Шин</link></u></color> вместо обычного <sprite name=\"IrritationAlly\"><color=#f8c200><u><link=\"IrritationAlly\">Неумолимого духа</link></u></color> от своего пассивного умения 「Чернокрылый тигр [揷翅虎]」",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IrritationAlly",
-      "name": "Unrelenting Spirit [剛氣]",
-      "desc": "- Min & Max Speed +1\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 2.5)% damage (max 20%)\n- Inflict +1 more Tremor Potency and Tremor Count with this unit's Skills\n- If this unit has spent 8+ (sum of Tigermark Round and Savage Tigermark Round): at Turn End, convert this buff to Unrelenting Spirit - Shin [剛氣-心] next turn\n- Max Stack: 1",
+      "name": "Неумолимый дух [剛氣]",
+      "desc": "· Максимальная и минимальная скорость повышается на 1\n· Если своя скорость выше скорости цели на 3 и более, наносит на (Разница в скорости × 2.5)% больше урона (До 20%)\n· Наносит на 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> или его счётчик больше своими навыками\n· Если было потрачено 8 и более <sprite name=\"BulletPropellantAlly\"><color=#ff1919><u><link=\"BulletPropellantAlly\">Патронов тигровой метки</link></u></color> с <sprite name=\"BulletPropellantSpecialAlly\"><color=#f01313><u><link=\"BulletPropellantSpecialAlly\">Патронами свирепой тигровой метки</link></u></color> за всю битву, <sprite name=\"IrritationAlly\"><color=#f8c200><u><link=\"IrritationAlly\">Неумолимый дух</link></u></color> превращается в <sprite name=\"HugeIrritationAlly\"><color=#f8c200><u><link=\"HugeIrritationAlly\">Неумолимый дух — Шин</link></u></color> в конце хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HugeIrritationAlly",
-      "name": "Unrelenting Spirit - Shin [剛氣-心]",
-      "desc": "- Min & Max Speed +3\n- If this unit's Speed is faster than the target's by 3 or more, deal +(Speed difference x 5)% damage (max 40%)\n- Inflict +2 more Tremor Potency and Tremor Count with this unit's Skills\n- Max Stack: 1",
+      "name": "Неумолимый дух — Шин [剛氣-心]",
+      "desc": "· Максимальная и минимальная скорость повышается на 3\n· Если своя скорость выше скорости цели на 3 и более, наносит на (Разница в скорости × 5)% больше урона (До 40%)\n· Наносит на 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> или его счётчика больше своими навыками",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BeastEyesAlly",
-      "name": "Overheat",
-      "desc": "- Loses this effect when this unit gains Savage Tigermark Round\n- Min & Max Speed +2\n- Base Attack Skills Lose (cumulative number of Tigermark & Savage Tigermark Rounds spent / 2) Clash Power (max 10); however, gain the following effects(cumulative):\n· 8+ Rounds spent: Gain 1 Protection for every 10% missing HP on self at Turn Start (max 5)\n· 14+ Rounds spent: On Clash Lose, Unbreakable Coins of this unit's Base Attack Skills deal +(75 + missing HP percentage on self)% damage (max 150%)\n· 20+ Rounds Spent: Deal +(HP percentage difference)% damage against targets with higher remaining HP percentage than this unit (max 50%; except E.G.O Skills)",
+      "name": "Перегрев",
+      "desc": "Эффект исчезает при получении <sprite name=\"BulletPropellantSpecialAlly\"><color=#f01313><u><link=\"BulletPropellantSpecialAlly\">Патронов свирепой тигровой метки</link></u></color>\n· Максимальная и минимальная скорость повышается на 2\n· Сила в столкновении своими базовыми атакующими навыками понижается на (Сумма потраченных за всю битву <sprite name=\"BulletPropellantAlly\"><color=#ff1919><u><link=\"BulletPropellantAlly\">Патронов тигровой метки</link></u></color> и <sprite name=\"BulletPropellantSpecialAlly\"><color=#f01313><u><link=\"BulletPropellantSpecialAlly\">Патронов свирепой тигровой метки</link></u></color> / 2) (До 10)\n· Получает следующие складывающиеся эффекты в зависимости от количества потраченных за всю битву патронов:\n  - При 8+: получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> в начале хода за каждые 10% потерянных ОЗ (До 5)\n  - При 14+: наносит на (Процент потерянных ОЗ + 75)% больше урона <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными монетами</link></u></color> своих базовых атакующих навыков после поражения в столкновении (До 150%)\n  - При 20+: наносит на (Разница в проценте оставшихся ОЗ с целью)% больше урона базовыми атакующими навыками противникам, чей процент текущих ОЗ больше (До 50%; ЭГО навыки не учитываются)",
       "summary": "",
       "undefined": "-"
     }
