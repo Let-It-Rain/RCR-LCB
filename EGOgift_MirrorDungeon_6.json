@@ -2,8 +2,8 @@
   "dataList": [
     {
       "id": 9799,
-      "name": "A Certain Philosophy",
-      "desc": "If the Fusion Probability forecast is 90% or higher, make it a 100%",
+      "name": "«1984»",
+      "desc": "Если шанс получения ЭГО дара из слияния равен 90% и более, то он повышается до 100%.\n\n«1984» — роман-антиутопия Джорджа Оруэлла о тоталитарном обществе с культом личности партийного лидера Большого Брата, постоянным правительственным контролем повседневной жизни и регулярными войнами. Изданный в 1949 году роман стал последним и, по господствующему мнению, самым главным произведением писателя.",
       "simpleDesc": [
         {
           "abilityID": 9799,
@@ -13,8 +13,8 @@
     },
     {
       "id": 9800,
-      "name": "Wealth",
-      "desc": "Fix all E.G.O Gift Purchase & Enhancement Cost to 1.\n\nAllies gain 1 [AttackUp] for every 500 Cost on self (max 20)",
+      "name": "Прибыль с производства героина",
+      "desc": "Снижает стоимость покупки или улучшения всех ЭГО Даров в магазине до 1.\n\nСоюзники получают 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> за каждые 500 имеющейся Стоимости. (До 20)",
       "simpleDesc": [
         {
           "abilityID": 9800,
@@ -22,29 +22,29 @@
         },
         {
           "abilityID": 980001,
-          "simpleDesc": "Gain Offense Level Up"
+          "simpleDesc": "Даёт <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>"
         }
       ]
     },
     {
       "id": 9801,
-      "name": "Tenacity Bolus",
-      "desc": "Turn Start: 1 ally with the highest max HP gains [DefenseUp] equal to the number of times that unit was hit by the enemies' Skill Attacks (max 6)",
+      "name": "Болюс упорства",
+      "desc": "Начало хода: союзник с наибольшими максимальными ОЗ получает <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> в количестве полученных от атакующих навыков противников ударов. (До 6)",
       "simpleDesc": [
         {
           "abilityID": 9801,
-          "simpleDesc": "Gain Defense Level Up"
+          "simpleDesc": "Даёт <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>"
         }
       ]
     },
     {
       "id": 9802,
-      "name": "Lightening Axe",
-      "desc": "On Hit with Skills that consume [Charge] Count: inflict 1 [Burst] (3 times per Skill)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply [Burst] or gain [Charge] are Deployed. (except E.G.O Skills; includes Backup Units)\n\n- At 6+...\nWhen dealing [Burst] damage to enemies, gain +1 [Charge] Count (3 times per Skill)\n\n- At 8+...\nOn Hit with Skills that consume [Charge] Count, inflict +1 [Burst] Count (3 times per Skill)",
+      "name": "Молниевый топор",
+      "desc": "Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> при попадании навыками, которые тратят счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>. (До 3 раз за навык)\n\nЭГО дар усиливается в зависимости от количества выбранных Идентичностей, которые наносят <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> или используют <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> (Включая запасных; за исключением ЭГО навыков):\n- 6 и более: повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 1 при нанесении урона эффектом <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>; (До 3 раз за навык)\n- 8 и более: повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели на 1 при попадании навыком, который тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>. (До 3 раз за навык)",
       "simpleDesc": [
         {
           "abilityID": 9802,
-          "simpleDesc": "Inflict 1 Rupture"
+          "simpleDesc": "Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
         },
         {
           "abilityID": 980201,
@@ -52,22 +52,22 @@
         },
         {
           "abilityID": 980202,
-          "simpleDesc": "Gain +1 Charge Count"
+          "simpleDesc": "Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 1"
         },
         {
           "abilityID": 980203,
-          "simpleDesc": "Inflict +1 Rupture Count"
+          "simpleDesc": "Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
         }
       ]
     },
     {
       "id": 9803,
-      "name": "Flower in the Mirror",
-      "desc": "Every Turn Start: inflict 3 [Burst] Potency and +1 [Burst] Count against all enemies (for Focused Encounters, all Parts)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply [Burst] or gain [Breath] are Deployed. (except E.G.O Skills; includes Backup Units)\n\n- At 6+...\nWhen [Burst] damage occurs On Hit with a Skill, gain +1 [Breath] Count (3 times per Skill)\n\n- At 10+...\nOn Crit with a Skill, inflict +1 [Burst] Count (3 times per Skill)",
+      "name": "Цветок в зеркале",
+      "desc": "Начало каждого хода: наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и повышает его счётчик на 1 всем противникам или частям.\n\nЭГО дар усиливается в зависимости от количества выбранных Идентичностей, которые наносят <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> или используют <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> (Включая запасных; за исключением ЭГО навыков):\n- 6 и более: повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1 при нанесении урона эффектом <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при попадании; (До 3 раз за навык)\n- 10 и более: повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели на 1 при критическом попадании. (До 3 раз за навык)",
       "simpleDesc": [
         {
           "abilityID": 9803,
-          "simpleDesc": "Inflict 3 Rupture Potency and +1 Rupture Count"
+          "simpleDesc": "Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и повышает его счётчик на 1"
         },
         {
           "abilityID": 980301,
@@ -75,22 +75,22 @@
         },
         {
           "abilityID": 980302,
-          "simpleDesc": "Gain +1 Poise Count"
+          "simpleDesc": "Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
         },
         {
           "abilityID": 980303,
-          "simpleDesc": "Inflict +1 Rupture Count"
+          "simpleDesc": "Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
         }
       ]
     },
     {
       "id": 9804,
-      "name": "Moon in the Water",
-      "desc": "On Hit against enemies with 5+ [Burst] Potency: gain 1 [Breath] Potency and +1 [Breath] Count (3 times per Skill)\n\nThe E.G.O Gift effect gets stronger the more Identities with Attack Skills that apply [Burst] or gain [Breath] are Deployed. (except E.G.O Skills; includes Backup Units)\n\nOn Hit with a Skill: if target has 20+ [Burst], deal +10% damage on Critical Hit (additional +3% damage on Critical Hit for every 1 Deployed Identity that fit the above condition)\n\n- At 12+...\nOn Hit with a Skill: if it hit Critically, remove 1 random removable negative effect applied to self (once per turn, per Identity) ",
+      "name": "Протёкшая жижа для вейпа",
+      "desc": "При попадании по целям с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>: даёт 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> и повышает его счётчик на 1. (До 3 раз за навык)\n\nЭГО дар усиливается в зависимости от количества выбранных Идентичностей, которые наносят <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> или используют <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> (Включая запасных; за исключением ЭГО навыков):\n- Все 12 Идентичностей: снимает с себя 1 случайный снимаемый негативный эффект при критическом попадании; (Единожды за ход на Идентичность)\n- На 10% больше урона при критическом попадании, если на противнике 20 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, а также ещё на 3% больше урона при критическом попадании за каждую выбранную Идентичность из условия.",
       "simpleDesc": [
         {
           "abilityID": 9804,
-          "simpleDesc": "Gain Poise Potency and Count"
+          "simpleDesc": "Даёт <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> и повышает его счётчик"
         },
         {
           "abilityID": 980401,
@@ -98,52 +98,52 @@
         },
         {
           "abilityID": 980402,
-          "simpleDesc": "Deal more Damage on Critical Hit"
+          "simpleDesc": "Больше урона при критическом попадании"
         },
         {
           "abilityID": 980403,
-          "simpleDesc": "Remove a random negative effect"
+          "simpleDesc": "Снимает с себя случайный негативный эффект"
         }
       ]
     },
     {
       "id": 9795,
-      "name": "A Drop",
-      "desc": "Activates when 3 or more Identities have Skills that consume [BloodDinner]. (except E.G.O Skills; except Backup Units)\n\nBefore using Skills that consume [BloodDinner], if the target has 30+ [Laceration] Potency, reduce their [Laceration] Potency to 15. Then, increase [BloodDinner] equal to the amount of [Laceration] Potency reduced. (once per turn for the enemy group as a whole; only activates against the main target when using multi-Atk Weight Skills)\n\nFor Identities with Skills that consume [BloodDinner], apply 1 Power Up and 1 Damage Up next turn for every 10 [BloodDinner] generated with the above effect (max 4) ",
+      "name": "Вытекшие месячные",
+      "desc": "Активируется при наличии на поле боя 3 и более Идентичностей, которые поглощают <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>. (За исключением ЭГО навыков)\n\nПеред использованием навыка, который поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>, и если на главной цели 30 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>: поглощает всё <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> главной цели свыше 15 и увеличивает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color> на столько же. (Единожды за ход на группу из одинаковых противников)\n\nЕсли у использовавшего этот навык союзника были навыки, которые поглощают <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>: также даёт 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> и 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход за каждые 10 полученного от этого <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>. (До 4)",
       "simpleDesc": [
         {
           "abilityID": 9795,
-          "simpleDesc": "Reduce Bleed Potency and increase Bloodfeast"
+          "simpleDesc": "Уменьшает силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели и увеличивает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color>"
         },
         {
           "abilityID": 979501,
-          "simpleDesc": "Apply Power Up and Damage Up"
+          "simpleDesc": "Даёт <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> и <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color>"
         }
       ]
     },
     {
       "id": 9796,
-      "name": "Sorrowful Exhale",
-      "desc": "If the #5 Deployed ally has 50+ (sum of [Breath] Potency and [Breath] Count): their Skill Coins, when attacking after Clash Win or when using Unopposed Attacks, always flip Heads(for Minus Coins, Tails), and deal +80% damage on Critical Hit. (once per Encounter, except E.G.O Skills)\n\nIf there are 5 or more Deployed allies with Attack Skills that apply or gain [Breath] Potency or [Breath] Count, #5 Deployed ally deals +60% damage on Critical Hit (additional +20% damage on Critical Hit for every 1 Deployed Identity beyond the conditional, including Backup Units)",
+      "name": "Выдох астматика",
+      "desc": "Если сумма силы и счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> #5 выбранной Идентичности равна 50 и более: положительные монеты, подкидываемые после победы в столкновении или при односторонней атаке, всегда выпадают орлом (Отрицательные - решкой), а также наносят на 80% больше урона при критическом попадании. (Единожды за навык на всю битву; за исключением ЭГО навыков)\n\nЕсли выбрано 5 и более Идентичностей, которые используют <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> или дают его союзникам: #5 выбранная Идентичность наносит на 60% больше урона при критическом попадании, а также ещё на 20% больше урона при критическом попадании за каждую выбранную Идентичность из условия (Включая запасных Идентичностей).",
       "simpleDesc": [
         {
           "abilityID": 9796,
-          "simpleDesc": "Deal more Damage on Critical Hit"
+          "simpleDesc": "Больше урона при критическом попадании"
         },
         {
           "abilityID": 979601,
-          "simpleDesc": "Deal more Damage on Critical Hit"
+          "simpleDesc": "Больше урона при критическом попадании"
         }
       ]
     },
     {
       "id": 9797,
-      "name": "Shatterbound Cannon",
-      "desc": "Combat Start: gain 2 [AttackDmgUp] and 2 [Vulnerable]\nStarting from the 2nd turn, Stacks of [AttackDmgUp] and [Vulnerable] gained due to the above effect increases by 1 (up to 8 times)",
+      "name": "Раздрабливающая пушка",
+      "desc": "Даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> в начале боевой фазы.\n\nНачиная со второго хода получаемые эффекты увеличиваются на 1. (До 10 в итоге)",
       "simpleDesc": [
         {
           "abilityID": 9797,
-          "simpleDesc": "Gain Damage Up and Fragile"
+          "simpleDesc": "Даёт <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> и <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>"
         },
         {
           "abilityID": 979701,
@@ -153,16 +153,16 @@
     },
     {
       "id": 9798,
-      "name": "Coveting Thorn",
-      "desc": "Every 3 turns, inflict 2 [RoseThorn] against enemies(or Parts) with [Laceration].\nIf all enemies(or all Parts) have [Laceration], inflict 4 [RoseThorn].",
+      "name": "Шип из пизды",
+      "desc": "Каждые 3 хода наносит 2 <sprite name=\"RoseThorn\"><color=#f8c200><u><link=\"RoseThorn\">Ненасытных шипа</link></u></color> противникам или частям с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\n- Если все противники или части имеют Кровотечение, наносит 4 <sprite name=\"RoseThorn\"><color=#f8c200><u><link=\"RoseThorn\">Ненасытных шипа</link></u></color> вместо этого.",
       "simpleDesc": [
         {
           "abilityID": 9798,
-          "simpleDesc": "Inflict Gluttonous Thorn (貪食棘)"
+          "simpleDesc": "Наносит <sprite name=\"RoseThorn\"><color=#f8c200><u><link=\"RoseThorn\">Ненасытный шип</link></u></color>"
         },
         {
           "abilityID": 979801,
-          "simpleDesc": "Inflict Gluttonous Thorn (貪食棘)"
+          "simpleDesc": "Наносит <sprite name=\"RoseThorn\"><color=#f8c200><u><link=\"RoseThorn\">Ненасытный шип</link></u></color>"
         }
       ]
     }
