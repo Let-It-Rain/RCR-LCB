@@ -2667,22 +2667,22 @@
     },
     {
       "id": "ChoSuperCharge",
-      "name": "Near-light Superbattery",
-      "desc": "- Max Stack: 100\n- When consuming Charge Count, add the amount consumed to this buff's Stack\n- Max Charge Count Cap +10\n- Gain 1 Charge Count when allies gain Charge Potency or Count\n- When this unit consumes Charge Count with its Skills, consume the same amount of Charge Count 1 more time (when there isn't enough Charge Count, consume as much as available)\n- Deal +10% damage for every 10 Stack\n- Enemies gain +0.1 Resistance against this unit's attacks for every 20 Stack (max +0.5 Resist; does not activate against Staggered enemies)\n- When the Identity with this effect dies, the buff transfers to the ally who is second earliest to this unit in the Deployment order. The Stack carries over as well.",
+      "name": "Околосветовой сверхконденсатор",
+      "desc": "Максимальное значение: 100\n· Максимальный счётчик [Charge:`Заряда`] +10\n· Трата своего счётчика [Charge:`Заряда`] повышает значение этого эффекта на столько же\n· Трата своего счётчика [Charge:`Заряда`] увеличивается в 2 раза\n· Свой счётчик [Charge:`Заряда`] повышается на 1 каждый раз, когда союзники повышают счётчик или силу своего [Charge:`Заряда`]\n· На 10% больше наносимого урона за каждые 10 значения\n· Сопротивление противников к атакам Идентичности ослабевает на 0.1 за каждые 20 значения (До ослабевания на 0.5 в итоге; за исключением оглушённых противников)\n· Если эта Идентичность умирает, эффект переносится на другую Идентичность, следующую после этой в порядке выбора в команду (Значение сохраняется)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ShareCharge",
-      "name": "Self Resonance Circuitry",
-      "desc": "Total sum of Charge Count currently owned by all allies\n\nCumulative Charge Count consumed by allies: {0}\n\nOn Hit with a Skill: deal +(sum of charge count on all allies / 3)% damage\nAll allies gain 1 Offense Level Up for every 100 cumulative Charge Count consumed by allies (max 30)",
+      "name": "Схема саморезонанса",
+      "desc": "Отображает сумму имеющегося на данный момент счётчика [Charge:`Заряда`] всех союзников.\n· На (Значение эффекта / 3)% больше урона.\n· Все союзники получают по 1 [AttackUp:`Повышению уровня атаки`] за каждые 100 единиц потраченного за всю битву счётчика [Charge:`Заряда`] союзниками. (До 30)\n\nВсего потрачено счётчика [Charge:`Заряда`] союзниками: <color=#1aece7>{0}</color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WaveSinking",
-      "name": "Reflux",
-      "desc": "- Max Stack: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for units without SP, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack",
+      "name": "Рефлюкс",
+      "desc": "Максимальное значение: 3\n· При получении удара наносит [Sinking:`Утопание`] в количестве значения эффекта\n· Конец хода: если -30 СД и менее, активирует следующие эффекты (Для противников без силы духа, если на себе 60 и более [Sinking:`Утопания`]):\n  - Наносит (Сила [Sinking:`Утопания`] × значение эффекта) урона Унынием\n  - Наносит 1 [WaveSinking:`Рефлюкс`] на двух других своих союзников с наименьшей СД, после чего наносит (Сила [Sinking:`Утопания`] × значение эффекта) урона Унынием по ним обоим\n· После своей смерти эффект переносится на другого своего союзника с его наибольшим, но не максимальным значением",
       "summary": "",
       "undefined": "-"
     }

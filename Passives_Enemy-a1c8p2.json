@@ -2,73 +2,73 @@
   "dataList": [
     {
       "id": 9021001,
-      "name": "Rival Candidate",
-      "desc": "Deal +10% damage against Hong Lu"
+      "name": "Конкурирующий кандидат",
+      "desc": "Наносит на 10% больше урона Хон Лу."
     },
     {
       "id": 9021002,
-      "name": "Shi(史) Family Charge Circuitry",
-      "desc": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nTurn End: At 2+ [Charge], gain 1 [ParryingResultUp] next turn"
+      "name": "Зарядная схема семьи Ши (史)",
+      "desc": "Получает 1 силу [Charge:`Заряда`] каждый раз, как тратит 10-ую единицу счётчика [Charge:`Заряда`].\n\nКонец хода: при силе [Charge:`Заряда`] 2 и более получает 1 [ParryingResultUp:`Повышение силы в столкновении`] на следующий ход."
     },
     {
       "id": 9021003,
-      "name": "Charge Circuitry Activation",
-      "desc": "Deal +5% damage for every 6 [Burst] on target (Max 10%)"
+      "name": "Активация зарядной схемы",
+      "desc": "Наносит на 5% больше урона за каждые 6 [Burst:`Разрывов`] на цели. (До 10%)"
     },
     {
       "id": 9021004,
-      "name": "Overload",
-      "desc": "Turn End: at 3+ [Charge], gain 3 [DefenseDown] and 1 [AttackDmgUp] next turn"
+      "name": "Перегрузка",
+      "desc": "Конец хода: при силе своего [Charge:`Заряда`] 3 и более получает 3 [DefenseDown:`Понижения уровня защиты`] и 1 [AttackDmgUp:`Повышение урона`] на следующий ход."
     },
     {
       "id": 9021201,
-      "name": "Severe Overload",
-      "desc": "Turn End: at 5+ [Charge], gain 4 [DefenseDown] and 3 [AttackDmgUp] next turn"
+      "name": "Тяжёлая перегрузка",
+      "desc": "Конец хода: при силе своего [Charge:`Заряда`] 5 и более получает 4 [DefenseDown:`Понижения уровня защиты`] и 3 [AttackDmgUp:`Повышения урона`] на следующий ход."
     },
     {
       "id": 9020501,
-      "name": "Experiment Goal - Maturation",
-      "desc": "Turn Start: gain [DefenseUp] equal to (number of times this unit was hit by the enemies' Skill Attacks / 2) (max 10)\n\nLose this effect when Staggered for the first time; then, at the next Turn Start, gain 10 [DefenseDown]"
+      "name": "Цель эксперимента - Мутация",
+      "desc": "Начало хода: получает [DefenseUp:`Повышения уровня защиты`] в количестве (Получено ударов от атак противников / 2). (До 10)\n\nТеряет этот эффект при своём оглушении впервые, после чего получает 10 [DefenseDown:`Понижений уровня защиты`] в начале следующего хода."
     },
     {
       "id": 9020601,
-      "name": "Experiment Goal - Germination",
-      "desc": "Turn Start: if this unit isn't at max HP, heal 80% of the missing HP\n- With every healing, halve the healing effect of this Passive by half (halves down to 10% minimum; applies only when this unit heals more than 1 HP)\n- Does not activate when Staggered\n\nAfter this unit is Staggered for the first time, or when the healing effect is reduced to its minimum, gain 3 [Vulnerable] at every Turn Start"
+      "name": "Цель эксперимента - Прорастание",
+      "desc": "Начало хода: если ОЗ не максимальны, восстанавливает 80% потерянных ОЗ.\n- С каждым таким исцелением уменьшает его вдвое. (Минимум 10% в итоге; округляется вниз)\n- Не активируется в состоянии оглушения.\n\nКогда впервые в оглушении, или же эффект исцеления снижен до минимума, получает 3 [Vulnerable:`Уязвимости`] в начале каждого хода."
     },
     {
       "id": 9020701,
-      "name": "Experiment Goal - Blossom",
-      "desc": "When this unit takes damage that brings its HP down to 0, and maintain this unit's HP at 1 until the next turn; deal +50% damage (once per Encounter)\n\nDoes not activate when Staggered"
+      "name": "Цель эксперимента - Цветение",
+      "desc": "При получении смертельного урона не может умереть до начала следующего хода и наносит на 50% больше урона. (Единожды за битву; Не активируется в состоянии оглушения)"
     },
     {
       "id": 9020801,
-      "name": "Talisman Sorcerer",
-      "desc": "Whenever this unit inflicts [OminousTalisman] against an enemy, lose 10 SP\n\nAgainst targets with [OminousTalisman], deal +(0 - SP on self)% damage (max 30%, min 0%)"
+      "name": "Мастер талисманов",
+      "desc": "Теряет 10 СД при каждом нанесении [OminousTalisman:`Предзнаменующих талисманов`] противникам.\n\nНаносит противникам с [OminousTalisman:`Предзнаменующими талисманами`] на (0 - текущая СД)% больше урона. (До 30%; минимум 0%)"
     },
     {
       "id": 9020802,
-      "name": "Proliferating Misfortune",
-      "desc": "On death, apply 10 [OminousTalisman] against a random enemy without [OminousTalisman]\n- If all enemies already have [OminousTalisman], then reduce all enemies' [OminousTalisman] by 1 instead"
+      "name": "Множащееся несчастье",
+      "desc": "При смерти наносит 10 [OminousTalisman:`Предзнаменующих талисманов`] случайному противнику без них.\n- Если на всех противниках уже есть [OminousTalisman:`Предзнаменующие талисманы`], убирает с них 1 [OminousTalisman:`Предзнаменующий талисман`] вместо этого."
     },
     {
       "id": 9020803,
-      "name": "Wicked Energy",
-      "desc": "When inflicting [OminousTalisman] on an enemy, if the target already has [OminousTalisman], consume 1~2 [OminousTalisman] on the target and inflict the same value as [DefenseDown] Stacks to the target this turn and next turn "
+      "name": "Зловещая энергия",
+      "desc": "При нанесении противнику [OminousTalisman:`Предзнаменующих талисманов`], если он уже их имеет, снимает с него 1~2 [OminousTalisman:`Предзнаменующих талисмана`] и наносит такое же количество [DefenseDown:`Понижений уровня защиты`] на этот и следующий ход."
     },
     {
       "id": 9020901,
-      "name": "Skilled Talisman Sorcerer",
-      "desc": "Whenever this unit inflicts [OminousTalisman] against an enemy, lose 10 SP\n\nAgainst targets with [OminousTalisman], deal +(10 - SP on self)% damage (max 50%, min 0%)"
+      "name": "Опытный мастер талисманов",
+      "desc": "Теряет 10 СД при каждом нанесении [OminousTalisman:`Предзнаменующих талисманов`] противникам.\n\nНаносит противникам с [OminousTalisman:`Предзнаменующими талисманами`] на (10 - текущая СД)% больше урона. (До 50%; минимум 0%)"
     },
     {
       "id": 9020902,
-      "name": "Soul Siphon Technique",
-      "desc": "Turn Start: at 50% or less HP, sacrifice a random Wicked Deathrite Monk to heal (10% of this unit's HP + 50% of the sacrificed unit's HP) HP, heal 25 SP, and recover from Stagger (once per turn)"
+      "name": "Техника высасывания душ",
+      "desc": "Начало хода: если ОЗ менее 50%, приносит в жертву случайного смертоносного монаха, чтобы восстановить себе 25 СД и ОЗ на (10% своих ОЗ + 50% ОЗ этого монаха), а также восстановиться от оглушения. (Единожды за ход)"
     },
     {
       "id": 9020903,
-      "name": "Wicked Energy",
-      "desc": "When inflicting [OminousTalisman] on an enemy, if the target already has [OminousTalisman], consume up to 3 [OminousTalisman] on the target and inflict the same value as [DefenseDown] Stacks to the target this turn and next turn "
+      "name": "Зловещая энергия",
+      "desc": "При нанесении противнику [OminousTalisman:`Предзнаменующих талисманов`], если он уже их имеет, снимает с него до 3 [OminousTalisman:`Предзнаменующих талисманов`] и наносит такое же количество [DefenseDown:`Понижений уровня защиты`] на этот и следующий ход."
     }
   ]
 }

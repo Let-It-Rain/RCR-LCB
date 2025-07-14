@@ -2,200 +2,200 @@
   "dataList": [
     {
       "id": "ExaminationOfQiu",
-      "name": "A Sliver of Anticipation",
-      "desc": "He's not giving it his all.\n- Lose 35 Base Offense Level, Lose 35 Base Defense Level\n- Deal +30% damage with Unopposed Attacks",
+      "name": "Проблеск предвкушения",
+      "desc": "<i>Он не выкладывается на полную.</i>\n· Теряет 35 базовых Уровней атаки и защиты\n· Наносит на 30% больше урона односторонними атаками",
       "summary": ""
     },
     {
       "id": "BurstStop",
-      "name": "Deathrite 【Halt】",
-      "desc": "Base Stack: 4\n- Deathrite\n- When getting Rupture triggered while this unit has 3+ Bind, lose 1 Stack\n- When losing Stacks, raise this unit's Stagger Threshold by 10\n- At 0 Stack, raise this unit's Stagger Threshold by Rupture Potency on self, then expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Смертный ритуал 【Сдерживание】",
+      "desc": "Базовое значение: 4\n· При активации эффекта [Burst:`Разрыва`] и наличии 3 и более [Binding:`Связывания`] значение понижается на 1\n· При понижении значения поднимает границу выносливости на 10\n· Когда эффект истекает, поднимает границу выносливости на силу [Burst:`Разрыва`]\n※ Значение эффекта не может увеличиться, пока он активен",
       "summary": ""
     },
     {
       "id": "BurstSuppress",
-      "name": "Deathrite 【Impede】",
-      "desc": "Base Stack: 10\n- Deathrite\n- When this unit loses other Deathrites' Stacks due to their conditions, lose 1 Stack (max 4 per turn)\n- At 0 Stack, gain 6 Offense Level Down for the next turn, then expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Смертный ритуал 【Угасание】",
+      "desc": "Базовое значение: 10\n· При понижении значений других Смертных ритуалов значение этого понижается на 1 (До 4 за ход)\n· Когда эффект истекает, наносит 6 [AttackDown:`Понижений уровня атаки`]\n※ Значение эффекта не может увеличиться, пока он активен",
       "summary": ""
     },
     {
       "id": "BurstWave",
-      "name": "Deathrite 【Wane】",
-      "desc": "Base Stack: 10\n- Deathrite\nWhen the unit that inflicted this effect triggers Rupture, lose 1 Stack\n- Also lose 1 Stack of a random Deathrite on self, except for this Deathrite\n- At 0 Stack, expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Смертный ритуал 【Слабение】",
+      "desc": "Базовое значение: 10\n· Когда наложивший этот Смертный ритуал активирует эффект [Burst:`Разрыва`], значение этого Смертного ритуала и одного другого понижается на 1\n※ Значение эффекта не может увеличиться, пока он активен",
       "summary": ""
     },
     {
       "id": "Teaching",
-      "name": "Dialogues",
-      "desc": "Max Stack: 3\n- Turn End: heal 5 SP\n- When HP drops to 0 during the Encounter, heal up to max HP (activates as many times as this unit has Stacks)\n- Activated: {0} time(s)",
+      "name": "Диалоги",
+      "desc": "Максимальное значение: 3\n· Восстанавливает 5 СД в конце хода\n· При получении смертельного урона восстанавливается до максимальных ОЗ (Только если число восстановлений не равняется текущему значению эффекта; до 3 раз в итоге)\n\n<color=#c8e7d9>Число восстановлений: {0}</color>",
       "summary": ""
     },
     {
       "id": "BurstWeakness",
-      "name": "Deathrite 【Enfeeble】",
-      "desc": "Base Stack: 5\n- Deathrite\n- If the target's Speed is faster than this unit's, and if the Speed difference 5 or greater: when getting Rupture triggered, lose 1 Stack\n- When losing Stacks, gain 1 Defense Level Down next turn (once per turn)\n- At 0 Stack, gain 3 Defense Level Down and 1 Bind next turn, then expires\n- ※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Смертный ритуал 【Подавление】",
+      "desc": "Базовое значение: 5\n· Если своя скорость ниже скорости атакующего на 5 и более, при активации эффекта [Burst:`Разрыва`] значение понижается на 1\n· При понижении значения наносит 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход (Единожды за ход)\n· Когда эффект исчезает, наносит 3 [DefenseDown:`Понижения уровня защиты`] и 1 [Binding:`Связывание`] на следующий ход\n※ Значение эффекта не может увеличиться, пока он активен",
       "summary": ""
     },
     {
       "id": "Qiu_LowMorale",
-      "name": "Jia Qiu",
-      "desc": "- Low Morale\n- Deal +10% damage against targets that aren't Hong Lu",
+      "name": "Цзя Цю (Низкий дух)",
+      "desc": "Наносит на 10% больше урона всем кроме Хон Лу",
       "summary": ""
     },
     {
       "id": "Qiu_Panic",
-      "name": "Jia Qiu",
-      "desc": "- Panic\n- Deal +20% damage against targets that aren't Hong Lu",
+      "name": "Цзя Цю (Паника)",
+      "desc": "Наносит на 20% больше урона всем кроме Хон Лу",
       "summary": ""
     },
     {
       "id": "QiuAndHonglu",
-      "name": "My True Heart...",
-      "desc": "- Hong Lu's Skills gain +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least SP heals 5 SP\n- When an ally dies, remaining allies at Turn End gain 1 Offense Level Up next turn (once per turn)",
+      "name": "Моё настоящее сердце...",
+      "desc": "· Навыки Хон Лу получают +1 к Итоговой силе\n· При победе в столкновении 1 союзник с наименьшей СД (Включая самого Хон Лу) восстанавливает 5 СД\n· При смерти союзника все остальные получают 1 [AttackUp:`Повышение уровня атаки`] на следующий ход (Единожды за ход)",
       "summary": ""
     },
     {
       "id": "ProtectStance",
-      "name": "Protective Stance",
-      "desc": "Max Stack: 2\nThis effect does not compound in potency; stacking it only extends its duration\nReduced by 1 at Turn End\nWhen a unit gains this effect, gain the following effects next turn:\n- Gain 2 Protection\n- Gain 5 Aggro to each of this unit's Slots",
+      "name": "Защитная позиция",
+      "desc": "Максимальное значение: 2\n· Понижается на 1 в конце хода\n· При повышении значения этого эффекта также получает 2 [Protection:`Защищённости`] на следующий ход и повышает [Aggro:`Провокацию`] всех слотов на 5",
       "summary": ""
     },
     {
       "id": "ZiluDebuff",
-      "name": "Bloodthirst Suppressed",
-      "desc": "- Lose 20 Base Offense Level, Lose 20 Base Defense Level",
+      "name": "Подавленная жажда крови",
+      "desc": "· Базовый Уровень атаки снижен на 20\n· Базовый Уровень защиты снижен на 20",
       "summary": ""
     },
     {
       "id": "WitheredWood_LowMorale",
-      "name": "Eldtree Mutation",
-      "desc": "- Low Morale\n- Gain 1 Damage Up, 1 Fragile, and 1 Rupture Fragility",
+      "name": "Мутация древа",
+      "desc": "Получает 1 [AttackDmgUp:`Повышение урона`], 1 [Vulnerable:`Уязвимость`] и 1 [BurstVulnerable:`Уязвимость к Разрывам`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WitheredWood_Panic",
-      "name": "Eldtree Mutation",
-      "desc": "- Panic\n- Gain 2 Damage Up, 2 Fragile, and 2 Rupture Fragility",
+      "name": "Мутация древа",
+      "desc": "Получает 2 [AttackDmgUp:`Повышения урона`], 2 [Vulnerable:`Уязвимости`] и 2 [BurstVulnerable:`Уязвимости к Разрывам`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_LowMorale",
-      "name": "Heart of Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +2\nTurn Start: gain 2 Damage Up and 1 Fragile",
+      "name": "Сердце зла (Низкий дух)",
+      "desc": "· Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EvilHeart_Panic",
-      "name": "Heart of Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +3\nTurn Start: gain 3 Damage Up and 2 Fragile",
+      "name": "Сердце зла (Паника)",
+      "desc": "· Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_LowMorale",
-      "name": "Heart of Oppressive Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +2\nTurn Start: gain 3 Damage Up and 1 Fragile",
+      "name": "Сердце гнетущего зла (Низкий дух)",
+      "desc": "· Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 3 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepEvilHeart_Panic",
-      "name": "Heart of Oppressive Evil",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +3\nTurn Start: gain 4 Damage Up and 2 Fragile",
+      "name": "Сердце гнетущего зла (Паника)",
+      "desc": "· Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 4 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимость`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "OminousTalisman",
-      "name": "Omen Talisman",
-      "desc": "- Max Stack: 10\n- When dropping to 0 Stack: take Gluttony damage and SP damage equal to Rupture Potency on self, then expires (max SP damage: 20)\n- When losing Omen Talismans, gain Rupture Potency equal to the number of Omen Talismans lost; then, gain half of Rupture Potency lost as Rupture Count (rounded down)\n※ Cannot gain additional Stacks of this effect while it is already active",
+      "name": "Предзнаменующий талисман",
+      "desc": "Максимальное значение: 10\n· Когда эффект исчезает, наносит урон Чревоугодием и в количестве силы [Burst:`Разрыва`] и столько же урона по СД (До 20 урона по СД)\n· При понижении значения наносит [Burst:`Разрывы`] в количестве потерянных при понижении значения [OminousTalisman:`Предзнаменующих талисманов`], а счётчик [Burst:`Разрыва`] повышается на половину этого (Округляется вниз)\n※ Значение эффекта не может увеличиться, пока он активен",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RepressedMurderousIntendTwo",
-      "name": "Concealed Bloodthirst",
-      "desc": "Lose 5 Base Offense Level\nLose 5 Base Defense Level",
+      "name": "Скрытая жажда крови",
+      "desc": "· Базовый Уровень атаки снижен на 5\n· Базовый Уровень защиты снижен на 5",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UncontrolledChargeAxe_LowMorale",
-      "name": "Charge Circuitry Countercurrent",
-      "desc": "- Low Morale\nWhen Clashing against targets with Rupture, gain +3 Charge Count and 1 Fragile (2 times per turn)",
+      "name": "Схема встречной подзарядки (Низкий дух)",
+      "desc": "Повышает свой счётчик [Charge:`Заряда`] на 3 и получает 1 [Vulnerable:`Уязвимость`], когда сталкивается с противниками, имеющими [Burst:`Разрыв`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UncontrolledChargeAxe_Panic",
-      "name": "Charge Circuitry Countercurrent",
-      "desc": "- Panic\nWhen Clashing against targets with Rupture, gain +5 Charge Count, 1 Damage Up, and 2 Fragile (2 times per turn)",
+      "name": "Схема встречной подзарядки (Паника)",
+      "desc": "Повышает свой счётчик [Charge:`Заряда`] на 5 и получает 2 [Vulnerable:`Уязвимости`] с 1 [AttackDmgUp:`Повышением урона`], когда сталкивается с противниками, имеющими [Burst:`Разрыв`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather",
-      "name": "Eyeball Pinion",
-      "desc": "- Max Stack: 10\n- Turn End: gain (Stack / 2) Rupture Count and Bleed Count (rounded down)\n- Turn End: lose 1 Stack",
+      "name": "Глазные пятна",
+      "desc": "Максимальное значение: 10\n· Конец хода: счётчик [Burst:`Разрыва`] и [Laceration:`Кровотечения`] повышается на половину значения эффекта (Округляется вниз), а само значение понижается на 1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_LowMorale",
-      "name": "Double-edged Feather",
-      "desc": "- Low Morale\nTurn Start: gain 1 Fragile and 1 HP Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
+      "name": "Обоюдоострое перо (Низкий дух)",
+      "desc": "· Получает 1 [Vulnerable:`Уязвимость`] и 1 [TakeHpHealIncrease:`Повышение восстановления ОЗ`] в начале хода\n· Наносит 1 [Burst:`Разрыв`] и 1 [Laceration:`Кровотечение`] при ударе",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MadFeather_Panic",
-      "name": "Double-edged Feather",
-      "desc": "-Panic\nTurn Start: gain 2 Fragile and 2 HP Healing Boost. On Hit, inflict 1 Rupture and 1 Bleed",
+      "name": "Обоюдоострое перо (Паника)",
+      "desc": "· Получает 2 [Vulnerable:`Уязвимости`] и 2 [TakeHpHealIncrease:`Повышения восстановления ОЗ`] в начале хода\n· Наносит 1 [Burst:`Разрыв`] и 1 [Laceration:`Кровотечение`] при ударе",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_LowMorale",
-      "name": "Charge Order",
-      "desc": "- Low Morale\nTurn Start: gain 1 Fragile and apply 1 Damage Up to all allies",
+      "name": "Таратор приказами (Низкий дух)",
+      "desc": "В начале хода получает 1 [Vulnerable:`Уязвимость`] и даёт всем союзникам 1 [AttackDmgUp:`Повышение урона`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "JarMaster_Panic",
-      "name": "Charge Order",
-      "desc": "- Panic\nTurn Start: gain 2 Fragile and apply 2 Damage Up to all allies",
+      "name": "Таратор приказами (Паника)",
+      "desc": "В начале хода получает 2 [Vulnerable:`Уязвимости`] и даёт всем союзникам 2 [AttackDmgUp:`Повышения урона`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_LowMorale",
-      "name": "Angst",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +2\nTurn Start: gain 2 Damage Up and 1 Fragile",
+      "name": "Страх (Низкий дух)",
+      "desc": "· Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DeepAngry_Panic",
-      "name": "Angst",
-      "desc": "- Low Morale\nWhen Clashing against targets with Omen Talisman, Clash Power +3\nTurn Start: gain 3 Damage Up and 2 Fragile",
+      "name": "Страх (Паника)",
+      "desc": "· Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_LowMorale",
-      "name": "Catching Breath",
-      "desc": "- Low Morale\nTurn Start: gain 2 Defense Level Up and lose 2 Poise Potency",
+      "name": "Перехватывающее дыхание (Низкий дух)",
+      "desc": "В начале хода теряет 2 [Breath:`Дыхания`] и получает 2 [DefenseDown:`Понижения уровня защиты`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TakeBreath_Panic",
-      "name": "Catching Breath",
-      "desc": "- Panic\nTurn Start: gain 5 Defense Level Up and lose 5 Poise Potency",
+      "name": "Перехватывающее дыхание (Паника)",
+      "desc": "В начале хода теряет 5 [Breath:`Дыхания`] и получает 5 [DefenseDown:`Понижений уровня защиты`]",
       "summary": "",
       "undefined": "-"
     }
