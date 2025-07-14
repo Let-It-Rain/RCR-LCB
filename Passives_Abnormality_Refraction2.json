@@ -47,8 +47,8 @@
     },
     {
       "id": 854104,
-      "name": "Преломленный заряд",
-      "desc": "При попадании, если у цели есть <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color>, уменьшает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> цели на 1 и получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>. (3 раза за ход)"
+      "name": "Преломленный соль",
+      "desc": "При попадании, если у цели есть <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color>, уменьшает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> цели на 1 и получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подсоль</link></u></color>. (3 раза за ход)"
     },
     {
       "id": 854103,
@@ -58,7 +58,7 @@
     {
       "id": 854105,
       "name": "Подзаряд",
-      "desc": "Получает 3 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color> в начале первого хода.\nПолучает 1 дополнительный <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color> за каждый счётчик <sprite name=\"RailBuffForLine2_A_ENEMY\"><color=#9f6a3a><u><link=\"RailBuffForLine2_A_ENEMY\">Цикла</link></u></color>. (Максимум 8)"
+      "desc": "Получает 3 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">ПодСолей</link></u></color> в начале первого хода.\nПолучает 1 дополнительный <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подсоль</link></u></color> за каждый счётчик <sprite name=\"RailBuffForLine2_A_ENEMY\"><color=#9f6a3a><u><link=\"RailBuffForLine2_A_ENEMY\">Цикла</link></u></color>. (Максимум 8)"
     },
     {
       "id": 854201,
@@ -188,12 +188,12 @@
     {
       "id": 855002,
       "name": "Ловушка пространственного побега",
-      "desc": "Когда все <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственные разломы</link></u></color> уничтожены в тот же ход, в который они были созданы, добровольно выходит из <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственного разлома</link></u></color>.\nПосле этого теряет 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> и повышает порог оглушения на 30 для всех частей."
+      "desc": "Когда все <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственные разломы</link></u></color> уничтожены в тот же ход, в который они были созданы, добровольно выходит из <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственного разлома</link></u></color>.\nПосле этого теряет 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и повышает порог оглушения на 30 для всех частей."
     },
     {
       "id": 855003,
       "name": "Восстановление пространственно-преломляющего лезвия",
-      "desc": "Когда часть лезвия повреждена, теряет 5 единиц на своём счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>,\nи в конце след. хода восстанавливает часть с лезвием, тратя на это 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>.\nКогда часть с лезвием повреждена, получает 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> в начале каждого хода."
+      "desc": "Когда часть лезвия повреждена, теряет 5 единиц на своём счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>,\nи в конце след. хода восстанавливает часть с лезвием, тратя на это 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>.\nКогда часть с лезвием повреждена, получает 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> в начале каждого хода."
     },
     {
       "id": 855004,
@@ -238,7 +238,7 @@
     {
       "id": 855103,
       "name": "Перезаряд",
-      "desc": "При 5 и более на своём счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> в конце хода получает 3 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход."
+      "desc": "При 5 и более на своём счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> в конце хода получает 3 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход."
     },
     {
       "id": 855104,
@@ -448,12 +448,12 @@
     {
       "id": 857001,
       "name": "Ревность",
-      "desc": "В начале хода повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> двух случайных союзников на 1."
+      "desc": "В начале хода повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> двух случайных союзников на 1."
     },
     {
       "id": 857002,
       "name": "Комплекс неполноценности",
-      "desc": "Если этот персонаж жив, каждый союзник получает на 5% урона раскумаром за каждый счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе."
+      "desc": "Если этот персонаж жив, каждый союзник получает на 5% урона раскумаром за каждый счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на себе."
     },
     {
       "id": 857003,
@@ -463,7 +463,7 @@
     {
       "id": 857004,
       "name": "Пронзительная Зависть",
-      "desc": "Если начинает ход в <sprite name=\"EnhanceRose\"><color=#9f6a3a><u><link=\"EnhanceRose\">Усиленном состоянии</link></u></color>, эффекты навыков повышают счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 1 больше.\nПри гибели в <sprite name=\"EnhanceRose\"><color=#9f6a3a><u><link=\"EnhanceRose\">Усиленном состоянии</link></u></color>, даёт всем врагам 4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>."
+      "desc": "Если начинает ход в <sprite name=\"EnhanceRose\"><color=#9f6a3a><u><link=\"EnhanceRose\">Усиленном состоянии</link></u></color>, эффекты навыков повышают счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 1 больше.\nПри гибели в <sprite name=\"EnhanceRose\"><color=#9f6a3a><u><link=\"EnhanceRose\">Усиленном состоянии</link></u></color>, даёт всем врагам 4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>."
     },
     {
       "id": 857005,
