@@ -80,7 +80,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "[WhenUse] Получает 3 ОЗ щита за каждый тип отрицательных эффектов на себе (До 10)",
+          "desc": "[WhenUse] Получает 3 HP щита за каждый тип отрицательных эффектов на себе (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[BeforeHit] Получает 2 ОЗ щита за каждый тип отрицательных эффектов на себе (До 10)",
+          "desc": "[BeforeHit] Получает 2 HP щита за каждый тип отрицательных эффектов на себе (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -207,7 +207,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 2 ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 2 HP"
                 }
               ]
             }
@@ -265,7 +265,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого монетой урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 30% от нанесённого монетой урона"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Вновь подкидывает монету (До 3 раз за навык)"
@@ -338,7 +338,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 8 ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 8 HP"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
@@ -351,7 +351,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 8 ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 8 HP"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 8"
@@ -445,7 +445,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "[WhenUse] Получает 3 ОЗ щита за каждый тип отрицательных эффектов на себе (До 10)",
+          "desc": "[WhenUse] Получает 3 HP щита за каждый тип отрицательных эффектов на себе (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -538,7 +538,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[BeforeHit] Получает 2 ОЗ щита за каждый тип отрицательных эффектов на себе (До 10)",
+          "desc": "[BeforeHit] Получает 2 HP щита за каждый тип отрицательных эффектов на себе (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -842,7 +842,7 @@
         {
           "level": 1,
           "name": "Месть ждет всех вас!",
-          "desc": "Наносит на 10% больше урона за каждые 2 <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> на цели (До 50%)\n[BeforeAttack] Вес атаки +1 при 40% ОЗ и менее\n[WhenUse] Если на главной цели есть <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метка воздаяния</link></u></color>, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[WhenUse] Сила монет +1 за каждые 3 противника с <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меткой воздаяния</link></u></color> на поле боя (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 2 <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> на цели (До 5)\n[EndSkill] Если удалось убить противника с <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меткой воздаяния</link></u></color>, получает 1 <sprite name=\"PlusCoinValueUp\"><color=#f8c200><u><link=\"PlusCoinValueUp\">Усиление положительной монеты</link></u></color> на следующий ход (Дважды за ход)\n[EndSkill] Снимает все <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> с противников, по которым попал этой атакой",
+          "desc": "Наносит на 10% больше урона за каждые 2 <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> на цели (До 50%)\n[BeforeAttack] Вес атаки +1 при 40% HP и менее\n[WhenUse] Если на главной цели есть <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метка воздаяния</link></u></color>, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[WhenUse] Сила монет +1 за каждые 3 противника с <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меткой воздаяния</link></u></color> на поле боя (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 2 <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> на цели (До 5)\n[EndSkill] Если удалось убить противника с <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меткой воздаяния</link></u></color>, получает 1 <sprite name=\"PlusCoinValueUp\"><color=#f8c200><u><link=\"PlusCoinValueUp\">Усиление положительной монеты</link></u></color> на следующий ход (Дважды за ход)\n[EndSkill] Снимает все <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> с противников, по которым попал этой атакой",
           "coinlist": [
             {
               "coindescs": [
@@ -875,7 +875,7 @@
         {
           "level": 1,
           "name": "Вцепиться в шанс",
-          "desc": "[BeforeHit] Получает 5 ОЗ щита за каждую <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метку воздаяния</link></u></color> на цели (Единожды за ход; до 50)\n[WhenUse] Базовая сила повышается на 3 против врагов с 5 и более <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метками воздаяния</link></u></color>, а так же наносит им 4 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
+          "desc": "[BeforeHit] Получает 5 HP щита за каждую <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метку воздаяния</link></u></color> на цели (Единожды за ход; до 50)\n[WhenUse] Базовая сила повышается на 3 против врагов с 5 и более <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метками воздаяния</link></u></color>, а так же наносит им 4 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -883,7 +883,7 @@
                   "desc": "[OnSucceedAttack] Повышает границы выносливости на 20"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по HP"
                 }
               ]
             },
@@ -893,7 +893,7 @@
                   "desc": "[OnSucceedAttack] Повышает границы выносливости на 20"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по HP"
                 }
               ]
             }

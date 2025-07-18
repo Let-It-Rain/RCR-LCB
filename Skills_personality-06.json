@@ -136,7 +136,7 @@
         {
           "level": 3,
           "name": "Установка солевого барьера",
-          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, чтобы дать (Потраченный счётчик / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевых барьеров</link></u></color> двум союзникам с наименьшим процентом ОЗ (Округляется вниз)<style=\"highlight\"></style>",
+          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, чтобы дать (Потраченный счётчик / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевых барьеров</link></u></color> двум союзникам с наименьшим процентом HP (Округляется вниз)<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {},
@@ -155,7 +155,7 @@
         {
           "level": 4,
           "name": "Установка солевого барьера",
-          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, чтобы дать (Потраченный счётчик / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевых барьеров</link></u></color> двум союзникам с наименьшим процентом ОЗ (Округляется вниз)<style=\"highlight\"></style>",
+          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, чтобы дать (Потраченный счётчик / 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевых барьеров</link></u></color> двум союзникам с наименьшим процентом HP (Округляется вниз)<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {},
@@ -348,12 +348,12 @@
         {
           "level": 3,
           "name": "Погром",
-          "desc": "Сила монет +1, если скорость 8 и выше\nНа 0.3% больше урона за каждый 1% потерянных ОЗ цели<style=\"highlight\"></style>",
+          "desc": "Сила монет +1, если скорость 8 и выше\nНа 0.3% больше урона за каждый 1% потерянных HP цели<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает 1 СД за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели (До 5)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает 1 SP за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели (До 5)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -377,12 +377,12 @@
         {
           "level": 4,
           "name": "Погром",
-          "desc": "Сила монет +1, если скорость <style=\"highlight\">6</style> и выше\nНа <style=\"highlight\">0.5%</style> больше урона за каждый 1% потерянных ОЗ цели",
+          "desc": "Сила монет +1, если скорость <style=\"highlight\">6</style> и выше\nНа <style=\"highlight\">0.5%</style> больше урона за каждый 1% потерянных HP цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает 1 СД за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели (До <style=\"highlight\">10</style>)"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает 1 SP за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели (До <style=\"highlight\">10</style>)"
                 }
               ]
             },
@@ -548,7 +548,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на 3<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 СД<style=\"highlight\"></style>"
+                  "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 SP<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -567,7 +567,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> <style=\"highlight\">на 4</style>"
                 },
                 {
-                  "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 СД<style=\"highlight\"></style>"
+                  "desc": "[EndSkill] При оглушении или убийстве противника восстанавливает 10 SP<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -828,7 +828,7 @@
         {
           "level": 1,
           "name": "Минуточку?!",
-          "desc": "[WhenUse] Получает щит на (Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели × 2) ОЗ (До 7)<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Получает щит на (Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели × 2) HP (До 7)<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -836,7 +836,7 @@
         {
           "level": 4,
           "name": "Минуточку?!",
-          "desc": "[WhenUse] Получает щит на (Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели × 2) ОЗ (До <style=\"highlight\">13</style>)",
+          "desc": "[WhenUse] Получает щит на (Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели × 2) HP (До <style=\"highlight\">13</style>)",
           "coinlist": [
             {}
           ]
@@ -959,7 +959,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижение восстановления ОЗ</link></u></color> на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижение восстановления HP</link></u></color> на следующий ход</style>"
                 }
               ]
             }
@@ -986,7 +986,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления ОЗ</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления HP</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -1041,7 +1041,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> или у неё меньше 30% ОЗ, заново подкидывает монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> или у неё меньше 30% HP, заново подкидывает монету (Единожды за навык)</style>"
                 }
               ]
             }

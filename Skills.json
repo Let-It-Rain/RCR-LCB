@@ -147,7 +147,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если СД цели ниже 0, наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если SP цели ниже 0, наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если СД цели ниже 0, наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если SP цели ниже 0, наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1245,7 +1245,7 @@
         {
           "level": 3,
           "name": "Рассечение пространства",
-          "desc": "[WhenUse] Тратит 10 единиц со своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, чтобы получить +4 к Силе монет\nЕсли на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> менее 10 единиц, теряет 20% ОЗ<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Тратит 10 единиц со своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, чтобы получить +4 к Силе монет\nЕсли на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> менее 10 единиц, теряет 20% HP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1367,7 +1367,7 @@
         {
           "level": 2,
           "name": "Двойной удар",
-          "desc": "<style=\"highlight\">[WhenUse] Если менее 50% ОЗ, получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Если менее 50% HP, получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1388,7 +1388,7 @@
         {
           "level": 4,
           "name": "Двойной удар",
-          "desc": "[WhenUse] Если менее 50% ОЗ, получает <style=\"highlight\">4</style> <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
+          "desc": "[WhenUse] Если менее 50% HP, получает <style=\"highlight\">4</style> <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2877,7 +2877,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Если у цели менее 25% ОЗ и она не была убита предыдущими монетами, снова подкидывает монету\n[OnSucceedAttackHead] На 50% больше урона этой монетой</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Если у цели менее 25% HP и она не была убита предыдущими монетами, снова подкидывает монету\n[OnSucceedAttackHead] На 50% больше урона этой монетой</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttackHead] На 50% больше урона этой монетой</style>"
@@ -2908,7 +2908,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если у цели менее 25% ОЗ и она не была убита предыдущими монетами, снова подкидывает монету\n[OnSucceedAttackHead] На 50% больше урона этой монетой<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Если у цели менее 25% HP и она не была убита предыдущими монетами, снова подкидывает монету\n[OnSucceedAttackHead] На 50% больше урона этой монетой<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttackHead] На 50% больше урона этой монетой<style=\"highlight\"></style>"
@@ -2975,7 +2975,7 @@
         {
           "level": 4,
           "name": "Уворот",
-          "desc": "<style=\"highlight\">Сила монет +2 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[OnSucceedEvade] Восстанавливает 3 СД</style>",
+          "desc": "<style=\"highlight\">Сила монет +2 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[OnSucceedEvade] Восстанавливает 3 SP</style>",
           "coinlist": [
             {}
           ]
@@ -3107,7 +3107,7 @@
         {
           "level": 1,
           "name": "Самый край",
-          "desc": "Если менее 25% ОЗ, +1 к Силе навыка<style=\"highlight\"></style>",
+          "desc": "Если менее 25% HP, +1 к Силе навыка<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -3115,7 +3115,7 @@
         {
           "level": 2,
           "name": "Самый край",
-          "desc": "Если менее 25% ОЗ, <style=\"highlight\">+2</style> к Силе навыка",
+          "desc": "Если менее 25% HP, <style=\"highlight\">+2</style> к Силе навыка",
           "coinlist": [
             {}
           ]
@@ -3123,7 +3123,7 @@
         {
           "level": 4,
           "name": "Самый край",
-          "desc": "Если менее <style=\"highlight\">50%</style> ОЗ, +2 к Силе навыка\n<style=\"highlight\">[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3</style>",
+          "desc": "Если менее <style=\"highlight\">50%</style> HP, +2 к Силе навыка\n<style=\"highlight\">[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3</style>",
           "coinlist": [
             {}
           ]
@@ -3136,7 +3136,7 @@
         {
           "level": 1,
           "name": "Взмах меча",
-          "desc": "Если менее 25% ОЗ, +1 к Силе навыка<style=\"highlight\"></style>",
+          "desc": "Если менее 25% HP, +1 к Силе навыка<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -3144,7 +3144,7 @@
         {
           "level": 2,
           "name": "Взмах меча",
-          "desc": "Если менее 25% ОЗ, <style=\"highlight\">+2</style> к Силе навыка",
+          "desc": "Если менее 25% HP, <style=\"highlight\">+2</style> к Силе навыка",
           "coinlist": [
             {}
           ]
@@ -3152,7 +3152,7 @@
         {
           "level": 4,
           "name": "Взмах меча",
-          "desc": "Если менее <style=\"highlight\">50%</style> ОЗ, +2 к Силе навыка\n<style=\"highlight\">[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color></style>",
+          "desc": "Если менее <style=\"highlight\">50%</style> HP, +2 к Силе навыка\n<style=\"highlight\">[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color></style>",
           "coinlist": [
             {}
           ]
@@ -3165,19 +3165,19 @@
         {
           "level": 3,
           "name": "Молниеносный удар",
-          "desc": "Если менее 25% ОЗ, +2 к Силе навыка<style=\"highlight\"></style>",
+          "desc": "Если менее 25% HP, +2 к Силе навыка<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[BeforeAttack] Теряет 5 ОЗ; +50% урона для этой монеты<style=\"highlight\"></style>"
+                  "desc": "[BeforeAttack] Теряет 5 HP; +50% урона для этой монеты<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[BeforeAttack] Теряет 5 ОЗ; +50% урона для этой монеты<style=\"highlight\"></style>"
+                  "desc": "[BeforeAttack] Теряет 5 HP; +50% урона для этой монеты<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3186,19 +3186,19 @@
         {
           "level": 4,
           "name": "Молниеносный удар",
-          "desc": "Сила навыка +2 <style=\"highlight\">при 10 и более на своём счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color></style>\nЕсли менее <style=\"highlight\">50%</style> ОЗ, <style=\"highlight\">Вес атаки +1</style>",
+          "desc": "Сила навыка +2 <style=\"highlight\">при 10 и более на своём счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color></style>\nЕсли менее <style=\"highlight\">50%</style> HP, <style=\"highlight\">Вес атаки +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[BeforeAttack] Теряет 5 ОЗ; +50% урона для этой монеты<style=\"highlight\"></style>"
+                  "desc": "[BeforeAttack] Теряет 5 HP; +50% урона для этой монеты<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[BeforeAttack] Теряет 5 ОЗ; +50% урона для этой монеты<style=\"highlight\"></style>"
+                  "desc": "[BeforeAttack] Теряет 5 HP; +50% урона для этой монеты<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3220,7 +3220,7 @@
         {
           "level": 4,
           "name": "Контратака",
-          "desc": "<style=\"highlight\">[WhenUse] Теряет 5 ОЗ\nПри 3 и более на своём счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, наносит на 50% больше урона</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Теряет 5 HP\nПри 3 и более на своём счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, наносит на 50% больше урона</style>",
           "coinlist": [
             {}
           ]
@@ -3798,7 +3798,7 @@
           "level": 2,
           "name": "Взмах меча",
           "keywords": [],
-          "desc": "<style=\"highlight\">Если менее 50% ОЗ, получает ещё 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> этим навыком</style>",
+          "desc": "<style=\"highlight\">Если менее 50% HP, получает ещё 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> этим навыком</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3820,7 +3820,7 @@
           "level": 4,
           "name": "Взмах меча",
           "keywords": [],
-          "desc": "Если менее 50% ОЗ, получает ещё <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> этим навыком",
+          "desc": "Если менее 50% HP, получает ещё <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -3869,7 +3869,7 @@
           "level": 2,
           "name": "Молниеносный удар",
           "keywords": [],
-          "desc": "<style=\"highlight\">[WhenUse] Если менее 50% ОЗ, снова подкидывает обе монеты</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Если менее 50% HP, снова подкидывает обе монеты</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3891,7 +3891,7 @@
           "level": 4,
           "name": "Молниеносный удар",
           "keywords": [],
-          "desc": "[WhenUse] Если менее 50% ОЗ, снова подкидывает обе монеты<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Если менее 50% HP, снова подкидывает обе монеты<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3930,7 +3930,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если менее 25% ОЗ, восстанавливает ОЗ на 100% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Если менее 25% HP, восстанавливает HP на 100% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3952,7 +3952,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если менее 25% ОЗ, восстанавливает ОЗ на 100% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Если менее 25% HP, восстанавливает HP на 100% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -4304,7 +4304,7 @@
         {
           "level": 3,
           "name": "Наказание",
-          "desc": "Если СД ниже 0, Сила навыка +1<style=\"highlight\"></style>",
+          "desc": "Если SP ниже 0, Сила навыка +1<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {},
@@ -4321,7 +4321,7 @@
         {
           "level": 4,
           "name": "Наказание",
-          "desc": "Если СД ниже 0, Сила навыка +1<style=\"highlight\"></style>",
+          "desc": "Если SP ниже 0, Сила навыка +1<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -5176,7 +5176,7 @@
         {
           "level": 3,
           "name": "Сильный удар",
-          "desc": "[WhenUse] Даёт 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> союзнику с наименьшими ОЗ на следующий ход<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Даёт 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> союзнику с наименьшими HP на следующий ход<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -5193,7 +5193,7 @@
         {
           "level": 4,
           "name": "Сильный удар",
-          "desc": "[WhenUse] Даёт 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> союзнику с наименьшими ОЗ на следующий ход\n<style=\"highlight\">[WhenUse] Этот слот получает 10 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход</style>",
+          "desc": "[WhenUse] Даёт 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> союзнику с наименьшими HP на следующий ход\n<style=\"highlight\">[WhenUse] Этот слот получает 10 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -5390,7 +5390,7 @@
         {
           "level": 3,
           "name": "Вечеринка с паньятой",
-          "desc": "Если СД цели ниже 0, повышает шанс раскумара в зависимости от СД цели<style=\"highlight\"></style>",
+          "desc": "Если SP цели ниже 0, повышает шанс раскумара в зависимости от SP цели<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -5404,7 +5404,7 @@
         {
           "level": 4,
           "name": "Вечеринка с паньятой",
-          "desc": "Если СД цели ниже 0, повышает шанс раскумара в зависимости от СД цели\n<style=\"highlight\">Если на своём счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> 5 и более единиц, наносит на 30% больше урона раскумаром</style>",
+          "desc": "Если SP цели ниже 0, повышает шанс раскумара в зависимости от SP цели\n<style=\"highlight\">Если на своём счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> 5 и более единиц, наносит на 30% больше урона раскумаром</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -5550,7 +5550,7 @@
         {
           "level": 3,
           "name": "Пронзание",
-          "desc": "Если ОЗ цели выше 50%, наносит на 20% больше урона<style=\"highlight\"></style>",
+          "desc": "Если HP цели выше 50%, наносит на 20% больше урона<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -5558,7 +5558,7 @@
         {
           "level": 4,
           "name": "Пронзание",
-          "desc": "Если ОЗ цели выше 50%, наносит на 20% больше урона<style=\"highlight\"></style>",
+          "desc": "Если HP цели выше 50%, наносит на 20% больше урона<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -5687,7 +5687,7 @@
         {
           "level": 3,
           "name": "Решающий скачок",
-          "desc": "Если ОЗ цели ниже 25%, Итоговая сила +2<style=\"highlight\"></style>",
+          "desc": "Если HP цели ниже 25%, Итоговая сила +2<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -5702,7 +5702,7 @@
         {
           "level": 4,
           "name": "Решающий скачок",
-          "desc": "Если ОЗ цели ниже <style=\"highlight\">50%</style>, Итоговая сила +2",
+          "desc": "Если HP цели ниже <style=\"highlight\">50%</style>, Итоговая сила +2",
           "coinlist": [
             {},
             {
@@ -5996,7 +5996,7 @@
                   "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>, +10% урона<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает ОЗ на 30% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает HP на 30% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -6273,7 +6273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает ОЗ на 30% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает HP на 30% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -6288,7 +6288,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает ОЗ на <style=\"highlight\">50%</style> от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает HP на <style=\"highlight\">50%</style> от нанесённого урона"
                 }
               ]
             },
@@ -6303,7 +6303,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 50% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -6340,7 +6340,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Восстанавливает ОЗ на 50% от нанесённого урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Восстанавливает HP на 50% от нанесённого урона</style>"
                 }
               ]
             }
@@ -6357,7 +6357,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Восстанавливает ОЗ на 50% от нанесённого урона"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Восстанавливает HP на 50% от нанесённого урона"
                 }
               ]
             }
@@ -6531,7 +6531,7 @@
         {
           "level": 4,
           "name": "Пронзание",
-          "desc": "<style=\"highlight\">[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nСила монет +2 при менее 50% ОЗ</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nСила монет +2 при менее 50% HP</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -6643,7 +6643,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 50% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -6664,7 +6664,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона\n<style=\"highlight\">- Восстанавливает ещё 3% ОЗ в зависимости от количества <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color> на цели</style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 50% от нанесённого урона\n<style=\"highlight\">- Восстанавливает ещё 3% HP в зависимости от количества <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color> на цели</style>"
                 }
               ]
             }
@@ -6678,7 +6678,7 @@
         {
           "level": 1,
           "name": "Глупость!..",
-          "desc": "[StartBattle] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color>\nЕсли менее 50% ОЗ, Итоговая сила +2<style=\"highlight\"></style>",
+          "desc": "[StartBattle] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color>\nЕсли менее 50% HP, Итоговая сила +2<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -6890,7 +6890,7 @@
         {
           "level": 1,
           "name": "Безумный смех",
-          "desc": "[WinDuel] Цель теряет 3 СД<style=\"highlight\"></style>",
+          "desc": "[WinDuel] Цель теряет 3 SP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -6911,7 +6911,7 @@
         {
           "level": 2,
           "name": "Безумный смех",
-          "desc": "[WinDuel] Цель теряет 3 СД<style=\"highlight\"></style>",
+          "desc": "[WinDuel] Цель теряет 3 SP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -7020,7 +7020,7 @@
         {
           "level": 3,
           "name": "Вздрочнём!",
-          "desc": "При убийстве, восстанавливает 10 СД всем союзникам и даёт им 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color> и <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Повышение Дробящего урона</link></u></color><style=\"highlight\"></style>",
+          "desc": "При убийстве, восстанавливает 10 SP всем союзникам и даёт им 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color> и <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Повышение Дробящего урона</link></u></color><style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -7048,7 +7048,7 @@
         {
           "level": 4,
           "name": "Вздрочнём!",
-          "desc": "При убийстве, восстанавливает 10 СД всем союзникам и даёт им 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color> и <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Повышение Дробящего урона</link></u></color><style=\"highlight\"></style>",
+          "desc": "При убийстве, восстанавливает 10 SP всем союзникам и даёт им 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color> и <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Повышение Дробящего урона</link></u></color><style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -7081,7 +7081,7 @@
         {
           "level": 1,
           "name": "Что за скверна",
-          "desc": "[OnSucceedEvade] Цель теряет 3 СД<style=\"highlight\"></style>",
+          "desc": "[OnSucceedEvade] Цель теряет 3 SP<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -7171,7 +7171,7 @@
         {
           "level": 1,
           "name": "Очис…тись!",
-          "desc": "[WinDuel] Восстанавливает 3 СД<style=\"highlight\"></style>",
+          "desc": "[WinDuel] Восстанавливает 3 SP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -7185,7 +7185,7 @@
         {
           "level": 2,
           "name": "Очис…тись!",
-          "desc": "[WinDuel] Восстанавливает <style=\"highlight\">5</style> СД",
+          "desc": "[WinDuel] Восстанавливает <style=\"highlight\">5</style> SP",
           "coinlist": [
             {
               "coindescs": [
@@ -7479,7 +7479,7 @@
         {
           "level": 2,
           "name": "Разминка",
-          "desc": "<style=\"highlight\">[WhenUse] Восстанавливает 3 СД</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Восстанавливает 3 SP</style>",
           "coinlist": [
             {},
             {
@@ -7532,7 +7532,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1\n- При 30 СД и выше повышает счётчик ещё на 1\n- При 45 СД повышает счётчик ещё на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1\n- При 30 SP и выше повышает счётчик ещё на 1\n- При 45 SP повышает счётчик ещё на 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -7553,7 +7553,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1\n- При 30 СД и выше повышает счётчик ещё на 1\n- При 45 СД повышает счётчик ещё на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1\n- При 30 SP и выше повышает счётчик ещё на 1\n- При 45 SP повышает счётчик ещё на 2<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -7579,7 +7579,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает 6 СД<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает 6 SP<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если у цели 6 и более на счётчике <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, поднимает границу выносливости на 30% от нанесённого урона<style=\"highlight\"></style>"
@@ -7603,7 +7603,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает 6 СД<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает 6 SP<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если у цели 6 и более на счётчике <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, поднимает границу выносливости на 30% от нанесённого урона<style=\"highlight\"></style>"
@@ -7720,7 +7720,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>, наносит 1 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижение восстановления ОЗ</link></u></color> на следующий ход<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>, наносит 1 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижение восстановления HP</link></u></color> на следующий ход<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -7748,7 +7748,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>, наносит <style=\"highlight\">3</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления ОЗ</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>, наносит <style=\"highlight\">3</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления HP</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -7776,7 +7776,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>, наносит <style=\"highlight\">4</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления ОЗ</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>, наносит <style=\"highlight\">4</style> <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Понижения восстановления HP</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -7790,7 +7790,7 @@
         {
           "level": 3,
           "name": "Я ж тебя предупреждала!",
-          "desc": "Наносит на 5% больше урона за каждые 5% потерянных ОЗ цели (До 20)<style=\"highlight\"></style>",
+          "desc": "Наносит на 5% больше урона за каждые 5% потерянных HP цели (До 20)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -7978,7 +7978,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в зависимости от количества <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 20%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP в зависимости от количества <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 20%)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -8013,7 +8013,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в зависимости от количества <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 20%)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP в зависимости от количества <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 20%)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -8040,7 +8040,7 @@
         {
           "level": 1,
           "name": "Вынужденный суд",
-          "desc": "[WhenUse] Теряет 7 СД<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Теряет 7 SP<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -8055,7 +8055,7 @@
         {
           "level": 2,
           "name": "Вынужденный суд",
-          "desc": "[WhenUse] Теряет 7 СД<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Теряет 7 SP<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -8073,7 +8073,7 @@
         {
           "level": 4,
           "name": "Вынужденный суд",
-          "desc": "[WhenUse] Теряет 7 СД<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Теряет 7 SP<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -8096,7 +8096,7 @@
         {
           "level": 1,
           "name": "Казнь без завершения суда",
-          "desc": "[WhenUse] Теряет 10 СД\nЕсли <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на 5% больше урона<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Теряет 10 SP\nЕсли <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на 5% больше урона<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -8125,7 +8125,7 @@
         {
           "level": 2,
           "name": "Казнь без завершения суда",
-          "desc": "[WhenUse] Теряет 10 СД\nЕсли <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на <style=\"highlight\">10%</style> больше урона",
+          "desc": "[WhenUse] Теряет 10 SP\nЕсли <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на <style=\"highlight\">10%</style> больше урона",
           "coinlist": [
             {},
             {
@@ -8168,7 +8168,7 @@
         {
           "level": 3,
           "name": "Саморазрушающее очищение",
-          "desc": "[WhenUse] Теряет 15 СД\n- Если <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на 15% больше урона\n- Если цель — <Механическая амальгама>, наносит ещё на 10% больше урона<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Теряет 15 SP\n- Если <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на 15% больше урона\n- Если цель — <Механическая амальгама>, наносит ещё на 10% больше урона<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -8193,7 +8193,7 @@
         {
           "level": 4,
           "name": "Саморазрушающее очищение",
-          "desc": "[WhenUse] Теряет 15 СД\n- Если <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на 15% больше урона\n- Если цель — <Механическая амальгама>, наносит ещё на 10% больше урона<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Теряет 15 SP\n- Если <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит на 15% больше урона\n- Если цель — <Механическая амальгама>, наносит ещё на 10% больше урона<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -8223,7 +8223,7 @@
         {
           "level": 1,
           "name": "С меня хватит…",
-          "desc": "[StartBattle] Восстанавливает 5~10 СД<style=\"highlight\"></style>",
+          "desc": "[StartBattle] Восстанавливает 5~10 SP<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -9151,7 +9151,7 @@
         {
           "level": 1,
           "name": "Шлёп по слякоти",
-          "desc": "[WhenUse] Итоговая сила +2 при -15 СД и ниже<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Итоговая сила +2 при -15 SP и ниже<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -9180,7 +9180,7 @@
         {
           "level": 2,
           "name": "Шлёп по слякоти",
-          "desc": "[WhenUse] Итоговая сила +2 при -15 СД и ниже<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Итоговая сила +2 при -15 SP и ниже<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -9212,7 +9212,7 @@
         {
           "level": 4,
           "name": "Шлёп по слякоти",
-          "desc": "[WhenUse] Итоговая сила <style=\"highlight\">+3</style> при -15 СД и ниже\n<style=\"highlight\">[WhenUse] Итоговая сила +2 при -25 СД и ниже</style>",
+          "desc": "[WhenUse] Итоговая сила <style=\"highlight\">+3</style> при -15 SP и ниже\n<style=\"highlight\">[WhenUse] Итоговая сила +2 при -25 SP и ниже</style>",
           "coinlist": [
             {},
             {
@@ -9492,7 +9492,7 @@
         {
           "level": 1,
           "name": "ахахах синкинг делюдж",
-          "desc": "[DefeatDuel] Теряет 20 СД\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 6<style=\"highlight\"></style>",
+          "desc": "[DefeatDuel] Теряет 20 SP\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 6<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -9523,7 +9523,7 @@
         {
           "level": 4,
           "name": "ахахах синкинг делюдж",
-          "desc": "[DefeatDuel] Теряет 20 СД\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 6<style=\"highlight\"></style>",
+          "desc": "[DefeatDuel] Теряет 20 SP\n[WhenUse] Повышает свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 6<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -9781,14 +9781,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает ОЗ на 20% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает HP на 20% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает ОЗ на 20% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает HP на 20% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -9802,14 +9802,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает ОЗ на <style=\"highlight\">50%</style> от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает HP на <style=\"highlight\">50%</style> от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает ОЗ на <style=\"highlight\">50%</style> от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает HP на <style=\"highlight\">50%</style> от нанесённого урона"
                 }
               ]
             }
@@ -9823,14 +9823,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает ОЗ на 50% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает HP на 50% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает ОЗ на 50% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nЕсли на цели 10+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, восстанавливает HP на 50% от нанесённого урона<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -9844,7 +9844,7 @@
         {
           "level": 3,
           "name": "Удалить цель",
-          "desc": "Сила монет +1 при 80% ОЗ и более<style=\"highlight\"></style>",
+          "desc": "Сила монет +1 при 80% HP и более<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -9865,7 +9865,7 @@
         {
           "level": 4,
           "name": "Удалить цель",
-          "desc": "Сила монет <style=\"highlight\">+2</style> при 80% ОЗ и более",
+          "desc": "Сила монет <style=\"highlight\">+2</style> при 80% HP и более",
           "coinlist": [
             {
               "coindescs": [
@@ -10675,7 +10675,7 @@
         {
           "level": 1,
           "name": "Сконцентрированная оборона",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2 при 15 и более ОЗ щита<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2 при 15 и более HP щита<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -10683,7 +10683,7 @@
         {
           "level": 2,
           "name": "Сконцентрированная оборона",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2 при 15 и более ОЗ щита<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2 при 15 и более HP щита<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -10698,7 +10698,7 @@
         {
           "level": 4,
           "name": "Сконцентрированная оборона",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2 при 15 и более ОЗ щита\n<style=\"highlight\">[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2</style>",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2 при 15 и более HP щита\n<style=\"highlight\">[WhenUse] Этот слот получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -10718,7 +10718,7 @@
         {
           "level": 1,
           "name": "Устранить угрозу",
-          "desc": "Сила монет +1 при 15 и более ОЗ щита<style=\"highlight\"></style>",
+          "desc": "Сила монет +1 при 15 и более HP щита<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {},
@@ -10734,7 +10734,7 @@
         {
           "level": 4,
           "name": "Устранить угрозу",
-          "desc": "Сила монет <style=\"highlight\">+2</style> при 15 и более ОЗ щита",
+          "desc": "Сила монет <style=\"highlight\">+2</style> при 15 и более HP щита",
           "coinlist": [
             {},
             {},
@@ -10915,7 +10915,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] Восстанавливает 15 СД</style>"
+                  "desc": "<style=\"highlight\">[EnemyKill] Восстанавливает 15 SP</style>"
                 }
               ]
             }
@@ -10929,7 +10929,7 @@
         {
           "level": 1,
           "name": "Оборона",
-          "desc": "[OnSucceedEvade] Атакующий теряет 3 СД<style=\"highlight\"></style>",
+          "desc": "[OnSucceedEvade] Атакующий теряет 3 SP<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]
@@ -10937,7 +10937,7 @@
         {
           "level": 4,
           "name": "Оборона",
-          "desc": "[OnSucceedEvade] Атакующий теряет 3 СД<style=\"highlight\"></style>",
+          "desc": "[OnSucceedEvade] Атакующий теряет 3 SP<style=\"highlight\"></style>",
           "coinlist": [
             {}
           ]

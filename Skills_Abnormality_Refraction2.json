@@ -125,7 +125,7 @@
         {
           "level": 1,
           "name": "Ожидание",
-          "desc": "[StartBattle] Все противники теряют 20 СД",
+          "desc": "[StartBattle] Все противники теряют 20 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "Свернуться",
-          "desc": "Если этот навык находится на ячейке, голова получает 50 ОЗ Щита за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>.\nЕсли голова повреждена, вместо этого получает 25 ОЗ Щита за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>.\nПри потере того количества ОЗ щита, на который был потрачен 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>, тратит ещё один дополнительный <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
+          "desc": "Если этот навык находится на ячейке, голова получает 50 HP Щита за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>.\nЕсли голова повреждена, вместо этого получает 25 HP Щита за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>.\nПри потере того количества HP щита, на который был потрачен 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>, тратит ещё один дополнительный <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
           "coinlist": [
             {}
           ]
@@ -329,7 +329,7 @@
         {
           "level": 1,
           "name": "Извивающаяся голова",
-          "desc": "Нацеливается на противника с наименьшими ОЗ\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
+          "desc": "Нацеливается на противника с наименьшими HP\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
           "coinlist": [
             {},
             {
@@ -349,7 +349,7 @@
         {
           "level": 1,
           "name": "Извивающийся хвост",
-          "desc": "Нацеливается на противника с наименьшими ОЗ\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[DefeatDuel] Теряет 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">ПодСолей</link></u></color>",
+          "desc": "Нацеливается на противника с наименьшими HP\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[DefeatDuel] Теряет 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">ПодСолей</link></u></color>",
           "coinlist": [
             {},
             {},
@@ -397,7 +397,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 5% от максимальных ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 5% от максимальных HP"
                 }
               ]
             }
@@ -481,7 +481,7 @@
         {
           "level": 1,
           "name": "Сделай глоточек!",
-          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 70% ОЗ",
+          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 70% HP",
           "coinlist": [
             {
               "coindescs": [
@@ -702,7 +702,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, восстанавливает 25 ОЗ"
+                  "desc": "[OnSucceedAttack] Если на цели <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, восстанавливает 25 HP"
                 }
               ]
             },
@@ -712,7 +712,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 2+ счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, восстанавливает 25 ОЗ"
+                  "desc": "[OnSucceedAttack] Если на цели <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, восстанавливает 25 HP"
                 }
               ]
             }
@@ -726,7 +726,7 @@
         {
           "level": 1,
           "name": "Отбрасывающий тень",
-          "desc": "[StartBattle] Призывает Преломлённый клевер на следующем ходе.\n[DefeatDuel] Преломлённый клевер призывается с 50% ОЗ.",
+          "desc": "[StartBattle] Призывает Преломлённый клевер на следующем ходе.\n[DefeatDuel] Преломлённый клевер призывается с 50% HP.",
           "coinlist": [
             {
               "coindescs": [
@@ -753,7 +753,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальные ОЗ за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальные HP за каждое <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тратит 1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели"
@@ -797,7 +797,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 5% от максимальных ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 5% от максимальных HP"
                 }
               ]
             }
@@ -881,7 +881,7 @@
         {
           "level": 1,
           "name": "Сделай глоточек!",
-          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 50% ОЗ",
+          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 50% HP",
           "coinlist": [
             {
               "coindescs": [
@@ -927,7 +927,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ядро и тело восстанавливают 15 ОЗ"
+                  "desc": "[OnSucceedAttack] Ядро и тело восстанавливают 15 HP"
                 }
               ]
             }
@@ -1106,7 +1106,7 @@
         {
           "level": 1,
           "name": "<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> пространства",
-          "desc": "При 10+ счётчиках <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> тратит 10 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и получает силу столкновения +5 и наносит на 100% больше урона\nПри 10- счётчиках <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> тратит 100 ОЗ ядра и наносит на 80% больше урона\nЭтот навык не понижает ОЗ персонажа до 0.",
+          "desc": "При 10+ счётчиках <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> тратит 10 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и получает силу столкновения +5 и наносит на 100% больше урона\nПри 10- счётчиках <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> тратит 100 HP ядра и наносит на 80% больше урона\nЭтот навык не понижает HP персонажа до 0.",
           "coinlist": [
             {
               "coindescs": [
@@ -1472,7 +1472,7 @@
         {
           "level": 1,
           "name": "В сад вечности",
-          "desc": "[CantDuel]\n[WhenUse] Получает Терновый венец и снимает с себя все эффекты\nЕсли у Ядра менее 40% ОЗ, Розы будут призываться в Усиленном состоянии",
+          "desc": "[CantDuel]\n[WhenUse] Получает Терновый венец и снимает с себя все эффекты\nЕсли у Ядра менее 40% HP, Розы будут призываться в Усиленном состоянии",
           "coinlist": [
             {}
           ]
@@ -1532,7 +1532,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшими в процентном соотношении ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 10 HP Розе с наименьшими в процентном соотношении HP"
                 }
               ]
             }
@@ -1565,7 +1565,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ядро восстанавливает 30 ОЗ"
+                  "desc": "[OnSucceedAttack] Ядро восстанавливает 30 HP"
                 }
               ]
             }
@@ -1584,7 +1584,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Ядро восстанавливает 30 ОЗ"
+                  "desc": "[OnSucceedAttack] Ядро восстанавливает 30 HP"
                 }
               ]
             }
@@ -1868,7 +1868,7 @@
         {
           "level": 1,
           "name": "Неугасимое чревоугодие",
-          "desc": "[WhenUse] Если на цели есть <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>, повышает восстановление ОЗ на 50%",
+          "desc": "[WhenUse] Если на цели есть <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>, повышает восстановление HP на 50%",
           "coinlist": [
             {
               "coindescs": [
@@ -2094,7 +2094,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственный разлом</link></u></color> остался, максимальные ОЗ +20%",
+          "desc": "Если этот <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственный разлом</link></u></color> остался, максимальные HP +20%",
           "coinlist": [
             {}
           ]

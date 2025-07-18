@@ -104,7 +104,7 @@
         {
           "level": 1,
           "name": "Молот",
-          "desc": "При попадании этим навыком получает 1 <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышение восстановления ОЗ</link></u></color> в следующем ходу",
+          "desc": "При попадании этим навыком получает 1 <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышение восстановления HP</link></u></color> в следующем ходу",
           "coinlist": [
             {
               "coindescs": [
@@ -138,7 +138,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 HP"
                 }
               ]
             },
@@ -148,7 +148,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 HP"
                 }
               ]
             },
@@ -158,7 +158,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 HP"
                 }
               ]
             },
@@ -168,7 +168,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 3 HP"
                 }
               ]
             }
@@ -182,7 +182,7 @@
         {
           "level": 1,
           "name": "Жадное поглощение",
-          "desc": "[WhenUse] Если на цели 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\nБазовая сила +1 за каждое <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышения восстановления ОЗ</link></u></color> на себе (До 3)",
+          "desc": "[WhenUse] Если на цели 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\nБазовая сила +1 за каждое <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышения восстановления HP</link></u></color> на себе (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -190,7 +190,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 HP"
                 }
               ]
             },
@@ -200,7 +200,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 HP"
                 }
               ]
             },
@@ -210,7 +210,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 HP"
                 }
               ]
             },
@@ -220,7 +220,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 ОЗ"
+                  "desc": "[OnSucceedAttackHead] Ядро и Часть восстанавливают по 5 HP"
                 }
               ]
             }
@@ -234,7 +234,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "При ОЗ Ядра ниже 50%, Ядро и Часть восстанавливают здоровье при попадании монетой",
+          "desc": "При HP Ядра ниже 50%, Ядро и Часть восстанавливают здоровье при попадании монетой",
           "coinlist": [
             {
               "coindescs": [
@@ -527,7 +527,7 @@
         {
           "level": 1,
           "name": "Это мой дом!",
-          "desc": "Нацеливается на противников с наименьшими ОЗ\n[WhenUse] Сила в столкновении +2 против целей с ОЗ ниже 70%",
+          "desc": "Нацеливается на противников с наименьшими HP\n[WhenUse] Сила в столкновении +2 против целей с HP ниже 70%",
           "coinlist": [
             {
               "coindescs": [
@@ -628,7 +628,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, на 30% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, восстанавливает ОЗ на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, восстанавливает HP на 50% от нанесённого урона"
                 }
               ]
             }
@@ -647,14 +647,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядру и Части на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP Ядру и Части на 50% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядру и Части на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP Ядру и Части на 50% от нанесённого урона"
                 }
               ]
             }
@@ -668,7 +668,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "Если остались ОЗ щита в конце хода, получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход",
+          "desc": "Если остались HP щита в конце хода, получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -735,7 +735,7 @@
                   "desc": "[OnSucceedAttack] +30% урона цели с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 70% от нанесённого целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 70% от нанесённого целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> урона"
                 }
               ]
             }

@@ -25,7 +25,7 @@
           "level": 3,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 50% и более HP у основной цели</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -46,7 +46,7 @@
           "level": 4,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели\n<style=\"highlight\">- Количество целей повышается ещё на 1, если у главной цели 75% и более ОЗ</style>",
+          "desc": "[BeforeAttack] Количество целей +1 при 50% и более HP у основной цели\n<style=\"highlight\">- Количество целей повышается ещё на 1, если у главной цели 75% и более HP</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -77,7 +77,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 30% от нанесённого урона<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color><style=\"highlight\"></style>"
@@ -90,12 +90,12 @@
           "level": 3,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели</style>",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 50% и более HP у основной цели</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 30% от нанесённого урона<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color></style>"
@@ -111,12 +111,12 @@
           "level": 4,
           "name": "Шипучая коррозия",
           "abName": "Сияющая жемчужинка",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 50% и более ОЗ у основной цели\n<style=\"highlight\">- Количество целей повышается ещё на 1, если у главной цели 75% и более ОЗ</style>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 50% и более HP у основной цели\n<style=\"highlight\">- Количество целей повышается ещё на 1, если у главной цели 75% и более HP</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 30% от нанесённого урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Восстанавливает HP на 30% от нанесённого урона<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>"
@@ -145,7 +145,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимость к Лености</link></u></color> на следующий ход<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает 15% ОЗ двум союзникам с наименьшим процентом ОЗ<style=\"highlight\"></style>"
+                  "desc": "[EndSkill] Восстанавливает 15% HP двум союзникам с наименьшим процентом HP<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -163,10 +163,10 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимость к Лености</link></u></color> на следующий ход<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25%</style> ОЗ двум союзникам с наименьшим процентом ОЗ"
+                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25%</style> HP двум союзникам с наименьшим процентом HP"
                 },
                 {
-                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, накладывает щит в 10% от своих максимальных ОЗ союзникам, которым восстановило ОЗ<style=\"highlight\"></style>"
+                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, накладывает щит в 10% от своих максимальных HP союзникам, которым восстановило HP<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -184,10 +184,10 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимость к Лености</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">30%</style> ОЗ двум союзникам с наименьшим процентом ОЗ"
+                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">30%</style> HP двум союзникам с наименьшим процентом HP"
                 },
                 {
-                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, накладывает щит в <style=\"highlight\">15%</style> от своих максимальных ОЗ союзникам, которым восстановило ОЗ"
+                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, накладывает щит в <style=\"highlight\">15%</style> от своих максимальных HP союзникам, которым восстановило HP"
                 }
               ]
             }
@@ -210,7 +210,7 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цели теряют 15 СД<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Цели теряют 15 SP<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -220,7 +220,7 @@
           "level": 3,
           "name": "Пурсуанс",
           "abName": "Очищение иисуса христа",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% ОЗ</style>",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% HP</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -228,10 +228,10 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цели теряют <style=\"highlight\">20</style> СД"
+                  "desc": "[OnSucceedAttack] Цели теряют <style=\"highlight\">20</style> SP"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель оглушена или побеждена, восстанавливает 5 СД</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель оглушена или побеждена, восстанавливает 5 SP</style>"
                 }
               ]
             }
@@ -241,7 +241,7 @@
           "level": 4,
           "name": "Пурсуанс",
           "abName": "Очищение иисуса христа",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% ОЗ",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% HP",
           "coinlist": [
             {
               "coindescs": [
@@ -249,10 +249,10 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цели теряют 20 СД<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Цели теряют 20 SP<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель оглушена или побеждена, восстанавливает <style=\"highlight\">7</style> СД"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель оглушена или побеждена, восстанавливает <style=\"highlight\">7</style> SP"
                 }
               ]
             }
@@ -267,7 +267,7 @@
           "level": 1,
           "name": "Месячные",
           "abName": "Красные тапочки",
-          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 6)\n[StartBattle] Основная цель не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД<style=\"highlight\"></style>",
+          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 6)\n[StartBattle] Основная цель не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 SP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -275,7 +275,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели\n- При резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели × 1.2) вместо этого<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся ОЗ цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся HP цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -285,7 +285,7 @@
           "level": 3,
           "name": "Месячные",
           "abName": "Красные тапочки",
-          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Основная цель не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Основная цель не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -293,7 +293,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве <style=\"highlight\">(</style>Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели <style=\"highlight\">× 1.2)</style>\n- При резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели × <style=\"highlight\">1.5</style>) вместо этого\n<style=\"highlight\">- При абсолютном резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели × 1.8) вместо этого</style>"
                 },
                 {
-                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся ОЗ цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся HP цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -303,7 +303,7 @@
           "level": 4,
           "name": "Месячные",
           "abName": "Красные тапочки",
-          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Основная цель не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Основная цель не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в этот ход\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -311,7 +311,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели × <style=\"highlight\">1.5</style>)\n- При резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели × <style=\"highlight\">1.8</style>) вместо этого\n- При абсолютном резонансе Похоти в 4 и более греха, наносит урон Похотью в количестве (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели × <style=\"highlight\">2</style>) вместо этого"
                 },
                 {
-                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся ОЗ цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Если эффект навыка или монеты наносит больше урона, чем оставшиеся HP цели (Или Ядра), наносит лишний фиксированный урон между всеми противниками<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -382,7 +382,7 @@
           "level": 1,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] Восстанавливает ОЗ себе и двум другим союзникам с наименьшим процентом ОЗ на 12.5% от своих максимальных ОЗ<style=\"highlight\"></style>",
+          "desc": "[EndSkill] Восстанавливает HP себе и двум другим союзникам с наименьшим процентом HP на 12.5% от своих максимальных HP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -407,7 +407,7 @@
           "level": 3,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] Восстанавливает ОЗ себе и двум другим союзникам с наименьшим процентом ОЗ на 12.5% от своих максимальных ОЗ\n<style=\"highlight\">- Каждый получающий лечение союзник восстанавливает ещё 2.5% ОЗ за каждые 2 отрицательных эффекта на себе (До 7.5%)</style>",
+          "desc": "[EndSkill] Восстанавливает HP себе и двум другим союзникам с наименьшим процентом HP на 12.5% от своих максимальных HP\n<style=\"highlight\">- Каждый получающий лечение союзник восстанавливает ещё 2.5% HP за каждые 2 отрицательных эффекта на себе (До 7.5%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -432,7 +432,7 @@
           "level": 4,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[EndSkill] Восстанавливает ОЗ себе и двум другим союзникам с наименьшим процентом ОЗ на <style=\"highlight\">15%</style> от своих максимальных ОЗ\n- Каждый получающий лечение союзник восстанавливает ещё 2.5% ОЗ <style=\"highlight\">за каждый</style> отрицательный эффект на себе (До <style=\"highlight\">10%</style>)\n<style=\"highlight\">- При резонансе Зависти в 4 и более греха, включая этот Навык, восстанавливает ОЗ ещё одному союзнику</style>",
+          "desc": "[EndSkill] Восстанавливает HP себе и двум другим союзникам с наименьшим процентом HP на <style=\"highlight\">15%</style> от своих максимальных HP\n- Каждый получающий лечение союзник восстанавливает ещё 2.5% HP <style=\"highlight\">за каждый</style> отрицательный эффект на себе (До <style=\"highlight\">10%</style>)\n<style=\"highlight\">- При резонансе Зависти в 4 и более греха, включая этот Навык, восстанавливает HP ещё одному союзнику</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -462,7 +462,7 @@
           "level": 1,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает ОЗ трём другим союзникам с наименьшим процентом ОЗ на 15% от своих максимальных ОЗ<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает HP трём другим союзникам с наименьшим процентом HP на 15% от своих максимальных HP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -490,7 +490,7 @@
           "level": 3,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает ОЗ трём другим союзникам с наименьшим процентом ОЗ на 15% от своих максимальных ОЗ<style=\"highlight\">, а так же даёт им 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход за каждый отрицательный эффект на них (До 3)</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает HP трём другим союзникам с наименьшим процентом HP на 15% от своих максимальных HP<style=\"highlight\">, а так же даёт им 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход за каждый отрицательный эффект на них (До 3)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -518,7 +518,7 @@
           "level": 4,
           "name": "Хексы гвоздь",
           "abName": "Болезненный мишка тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает ОЗ трём другим союзникам с наименьшим процентом ОЗ на <style=\"highlight\">20%</style> от своих максимальных ОЗ, а так же даёт им 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход за <style=\"highlight\">каждый</style> отрицательный эффект на них (До <style=\"highlight\">3</style>)\n<style=\"highlight\">- При резонансе Зависти в 4 и более греха, включая этот Навык, восстанавливает ОЗ ещё одному союзнику</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает HP трём другим союзникам с наименьшим процентом HP на <style=\"highlight\">20%</style> от своих максимальных HP, а так же даёт им 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход за <style=\"highlight\">каждый</style> отрицательный эффект на них (До <style=\"highlight\">3</style>)\n<style=\"highlight\">- При резонансе Зависти в 4 и более греха, включая этот Навык, восстанавливает HP ещё одному союзнику</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -551,7 +551,7 @@
           "level": 1,
           "name": "Пытка гусями",
           "abName": "Ебучие гуси!",
-          "desc": "[EndSkill] Восстанавливает 15% от максимальных ОЗ (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД<style=\"highlight\"></style>",
+          "desc": "[EndSkill] Восстанавливает 15% от максимальных HP (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом HP (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 SP<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -570,7 +570,7 @@
           "level": 3,
           "name": "Пытка гусями",
           "abName": "Ебучие гуси!",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">18%</style> от максимальных ОЗ (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">18%</style> от максимальных HP (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом HP (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -589,7 +589,7 @@
           "level": 4,
           "name": "Пытка гусями",
           "abName": "Ебучие гуси!",
-          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)\n[EndSkill] Восстанавливает <style=\"highlight\">20%</style> от максимальных ОЗ (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)\n[EndSkill] Восстанавливает <style=\"highlight\">20%</style> от максимальных HP (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом HP (До 3 союзников)\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -637,7 +637,7 @@
                   "desc": "На 1% больше урона главной цели за каждую единицу силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на ней (До 50%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"CrimsonResultUp\"><color=#f8c200><u><link=\"CrimsonResultUp\">Повышение силы Гнева</link></u></color> и 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color> (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До 4 союзников; единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"CrimsonResultUp\"><color=#f8c200><u><link=\"CrimsonResultUp\">Повышение силы Гнева</link></u></color> и 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color> (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом HP (До 4 союзников; единожды за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -671,7 +671,7 @@
                   "desc": "На 1% больше урона главной цели за каждую единицу силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на ней (До 50%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"CrimsonResultUp\"><color=#f8c200><u><link=\"CrimsonResultUp\">Повышение силы Гнева</link></u></color> и 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color> (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До <style=\"highlight\">5</style> союзников; единожды за навык)"
+                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"CrimsonResultUp\"><color=#f8c200><u><link=\"CrimsonResultUp\">Повышение силы Гнева</link></u></color> и 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color> (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом HP (До <style=\"highlight\">5</style> союзников; единожды за навык)"
                 }
               ]
             }
@@ -708,7 +708,7 @@
                   "desc": "На <style=\"highlight\">2%</style> больше урона главной цели за каждую единицу силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на ней (До <style=\"highlight\">100%</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"CrimsonResultUp\"><color=#f8c200><u><link=\"CrimsonResultUp\">Повышение силы Гнева</link></u></color> и 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color> (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом ОЗ (До <style=\"highlight\">6</style> союзников; единожды за навык)"
+                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"CrimsonResultUp\"><color=#f8c200><u><link=\"CrimsonResultUp\">Повышение силы Гнева</link></u></color> и 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color> (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом HP (До <style=\"highlight\">6</style> союзников; единожды за навык)"
                 }
               ]
             }
