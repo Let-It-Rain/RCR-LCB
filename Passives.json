@@ -2240,69 +2240,69 @@
     },
     {
       "id": 1031202,
-      "name": "Аркана свага - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
-      "desc": "Gain 1 [ThePowerOfLoveAndHate] every time this unit consumes 10 cumulative [ThePowerOfLoveAndHate] Count in this Encounter\n\nEncounter Start: if this unit does not have [HystericGauge], gain [HystericGauge]\n\nEncounter Start: if this unit does not have [ThePowerOfLoveAndHate], gain [ThePowerOfLoveAndHate]\n\nTurn Start:\n- At 0 or higher SP, gain [MagicalGirlAppear] and lose [NoVillain]\n- At less than 0 SP, gain [NoVillain] and lose [MagicalGirlAppear]\n\nThis unit's SP cannot drop below -40 due to the SP loss effects from this unit's Base Attack Skills",
+      "name": "Во имя Мочи и Говна — !ТРЕВОГА: СИНХРОНИЗАЦИЯ С ЭГО СНАРЯЖЕНИЕМ ПРЕВЫШЕНА!",
+      "desc": "Входит в битву с <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">Истерией</link></u></color> и <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любовью и ненавистю</link></u></color>.\n\nПолучает 1 силу <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color> каждый раз, как тратит 10-ую единицу счётчика <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color>.\n\nСвоя СД не падает ниже -40 от эффектов своих базовых атакующих навыков.\n\nНачало хода: при 0 СД и выше имеет состояние <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">Магической девочки</link></u></color>\n- Использует навыки с положительными монетами\n\nНачало хода: при СД ниже 0 находится в состоянии <sprite name=\"NoVillain\"><color=#e30000><u><link=\"NoVillain\">Регрессивной трансформации</link></u></color>\n- Использует навыки с отрицательными монетами",
       "summary": ""
     },
     {
       "id": 1031201,
-      "name": "Magical Girl of Love / Queen of Hatred",
-      "desc": "Deal +2% damage for every [ThePowerOfLoveAndHate] (max 10%)",
-      "summary": ""
+      "name": "Магическая девочка Любви / Королева Ненависти",
+      "desc": "Наносит на (Сила <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color> × 2)% больше урона. (До 10%)",
+      "summary": "На (Сила <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color> × 2)% больше урона"
     },
     {
       "id": 1031211,
-      "name": "Magical Girl of Love / Queen of Hatred",
-      "desc": "Deal +2% damage for every [ThePowerOfLoveAndHate] (max 10%)\nCombat Start: gain 1 [ArcanaQueenOfHate]",
-      "summary": ""
+      "name": "Магическая девочка Любви / Королева Ненависти",
+      "desc": "Наносит на (Сила <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color> × 2)% больше урона. (До 10%)\n\n<style=\"upgradeHighlight\">Начало боевой фазы: получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическое таинство</link></u></color>.</style>",
+      "summary": "На (Сила <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color> × 2)% больше урона"
     },
     {
       "id": 1031221,
-      "name": "Magical Power Charging Support",
-      "desc": "If, among allies that gain [Charge] Count with their Base Attack Skills, 1 ally with the least [Charge] Count uses a Base Attack Skill that gains [Charge] Count, they gain +2 [Charge] Count (2 times per turn)\n- At 0 or higher SP: heal ([Charge] on target x 2) HP (max 10; heals up to 20 per turn)\n- At less than 0 SP: heal ([Charge] on target) SP (max 5; heals up to 10 per turn)",
+      "name": "Подзарядка магическими силами",
+      "desc": "Если союзник с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> использует свои базовые атакующие навыки, которые повышают счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>:\n- Повышает ему счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2; (До 2 раз за ход)\n- Если его СД 0 и выше: восстанавливает (Его сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 2); ОЗ (До 10 за раз; до 20 за ход)\n- Если его СД ниже 0: восстанавливает (Его сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>) СД. (До 5 за раз; до 10 за ход)",
       "summary": ""
     },
     {
       "id": 1091302,
-      "name": "The Sword Sharpened with Tears - !ALERT: E.G.O GEAR SYNC THRESHOLD EXCEEDED!",
-      "desc": "Turn Start: at 0 or higher SP, gain [BlessingAlly]\n- Uses Plus Coin Skills as Base Skills\n\nTurn Start: at less than 0 SP, gain [DespairAlly]\n- Uses Minus Coin Skills as Base Skills\n\nWhen gaining [Charge] Count, gain [BlackTearsAlly] instead\n- [BlackTearsAlly] is unaffected by [Charge] Potency",
+      "name": "Меч, заточенный слезами — !ТРЕВОГА: СИНХРОНИЗАЦИЯ С ЭГО СНАРЯЖЕНИЕМ ПРЕВЫШЕНА!",
+      "desc": "Получает <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Горькие слёзы</link></u></color> вместо счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> от сторонних эффектов, которые его повышают.\n\nНачало хода: при 0 СД и выше имеет <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">Благославление</link></u></color>\n- Использует навыки с положительными монетами\n\nНачало хода: при СД ниже 0 имеет <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">Отчаяние</link></u></color>\n- Использует навыки с отрицательными монетами",
       "summary": ""
     },
     {
       "id": 1091303,
-      "name": "Whispers of the Betrayed Knight",
-      "desc": "This unit's SP does not drop below -40 from the following effects:\n- SP loss effects on this unit's Base Skills\n- SP loss effects from allied units' Support Passives\n- SP loss effects from [SwordCutwithTear]\n- SP loss effects from ally death in this unit's 'Base factors decreasing Sanity'\n\nIn an Encounter, when this unit takes damage that brings its SP to -45, maintain this unit's SP at -44 for that turn (once per Encounter)\n(※ This applies only to SP damages; it does not apply to SP changes or SP consuming abilities like using E.G.O Skills)",
+      "name": "Шепот преданного рыцаря",
+      "desc": "Своя СД не падает ниже -40 от следующих эффектов:\n- Потеря СД от эффектов своих базовых навыков;\n- Потеря СД от эффектов пассивных умений поддержки;\n- От эффекта <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Терзаний слезами</link></u></color>;\n- От базовых факторов понижения СД из-за смерти союзников.\n\nПри получении урона, который должен опустить свою СД до -45, она сохранится на -44 до конца хода. (Единожды за битву; не распространяется на трату СД или использование ЭГО навыков, учитывается только урон по СД)",
       "summary": ""
     },
     {
       "id": 1091304,
-      "name": "Break, Tear, and Pierce",
-      "desc": "If this unit has [PenetratingSword]: before hitting an enemy with a Base Attack Skill, consume 1 [PenetratingSword] to inflict 1 [Sinking]\n- If this unit has 2+ [PenetratingSword] before this turn's final Base Attack Skill's final Coin hits, consume all of it instead to inflict it as [Sinking]\n\nIf this unit has 3 [SwordCutwithTear]: before hitting an enemy with the final Coin of a Base Attack Skill, consume all [SwordCutwithTear] to inflict 3 [Sinking] and +3 [Sinking] Count, and deal +50% damage with that Coin\n- If this effect activated, reset to 0 SP if this unit has less than 0 SP at Turn End. (when in Panic or 'E.G.O Corrosion', recover) Then, heal 30 SP",
-      "summary": ""
+      "name": "Разрушать, рвать и пронзать",
+      "desc": "Если имеется <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающий меч</link></u></color>: перед попаданием по противнику своими базовыми атакующими навыками тратит 1 [PenetratingSword], чтобы нанести ему 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>.\n- Если же имеется 2 и более <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающих меча</link></u></color> перед тем, как будет использована последняя монета своего финального в ходе базового атакующего навыка: вместо этого полностью тратит <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающий меч</link></u></color> и наносит противнику <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> в количестве, равном потраченному <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающему мечу</link></u></color>.\n\nЕсли имеется 3 <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Терзания слезами</link></u></color>: перед попаданием по противнику последней монетой своего базового атакующего навыка полностью тратит <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Терзание слезами</link></u></color>, чтобы нанести на цель 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повысить его счётчик на 3, а также увеличить урон этой монеты на 50%.\n- Если после активации этого эффекта своя СД ниже 0 к концу хода, она сбрасывается до 0 в его конце. После этого Родя восстанавливает 30 СД и выходит из паники или <sprite name=\"EgoErode\"><color=#9f6a3a><u>Коррозия ЭГО</u></color>.",
+      "summary": "Тратит <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающий меч</link></u></color> или <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Терзание слезами</link></u></color> для нанесения <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
     },
     {
       "id": 1091301,
-      "name": "Magical Girl of Justice / Knight of Despair",
-      "desc": "When in [BlessingAlly] state...\n- Take -(SP / 2)% HP damage from attacks (max 20%)\n\nWhen in [DespairAlly] state...\n- Deal +(-SP/2)% damage with Base Skills (max 20%)",
-      "summary": ""
+      "name": "Магическая девочка Справедливости / Рыцарь Отчаяния",
+      "desc": "В состоянии <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">Благославления</link></u></color>…\n- Получает на (Положительная СД / 2)% меньше урона от атак. (До 20%)\n\nВ состоянии <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">Отчаяния</link></u></color>…\n- Наносит на (Отрицательная СД / 2)% больше урона своими базовыми навыками. (До 20%)",
+      "summary": "В <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">Благославлении</link></u></color> получает на (Положительная СД / 2)% меньше урона\nВ <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">Отчаянии</link></u></color> наносит на (Отрицательная СД / 2)% больше урона"
     },
     {
       "id": 1091311,
-      "name": "Magical Girl of Justice / Knight of Despair",
-      "desc": "When in [BlessingAlly] state...\n- Take -(SP / 2)% HP damage from attacks (max 20%)\n<style=\"highlight\">- Combat Start: at 3+ [ProtectiveSword], gain 1 [Protection]\n- Combat Start: at 5 [ProtectiveSword], gain 2 [Protection] and 1 [ParryingResultUp] instead</style>\n\nWhen in [DespairAlly] state...\n- Deal +(-SP/2)% damage with Base Skills (max 20%)\n<style=\"highlight\">- Combat Start: at 3+ [PenetratingSword] gain 1 [AttackDmgUp]\n- Combat Start: at 5 [PenetratingSword], gain 2 [AttackDmgUp] and 1 [ResultEnhancement] instead</style>",
-      "summary": ""
+      "name": "Магическая девочка Справедливости / Рыцарь Отчаяния",
+      "desc": "В состоянии <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">Благославления</link></u></color>…\n- Получает на (Положительная СД / 2)% меньше урона от атак; (До 20%)<style=\"upgradeHighlight\">\n- Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> в начале боевой фазы при 3~4 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Защищающих мечах</link></u></color>;\n- Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> и 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы в столкновении</link></u></color> в начале боевой фазы при 5 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Защищающих мечах</link></u></color>.</style>\n\nВ состоянии <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">Отчаяния</link></u></color>…\n- Наносит на (Отрицательная СД / 2)% больше урона своими базовыми навыками; (До 20%)<style=\"highlight\">\n- Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> в начале боевой фазы при 3~4 <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающих мечах</link></u></color>;\n- Получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> в начале боевой фазы при 5 <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающих мечах</link></u></color>.",
+      "summary": "В <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">Благославлении</link></u></color> получает на (Положительная СД / 2)% меньше урона\nВ <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">Отчаянии</link></u></color> наносит на (Отрицательная СД / 2)% больше урона"
     },
     {
       "id": 1091321,
-      "name": "For All Those Who Despair...",
-      "desc": "Combat Start: applies to the ally with the earliest Deployment order\n\nAt -15 or less SP, +1 Final Power to Minus Coin Skills",
-      "summary": ""
+      "name": "Для всех тех, кто Отчаивается…",
+      "desc": "Начало боевой фазы: эффект накладывается на Идентичность, которая была выбрана в команду раньше остальных:\n- Если СД опустилась до -15 и ниже, Итоговая сила повышается на 1 для всех навыков с отрицательными монетами.",
+      "summary": "Итоговая сила +1 для всех навыков с отрицательными монетами"
     },
     {
       "id": 1091331,
-      "name": "For All Those Who Despair...",
-      "desc": "Combat Start: applies to the ally with the earliest Deployment order\n\nAt -15 or less SP, +1 Final Power to Minus Coin Skills\n<style=\"highlight\">At -30 or less SP, +15% damage and +1 Final Power to Minus Coin Skills instead</style>",
-      "summary": ""
+      "name": "Для всех тех, кто Отчаивается…",
+      "desc": "Начало боевой фазы: эффект накладывается на Идентичность, которая была выбрана в команду раньше остальных:\n- Если СД опустилась до -15 и ниже, Итоговая сила повышается на 1 для всех навыков с отрицательными монетами;\n<style=\"upgradeHighlight\">- Если СД опустилась до -30 и ниже, эти навыки также наносят на 15% больше урона.</style>",
+      "summary": "Итоговая сила +1 и на 30% больше урона навыками с отрицательными монетами"
     }
   ]
 }
