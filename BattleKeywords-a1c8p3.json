@@ -9,19 +9,19 @@
     {
       "id": "VibrationIgnition",
       "name": "Тремор — Ожог",
-      "desc": "· При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокации Тремора</link></u></color> также <b>наносит урон Гневом</b>, равный (Сумма силы <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремора</link></u></color> и <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> / 2), понижая счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+      "desc": "· При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокации Тремора</link></u></color> также <b>наносит урон Гневом</b>, равный (Сумма силы <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремора</link></u></color> и <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> / 2), понижая счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> на 1\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
       "summary": ""
     },
     {
       "id": "BulletPropellant",
-      "name": "Патрон тигровой метки",
-      "desc": "<u>Особые Патроны</u>\n· Используется определёнными навыками\n· Максимальное значение: 6",
+      "name": "Тампон тигровой метки",
+      "desc": "<u>Особые Тампоны</u>\n· Используется определёнными навыками\n· Максимальное значение: 6",
       "summary": ""
     },
     {
       "id": "BulletPropellantSpecial",
-      "name": "Патрон свирепой тигровой метки",
-      "desc": "<u>Особые Патроны</u>\n· Тратятся определёнными навыками (В других случаях могут использоваться как <sprite name=\"BulletPropellant\"><color=#ff1919><u><link=\"BulletPropellant\">Патроны тигровой метки</link></u></color>)\n· Сила и счётчик эффекта определяют количество \"Заряженных\" и \"Оставшихся\" патронов соответственно\n· Максимальная сила (Значение Заряженных): 6\n· Монеты, что тратят <sprite name=\"BulletPropellantSpecial\"><color=#f01313><u><link=\"BulletPropellantSpecial\">Патроны свирепой тигровой метки</link></u></color>, наносят на 30% больше урона и вдвое больше силы и счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n· Когда все Заряженные и Оставшиеся <sprite name=\"BulletPropellantSpecial\"><color=#f01313><u><link=\"BulletPropellantSpecial\">Патроны свирепой тигровой метки</link></u></color> будут израсходованы, Лэй Хэн снова будет использовать обычные <sprite name=\"BulletPropellant\"><color=#ff1919><u><link=\"BulletPropellant\">Патроны тигровой метки</link></u></color> ",
+      "name": "Тампон свирепой тигровой метки",
+      "desc": "<u>Особые Тампоны</u>\n· Тратятся определёнными навыками (В других случаях могут использоваться как <sprite name=\"BulletPropellant\"><color=#ff1919><u><link=\"BulletPropellant\">Тампоны тигровой метки</link></u></color>)\n· Сила и счётчик эффекта определяют количество \"Заряженных\" и \"Оставшихся\" тампонов соответственно\n· Максимальная сила (Значение Заряженных): 6\n· Монеты, что тратят <sprite name=\"BulletPropellantSpecial\"><color=#f01313><u><link=\"BulletPropellantSpecial\">Тампоны свирепой тигровой метки</link></u></color>, наносят на 30% больше урона и вдвое больше силы и счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color>\n· Когда все Заряженные и Оставшиеся <sprite name=\"BulletPropellantSpecial\"><color=#f01313><u><link=\"BulletPropellantSpecial\">Тампоны свирепой тигровой метки</link></u></color> будут израсходованы, Лэй Хэн снова будет использовать обычные <sprite name=\"BulletPropellant\"><color=#ff1919><u><link=\"BulletPropellant\">Тампоны тигровой метки</link></u></color> ",
       "summary": ""
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "ReloadKeepAmmo",
       "name": "Тактическая перезарядка",
-      "desc": "Восполняет свои патроны до максимума, не сбрасывая имеющиеся",
+      "desc": "Восполняет свои тампоны до максимума, не сбрасывая имеющиеся",
       "summary": ""
     },
     {
@@ -104,32 +104,32 @@
     },
     {
       "id": "BudgetBulletPropellant",
-      "name": "Зажигательные патроны",
-      "desc": "<u>Особые Патроны</u>\n· Используется определёнными навыками\n· Максимальное значение: 4",
+      "name": "Зажигательные тампоны",
+      "desc": "<u>Особые Тампоны</u>\n· Используется определёнными навыками\n· Максимальное значение: 4",
       "summary": ""
     },
     {
       "id": "LeRegole_LowMorale",
       "name": "Жёсткий устав (Низкий дух)",
-      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышение урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> в прошлом ходе, получает 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
+      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышение урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в прошлом ходе, получает 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
       "summary": ""
     },
     {
       "id": "LeRegole_Panic",
       "name": "Жёсткий устав (Паника)",
-      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 2 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышения урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> в прошлом ходе, получает 2 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышения урона Гневом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
+      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 2 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышения урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в прошлом ходе, получает 2 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышения урона Гневом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
       "summary": ""
     },
     {
       "id": "NEgoFleshSpatula_LowMorale",
       "name": "Вычерпывание плоти (Низкий дух)",
-      "desc": "Получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> в начале хода",
+      "desc": "Получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> в начале хода",
       "summary": ""
     },
     {
       "id": "NEgoFleshSpatula_Panic",
       "name": "Вычерпывание плоти (Паника)",
-      "desc": "Получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> в начале хода",
+      "desc": "Получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> в начале хода",
       "summary": ""
     },
     {
