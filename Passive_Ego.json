@@ -8,7 +8,7 @@
     {
       "id": 2010211,
       "name": "Уголёк",
-      "desc": "При победе в столкновении наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, равный (Число грехов в абсолютном резонансе Гнева / 2). (Единожды за навык)"
+      "desc": "При победе в столкновении наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color>, равный (Число грехов в абсолютном резонансе Гнева / 2). (Единожды за навык)"
     },
     {
       "id": 2010311,
@@ -18,12 +18,12 @@
     {
       "id": 2020111,
       "name": "Апатия",
-      "desc": "Если противник оглушён во время своей атаки, союзник с наименьшей СД получает +2 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления СД</link></u></color> на следующий ход. (До 3 раз за ход)"
+      "desc": "Если противник оглушён во время своей атаки, союзник с наименьшей SP получает +2 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления SP</link></u></color> на следующий ход. (До 3 раз за ход)"
     },
     {
       "id": 2020211,
       "name": "Обволакивающая жидкость",
-      "desc": "В начале хода даёт 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> союзнику с наименьшими ОЗ (Включая себя)."
+      "desc": "В начале хода даёт 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> союзнику с наименьшими HP (Включая себя)."
     },
     {
       "id": 2020311,
@@ -33,12 +33,12 @@
     {
       "id": 2030111,
       "name": "Неумеренный энтузиазм",
-      "desc": "При ударе, если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, восстанавливает 3 ОЗ."
+      "desc": "При ударе, если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color>, восстанавливает 3 HP."
     },
     {
       "id": 2030211,
       "name": "Волны тоски",
-      "desc": "Цель самого правого на приборной панели навыка теряет СД в количестве (2 × число грехов в абсолютном резонансе Уныния) после атаки. (Чурки вместо этого получают урон Унынием)"
+      "desc": "Цель самого правого на приборной панели навыка теряет SP в количестве (2 × число грехов в абсолютном резонансе Уныния) после атаки. (Чурки вместо этого получают урон Унынием)"
     },
     {
       "id": 2040111,
@@ -48,7 +48,7 @@
     {
       "id": 2040211,
       "name": "Пламя четвёртой спички",
-      "desc": "Каждый 4 используемый Рёшу навык получает +4 к Итоговой силе, а также наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> каждой своей атакой."
+      "desc": "Каждый 4 используемый Рёшу навык получает +4 к Итоговой силе, а также наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> каждой своей атакой."
     },
     {
       "id": 2050111,
@@ -58,7 +58,7 @@
     {
       "id": 2050211,
       "name": "Финальная аугментация",
-      "desc": "Если ЭГО навык <Шарики за ролики> используется при менее, чем 25% ОЗ, получает 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>, <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\">Повышения силы защиты</link></u></color> и <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> каждый ход, но спустя 3 хода умирает."
+      "desc": "Если ЭГО навык <Шарики за ролики> используется при менее, чем 25% HP, получает 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>, <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\">Повышения силы защиты</link></u></color> и <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> каждый ход, но спустя 3 хода умирает."
     },
     {
       "id": 2050311,
@@ -68,7 +68,7 @@
     {
       "id": 2060111,
       "name": "Волны",
-      "desc": "В начале боевой фазы восстанавливает СД союзнику с наименьшей СД на количество грехов в наибольшем абсолютном резонансе, исключая навыки союзников в панике."
+      "desc": "В начале боевой фазы восстанавливает SP союзнику с наименьшей SP на количество грехов в наибольшем абсолютном резонансе, исключая навыки союзников в панике."
     },
     {
       "id": 2060211,
@@ -97,18 +97,18 @@
     },
     {
       "id": 2080311,
-      "name": "Огненный душ",
-      "desc": "При ударе, если на цели есть <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> трём случайным противникам."
+      "name": "Изжогенный душ",
+      "desc": "При ударе, если на цели есть <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color>, наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color> трём случайным противникам."
     },
     {
       "id": 2090111,
       "name": "Отсечение",
-      "desc": "+1 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления СД</link></u></color>, -1 к <sprite name=\"MentalSystemResultDecrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultDecrease_Typo\">Эффективности потери СД</link></u></color>."
+      "desc": "+1 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления SP</link></u></color>, -1 к <sprite name=\"MentalSystemResultDecrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultDecrease_Typo\">Эффективности потери SP</link></u></color>."
     },
     {
       "id": 2090211,
       "name": "Искры пламени",
-      "desc": "После убийства противника, на котором был <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, восстанавливает ОЗ на (Число грехов в абсолютном резонансе Гнева)% от максимальных ОЗ."
+      "desc": "После убийства противника, на котором был <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color>, восстанавливает HP на (Число грехов в абсолютном резонансе Гнева)% от максимальных HP."
     },
     {
       "id": 2090311,
@@ -118,7 +118,7 @@
     {
       "id": 2100111,
       "name": "Нестабильность",
-      "desc": "Если монета навыка совершает удар стороной, отличающейся от предыдущей монеты в том же навыке, теряет 5 СД и получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на этот ход. (Трижды за ход)"
+      "desc": "Если монета навыка совершает удар стороной, отличающейся от предыдущей монеты в том же навыке, теряет 5 SP и получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на этот ход. (Трижды за ход)"
     },
     {
       "id": 2100211,
@@ -133,17 +133,17 @@
     {
       "id": 2110211,
       "name": "Стебель сомнения",
-      "desc": "В начале хода получает 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color>.\n\nПри ударе, если выпал орёл, наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> и повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1 на следующий ход."
+      "desc": "В начале хода получает 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color>.\n\nПри ударе, если выпал орёл, наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> и повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1 на следующий ход."
     },
     {
       "id": 2110311,
       "name": "Пустота",
-      "desc": "В начале хода получает 1 <sprite name=\"ScarletDamageUp\"><color=#f8c200><u><link=\"ScarletDamageUp\">Повышение урона Похотью</link></u></color>.\n- Если СД ниже 0, получает ещё 1 <sprite name=\"ScarletDamageUp\"><color=#f8c200><u><link=\"ScarletDamageUp\">Повышение урона Похотью</link></u></color>."
+      "desc": "В начале хода получает 1 <sprite name=\"ScarletDamageUp\"><color=#f8c200><u><link=\"ScarletDamageUp\">Повышение урона Похотью</link></u></color>.\n- Если SP ниже 0, получает ещё 1 <sprite name=\"ScarletDamageUp\"><color=#f8c200><u><link=\"ScarletDamageUp\">Повышение урона Похотью</link></u></color>."
     },
     {
       "id": 2120111,
       "name": "Неконтролируемое превращение",
-      "desc": "В начале хода, если ОЗ ниже 25%, восстанавливает 15 ОЗ и получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>.\n- При активации этого эффекта даёт случайному союзнику и случайному противнику +2 к <sprite name=\"MentalSystemResultDecrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultDecrease_Typo\">Эффективности потери СД</link></u></color>."
+      "desc": "В начале хода, если HP ниже 25%, восстанавливает 15 HP и получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>.\n- При активации этого эффекта даёт случайному союзнику и случайному противнику +2 к <sprite name=\"MentalSystemResultDecrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultDecrease_Typo\">Эффективности потери SP</link></u></color>."
     },
     {
       "id": 2120211,
@@ -153,7 +153,7 @@
     {
       "id": 2120311,
       "name": "Усвоение удобрений",
-      "desc": "После убийства противника, на котором был <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>, восстанавливает ОЗ в количестве (Число грехов в абсолютном резонансе Чревоугодия)% от максимальных ОЗ."
+      "desc": "После убийства противника, на котором был <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color>, восстанавливает HP в количестве (Число грехов в абсолютном резонансе Чревоугодия)% от максимальных HP."
     },
     {
       "id": 2030311,
@@ -173,27 +173,27 @@
     {
       "id": 2100311,
       "name": "Взрыв рагу",
-      "desc": "Монеты, на которых выпала решка, наносят 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> при ударе по противнику."
+      "desc": "Монеты, на которых выпала решка, наносят 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color> при ударе по противнику."
     },
     {
       "id": 2010411,
       "name": "Блуждающий",
-      "desc": "В начале хода повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 4, если не было получено урона за предыдущий ход.\n\nПосле успешной атаки по противнику с меньшей скоростью, повышает его счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1. (Трижды за ход)"
+      "desc": "В начале хода повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 4, если не было получено урона за предыдущий ход.\n\nПосле успешной атаки по противнику с меньшей скоростью, повышает его счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1. (Трижды за ход)"
     },
     {
       "id": 2060311,
       "name": "Восстановление беспорядочного феномена",
-      "desc": "При нанесении урона противнику с помощью негативных эффектов повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 1. (До 4 за ход)\n\nКогда ОЗ достигают 0 первый раз за битву, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и восстанавливает ОЗ пропорционально потраченному количеству. (Не более 25% от максимальных ОЗ)"
+      "desc": "При нанесении урона противнику с помощью негативных эффектов повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 1. (До 4 за ход)\n\nКогда HP достигают 0 первый раз за битву, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и восстанавливает HP пропорционально потраченному количеству. (Не более 25% от максимальных HP)"
     },
     {
       "id": 2050411,
       "name": "Необузданная взбудораженность",
-      "desc": "В начале боевой фазы, если является целью 2-ух и более навыков, навыки получают +1 к Базовой силе, а при получении удара наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> на атаковавшего. (До 5 раз за ход)"
+      "desc": "В начале боевой фазы, если является целью 2-ух и более навыков, навыки получают +1 к Базовой силе, а при получении удара наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color> на атаковавшего. (До 5 раз за ход)"
     },
     {
       "id": 2080411,
       "name": "Убийство под аплодисменты",
-      "desc": "При атаке цели, у которой менее 30% ОЗ, навыки Гнева наносят на 20% больше урона."
+      "desc": "При атаке цели, у которой менее 30% HP, навыки Гнева наносят на 20% больше урона."
     },
     {
       "id": 2110411,
@@ -203,7 +203,7 @@
     {
       "id": 2070311,
       "name": "Вспыльчивый разряд",
-      "desc": "При получении удара тратит 1 единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> для восстановления 2.5% от максимальных ОЗ.\n\nПри менее, чем 40% ОЗ, повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 1 перед восстановлением ОЗ этим эффектом. (До 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> за ход)"
+      "desc": "При получении удара тратит 1 единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> для восстановления 2.5% от максимальных HP.\n\nПри менее, чем 40% HP, повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 1 перед восстановлением HP этим эффектом. (До 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> за ход)"
     },
     {
       "id": 2120411,
@@ -213,7 +213,7 @@
     {
       "id": 2010511,
       "name": "Луч солнца после дождя",
-      "desc": "В начале хода все союзники восстанавливают 3 СД."
+      "desc": "В начале хода все союзники восстанавливают 3 SP."
     },
     {
       "id": 2040311,
@@ -223,7 +223,7 @@
     {
       "id": 2040411,
       "name": "Хищница",
-      "desc": "Если на этом ходе восстанавливает ОЗ больше, чем на 10% от максимальных ОЗ, получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> на следующий ход."
+      "desc": "Если на этом ходе восстанавливает HP больше, чем на 10% от максимальных HP, получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> на следующий ход."
     },
     {
       "id": 2040511,
@@ -233,17 +233,17 @@
     {
       "id": 2060411,
       "name": "Крики чаек с дальних морей",
-      "desc": "При убийстве противника союзник с наименьшей СД восстанавливает 1 СД.\n\nКаждый раз, как противник убит, количество восстанавливаемого СД повышается на 2. (До 9)\n\nКоличество сбрасывается в начале новой волны."
+      "desc": "При убийстве противника союзник с наименьшей SP восстанавливает 1 SP.\n\nКаждый раз, как противник убит, количество восстанавливаемого SP повышается на 2. (До 9)\n\nКоличество сбрасывается в начале новой волны."
     },
     {
       "id": 2100411,
       "name": "Фея-приманка",
-      "desc": "После убийства противника, основной целью которого являлся Синклер, восстанавливает (3 + число грехов в абсолютном резонансе Чревоугодия)% от максимальных ОЗ."
+      "desc": "После убийства противника, основной целью которого являлся Синклер, восстанавливает (3 + число грехов в абсолютном резонансе Чревоугодия)% от максимальных HP."
     },
     {
       "id": 2070411,
       "name": "Дхьяна",
-      "desc": "При выходе из оглушения увеличивает максимальные ОЗ на 15% от базового значения.\n- После этого восстанавливает 15% максимальных ОЗ. Если менее 30% ОЗ, вместо этого восстанавливает 25% ОЗ.\n(Трижды за битву; после окончания битвы максимальные ОЗ возвращаются к базовому значению)"
+      "desc": "При выходе из оглушения увеличивает максимальные HP на 15% от базового значения.\n- После этого восстанавливает 15% максимальных HP. Если менее 30% HP, вместо этого восстанавливает 25% HP.\n(Трижды за битву; после окончания битвы максимальные HP возвращаются к базовому значению)"
     },
     {
       "id": 2050511,
@@ -253,12 +253,12 @@
     {
       "id": 2020511,
       "name": "Пламенный меч",
-      "desc": "Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, если монета атаки Похотью выпала орлом. (До 6 раз за ход)"
+      "desc": "Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color>, если монета атаки Похотью выпала орлом. (До 6 раз за ход)"
     },
     {
       "id": 2060511,
       "name": "Зелёная слизь",
-      "desc": "Если менее 50% ОЗ, атакующий при ударе получает 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>. (Активируется (Число грехов в наибольшем абсолютном резонансе Чревоугодия) раз за ход)"
+      "desc": "Если менее 50% HP, атакующий при ударе получает 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color>. (Активируется (Число грехов в наибольшем абсолютном резонансе Чревоугодия) раз за ход)"
     },
     {
       "id": 2040611,
@@ -268,7 +268,7 @@
     {
       "id": 2080511,
       "name": "Безрассудный вояж",
-      "desc": "В конце хода наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на союзника с наименьшими ОЗ (Кроме себя), но так же даёт ему 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход."
+      "desc": "В конце хода наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на союзника с наименьшими HP (Кроме себя), но так же даёт ему 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход."
     },
     {
       "id": 2090411,
@@ -278,32 +278,32 @@
     {
       "id": 2100511,
       "name": "Пророчество о гибели",
-      "desc": "При ударе грехом Похоти с выпавшим орлом теряет 4 СД вместе с целью. (Не распространяется на противников без силы духа)\n\nПри убийстве навыком с грехом Похоти получает 5 ЭГО ресурсов Похоти."
+      "desc": "При ударе грехом Похоти с выпавшим орлом теряет 4 SP вместе с целью. (Не распространяется на противников без силы духа)\n\nПри убийстве навыком с грехом Похоти получает 5 ЭГО ресурсов Похоти."
     },
     {
       "id": 2090511,
       "name": "Небесный приговор",
-      "desc": "При оглушении противника, союзник с наименьшим процентом ОЗ восстанавливает 4% от максимальных ОЗ. (Единожды за ход)"
+      "desc": "При оглушении противника, союзник с наименьшим процентом HP восстанавливает 4% от максимальных HP. (Единожды за ход)"
     },
     {
       "id": 2070511,
       "name": "Нескончаемая ненависть",
-      "desc": "Если имеется статусный или негативный эффект, а на атакующем или цели позитивные эффекты:\n- Наносит ещё 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряска</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессия</link></u></color> на себя и врагов эффектами навыков или монет.\n- Повышает счётчики <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> ещё на 1 эффектами навыков или монет."
+      "desc": "Если имеется статусный или негативный эффект, а на атакующем или цели позитивные эффекты:\n- Наносит ещё 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряска</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессия</link></u></color> на себя и врагов эффектами навыков или монет.\n- Повышает счётчики <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> ещё на 1 эффектами навыков или монет."
     },
     {
       "id": 2110511,
       "name": "Заслуженный подарок",
-      "desc": "Когда даёт позитивные эффекты своим союзникам через навыки или монеты, случайно наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряска</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессия</link></u></color> на случайного противника или часть.\n(Активируется до 5 раз за ход; до 5 эффектов на одного противника или часть)"
+      "desc": "Когда даёт позитивные эффекты своим союзникам через навыки или монеты, случайно наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряска</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color> или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессия</link></u></color> на случайного противника или часть.\n(Активируется до 5 раз за ход; до 5 эффектов на одного противника или часть)"
     },
     {
       "id": 2030511,
       "name": "Рухнувший гурий",
-      "desc": "При нанесении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 2. (Трижды за ход)"
+      "desc": "При нанесении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 2. (Трижды за ход)"
     },
     {
       "id": 2120511,
       "name": "Венец из роз",
-      "desc": "В начале хода наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> случайному противнику или всем его частям.\n\nПри активации абсолютного резонанса, наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> всем противникам в начале боевой фазы."
+      "desc": "В начале хода наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> случайному противнику или всем его частям.\n\nПри активации абсолютного резонанса, наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> всем противникам в начале боевой фазы."
     },
     {
       "id": 2120611,
@@ -338,14 +338,14 @@
     {
       "id": 2080611,
       "name": "Обжорство",
-      "desc": "Если главная цель получила урон по ОЗ в этом ходу и не имела максимальных ОЗ при использовании атаковавшего навыка:\nПри ударе,\n- Если ОЗ Измаил максимальные, на 5~10% больше урона;\n- В ином случае восстанавливает 2~5 ОЗ.\n(До 7 раз за ход)",
-      "summary": "Наносит больше урона или восстанавливает ОЗ при ударе"
+      "desc": "Если главная цель получила урон по HP в этом ходу и не имела максимальных HP при использовании атаковавшего навыка:\nПри ударе,\n- Если HP Фишмаэль максимальные, на 5~10% больше урона;\n- В ином случае восстанавливает 2~5 HP.\n(До 7 раз за ход)",
+      "summary": "Наносит больше урона или восстанавливает HP при ударе"
     },
     {
       "id": 2090611,
       "name": "Увлечённость",
-      "desc": "Удваивает силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносимого своим самым левым навыком на приборной панели. (Единожды ход)",
-      "summary": "Навык наносит двойное количество <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+      "desc": "Удваивает силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, наносимого своим самым левым навыком на приборной панели. (Единожды ход)",
+      "summary": "Навык наносит двойное количество <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
     },
     {
       "id": 2060611,
@@ -390,28 +390,28 @@
     {
       "id": 2080711,
       "name": "Приём незваных гостей",
-      "desc": "Сила в столкновении +1 против <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостей</link></u></color> и целей с эффектами, меняющими тип срыва.\n- При ударе по этой цели восстанавливает 5 СД союзнику с наименьшей СД. (Единожды за ход)"
+      "desc": "Сила в столкновении +1 против <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостей</link></u></color> и целей с эффектами, меняющими тип срыва.\n- При ударе по этой цели восстанавливает 5 SP союзнику с наименьшей SP. (Единожды за ход)"
     },
     {
       "id": 2020711,
       "name": "Раскидистое лассо",
-      "desc": "После атаки, если цель оглушена или убита, повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1 двум случайным противникам или частям. (Единожды за ход; не суммируется)",
-      "summary": "После оглушения или убийства противника повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1 двум случайным противникам"
+      "desc": "После атаки, если цель оглушена или убита, повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1 двум случайным противникам или частям. (Единожды за ход; не суммируется)",
+      "summary": "После оглушения или убийства противника повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1 двум случайным противникам"
     },
     {
       "id": 2060711,
       "name": "Время охоты",
-      "desc": "Если противник или союзник погибает от урона <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> или <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Лассо</link></u></color> на случайного противника и получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> в следующем ходу. (Единожды за ход)"
+      "desc": "Если противник или союзник погибает от урона <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> или <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Лассо</link></u></color> на случайного противника и получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> в следующем ходу. (Единожды за ход)"
     },
     {
       "id": 2030711,
       "name": "Распускающийся алый цветок",
-      "desc": "При возникновении 10 и более урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> в битве, восстанавливают 1 СД. (До 10 за ход)"
+      "desc": "При возникновении 10 и более урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> в битве, восстанавливают 1 SP. (До 10 за ход)"
     },
     {
       "id": 2090711,
       "name": "Железный кол в сердце",
-      "desc": "При нанесении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> или Особого Кровотечения противнику с помощью базовых атакующих навыков наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>. (Единожды за ход)\n- Если у цели уже есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> или Особое Кровотечение[TabExplain], наносит ещё 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>. (Единожды за ход)\n\nКогда союзник, включая этого, получает прямой урон по ОЗ от противника, наносит 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> на атаковавшего. (Дважды за ход)",
+      "desc": "При нанесении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> или Особого Кетчупа противнику с помощью базовых атакующих навыков наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>. (Единожды за ход)\n- Если у цели уже есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> или Особое Кетчуп[TabExplain], наносит ещё 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>. (Единожды за ход)\n\nКогда союзник, включая этого, получает прямой урон по HP от противника, наносит 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> на атаковавшего. (Дважды за ход)",
       "summary": ""
     },
     {
@@ -422,7 +422,7 @@
     {
       "id": 2050711,
       "name": "Кровожадное пиршество",
-      "desc": "Когда нанесении или получении урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, восстанавливает ОЗ в количестве этого урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>. (До 10 за ход)\n- Эффекты навыка или монеты, наносящие <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, наносят ещё 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> если у цели есть <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шип розы</link></u></color>. (Дважды за ход)"
+      "desc": "Когда нанесении или получении урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, восстанавливает HP в количестве этого урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупом</link></u></color>. (До 10 за ход)\n- Эффекты навыка или монеты, наносящие <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color>, наносят ещё 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> если у цели есть <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шип розы</link></u></color>. (Дважды за ход)"
     },
     {
       "id": 2010711,
@@ -448,7 +448,7 @@
     {
       "id": 2110811,
       "name": "Семь пуль",
-      "desc": "При попадании базовыми атакующими навыками наносит (Имеющихся <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> / 3) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>. (Трижды за ход)\n- Для айдишки ЭГО «Лоботомии»::Магическaя пуля Отис: наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> в количестве имеющихся <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> вместо этого; (Трижды за ход)\n- Если цель имеет 30 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, наносит 1 <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> вместо этого эффекта. (Дважды ха ход)"
+      "desc": "При попадании базовыми атакующими навыками наносит (Имеющихся <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> / 3) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color>. (Трижды за ход)\n- Для айдишки ЭГО «Лоботомии»::Магическaя пуля Отис: наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color> в количестве имеющихся <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> вместо этого; (Трижды за ход)\n- Если цель имеет 30 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color>, наносит 1 <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> вместо этого эффекта. (Дважды ха ход)"
     },
     {
       "id": 2040811,
@@ -458,24 +458,24 @@
     {
       "id": 2020811,
       "name": "Кумар",
-      "desc": "Начало следующего хода после использования этого ЭГО: получает 1 <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзер α</link></u></color>. (Единожды за ход)\n- Значение складывается на протяжении битвы.\n\nНачало боевой фазы: получает 1 <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзер α</link></u></color> каждый раз, когда Фауст повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 10 союзникам с помощью эффектов <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзера α</link></u></color>.\n\nКонец хода: начиная с союзников с наименьшим процентом ОЗ, восстанавливает (Количество <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзеров α</link></u></color>)% ОЗ для (Число грехов в наибольшем резонансе) союзников. (До 6)\n- Если союзник имеет 20 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, восстанавливает ОЗ ещё один раз."
+      "desc": "Начало следующего хода после использования этого ЭГО: получает 1 <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзер α</link></u></color>. (Единожды за ход)\n- Значение складывается на протяжении битвы.\n\nНачало боевой фазы: получает 1 <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзер α</link></u></color> каждый раз, когда Фауст повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 10 союзникам с помощью эффектов <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзера α</link></u></color>.\n\nКонец хода: начиная с союзников с наименьшим процентом HP, восстанавливает (Количество <sprite name=\"NebulizerExhale\"><color=#f8c200><u><link=\"NebulizerExhale\">Небулайзеров α</link></u></color>)% HP для (Число грехов в наибольшем резонансе) союзников. (До 6)\n- Если союзник имеет 20 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, восстанавливает HP ещё один раз."
     },
     {
       "id": 2090811,
       "name": "Пылающая потеха",
-      "desc": "Когда противник с счётчиком <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> в 10 и более побеждён, разносит его счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> между всеми остальными противниками и восстанавливает себе 8 СД. (До 3 на противника; дважды за ход)\n- При максимальной своей силе духа восстанавливает 5 СД союзнику с наименьшей СД вместо этого.",
-      "summary": "Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> всем остальным противникам"
+      "desc": "Когда противник с счётчиком <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в 10 и более побеждён, разносит его счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> между всеми остальными противниками и восстанавливает себе 8 SP. (До 3 на противника; дважды за ход)\n- При максимальной своей силе духа восстанавливает 5 SP союзнику с наименьшей SP вместо этого.",
+      "summary": "Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжога</link></u></color> всем остальным противникам"
     },
     {
       "id": 2030811,
       "name": "Ослабляющий талисман",
-      "desc": "Если при ударе Дон Кихот на её цели было 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, или же удар был раскумаром, наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>. (До 6 за ход)\n- Не складывается с эффектом ЭГО дара \"Старая деревянная кукла\".",
+      "desc": "Если при ударе Дон Кихот на её цели было 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленок</link></u></color>, или же удар был раскумаром, наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>. (До 6 за ход)\n- Не складывается с эффектом ЭГО дара \"Старая деревянная кукла\".",
       "summary": "Наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>"
     },
     {
       "id": 2080911,
       "name": "Посягание на одиночество",
-      "desc": "Когда Измаил наносит Депрессия, повышает его счётчик, или наносит Особое Утопaние своими атакующими навыками, даёт ей 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход. (До 2 за ход)\n- При 3 и более грехах в резонансе может получить до 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход вместо этого.",
+      "desc": "Когда Фишмаэль наносит Депрессия, повышает его счётчик, или наносит Особое Утопaние своими атакующими навыками, даёт ей 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход. (До 2 за ход)\n- При 3 и более грехах в резонансе может получить до 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход вместо этого.",
       "summary": "Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход"
     },
     {
@@ -486,7 +486,7 @@
     {
       "id": 2100811,
       "name": "Плачущие слезы",
-      "desc": "Конец хода: если на себе есть негативные эффекты или СД была потеряна во время хода, восстанавливает 5 СД.\n\nЕсли один из союзников или сам Синклер умирает, наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход всем противнкиам. (Единожды за ход)"
+      "desc": "Конец хода: если на себе есть негативные эффекты или SP была потеряна во время хода, восстанавливает 5 SP.\n\nЕсли один из союзников или сам Синклер умирает, наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход всем противнкиам. (Единожды за ход)"
     },
     {
       "id": 2030911,
