@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Are You Afraid?",
-          "desc": "When in [TimeAcceleration] state, Clash Power +1\n[DefeatDuel] At 75%- HP, consume 40 [LimitedTime] and gain 1 [Protection] (once per turn)",
+          "name": "Тебе страшно?",
+          "desc": "Сила в столкновении +1, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[DefeatDuel] Если свои ОЗ ниже 75%, тратит 40 <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> для получения 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Единожды ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -31,27 +31,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Punishment For Time Killers",
-          "desc": "When in [TimeAcceleration] state, Clash Power +2\n[WhenUse] At 700+ [LimitedTime], inflict +3 [Laceration] Count\n[WhenUse] At 500+ [LimitedTime], inflict +1 [Laceration] Count\n[WhenUse] At 400+ [LimitedTime], consume 20 [LimitedTime] and inflict +1 more [Laceration] Potency and Count with this Skill",
+          "name": "Наказание за убийство времени",
+          "desc": "Сила в столкновении +2, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[WhenUse] При 700 и более <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 3\n[WhenUse] При 500 и более <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели ещё на 1\n[WhenUse] При 400 и более <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> \nтратит 20 <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color>, чтобы повысить наносимые этой атакой силу и счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -64,46 +64,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Extraction",
-          "desc": "When in [TimeAcceleration] state, Coin Power +1\n[WhenUse] At 75%- HP, consume 40 [LimitedTime] and gain Clash Power +2\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Экстракция",
+          "desc": "Сила монет +1, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[WhenUse] Если свои ОЗ ниже 75%, тратит 40 <sprite name=\"LimitedTime\"><color=#f0a200><u><link=\"LimitedTime\">Украденного времени</link></u></color> для получения +2 к Силе в столкновении (Единожды за ход)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -116,26 +116,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutilate",
-          "desc": "[DefeatDuel] At 75%- HP, consume 60 [LimitedTime] and gain Clash Power +2\n[BeforeAttack] When in [TimeAcceleration] state, gain +1 Atk Weight",
+          "name": "Рассечение",
+          "desc": "[WhenUse] Если свои ОЗ ниже 75%, тратит 60 <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> для получения +2 к Силе в столкновении\n[BeforeAttack] Количество целей повышается на 1, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color> ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -148,8 +148,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to be Saved",
-          "desc": "[CantDuel]\nInflict [TimeKillerWatch] against the target that used an Attack Skill against this unit\n[StartBattle] Consume 200 [LimitedTime] and gain [TimeAcceleration] next turn",
+          "name": "Время спасения",
+          "desc": "[CantDuel]\nВыбирает <sprite name=\"TimeKillerWatch\"><color=#c57609><u><link=\"TimeKillerWatch\">Целью спасения времени</link></u></color> противника, использовавшего атакующий навык против Потрошителя времени\n[StartBattle] Тратит 200 <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> и переходит в состояние <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color> в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
@@ -167,8 +167,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
-          "desc": "[WhenUse] Base Power +1 for every 100 [LimitedTime] (max 3)",
+          "name": "Уворот",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 100 <sprite name=\"LimitedTime\"><color=#cc9901><u><link=\"LimitedTime\">Украденного времени</link></u></color> (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -186,20 +186,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "My...",
-          "desc": "[DefeatDuel] Gain 1 [Vulnerable]",
+          "name": "Как же так...",
+          "desc": "[DefeatDuel] Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -212,34 +212,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Running Out of Time",
-          "desc": "[DefeatDuel] Gain 1 [Vulnerable]",
+          "name": "У нас нехватка времени!",
+          "desc": "[DefeatDuel] Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -252,20 +252,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Are You Afraid?",
-          "desc": "When in [TimeAcceleration] state, Clash Power +1\n[DefeatDuel] At 75%- HP, consume 40 [OwnTime] and gain 1 [Protection] (once per turn)",
+          "name": "Тебе страшно?",
+          "desc": "Сила в столкновении +1, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[DefeatDuel] Если свои ОЗ ниже 75%, тратит 40 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> для получения 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Единожды ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -278,27 +278,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Punishment For Time Killers",
-          "desc": "When in [TimeAcceleration] state, Clash Power +2\n[WhenUse] At 600+ (sum of [OwnTime] on all Parts), inflict +3 [Laceration] Count\n[WhenUse] At 500+ (sum of [OwnTime] on all Parts), inflict +1 [Laceration] Count\n[WhenUse] At 400+ (sum of [OwnTime] on all Parts), consume 20 [OwnTime] and inflict +1 more [Laceration] Potency and Count with this Skill",
+          "name": "Наказание за убийство времени",
+          "desc": "Сила в столкновении +2, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей составляет 600 и более, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 3\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей составляет 500 и более, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели ещё на 1\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей составляет 400 и более, тратит 20 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> для повышения наносимых этой атакой силы и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -311,46 +311,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Extraction",
-          "desc": "When in [TimeAcceleration] state, Coin Power +1\n[WhenUse] At 75%- HP, consume 40 [OwnTime] and gain Clash Power +2\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Экстракция",
+          "desc": "Сила монет +1, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[WhenUse] Если свои ОЗ ниже 75%, тратит 40 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> для получения +2 к Силе в столкновении (Единожды за ход)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             }
@@ -363,26 +363,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutilate",
-          "desc": "[DefeatDuel] At 75%- HP, consume 60 [OwnTime] and gain Clash Power +2\n[BeforeAttack] When in [TimeAcceleration] state, gain +3 Atk Weight\n[BeforeAttack] At 60%- HP, consume 10 [OwnTime] and gain +1 Atk Weight",
+          "name": "Рассечение",
+          "desc": "[WhenUse] Если свои ОЗ ниже 75%, тратит 60 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> для получения +2 к Силе в столкновении\n[BeforeAttack] Количество целей повышается на 3, пока в состоянии <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color>\n[BeforeAttack] Если свои ОЗ ниже 60%, тратит 10 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> для повышения Количества целей на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -395,8 +395,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to be Saved",
-          "desc": "[CantDuel]\nInflict [TimeKillerWatch] against the target that used an Attack Skill against this unit\n[StartBattle] Consume 200 [OwnTime] and gain [TimeAcceleration] next turn)",
+          "name": "Время спасения",
+          "desc": "[CantDuel]\nВыбирает <sprite name=\"TimeKillerWatch\"><color=#c57609><u><link=\"TimeKillerWatch\">Целью спасения времени</link></u></color> противника, использовавшего атакующий навык против Потрошителя времени\n[StartBattle] Тратит 200 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> и переходит в состояние <sprite name=\"TimeAcceleration\"><color=#f0a200><u><link=\"TimeAcceleration\">Ускоренного времени</link></u></color> в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
@@ -414,8 +414,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
-          "desc": "[WhenUse] Base Power +1 for every 50 sum of [OwnTime] across all Parts (max 3)",
+          "name": "Уворот",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 50 в сумме <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -433,13 +433,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Timekilling Time",
-          "desc": "[CantDuel]\nThis unit's Speed is fixed at 24.\nCannot be Staggered this turn.\n[WhenUse] Takes a total of 400 [OwnTime] from everyone, then consumes it.",
+          "name": "Время, убивающее время",
+          "desc": "[CantDuel]\nСкорость Потрошителя времени фиксируется на 24\nПотрошителя времени нельзя оглушить в этом ходе\n[WhenUse] Тратит в общей сложности 400 <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённого времени</link></u></color> со всех частей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Erase the target's time. Once this unit erases the target's time, all Parts recover [OwnTime] to their max values and gain 10 Haste and 10 Attack Power Up next turn."
+                  "desc": "[OnSucceedAttack] Стирает время цели. Если время цели стёрто, все части полностью восстанавливают <sprite name=\"OwnTime\"><color=#f5be14><u><link=\"OwnTime\">Распределённое время</link></u></color>, а также получают 10 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 10 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышений силы атаки</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -452,7 +452,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "We Need More Time!",
+          "name": "Мне нужно больше времени!",
           "desc": "",
           "coinlist": [
             {}
