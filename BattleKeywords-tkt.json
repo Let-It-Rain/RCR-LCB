@@ -16,7 +16,7 @@
     {
       "id": "VibrationDistribution",
       "name": "Тряска — Распределение",
-      "desc": "· В конце хода получает (Сумма счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> всех союзников / число живых союзников) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход (До 5)\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color>",
+      "desc": "· В конце хода получает (Сумма счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> всех союзников / число живых союзников) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход (До 5)\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
@@ -37,7 +37,7 @@
     {
       "id": "TimeRentalTwo",
       "name": "Одолженное время Корп. T",
-      "desc": "В конце хода потенциал повышается на 1, а счётчик понижается на 1\n\nВ конце хода:\n· Получает (Счётчик эффекта - 1) <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышений силы в столкновении</link></u></color> и <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> на следующий ход\n· Если количество <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> превышает количество <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженное время</link></u></color> прекращает своё действие, оглушая носителя\n\nКогда счётчик достигает 1 к концу хода:\n· Получает ((Потенциал эффекта -1) × 2) <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> на следующий ход вместо тех эффектов",
+      "desc": "В конце хода потенциал повышается на 1, а счетчик понижается на 1\n\nВ конце хода:\n· Получает (Счетчик эффекта - 1) <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышений силы в столкновении</link></u></color> и <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> на следующий ход\n· Если количество <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> превышает количество <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"TimeRentalTwo\"><color=#f8c200><u><link=\"TimeRentalTwo\">Одолженное время</link></u></color> прекращает свое действие, оглушая носителя\n\nКогда счетчик достигает 1 к концу хода:\n· Получает ((Потенциал эффекта -1) × 2) <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> на следующий ход вместо тех эффектов",
       "summary": "",
       "undefined": "-"
     },
@@ -71,22 +71,22 @@
     },
     {
       "id": "OwnTime",
-      "name": "Распределённое время",
+      "name": "Распределенное время",
       "desc": "· Если в начале хода значение равно или превышает 40, получает ((Значение - 40) / 10) <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color>\n· Если в начале хода значение менее 40, получает ((40 - Значение) / 10) <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижений уровня атаки</link></u></color> и <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "EquitableDistribution",
-      "name": "Издержки распределённого времени",
-      "desc": "При трате <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> все Мозги тратят одинаковое количество",
+      "name": "Издержки распределенного времени",
+      "desc": "При трате <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределенного времени</link></u></color> все Мозги тратят одинаковое количество",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnfairDistribution",
       "name": "Распри",
-      "desc": "· При трате <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> все Мозги теперь тратят его вразнобой\n· В начале хода все части теряют <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> по числу частей, имеющих разное количество <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>",
+      "desc": "· При трате <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределенного времени</link></u></color> все Мозги теперь тратят его вразнобой\n· В начале хода все части теряют <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> по числу частей, имеющих разное количество <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределенного времени</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
@@ -100,14 +100,14 @@
     {
       "id": "Yurodivy_LowMorale",
       "name": "Расколотое единство (Низкий дух)",
-      "desc": "· Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>\n· При получении урона свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> повышается на 1 (До 3)",
+      "desc": "· Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>\n· При получении урона свой счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> повышается на 1 (До 3)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Yurodivy_Panic",
       "name": "Расколотое единство (Паника)",
-      "desc": "· Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>\n· При получении урона свой счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> повышается на 2 (До 3)",
+      "desc": "· Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>\n· При получении урона свой счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> повышается на 2 (До 3)",
       "summary": "",
       "undefined": "-"
     },
