@@ -9,7 +9,7 @@
     {
       "id": "VibrationIgnition",
       "name": "Тремор — Ожог",
-      "desc": "· При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокации Тремора</link></u></color> также <b>наносит урон Гневом</b>, равный (Сумма силы <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремора</link></u></color> и <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> / 2), понижая счетчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> на 1\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+      "desc": "· При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокации Тремора</link></u></color> также <b>наносит урон Прогревом</b>, равный (Сумма силы <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремора</link></u></color> и <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> / 2), понижая счетчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> на 1\n※ Сохраняет все остальные свойства обычного <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
       "summary": ""
     },
     {
@@ -111,13 +111,13 @@
     {
       "id": "LeRegole_LowMorale",
       "name": "Жесткий устав (Низкий дух)",
-      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышение урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в прошлом ходе, получает 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Гневом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
+      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышение урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в прошлом ходе, получает 1 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышение урона Прогревом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
       "summary": ""
     },
     {
       "id": "LeRegole_Panic",
       "name": "Жесткий устав (Паника)",
-      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 2 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышения урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в прошлом ходе, получает 2 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышения урона Гневом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
+      "desc": "· Если удалось нанести 2 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> в прошлом ходе, получает 2 <sprite name=\"AmberDamageUp\"><color=#f8c200><u><link=\"AmberDamageUp\">Повышения урона Леностью</link></u></color>\n· Если удалось нанести 2 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color> в прошлом ходе, получает 2 <sprite name=\"CrimsonDamageUp\"><color=#f8c200><u><link=\"CrimsonDamageUp\">Повышения урона Прогревом</link></u></color>\n· Если не удалось нанести ничего из этого, получает 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>",
       "summary": ""
     },
     {
@@ -284,13 +284,13 @@
     },
     {
       "id": "Honglu_Nu",
-      "name": "Счастье, Радость, Печаль, Гнев",
+      "name": "Счастье, Радость, Печаль, Прогрев",
       "desc": "Итоговая сила Хон Лу +5\n· Пока остается хотя бы один живой союзник, Хон Лу не может получить смертельный урон, а вместо этого восстанавливается до 50% HP после получения атаки\n· Все союзники восстанавливают 5 SP в начале каждого хода\n· Когда умирает союзник, все оставшиеся получают 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> в следующем ходе (Единожды за ход)\n· Повышает наносимый урон на 30% от итогового процента потерянных HP за всю эту битву (До 100%)\n· После столкновения против Цзя Му дает по 1 случайному ЭГО Ресурсу для 3 наименее имеющихся",
       "summary": ""
     },
     {
       "id": "Honglu_Nu_Mirror",
-      "name": "Счастье, Радость, Печаль, Гнев",
+      "name": "Счастье, Радость, Печаль, Прогрев",
       "desc": "Итоговая сила +5\n· Все союзники восстанавливают 5 SP в начале каждого хода\n· Когда умирает союзник, все оставшиеся получают 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> в следующем ходе (Единожды за ход)\n· Повышает наносимый урон на 30% от итогового процента потерянных HP за всю эту битву (До 100%)\n· После столкновения против Цзя Му дает по 1 случайному ЭГО Ресурсу для 3 наименее имеющихся",
       "summary": ""
     },
