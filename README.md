@@ -34,7 +34,7 @@
 - [x] **Nocturnal Sweeping** 7.5 (2)
 - [x] **Spring Cultivation** 8.5 (1)
 
-!!! Перевод сюжета взят от [MTL](https://github.com/kimght/LimbusCompanyRuMTL), пока шуток в нем нет.
+!!! Перевод сюжета взят от [MTL](https://github.com/kimght/LimbusCompanyRuMTL), вы можете увидеть пару шуток местами, но мы стараемся сохранить смысл сюжета.
 
 ### Остальное
 - [x] Гифты
