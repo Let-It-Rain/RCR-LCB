@@ -86,6 +86,12 @@ if response.status_code == 200:
 
 
 # ----- Сам релиз -----
+import os
+import shutil
+import subprocess
+from tkinter import messagebox
+
+# ----- Сам релиз -----
 def build_archive():
     version = version_entry.get().strip()
     description = description_entry.get().strip()
@@ -93,31 +99,39 @@ def build_archive():
     if not version:
         messagebox.showerror("ЭЭЭЭ КУДААА", "Версию напиши")
         return
-    
+
     src_localize = './localize'
     dst_rcr = './dist/RCR'
     dst = './dist/'
     submodule_path = './localize/StoryData'
     dst_storydata = os.path.join(dst_rcr, 'StoryData')
-    
-    
+
     archive_name = os.path.join(dst, f'v{version}')
 
     try:
+        # Clean destination
         if os.path.exists(dst_rcr):
             shutil.rmtree(dst_rcr)
-        shutil.copytree(src_localize, dst_rcr)
-        subprocess.run(['git', 'submodule', 'update', '--init', '--recursive', 'localize/StoryData'], check=True)
+
+        # Ensure the submodule is initialized and updated
+        subprocess.run(['git', 'submodule', 'update', '--init', '--recursive'], check=True)
+
+        # Copy main localize folder first, ignoring StoryData
+        shutil.copytree(src_localize, dst_rcr, dirs_exist_ok=True, ignore=shutil.ignore_patterns('StoryData'))
+
+        # Copy StoryData submodule into the destination
         if os.path.exists(dst_storydata):
             shutil.rmtree(dst_storydata)
-        shutil.copytree(submodule_path, dst_storydata)
-        
-        
+        shutil.copytree(submodule_path, dst_storydata, dirs_exist_ok=True)
+
+        # Make zip archive of the release
         shutil.make_archive(archive_name, 'zip', dst_rcr)
+
+        # Push to GitHub
         push_to_github(version, description, f"{archive_name}.zip")
-        
-        
+
         messagebox.showinfo("Заебок", f"Релиз создан: {archive_name}")
+
     except Exception as e:
         messagebox.showerror("Ашыбка, кинь скрин", str(e))
         
