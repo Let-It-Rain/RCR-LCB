@@ -1,0 +1,74 @@
+﻿{
+  "dataList": [
+    {
+      "id": 837101,
+      "name": "Удобный случай",
+      "desc": "В начале хода: если быстрее цели, получает 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение Пронзающего урона</link></u></color>."
+    },
+    {
+      "id": 837102,
+      "name": "Размеренный кумар",
+      "desc": "В конце хода восстанавливает 7 SP и получает <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, равную (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> / 4) на следующий ход (До 3)"
+    },
+    {
+      "id": 837103,
+      "name": "Поединок",
+      "desc": "Использует навык «Салют», если цель оглушена."
+    },
+    {
+      "id": 837104,
+      "name": "Прицельная атака",
+      "desc": "При использовании навыка против того же слота навыков своего противника, по которому Камилл успешно попал в прошлом ходу, он получает эффекты в зависимости от количества последовательных попаданий по нему.\nСбрасывается, если не удалось атаковать в прошлом ходу.\n- 1 последовательное попадание: Сила в столкновении +1\n- 2 последовательных попадания: Базовая сила +1\n- 3 последовательных попадания: Базовая сила +1, Сила монет +1"
+    },
+    {
+      "id": 837201,
+      "name": "Я первая тебя разрежу!",
+      "desc": "Отдает приоритет <sprite name=\"LineCutting\"><color=#e30000><u><link=\"LineCutting\">Цели шитья</link></u></color>."
+    },
+    {
+      "id": 837202,
+      "name": "Ножницы из застывшей крови",
+      "desc": "Восстанавливает HP части и ядра на 40% от урона, нанесенного цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупом</link></u></color>.\n\nПосле атаки, если восстановилось хотя бы 100 HP, восстанавливает 10 SP.\n\nДля навыков с <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными монетами</link></u></color>: эффект не срабатывает при попадании после проигрыша в столкновении."
+    },
+    {
+      "id": 837203,
+      "name": "Мне не нужны уродливые вещи!!",
+      "desc": "Если есть противники с 30% или менее HP, использует навык «Мне не нужны уродливые вещи!!»."
+    },
+    {
+      "id": 837204,
+      "name": "Это еще не конец",
+      "desc": "Меняет поведение при 40% от максимального HP, при этом получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и 2 <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Окровавленных лезвия ножниц</link></u></color>."
+    },
+    {
+      "id": 837205,
+      "name": "Кровавый пир",
+      "desc": "Если находится на поле боя или является одним из тех, кто может появиться на этом этапе, увеличивает значение <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Борща</link></u></color> на величину урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, полученного всеми участниками битвы.\nПри выходе на поле боя, пропитавшая его спящая кровь заполняет поверхность."
+    },
+    {
+      "id": 837206,
+      "name": "Пропитанные кровью ножницы",
+      "desc": "В начале боевой фазы получает 10 <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Окровавленных лезвий ножниц</link></u></color>.\n\n- Количество <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Окровавленных лезвий ножниц</link></u></color> не может опуститься ниже 1\n- При 10+ <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Окровавленных лезвий ножниц</link></u></color> они переходят в <sprite name=\"BloodScissorTwo\"><color=#f8c200><u><link=\"BloodScissorTwo\">Вилка для аборта II</link></u></color>\n- При 20+ <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Окровавленных лезвий ножниц</link></u></color> они переходят в <sprite name=\"BloodScissorThree\"><color=#f8c200><u><link=\"BloodScissorThree\">Вилка для аборта III</link></u></color>\n\nПри расходовании <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Окровавленных лезвий ножниц</link></u></color>, если их количество падает ниже значений фаз, их фаза снижается."
+    },
+    {
+      "id": 837207,
+      "name": "Голод и иссушение",
+      "desc": "Находится в состоянии <sprite name=\"StarvingBarberTwo\"><color=#e30000><u><link=\"StarvingBarberTwo\">Иссушения</link></u></color> на протяжении всей битвы."
+    },
+    {
+      "id": 837208,
+      "name": "Кровь... Кровь... КРОВЬ...!",
+      "desc": "В конце хода: если в состоянии срыва, восстанавливается от срыва в начале следующего хода и сбрасывает SP до 0.\n\nПри восстановлении от срыва:\n- Поглощает 30 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Борща</link></u></color>, чтобы получить 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 1 <sprite name=\"BloodScissor\"><color=#f8c200><u><link=\"BloodScissor\">Вилка для аборта</link></u></color> в следующем ходу, а так же восстанавливает 20 SP.\n- Если не удалось поглотить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Борщ</link></u></color>, получает 30 урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупом</link></u></color> и теряет 3 его счетчика. После этого получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>, 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color>, а так же восстанавливает 20 SP в следующем ходу."
+    },
+    {
+      "id": 9999997,
+      "name": "Выход из срыва",
+      "desc": "Если в конце хода находится в состоянии срыва, восстанавливает SP до 0."
+    },
+    {
+      "id": 9999996,
+      "name": "Неизменный тип срыва",
+      "desc": "При получении эффектов, меняющих тип срыва, его тип остается неизменным. Вместо этого эффект работает как на противнике без силы духа."
+    }
+  ]
+}
