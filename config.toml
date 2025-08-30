@@ -1,0 +1,74 @@
+[font]
+repo = "kimght/LimbusFonts"
+# local path if repo is not set, else asset name in repo releases
+replacement_map_path = "replacement_map.json"
+
+[[font.include]]
+path = "Context/Context.ttf"
+filename = "Context.ttf"
+
+[[font.include]]
+path = "Title/Title.ttf"
+filename = "Title.ttf"
+
+[reference]
+repo = "x1bViolet/Limbus-Localization-Files"
+branch = "English"
+path = ""
+
+[[font_rules."Enemies*.json"]]
+font = "bebas"
+path = '$.dataList[*].name'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].company'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].area'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].chapter'
+
+[[font_rules."SeasonTitle.json"]]
+font = "bebas"
+path = '$.dataList[*].content'
+
+[[font_rules."Ch8VideoEffectSettings.json"]]
+font = "mikodacs"
+path = '$.dataList[*].texts[*].texts[*].text'
+
+
+[priority]
+order = [
+  "StoryData/*.json"
+]
+
+[keyword_shorthands]
+regex = "\\[(?P<keyword_id>\\w+):`(?P<text>.*?)`\\](\\((?P<color>#[a-fA-F0-9]{6})\\))?"
+apply_for = [
+  "Skills*.json",
+  "Passive*.json",
+  "EGOgift_*.json",
+  "PanicInfo*.json",
+  "BuffAbilities.json",
+  "MentalCondition*.json",
+  "BattleKeywords*.json",
+  "Bufs*.json",
+]
+
+# no_link = [
+#   "BattleKeywords*.json",
+#   "Bufs*.json",
+#   "PanicInfo*.json",
+# ]
+
+[xml_escape]
+singular_keywords = [
+  "sprite",
+  "style",
+  "align",
+  "size"
+]
