@@ -113,16 +113,7 @@ def build_archive():
         if os.path.exists(dst_rcr):
             shutil.rmtree(dst_rcr)
 
-        # Ensure the submodule is initialized and updated
-        subprocess.run(['git', 'submodule', 'update', '--init', '--recursive'], check=True)
-
-        # Copy main localize folder first, ignoring StoryData
-        shutil.copytree(src_localize, dst_rcr, dirs_exist_ok=True, ignore=shutil.ignore_patterns('StoryData'))
-
-        # Copy StoryData submodule into the destination
-        if os.path.exists(dst_storydata):
-            shutil.rmtree(dst_storydata)
-        shutil.copytree(submodule_path, dst_storydata, dirs_exist_ok=True)
+        shutil.copytree(src_localize, dst_rcr, dirs_exist_ok=True)
 
         # Make zip archive of the release
         shutil.make_archive(archive_name, 'zip', dst_rcr)
