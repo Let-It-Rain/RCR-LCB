@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ironsteed Trample",
-          "desc": "[WhenUse] If target has 6+ ([Burst] + [Vibration]), Base Power +3\n[DefeatDuel] Reduce target's [Vibration] Potency by 2",
+          "name": "Стальные копыта",
+          "desc": "[WhenUse] Базовая сила +3 против целей с 6 и более единицами в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`]\n[DefeatDuel] Сила [Vibration:`Тремора`] цели снижается на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             }
@@ -31,34 +31,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rupturing Trample",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on target (max 4)",
+          "name": "Разрывающее топтание",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 4 единицы в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] на цели (До 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             }
@@ -71,13 +71,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Line-Crushing Cavalry Charge",
-          "desc": "[WhenUse] If target has 6+ ([Burst] + [Vibration]), Base Power +2\n[WhenUse] At -30 or lower SP, this unit's Coins always flip Tails\n[DefeatDuel] Reduce target's [Vibration] Potency by 2",
+          "name": "Прорывающая кавалерийная атака",
+          "desc": "[WhenUse] Базовая сила +2 против целей с 6 и более единицами в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`]\n[WhenUse] Все монеты этого навыка выпадают решками при -30 СД и ниже\n[DefeatDuel] Сила [Vibration:`Тремора`] цели снижается на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Burst] and +5 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Burst:`Разрывов`] и повышает его счётчик на 5"
                 }
               ]
             }
@@ -90,33 +90,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Trample and Decapitate",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on target (max 4)\n- At 15+ ([Burst] + [Vibration]) on target, Minus Coin Power +1",
+          "name": "Растоптать и обезглавить",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 4 единицы в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] на цели (До 4)\n- Если сумма равна 15 и более, Сила отрицательных монет +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -129,49 +129,49 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Filthy snakes... I'll crush you all...",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on the main target (max 4)\n[DefeatDuel] Base Power -8\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Мерзкие змеи... Я вас всех раздавлю...",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 4 единицы в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] на главной цели (До 4)\n[DefeatDuel] Базовая сила -8\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [SweptAwayWei] against sub-targets next turn"
+                  "desc": "[OnSucceedAttack] Наносит [SweptAwayWei:`Ошеломление`] на следующий ход дополнительным целям"
                 }
               ]
             }
@@ -184,32 +184,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swiftsteed Linebreaker",
-          "desc": "[WhenUse] Base Power +2 for every 4 ([Burst] + [Vibration]) on the main target (max 6)\n[DefeatDuel] Base Power -5\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Стремительный прорыв обороны",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 4 единицы в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] на главной цели (До 6)\n[DefeatDuel] Базовая сила -5\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If it's the main target, inflict +5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`] главной цели"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Vibration] against 1 sub-target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vibration:`Тремора`] случайной дополнительной цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict [SweptAwayWei] against sub-targets next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит [SweptAwayWei:`Ошеломление`] на следующий ход дополнительным целям"
                 }
               ]
             }
@@ -222,46 +222,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Shall Not Pass...!",
-          "desc": "Prioritizes the target with the least [Vibration] Potency\n[WhenUse] If target does not have [Vibration], Base Power -5\n[BeforeAttack] If target does not have [Vibration], deal -90% damage\n[DefeatDuel] Base Power -4\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Вы не пройдёте...!",
+          "desc": "Нацеливается на противника с наименьшей силой [Vibration:`Тремора`]\n[WhenUse] Базовая сила -5 против целей без [Vibration:`Тремора`]\n[BeforeAttack] Если на цели нет [Vibration:`Тремора`], наносит ей на 90% меньше урона\n[DefeatDuel] Базовая сила -4\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -274,55 +274,55 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mad Steed's Voidrender",
-          "desc": "Deal +1% damage for every 1% missing HP on self (max 80%)\n[BeforeAttack] At 50% or less HP, gain +2 more Atk Weight\n[BeforeAttack] If this unit does not have [LegStrengthHorse], this Skill deals +120% damage; then, gain 2 [Vulnerable] next turn\n[DefeatDuel] Base Power -12\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Безумный опустошающий марш",
+          "desc": "Наносит на 1% больше урона за каждый 1% потерянных ОЗ (До 80%)\n[BeforeAttack] Количество целей +2 при ОЗ ниже 50%\n[BeforeAttack] Если нет [LegStrengthHorse:`Стремительности 【У】`], наносит на 120% больше урона этой атакой и получает 2 [Vulnerable:`Уязвимости`] на следующий ход\n[DefeatDuel] Базовая сила -12\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Burst] and +5 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Burst:`Разрывов`] и повышает его счётчик на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Vibration] and +5 [Vibration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Vibration:`Тремора`] и повышает его счётчик на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -335,20 +335,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Frontal Swirl (前旋斬)",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Gain 1 [SipOfAlcoholJin]",
+          "name": "Фронтальный вихрь",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 1 [SipOfAlcoholJin:`Глоток алкоголя`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -361,23 +361,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Way of the Open-throat Chugging (咽道酒)",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Gain 1 [SipOfAlcoholJin]",
+          "name": "Техника быстрого опохмеления",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 1 [SipOfAlcoholJin:`Глоток алкоголя`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ [Laceration], inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration:`Кровотечения`], повышает его счётчик на 2"
                 }
               ]
             }
@@ -390,39 +390,39 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Waterfall (落酒)",
-          "desc": "[WhenUse] If target has 5+ [Laceration], Coin Power +1\n[WhenUse] Base Power +1 for every [DrunkBlood] Count on target (max 2)\n[WinDuel] Gain 1 [SipOfAlcoholJin]\n[DefeatDuel] Lose 2 [SipOfAlcoholJin]",
+          "name": "Водопад",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Базовая сила +1 за каждое [DrunkBlood:`Кровопролитие`] на цели (До 2)\n[WinDuel] Получает 1 [SipOfAlcoholJin:`Глоток алкоголя`]\n[DefeatDuel] Теряет 2 [SipOfAlcoholJin:`Глотка алкоголя`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             }
@@ -435,30 +435,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunklaim (取)",
-          "desc": "[WhenUse] Coin Power +1 for every 5 [Laceration] on target (max 2)\n[WhenUse] Base Power +1 for every [DrunkBlood] on target (max 2)\n[WhenUse] At 3+ [SipOfAlcoholJin], convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Пьяное мастерство",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Базовая сила +1 за каждое [DrunkBlood:`Кровопролитие`] на цели (До 2)\n[WhenUse] При 3 и более [SipOfAlcoholJin:`Глотках алкоголя`] все монеты становятся [SuperCoin:`Вечными`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 20%)"
+                  "desc": "На (Сумма силы и счётчика [Laceration:`Кровотечения`] цели)% больше урона (До 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has 3+ [SipOfAlcoholJin], reuse this Skill once (once per Skill)"
+                  "desc": "[OnSucceedAttack] При 3 и более [SipOfAlcoholJin:`Глотках алкоголя`] снова использует этот навык (Единожды за ход)"
                 }
               ]
             }
@@ -471,22 +471,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "True Decapitation Deathblow (眞鎭終斬)",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Laceration] on target (max 10)\n[WhenUse] If target has [DrunkBlood], convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Подлинный обезглавливающий размах",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 [Laceration:`Кровотечения`] на цели (До 10)\n[WhenUse] Если на цели есть [DrunkBlood:`Кровопролитие`], монета становится [SuperCoin:`Вечной`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "На (Сумма силы и счётчика [Laceration:`Кровотечения`] цели)% больше урона (До 100%)"
                 },
                 {
-                  "desc": "Deal +10% damage for every [DrunkBlood] on target (max 50%)"
+                  "desc": "На ([DrunkBlood:`Кровопролитие`] цели × 10)% больше урона (До 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [SipOfAlcoholJin]"
+                  "desc": "[OnSucceedAttack] Получает 2 [SipOfAlcoholJin:`Глотка алкоголя`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] on target x 5) Lust damage (max 25)"
+                  "desc": "[OnSucceedAttack] Наносит ([DrunkBlood:`Кровопролитие`] цели × 5) урона Похотью (До 25)"
                 }
               ]
             }
@@ -499,8 +499,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Intoxicated Leaning (醉靠)",
-          "desc": "[WhenUse] Gain 10 Shield for every [SipOfAlcoholJin] on self (max 50)\n[WhenUse] If target has [DrunkBlood], inflict 5 [Laceration]",
+          "name": "Опьянённое размышление",
+          "desc": "[WhenUse] Получает 10 ОЗ Щита за каждый [SipOfAlcoholJin:`Глоток алкоголя`] (До 50)\n[WhenUse] Если на цели есть [DrunkBlood:`Кровопролитие`], наносит ей 5 [Laceration:`Кровотечения`]",
           "coinlist": [
             {}
           ]
@@ -512,20 +512,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunken Returning Strike (醉回攻)",
-          "desc": "[DuelCounter]\n[WhenUse] Deal +20% damage for every [SipOfAlcoholJin] on self (max 100%)\n[WhenUse] If target has [DrunkBlood], deal +50% damage",
+          "name": "Ответный пьяный удар",
+          "desc": "[DuelCounter]\n[WhenUse] Наносит на 20% больше урона за каждый [SipOfAlcoholJin:`Глоток алкоголя`] (До 100%)\n[WhenUse] Наносит на 50% больше урона целям с [DrunkBlood:`Кровопролитием`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [SlashResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [SlashResistDown:`Понижения сопротивления к Рубящему урону`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal ([DrunkBlood] on target x 5) Lust damage (max 25)"
+                  "desc": "[OnSucceedAttack] Наносит ([DrunkBlood:`Кровопролитие`] цели × 5) урона Похотью (До 25)"
                 }
               ]
             }
@@ -538,25 +538,25 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ultimate True Decapitation Deathblow (眞-眞鎭終斬)",
-          "desc": "Prioritizes Jia Xichun\n[CantChangeTarget]\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1\n[WhenUse] Gain 1 [AttackUp] and 1 [Agility] next turn for every [SipOfAlcoholJin] on self (max 3)\n[WinDuel] Gain +7 Atk Weight",
+          "name": "Решающий подлинный обезглавливающий размах",
+          "desc": "Нацеливается на Цзя Сичунь\n[CantChangeTarget]\n[WhenUse] Сила монет +1 против более медленных целей\n[WhenUse] Получает на следующий ход 1 [AttackUp:`Повышение уровня атаки`] и 1 [Agility:`Спешку`] за каждый [SipOfAlcoholJin:`Глоток алкоголя`] (До 3)\n[WinDuel] Количество целей +7",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "На (Сумма силы и счётчика [Laceration:`Кровотечения`] цели)% больше урона (До 100%)"
                 },
                 {
-                  "desc": "Deal +10% damage for every [DrunkBlood] on target (max 50%)"
+                  "desc": "На ([DrunkBlood:`Кровопролитие`] цели × 10)% больше урона (До 50%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal ([DrunkBlood] on target x 10) Lust damage (max 50)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ([DrunkBlood:`Кровопролитие`] цели × 10) урона Похотью (До 50)"
                 }
               ]
             }
@@ -569,16 +569,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunken Decapitation Bladefall (落醉斬)",
-          "desc": "[WhenUse] Base Power +1 for every 5 [Breath] on self (max 2)\n[WhenUse] If this unit's Speed is faster than the target's, Coin Power +1",
+          "name": "Рассекающее падение меча",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 [Breath:`Дыхания`] (До 2)\n[WhenUse] Сила монет +1 против более медленных целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Ultimate True Decapitation Deathblow (眞-眞鎭終斬) deals +20% damage"
+                  "desc": "「Решающий подлинный обезглавливающий размах」 наносит на 20% больше урона"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Reuse this Coin (5 times max)"
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 5 раз)"
                 }
               ]
             }
@@ -591,8 +591,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Drunken Shadowwalking (醉影步)",
-          "desc": "[WhenUse] Base Power +6 for every 2 surviving ally (max 12)\n[OnSucceedEvade] Gain 3 [Breath]\n[EndBattle] Gain +2 [Breath] Count",
+          "name": "Шаг пьяной тени",
+          "desc": "[WhenUse] Базовая сила +6 за каждых двух живых союзников (До 12)\n[OnSucceedEvade] Получает 3 [Breath:`Дыхания`]\n[EndBattle] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -610,19 +610,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "True Decapitation Deathblow",
-          "desc": "[StartBattle] HP does not drop below 1 before this Skill ends.\n[WhenUse] Gain 10 [AttackUp]\n[WhenUse] Gain 5 [Enhancement]\n[WhenUse] Gain 10 [AttackDmgUp]\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Подлинный обезглавливающий размах",
+          "desc": "[StartBattle] ОЗ не могут упасть ниже 1 до окончания использования этого навыка\n[WhenUse] Получает 10 [AttackUp:`Повышений уровня атаки`]\n[WhenUse] Получает 5 [Enhancement:`Повышений силы атаки`]\n[WhenUse] Получает 10 [AttackDmgUp:`Повышений урона`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Deal +1% damage for every ([Laceration] + [Laceration] Count) on the target (max 100%)"
+                  "desc": "На (Сумма силы и счётчика [Laceration:`Кровотечения`] цели)% больше урона (До 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 5 [SipOfAlcohol]"
+                  "desc": "[OnSucceedAttack] Получает 5 [SipOfAlcohol:`Глотков алкоголя`]"
                 }
               ]
             }
@@ -635,13 +635,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Downward Slam",
+          "name": "Нисходящий взмах",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -654,8 +654,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stick Combo",
-          "desc": "[WinDuel] Deal +30% damage",
+          "name": "Комбо палкой",
+          "desc": "[WinDuel] Наносит на 30% больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -687,27 +687,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Powerful Swing",
-          "desc": "[WinDuel] Gain 1 [Enhancement]",
+          "name": "Мощный удар",
+          "desc": "[WinDuel] Получает 1 [Enhancement:`Повышение силы атаки`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             }
@@ -720,7 +720,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counter",
+          "name": "Контратака",
           "desc": "",
           "coinlist": [
             {
@@ -739,56 +739,56 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Growth",
-          "desc": "[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Рост",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +20% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На 20% больше урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal +50% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На 20% больше урона"
                 }
               ]
             }
@@ -801,42 +801,42 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spirit Talisman School - Vilerage",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Burst] on target (max 4)\n[DefeatDuel] Deal -50% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Школа духовных талисманов - Разобщенность",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 4)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [OminousTalisman]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Remove all [OminousTalisman] on target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Снимает с цели все [OminousTalisman:`Предзнаменующие талисманы`]"
                 }
               ]
             }
@@ -849,20 +849,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oh, damn...",
+          "name": "Вот жешь чёрт..",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -875,14 +875,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "What is this foolish pretend-fight?",
+          "name": "Что это за глупая притворная борьба?",
           "desc": "",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`] на следующий ход"
                 }
               ]
             }
@@ -896,31 +896,31 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[WhenUse] Coin Power +1 for every 6 [Burst] on target (max 2)\n[DefeatDuel] Gain 1 [Vulnerable]",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более типами негативных \n[WhenUse] Сила монет +1 за каждые 6 [Burst:`Разрывов`] на цели (До 2)\n[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
                 }
               ]
             }
@@ -933,16 +933,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "What's this Child's Play?",
-          "desc": "[WhenUse] Heal 15 SP\n[WhenUse] If target has 3+ types of negative effects, Base Power +1",
+          "name": "Ну и детские же это игры",
+          "desc": "[WhenUse] Восстанавливает 15 СД\n[WhenUse] Базовая сила +1 против целей с 3 и более типами негативных эффектов",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             }
