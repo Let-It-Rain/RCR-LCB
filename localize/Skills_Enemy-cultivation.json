@@ -5,16 +5,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Palm",
-          "desc": "[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Удлиняющаяся ладонь",
+          "desc": "[WhenUse] Сила монет +1 за каждые 10 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             }
@@ -27,23 +27,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puncturing Serpent Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 3)",
+          "name": "Пронзающая змеиная рука",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, наносит ей 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -56,22 +56,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Concealed Puncture",
-          "desc": "If this unit has [SnakeStance] and target has [BurstPoison], this Skill becomes an Unclashable Skill\nCoin Power +1 for every 4 ([Breath] on self + [Burst] on target) (max 10)\n[WinDuel] Inflict +2 [Burst] Count and gain +2 [Breath] Count",
+          "name": "Пронзающий змеиный удар",
+          "desc": "С этой атакой [CantDuel], если имеется <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиная рука</link></u></color> и на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>\nСила монет +1 за каждые 4 единицы в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 10)\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели на 2\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +25% damage for every [SnakeStance] on self (max 50%)"
+                  "desc": "На 25% больше урона за каждую <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиную руку</link></u></color> (До 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 3 [BurstPoison] for every [SnakeStance] on self (max 5 per turn)"
+                  "desc": "[OnSucceedAttack] Понижает <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color> цели на 3 за каждую <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиную руку</link></u></color> (До 5 раз за ход)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison] next turn"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color> в следующем ходе"
                 }
               ]
             }
@@ -84,13 +84,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Eyeing for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)\n[WhenUse] Gain 3 [SnakeStance] (once per Skill)",
+          "name": "Выжидание шанса",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 2)\n[WhenUse] Получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиной руки</link></u></color> (Единожды за навык)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
@@ -103,16 +103,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 10 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Удлиняющаяся ладонь",
+          "desc": "[WhenUse] Сила монет +1 за каждые 10 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             }
@@ -125,23 +125,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gnawing Serpent Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 3)",
+          "name": "Змеиная рука",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
                 }
               ]
             }
@@ -154,29 +154,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Shadowed Puncture",
-          "desc": "[WhenUse] Coin Power +1 for every 8 (sum of this unit's [Breath] Potency and target's [Burst] Potency) (max 4)\n[WinDuel] Inflict +2 [Burst] Count\n[WinDuel] Gain +2 [Breath] Count",
+          "name": "Змеиное копьё",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 4)\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели на 2\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color> в следующем ходе (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [SnakeStance], Reuse this Coin once (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если имеется <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиная рука</link></u></color>, вновь подкидывает эту монету (Единожды за навык)"
                 },
                 {
-                  "desc": "- The Reused Coin deals -70% damage"
+                  "desc": "[ReUse] На 70% меньше урона"
                 }
               ]
             }
@@ -189,13 +189,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Observe for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 2)\n[WhenUse] Gain 3 [SnakeStance] (once per Skill)",
+          "name": "Выжидание шанса",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 2)\n[WhenUse] Получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиной руки</link></u></color> (Единожды за навык)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
@@ -208,22 +208,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Mutated Elongating Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 10 ([Breath] on self + [Burst] on target) (max 2)\n[WinDuel] Gain +3 [Breath] Count",
+          "name": "Мутированная удлиняющаяся рука",
+          "desc": "[WhenUse] Сила монет +1 за каждые 10 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] If this unit has 10+ [Breath], gain 1 [SnakeStance] and Reuse Coin once (once per Skill; can gain up to 2 [SnakeStance] per turn)"
+                  "desc": "[CriticalOnSucceedAttack] Если имеется 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, получает 1 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиную руку</link></u></color> и вновь подкидывает эту монету 1 раз (До 2 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиной руки</link></u></color> за ход)"
                 }
               ]
             }
@@ -236,36 +236,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Elongating Serpent Arm",
-          "desc": "[WhenUse] Coin Power +1 for every 8 ([Breath] on self + [Burst] on target) (max 3)\n[BeforeAttack] If this unit has [SnakeStance], gain +2 Atk Weight\n- Becomes a [WideAreaRampage] Skill\n- When attacking the same target, if target has 2 or fewer [Burst] Count, inflict +1 [Burst] Count and consume 1 [BurstPoison]\n[WinDuel] Inflict +1 [Burst] Count on all targets",
+          "name": "Удлиняющаяся змеиная рука",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 3)\n[BeforeAttack] Количество целей повышается на 2 при наличии <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиной руки</link></u></color>\n- Атакует <sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированным залпом</link></u></color> при этом\n- Если атакует одну и ту же цель несколько раз и её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> равен 2 и менее, то повышает его на 1 и понижает <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color> на 1\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [BurstPoison], inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>, повышает её счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             }
@@ -278,22 +278,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Serpent's Keenlance",
-          "desc": "If this unit has [SnakeStance] and target has [BurstPoison], this Skill becomes an Unclashable Skill\n[WhenUse] Coin Power +1 for every 4 ([Breath] on self + [Burst] on target) (max 10)\n[WinDuel] Inflict +2 [Burst] Count and gain +3 [Breath] Count",
+          "name": "Змеиный клык",
+          "desc": "С этим навыком [CantDuel], если имеется <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиная рука</link></u></color> и на цель наложен <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color>\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 10)\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели на 2\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "If this unit has [SnakeStance], deal +100% damage"
+                  "desc": "На 100% больше урона при наличии <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиной руки</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Consume 5 [BurstPoison] for every [SnakeStance] on self (once per turn)"
+                  "desc": "[OnSucceedAttack] Понижает <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color> цели на 5 за каждую <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиную руку</link></u></color> (Единожды за ход)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BurstPoison] next turn"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"BurstPoison\"><color=#e30000><u><link=\"BurstPoison\">Смертный ритуал 【Яд】</link></u></color> в следующем ходе"
                 }
               ]
             }
@@ -306,13 +306,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wait for a Chance",
-          "desc": "[CanDuelGuard]\n[WhenUse] Coin Power +1 for every 4 [Burst] on target (max 3)\n[WhenUse] Gain 3 [SnakeStance] (once per Skill)",
+          "name": "Ожидание шанса",
+          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 3)\n[WhenUse] Получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Змеиной руки</link></u></color> (Единожды за навык)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }

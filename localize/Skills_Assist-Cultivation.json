@@ -5,32 +5,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Crimson Cleave",
-          "desc": "[WhenUse] Base Power +1 for every 3 [Burst] on the target (max 2)",
+          "name": "Багровое рассечение",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> <nobr>на 2</nobr>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> <nobr>на 2</nobr>"
                 }
               ]
             }
@@ -43,19 +43,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Plastered Sleep, Unrestrained Ripples",
-          "desc": "Can draw any attack to this unit regardless of Speed\n[WhenUse] Base Power +1 for every 3 [Breath] (max 3)\n[WhenUse] Base Power +3 for every type of negative effect on target (max 9)\n[WhenUse] Gain 5 [Agility] next turn (once per turn)\n[WhenUse] Gain 10 [Breath] and +2 [Breath] Count",
+          "name": "Пьяный сон, безудержная рябь",
+          "desc": "Может перехватить любые атаки независимо от скорости\n[WhenUse] Базовая сила +1 за каждые 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 3)\n[WhenUse] Базовая сила +3 за каждый тип негативных эффектов на цели (До 9)\n[WhenUse] Получает 5 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход (Единожды за ход)\n[WhenUse] Получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 7 [Laceration] and +2 [Laceration] Count"
+                  "desc": "На 300% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 7 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal +300% damage"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 }
               ]
             }
