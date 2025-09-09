@@ -1,7 +1,7 @@
 
 <div align="center">
 <a href="https://https://github.com/enqenqenqenqenq/RCR">
-   <img src="https://https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/logo.png"
+   <img src="https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/logo.png"
       width="200"
       height="200"/>
 </a>
@@ -19,7 +19,7 @@
 
  [**Локализация от Crescent Corporation**](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS)
  (Более качественный перевод, однако сейчас переведены только четыре канто)
- 
+
 </div>
 
 
