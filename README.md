@@ -8,8 +8,13 @@
 
 # Rainbus Company Rofls
 
-Обкуреный перевод  Limbus Company на Русский язык.
+Обкуренный перевод  Limbus Company на Русский язык.
 
+## Полезные ссылки
+ - [Приложение для простой установки переводов](https://github.com/kimght/LimbusLocalizationManager) (Через него можно установить локализации представленные ниже, и много других)
+ - [Машинный перевод](https://github.com/kimght/LimbusCompanyRuMTL) (Обновляется очень быстро, на данный момент переведено все)
+ - [Локализация от Crescent Corporation](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) (Более качественный перевод, однако сейчас переведены только четыре канто)
+</div>
 
 
 
@@ -68,17 +73,6 @@
 - Шаг 6: Если нет папки "Lang", создать ее
 - Шаг 7: Переместить файлы из архива в папку Lang
 - Шаг 8: При запуске игры снизу слева выбрать нужный язык
-
-
-
-    
-## Нормальные переводы
- - [Приложение для простой установки переводов](https://github.com/kimght/LimbusLocalizationManager) (Через него можно установить локализации представленные ниже, и много других)
- - [Машинный перевод](https://github.com/kimght/LimbusCompanyRuMTL) (Обновляется очень быстро, на данный момент переведено все)
- - [Локализация от Crescent Corporation](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) (Более качественный перевод, однако сейчас переведены только четыре канто)
-
- 
-
 
 
 ## FAQ
