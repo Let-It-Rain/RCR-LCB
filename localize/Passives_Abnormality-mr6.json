@@ -8,7 +8,7 @@
     {
       "id": 118301,
       "name": "Я всё ещё жду твоего ответа.",
-      "desc": "Начало каждого хода: Ядро и Части получают 900 ОЗ Щита.\n- Когда выбранная в команду первее остальных Идентичность имеет <sprite name=\"Teaching\"><color=#c8e7d9><u><link=\"Teaching\">Диалоги</link></u></color>, теряет по 300 ОЗ Щита за каждое их значение у неё;\n- Когда у этой Идентичности 3 и более <sprite name=\"Teaching\"><color=#c8e7d9><u><link=\"Teaching\">Диалогов</link></u></color>, больше не получает ОЗ Щита до конца битвы."
+      "desc": "Начало каждого хода: Ядро и Части получают 900 ОЗ Щита.\n- Когда выбранная в команду первее остальных Идентичность имеет <sprite name=\"Teaching\"><color=#f8c200><u><link=\"Teaching\">Диалоги</link></u></color>(#c8e7d9), теряет по 300 ОЗ Щита за каждое их значение у неё;\n- Когда у этой Идентичности 3 и более <sprite name=\"Teaching\"><color=#f8c200><u><link=\"Teaching\">Диалогов</link></u></color>(#c8e7d9), больше не получает ОЗ Щита до конца битвы."
     },
     {
       "id": 118701,
@@ -17,68 +17,68 @@
     },
     {
       "id": 124105,
-      "name": "Tigermark Round Reload",
-      "desc": "Turn End: at 90% or less HP, or at the end of the 2nd turn, reload [BulletPropellant] and gain a new pattern next turn\n- If this unit is Staggered, recover from Stagger"
+      "name": "Горячая перезарядка",
+      "desc": "Конец хода: если ОЗ опустились до 90% или это конец второго хода, заряжает <sprite name=\"BulletPropellant\"><color=#f8c200><u><link=\"BulletPropellant\">Пaтроны тигровой метки</link></u></color>(#ff1919) и меняет поведение в следующем ходе (Также выходит из оглушения)."
     },
     {
       "id": 124106,
-      "name": "Lei Heng [雷橫]",
-      "desc": "Turn End: at 80% or less HP, or at the end of the 4th turn, gain a new pattern next turn\n- Use a powerful attack ('Tanglecleaver'), repeat every 3rd turn. +10 to Min & Max Speed for turns in which this unit uses this Skill\n- At the start of that turn, gain 25 [BattleSense]\n- If this unit is Staggered, recover from Stagger"
+      "name": "Лэй Хэн【雷橫】",
+      "desc": "В конце хода, если ОЗ опустились до 80% или это конец четвёртого хода:\n- Использует мощную атаку 「Сокрушающее рассечение <nobr>【快刀亂麻】</nobr>」 в следующем ходе, повторяя её каждые 3 хода, а максимальная и минимальная скорость повышается на 10 при её использовании;\n- В начале следующего хода получает 25 <sprite name=\"BattleSense\"><color=#f8c200><u><link=\"BattleSense\">Внутренней силы</link></u></color>(#d61713) и выходит из оглушения."
     },
     {
       "id": 124107,
-      "name": "Tiantui Star [天退星]",
-      "desc": "If this unit's HP dropped to 60% or below at Turn End, or if this unit is set to use a powerful attack ('Tanglecleaver') next turn for the second time this Encounter, gain a new pattern next turn\n- When that turn starts, gain 1 [Irritation]\n- When that turn starts, gain 18 [BulletPropellantSpecial] and reload immediately\n· If this unit spends all [BulletPropellantSpecial], convert the effect to [BulletPropellant] and summon 2 of \"Rigid Soldato of the Thumb\" units next turn and have them supply this unit with [BulletPropellantSpecial]\n- When Staggered, recover from Stagger"
+      "name": "Звезда Тяньтуй【天退星】",
+      "desc": "Если ОЗ равны или ниже 60% к концу хода, или же Лэй Хэн собирается использовать 「Сокрушающее рассечение 【快刀亂麻】」 в следующем ходе во второй раз за битву, то он восстанавливается от оглушения и меняет поведение в следующем ходе:\n- Получает <sprite name=\"Irritation\"><color=#f8c200><u><link=\"Irritation\">Неумолимый дух</link></u></color> и 18 <sprite name=\"BulletPropellantSpecial\"><color=#f8c200><u><link=\"BulletPropellantSpecial\">Патронов свирепой тигровой метки</link></u></color>(#f01313) в его начале;\n- При трате всех <sprite name=\"BulletPropellantSpecial\"><color=#f8c200><u><link=\"BulletPropellantSpecial\">Патронов свирепой тигровой метки</link></u></color>(#f01313) после их получения снова использует <sprite name=\"BulletPropellant\"><color=#f8c200><u><link=\"BulletPropellant\">Пaтроны тигровой метки</link></u></color>(#ff1919) и каждый раз призывает двух Солдато Большого пальца в следующем ходе, которые должны дать ему 12 <sprite name=\"BulletPropellantSpecial\"><color=#f8c200><u><link=\"BulletPropellantSpecial\">Патронов свирепой тигровой метки</link></u></color>(#f01313)."
     },
     {
       "id": 124108,
-      "name": "Lei Heng, The Pinky's Tiantui Star",
-      "desc": "Turn End: at 40% or less HP, or if this unit is set to use a powerful attack ('Tanglecleaver') next turn for the third time this Encounter, gain a new pattern next turn\n- Replace the powerful attack 'Tanglecleaver' with 'Savage Tigerslayer's Perfected Flurry of Blades'. +15 to Min & Max Speed for turns in which this unit uses this Skill\n- Convert [BattleSense] to [RestoredBattleSense]\n- Convert [Irritation] to [DerivativeHugeIrritation]\n- If this unit is Staggered, recover from Stagger"
+      "name": "Лэй Хэн, звезда Тяньтуй",
+      "desc": "Если ОЗ равны или ниже 40% к концу хода, или же Лэй Хэн собирается использовать 「Сокрушающее рассечение 【快刀亂麻】」 в следующем ходе в третий раз за битву, он восстанавливается от оглушения и меняет поведение в следующем ходе:\n- Вместо 「Сокрушающее рассечение 【快刀亂麻】」 использует атаку 「Отточенный шквал ярых тигровых клинков 【超絕猛虎殺擊亂斬】」, повышая свою минимальную и максимальную скорость на 15 во время её использования;\n- Вся <sprite name=\"BattleSense\"><color=#f8c200><u><link=\"BattleSense\">Внутренняя сила</link></u></color>(#d61713) превращается в <sprite name=\"RestoredBattleSense\"><color=#f8c200><u><link=\"RestoredBattleSense\">Экстремальную силу</link></u></color>(#dc0804);\n- <sprite name=\"Irritation\"><color=#f8c200><u><link=\"Irritation\">Неумолимый дух</link></u></color> становится <sprite name=\"HugeIrritation\"><color=#f8c200><u><link=\"HugeIrritation\">Неумолимым духом — Шин</link></u></color>."
     },
     {
       "id": 124112,
-      "name": "Tiantui Star's Blade - Overheat",
-      "desc": "If this unit used a powerful attack ('Tanglecleaver' or 'Savage Tigerslayer's Perfected Flurry of Blades'), gain [Complacency] next turn equal to the number of times those skills were used (max 5)"
+      "name": "Клинок звезды Тяньтуй - Перегрев",
+      "desc": "Если Лэй Хэн использовал 「Сокрушающее рассечение 【快刀亂麻】」 или 「Отточенный шквал ярых тигровых клинков 【超絕猛虎殺擊亂斬】」, он получает <sprite name=\"Complacency\"><color=#e30000><u><link=\"Complacency\">Перегрев</link></u></color> на следующий ход в количестве случаев использования этих атак. (До 5)"
     },
     {
       "id": 124301,
-      "name": "I'm Stuffed",
-      "desc": "At 10+ [FullCharon]...\n- Turn Start: enter a forced Stagger State (for a turn)\n- Turn End: remove [HungryCharon] and [FullCharon] completely"
+      "name": "Харон сыта.",
+      "desc": "При 10 и более <sprite name=\"FullCharon\"><color=#e30000><u><link=\"FullCharon\">Балования</link></u></color>:\n- Оглушается в начале хода; (На время хода)\n- Конец хода: <sprite name=\"HungryCharon\"><color=#e30000><u><link=\"HungryCharon\">Большой-большой голод</link></u></color> и <sprite name=\"FullCharon\"><color=#e30000><u><link=\"FullCharon\">Балование</link></u></color> полностью исчезают."
     },
     {
       "id": 124302,
-      "name": "Vroom-vroom. Angry now",
-      "desc": "Combat Start: Vergilius gains 1 [HungryCharon]\nAt 3 [HungryCharon], uses a devastating attack (\"Vroom-Vroom\")\n※ Does not activate at \"Combat Start\" if this unit is Staggered due to [FullCharon]"
+      "name": "Врум-врум, теперь злой",
+      "desc": "Начало боевой фазы: если не оглушена, получает 1 <sprite name=\"HungryCharon\"><color=#e30000><u><link=\"HungryCharon\">Большой-большой голод</link></u></color>.\n\nЕсли накопилось 3 <sprite name=\"HungryCharon\"><color=#e30000><u><link=\"HungryCharon\">Большого-большого голода</link></u></color>, использует аннигилирующую атаку 「Врум-врум」."
     },
     {
       "id": 124303,
-      "name": "Got Candy?",
-      "desc": "Turn Start: in Deployment Order, inflict 1 [GiveMeCandy] against 1 enemy without [GiveMeCandy]"
+      "name": "Конфеты есть?",
+      "desc": "Начало хода: у 1 Грешника без <sprite name=\"GiveMeCandy\"><color=#e30000><u><link=\"GiveMeCandy\">Конфет</link></u></color> появляется 1 <sprite name=\"GiveMeCandy\"><color=#e30000><u><link=\"GiveMeCandy\">Конфета</link></u></color>."
     },
     {
       "id": 124304,
-      "name": "Kkomi's not a Piñata",
-      "desc": "Inflict 1 [GiveMeCandy] to the target who attacked Kkomi"
+      "name": "Ккоми не пиньята.",
+      "desc": "У атаковавшего Ккоми появляется 1 <sprite name=\"GiveMeCandy\"><color=#e30000><u><link=\"GiveMeCandy\">Конфета</link></u></color>."
     },
     {
       "id": 124001,
-      "name": "Shattering, Scattering Hardblood",
-      "desc": "When this unit is killed due to enemy attack or Status effect damage, increase [BloodDinner] by 30. Does not activate if this unit killed itself."
+      "name": "Раскалывающаяся и разлетающаяся твёрдая кровь",
+      "desc": "Если умирает от атаки или статусного эффекта, увеличивает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавое пиршество</link></u></color> на 30."
     },
     {
       "id": 124002,
-      "name": "Memories of the Journeys Past",
-      "desc": "Apply special effect to all allies"
+      "name": "Воспоминания о былых странствиях",
+      "desc": "Накладывает особый эффект на всех союзников."
     },
     {
       "id": 124003,
-      "name": "Memories of the Journeys Past",
-      "desc": "Turn Start: Inflict 3 [Laceration] and +1 [Laceration] Count against all enemies"
+      "name": "Воспоминания о былых странствиях",
+      "desc": "Начало хода: наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 1 всем противникам."
     },
     {
       "id": 124004,
-      "name": "Memories of the Journeys Past",
-      "desc": "Turn End: Apply 1 [RegainedStrength] on Don Quixote"
+      "name": "Воспоминания о былых странствиях",
+      "desc": "Конец хода: даёт 1 <sprite name=\"RegainedStrength\"><color=#f8c200><u><link=\"RegainedStrength\">Возвращающуюся жажду крови</link></u></color> Дон Кихоту."
     }
   ]
 }
