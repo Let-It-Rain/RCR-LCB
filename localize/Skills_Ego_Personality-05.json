@@ -7,15 +7,15 @@
           "level": 1,
           "name": "Сожаление",
           "abName": "Андрей Чикатилло",
-          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Снимает с себя 1 случайный снимаемый негативный эффект",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на (2 + (Число грехов в абсолютном резонансе Гнева / 3))"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color>"
                 }
               ]
             }
@@ -25,15 +25,15 @@
           "level": 3,
           "name": "Сожаление",
           "abName": "Андрей Чикатилло",
-          "desc": "[BeforeAttack] Remove 1 random removable negative effect applied to self<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Снимает с себя 1 случайный снимаемый негативный эффект",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на (<style=\"highlight\">3</style> + (Число грехов в абсолютном резонансе Гнева / 3))"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color>\n<style=\"highlight\">- Если во время <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> цель не имеет границ выносливости, наносит ей (6 + (Число грехов в абсолютном резонансе Гнева × 2))% от итогового повышения границы выносливости уроном Гнева</style>"
                 }
               ]
             }
@@ -43,15 +43,15 @@
           "level": 4,
           "name": "Сожаление",
           "abName": "Андрей Чикатилло",
-          "desc": "[BeforeAttack] Remove 2 random removable negative effects applied to self<style=\"highlight\"></style>",
+          "desc": "[BeforeAttack] Снимает с себя <style=\"highlight\">2</style> случайных снимаемых негативных эффекта",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count; Inflict (Wrath A-Reson. /3) additional Tremor Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на (3 + (Число грехов в абсолютном резонансе Гнева / 3))"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised.<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color>\n- Если во время <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> цель не имеет границ выносливости, наносит ей (<style=\"highlight\">12</style> + (Число грехов в абсолютном резонансе Гнева × <style=\"highlight\">3</style>))% от итогового повышения границы выносливости уроном Гнева"
                 }
               ]
             }
@@ -66,15 +66,15 @@
           "level": 1,
           "name": "Сожаление",
           "abName": "Андрей Чикатилло",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1, если на себе есть негативные эффекты\n[EndSkill] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> и 1 <sprite name=\"HitResultUp\"><color=#f8c200><u><link=\"HitResultUp\">Повышение силы Дробящих атак</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst.\nAmount of Stagger Threshold raised by Tremor Burst increases by 30% of Tremor on target.\nReduce Tremor Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color> и понижает его счётчик на 1\n- Повышение границы выносливости <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> увеличивается на 30% от силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn.<style=\"highlight\"></style>"
+                  "desc": ""
                 }
               ]
             }
@@ -84,15 +84,15 @@
           "level": 3,
           "name": "Сожаление",
           "abName": "Андрей Чикатилло",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +1<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1, если на себе есть негативные эффекты\n[EndSkill] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> и 1 <sprite name=\"HitResultUp\"><color=#f8c200><u><link=\"HitResultUp\">Повышение силы Дробящих атак</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAmount of Stagger Threshold raised by Tremor Burst increases by 40% of Tremor on target.\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (6 + 2x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce Tremor Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color> и понижает его счётчик на 1\n- Повышение границы выносливости <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> увеличивается на <style=\"highlight\">40%</style> от силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели\n<style=\"highlight\">- Если во время <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> цель не имеет границ выносливости, наносит ей (6 + (Число грехов в абсолютном резонансе Гнева × 2))% от итогового повышения границы выносливости уроном Гнева</style>"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn.<style=\"highlight\"></style>"
+                  "desc": ""
                 }
               ]
             }
@@ -102,15 +102,15 @@
           "level": 4,
           "name": "Сожаление",
           "abName": "Андрей Чикатилло",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] If this unit has a negative status effect, Atk Weight +2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style>, если на себе есть негативные эффекты\n[EndSkill] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> и 1 <sprite name=\"HitResultUp\"><color=#f8c200><u><link=\"HitResultUp\">Повышение силы Дробящих атак</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAmount of Stagger Threshold raised by Tremor Burst increases by 50% of Tremor on target.\nIf target does not have a Stagger Threshold upon Tremor Burst,\nDeal Wrath Damage by (12 + 3x(Wrath A-Reson.))% of the final Stagger Threshold raised\nReduce Tremor Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясёт сучку</link></u></color> и понижает его счётчик на 1\n- Повышение границы выносливости <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> увеличивается на <style=\"highlight\">50%</style> от силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> цели\n- Если во время <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Тряски сучки</link></u></color> цель не имеет границ выносливости, наносит ей (<style=\"highlight\">12</style> + (Число грехов в абсолютном резонансе Гнева × <style=\"highlight\">3</style>))% от итогового повышения границы выносливости уроном Гнева"
                 },
                 {
-                  "desc": "[EndSkill] Gain 3 Bind and 1 Blunt Power Up next turn.<style=\"highlight\"></style>"
+                  "desc": ""
                 }
               ]
             }
@@ -123,14 +123,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Электрический визг",
-          "abName": "Мечтающая электрическая овечка",
-          "desc": "[BeforeAttack] Gain +8 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count\n[EndSkill] Apply +8 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count to 1 other ally with the least <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 3)<style=\"highlight\"></style>",
+          "name": "Электрическая овечка",
+          "abName": "Мечта таджика",
+          "desc": "[BeforeAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на 8\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> другого союзника с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на 8\n- Количество этих союзников повышается на (Число грехов в наибольшем резонансе Зависти - 2) (До 3 дополнительных союзников)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
                 }
               ]
             }
@@ -138,14 +138,14 @@
         },
         {
           "level": 3,
-          "name": "Электрический визг",
-          "abName": "Мечтающая электрическая овечка",
-          "desc": "[BeforeAttack] Gain +8 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count\n[EndSkill] Apply +8 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count to 1 other ally with the least <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max 4)\n- At 4+ (highest Envy Reson.), apply 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color> to self and all affected allies<style=\"highlight\"></style>",
+          "name": "Электрическая овечка",
+          "abName": "Мечта таджика",
+          "desc": "[BeforeAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на 8\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> другого союзника с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на 8\n- Количество этих союзников повышается на (Число грехов в наибольшем резонансе Зависти - 2) (До <style=\"highlight\">4</style> дополнительных союзников)\n<style=\"highlight\">- При резонансе Зависти из 4 и более грехов даёт себе и этим союзникам 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
                 }
               ]
             }
@@ -153,14 +153,14 @@
         },
         {
           "level": 4,
-          "name": "Электрический визг",
-          "abName": "Мечтающая электрическая овечка",
-          "desc": "[BeforeAttack] Gain +12 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count\n[EndSkill] Apply +8 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count to 1 other ally with the least <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count\n- Number of affected allies grows by (highest Envy Reson. - 2) (max <style=\"highlight\">5</style>)\n- At 4+ (highest Envy Reson.), apply 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color> to self and all affected allies\n<style=\"highlight\">- At 6+ (highest Envy Reson.), apply 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color> to self and all affected allies</style>",
+          "name": "Электрическая овечка",
+          "abName": "Мечта таджика",
+          "desc": "[BeforeAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> <style=\"highlight\">на 12</style>\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> другого союзника с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на 8\n- Количество этих союзников повышается на (Число грехов в наибольшем резонансе Зависти - 2) (До <style=\"highlight\">5</style> дополнительных союзников)\n- При наибольшем резонансе Зависти из 4 и более грехов даёт себе и этим союзникам 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color>\n<style=\"highlight\">- При наибольшем резонансе Зависти из 6 и более грехов даёт себе и этим союзникам ещё 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
                 }
               ]
             }
@@ -173,17 +173,17 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Электрический визг",
-          "abName": "Мечтающая электрическая овечка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 2)\n[BeforeAttack] If this unit has 10+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count, spend up to 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count; deal +2% more damage for every <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count consumed (max 40%)<style=\"highlight\"></style>",
+          "name": "Электрическая овечка",
+          "abName": "Мечта таджика",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе Зависти - 2) (До 2 дополнительных целей)\n[BeforeAttack] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> равен 10 и более, то тратит до 20 его единиц, чтобы повысить урон на 2% за каждую потраченную единицу (До 40%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
                 }
               ]
             }
@@ -191,17 +191,17 @@
         },
         {
           "level": 3,
-          "name": "Электрический визг",
-          "abName": "Мечтающая электрическая овечка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max <style=\"highlight\">3</style>)\n[BeforeAttack] If this unit has 10+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count, spend up to 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count; deal +<style=\"highlight\">2.5</style>% more damage for every <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count consumed (max <style=\"highlight\">50</style>%)",
+          "name": "Электрическая овечка",
+          "abName": "Мечта таджика",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе Зависти - 2) (До <style=\"highlight\">3</style> дополнительных целей)\n[BeforeAttack] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> равен 10 и более, то тратит до 20 его единиц, чтобы повысить урон на <style=\"highlight\">2.5%</style> за каждую потраченную единицу (До <style=\"highlight\">50%</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
                 }
               ]
             }
@@ -209,17 +209,17 @@
         },
         {
           "level": 4,
-          "name": "Электрический визг",
-          "abName": "Мечтающая электрическая овечка",
-          "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain Atk Weight equal to (highest Envy Reson. - 2) (max 3)\n<style=\"highlight\">[BeforeAttack] At 10+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count, apply the effects applied from 'On Hit' twice</style>\n[BeforeAttack] If this unit has 10+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count, spend up to 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count; deal +<style=\"highlight\">3</style>% more damage for every <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> Count consumed (max <style=\"highlight\">60</style>%)",
+          "name": "Электрическая овечка",
+          "abName": "Мечта таджика",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе Зависти - 2) (До 3 дополнительных целей)\n<style=\"highlight\">[BeforeAttack] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> равен 10 и более, удваивает наносимые монетами эффекты</style>\n[BeforeAttack] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> равен 10 и более, то тратит до 20 его единиц, чтобы повысить урон на <style=\"highlight\">3%</style> за каждую потраченную единицу (До <style=\"highlight\">60%</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленка</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
                 }
               ]
             }
@@ -232,44 +232,44 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Воющая-Миркалла",
-          "abName": "Четыре сотни роз",
-          "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End<style=\"highlight\"></style>",
+          "name": "Жаждущая - Миркалла",
+          "abName": "Четыреста роз",
+          "desc": "[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> ещё на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target once (target loses 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -277,50 +277,50 @@
         },
         {
           "level": 3,
-          "name": "Воющая-Миркалла",
-          "abName": "Четыре сотни роз",
-          "desc": "<style=\"highlight\">If target has 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color>, Coin Power +1</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Жаждущая - Миркалла",
+          "abName": "Четыреста роз",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color></style>\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ highest Reson., activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target once (target loses 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в наибольшем резонансе 4 и более греха, активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели и понижает его счётчик на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] At 4+ highest Reson., activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target once (target loses 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в наибольшем резонансе 4 и более греха, активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели и понижает его счётчик на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> ещё на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> <style=\"highlight\">(1 + (highest Reson./2)) times. (3 times max; target loses <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count equal to the number of times it was activated)"
+                  "desc": "[WinDuelAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе / 2))</style> раз <style=\"highlight\">(До 3 раз; цель теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> в количестве его активаций)</style>"
                 }
               ]
             }
@@ -328,53 +328,53 @@
         },
         {
           "level": 4,
-          "name": "Воющая-Миркалла",
-          "abName": "Четыре сотни роз",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target (max 2)</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End",
+          "name": "Жаждущая - Миркалла",
+          "abName": "Четыреста роз",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color></style> на цели <style=\"highlight\">(До 2)</style>\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 4+ highest Reson., activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target once (target loses 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если в наибольшем резонансе 4 и более греха, активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 4+ highest Reson., activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target once (target loses 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если в наибольшем резонансе 4 и более греха, активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> <style=\"highlight\">на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> ещё на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> (1 + (highest Reson./2)) times. (3 times max; target loses <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count equal to the number of times it was activated)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели (1 + (Число грехов в наибольшем резонансе / 2)) раз (До 3 раз; цель теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> в количестве его активаций)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] When dealing excess damage past the enemy's remaining HP, deal the excess damage as fixed damage between all enemies. (min 1)</style>"
+                  "desc": "<style=\"highlight\">[EnemyKill] Если наносит урон, превышающий оставшиеся ОЗ цели, то избыток наносится фиксированным уроном между всеми остальными противниками (Минимум 1)</style>"
                 }
               ]
             }
@@ -387,47 +387,47 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Воющая-Миркалла",
-          "abName": "Четыре сотни роз",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on all allies once instead (lose 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count). Heal HP equal to the amount of <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> damage dealt to allies<style=\"highlight\"></style>",
+          "name": "Жаждущая - Миркалла",
+          "abName": "Четыреста роз",
+          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] Тратит до 10% от максимальных ОЗ и наносит (Потраченные ОЗ / 2) фиксированного урона всем противникам и союзникам\n- Если свои ОЗ ниже 50%, то вместо этого наносит всем союзникам 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и активирует его, понижая счётчик на 1; после этого восстанавливает себе ОЗ на количество этого урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупом</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> себе и цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> себе и цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "- Если на цели не было <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color>, повышает его силу на 4 тоже"
                 },
                 {
-                  "desc": "- If target did not have <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color>, inflict 4 additional <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Potency<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> ещё на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on target once (target loses 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -435,47 +435,47 @@
         },
         {
           "level": 3,
-          "name": "Воющая-Миркалла",
-          "abName": "Четыре сотни роз",
-          "desc": "[CantIdentify]\nTargets randomly\n<style=\"highlight\">At 6+ (sum of <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target), Coin Power +1</style>\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on all allies once instead (lose 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count). Heal HP equal to the amount of <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> damage dealt to allies",
+          "name": "Жаждущая - Миркалла",
+          "abName": "Четыреста роз",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Сила монет +1, если сумма силы своего <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> цели равна 6 и более</style>\n[WhenUse] Тратит до 10% от максимальных ОЗ и наносит (Потраченные ОЗ / 2) фиксированного урона всем противникам и союзникам\n- Если свои ОЗ ниже 50%, то вместо этого наносит всем союзникам 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и активирует его, понижая счётчик на 1; после этого восстанавливает себе ОЗ на количество этого урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупом</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> себе и цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> себе и цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "- Если на цели не было <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color>, повышает его силу на 4 тоже"
                 },
                 {
-                  "desc": "- If target did not have <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color>, inflict 4 additional <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Potency<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> ещё на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> <style=\"highlight\">(1 + (highest Reson./2)) times. (3 times max; target loses <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count equal to the number of times it was activated)</style>"
+                  "desc": "[WinDuelAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе / 2))</style> раз <style=\"highlight\">(До 3 раз; цель теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> в количестве его активаций)</style>"
                 }
               ]
             }
@@ -483,208 +483,56 @@
         },
         {
           "level": 4,
-          "name": "Воющая-Миркалла",
-          "abName": "Четыре сотни роз",
-          "desc": "[CantIdentify]\nTargets randomly\nCoin Power +1 for every 6 (sum of <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target) <style=\"highlight\">(max 3)</style>\n[WhenUse] Consume up to 10% of this unit's max HP and deal (HP consumed / 2) damage to all enemies and allies\n- At less than 50% of this unit's max HP, inflict and activate 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on all allies instead (lose 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count). Heal HP equal to the amount of <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> damage dealt to allies",
+          "name": "Жаждущая - Миркалла",
+          "abName": "Четыреста роз",
+          "desc": "[CantIdentify]\nСлучайная цель\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на себе и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на цели <style=\"highlight\">(До 3)</style>\n[WhenUse] Тратит до 10% от максимальных ОЗ и наносит (Потраченные ОЗ / 2) фиксированного урона всем противникам и союзникам\n- Если свои ОЗ ниже 50%, то вместо этого наносит всем союзникам 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и активирует его, понижая счётчик на 1; после этого восстанавливает себе ОЗ на количество этого урона <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупом</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> себе и цели"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target once (both lose 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на себе и на цели, понижая его счётчик на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> себе и цели"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> on self and the target once (both lose 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на себе и на цели, понижая его счётчик на 1</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Inflict +2 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> <style=\"highlight\">на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +<style=\"highlight\">2</style> <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Count"
+                  "desc": "- Если на цели не было <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color>, повышает его силу на 4 тоже"
                 },
                 {
-                  "desc": "- If target did not have <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color>, inflict 4 additional <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипы роз</link></u></color> Potency<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа розы</link></u></color> ещё на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Activate the target's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> (1 + (highest Reson./2)) times. (3 times max; target loses <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> Count equal to the number of times it was activated)<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> на цели (1 + (Число грехов в наибольшем резонансе / 2)) раз (До 3 раз; цель теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> в количестве его активаций)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] When dealing excess damage past the enemy's remaining HP, deal the excess damage as fixed damage between all enemies. (min 1)</style>"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2050811,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "МУЖ ДОЛБИТ МЕНЯ\nЧАСАМИ",
-          "abName": "Арабская бомба",
-          "desc": "[EndSkill] Если активирован нечетный резонанс Лености в нечетном ходе или четный резонанс Лености в четном ходе, восстанавливает 10 СД\n[EndSkill] В конце последующих 3-ех ходов теряет 10 СД<style=\"highlight\"></style>",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 2<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> еще на (Число грехов в резонансе Лености / 2) (До 3)<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Если попадает по главной цели, производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложение амплитуды</link></u></color> со всеми типами <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> других целей<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color><style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnStartCoin] Урон монеты повышается на (Сила <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели)% (До 50%)<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnStartCoin] Урон монеты повышается на (Сумма силы и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели)% (До 100%)<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> и понижает его счетчик на 1<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Если урон этой монеты был повышен на 100% за счет <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели, еще 2 раза <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> и понижает его счетчик на 2<style=\"highlight\"></style>"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 3,
-          "name": "МУЖ ДОЛБИТ МЕНЯ\nЧАСАМИ",
-          "abName": "Арабская бомба",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1, если сумма силы и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели равна 30 и более</style>\n[EndSkill] Если активирован нечетный резонанс Лености в нечетном ходе или четный резонанс Лености в четном ходе, восстанавливает 10 СД\n[EndSkill] В конце последующих 3-ех ходов теряет 10 СД",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 2<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> еще на (Число грехов в резонансе Лености / 2) (До 3)<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Если попадает по главной цели, производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложение амплитуды</link></u></color> со всеми типами <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> других целей<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color><style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnStartCoin] Урон монеты повышается на (Сила <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели)% (До 50%)<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnStartCoin] Урон монеты повышается на (Сумма силы и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели)% (До 100%)<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> и понижает его счетчик на 1<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Если урон этой монеты был повышен на 100% за счет <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели, еще 2 раза <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> и понижает его счетчик на 2<style=\"highlight\"></style>"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "level": 4,
-          "name": "МУЖ ДОЛБИТ МЕНЯ\nЧАСАМИ",
-          "abName": "Арабская бомба",
-          "desc": "[BeforeAttack] Количество целей повышается на 1, если сумма силы и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели равна 30 и более\n<style=\"highlight\">- Если сумма равна 100 и более, Количество целей повышается на 3 вместо этого</style>\n<style=\"highlight\">[BeforeAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряску</link></u></color> всем целям атаки за каждые 2 греха в наибольшем резонансе (До 3)</style>\n[EndSkill] Если активирован нечетный резонанс Лености в нечетном ходе или четный резонанс Лености в четном ходе, восстанавливает 10 СД\n<style=\"highlight\">[EndSkill] Восстанавливает (Имеющееся [AccumulatedPastSinner] × 2)% от максимальных ОЗ</style>\n[EndSkill] В конце последующих 3-ех ходов теряет 10 СД",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> на 2<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> еще на (Число грехов в резонансе Лености / 2) (До 3)<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Если попадает по главной цели, производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложение амплитуды</link></u></color> со всеми типами <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> других целей<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color><style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnStartCoin] Урон монеты повышается на (Сила <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели)% (До 50%)<style=\"highlight\"></style>"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnStartCoin] Урон монеты повышается на (Сумма силы и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели)% (До 100%)<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> и понижает его счетчик на 1<style=\"highlight\"></style>"
-                },
-                {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если урон этой монеты был повышен на 50% и более за счет <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели, еще раз <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> без понижения счетчика</style>"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Если урон этой монеты был повышен на 100% за счет <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> главной цели, еще 2 раза <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Трясет сучку</link></u></color> и понижает его счетчик на 2<style=\"highlight\"></style>"
+                  "desc": "<style=\"highlight\">[EnemyKill] Если наносит урон, превышающий оставшиеся ОЗ цели, то избыток наносится фиксированным уроном между всеми остальными противниками (Минимум 1)</style>"
                 }
               ]
             }
