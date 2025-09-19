@@ -1400,6 +1400,158 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2050811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Crushbound Past",
+          "abName": "Steam Transport Machine",
+          "desc": "[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Crushbound Past",
+          "abName": "Steam Transport Machine",
+          "desc": "<style=\"highlight\">[BeforeAttack] If the main target has 30+ (sum of [Vibration] Potency and [Vibration] Count), gain +1 Atk Weight</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Crushbound Past",
+          "abName": "Steam Transport Machine",
+          "desc": "[BeforeAttack] If the main target has 30+ (sum of [Vibration] Potency and [Vibration] Count), gain +1 Atk Weight\n<style=\"highlight\">- At 100+, gain +3 Atk Weight instead</style>\n<style=\"highlight\">[BeforeAttack] For every 2 highest Reson., inflict 1 [Vibration] against all targets this unit attacks (max 3)</style>\n[EndSkill] For 3 turns, lose 10 SP at Turn End\n<style=\"highlight\">[EndSkill] Heal ([AccumulatedPastSinner] x 2)% HP</style>\n[EndSkill] When activating odd-numbered (Sloth Reson.) in odd-numbered turns, or when activating even-numbered (Sloth Reson.) in even-numbered turns, heal 10 SP",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +(Sloth Reson. / 2) [Vibration] Count (max 3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If it's the main target, trigger [FusionVibration] into the target's current [Vibration] type<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] This Coin deals +1% damage for every [Vibration] on the main target (max 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] This Coin deals +1% damage for every (sum of [Vibration] Potency and [Vibration] Count on the main target) (max 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] If this Coin's effects raised the damage dealt by +50% or more, trigger [VibrationExplosion] once.</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If this Coin's effects raised the damage dealt by +100% or more, trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
