@@ -1853,7 +1853,9 @@
           "name": "Взмах сиськами",
           "desc": "[WhenUse] Сила в столкновении +1 против целей, на которых есть <sprite name=\"GazeRyoshu\"><color=#e30000><u><link=\"GazeRyoshu\">Взор</link></u></color> или <sprite name=\"ContemptRyoshu\"><color=#e30000><u><link=\"ContemptRyoshu\">Презрение</link></u></color>",
           "coinlist": [
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
@@ -2122,7 +2124,9 @@
           "name": "В хватку",
           "desc": "[StartBattle] Если нет <sprite name=\"ContemptPersonality\"><color=#e30000><u><link=\"ContemptPersonality\">Презрения взора</link></u></color>, то получает его, если на всех противниках в сумме 7 и более <sprite name=\"GazeRyoshu\"><color=#e30000><u><link=\"GazeRyoshu\">Взора</link></u></color> или хотя бы 1 <sprite name=\"ContemptRyoshu\"><color=#e30000><u><link=\"ContemptRyoshu\">Презрене</link></u></color>\n[WhenUse] Итоговая сила +5, если есть <sprite name=\"ContemptPersonality\"><color=#e30000><u><link=\"ContemptPersonality\">Презрение взора</link></u></color>\n[WhenUse] Если получает удар, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1 атакующему (До 3 раз за ход)",
           "coinlist": [
-            {}
+            {
+              "coindescs": []
+            }
           ]
         },
         {
@@ -2130,7 +2134,9 @@
           "name": "В хватку",
           "desc": "[StartBattle] Если нет <sprite name=\"ContemptPersonality\"><color=#e30000><u><link=\"ContemptPersonality\">Презрения взора</link></u></color>, то получает его, если на всех противниках в сумме 7 и более <sprite name=\"GazeRyoshu\"><color=#e30000><u><link=\"GazeRyoshu\">Взора</link></u></color> или хотя бы 1 <sprite name=\"ContemptRyoshu\"><color=#e30000><u><link=\"ContemptRyoshu\">Презрене</link></u></color>\n[WhenUse] Итоговая сила +<style=\"highlight\">10</style>, если есть <sprite name=\"ContemptPersonality\"><color=#e30000><u><link=\"ContemptPersonality\">Презрение взора</link></u></color>\n[WhenUse] Если получает удар, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1 атакующему (До 3 раз за ход)",
           "coinlist": [
-            {}
+            {
+              "coindescs": []
+            }
           ]
         }
       ]
@@ -2158,7 +2164,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> в <sprite name=\"VibrationBleeding\"><color=#e30000><u><link=\"VibrationBleeding\">Тряска — Кровоизлияние</link></u></color>"
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationBleeding:`Тряску - Кровоизлеяние`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тряска</link></u></color> и понижает его счётчик на 1"
@@ -2187,7 +2193,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тряски</link></u></color> и повышает его счётчик <style=\"highlight\">на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> в <sprite name=\"VibrationBleeding\"><color=#e30000><u><link=\"VibrationBleeding\">Тряска — Кровоизлияние</link></u></color>"
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationBleeding:`Тряску - Кровоизлеяние`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тряска</link></u></color> и понижает его счётчик на 1"
