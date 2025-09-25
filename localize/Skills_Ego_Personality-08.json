@@ -819,7 +819,7 @@
           "abName": "Задави меня ляжками",
           "level": 1,
           "name": "Селёдочка",
-          "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [Sinking], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +2% damage for every 0.1 excess Resist. (max 10%)\n[BeforeAttack] At 2+ Gloom Reson., deal +5% damage for every Gloom Reson. (max 20%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
+          "desc": "При атаке только одной цели (в сфокусированных битвах, Ядро и его соединённые части считаются одной целью), Сила монет +2 и наносит +100% урона\n[WhenUse] Если у основной цели 4+ [Sinking], Сила в столкновении +1\n[BeforeAttack] Если у основной цели сопротивление Уныни выше 1, наносит +2% урона за каждые 0.1 превышения (макс. 10%)\n[BeforeAttack] При 2+ резонансах Уныния, наносит +5% урона за каждый резонанс Уныния (макс. 20%)\n[EndSkill] Если 1 или более целей уничтожены, наносит (потенси [Sinking] на каждой цели / 2) урона Уныни двум случайным врагам (макс. 15; приоритет у целей с наибольшей потенси [Sinking])",
           "coinlist": [
             {
               "coindescs": [
@@ -827,7 +827,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:*Депрессию*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Vibration:\"Тряску\"]"
@@ -840,7 +840,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Binding:*Понос*] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
@@ -850,13 +850,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если среди целей есть стаггернутые, частично сломанные или уничтоженные юниты, накладывает 2 [Sinking:*Депрессии*] на случайного нецелевого врага (один раз за ход; в сфокусированных битвах каждая часть считается 1 целью)\n"
+                  "desc": "[OnSucceedAttack] Если среди целей есть стаггернутые, частично сломанные или уничтоженные юниты, накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на случайного нецелевого врага (один раз за ход; в сфокусированных битвах каждая часть считается 1 целью)\n"
                 },
                 {
                   "desc": "- Если есть только одна цель, применяет эффект на 3 цели вместо этого\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает каунт [Vibration:*тряски*] цели на 1\n"
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает каунт <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>тряски</noparse></link></u></color> цели на 1\n"
                 }
               ]
             }
@@ -866,7 +866,7 @@
           "abName": "Задави меня ляжками",
           "level": 3,
           "name": "Селёдочка",
-          "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] If the main target has 4+ [Sinking], Clash Power +1\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +<style=\"highlight\">3</style>% damage for every 0.1 excess Resist. (max <style=\"highlight\">15</style>%)\n[BeforeAttack] At 2+ Gloom Reson., deal +<style=\"highlight\">8</style>% damage for every Gloom Reson. (max <style=\"highlight\">32</style>%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
+          "desc": "При атаке только одной цели (в сфокусированных битвах, Ядро и его соединённые части считаются одной целью), Сила монет +2 и наносит +100% урона\n[WhenUse] Если у основной цели 4+ [Sinking], Сила в столкновении +1\n[BeforeAttack] Если у основной цели сопротивление Уныни выше 1, наносит +<style=\"highlight\">3</style>% урона за каждые 0.1 превышения (макс. <style=\"highlight\">15</style>%)\n[BeforeAttack] При 2+ резонансах Уныния, наносит +<style=\"highlight\">8</style>% урона за каждый резонанс Уныния (макс. <style=\"highlight\">32</style>%)\n[EndSkill] Если 1 или более целей уничтожены, наносит (потенси [Sinking] на каждой цели / 2) урона Уныни двум случайным врагам (макс. 15; приоритет у целей с наибольшей потенси [Sinking])",
           "coinlist": [
             {
               "coindescs": [
@@ -913,7 +913,7 @@
           "abName": "Задави меня ляжками",
           "level": 4,
           "name": "Селёдочка",
-          "desc": "When attacking just a single target(in Focused Encounters, a Core and its connected Parts count as a single target), Coin Power +2 and deal +100% damage\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 4 [Sinking] on the main target (max 2)</style>\n[BeforeAttack] If the main target has higher than 1 Gloom Resist., deal +<style=\"highlight\">5</style>% damage for every 0.1 excess Resist. (max <style=\"highlight\">20</style>%)\n[BeforeAttack] At 2+ Gloom Reson., deal +<style=\"highlight\">10</style>% damage for every Gloom Reson. (max <style=\"highlight\">40</style>%)\n[EndSkill] If 1 or more targets are killed, deal ([Sinking] Potency on each target / 2) Gloom damage against 2 random enemies (max 15; prioritizes targeted enemies with the most [Sinking] Potency)",
+          "desc": "При атаке только одной цели (в сфокусированных битвах, Ядро и его соединённые части считаются одной целью), Сила монет +2 и наносит +100% урона\n[WhenUse] <style=\"highlight\">Сила в столкновении +1 за каждые 4 [Sinking] на основной цели (макс. 2)</style>\n[BeforeAttack] Если у основной цели сопротивление Уныни выше 1, наносит +<style=\"highlight\">5</style>% урона за каждые 0.1 превышения (макс. <style=\"highlight\">20</style>%)\n[BeforeAttack] При 2+ резонансах Уныния, наносит +<style=\"highlight\">10</style>% урона за каждый резонанс Уныния (макс. <style=\"highlight\">40</style>%)\n[EndSkill] Если 1 или более целей уничтожены, наносит (потенси [Sinking] на каждой цели / 2) урона Уныни двум случайным врагам (макс. 15; приоритет у целей с наибольшей потенси [Sinking])",
           "coinlist": [
             {
               "coindescs": [
@@ -965,7 +965,7 @@
           "abName": "Задави меня ляжками",
           "level": 1,
           "name": "Самка дельфина",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] If main target has 5+ [Sinking], Clash Power +1\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)",
+          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] Если у основной цели 5+ [Sinking], Сила в столкновении +1\n[BeforeAttack] Получает следующие эффекты за каждые 3 самых высоких резонанса:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] на следующем ходу на случайных союзников (с самым высоким резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1004,7 +1004,7 @@
           "abName": "Задави меня ляжками",
           "level": 3,
           "name": "Самка дельфина",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] <style=\"highlight\">Clash Power +1 for every 5 [Sinking] on the main target (max 2)</style>\n[BeforeAttack] Gain the following effects for every 3 highest Reson.\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n<style=\"highlight\">- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well</style>",
+          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] <style=\"highlight\">Сила в столкновении +1 за каждые 5 [Sinking] на основной цели (макс. 2)</style>\n[BeforeAttack] Получает следующие эффекты за каждые 3 самых высоких резонанса:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] на следующем ходу на случайных союзников (с самым высоким резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)\n<style=\"highlight\">- Если указанный резонанс был резонансом Уныния или A-резонансом, накладывает также 1 [AzureDamageUp]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1046,7 +1046,7 @@
           "abName": "Задави меня ляжками",
           "level": 4,
           "name": "Самка дельфина",
-          "desc": "[CantIdentify]\nTargets randomly\n[WhenUse] Clash Power +1 for every 5 [Sinking] on the main target (max <style=\"highlight\">3</style>)\n[BeforeAttack] Gain the following effects for every 3 highest Reson. <style=\"highlight\">(if it was a Gloom Reson., for every 2 highest Reson.)</style>\n- Gain +1 Atk Weight (max 2)\n- Deal +15% damage (max 30%)\n[EndSkill] Apply 1 [HitDamageUp] next turn to (highest Reson.) random allies (including this unit; max 4 allies; once per turn)\n- If the said Reson. was a Gloom Reson. or an A-Reson., apply 1 [AzureDamageUp] as well",
+          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] Сила в столкновении +1 за каждые 5 [Sinking] на основной цели (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает следующие эффекты за каждые 3 самых высоких резонанса <style=\"highlight\">(если это был резонанс Уныния, за каждые 2 самых высоких резонанса)</style>:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] на следующем ходу на случайных союзников (с самым высоким резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)\n- Если указанный резонанс был резонансом Уныния или A-резонансом, накладывает также 1 [AzureDamageUp]",
           "coinlist": [
             {
               "coindescs": [
