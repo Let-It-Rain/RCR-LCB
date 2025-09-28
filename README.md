@@ -23,7 +23,7 @@
   <a href="https://discord.gg/ZybvEXmpCq">
   <a href="https://discord.gg/ZybvEXmpCq">
   <img 
-    src="https://img.shields.io/badge/Discord-%D0%97%D0%B0%D0%B9%D1%82%D0%B8-12e2e6?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=212121&color=12e2e6&link=https://discord.gg/ZybvEXmpCq" 
+    src="https://img.shields.io/badge/Discord-%D0%97%D0%B0%D0%B9%D1%82%D0%B8-00566e?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=212121&color=12e2e6&link=https://discord.gg/ZybvEXmpCq" 
     alt="Discord" 
     style="transform: scale(3); transform-origin: top left;"
   >
