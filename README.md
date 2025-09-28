@@ -6,9 +6,13 @@
        height="200"/>
 </a>
 
-<p align="center">
-  <img src="https://fakeimg.pl/600x80/?text=Rainbus%20Company%20Rofls&font=lobster&fontsize=60&font_color=ffffff&bg=212121">
-</p>
+<a href="https://github.com/enqenqenqenqenq/RCR">
+  <img src="https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/title.png"
+       width="512"
+       height="48"/>
+</a>
+
+
 
 
 <p>
