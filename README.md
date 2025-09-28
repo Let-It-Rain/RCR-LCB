@@ -5,7 +5,9 @@
          height="200"/>
   </a>
 
-  <h1>Rainbus Company Rofls</h1>
+  <div style="font-size: 32px; font-weight: bold; margin-top: 20px;">
+    Rainbus Company Rofls
+  </div>
 
   <p>
     <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
@@ -13,8 +15,11 @@
     <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
   </p>
 
-  <h2><strong>Обкуренный перевод Limbus Company на Русский язык.</strong></h2>
+  <div style="font-size: 24px; font-weight: bold; margin-top: 15px;">
+    Обкуренный перевод Limbus Company на Русский язык.
+  </div>
 </div>
+
 
 
 
