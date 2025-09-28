@@ -6,7 +6,7 @@
        height="200"/>
 </a>
 
-<p><b><big>Rainbus Company Rofls</big></b></p>
+<p align="center"><b><big><big><big>Rainbus Company Rofls</big></big></big></b></p>
 
 <p>
   <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
@@ -14,7 +14,7 @@
   <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
 </p>
 
-<p><b><big>Обкуренный перевод Limbus Company на Русский язык.</big></b></p>
+<p align="center"><b><big><big>Обкуренный перевод Limbus Company на Русский язык.</big></big></b></p>
 
 </div>
 
