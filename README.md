@@ -6,7 +6,10 @@
        height="200"/>
 </a>
 
-<p align="center"><b><big><big><big>Rainbus Company Rofls</big></big></big></b></p>
+<p align="center">
+  <img src="https://fakeimg.pl/600x80/?text=Rainbus%20Company%20Rofls&font=lobster&fontsize=60&font_color=ffffff&bg=212121">
+</p>
+
 
 <p>
   <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
