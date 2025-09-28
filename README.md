@@ -16,11 +16,10 @@
 
 
 <p>
-  <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
-  <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?labelColor=212121&color=2b8237&style=for-the-badge"></a>
-  <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
-  <br><br>
-  <a href="https://discord.gg/ZybvEXmpCq">
+  <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?label=Звёзд&labelColor=212121&color=ffcf24&style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?label=Скачиваний&labelColor=212121&color=2b8237&style=for-the-badge" alt="Downloads"></a>
+  <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?label=Последняя%20версия&labelColor=212121&color=7024ff&style=for-the-badge" alt="Latest Release"></a>
+  <br><br><br><br>
   <a href="https://discord.gg/ZybvEXmpCq">
   <img 
     src="https://img.shields.io/badge/Discord-%D0%97%D0%B0%D0%B9%D1%82%D0%B8-00566e?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=212121&color=00566e&link=https://discord.gg/ZybvEXmpCq" 
