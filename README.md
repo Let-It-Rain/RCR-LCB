@@ -19,6 +19,8 @@
   <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
   <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?labelColor=212121&color=2ac957&style=for-the-badge"></a>
   <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
+  <br><br>
+  <a href="https://discord.gg/ZybvEXmpCq"><img src="https://img.shields.io/badge/Discord-Join-12e2e6?style=for-the-badge&logo=discord&logoColor=ffffff" alt="Discord" style="transform: scale(1.5);"></a>
 </p>
 
 <p align="center"><b><big><big>Обкуренный перевод Limbus Company на Русский язык.</big></big></b></p>
