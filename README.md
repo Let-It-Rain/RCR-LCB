@@ -1,23 +1,21 @@
 <div align="center">
-  <a href="https://github.com/enqenqenqenqenq/RCR">
-    <img src="https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/logo.png"
-         width="200"
-         height="200"/>
-  </a>
 
-  <div style="font-size: 32px; font-weight: bold; margin-top: 20px;">
-    Rainbus Company Rofls
-  </div>
+<a href="https://github.com/enqenqenqenqenq/RCR">
+  <img src="https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/logo.png"
+       width="200"
+       height="200"/>
+</a>
 
-  <p>
-    <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
-    <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?labelColor=212121&color=2ac957&style=for-the-badge"></a>
-    <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
-  </p>
+<p><b><big>Rainbus Company Rofls</big></b></p>
 
-  <div style="font-size: 24px; font-weight: bold; margin-top: 15px;">
-    Обкуренный перевод Limbus Company на Русский язык.
-  </div>
+<p>
+  <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge"></a>
+  <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?labelColor=212121&color=2ac957&style=for-the-badge"></a>
+  <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
+</p>
+
+<p><b><big>Обкуренный перевод Limbus Company на Русский язык.</big></b></p>
+
 </div>
 
 
