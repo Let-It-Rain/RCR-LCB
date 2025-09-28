@@ -8,12 +8,13 @@
 
 # Rainbus Company Rofls
 
-## Обкуренный перевод  Limbus Company на Русский язык.
-<p align="center">
-    <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
+    <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?labelColor=212121&color=ffcf24&style=for-the-badge">
+    </a><a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?labelColor=212121&color=2ac957&style=for-the-badge">
+    </a><a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?labelColor=212121&color=7024ff&style=for-the-badge"></a>
+
+**Обкуренный перевод  Limbus Company на Русский язык.**
+
+
 
 
 ## Полезные ссылки
