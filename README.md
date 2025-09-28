@@ -23,7 +23,7 @@
   <a href="https://discord.gg/ZybvEXmpCq">
   <img 
     src="https://img.shields.io/badge/Discord-%D0%97%D0%B0%D0%B9%D1%82%D0%B8-00566e?style=for-the-badge&logo=discord&logoColor=ffffff&labelColor=212121&color=00566e&link=https://discord.gg/ZybvEXmpCq" 
-    alt="Discord" width="332" height="56""
+    alt="Discord" width="249" height="42""
   >
 </a>
 
