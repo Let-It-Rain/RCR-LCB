@@ -11,7 +11,7 @@
        width="512"
        height="48"/>
 </a>
-
+<p align="center"><b><big><big>Обкуренный перевод Limbus Company на Русский язык.</big></big></b></p>
 
 
 
@@ -29,7 +29,7 @@
 
 </p>
 
-<p align="center"><b><big><big>Обкуренный перевод Limbus Company на Русский язык.</big></big></b></p>
+
 
 </div>
 
