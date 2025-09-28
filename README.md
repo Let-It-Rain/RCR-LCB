@@ -10,15 +10,9 @@
 
 ## Обкуренный перевод  Limbus Company на Русский язык.
 <p align="center">
-    <a href="https://github.com/enqenqenqenqenq/RCR/">
-        <img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
-    </a>
-    <a href="https://github.com/enqenqenqenqenq/RCR/releases">
-        <img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?colorA=363a4f&colorB=f5a97f&style=for-the-badge">
-    </a>
-    <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest">
-        <img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?colorA=363a4f&colorB=a6da95&style=for-the-badge">
-    </a>
+    <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 
