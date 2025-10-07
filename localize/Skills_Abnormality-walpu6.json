@@ -1,31 +1,31 @@
-{
+﻿{
   "dataList": [
     {
       "id": 122301,
       "levelList": [
         {
           "level": 1,
-          "name": "Cascading Despair",
-          "desc": "[WhenUse] If target has 4+ [Sinking], Coin Power +1\n[WinDuel] Inflict [ColdBlackTear] equal to the # of remaining Coins",
+          "name": "Наваливающееся отчаяние",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WinDuel] Наносит <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color> на цель в количестве оставшихся монет",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -38,36 +38,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sharp Teardrops",
-          "desc": "[WhenUse] If target has 4+ [Sinking], Coin Power +1\n[WhenUse] If target has 20 or higher IQ, Base Power +1\n[WinDuel] Inflict [ColdBlackTear] equal to the # of remaining Coins",
+          "name": "Острые слёзы",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Базовая сила +1 против целей с 20 и более СД\n[WinDuel] Наносит <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color> на цель в количестве оставшихся монет",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -80,56 +80,56 @@
       "levelList": [
         {
           "level": 1,
-          "name": "River of Despairing Tears",
-          "desc": "[WhenUse] Base Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 1+ [ColdBlackTear], Coin Power +1\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Река из слёз отчаяния",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Сила монет +1 против целей, на которых есть <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             }
@@ -142,13 +142,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Shared Sorrow, Dulled",
-          "desc": "[WhenUse] Inflict 1 [ColdBlackTear]",
+          "name": "Разделить скорбь",
+          "desc": "[WhenUse] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 3+ [ColdBlackTear], inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слезы</link></u></color>, наносит ей 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>"
                 }
               ]
             }
@@ -161,16 +161,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Violent Cascade of Hollow Despair",
-          "desc": "Prioritizes targets with the most [ColdBlackTear]\n[WhenUse] If the main target has 5+ [ColdBlackTear], Coin Power +5",
+          "name": "Жестокий поток опустевшего отчаяния",
+          "desc": "Нацеливается на противников, на которых есть <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>\n[WhenUse] Сила в столкновении +5 против целей, на которых 5 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слез</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal fixed damage equal to ([ColdBlackTear] Stack on target x 6)% of target's max HP, then remove all [ColdBlackTear] on target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит фиксированный урон, равный (Количество <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слёз</link></u></color> на цели × 6)% от максимальных ОЗ цели, после чего все <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color> исчезают с цели"
                 }
               ]
             }
@@ -183,56 +183,56 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Arcana: Tear and Pierce",
-          "desc": "Uses this Skill when an enemy uses Arcana[TabExplain] Slave, and when this unit does not have [CollapsedPride]\nCounterattacks only Arcana Slave",
+          "name": "Аркана: Слеза и пронзание",
+          "desc": "Использует эту атаку, когда Королева ненависти использует атаку 「РАБЫНЯ АРКАНЫ」, а у себя нет <sprite name=\"CollapsedPride\"><color=#e30000><u><link=\"CollapsedPride\">Разбитой гордости</link></u></color>\nКонтратакует только Королеву ненависти",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ColdBlackTear]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal fixed damage equal to ([ColdBlackTear] Stack on target x 6)% of target's max HP, then remove all [ColdBlackTear] on target (ignores Resistances)"
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный (Количество <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слёз</link></u></color> на цели × 6)% от максимальных ОЗ цели, после чего все <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color> исчезают с цели (Игнорирует сопротивления цели)"
                 }
               ]
             }
@@ -245,20 +245,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -271,23 +271,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -300,26 +300,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -332,13 +332,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания </link></u></color> цели / 10) <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color> на следующий ход (Округляется вниз)"
                 }
               ]
             }
@@ -351,16 +351,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодную и чёрную слезу</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слезы</link></u></color>, наносит урон Унынием ещё раз"
                 }
               ]
             }
@@ -373,20 +373,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -399,23 +399,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -428,26 +428,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -460,13 +460,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания </link></u></color> цели / 10) <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color> на следующий ход (Округляется вниз)"
                 }
               ]
             }
@@ -479,16 +479,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодную и чёрную слезу</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слезы</link></u></color>, наносит урон Унынием ещё раз"
                 }
               ]
             }
@@ -501,20 +501,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -527,23 +527,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -556,26 +556,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -588,13 +588,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания </link></u></color> цели / 10) <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color> на следующий ход (Округляется вниз)"
                 }
               ]
             }
@@ -607,16 +607,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодную и чёрную слезу</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слезы</link></u></color>, наносит урон Унынием ещё раз"
                 }
               ]
             }
@@ -629,20 +629,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Faded Faith",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -655,23 +655,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Weathered Pride",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -684,26 +684,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Despair",
-          "desc": "[WhenUse] Clash Power +1 for every 4 [Sinking] on target (max 2)\n[WhenUse] If target has 10 or higher IQ, Base Power +1\n[WhenUse] If target has 20 or higher IQ, Coin Power +1",
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1"
                 }
               ]
             }
@@ -716,13 +716,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Sharpened with Tears",
-          "desc": "[WhenUse] Coin Power +5 for every 6 [Sinking] on target (max 10)\n[WhenUse] If target has [ColdBlackTear], Final Power +1",
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target has 6+ [Sinking], inflict ([Sinking] on target / 10) [DefenseDown] next turn (rounded down)"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания </link></u></color> цели / 10) <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color> на следующий ход (Округляется вниз)"
                 }
               ]
             }
@@ -735,16 +735,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sword Laced with Grief",
-          "desc": "[WhenUse] Coin Power +3 for every 6 [Sinking] on target (max 6)\n[WhenUse] Base Power +1 for every [ColdBlackTear] Count on target (max 3)",
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодную и чёрную слезу</link></u></color> на цели (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal bonus Gloom damage equal to (Skill Power)% of target's max HP (max 30)\n- If target has 2+ [ColdBlackTear], deal bonus Gloom damage again"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слезы</link></u></color>, наносит урон Унынием ещё раз"
                 }
               ]
             }

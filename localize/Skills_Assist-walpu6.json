@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 40000301,
@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "С любовью!",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 5 (сумм. [Burst] и [Sinking] на цели) (макс. 2)\n[WhenUse] Получает +10 [PowerOfLoveAndJustice]",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 единиц в сумме силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Повышает свой счётчик <sprite name=\"PowerOfLoveAndJustice\"><color=#f8c200><u><link=\"PowerOfLoveAndJustice\">Любви и справедливости</link></u></color> на 10",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
                 }
               ]
             }
@@ -32,15 +32,15 @@
         {
           "level": 1,
           "name": "Во имя справедливости!",
-          "desc": "[WhenUse] Coin Power +1 за каждые 7 (сумм. [Burst] и [Sinking] на цели) (макс. 2)\n[WhenUse] Получает +10 [PowerOfLoveAndJustice] Счетчика",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Повышает свой счётчик <sprite name=\"PowerOfLoveAndJustice\"><color=#f8c200><u><link=\"PowerOfLoveAndJustice\">Любви и справедливости</link></u></color> на 10",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 [Burst] Счетчика"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имела 10+ (sum of [Burst] и [Sinking]), наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если сумма силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> цели равна 10 и более, наносит ей 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -53,36 +53,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Луч Сваги",
-          "desc": "Главная цель - рыцарь спермы\nПодцели - это союзники с [ColdBlackTear]\n- Если их нет, под-целью становятся союзники с наименьшим ХП\nНаносит 0 урона, не активирует эффекты от [Sinking] и [ColdBlackTear] на союзниках\n\n[WinDuel] Удаляет 1 [ColdBlackTear] от одного союзника, задетого навыком.",
+          "name": "Удары Арканы",
+          "desc": "Выбирает главной целью Рыцаря отчаяния\nДополнительными целями становятся Грешники с наибольшим количеством <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слёз</link></u></color>, либо с наименьшими ОЗ\n- Не наносит урона Грешникам и не активирует эффекты <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> или <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных и чёрных слёз</link></u></color> на них при попадании\n[WinDuel] Убирает 1 <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодные и чёрные слёзы</link></u></color> с Грешников, которые были дополнительными целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель - враг, наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель - друг, хиллит 5 ХП"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 5 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель - враг, наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель - друг, хиллит 5 ХП"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 5 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель - враг, наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель - друг, хиллит 5 ХП"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 5 СД"
                 }
               ]
             }
@@ -95,12 +95,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Кажется, мне придется использовать эту силу.",
-          "desc": "[StartBattle] Получает 1 [ChasingArcana]\n[StartBattle] Получает 50 Щита\n[StartBattle] Получает 20 [Aggro] на следующий ход",
+          "name": "Похоже, мне придётся использовать эту силу!",
+          "desc": "[StartBattle] Начинает готовить <sprite name=\"ChasingArcana\"><color=#f8c200><u><link=\"ChasingArcana\">Заклинание — Рабыня арканы</link></u></color>\n[StartBattle] Получает 50 ОЗ Щита\n[StartBattle] Получает 20 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -112,12 +114,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Очаровательный Луч Сваги",
-          "desc": "[StartBattle] Получает 50 Щита\n[StartBattle] Получает 20 [Aggro] на следующий ход\n[EndBattle] At 0 Щита HP, Retreats",
+          "name": "Заклинание — Рабыня арканы",
+          "desc": "[StartBattle] Получает 50 ОЗ Щита\n[StartBattle] Получает 20 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[EndBattle] Если ОЗ Щита истощены, отступает с поля боя",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -129,13 +133,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ЛУЧ СВАГИ",
-          "desc": "[CantDuel]\nНенаносит урона мечам рыцаря отчаяния\nЗаканчивает ход после атаки по цели с [WornOutKnight]\n[EndBattle] Получает [UsedTooMuchPower]",
+          "name": "РАБЫНЯ АРКАНЫ",
+          "desc": "[CantDuel]\nНе наносит урона Мечам забытого рыцаря\nЗаканчивает ход после попадания по Рыцарю отчаяния в <sprite name=\"WornOutKnight\"><color=#e30000><u><link=\"WornOutKnight\">Изнеможении</link></u></color>\n[EndBattle] <sprite name=\"UsedTooMuchPower\"><color=#e30000><u><link=\"UsedTooMuchPower\">Теряет все силы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Уменьшает ХП цели на (100 - ([CollapsedPride] стак x 33))%"
+                  "desc": "[OnSucceedAttack] Опускает ОЗ Рыцаря отчаяния до (100 - (Значение <sprite name=\"CollapsedPride\"><color=#e30000><u><link=\"CollapsedPride\">Разбитой гордости</link></u></color> Рыцаря отчаяния × 33))%"
                 }
               ]
             }
@@ -148,13 +152,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ЛУЧ СВАГИ",
-          "desc": "[CantDuel]\nНаносит урон только эффектами от монетки\nНе наносит урона кроме главной аномалии\nЗаканчивает ход после попадания по врагу [WornOutKnight] и 600- ХП\n[EndBattle] Получает [UsedTooMuchPower]",
+          "name": "РАБЫНЯ АРКАНЫ",
+          "desc": "[CantDuel]\nНаносит урон только эффектом монеты\nНе наносит урона Мечам забытого рыцаря\nЗаканчивает этот ход при попадании по Рыцарю отчания, если она в <sprite name=\"WornOutKnight\"><color=#e30000><u><link=\"WornOutKnight\">Изнеможении</link></u></color> и её ОЗ равны или менее 600\n[EndBattle] <sprite name=\"UsedTooMuchPower\"><color=#e30000><u><link=\"UsedTooMuchPower\">Теряет все силы</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит ([CollapsedPride] x 200) фиксированного урона"
+                  "desc": "[OnSucceedAttack] Наносит (Значение <sprite name=\"CollapsedPride\"><color=#e30000><u><link=\"CollapsedPride\">Разбитой гордости</link></u></color> Рыцаря отчаяния × 200) фиксированного урона"
                 }
               ]
             }
@@ -167,12 +171,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Кажется, мне придется использовать эту силу.",
-          "desc": "[StartBattle] Получает 1 [ChasingArcanahard]\n[StartBattle] Получает 50 Щита\n[StartBattle] Получает 20 [Aggro] на следующий ход",
+          "name": "Похоже, мне придётся использовать эту силу!",
+          "desc": "[StartBattle] Начинает готовить <sprite name=\"ChasingArcanahard\"><color=#f8c200><u><link=\"ChasingArcanahard\">Заклинание — Рабыня арканы</link></u></color>\n[StartBattle] Получает 50 ОЗ Щита\n[StartBattle] Получает 20 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]

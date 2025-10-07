@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 112701,
@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -45,7 +45,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (<sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меток воздаяния</link></u></color> на цели × 3) Дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит (Количество <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меток воздаяния</link></u></color> на цели × 3) Дробящего урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Снимает все <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> с цели"
@@ -62,7 +62,7 @@
         {
           "level": 1,
           "name": "Довольно игр",
-          "desc": "[StartBattle] Все союзники восстанавливают 10 IQ\n[EndBattle] Союзники в панике выходят из нее на следующем ходу и сбрасывают свою IQ до 0\n[EndBattle] Дает 1 <sprite name=\"HitResultUp\"><color=#f8c200><u><link=\"HitResultUp\">Повышение силы Дробящих атак</link></u></color> себе и всем союзникам",
+          "desc": "[StartBattle] Все союзники восстанавливают 10 СД\n[EndBattle] Союзники в панике выходят из неё в следующем ходе и сбрасывают свою СД до 0\n[EndBattle] Даёт 1 <sprite name=\"HitResultUp\"><color=#f8c200><u><link=\"HitResultUp\">Повышение силы Дробящих атак</link></u></color> себе и всем союзникам на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -80,8 +80,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ПОЛНОЕ И ТОТАЛЬНОЕ ИЗНИЧТОЖЕНИЕ!!!!",
-          "desc": "Можно столкнуться независимо от скорости\nЕсли на основной цели 5 и более <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меткок воздаяния</link></u></color>, Итоговая сила повышается на 5\n[EndSkill] Снимает все <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> с противников",
+          "name": "ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!!!!",
+          "desc": "Можно столкнуться независимо от скорости\nЕсли на основной цели 5 и более <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меткок воздаяния</link></u></color>, Итоговая сила повышается на 5\n[EndSkill] Снимает все <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Метки воздаяния</link></u></color> с противников, по которым попал этой атакой",
           "coinlist": [
             {
               "coindescs": [
@@ -89,7 +89,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (<sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меток воздаяния</link></u></color> на цели × 10) Дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит (Количество <sprite name=\"MiddleFingerBook\"><color=#e30000><u><link=\"MiddleFingerBook\">Меток воздаяния</link></u></color> на цели × 10) Дробящего урона"
                 }
               ]
             }
@@ -103,12 +103,12 @@
         {
           "level": 1,
           "name": "Первый удар",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленкеи</link></u></color>",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -122,15 +122,15 @@
         {
           "level": 1,
           "name": "Пробить насквозь",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленкеи</link></u></color>\n[WhenUse] Получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Стремительности 【Мао】</link></u></color>",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WhenUse] Получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Стремительности</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал</link></u></color>, получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цель наложен <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал 【Скоротечность】</link></u></color>, получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -144,22 +144,22 @@
         {
           "level": 1,
           "name": "Гравировочный удар",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленкеи</link></u></color>",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал 【Скоротечность】</link></u></color>"
                 }
               ]
             }
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Исписанный проклятиями клинок - Мгновение",
-          "desc": "Нацеливается на противников с наложенным <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертным ритуалом</link></u></color>\nНаносит на 15% больше урона за каждые 2 единицы разницы в скорости с более медленной целью (До 60%)\n[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленок</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 за каждые 2 единицы на счетчике <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> цели (До 3)\n[EnemyKill] Если скорость 10 и выше, вновь использует атаку на случайном противнике (Единожды за ход)",
+          "desc": "Нацеливается на противников с наложенным <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертным ритуалом 【Скоротечность】</link></u></color>\nНаносит на 15% больше урона за каждые 2 единицы разницы в скорости с более медленной целью (До 60%)\n[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[WhenUse] Базовая сила +1 за каждые 2 единицы счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели (До 3)\n[EnemyKill] Если скорость 10 и выше, вновь использует атаку на случайном противнике (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
                 }
               ]
             },
@@ -191,7 +191,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленок</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 }
               ]
             },
@@ -201,10 +201,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "Если на цель наложен <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал</link></u></color>, на 50% больше урона"
+                  "desc": "Если на цель наложен <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал 【Скоротечность】</link></u></color>, на 50% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленок</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 }
               ]
             }
@@ -218,26 +218,26 @@
         {
           "level": 1,
           "name": "Проклятие",
-          "desc": "[DuelCounter]\n[WhenUse] Если на цель наложен <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал</link></u></color>, повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> еще на 1 монетами этого навыка",
+          "desc": "[DuelCounter]\n[WhenUse] Если на цель наложен <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Смертный ритуал 【Скоротечность】</link></u></color>, повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> ещё на 1 монетами этого навыка",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
                 }
               ]
             }
