@@ -1679,6 +1679,431 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подготовка к концерту",
+          "desc": "[WhenUse] На себя и 1 союзника с наименьшим максимальным HP: тратит до 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color> и накладывает 1 [BloodArmorMeursault] за каждые 5 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color>, потраченных этим юнитом (один раз за ход; исключает союзников с максимальным стаком)\n- Приоритет отдаётся союзникам из <Мочаленда> и <Кровожидам> (Высшая родня)\n- Если выбранный союзник из <Мочаленда>, этот юнит накладывает 1 дополнительный [BloodArmorMeursault]\n- Если этот юнит не смог потратить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Подготовка к концерту",
+          "desc": "[WhenUse] На себя и 1 союзника с наименьшим максимальным HP: тратит до 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color> и накладывает 1 [BloodArmorMeursault] за каждые 5 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color>, потраченных этим юнитом (один раз за ход; исключает союзников с максимальным стаком)\n- Приоритет у союзников из <Мочаленда> и <Кровожидам> (Высшая родня)\n- Если выбранный союзник из <Мочаленда>, этот юнит накладывает 1 дополнительный [BloodArmorMeursault]\n- Если этот юнит не смог потратить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, получи 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n<style=\"highlight\">[WhenUse] Если у цели 4+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, сила монеты +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> Count</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подготовка к концерту",
+          "desc": "[WhenUse] На себя и 1 союзника с наименьшим максимальным HP: тратит до 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color> и накладывает 1 [BloodArmorMeursault] за каждые 5 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color>, потраченных этим юнитом (один раз за ход; исключает союзников с максимальным стаком)\n- Приоритет у союзников из <Мочаленда> и <Кровожидам> (Высшая родня)\n- Если выбранный союзник из <Мочаленда>, этот юнит накладывает 1 дополнительный [BloodArmorMeursault]\n- Если этот юнит не смог потратить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n[WhenUse] Если у цели 4+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, сила монеты +1\n<style=\"highlight\">[WhenUse] Если у цели 3+ счетчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, финальная сила +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> Count<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Матушка земля",
+          "desc": "[WhenUse] На себя и 1 союзника с наивысшим максимальным HP: тратит до 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color> и накладывает 1 [BloodArmorMeursault] за каждые 5 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color>, потраченных этим юнитом (один раз за ход; исключает союзников с максимальным стаком)\n- Приоритет отдаётся союзникам из <Мочаленда> и <Кровожидам> (Высшая Родня)\n- Если выбранный союзник из <Мочаленда>, этот юнит накладывает 1 дополнительный [BloodArmorMeursault]\n- Если этот юнит не смог потратить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, получи 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Матушка земля",
+          "desc": "[WhenUse] На себя и 1 союзника с максимальным HP: потребляет до 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color> и накладывает 1 [BloodArmorMeursault] за каждые 5 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, которые этот юнит потребил (один раз за ход; исключает союзников с максимальным стаком)\n- Приоритет отдаёт союзникам из <Мочаленда> и <Кровожидам> (Высшая родня)\n- Если затронутый союзник из <Мочаленда>, этот юнит накладывает 1 дополнительный [BloodArmorMeursault]\n- Если этот юнит не смог потребить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>\n<style=\"highlight\">[WhenUse] Мощность монеты +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] Если у цели есть 3+ счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, Финальная мощность +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Матушка земля",
+          "desc": "[WhenUse] На себя и 1 союзника с максимальным HP: потребляет до 10 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color> и накладывает 1 [BloodArmorMeursault] за каждые 5 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color>, потреблённых этим юнитом (один раз за ход; исключая союзников с максимальным стаком)\n- Приоритет союзникам из <Мочаленда> и <Кровожидам>(Высший Род)\n- Если выбранный союзник из <Мочаленда>, этот юнит накладывает 1 дополнительный [BloodArmorMeursault]\n- Если этот юнит не смог потребить <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n[WhenUse] Мощность монет +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] <style=\"highlight\">Финальная мощность +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> Count на цели (макс. 2)</style>\n<style=\"highlight\">[WhenUse] Наносит +10% урона за каждый [BloodArmorMeursault] на себе (макс. 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp] на следующий ход (2 раза за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Концерт Макана",
+          "desc": "При попадании этим навыком: восстанавливает 40% от нанесённого урона HP (макс. 50 за навык)  \n[BeforeUse] При 5 [BloodArmorMeursault] активирует «И все потому, что - я Русский!» вместо этого  \n[WhenUse] Сила монеты +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)  \n[WhenUse] Накладывает 1 [BloodArmorMeursault] на себя и союзников с (наивысшим резонансом) (2 раза за ход; до 4 союзников; приоритет снчала у <Мочаленда>, затем у <Кровожидов>(Высшие Сородичи); исключает союзников с максимальным стаком)  \n[EndSkill] Если цель побеждена, увеличивает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color> дополнительно на 20 (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> "
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ParadeConcentration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ParadeConcentration] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Концерт Макана",
+          "desc": "При попадании этим навыком: восстанавливает 40% от нанесённого урона HP (макс. <style=\"highlight\">80</style> за навык)  \n[BeforeUse] При 5 [BloodArmorMeursault] вместо этого активирует «И все потому, что - я Русский!»  \n[WhenUse] Мощность монеты +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)  \n<style=\"highlight\">[WhenUse] Наносит +10% урона за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> Count на цели (макс. 40%)</style>  \n[WhenUse] Накладывает 1 [BloodArmorMeursault] на себя и союзников с (наибольшим резонансом) (2 раза за ход; до 4 союзников; приоритет у <Мочаленда>, затем у <Кровожидов>(Высшая родня); исключает союзников с макс. стаками)  \n<style=\"highlight\">- Если это был резонанс похоти, также накладывает 2 [BloodArmorMeursault] на 2 союзников с наименьшим макс. HP</style>  \n[EndSkill] Если цель побеждена, увеличивает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color> на дополнительные 20 (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> "
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ParadeConcentration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ParadeConcentration] на следующий ход <style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Репетиция",
+          "desc": "[DuelCounter]\n[WinDuel] Получает 1 [BloodArmorMeursault] (2 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Репетиция",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[WhenUse] 2 союзникам, включая этого персонажа, накладывает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и активирует его один раз; затем уменьшает их счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на 1 (один раз за ход; приоритет у союзников с наибольшим количеством [BloodArmorMeursault]; не активируется для Высших Сородичей; этот урон не снижает HP союзников ниже 1)</style>\n[WinDuel] Получает 1 [BloodArmorMeursault] (2 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051305,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "И все потому, что - я Русский!",
+          "desc": "При попадании этим навыком: восстанавливает HP в размере 50% от нанесённого урона (макс. 85 за навык)  \n[WhenUse] Сила в столкновении +2 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на основной цели (макс. 8)  \n[WhenUse] Наносит +5% урона за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> Count на основной цели (макс. 20%)  \n[WhenUse] Накладывает 2 [BloodArmorMeursault] на (наивысший резонанс) других союзников (макс. 4 союзника; приоритет у <Мочаленда>, затем <Кровожидов> (высшие сородичи); исключает союзников с максимальным стаком)  \n[EndSkill] Поглощает все [BloodArmorMeursault] на себе  \n[EndSkill] Если этим навыком побеждена цель, дополнительно увеличивает Кровавый пир на 10 за каждую цель, побеждённую этим навыком (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счетчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ParadeConcentration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [BloodArmorMeursault] на следующий ход за каждую цель, которую этот навык оглушил, сломал часть или победил (макс. 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "И все потому, что - я Русский!",
+          "desc": "При попадании этим навыком: восстанавливает HP в размере 50% от нанесённого урона(макс. <style=\"highlight\">100</style> за навык)  \n[WhenUse] Сила в столкновении +2 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на основной цели (макс. 8)  \n[WhenUse] Наносит +<style=\"highlight\">10</style>% урона за каждые 2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на основной цели (макс. <style=\"highlight\">40</style>%)  \n[WhenUse] Накладывает 2 [BloodArmorMeursault] на (наивысший резонанс) других союзников (макс. 4 союзника; приоритет у <Мочаленда>, затем <Кровожидов>(Высшие сородичи); исключает союзников с максимальным стаком)  \n<style=\"highlight\">- Если это был резонанс похоти, накладывает 1 дополнительный [BloodArmorMeursault]</style>  \n[EndSkill] Поглощает все [BloodArmorMeursault] на себе  \n[EndSkill] Если этим навыком повержена цель, дополнительно увеличивает Кровавый пир на 10 за каждую цель, поверженную этим навыком (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 счетчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> "
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счетчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ParadeConcentration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">- При 2+ [FocusOnActing] также накладывает 2 [ParadeConcentration] на 1 из целей (один раз за ход)</style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [BloodArmorMeursault] на следующий ход за каждую цель, которую это умение оглушило, сломало часть или победило (макс. 3)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

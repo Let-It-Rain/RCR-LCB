@@ -1,0 +1,64 @@
+{
+  "dataList": [
+    {
+      "id": 9840,
+      "name": "Кепка фаната RCR",
+      "desc": "После использования навыка, который получает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальную соль</noparse>, получает [EmergencyChargeForceField], равный полученному счётчику (максимум 7 на айдишку)."
+    },
+    {
+      "id": 9841,
+      "name": "Набор шахида",
+      "desc": "После использования навыка, который получает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальный заряд</noparse>, получить [EmergencyChargeForceField], равный полученному счётчику (максимум 7 за айдишку).\n\nНавыки, расходующие счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальный заряд</noparse>, наносят +(количество айдишек в отряде с навыками, которые получают или расходуют счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальный заряд</noparse>)% урона (учитывает всех юнитов в отряде).\n\nНавыки, расходующие счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальный заряд</noparse>, получают +3 к силе столкновения и наносят +15% урона.\n- При использовании таких навыков юнит получает +4 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и 1 [ChargeForceField] (один раз за айдишку за ход).\n\nАйдишки Корпорации W получают следующие эффекты:\n- При нанесении урона навыком (включая навыки Э.Г.О.) накладывают 2 [TakeHpHealReduce] (не стакается).\n- Во время фазы боя, когда этот юнит получает урон НР из источников, отличных от прямого урона навыком, получает 5 [ChargeForceField] (один раз за ход за айдишку).\n- Навык 2 получает +3 к силе столкновения и наносит +15% урона.\n- Начало хода: в этом ходу Навык 3 наносит +(количество айдишек Корпорации W на поле × 6.25)% урона.\n- Начало хода: Агенты L2 Корпорации W получают 1 [PlusCoinValueUp].\n- Начало хода: получить (количество айдишек Корпорации W на поле / 3) [ChargeLoad] (максимум 2; округляется в меньшую сторону)."
+    },
+    {
+      "id": 9842,
+      "name": "Гуро вкусняшка",
+      "desc": "Эффекты этого Э.Г.О. дара усиливаются в зависимости от количества айдишек в отряде с атакующими навыками, которые расходуют <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color> (количество айдишек, соответствующих условию, обозначено как «N» ниже; исключая навыки Э.Г.О.; учитываются все юниты в отряде).\n\nНачало первого хода волны: увеличивает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color> на (N × 20); затем накладывает 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +3 к счётчику <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на все цели (<sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color>, увеличенный этим эффектом, ограничен 100 за активацию).\n\nСоюзники получают на -(N × 10%) меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> (минимум 1 урон от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>; максимум 40%).\n- Сниженный урон не влияет на количество увеличенного <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борща</noparse></link></u></color>.\n\nВраги получают на +(N × 5)% больше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> (максимум 20%)."
+    },
+    {
+      "id": 9843,
+      "name": "Бумеранг из крови",
+      "desc": "Эффекты этого Э.Г.О. дара усиливаются в зависимости от количества айдишек в отряде с атакующими навыками, которые расходуют <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color> (количество айдишек, соответствующих условию, обозначено как «N» ниже; за исключением навыков Э.Г.О.; учитываются все юниты в отряде).\n\nНачало встречи: все союзники получают (N - 2) [BloodArmorCasting] (макс. 3)."
+    },
+    {
+      "id": 9205,
+      "name": "Пиво с Вайлдберис",
+      "desc": "Активируется, когда союзник с атакующими навыками, накладывающими <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <noparse>Уникальный кетчуп</noparse>, умирает (один раз за волну; кроме навыков Э.Г.О.; если несколько союзников умирают одновременно, используется союзник наивысшего уровня среди них)\n- Все союзники восстанавливают (9% от умершей айдишки) HP и увеличивают <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\"><noparse>Борщ</noparse></link></u></color> на (уровень умершей айдишки + 9)\n- Все союзники получают (уровень умершей айдишки / 9) [AttackUp] на следующий ход (макс. 6; округляется в меньшую сторону)"
+    },
+    {
+      "id": 9206,
+      "name": "Занюхнул крови и кончил",
+      "desc": "Союзник с наименьшим HP перед началом боя восстанавливает 3% HP при попадании атакующими навыками, которые накладывают <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <noparse>Уникальный кетчуп</noparse> (2 раза за ход).\n\nВ столкновении с использованием навыков, которые накладывают <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <noparse>Уникальный кетчуп</noparse>, на врагов с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <noparse>Уникальный кетчуп</noparse>, сила столкновения +1.\n- Если 5 или более айдишек имеют атакующие навыки, которые накладывают <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <noparse>Уникальный кетчуп</noparse>, сила столкновения +1 и наносится +10% урона вместо этого (учитываются все юниты в команде).\n- Если есть 10 или более айдишек, соответствующих вышеуказанному описанию, сила столкновения +2 и наносится +15% урона вместо этого."
+    },
+    {
+      "id": 9818,
+      "name": "Перчатка фистинга",
+      "desc": "При нанесении урона врагам с навыками, которые потребляют счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальную соль</noparse>, +0.1 к наименьшему сопротивлению типу атаки на ход (один раз за ход)."
+    },
+    {
+      "id": 19818,
+      "name": "Перчатка фистинга+",
+      "desc": "При нанесении урона врагам с навыками, которые расходуют счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальную соль</noparse>, +0.1 к наименьшему сопротивлению типу атаки на ход (один раз за ход).  \n- Также наложить 1 [VioletResistDown]."
+    },
+    {
+      "id": 29818,
+      "name": "Перчатка фистинга++",
+      "desc": "При нанесении урона врагам с навыками, которые расходуют счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> или <noparse>Уникальную соль</noparse>, +0.1 к наименьшему сопротивлению типу атаки на ход (2 раза за ход).  \n- Также накладывает 1 [VioletResistDown] и 1 [AzureResistDown]."
+    },
+    {
+      "id": 9817,
+      "name": "Чето тихо стало",
+      "desc": "Противники в состоянии низкого боевого духа или паники теряют 1 единицу финальной силы (против целей без SP, когда у них 25+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>)\n- При нанесении урона поражённым противникам навыками, которые накладывают <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>, счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> или <noparse>Уникальную депрессию</noparse>, накладывает 2 [DefenseDown] (2 раза за ход)"
+    },
+    {
+      "id": 19817,
+      "name": "Чето тихо стало+",
+      "desc": "Противники в состоянии низкого боевого духа или паники теряют 2 единицы итоговой силы (против целей без SP, когда у них 15+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>)\n- При нанесении урона поражённым противникам навыками, которые накладывают <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>, счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> или <noparse>Уникальную депрессию</noparse>, накладывает 3 [DefenseDown] (2 раза за ход)"
+    },
+    {
+      "id": 29817,
+      "name": "Чето тихо стало++",
+      "desc": "Противники в состоянии низкого боевого духа или паники теряют 3 единицы финальной силы (против целей без SP, когда у них 10+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>)\n- При нанесении урона поражённым противникам с помощью навыков, которые накладывают <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>, счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> или <noparse>Уникальную депрессию</noparse>, накладывается 3 [DefenseDown] (3 раза за ход)"
+    }
+  ]
+}
