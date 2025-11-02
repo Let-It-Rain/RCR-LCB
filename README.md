@@ -11,7 +11,7 @@
        width="512"
        height="48"/>
 </a>
-<p align="center"><b><big><big>Обкуренный перевод Limbus Company на Русский язык.</big></big></b></p>
+<p align="center"><b><big><big>Обкуренный перевод Limbus Company на Русский язык</big></big></b></p>
 <br>
 
 
@@ -39,16 +39,13 @@
 
 ## Полезные ссылки
  [**Приложение для простой установки переводов**](https://github.com/kimght/LimbusLocalizationManager)
-
  (Через него можно установить локализации представленные ниже, и много других)
 
- [**Машинный перевод**](https://github.com/kimght/LimbusCompanyRuMTL)
- 
+ [**Машинный перевод (MTL)**](https://github.com/kimght/LimbusCompanyRuMTL)
  (Обновляется очень быстро, наш перевод базируется на нем)
 
  [**Локализация от Crescent Corporation**](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS)
-
- (Более качественный перевод, однако сейчас переведены только четыре канто)
+ (Более качественный, ручной перевод с корейского. Выходит намного дольше, но зато кайф ваще)
 
 </div>
 
@@ -82,12 +79,7 @@
 - [x] **Nocturnal Sweeping** 7.5 (2)
 - [x] **Spring Cultivation** 8.5 (1)
 
-!!! Перевод сюжета взят от [MTL](https://github.com/kimght/LimbusCompanyRuMTL), вы можете увидеть пару шуток местами, но нам пока что лень рофлофицировать сюжет
-
-### Остальное
-- [x] Гифты
-- [x] Айдишки
-- [x] Интерфейс
+⚠️ Перевод сюжета взят от [MTL](https://github.com/kimght/LimbusCompanyRuMTL) и не содержит шуток (чтоб вы могли спокойно проходить игру)
 
 
 ## Установка
