@@ -1606,7 +1606,7 @@
         {
           "level": 4,
           "name": "Лишающий девствености удав",
-          "desc": "[WhenUse] Сила монет +1 за каждый 8 (В суме эффектов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> потенциала этого юнита и потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> цели) (макс 4)\n- Если у этого юнита есть [SnakeStance], Место этого получает 1 Силу монет за каждые 5 (В суме эффектов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> Потенциала этого юнита и потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> цели ) (max 6)\n[WhenUse] Получает 3 [SnakeStance]\n[WinDuel] Если на целе 5+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>, получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color><style=\"highlight\"></style>",
+          "desc": "[WhenUse] Сила монет +1 за каждый 8 (В суме эффектов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> потенциала этого юнита и потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> цели) (макс 4)\n- Если у этого юнита есть [SnakeStance], Место этого получает 1 Силу монет за каждые 5 (В суме эффектов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> Потенциала этого юнита и потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> цели ) (макс 6)\n[WhenUse] Получает 3 [SnakeStance]\n[WinDuel] Если на целе 5+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color>, получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color><style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1672,23 +1672,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gap Attack",
+          "name": "Заглатывание",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             }
@@ -1696,23 +1696,23 @@
         },
         {
           "level": 2,
-          "name": "Gap Attack",
-          "desc": "[WhenUse] If target has 6+ ([Laceration] + [Vibration]), Coin Power +1",
+          "name": "Заглатывание",
+          "desc": "[WhenUse] Если цель имела 6+ ([Laceration] + [Vibration]), сила монет +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             }
@@ -1720,23 +1720,23 @@
         },
         {
           "level": 4,
-          "name": "Gap Attack",
-          "desc": "<style=\"highlight\">[WhenUse] Gain 1 [Agility] next turn (once per turn)</style>\n[WhenUse] Coin Power +1 <style=\"highlight\">for every</style> 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)</style>",
+          "name": "Заглатывание",
+          "desc": "<style=\"highlight\">[WhenUse] Получает 1 [Agility] на следующий ход (один раз за ход)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 6 ([Laceration] + [Vibration]) на цели <style=\"highlight\">(макс 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             }
@@ -1749,20 +1749,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stiletto Doppio",
-          "desc": "[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "name": "Ой Доппио...",
+          "desc": "[WinDuel] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             },
@@ -1777,31 +1777,31 @@
         },
         {
           "level": 2,
-          "name": "Stiletto Doppio",
-          "desc": "[WhenUse] If target has 6+ ([Laceration] + [Vibration]), Coin Power +1\n[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "name": "Ой Доппио...",
+          "desc": "[WhenUse] Если цель имела 6+ ([Laceration] + [Vibration]), сила монет +1\n[WinDuel] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the enemy(Core) has 20%- HP, use 'Mercé'",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "desc": "[OnSucceedAttack] Если враг(его ядро) имел меньше 20% ХП, использует 'Мисье, вам пизда.'",
+                  "summary": "[OnSucceedAttack] использует'Мисье, вам пизда.'"
                 }
               ]
             }
@@ -1809,31 +1809,31 @@
         },
         {
           "level": 4,
-          "name": "Stiletto Doppio",
-          "desc": "[WhenUse] Coin Power +1 <style=\"highlight\">for every</style> 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)</style>\n[WinDuel] <style=\"highlight\">Inflict 1 [Vibration]</style> and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "name": "Ой Доппио...",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 6 ([Laceration] + [Vibration]) на цели <style=\"highlight\">(макс 2)</style>\n[WinDuel] <style=\"highlight\">Наносит 1 [Vibration]</style> и провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчика [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчика [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If the enemy(Core) has 20%- HP, or <style=\"highlight\">if target has [HorrHurtNightStiletto]</style>, use 'Mercé'",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "desc": "[OnSucceedAttack] Если враг(или ядро) имело меньше 20% хп, или <style=\"highlight\">если враг имел [HorrHurtNightStiletto]</style>, использует 'Мисье, вам пизда.'",
+                  "summary": "[OnSucceedAttack] Использует 'Мисье, вам пизда.'"
                 }
               ]
             }
@@ -1846,41 +1846,41 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Execution",
-          "desc": "[BeforeUse] If target has [CriHurtNightStiletto], activate 'The Night's Awl' instead (once per turn)\n[WhenUse] If target has 6+ ([Laceration] + [Vibration]), Coin Power +1\n[WinDuel] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "name": "Молюсь и каюсь",
+          "desc": "[BeforeUse] Если цель имела [CriHurtNightStiletto], вместо этого использует 'Как по пизде ладошкой' (один раз за ход)\n[WhenUse] Если цель имела 6+ ([Laceration] + [Vibration]), сила монет +1\n[WinDuel] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationBleeding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target is Staggered, or has [HorrHurtNightStiletto], or if the enemy(Core) has 20%- HP, use 'Mercé'",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "desc": "[OnSucceedAttack] Если цель в стаггере или имела [HorrHurtNightStiletto], или если враг имел меньше 20% ХП, использует 'Мисье, вам пизда.'",
+                  "summary": "[OnSucceedAttack] использует 'Мисье, вам пизда.'"
                 }
               ]
             }
@@ -1888,41 +1888,41 @@
         },
         {
           "level": 4,
-          "name": "Execution",
-          "desc": "[BeforeUse] If target has [CriHurtNightStiletto], activate 'The Night's Awl' instead (once per turn)\n[WhenUse] Coin Power +1 <style=\"highlight\">for every</style> 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)</style>\n[WinDuel] <style=\"highlight\">Inflict 2 [Vibration]</style> and trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "name": "Молюсь и каюсь",
+          "desc": "[BeforeUse] Если цель имела [CriHurtNightStiletto], вместо этого использует 'Как по пизде ладошкой' (один раз за ход)\n[WhenUse] сила монет +1 <style=\"highlight\">за каждые</style> 6 ([Laceration] + [Vibration]) на цели <style=\"highlight\">(макс 2)</style>\n[WinDuel] <style=\"highlight\">Наносит 2 [Vibration]</style> и Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration] and <style=\"highlight\">+1 [Vibration] Count</style>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration] и <style=\"highlight\">+1 счётчик [Vibration]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationBleeding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target is Staggered, or has [HorrHurtNightStiletto], or if the enemy(Core) has 20%- HP, use 'Mercé'",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "desc": "[OnSucceedAttack] Если цель в стаггере или имела [HorrHurtNightStiletto], или если враг имел меньше 20% ХП, использует 'Мисье, вам пизда.'",
+                  "summary": "[OnSucceedAttack] использует 'Мисье, вам пизда.'"
                 }
               ]
             }
@@ -1935,8 +1935,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dire Straits",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [Agility] next turn (once per turn)\n[WhenUse] If target has 6+ ([Laceration] + [Vibration]), Coin Power +1",
+          "name": "Мокрые штаны",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [Agility] на следующий ход (один раз за ход)\n[WhenUse] Если цель имела 6+ ([Laceration] + [Vibration]), сила монет +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1949,8 +1949,8 @@
         },
         {
           "level": 4,
-          "name": "Dire Straits",
-          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] For this turn, increase the number of times 'Mercé' can be used when triggered by the effect of 'Purge Enforcer of the Famiglie' to 2 per turn</style>\n[StartBattle] Gain 1 [Agility] next turn (once per turn)\n[WhenUse] Coin Power +1 <style=\"highlight\">for every</style> 6 ([Laceration] + [Vibration]) on target <style=\"highlight\">(max 2)</style>\n[WinDuel] <style=\"highlight\"> Inflict 2 [Vibration]</style>",
+          "name": "Мокрые штаны",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] На этот ход, увеличивает число активаций 'Мисье, вам пизда.' которое происходил из-за пассивки 'Purge Enforcer of the Famiglie' до 2-х раз за ход</style>\n[StartBattle] Получает 1 [Agility] на следующий ход (один раз за ход)\n[WhenUse] сила монет +1 <style=\"highlight\">за каждые</style> 6 ([Laceration] + [Vibration]) на цели <style=\"highlight\">(макс 2)</style>\n[WinDuel] <style=\"highlight\"> Наносит 2 [Vibration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1968,13 +1968,13 @@
       "levelList": [
         {
           "level": 2,
-          "name": "Mercé",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills and cannot gain E.G.O resources\nCoin Power +1 for every 20% missing HP on the enemy(Core) (max 2)\nIf the enemy(Core) has 20%- HP, deal +80% damage",
+          "name": "Мисье, вам пизда.",
+          "desc": "[CantDuel]\nЭтот скилл не провоцирует защитные скиллы и не может получать ЭГО ресурсы\nСила монет +1 за каждые 20% недостающего хп у цели(или его ядра) (макс 2)\nЕсли цель(или ядро) имела меньше 20% ХП, Наносит +80% damage",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]"
                 }
               ]
             }
@@ -1982,19 +1982,19 @@
         },
         {
           "level": 4,
-          "name": "Mercé",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills and cannot gain E.G.O resources\nCoin Power +1 for every 20% missing HP on the enemy(Core) (max <style=\"highlight\">4</style>)\n<style=\"highlight\">Deal +1% damage for every 1% missing HP on the enemy(Core)</style>\n- If the enemy(Core) has 20%- HP, <style=\"highlight\">deal +120% damage instead</style>\n<style=\"highlight\">[WhenUse] Gain 1 [Agility] next turn (once per turn)</style>",
+          "name": "Мисье, вам пизда.",
+          "desc": "[CantDuel]\nЭтот скилл не провоцирует защитные скиллы и не может получать ЭГО ресурсы\nСила монет +1 за каждые 20% недостающего хп у цели(или его ядра) (макс 4<style=\"highlight\">4</style>)\n<style=\"highlight\">Наносит +1% дополнительного урона за каждый 1% отсутствующего ХП у цели(или его ядра)</style>\n- Если цель(или ядро) имела меньше 20% ХП, <style=\"highlight\">вместо этого наносит +120% урона</style>\n<style=\"highlight\">[WhenUse] Получает 1 [Agility] на следующий ход (один раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [HurtNightStiletto]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2007,8 +2007,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "The Night's Awl",
-          "desc": "Deal +10% damage for every 1 ([Agility] on self + [Binding] on target) (max 40%)\nDeal +50% damage if the enemy(Core) has 20%- HP\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on target (max 2)\n[WinDuel][VibrationExplosion]",
+          "name": "Как по пизде ладошкой",
+          "desc": "Наносит +10% урона за каждые 1 ([Agility] на себе + [Binding] на цели) (макс 40%)\nНаносит на 50% больше урона если цель имеет меньше 20% ХП\n[WhenUse] Сила монет +1 за каждые 4 ([Laceration] + [Vibration]) на цели (макс 2)\n[WinDuel][VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -2023,7 +2023,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
                 }
               ]
             },
@@ -2033,7 +2033,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration] and +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration] и +1 счётчик [Vibration]"
                 }
               ]
             },
@@ -2043,16 +2043,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationBleeding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Binding], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Если цель имела [Binding], Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert target's [CriHurtNightStiletto] into [HorrHurtNightStiletto] next turn"
+                  "desc": "[OnSucceedAttack] Конвертирует [CriHurtNightStiletto] у цели в [HorrHurtNightStiletto] на следующий ход"
                 }
               ]
             }
@@ -2060,8 +2060,8 @@
         },
         {
           "level": 4,
-          "name": "The Night's Awl",
-          "desc": "Deal +<style=\"highlight\">15</style>% damage for every 1 ([Agility] on self + [Binding] on target) (max <style=\"highlight\">60</style>%)\n<style=\"highlight\">If target has Shield, deal +30% damage (in Focused Encounters, the Core or Parts)</style>\n<style=\"highlight\">Deal +1% damage for every 1% missing HP on the enemy(Core)</style>\n- If the enemy(Core) has 20%- HP, <style=\"highlight\">deal +100% damage instead</style>\n<style=\"highlight\">[WhenUse] Inflict 5 [DefenseDown]</style>\n[WhenUse] Coin Power +1 for every 4 ([Laceration] + [Vibration]) on target (max <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Inflict 4 [Vibration]</style> and trigger [VibrationExplosion]",
+          "name": "Как по пизде ладошкой",
+          "desc": "Наносит +<style=\"highlight\">15</style>% урона за каждые 1 ([Agility] на себе + [Binding] на цели) (макс <style=\"highlight\">60</style>%)\n<style=\"highlight\">если враг имел щит, Наносит +30% урона (в фокусированных битвах, ядро или части)</style>\n<style=\"highlight\">Наносит +1% дополнительного урона за каждый 1% отсутствующего ХП у цели(или его ядра)</style>\n- Если цель(или ядро) имела меньше 20% ХП, <style=\"highlight\">вместо этого наносит +100% урона</style>\n<style=\"highlight\">[WhenUse] Наносит 5 [DefenseDown]</style>\n[WhenUse] Сила монет +1 за каждые 4 ([Laceration] + [Vibration]) на цели (макс <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Наносит 4 [Vibration]</style> и провоцирует [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -2076,7 +2076,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration] and <style=\"highlight\">+1 [Laceration] Count</style>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration] и <style=\"highlight\">+1 счётчика [Laceration]</style>"
                 }
               ]
             },
@@ -2086,7 +2086,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration] и +2 счётчика [Vibration]"
                 }
               ]
             },
@@ -2096,16 +2096,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationBleeding]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [Binding], trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] Если цель имела [Binding], Провоцирует [VibrationExplosion]; Потом, уменьшает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Convert target's [CriHurtNightStiletto] into [HorrHurtNightStiletto] next turn"
+                  "desc": "[OnSucceedAttack] Конвертирует [CriHurtNightStiletto] в [HorrHurtNightStiletto] на следующий ход"
                 }
               ]
             }
