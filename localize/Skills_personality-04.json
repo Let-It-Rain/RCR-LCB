@@ -2299,12 +2299,12 @@
         {
           "level": 1,
           "name": "Отстань гандурас",
-          "desc": "[WhenUse] Получает +1 счётчик [Breath]\n[OnDirectAttack] Наносит +1 счётчик [Burst]",
+          "desc": "[WhenUse] Получает +1 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[OnDirectAttack] Наносит +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
                 }
               ]
             }
@@ -2313,12 +2313,12 @@
         {
           "level": 2,
           "name": "Отстань гандурас",
-          "desc": "<style=\"highlight\">[WhenUse] При 6+ ([Breath] на себе + [Burst] на цели), сила монет +1</style>\n[WhenUse] Получает +1 счётчика [Breath]\n[OnDirectAttack] Наносит +1 счётчика [Burst]",
+          "desc": "<style=\"highlight\">[WhenUse] При 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> на цели), сила монет +1</style>\n[WhenUse] Получает +1 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[OnDirectAttack] Наносит +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
                 }
               ]
             }
@@ -2327,7 +2327,7 @@
         {
           "level": 4,
           "name": "Отстань гандурас",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 ([Breath] на себе + [Burst] на цели) (макс 2)</style>\n[WhenUse] Получает +1 счётчика [Breath]\n[OnDirectAttack] Наносит +1 счётчик [Burst]",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> на цели) (макс 2)</style>\n[WhenUse] Получает +1 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[OnDirectAttack] Наносит +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2335,10 +2335,10 @@
                   "desc": "<style=\"highlight\">+20% Урона при раскумаре</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 1 [Burst]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color></style>"
                 }
               ]
             }
@@ -2352,29 +2352,29 @@
         {
           "level": 1,
           "name": "Вацао нима сучара",
-          "desc": "[WhenUse] Получает +2 счётчика [Breath]",
+          "desc": "[WhenUse] Получает +2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносик +1 счётчика [Burst]"
+                  "desc": "[OnSucceedAttack] Наносик +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает [Breath] равный (([Burst] на цели / 5) + 1) (макс 6; округлённый в меньш. сторону)"
+                  "desc": "[OnSucceedAttack] Получает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> равный ((<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленке</noparse></link></u></color> на цели / 5) + 1) (макс 6; округлённый в меньш. сторону)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
                 }
               ]
             }
@@ -2383,29 +2383,29 @@
         {
           "level": 2,
           "name": "Вацао нима сучара",
-          "desc": "<style=\"highlight\">[WhenUse] При 6+ ([Breath] На себе + [Burst] на цели), сила монет +1</style>\n[WhenUse] Получает +2 счётчика [Breath]",
+          "desc": "<style=\"highlight\">[WhenUse] При 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> На себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> на цели), сила монет +1</style>\n[WhenUse] Получает +2 счётчика [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">+2</style> счётчика [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">+2</style> счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Поулучает [Breath] равный (([Burst] на цели / 5) + 1) (макс 6; округляется в меньш. сторону)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Поулучает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> равный ((<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленке</noparse></link></u></color> на цели / 5) + 1) (макс 6; округляется в меньш. сторону)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2414,19 +2414,19 @@
         {
           "level": 4,
           "name": "Вацао нима сучара",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 ([Breath] на себе + [Burst] на цели) (макс. 2)</style>\n[WhenUse] Получает +2 счётчика [Breath]",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> на цели) (макс. 2)</style>\n[WhenUse] Получает +2 счётчика [Breath]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает [Breath] равный (([Burst] на цели / 5) + <style=\"highlight\">2</style>) (макс. 6; округлено в меньш. сторону)"
+                  "desc": "[OnSucceedAttack] Получает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> равный ((<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленке</noparse></link></u></color> на цели / 5) + <style=\"highlight\">2</style>) (макс. 6; округлено в меньш. сторону)"
                 }
               ]
             },
@@ -2436,10 +2436,10 @@
                   "desc": "<style=\"highlight\">+20% Урона при раскумаре</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2453,42 +2453,42 @@
         {
           "level": 3,
           "name": "Мой меч пропитан свагой",
-          "desc": "[WhenUse] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Если цель имела 3+ типа негативных эффектов, финальная сила +1\n[WhenUse] При 6+ ([Breath] на себе + [Burst] на цели), сила монет +1\n[WhenUse] Получает +3 счётчика [Breath]\n[WhenUse] Получает 3 [Breath]",
+          "desc": "[WhenUse] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Если цель имела 3+ типа негативных эффектов, финальная сила +1\n[WhenUse] При 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> на цели), сила монет +1\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Наносит +2% урона при раскумаре за каждый ([Breath] на себе + [Burst] на цели) (макс. 100%)"
+                  "desc": "[OnStartCoin] Наносит +2% урона при раскумаре за каждый (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color> на цели) (макс. 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color>"
                 }
               ]
             }
@@ -2497,39 +2497,39 @@
         {
           "level": 4,
           "name": "Мой меч пропитан свагой",
-          "desc": "[WhenUse] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Если цель имела 3+ негативных эффектов, финальная сила +1\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 ([Breath] на себе + [Burst] на цели) (макс. 2)</style>\n[WhenUse] Получает +3 счётчика [Breath]\n[WhenUse] Получает 3 [Breath]",
+          "desc": "[WhenUse] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Если цель имела 3+ негативных эффектов, финальная сила +1\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color> на цели) (макс. 2)</style>\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленки</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Наносит +2% урона при раскумаре за каждый ([Breath] на себе + [Burst] на цлеи) <style=\"highlight\">(max 120%)</style>"
+                  "desc": "[OnStartCoin] Наносит +2% урона при раскумаре за каждый (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> на себе + <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленку</noparse></link></u></color> на цели) <style=\"highlight\">(max 120%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst]<style=\"highlight\"></style>"
@@ -2546,7 +2546,7 @@
         {
           "level": 1,
           "name": "Соса лка",
-          "desc": "[CanDuelGuard]\n[StartBattle] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Этот навык даёт +1 к повышению уровня защиты за каждые 10% ХП которые этот юнит суммарно потерял за данный файт (максимум 6; Считает ХП перед активацией скилла)\n[WinDuel] Получает [Breath] равное [Burst] на цели (макс. 5; один раз за ход)",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Этот навык даёт +1 к повышению уровня защиты за каждые 10% ХП которые этот юнит суммарно потерял за данный файт (максимум 6; Считает ХП перед активацией скилла)\n[WinDuel] Получает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> равный <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зеленке</noparse></link></u></color> на цели (макс. 5; один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
