@@ -1,27 +1,27 @@
-{
+﻿{
   "dataList": [
     {
       "id": 9103601,
       "levelList": [
         {
           "level": 1,
-          "name": "Pierce",
+          "name": "Пронзание",
           "desc": "",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -31,29 +31,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Flesh Rip",
-          "desc": "If target has 5+ [Laceration], Base Power +1",
+          "name": "Разрыв плоти",
+          "desc": "Базовая сила +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 2 [DefenseDown] next turn"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -63,48 +63,48 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "Произведение искусства: Освобождение костей в зависимости от сердечного ритма",
+          "desc": "Базовая сила +1 за каждые 20% потерянных ОЗ Ядра (До 4)\nСила монет +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)\n[WinDuel] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2\n[DefeatDuel] Получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[SuperCoin]"
-                      },
-                      {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Теряет 30% от своих текущих ОЗ (Не может оглушиться от этого)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> в <sprite name=\"VibrationBleeding\"><color=#e30000><u><link=\"VibrationBleeding\">Тремор — Кровоизлияние</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> и понижает его счётчик на 1"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -114,16 +114,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muscular Contraction",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (once per turn)",
+          "name": "Мышечное сокращение",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[StartBattle] Получает 1 <sprite name=\"MuscleContraction\"><color=#f8c200><u><link=\"MuscleContraction\">Автоматизированную миофибровую активность</link></u></color> на следующий ход\n- Получает на 1 больше при получении удара во время боя (Единожды за ход)",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
           ]
         }
       ]
@@ -133,23 +133,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Jab",
+          "name": "Удар",
           "desc": "",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -159,23 +159,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vascular Tear",
-          "desc": "If target has 5+ [Laceration], Base Power +1\nIf target has 3+ types of negative effects, deal +30% damage",
+          "name": "Разрыв сосуда",
+          "desc": "Базовая сила +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\nНаносит на 30% больше урона целям с 3 и более типами негативных эффектов",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -185,48 +185,48 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork: Liberation of Bones Contingent on Cardiac Rhythm",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "Произведение искусства: Освобождение костей в зависимости от сердечного ритма",
+          "desc": "Базовая сила +1 за каждые 20% потерянных ОЗ Ядра (До 4)\nСила монет +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)\n[WinDuel] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2\n[DefeatDuel] Получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[SuperCoin]"
-                      },
-                      {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[OnStartCoin] Теряет 30% от своих текущих ОЗ (Не может оглушиться от этого)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> в <sprite name=\"VibrationBleeding\"><color=#e30000><u><link=\"VibrationBleeding\">Тремор — Кровоизлияние</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> и понижает его счётчик на 1"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -236,16 +236,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Muscular Contraction",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (once per turn)",
+          "name": "Мышечное сокращение",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[StartBattle] Получает 1 <sprite name=\"MuscleContraction\"><color=#f8c200><u><link=\"MuscleContraction\">Автоматизированную миофибровую активность</link></u></color> на следующий ход\n- Получает на 1 больше при получении удара во время боя (Единожды за ход)",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
           ]
         }
       ]
@@ -255,26 +255,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bound Muscles",
+          "name": "Связанные мышцы",
           "desc": "",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Desire\"><color=#e30000><u><link=\"Desire\">Импульс</link></u></color> на следующий ход"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -284,29 +284,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tear and Rip",
-          "desc": "If target has 5+ [Laceration], Base Power +1",
+          "name": "Разрывать и раздирать",
+          "desc": "Базовая сила +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\nIf target has 3+ types of negative effects, inflict +1 additional [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttackHead] Inflict 1 [Desire] next turn"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Desire\"><color=#e30000><u><link=\"Desire\">Импульс</link></u></color> на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Desire\"><color=#e30000><u><link=\"Desire\">Импульс</link></u></color> на следующий ход"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -316,48 +316,48 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Adorned by Desire",
-          "desc": "Base Power +1 for every 20% missing HP percentage on this unit's Core (max 4)\nCoin Power +1 for every 3 [Laceration] on target (max 2)\n[WinDuel] Inflict +2 [Vibration] Count\n[DefeatDuel] Gain 1 [Paralysis] next turn",
+          "name": "Произведение искусства, украшенное желанием",
+          "desc": "Базовая сила +1 за каждые 20% потерянных ОЗ Ядра (До 4)\nСила монет +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)\n[WinDuel] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2\n[DefeatDuel] Получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
-                      }
-                  ]
-              },
-              {
-                  "coindescs": [
-                      {
-                          "desc": "[SuperCoin]"
-                      },
-                      {
-                          "desc": "[OnStartCoin] Lose 30% of this unit's current Core HP (does not get Staggered due to this effect; rounded down)"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Gain 5 [Laceration]"
-                      },
-                      {
-                          "desc": "[OnSucceedAttack] Inflict 2 [Desire] next turn"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationBleeding]"
-                      },
-                      {
-                          "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Теряет 30% от своих текущих ОЗ (Не может оглушиться от этого)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Desire\"><color=#e30000><u><link=\"Desire\">Импульса</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> в <sprite name=\"VibrationBleeding\"><color=#e30000><u><link=\"VibrationBleeding\">Тремор — Кровоизлияние</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> и понижает его счётчик на 1"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -367,16 +367,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tightening Ribbons",
-          "desc": "[CanDuelGuard]\nWhen hit, inflict 1 [PinkRibbon_Ishmael] against the attacker (once per Skill)\n[StartBattle] Gain 1 [MuscleContraction] next turn. When hit, gain 1 additional [MuscleContraction] (once per turn)",
+          "name": "Затягивающиеся ленты",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\nНаносит 1 <sprite name=\"PinkRibbon_Ishmael\"><color=#e30000><u><link=\"PinkRibbon_Ishmael\">Розовые ленты</link></u></color> атакующему при получении удара (Единожды за навык атакующего)\n[StartBattle] Получает 1 <sprite name=\"MuscleContraction\"><color=#f8c200><u><link=\"MuscleContraction\">Автоматизированную миофибровую активность</link></u></color> на следующий ход\n- Получает на 1 больше при получении удара во время боя (Единожды за ход)",
           "coinlist": [
-              {
-                  "coindescs": [
-                      {
-                          "desc": ""
-                      }
-                  ]
-              }
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
           ]
         }
       ]
