@@ -1,24 +1,24 @@
-{
+﻿{
   "dataList": [
     {
       "id": 130601,
       "levelList": [
         {
           "level": 1,
-          "name": "La Spada di Palermo",
-          "desc": "If target has 6+ [Vibration], Clash Power +1",
+          "name": "Меч Палермо",
+          "desc": "Сила в столкновении +1 против целей с 6 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             }
@@ -31,33 +31,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Colpi Sottani",
-          "desc": "Base Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Нижний удар",
+          "desc": "Базовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> и понижает его счётчик на 1"
                 }
               ]
             }
@@ -70,33 +70,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Il Cacciatore",
-          "desc": "Coin Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)\n\n[WhenUse] If target has [DuelEdge], convert all Coins on this Skill to [SuperCoin]s",
+          "name": "Охотник",
+          "desc": "Базовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)\n[WhenUse] Если цель имеет <sprite name=\"DuelEdge\"><color=#e30000><u><link=\"DuelEdge\">Обостряющуюся дуэль</link></u></color>, все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик <nobr>на 2</nobr>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [FusionVibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложение амплитуды</link></u></color> с <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремором — Ожог</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 2 [Agility] next turn"
+                  "desc": "[OnSucceedAttackHead] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -109,55 +109,55 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sezionatura di Cervo",
-          "desc": "[CantChangeTarget]\nCannot be Staggered before using this Skill\n\nFor <color=#ff6000><mark color=#ff000040><b><u>every Attack Skill of this unit that lost a Clash this turn</color></mark></b></u>, Final Power -2 and Atk Weight -1\n(Min. Atk Weight: 1)\n\n[DefeatDuel] Deal -90% damage and damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] Lose 15 SP; next turn, gain 6 Offense Level Down",
+          "name": "Охота на оленей",
+          "desc": "[CantChangeTarget]\nНе может быть оглушён до использования этого навыка\n\nИтоговая сила -2 и Количество целей -1 <color=#ff6000><mark color=#ff000040><b><u>за каждое проигранное столкновение своими атакующими навыками в этом ходе</color></mark></b></u>\n\n[DefeatDuel] Наносит на 90% меньше урона и не может оглушить целей\n[DefeatDuel] Теряет 15 СД и получает 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик <nobr>на 2</nobr>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [FusionVibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">Наложение амплитуды</link></u></color> с <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремором — Ожог</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> дважды и понижает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> дважды и понижает его счётчик на 2"
                 }
               ]
             }
@@ -170,20 +170,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Measuring Blade Reach",
-          "desc": "[DuelCounter]\nIf target has 2+ [DuelEdge], deal +30% damage\n\n[WinDuel] Inflict 1 [DuelEdge]",
+          "name": "Измерение пределов меча",
+          "desc": "[DuelCounter]\nНаносит на 30% больше урона целям с 2 и более <sprite name=\"DuelEdge\"><color=#e30000><u><link=\"DuelEdge\">Обостряющейся дуэли</link></u></color>\n[WinDuel] Наносит 1 <sprite name=\"DuelEdge\"><color=#e30000><u><link=\"DuelEdge\">Обостряющуюся дуэль</link></u></color> атакующему",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик <nobr>на 2</nobr>"
                 }
               ]
             }
@@ -196,13 +196,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vain Fruit",
+          "name": "Тщетный плод",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -215,13 +215,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bring Me Snow White.",
-          "desc": "[WhenUse] At 5+ ([Laceration] + [Burst]) on target, Base Power +5\n[WhenUse] If this unit has [HowDareYouApple], gain +2 Atk Weight",
+          "name": "Принесите мне Белоснежку.",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 5 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\n[WhenUse] Если имеется эффект <sprite name=\"HowDareYouApple\"><color=#f8c200><u><link=\"HowDareYouApple\">\"Дерзость...!\"</link></u></color>, Количество целей +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 10 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
                 }
               ]
             }
@@ -234,26 +234,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Such Insolence!",
-          "desc": "[WhenUse] Coin Power +2 for every 4 ([Laceration] + [Burst]) on target (max 4)\n[WhenUse] If this unit has [HowDareYouApple], gain +2 Atk Weight\n[DefeatDuel] Gain the following effects:\n- Gain 2 [Paralysis]\n- Deal -80% damage\n- This Skill cannot Stagger the target\n- Does not activate [Burst] on target",
+          "name": "Какая наглость!",
+          "desc": "[WhenUse] Сила монет +2 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 4)\n[WhenUse] Если имеется эффект <sprite name=\"HowDareYouApple\"><color=#f8c200><u><link=\"HowDareYouApple\">\"Дерзость...!\"</link></u></color>, Количество целей +2\n[DefeatDuel] Получает следующие эффекты:\n- Получает 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
                 }
               ]
             }
@@ -266,437 +266,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Just a Little More...",
+          "name": "Ещё совсем немного...",
           "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
-                {}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130705,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Distrust",
-          "desc": "[WhenUse] Coin Power +2 for every 3 ([Laceration] + [Burst]) on target (max 4)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130706,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Pale Stem",
-          "desc": "[WhenUse] Final Power +3 for every 4 ([Laceration] + [Burst]) on target (max 6)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130707,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Thorny Stem",
-          "desc": "[WhenUse] Final Power +3 for every 4 ([Laceration] + [Burst]) on target (max 6)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130708,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Shared Pain",
-          "desc": "[WhenUse] Final Power +3 for every 4 ([Laceration] + [Burst]) on target (max 6)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Vulnerable] next turn"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130709,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Root Spike",
-          "desc": "[DefeatDuel] Gain the following effects:\n- Gain 1 [Paralysis]\n- Deal -80% damage\n- This Skill cannot Stagger the target\n- Does not activate [Burst] on target",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict +5 [Laceration] Count next turn"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict (sum of potency from all negative effects on target) [Laceration] or [Burst] (max 30)"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130711,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Envying Roots",
-          "desc": "This Skill does not deal damage\n[WhenUse] Consume all [HowDareYouApple] on self and Reuse its Coins by [HowDareYouApple] Stack consumed (max 4)\n[DefeatDuel] This Skill does not activate [Burst] on target",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130712,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Burrowing Roots",
-          "desc": "[WhenUse] Clash Power +1 for every 4 ([Laceration] + [Burst]) on target (max 2)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 130713,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Vain Fruit",
-          "desc": "",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131901,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Butcher - Ribs",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Coin Power +1",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131902,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Rotator Crush",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Coin Power +1",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131903,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Tendon Tear",
-          "desc": "[WhenUse] Coin Power +1 for every 4 [Laceration] on target (max 2)",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ResultReduction] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [ResultEnhancement] next turn"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131904,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Fascia Hungers",
-          "desc": "[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Laceration]"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Laceration] Count"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Heal 5 SP on self"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [HumanFleshTheRings]"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131905,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Repressed Flesh",
-          "desc": "During the turn this unit has this Skill equipped, gain the following effects:\n- <color=#ff6000><mark=#ff000040><b><u>When hit by Attack Skills</u></b></mark></color> before using this Skill, gain 1 [UnsteadyTheRings] (once per enemy Skill; including E.G.O Skills)\n- Does not trigger the effects of \"Iron Maiden[TabExplain] - Spikes\" Passive\n- This unit cannot be Staggered before using this Skill\n\nOn Kill with this Skill: heal 15 SP\n[WhenUse] Coin Power +1 for every 4 [Laceration] on target (max 4)\n[WhenUse] Deal +10% damage for every 2 [Laceration] on target (max 100%)\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Lose [BoneBladeTheRings]",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Heal 5 SP on self"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn"
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[SuperCoin]"
-                },
-                {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Binding] next turn"
-                },
-                {
-                  "desc": "[OnSucceedAttack] Gain 1 [Agility] next turn"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131906,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Exhibition Arrangements",
-          "desc": "[StartBattle] When hit by Attack Skills, inflict +1 [Laceration] Count on the attacker (including E.G.O Skills)",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131907,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Iron Curtain",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Multiply the damage from the \"Iron Maiden[TabExplain] - Spikes\" Passive by 20</u></b></mark></color> (this effect cannot be disabled by Offsetting this Skill)\n[StartBattle] When hit by Attack Skills, inflict +1 [Laceration] Count against the attacker (including E.G.O Skills)",
-          "coinlist": [
-            {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 131801,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "Swerve [回]",
-          "desc": "[StartBattle] Gain 8 [Breath]\n- If the Skill Slot using this Skill is a main target of an Attack Skill, gain 4 fewer [Breath] Potency from this effect\n\n[OnSucceedEvade] Gain 1 [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -710,17 +281,448 @@
       ]
     },
     {
-      "id": 131802,
+      "id": 130705,
       "levelList": [
         {
           "level": 1,
-          "name": "Defend [守]",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain +4 [Breath] Count\n- If the Skill Slot using this Skill is a main target of an Attack Skill, gain 2 fewer [Breath] Count from this effect\n\n[WinDuel] Gain +1 [Breath] Count",
+          "name": "Недоверие",
+          "desc": "[WhenUse] Сила монет +2 за каждые 3 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Светлый стебель",
+          "desc": "[WhenUse] Итоговая +3 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 6)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Колючий стебель",
+          "desc": "[WhenUse] Итоговая +3 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 6)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Общая боль",
+          "desc": "[WhenUse] Итоговая +3 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 6)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на сдедующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Корневой шип",
+          "desc": "[DefeatDuel] Получает следующие эффекты:\n- Получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 5 в следующем ходе"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (Сумма силы всех негативных эффектов на цели) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> (До 30)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завистливые корни",
+          "desc": "Не наносит урона\n[WhenUse] Полностью тратит эффект <sprite name=\"HowDareYouApple\"><color=#f8c200><u><link=\"HowDareYouApple\">\"Дерзость...!\"</link></u></color> и вновь подкидывает монету (Потраченное значение) раз (До 4 дополнительных раз)\n[DefeatDuel] Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Врастающие корни",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130713,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тщетный плод",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Палач — Рёбра",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вращающееся крушение",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв сухожилия",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Голод Фасции",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 5 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"HumanFleshTheRings\"><color=#f8c200><u><link=\"HumanFleshTheRings\">Ингредиент корпуса</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сдерживаемая плоть",
+          "desc": "Получает следующие эффекты в течение хода:\n- <color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков</u></b></mark></color> перед использованием этой атаки, то получает 1 <sprite name=\"UnsteadyTheRings\"><color=#e30000><u><link=\"UnsteadyTheRings\">Звон доспехов</link></u></color> (Единожды за навык противника)\n- Эффект пассивного умения <b>「Железная дева — Шипы[TabExplain]」</b> не срабатывает\n- Не может быть оглушена до использования этого навыка\n\n[WhenUse] Сила монет +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 4)\n[WhenUse] Наносит на 10% больше урона за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 100%)\n[DefeatDuel] Не может оглушить цель\n[EnemyKill] Восстанавливает 15 СД\n[EndSkill] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
                   "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 5 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Расстановка выставки",
+          "desc": "[StartBattle] Если получает удар от атакующего навыка в течение хода, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> атакующего на 1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Железный занавес",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Увеличивает в течение хода Пронзающий урон от своего пассивного умения <b>「Железная дева — Шипы[TabExplain]」</b> на 20</u></b></mark></color>\n[StartBattle] Если получает удар от атакующего навыка в течение хода, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> атакующего на 1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свёртывание<nobr>【回】<nobr>",
+          "desc": "[StartBattle] Получает 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n- Если этот слот навыков является главной целью атакующего навыка Грешника, получает на 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> меньше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита<nobr>【守】<nobr>",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[StartBattle] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 4\n- Если этот слот навыков является главной целью атакующего навыка Грешника, получает на 2 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> меньше\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
@@ -733,13 +735,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Reflect [反]",
-          "desc": "[DuelCounter]\n[DefeatDuel] Lose 1 [Breath] Count",
+          "name": "Отражение<nobr>【反】<nobr>",
+          "desc": "[DuelCounter]\n[DefeatDuel] Свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> понижается <nobr>на 1</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
                 }
               ]
             }
@@ -752,13 +754,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Unnamed Cut [無名閃]",
+          "name": "Безымянный разрез<nobr>【無名閃】<nobr>",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Deal +50% Damage on Critical Hit"
+                  "desc": "На 50% больше урона при критическом попадании"
                 }
               ]
             }
@@ -771,13 +773,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Chainslash [連鎖斬]",
+          "name": "Цепное рассечение<nobr>【連鎖斬】<nobr>",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимость к Рубящему урону</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -790,8 +792,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Fallstar Slayer [落星一殺]",
-          "desc": "Can Clash with this Skill regardless of Speed\nDeal +1% damage for every [DicipleLittleFinger] on self\n[WhenUse] Coin Power +1 for every 10 [DicipleLittleFinger] on self\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Разрубание падающей звезды<nobr>【落星一殺】<nobr>",
+          "desc": "Можно столкнуться независимо от скорости\nНаносит на (Текущее значение <sprite name=\"DicipleLittleFinger\"><color=#f8c200><u><link=\"DicipleLittleFinger\">Лазурного клинка лунного света</link></u></color>)% больше урона (До 50%)\n[WhenUse] Сила монет +1 за каждые 10 <sprite name=\"DicipleLittleFinger\"><color=#f8c200><u><link=\"DicipleLittleFinger\">Лазурного клинка лунного света</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
@@ -799,10 +801,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Deal +50% Damage on Critical Hit"
+                  "desc": "На 50% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal Slash damage equal to this Coin's final damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Рубящий урон, равный итоговому урону этой монеты"
                 }
               ]
             }
@@ -815,8 +817,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Retreat Form [收勢]",
-          "desc": "[StartBattle] Gain 10 x ([DicipleLittleFinger] Count on self) Shield HP",
+          "name": "Форма отступления<nobr>【收勢】<nobr>",
+          "desc": "[StartBattle] Получает (Текущее значение <sprite name=\"DicipleLittleFinger\"><color=#f8c200><u><link=\"DicipleLittleFinger\">Лазурного клинка лунного света</link></u></color> × 10) ОЗ Щита (До 250)",
           "coinlist": [
             {
               "coindescs": [
@@ -834,20 +836,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Twinstrike [二擊]",
-          "desc": "[WinDuel] Gain 1 [DicipleLittleFinger]",
+          "name": "Двойной удар<nobr>【二擊】<nobr>",
+          "desc": "[WinDuel] Получает 1 <sprite name=\"DicipleLittleFinger\"><color=#f8c200><u><link=\"DicipleLittleFinger\">Лазурный клинок лунного света</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             }
@@ -860,27 +862,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Triplestrike [三擊]",
-          "desc": "[WinDuel] Gain 1 [DicipleLittleFinger]",
+          "name": "Тройной удар<nobr>【三擊】<nobr>",
+          "desc": "[WinDuel] Получает 1 <sprite name=\"DicipleLittleFinger\"><color=#f8c200><u><link=\"DicipleLittleFinger\">Лазурный клинок лунного света</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +30% Damage on Critical Hit"
+                  "desc": "На 30% больше урона при критическом попадании"
                 }
               ]
             }
@@ -893,19 +895,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snagged Lure",
-          "desc": "[CantDuel]\nPrioritizes Sinners with [FairyCharm]\nThis Skill's Atk Weight = Number of Sinners with [FairyCharm]",
+          "name": "Пойманная наживка",
+          "desc": "[CantDuel]\nНацеливается на <sprite name=\"FairyCharm\"><color=#9f6a3a><u><link=\"FairyCharm\">Очарованных</link></u></color> Грешников",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core, Body heals 15 HP"
+                  "desc": "[OnSucceedAttack] Части <b>「Фея」</b> и <b>「Тело」</b> восстанавливают 15 ОЗ"
                 }
               ]
             }
@@ -918,16 +920,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burrowing Roots",
+          "name": "Роющие корни",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 }
               ]
             }
@@ -940,16 +942,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Expanding Roots",
+          "name": "Растущие корни",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -962,13 +964,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Infusing Stems",
-          "desc": "[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Покушающиеся стебли",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]\n[OnSucceedAttack] Deal +5% damage for every [Burst] on target (max 100%)"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>\n[OnSucceedAttack] Наносит на (Сила <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели × 5)% больше урона (До 100%)"
                 }
               ]
             }
@@ -981,13 +983,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Uncovered Abyss",
-          "desc": "If target has 5+ [Burst], deal +100% damage\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Незакрытая бездна",
+          "desc": "Наносит на 100% больше урона целям с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
@@ -1000,12 +1002,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charmed Consciousness",
-          "desc": "Attacking Faelantern deals 0 damage",
+          "name": "Зачарованное сознание",
+          "desc": "Не наносит урона Фее",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -1017,19 +1021,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snagged Lure",
-          "desc": "[CantDuel]\nCannot be Staggered before using this Skill\nPrioritizes Sinners with [FairyCharm]\nThis Skill's Atk Weight = Number of Sinners with [FairyCharm]",
+          "name": "Пойманная наживка",
+          "desc": "[CantDuel]\nНе может быть оглушена до использования этой атаки\nНацеливается на <sprite name=\"FairyCharm\"><color=#9f6a3a><u><link=\"FairyCharm\">Очарованных</link></u></color> Грешников",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +3 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core and Body heal 30 HP"
+                  "desc": "[OnSucceedAttack] Части <b>「Фея」</b> и <b>「Тело」</b> восстанавливают 30 ОЗ"
                 }
               ]
             }
@@ -1042,13 +1046,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Slice",
-          "desc": "[WhenUse] Gain +3 [Charge] Count\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Рассечение пространства",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -1061,16 +1065,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Consecutive Dimensional Slice",
-          "desc": "[WhenUse] Gain +3 [Charge] Count\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Непрерывные рассечения пространства",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": ""
                 }
               ]
             }
@@ -1083,13 +1087,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Discharge Byproducts",
-          "desc": "[WhenUse] Gain +4 [Charge] Count\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Побочный выброс",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 4\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 }
               ]
             }
@@ -1102,8 +1106,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rip Space",
-          "desc": "At 10+ [Charge] Count, consume 10 [Charge] Count to gain Clash Power +5 and deal +100% damage\nAt less than 10 [Charge] Count, consume 100 Core HP. Deal +80% damage\nThis unit's HP cannot drop to 0 due to this Skill's effect\n[DefeatDuel] Gain the following effects:\n- Gain 2 [Paralysis]\n- Deal -80% damage\n- This Skill cannot Stagger the target\n- Does not activate [Burst] on target",
+          "name": "Разрыв пространства",
+          "desc": "Свои ОЗ не падают до 0 до использования этой атаки\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> равен 10 и более, тратит 10 его единиц для получения +5 к Силе в столкновении и повышения урона на 100%\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> менее 10, то теряет 100 ОЗ Ядра и наносит на 80% больше урона вместо этого\n[DefeatDuel] Получает следующие эффекты:\n- Получает 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- Наносит на 80% меньше урона и не может оглушить цель\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -1111,10 +1115,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color>"
                 }
               ]
             },
@@ -1124,10 +1128,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +2 [Charge] Count"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color>"
                 }
               ]
             }
@@ -1140,20 +1144,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prepared Retribution",
-          "desc": "[WhenUse] Gain +1 [Charge] Count",
+          "name": "Подготовленная месть",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -1166,8 +1170,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vomit Byproducts",
-          "desc": "[WhenUse] If the main target has [DimensionRift], deal +10% damage\n[DefeatDuel] Consume 2 [Charge] Count",
+          "name": "Побочное извержение",
+          "desc": "[WhenUse] Наносит на 10% больше урона целям с <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственным разломом</link></u></color>\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1175,7 +1179,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разломов</link></u></color>"
                 }
               ]
             }
@@ -1188,16 +1192,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-speed Rip Space",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered before using this Skill\n[DefeatDuel]\n- Gain 2 [ResultReduction] and 1 [Paralysis]\n- Deal -90% damage and damage dealt by this Skill cannot Stagger the target\nGain 1 Clash Power for every Dimension effect on self\nDeal +10% for every Dimension effect on self",
+          "name": "Высокоскоростной разрыв пространства",
+          "desc": "Можно столкнуться независимо от скорости\nНе может быть оглушён до использования этой атаки\n\nСила в столкновении +1 за каждое полученное Измерение в прошлых двух ходах (<sprite name=\"PassedPortal_Red\"><color=#9f6a3a><u><link=\"PassedPortal_Red\">Кровоточащее измерение</link></u></color>, <sprite name=\"PassedPortal_Green\"><color=#9f6a3a><u><link=\"PassedPortal_Green\">Отравляющее измерение</link></u></color>, <sprite name=\"PassedPortal_Yellow\"><color=#9f6a3a><u><link=\"PassedPortal_Yellow\">Содрогающееся измерение</link></u></color>, <sprite name=\"PassedPortal_Blue\"><color=#9f6a3a><u><link=\"PassedPortal_Blue\">Электризующее измерение</link></u></color>)\n[DefeatDuel] Получает следующие эффекты:\n- Получает 2 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color>\n- Наносит на 90% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Burst]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -1210,13 +1214,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Opportunity Spotted",
-          "desc": "[WhenUse] If target has [DimensionRift], deal +20% damage",
+          "name": "Найденная возможность",
+          "desc": "[WhenUse] Наносит на 20% больше урона целям с <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственным разломом</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color>"
                 }
               ]
             }
@@ -1229,13 +1233,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rift Attack",
-          "desc": "[WhenUse] If target has [DimensionRift], deal +10% damage",
+          "name": "Атака из разлома",
+          "desc": "[WhenUse] Наносит на 10% больше урона целям с <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственным разломом</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color>"
                 }
               ]
             }
@@ -1248,8 +1252,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, deal +10% damage",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, урон Заблудшего пассажира увеличится на 10% (Получит <sprite name=\"PassedPortal_Red\"><color=#9f6a3a><u><link=\"PassedPortal_Red\">Кровоточащее измерение</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
@@ -1267,8 +1271,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, max HP +20%",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, максимальные ОЗ Заблудшего пассажира увеличатся на 20% (Получит <sprite name=\"PassedPortal_Green\"><color=#9f6a3a><u><link=\"PassedPortal_Green\">Отравляющее измерение</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
@@ -1286,8 +1290,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, gain 1 Speed",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, скорость Заблудшего пассажира увеличится на 1 (Получит <sprite name=\"PassedPortal_Yellow\"><color=#9f6a3a><u><link=\"PassedPortal_Yellow\">Содрогающееся измерение</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
@@ -1305,8 +1309,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "If this 'Dimensional Rift' remains, Coin Power +1",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, Сила монет Заблудшего пассажира увеличится на 1 (Получит <sprite name=\"PassedPortal_Blue\"><color=#9f6a3a><u><link=\"PassedPortal_Blue\">Электризующее измерение</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
