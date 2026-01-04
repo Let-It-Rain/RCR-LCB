@@ -647,7 +647,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Стук",
+          "name": "По лбу стук",
           "desc": "",
           "coinlist": [
             {
@@ -664,7 +664,7 @@
         },
         {
           "level": 2,
-          "name": "Стук",
+          "name": "По лбу стук",
           "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 7 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color></style>",
           "coinlist": [
             {
@@ -681,7 +681,7 @@
         },
         {
           "level": 4,
-          "name": "Стук",
+          "name": "По лбу стук",
           "desc": "[WhenUse] Сила монет +1 против целей с <style=\"highlight\">5</style> и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color>",
           "coinlist": [
             {
@@ -703,7 +703,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уборка пыли",
+          "name": "Уборка челяди",
           "desc": "[WinDuel] Повышает счетчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на 1<style=\"highlight\"></style>",
           "coinlist": [
             {
@@ -727,7 +727,7 @@
         },
         {
           "level": 2,
-          "name": "Уборка пыли",
+          "name": "Уборка челяди",
           "desc": "[WinDuel] Повышает счетчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
@@ -751,7 +751,7 @@
         },
         {
           "level": 4,
-          "name": "Уборка пыли",
+          "name": "Уборка челяди",
           "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color></style>\n[WinDuel] Повышает счетчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на 2",
           "coinlist": [
             {
@@ -780,7 +780,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Протерка окон",
+          "name": "УРА НА МЕНЯ НАСТУПИЛИ",
           "desc": "[WinDuel] Повышает счетчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на 3<style=\"highlight\"></style>",
           "coinlist": [
             {
@@ -806,7 +806,7 @@
         },
         {
           "level": 4,
-          "name": "Протерка окон",
+          "name": "УРА НА МЕНЯ НАСТУПИЛИ",
           "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 7 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color></style>\n[WinDuel] Повышает счетчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> на 3",
           "coinlist": [
             {
@@ -837,7 +837,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мытье посуды",
+          "name": "КМС по мытью посуды",
           "desc": "[OnSucceedEvade] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессию</link></u></color> (3 раза за ход)<style=\"highlight\"></style>",
           "coinlist": [
             {
@@ -847,7 +847,7 @@
         },
         {
           "level": 4,
-          "name": "Мытье посуды",
+          "name": "КМС по мытью посуды",
           "desc": "[OnSucceedEvade] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессию</link></u></color> (<style=\"highlight\">6 раз</style> за ход)",
           "coinlist": [
             {
@@ -2152,6 +2152,309 @@
               "coindescs": [
                 {
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проблемы с навыками",
+          "desc": "[WhenUse] Получает +3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> этому слоту на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Проблемы с навыками",
+          "desc": "[WhenUse] Получает +3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот слот в следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>) на цели (макс 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Проблемы с навыками",
+          "desc": "[WhenUse] Получает +3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот скилл в следующий ход\n[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>) на цели (макс. 2)\n<style=\"highlight\">[WhenUse] Если этот юнит имел [TheUdjatOutis], Сила в столкновении +1\n[WinDuel] Наносит 2 [SheutFracture]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пизда ворам",
+          "desc": "[WhenUse] Получает +5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот скилл слот на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пизда ворам",
+          "desc": "[WhenUse] Получает +5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот слот на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>) на цели (макс. 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депресси</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пизда ворам",
+          "desc": "[WhenUse] Получает +5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот слот на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>) на цели (макс. 2)</style>\n<style=\"highlight\">[WhenUse] Если этот юнит имел [TheUdjatOutis], Сила в столкновении +2 и наносит +30% урона\n[WinDuel] Наносит 2 [SheutFracture]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Мы вас в попу трах-трахнем",
+          "desc": "[WhenUse] Получает +8 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот скилл слот на следующий ход\n[WhenUse] Базовая сила +1 за каждые [LCA_Bullet] которые будут потрачены этим скиллом\n[EndSkill] Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\"><noparse>Защищенности</noparse></link></u></color> на следующий ход (один раз за ход)\n[EndSkill] При 2-х или менее [LCA_Bullet], [FullReload] (5 раз за весь файт)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [BlueSand] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown] (один раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> у цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Мы вас в попу трах-трахнем",
+          "desc": "<style=\"highlight\">Если этот юнит имел [TheUdjatOutis], наносит +50% урона</style>\n[WhenUse] Получает +8 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на этот скилл слот на следующий ход\n[WhenUse] При 6+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряска</noparse></link></u></color>) на цели, Сила монет +1\n[WhenUse] Базовая сила +1 за каждые [LCA_Bullet] которые будут потрачены этим скиллом\n[EndSkill] Получает 2 [Protection] на следующий ход (один раз за ход)\n[EndSkill] При 2 или менее [LCA_Bullet], [FullReload] (5 раз за весь файт)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Spend 2 [LCA_Bullet]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Наносит +(потраченные [LCA_Bullet] x 30)% урона</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +2 Счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [BlueSand] на следующий ход<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown] (один раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Наносит +(потраченные [LCA_Bullet] x 30)% урона</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> у цели на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель имела IQ, Провоцирует [VibrationExplosion]; затем, уменьшает счётчик [Vibration] у цели на 1\nЕсли цель имела менее 0 IQ, наносит 1 [AzureTakeDamageUp] (один раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ебу физически и юридически",
+          "desc": "Когда этот юнит получает урон по щиту, наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> атаковавшему (3 раза за ход)\n[WhenUse] За каждую [Protection] на себе, получает щит равный 5% от максимального ХП этого юнита (макс. 15%; один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ебу физически и юридически",
+          "desc": "Когда этот юнит получает урон по щиту, наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color> атаковавшему (3 раза за ход)\n<style=\"highlight\">[WhenUse] Если этот юнит имел [TheUdjatOutis], получает 1 [Protection] (один раз за ход)</style>\n[WhenUse] За каждую [Protection] на себе, получает щит равный 5% от максимального ХП этого юнита (макс. 15%; один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
                 }
               ]
             }
