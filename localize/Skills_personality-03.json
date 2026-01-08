@@ -2708,20 +2708,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Skull Crushing",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +1 [Breath] Count",
+          "name": "Ультраправые высказывания",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy], наносит +10% урона\n[WhenUse] Получает +1 Счётчик [Breath:*Кумара*] ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Депрессии*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:*Кумар*]"
                 }
               ]
             }
@@ -2729,20 +2729,20 @@
         },
         {
           "level": 2,
-          "name": "Skull Crushing",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count",
+          "name": "Ультраправые высказывания",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy], наносит +10% урона\n<style=\"highlight\">При 6+ ([Breath:*Кумара*] на себе + [Sinking:*Депрессии*] на цели), Сила монет +1</style>\n[WhenUse] Получает +<style=\"highlight\">2</style> Счётчика [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Депрессии*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:*Кумар*]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2750,23 +2750,23 @@
         },
         {
           "level": 4,
-          "name": "Skull Crushing",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style> and deal <style=\"highlight\">+15%</style> damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Ультраправые высказывания",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Финальная сила +1</style> и наносит <style=\"highlight\">+15%</style> урона\n<style=\"highlight\">Сила монет +1 за каждые 6 ([Breath:*Кумара*] на себе + [Sinking:*Депрессии*] на цели) (макс. 2)</style>\n[WhenUse] Получает +2 Счётчика [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Депрессии*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:*Кумар*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain +1 [Breath] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает +1 Счётчик [Breath:*Кумара*]</style>"
                 }
               ]
             }
@@ -2779,21 +2779,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "B-be Thee Silent",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n[WhenUse] Gain 3 [Breath]",
+          "name": "Зелёночка моя любимая",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], Сила в столкновении +1\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 }
               ]
             }
@@ -2801,27 +2803,27 @@
         },
         {
           "level": 2,
-          "name": "B-be Thee Silent",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], Clash Power +1\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]",
+          "name": "Зелёночка моя любимая",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], Сила столкновения +1\n<style=\"highlight\">При 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели), Сила монет +1</style>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2829,30 +2831,30 @@
         },
         {
           "level": 4,
-          "name": "B-be Thee Silent",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Final Power +1</style>\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath]",
+          "name": "Зелёночка моя любимая",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], <style=\"highlight\">Финальная сила +1</style>\n<style=\"highlight\">Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели) (макс 2)</style>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color></style>"
                 }
               ]
             }
@@ -2865,26 +2867,26 @@
       "levelList": [
         {
           "level": 3,
-          "name": "T-the Prescript Must be Fulfilled Anon...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +20% damage on Critical Hit\nFinal Power +1 for every 4 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] At 2+ [UnlockBuff_Base] stage, convert all Coins of this Skill to [SuperCoin]s\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Предположим, что я жив",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +20% урона при раскумаре\nФинальная сила +1 за каждые 4 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели) (макс 2)\n[StartBattle] При 2+ [UnlockBuff_Base] стадии, делает все монетки этого скилла <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Нерушимыми</noparse></link></u></color>\n[WhenUse] Получает +3 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +20% damage for every [UnlockBuff_Base] stage (max 60%)"
+                  "desc": "Наносит +20% урона за каждый эффект [UnlockBuff_Base] (макс 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> и +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             }
@@ -2892,26 +2894,26 @@
         },
         {
           "level": 4,
-          "name": "T-the Prescript Must be Fulfilled Anon...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Coin Power +1 and</style> deal +<style=\"highlight\">40</style>% damage on Critical Hit\nFinal Power +1 for every 4 ([Breath] on self + [Sinking] on target) (max <style=\"highlight\">4</style>)\n[StartBattle] At 2+ [UnlockBuff_Base] stage, convert all Coins of this Skill to [SuperCoin]s <style=\"highlight\">and deal +20% damage for every [UnlockBuff_Base] stage (max 60%)</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain [Breath] equal to current [UnlockBuff_Base] stage",
+          "name": "Предположим, что я жив",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], <style=\"highlight\">Сила монет +1 и</style> наносит +<style=\"highlight\">40</style>% урона при раскумаре\nФинальная сила +1 за каждые 4 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели) (макс. <style=\"highlight\">4</style>)\n[StartBattle] При 2+ [UnlockBuff_Base] стадии, все монетки этого скилла становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Нерушимыми</noparse></link></u></color> <style=\"highlight\">а также наносит +20% урона за каждую [UnlockBuff_Base] стадию (макс. 60%)</style>\n[WhenUse] Получает +3 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n<style=\"highlight\">- Получает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> равный стадии [UnlockBuff_Base]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal <style=\"highlight\">+40%</style> damage for every [UnlockBuff_Base] stage (max <style=\"highlight\">120%</style>)"
+                  "desc": "Наносит <style=\"highlight\">+40%</style> урона за каждую стадию [UnlockBuff_Base] (макс. <style=\"highlight\">120%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> и +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> <style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [Sinking] <style=\"highlight\">and +1 [Sinking] Count</style>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color> <style=\"highlight\">и +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color></style>"
                 }
               ]
             }
@@ -2924,21 +2926,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prescript-granted, Prescript-woven Fabric",
-          "desc": "Final Power +1 for every [UnlockBuff_Base] stage (max 3)\n[StartBattle] Gain Shield equal to 10% of max HP (once per turn)\n- Reduce Shield gained by 1% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Мой стул вон там стоит",
+          "desc": "Финальная сила +1 за каждую стадию [UnlockBuff_Base] (макс. 3)\n[StartBattle] Получает щит, равный 10% макс. ХП (один раз за ход)\n- Уменьшает получаемый щит на 1% за каждые 5 [KarmaOfIndexAlly]; при 50+ [KarmaOfIndexAlly], вообще не получает щит\n[WhenUse] Получает +2 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndBattle] Если этот юнит не имеет [UnlockBuff_Base:*Анлока*], получает [UnlockBuffAlly_1] (один раз за ход)\n- Изменяет [BlessingOfIndexPrescriptAlly] стак на 3\n- Получает 5 [KarmaOfIndexAlly] при начале следующего хода за каждую полученную [BlessingOfIndexPrescriptAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color>"
                 }
               ]
             },
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             }
@@ -2946,27 +2950,27 @@
         },
         {
           "level": 4,
-          "name": "Prescript-granted, Prescript-woven Fabric",
-          "desc": "Final Power +1 <style=\"highlight\">and deal +15% damage</style> for every [UnlockBuff_Base] stage (max 3; <style=\"highlight\">max 45%</style>)\n[StartBattle] Gain Shield equal to <style=\"highlight\">15</style>% of max HP (once per turn)\n- Reduce Shield gained by <style=\"highlight\">1.5</style>% for every 5 [KarmaOfIndexAlly]; at 50+ [KarmaOfIndexAlly], does not gain Shield\n[WhenUse] Gain +2 [Breath] Count\n[EndBattle] If this unit does not have [UnlockBuff_Base], gain [UnlockBuffAlly_1] (once per turn)\n- Change [BlessingOfIndexPrescriptAlly] Stack to 3\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Мой стул вон там стоит",
+          "desc": "Финальная сила +1 <style=\"highlight\">и наносит +15% урона</style> за каждую стадию [UnlockBuff_Base] (макс. 3; <style=\"highlight\">макс. 45%</style>)\n[StartBattle] Получает щит, равный <style=\"highlight\">15</style>% макс. ХП (один раз за ход)\n- Уменьшает получаемый щит на <style=\"highlight\">1.5</style>% за каждые 5 [KarmaOfIndexAlly]; при 50+ [KarmaOfIndexAlly], вообще не получает щит\n[WhenUse] Получает +2 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndBattle] Если этот юнит не имеет [UnlockBuff_Base:*Анлока*], получает [UnlockBuffAlly_1] (один раз за ход)\n- Изменяет [BlessingOfIndexPrescriptAlly] стак на 3\n- Получает 5 [KarmaOfIndexAlly] при начале следующего хода за каждую полученную [BlessingOfIndexPrescriptAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2979,20 +2983,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let These Hands be the Proxy with Which...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n[WhenUse] Gain +1 [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+          "name": "Приказ: Жрать говно",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +10% урона\n[WhenUse] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 3 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 }
               ]
             }
@@ -3000,20 +3004,20 @@
         },
         {
           "level": 2,
-          "name": "Let These Hands be the Proxy with Which...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +10% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain +<style=\"highlight\">2</style> [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+          "name": "Приказ: Жрать говно",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +10% урона\n<style=\"highlight\">При 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели), Сила монет +1</style>\n[WhenUse] Получает +<style=\"highlight\">2</style> Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 3 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3021,23 +3025,23 @@
         },
         {
           "level": 4,
-          "name": "Let These Hands be the Proxy with Which...",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">15</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] Lose 3 SP (2 times per turn)",
+          "name": "Приказ: Жрать говно",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +<style=\"highlight\">15</style>% уроана\n<style=\"highlight\">Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели) (макс. 2)</style>\n[WhenUse] Получает +2 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 3 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Sinking] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain +1 [Breath] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color></style>"
                 }
               ]
             }
@@ -3050,21 +3054,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Engrave",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+          "name": "Приказ: Снимай трусы",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +5% урона\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 6 IQ (2 раза за ход)",
           "coinlist": [
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 }
               ]
             }
@@ -3072,27 +3078,27 @@
         },
         {
           "level": 2,
-          "name": "Procuration: Engrave",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +5% damage\n<style=\"highlight\">At 6+ ([Breath] on self + [Sinking] on target), Coin Power +1</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+          "name": "Приказ: Снимай трусы",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +5% урона\n<style=\"highlight\">При 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели), Сила монет +1</style>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 6 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [Sinking]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3100,30 +3106,30 @@
         },
         {
           "level": 4,
-          "name": "Procuration: Engrave",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">10</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain 3 [Breath]\n[EndSkill] Lose 6 SP (2 times per turn)",
+          "name": "Приказ: Снимай трусы",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +<style=\"highlight\">10</style>% урона\n<style=\"highlight\">Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели) (макс. 2)</style>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 6 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +1 Счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color></style>"
                 }
               ]
             }
@@ -3136,8 +3142,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Procuration: Annihilate",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +15% damage\nAt 6+ ([Breath] on self + [Sinking] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Lose 15 SP (2 times per turn)",
+          "name": "ОНО СБЕЖАААЛОО",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +15% урона\nПри 6+ (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумаре</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели), Сила монет +1\n[WhenUse] Получает +3 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndSkill] Теряет 15 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3145,7 +3151,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             },
@@ -3155,7 +3161,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             },
@@ -3165,7 +3171,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             },
@@ -3175,13 +3181,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin deals +20% damage for every [UnlockBuff_Base] stage (max 60%)"
+                  "desc": "Эта монета наносит +20% урона за каждую стадию [UnlockBuff_Base] (макс. 60%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Sinking] Count"
+                  "desc": "[CriticalOnSucceedAttack] Наносит +1 Счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 }
               ]
             }
@@ -3189,8 +3195,8 @@
         },
         {
           "level": 4,
-          "name": "Procuration: Annihilate",
-          "desc": "If this Skill is marked with [IndexPrescriptTargetMarkToEnemy], deal +<style=\"highlight\">25</style>% damage\n<style=\"highlight\">Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)</style>\n[WhenUse] Gain +3 [Breath] Count\n<style=\"highlight\">- Gain [Breath] equal to current [UnlockBuff_Base] stage</style>\n[EndSkill] Lose 15 SP (2 times per turn)",
+          "name": "ОНО СБЕЖАААЛОО",
+          "desc": "Если этот скилл помечен [IndexPrescriptTargetMarkToEnemy:*Меткой Предписания*], наносит +<style=\"highlight\">25</style>% урона\n<style=\"highlight\">Сила монет +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на цели) (макс. 2)</style>\n[WhenUse] Получает +3 Счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n<style=\"highlight\">- Получает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> равный стадии [UnlockBuff_Base]</style>\n[EndSkill] Теряет 15 IQ (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3198,7 +3204,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
@@ -3208,7 +3214,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
@@ -3218,7 +3224,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
@@ -3228,13 +3234,13 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "This Coin gains <style=\"highlight\">Power +1</style> and deals +<style=\"highlight\">40</style>% damage for every [UnlockBuff_Base] stage <style=\"highlight\">(max 3; max 120%)</style>"
+                  "desc": "Сила этой монеты +1 <style=\"highlight\"></style> и наносит +<style=\"highlight\">40</style>% урона за каждую стадию [UnlockBuff_Base] <style=\"highlight\">(макс. 3; макс. 120%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +<style=\"highlight\">2</style> [Sinking] Count"
+                  "desc": "[CriticalOnSucceedAttack] Наносит +<style=\"highlight\">2</style> Счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
                 }
               ]
             }
@@ -3247,21 +3253,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Compulsory Unlock",
-          "desc": "[DuelCounter]\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Я конечно не извращенец, но в её пизду бы пошёл с удовольствием",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndBattle] При менее чем 3 стадии [UnlockBuff_Base], происходит следующее (один раз за ход):\n- Если этот юнит имел [UnlockBuff_Base], увеличивает стадию на 1\n- При менее чем 6/9 [BlessingOfIndexPrescriptAlly], меняет стак на 6/9\n- Получает 5 [KarmaOfIndexAlly] на следующий ход за каждую полученную [BlessingOfIndexPrescriptAlly]",
           "coinlist": [
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
                 }
               ]
             }
@@ -3269,21 +3277,23 @@
         },
         {
           "level": 4,
-          "name": "Compulsory Unlock",
-          "desc": "[DuelCounter]\n<style=\"highlight\">Final Power +1 for every [UnlockBuff_Base] stage (max 3)</style>\n[WhenUse] Gain 3 [Breath]\n[EndBattle] At lower than stage 3 [UnlockBuff_Base], activate the following (once per turn):\n- If this unit has [UnlockBuff_Base], increase it by 1 stage\n- At less than 6/9 [BlessingOfIndexPrescriptAlly], change its Stack to 6/9\n- Gain 5 [KarmaOfIndexAlly] at next Turn Start for every [BlessingOfIndexPrescriptAlly] gained",
+          "name": "Я конечно не извращенец, но в её пизду бы пошёл с удовольствием",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Финальная сила +1 за каждую стадию [UnlockBuff_Base] (макс. 3)</style>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[EndBattle] При менее чем 3 стадии [UnlockBuff_Base], происходит следующее (один раз за ход):\n- Если этот юнит имел [UnlockBuff_Base], увеличивает стадию на 1\n- При менее чем 6/9 [BlessingOfIndexPrescriptAlly], изменяет стак на 6/9\n- Получает 5 [KarmaOfIndexAlly] на следующий ход за каждую полученную [BlessingOfIndexPrescriptAlly]",
           "coinlist": [
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
