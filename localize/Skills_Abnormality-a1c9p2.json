@@ -1,17 +1,17 @@
-{
+﻿{
   "dataList": [
     {
       "id": 132001,
       "levelList": [
         {
           "level": 1,
-          "name": "Flame Strike",
-          "desc": "[WhenUse] Gain 1 [MRcAiBa]",
+          "name": "Пламенное прикосновение",
+          "desc": "[WhenUse] Получает 1 <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искру</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 3"
                 }
               ]
             }
@@ -24,13 +24,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Pinions",
-          "desc": "[WhenUse] Gain 2 [MRcAiBa]",
+          "name": "Пылающие цветочные крылья",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искры</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [CrimsonResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"CrimsonResistDown\"><color=#e30000><u><link=\"CrimsonResistDown\">Понижения сопротивления к Гневу</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -43,29 +43,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spark",
-          "desc": "[WhenUse] Inflict +2 [Combustion] Count\n[WinDuel] Inflict [Combustion] equal to [Combustion] on target\n[DefeatDuel] Gain the following effects:\n- Damage dealt by this Skill cannot Stagger the target\n- If this is a Wrath Skill, remove [Combustion] on the target\n- Halve the amount of [Combustion] and [Combustion] Count this Skill inflicts",
+          "name": "Искра",
+          "desc": "[WhenUse] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели на 2\n[WinDuel] Удваивает силу <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели\n[DefeatDuel] Получает следующие эффекты:\n- Не может оглушить цель\n- Наносит вдвое меньше силы и счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n- <color=#ff6000><mark color=#ff000040><b><u>Если этот навык обрёл грех Гнева, весь <sprite name=\"Combustion\"></u><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color><u> исчезает с цели</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If target has 3+ [MRcAiBb]...\n- Inflict 10 [Combustion]\n- Inflict +2 [Combustion] Count\n- Inflict 2 [MRcAiBc]\n- [MRcAiBb] expires completely"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если цель имеет 3 и более <sprite name=\"MRcAiBb\"><color=#e30000><u><link=\"MRcAiBb\">Мерцающей искры</link></u></color>:\n- Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 2\n- Наносит 2 <sprite name=\"MRcAiBc\"><color=#e30000><u><link=\"MRcAiBc\">Тлеющего пламени</link></u></color>\n- Все <sprite name=\"MRcAiBb\"><color=#e30000><u><link=\"MRcAiBb\">Мерцающие искры</link></u></color> исчезают с цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Combustion] and +4 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [CrimsonResistDown] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"CrimsonResistDown\"><color=#e30000><u><link=\"CrimsonResistDown\">Понижения сопротивления к Гневу</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -78,26 +78,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dust Explosion",
-          "desc": "[WhenUse] If target has 5+ [Combustion], this Skill gains Clash Power +2",
+          "name": "Яркая вспышка",
+          "desc": "[WhenUse] Сила в столкновении +2 против целей с 5 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> в количестве атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the slowest Speed, inflict [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> самому медленному противнику на количество атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> в количестве атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Against the enemy with the lowest Speed, inflict [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> самому медленному противнику на количество атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 }
               ]
             }
@@ -110,45 +110,45 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ardor Blossom Star",
-          "desc": "Gain Clash Power equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2)\n[WhenUse] Inflict (# of Wrath Skills that the Ardor Blossom Moth will use this turn x2) [Combustion] to all enemies\n[DefeatDuel] Gain the following effects:\n- This Attack Skill deals 0 damage\n- Remove [Combustion] from all targets\n- Halve the amount of [Combustion] and [Combustion] Count this Skill inflicts",
+          "name": "Вспышка алых лепестков",
+          "desc": "Сила в столкновении повышается на (Количество атак с грехом Гнева, которые Аномалия использует в этом ходе × 2)\n[WhenUse] Наносит (Количество атак с грехом Гнева, которые Аномалия использует в этом ходе × 2) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> всем противникам\n[DefeatDuel] Получает следующие эффекты:\n- Не наносит урона\n- Наносит вдвое меньше силы и счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n- <color=#ff6000><mark color=#ff000040><b><u>Весь <sprite name=\"Combustion\"></u><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color><u> исчезает с целей</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> в количестве атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Inflict [Combustion] and [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> и повышает его счётчик самому медленному противнику на количество атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [Combustion] equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> в количестве атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Against the enemy with the slowest Speed, Inflict [Combustion] and [Combustion] Count equal to the number of Wrath Skills that the Ardor Blossom Moth will use this turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> и повышает его счётчик самому медленному противнику на количество атак с грехом Гнева, которые Аномалия использует в этом ходе"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise the target's Stagger Threshold by 70% of damage dealt"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 70% от нанесённого урона"
                 },
                 {
-                  "desc": "- Inflict 10 [Combustion] against targets that have been Staggered by this"
+                  "desc": "- Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели, которая была оглушена этой монетой"
                 }
               ]
             }
@@ -161,8 +161,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
-          "desc": "[WhenUse] Base Power +1 for every 4 [Combustion] on target (max 3)\n[WhenUse] Inflict 4 [Combustion]\n[OnSucceedEvade] Gain 1 [MRcAiBa] next turn",
+          "name": "Уворот",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели (До 3)\n[WhenUse] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n[OnSucceedEvade] Получает 1 <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искру</link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -174,15 +174,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stoke the Flames",
-          "desc": "[CantDuel] [CantChangeTarget]\nDamage dealt by this Attack Skill is fixed to 0",
+          "name": "Раздуть пламя",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНе наносит урона",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [MRcAiBb] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"MRcAiBb\"><color=#e30000><u><link=\"MRcAiBb\">Мерцающей искры</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -195,13 +195,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bite",
-          "desc": "[StartBattle] Gain 2 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Base Power +2\n[DefeatDuel] Lose 1 [SelfCharge]",
+          "name": "Укус",
+          "desc": "[StartBattle] Получает 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\n[WhenUse] Базовая сила +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -214,20 +214,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tail Poke",
-          "desc": "[StartBattle] Gain 2 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\n[DefeatDuel] Lose 1 [SelfCharge]",
+          "name": "Укол хвостом",
+          "desc": "[StartBattle] Получает 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\n[WhenUse] Сила монет +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -240,19 +240,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wrapping Coil",
-          "desc": "[StartBattle] Gain 3 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Base Power +2\n[DefeatDuel] Lose 1 [SelfCharge]",
+          "name": "Обмотка",
+          "desc": "[StartBattle] Получает 3 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\n[WhenUse] Базовая сила +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -265,20 +265,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Load",
-          "desc": "[StartBattle] Gain 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nIf target has [Paralysis], deal +30% damage\n[DefeatDuel] Lose 2 [SelfCharge]",
+          "name": "Электрическая нагрузка",
+          "desc": "Наносит на 30% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n[StartBattle] Получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[WhenUse] Сила монет +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color>\n[DefeatDuel] Теряет 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -291,27 +291,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Release",
-          "desc": "[StartBattle] Gain 1 [SelfCharge]\n[WhenUse] At 5+ [SelfCharge], Coin Power +1\nIf target has [Paralysis], deal +30% damage\n[DefeatDuel] Lose 3 [SelfCharge]",
+          "name": "Выпуск электричества",
+          "desc": "Наносит на 30% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n[StartBattle] Получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[WhenUse] Сила монет +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color>\n[DefeatDuel] Теряет 3 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -324,20 +324,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Discharge",
-          "desc": "[StartBattle] Gain 1 [SelfCharge]\nIf target has [Paralysis], deal +30% damage",
+          "name": "Электрический разряд",
+          "desc": "Наносит на 30% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n[StartBattle] Получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличей</link></u></color>"
                 }
               ]
             }
@@ -350,32 +350,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-voltage Electric Discharge",
-          "desc": "At more than 7 [SelfCharge], deal +10% damage for every excess [SelfCharge] past 7 (max 120%)\n[WhenUse] Lose all [SelfCharge] on self; if this unit lost 10+ [SelfCharge], gain Clash Power +5\n[DefeatDuel] This Attack Skill deals 0 damage",
+          "name": "Высоковольтный электрический разряд",
+          "desc": "При более чем 7 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color> наносит на 10% больше урона за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color> после 7 (До 120%)\n[WhenUse] Тратит весь <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n- Если потратилось 10 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядов</link></u></color>, Сила в столкновении +5\n[DefeatDuel] Не наносит урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Vulnerable] on the main target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> главной цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [ElectricStorage]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ElectricStorage\"><color=#9f6a3a><u><link=\"ElectricStorage\">Конденсатор</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Paralysis] on the main target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> главной цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has [ElectricStorage], deal 40% of final damage dealt as fixed damage"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"ElectricStorage\"><color=#9f6a3a><u><link=\"ElectricStorage\">Конденсатор</link></u></color>, наносит ей дополнительный фиксированный урон в размере 40% от уже нанесённого урона"
                 }
               ]
             }
@@ -388,8 +388,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coil Up",
-          "desc": "[StartBattle] The Head Part gains Shield by its current HP\n[EndBattle] If the Head Part has Shield, gain 10 [SelfCharge] next turn",
+          "name": "Свернуться",
+          "desc": "[StartBattle] Получает ОЗ Щита, равные текущим ОЗ головы\n[EndBattle] Если остались ОЗ Щита, получает 10 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Позарядов</link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -401,20 +401,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Head",
-          "desc": "Prioritizes targets with the least HP\nIf target has [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>If target has used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "name": "Извивающаяся голова",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\nНаносит на 50% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n<color=#ff6000><mark color=#ff000040><b><u>Если цель использовала защитный навык, не наносит ей урона</color></mark></b></u>\nБазовая сила +1 за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[EndSkill] Если это была односторонняя атака, теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n- Если при этом цель использовала защитный навык, теряет на 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color> больше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -427,27 +427,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Tail",
-          "desc": "Prioritizes targets with the least HP\nIf target has [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>If target has used a Defense Skill, deal -100% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "name": "Извивающийся хвост",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\nНаносит на 50% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n<color=#ff6000><mark color=#ff000040><b><u>Если цель использовала защитный навык, не наносит ей урона</color></mark></b></u>\nБазовая сила +1 за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[EndSkill] Если это была односторонняя атака, теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n- Если при этом цель использовала защитный навык, теряет на 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color> больше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -460,20 +460,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Twinslash [二連]",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "name": "Двойной взмах【二連】",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             }
@@ -486,27 +486,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tripleslash [三連]",
-          "desc": "[WhenUse] Gain +3 [Breath] Count",
+          "name": "Тройной взмах【三連】",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             }
@@ -519,25 +519,25 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Swift Glimmer [快閃]",
-          "desc": "[OnDirectAttack] Gain 5 [Breath]\n[DefeatDuel] -2 Atk Weight",
+          "name": "Стремительное мерцаие【快閃】",
+          "desc": "[OnDirectAttack] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[DefeatDuel] Количество целей -2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "На 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PhantomIncision]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [PhantomIncision]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 1 <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>"
                 }
               ]
             }
@@ -550,25 +550,25 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Formless Cut [無形斬]",
-          "desc": "[WideAreaRampage]\nCan Clash with this Skill regardless of Speed; cannot be Staggered until this Skill ends\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Бесформенный разрез【無形斬】",
+          "desc": "Атакует <sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированным залпом</link></u></color>\nМожно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "Reuse this Coin (4 times max)"
+                  "desc": "Вновь подкидывает эту монету (До 4 дополнительных раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PhantomIncision]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [PhantomIncision]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 1 <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>"
                 }
               ]
             }
@@ -581,19 +581,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rend Space [空間斬]",
-          "desc": "Can Clash with this Skill regardless of Speed; cannot be Staggered until this Skill ends\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] End this turn",
+          "name": "Разделение пространства【空間斬】",
+          "desc": "Можно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "На 100% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Consume all [PhantomIncision] on target</u></b></mark></color> and deal ([PhantomIncision] consumed)% HP damage against each target, respectively "
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Полностью тратит <sprite name=\"PhantomIncision\"></u><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color><u> с каждой цели этого навыка и наносит</u></b></mark></color> ей (Потраченный <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>)% урона по ОЗ"
                 }
               ]
             }
@@ -606,8 +606,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Phantom Step [殘像步]",
-          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Halve the [PhantomIncision] Stack on target</u></b></mark></color> (rounded down)\n[DefeatDuel] Lose 5 SP",
+          "name": "Призрачный шаг【殘像步】",
+          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Значение <sprite name=\"PhantomIncision\"></u><color=#e30000><u><link=\"PhantomIncision\">Следа клинка 【Послеобраз】</link></u></color><u> цели снижается вдвое</u></b></mark></color> (Округляется вниз)\n[DefeatDuel] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -625,13 +625,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Silent Regard",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] Gain 2 [Reduction]</u></b></mark></color>\n[DefeatDuel] Target heals 5 SP",
+          "name": "Молчаливый взгляд",
+          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 2 <sprite name=\"Reduction\"></u><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color></b></mark></color>\n[DefeatDuel] Цель восстанавливает 5 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
@@ -644,20 +644,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Deathedge [絶命]",
-          "desc": "This Skill does not trigger the target's Defense Skill\nPrioritizes the target with the least HP percentage\n- Prioritizes targets that aren't Ryōshū",
+          "name": "Смерть【絶命】",
+          "desc": "Не вызывает активацию защитных навыков целеи\nВыбирает целью противника с наименьшим процентом текущих ОЗ (За исключением Рёшу)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [PhantomIncision] for every 1% missing HP on target"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color> за каждый 1% потерянных ОЗ цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Consume all [PhantomIncision] on target</u></b></mark></color> and deal ([PhantomIncision] consumed)% HP damage "
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Полностью тратит <sprite name=\"PhantomIncision\"></u><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color><u> с цели и наносит</u></b></mark></color> ей (Потраченный <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>)% урона по ОЗ"
                 }
               ]
             }
@@ -670,23 +670,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rend Space - Multitudes [空間斬-緣]",
-          "desc": "[WhenUse] At 10+ SP, generate 1 Mang. Final Power +5\nCan Clash with this Skill regardless of Speed; cannot be Staggered until this Skill ends\n[DefeatDuel] Deal -80% damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] If this skill generated 1 Mang, lose 10 SP\n[EndSkill] End this turn",
-          "flavor": "A technique that cuts through space itself. Sundering the fabric of space has long been the ambition of those who live by the sword—a hard-won feat reached through divergent disciplines.",
+          "name": "Разделение пространства - Мириады【空間斬-緣】",
+          "desc": "Можно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если своя СД равна 10 и выше: <i>создаёт 1 Ман</i> и получает +5 к Итоговой силе</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[EndSkill] Если этим навыком удалось создать Ман, теряет ещё 10 СД\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "+100% Damage on Critical Hit"
+                  "desc": "На 100% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Consume all [PhantomIncision] on target</u></b></mark></color> and deal ([PhantomIncision] consumed)% HP damage against each target, respectively"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Полностью тратит <sprite name=\"PhantomIncision\"></u><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color><u> с каждой цели этого навыка и наносит</u></b></mark></color> ей (Потраченный <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">След клинка 【Послеобраз】</link></u></color>)% урона по ОЗ"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[CriticalOnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             }
@@ -699,20 +698,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Skull Crushing",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count",
+          "name": "Крушение черепа",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             }
@@ -725,27 +724,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ah, Please be Quiet",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Gain 2 [Breath]",
+          "name": "Ах, пожалуйста будьте безмолвны",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если имеются <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color><u> или атакует <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u> спомощью этого навыка</u></b></mark></color>, все его монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel] Наносит на 50% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 1"
                 }
               ]
             }
@@ -758,26 +757,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I-I Have to Execute the Prescript Soon...!",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>At 2 [PressureOfPrescript], cannot change target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>Does not trigger Defense Skills</u></b></mark></color>\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins to [SuperCoin]s\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count",
+          "name": "М-мне нужно исполнить предписание в ближайшее время...!",
+          "desc": "Не вызывает активацию защитных навыков цели\n\n<color=#ff6000><mark=#ff000040><b><u>Цель становится неизменной при 2 <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узах ответственности</link></u></color></b></mark></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если имеются <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color><u> или атакует <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u> спомощью этого навыка</u></b></mark></color>, все его монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "На 20% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal +20% damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 }
               ]
             }
@@ -790,46 +789,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please Don't Resist and just be Crushed to Death",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed</u></b></mark></color>\n[DefeatDuel] Gain 3 [ResultReduction] and 4 [Paralysis]\n[DefeatDuel] Deal -90% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Consume all [PressureOfPrescript]",
+          "name": "Пожалуйста, не сопротивляйтесь и будьте раздавлены насмерть",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно столкнуться независимо от скорости</u></b></mark></color>\n[DefeatDuel] Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 4 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n[DefeatDuel] Наносит на 90% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[EndSkill] Теряет все <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             }
@@ -842,20 +841,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let These Hands be the Proxy...",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] Lose 3 SP",
+          "name": "Пусть эти руки будут проводником...",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\n[EndSkill] Теряет 3 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 }
               ]
             }
@@ -868,27 +867,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Disembowel, Eviscerate...",
-          "desc": "Final Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert the final Coin to [SuperCoin]\n[DefeatDuel] Deal -50% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[WhenUse] Gain 2 [Breath]\n[EndSkill] Lose 3 SP",
+          "name": "Вспороть, выпотрошить...",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если имеются <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color><u> или атакует <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u> спомощью этого навыка</u></b></mark></color>, все его монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel] Наносит на 90% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[EndSkill] Теряет 3 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 }
               ]
             }
@@ -901,20 +900,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Engrave",
-          "desc": "Coin Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>If this unit has [PressureOfPrescript], or if target has [IndexPrescriptTargetToPersonality]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +50% damage</u></b></mark></color>\n[WhenUse] Gain 3 [Breath] and +3 [Breath] Count\n[DefeatDuel] Deal -80% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 6 SP",
+          "name": "Посредничество: высекание",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если имеются <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color><u> или атакует <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u> спомощью этого навыка</u></b></mark></color>, все его монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Наносит на 50% больше урона <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цели предписания</link></u></color><u> этим навыком</u></b></mark></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 3\n[DefeatDuel] Наносит на 80% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[EndSkill] Теряет 6 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3"
                 }
               ]
             }
@@ -927,46 +926,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Annihilate",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Can Clash with this Skill regardless of Speed</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>If the target has [IndexPrescriptTargetToPersonality], deal +100% damage</u></b></mark></color>\n[DefeatDuel] Gain 3 [ResultReduction] and 4 [Paralysis]\n[DefeatDuel] Deal -90% damage; On Hit, does not Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] Lose 15 SP\n[EndSkill] Consume all [PressureOfPrescript]",
+          "name": "Посредничество: уничтожение",
+          "desc": "Можно столкнуться независимо от скорости\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Наносит на 100% больше урона <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цели предписания</link></u></color><u> этим навыком</u></b></mark></color>\n[DefeatDuel] Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 4 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n[DefeatDuel] Наносит на 90% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[EndSkill] Теряет 15 СД\n[EndSkill] Теряет все <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -979,56 +978,56 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Annihilation - Mang of Immanent Yearning [本望]",
-          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>At 0+ SP, generate 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Deal +20% damage, Final Power +2, Coin Power +2</u></b></mark></color>\n[EndSkill] Lose 15 SP\n[EndSkill] If this Skill generated Mang, lose 20 SP\n[EndSkill] Consume all [PressureOfPrescript] and end this turn",
+          "name": "Посредничество: уничтожение - Ман неизбежного стремления【本望】",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если своя СД равна 0 и выше: <i>создаёт 1 Ман</i>, наносит на 20% больше урона, получает +2 к Итоговой силе и +2 к Силе монет</u></b></mark></color>\n[EndSkill] Теряет 15 СД\n[EndSkill] Если этим навыком удалось создать Ман, теряет ещё 20 СД\n[EndSkill] Теряет все <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> и заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }

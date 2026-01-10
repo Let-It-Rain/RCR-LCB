@@ -1,147 +1,129 @@
-{
+﻿{
   "dataList": [
     {
       "id": 132203,
-      "name": "Superposed Afterimage",
-      "desc": "Encounter Start: Gain [TimeEntangleFour]\nAt the start of the first turn of each pattern, gain [TimeGapAb] equal to ([TimeEntangleDesc] stage x 400) (once per [TimeEntangleDesc] stage)\n\nAt stage 3 and 4 [TimeEntangleDesc], if this unit loses all [TimeGapAb], the pattern changes and become Staggered for the next turn\n\nTake -30% HP, SP damage from [Combustion], [Laceration], [Burst], and [Sinking]; -30% to Stagger Threshold raised by [Vibration]",
-      "summary": "",
-      "undefined": "-"
+      "name": "Наложение послеобраза",
+      "desc": "Входит в битву с <sprite name=\"TimeEntangleFour\"><color=#9f6a3a><u><link=\"TimeEntangleFour\">Четырёхкратной запутанностю послеобраза</link></u></color>.\n\nПосле каждой смены поведения получает (Новая стадия <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color> × 400) <sprite name=\"TimeGapAb\"><color=#f8c200><u><link=\"TimeGapAb\">Разъединения</link></u></color> в начале хода.\n\nЕсли полностью теряет <sprite name=\"TimeGapAb\"><color=#f8c200><u><link=\"TimeGapAb\">Разъединение</link></u></color> на 3 или 4 стадии <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>, оглушается в следующем ходе и меняет поведение.\n\nПолучает на 30% меньше урона по ОЗ от <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>.\nПоднятие границы выносливости от <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокации Тремора</link></u></color> снижено на 30%.",
+      "summary": ""
     },
     {
       "id": 132204,
-      "name": "Afterimage Reverberation",
-      "desc": "On hit with this unit's Coin, deal Slash damage equal to (the Coin's final damage / 10)\n- This effect activates ([TimeEntangleDesc] stage) times; damage from this effect cannot Stagger target",
-      "summary": "",
-      "undefined": "-"
+      "name": "Реверберация послеобраза",
+      "desc": "При попадании своими монетами наносит цели (Итоговый урон монеты / 10) Рубящего урона. (Не может оглушить этим уроном)\n- Этот эффект активируется (Текущая стадия <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>) раз. (До 4)",
+      "summary": ""
     },
     {
       "id": 132205,
-      "name": "Lacerating Afterimages from Myriad Moments",
-      "desc": "Attack Skill End: Deal (# of Slash Coins that hit Critically x 10) Slash damage against each target) (damage from this effect cannot Stagger target)\n\nAttack Skill End: Consume every surplus [Breath] Potency past 20 on self and inflict [PhantomIncision] to target by [Breath] Potency consumed",
-      "summary": "",
-      "undefined": "-"
+      "name": "Разрезание послеобразов бесчисленных мгновений",
+      "desc": "После успешного использования атакующих навыков наносит (Количество монет, нанёсших критический удар × 10) дополнительного Рубящего урона каждой цели навыка. (Не может оглушить этим уроном)\n\nПосле успешного использования атакующих навыков тратит лишнюю силу своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> свыше 20 и наносит цели столько же <sprite name=\"PhantomIncision\"><color=#e30000><u><link=\"PhantomIncision\">Следа клинка 【Послеобраз】</link></u></color>.",
+      "summary": ""
     },
     {
       "id": 132208,
-      "name": "Unsheathing Dihui Star's Blade",
-      "desc": "Use a powerful attack pattern every 4 turns\n- At 50+ [PhantomIncisionTotal], the pattern above becomes empowered",
+      "name": "Обнажение клинка звезды Дихуэй",
+      "desc": "Использует мощную атаку каждые 4 хода.\n- Использует более мощную атаку при 50 и более <sprite name=\"PhantomIncisionTotal\"><color=#9f6a3a><u><link=\"PhantomIncisionTotal\">Клинка звезды Дихуэй</link></u></color>.",
       "summary": "",
-      "undefined": "-",
-      "flavor": "'... I'm weary of this stigma of a blade.'"
+      "flavor": "«... Я устала от этого клейма клинка.»"
     },
     {
       "id": 132216,
-      "name": "'I Shall Give You Some Quarter'",
-      "desc": "Deal -50% final damage with this unit's Skill against targets that used Defense Skill\n\nTurn End: Gain 2 [Vulnerable] and 2 [AttackDmgUp] every 4 turn in this Encounter (applies cumulatively; max 2 times per Encounter)",
+      "name": "«Я дарую вам немного пощады»",
+      "desc": "Наносит на 50% меньше урона противникам, использующим защитные навыки.\n\nПолучает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> в конце каждого 4 хода. (Складывается; до 2 раз за битву)",
       "summary": "",
-      "undefined": "-"
+      "flavor": ""
     },
     {
       "id": 132101,
-      "name": "Living Nerves - Partial Deterrence Release",
-      "desc": "Upon death, all Skills are cancelled for the turn\nGain 10 [SelfCharge] when the effect above activates",
-      "summary": "",
-      "undefined": "-"
+      "name": "Живой нерв — Частичное сдержанное высвобождение",
+      "desc": "После получения смертельного урона получает 10 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядов</link></u></color>, а все свои атаки в текущем ходе отменяются.",
+      "summary": ""
     },
     {
       "id": 132102,
-      "name": "Undying Persistence",
-      "desc": "Every 5 turns, gains a Shield equal to the head's HP",
-      "summary": "",
-      "undefined": "-"
+      "name": "Повышенная живучесть",
+      "desc": "Каждые 5 ходов получает ОЗ Щита, равные текущим ОЗ головы.",
+      "summary": ""
     },
     {
       "id": 132103,
-      "name": "Terminated Persistence",
-      "desc": "After using 'Coil Up', if the Shield is exhausted, spend all [SelfCharge]\nAll parts become Staggered next turn",
-      "summary": "",
-      "undefined": "-"
+      "name": "Закончившаяся живучесть",
+      "desc": "После использования навыка <color=#9f6a3a>「Свернуться」</color>, если ОЗ Щита полностью истощены: теряет весь <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>, а все части становятся оглушёнными в следующием ходе.",
+      "summary": ""
     },
     {
       "id": 132001,
-      "name": "The Last Ember",
-      "desc": "At 30%- HP, gain +1 more [MRcAiBa]",
-      "summary": "",
-      "undefined": "-"
+      "name": "Последняя искра",
+      "desc": "При менее чем 30% ОЗ получает на 1 <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искру</link></u></color> больше от эффектов своих навыков.",
+      "summary": ""
     },
     {
       "id": 132002,
-      "name": "Stoke the Flames",
-      "desc": "When the Wings Part is broken, inflict [MRcAiBb] equal to [MRcAiBa] Stack to the last attacker; then, all [MRcAiBa] on self expires.\n\nWhen using 'Ardor Blossom Star' at 0 [MRcAiBa], use 'Stoke the Flames' as well",
-      "summary": "",
-      "undefined": "-"
+      "name": "Раздуть пламя",
+      "desc": "Когда Часть <b>「Крылья」</b> повреждается, наносит <sprite name=\"MRcAiBb\"><color=#e30000><u><link=\"MRcAiBb\">Мерцающую искру</link></u></color> последнему атаковавшему в количестве имеющихся <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искр</link></u></color>, после чего теряет их все.\n\nЕсли при использовании атаки <color=#fe0101>「Вспышка алых лепестков」</color> не осталось <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искр</link></u></color>, то дополнительно использует <color=#fe0101>「Раздуть пламя」</color> после неё.",
+      "summary": ""
     },
     {
       "id": 132003,
-      "name": "Flaming Ember",
-      "desc": "Convert a number of non-Wrath Skills equal to [MRcAiBa] Stack into Wrath Skills",
-      "summary": "",
-      "undefined": "-"
+      "name": "Пылающий уголёк",
+      "desc": "Начало хода: свои используемые атаки без греха Гнева в количестве значения эффекта <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искры</link></u></color> приобретают его.",
+      "summary": ""
     },
     {
       "id": 132004,
-      "name": "Interlocking Ardor Blossom",
-      "desc": "If this unit has [MRcAiBa], convert a number of non-Wrath Skills equal to [MRcAiBa] Stack into Wrath Skills\n\nOn Hit, inflict [Combustion] equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn)\n\nOn Hit, heal HP equal to (# of Wrath Skills that the Ardor Blossom Moth will use this turn x 2)",
-      "summary": "",
-      "undefined": "-"
+      "name": "Переплетающиеся алые лепестки",
+      "desc": "Пока имеются <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искры</link></u></color>, свои используемые атаки без греха Гнева в количестве значения эффекта <sprite name=\"MRcAiBa\"><color=#f8c200><u><link=\"MRcAiBa\">Искры</link></u></color> приобретают его.\n\nПри попадании наносит цели <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> в количестве своих атак с грехом Гнева, которые Аномалия использует в этом ходе, а также восстанавливает ОЗ, равные (Количество своих атак с грехом Гнева, которые Аномалия использует в этом ходе × 2).",
+      "summary": ""
     },
     {
       "id": 132005,
-      "name": "Supply Resources",
-      "desc": "When the Wings Part is broken, gain 2 E.G.O Resource of all Affinity and heal all Sinners' SP by 15",
-      "summary": "",
-      "undefined": "-"
+      "name": "Пополнение ресурсов",
+      "desc": "Когда Часть <b>「Крылья」</b> повреждается: все Грешники восстанавливают 15 СД, а ко всем грехам добавляется по 2 ЭГО Ресурса.",
+      "summary": ""
     },
     {
       "id": 132006,
-      "name": "Flaming Wings - Partial Deterrence Release",
-      "desc": "Does not take [Combustion] damage\n\nTurn End: Heal Core by ([Combustion] on self x 5)",
-      "summary": "",
-      "undefined": "-"
+      "name": "Огненные крылья — Частичное сдержанное высвобождение",
+      "desc": "Не получает урон от <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>.\n\nКонец хода: восстанавливает (Суммарная сила <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на всех Частях × 5) ОЗ Ядру.",
+      "summary": ""
     },
     {
       "id": 132501,
-      "name": "Prescript Delivered on a Device",
-      "desc": "Encounter Start: Gain Shield equal to 20% of max HP (remains throughout this Encounter)\n\nTurn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- <color=#ff6000><mark=#ff000040><b><u>Inflict [IndexPrescriptTargetToPersonality] to a random enemy and prioritize attacking that enemy</u></b></mark></color> (excluding certain pattern)\n\nDeal +2.5% damage to [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage to all targets instead",
-      "summary": "",
-      "undefined": "-"
+      "name": "Доставленное на устройстве предписание",
+      "desc": "Начало битвы: получает ОЗ Щита в размере 20% от своих максимальных ОЗ. (Щит сохраняется до конца битвы)\n\nНачало хода:\n- <color=#ff6000><mark=#ff000040><b><u>Случайный противник становится <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целью предписания</link></u></color></b></mark></color>.\n- Получает <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание: 【Устройство】</link></u></color> в зависимости от текущей стадии <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color>:\n   · Нет эффекта: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_0\">Предписание: 【Устройство】 I</link></u></color>;\n   · <sprite name=\"UnlockBuff_1\"><color=#f8c200><u><link=\"UnlockBuff_1\">Разблокировка - I</link></u></color>: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_1\">Предписание: 【Устройство】 II</link></u></color>;\n   · <sprite name=\"UnlockBuff_2\"><color=#f8c200><u><link=\"UnlockBuff_2\">Разблокировка - II</link></u></color>: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_2\">Предписание: 【Устройство】 III</link></u></color>;\n   · <sprite name=\"UnlockBuff_3\"><color=#f8c200><u><link=\"UnlockBuff_3\">Разблокировка - III</link></u></color>: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_3\">Предписание: 【Устройство】 IV</link></u></color>.\n\nНаносит на (Текущее значение <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> × 2.5)% больше урона <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целям предписания</link></u></color>. (До 20%)\n- При 9 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> наносит сразу на 30% больше урона вместо этого.",
+      "summary": ""
     },
     {
       "id": 132502,
-      "name": "Will of the Prescript",
-      "desc": "Turn End: <color=#ff6000><mark=#ff000040><b><u>If [IndexPrescript_Base_2nd] was executed this turn,</u></b></mark></color> heal 15 SP and gain [BlessingOfIndexPrescriptEnemy] by ([UnlockBuff_Base] stage + 1) (once per turn)\n\nTurn End: <color=#ff6000><mark=#ff000040><b><u>If [IndexPrescript_Base_2nd] was not executed this turn</u></b></mark></color>, gain 1 [PressureOfPrescript] and 5 [KarmaOfIndexStudent]\n- If this unit does not have [UnlockBuff_Base], gain 1 [BlessingOfIndexPrescriptEnemy] at Turn End\n- At 9 [BlessingOfIndexPrescriptEnemy], does not gain [KarmaOfIndexStudent]\n- If this unit is under the effect of Effloresced[TabExplain] E.G.O::Procuration, double [KarmaOfIndexStudent] this unit will gain",
-      "summary": "",
-      "undefined": "-"
+      "name": "Воля предписания",
+      "desc": "Конец хода:\n\n- <color=#ff6000><mark=#ff000040><b><u>Если текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color><u> было успешно выполнено</u></b></mark></color>, восстанавливает 15 СД и получает (Стадия <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color> + 1) <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>;\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color></b></mark></color>, получает 1 <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> и 5 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>.\n   · Если не имеется <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color>, получает 1 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милость предписания</link></u></color> вместе с этим;\n   · Не получает <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармические последствия</link></u></color> при 9 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>;\n   · Если в состоянии Расцветшего ЭГО::Посредничество, получает вдвое больше <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>.",
+      "summary": ""
     },
     {
       "id": 132503,
-      "name": "Unlock",
-      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 90%-/75%-/60%- HP,\n- Gain [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Heal to 45 SP\n- <color=#ff6000><mark=#ff000040><b><u>Consume all [PressureOfPrescript]</u></b></mark></color> and recover from Stagger\n\nIf [UnlockBuff_Base] was gained based on HP conditional above,\n- Gain [KarmaOfIndexStudent] by (sum of healed SP / 15)\n- Increase [BlessingOfIndexPrescriptEnemy] to 3/6/9 if this unit had less than 3/6/9 [BlessingOfIndexPrescriptEnemy]; gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] next turn for every [BlessingOfIndexPrescriptEnemy] Stack gained\n\nMin & Max Speed +10 in the turn this unit uses its powerful attack",
+      "name": "Разблокировка",
+      "desc": "Конец хода: при 3 / 6 / 9 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> или менее чем 90% / 75% / 60% ОЗ:\n- Получает <sprite name=\"UnlockBuff_1\"><color=#f8c200><u><link=\"UnlockBuff_1\">Разблокировку - I</link></u></color> / <sprite name=\"UnlockBuff_2\"><color=#f8c200><u><link=\"UnlockBuff_2\">Разблокировку - II</link></u></color> / <sprite name=\"UnlockBuff_3\"><color=#f8c200><u><link=\"UnlockBuff_3\">Разблокировку - III</link></u></color> соответственно;\n- Восстанавливает СД до 45;\n- <color=#ff6000><mark=#ff000040><b><u>Тратит все <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color><u> для восстановления от оглушения</u></b></mark></color>.\n\nЕсли стадия <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color> была повышена за счёт падения ОЗ до определённого порога, а не значения <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>:\n- Получает (Восстановленная до 45 СД / 15) <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>;\n- Значение <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> увеличивается до 3 / 6 / 9 соответственно стадии <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color>, но при этом Сора получает 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color> и 2 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствия</link></u></color> на следующий ход за каждую единицу полученной таким образом <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>.",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"It is said that the blade and fabric granted by the Prescript unlock their power only when the Prescript is executed.\""
+      "flavor": "«Говорят, что клинок и ткань, дарованные по предписанию, обретают свою силу только тогда, когда предписание выполнено.»"
     },
     {
       "id": 132504,
-      "name": "Effloresced E.G.O::Procuration",
-      "desc": "Turn Start: if this unit has [UnlockBuff_Base] and is at 25+ SP, consume 15 SP to enter Effloresced[TabExplain] E.G.O::Procuration state and recover from Stagger\n- Gain [Blandishment_Enemy] and a different set of Resistance values while in this state\n- Turn Start: at 0 or less SP, exit Effloresced[TabExplain] E.G.O::Procuration state",
-      "summary": "",
-      "undefined": "-"
+      "name": "Расцветшее ЭГО::Посредничество",
+      "desc": "Если в конце хода своя СД равна 25 и выше, а также при этом имеется <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировка</link></u></color>: тратит 15 СД, чтобы пробудить Расцветшее ЭГО::Посредничество и восстановиться от оглушения.\n- Получает <sprite name=\"Blandishment_Enemy\"><color=#f8c200><u><link=\"Blandishment_Enemy\">Веру вне всяких сомнений</link></u></color> и меняет значения своих сопротивлений;\n- Если своя СД равна 0 и ниже в начале хода, теряет состояние Расцветшего ЭГО.",
+      "summary": ""
     },
     {
       "id": 132505,
-      "name": "Annihilation Form",
-      "desc": "When Vespa enters the battlefield:\n- If [UnlockBuff_Base] is below stage II, gain [UnlockBuff_2] and bring [BlessingOfIndexPrescriptEnemy] Stack to 6.\nTurn Start: Gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] for every Stack gained\n- Gain 1 [Blandishment_Shin_Enemy] and gain Shield equal to 50% of max HP (lasts for the rest of this Encounter)\n- Disable the [PressureOfPrescript] cost of activating the 'Unlock[TabExplain]' Passive\n- Intensify [PressureOfPrescript] to [PressureOfPrescript_2nd] and max out its Stack\n- Turn Start: Gain 1 [PressureOfPrescript_2nd]\n- Heal to 30 SP. Gain (SP healed / 10) [KarmaOfIndexStudent]\n- Then, this unit's SP does not drop below 0\n\nAt 20% or less HP, max out [PressureOfPrescript_2nd] Stack",
+      "name": "Форма уничтожения",
+      "desc": "После входа Веспы в бой:\n\n- Восстанавливает СД до 30 и получает (Восстановленная до 30 СД / 10) <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>, после чего своя СД не может упасть ниже 0 до конца битвы;\n\n- Получает <sprite name=\"Blandishment_Shin_Enemy\"><color=#f8c200><u><link=\"Blandishment_Shin_Enemy\">Шин 【心】 — Сора</link></u></color> и ОЗ Щита в размере 50% от своих максимальных ОЗ; (Щит сохраняется до конца битвы)\n\n- Если стадия <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color> ниже второй, сразу переходит на её <sprite name=\"UnlockBuff_2\"><color=#f8c200><u><link=\"UnlockBuff_2\">Вторую стадию</link></u></color> и поднимает значение <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> <nobr>до 6;</nobr>\n   · Начало каждого хода: получает 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и 2 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствия</link></u></color> за каждую полученную таким образом единицу значения <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>.\n\n- Своё пассивное умение <b>「Разблокировка[TabExplain]」</b> больше не тратит <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> для восстановления от оглушения;\n   · Превращает обычные <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> в <sprite name=\"PressureOfPrescript_2nd\"><color=#9f6a3a><u><link=\"PressureOfPrescript_2nd\">Экстремальные узы ответственности</link></u></color> и получает их максимальное значение;\n   · Получает 1 <sprite name=\"PressureOfPrescript_2nd\"><color=#9f6a3a><u><link=\"PressureOfPrescript_2nd\">Экстремальные узы ответственности</link></u></color> в начале каждого хода.\n\n- Если ОЗ падают до 20%, получает максимальное значение <sprite name=\"PressureOfPrescript_2nd\"><color=#9f6a3a><u><link=\"PressureOfPrescript_2nd\">Экстремальных уз ответственности</link></u></color>.",
       "summary": "",
-      "undefined": "-",
-      "flavor": "'W-what a dangerous person... The Prescript could go unfulfilled at this rate.'"
+      "flavor": "«К- какой опасный человек... При таких темпах предписание может остаться невыполненным.»",
+      "_comment": "К</i>-<i>к приём здесь не сработает для выравнивания тире, курсив какой-то вынужденный вместо тегов"
     },
     {
       "id": 132230,
-      "name": "Panic Recovery",
-      "desc": "Turn End: if in Panic, reset SP to 30.",
-      "summary": "",
-      "undefined": "-"
+      "name": "Выход из паники",
+      "desc": "Если в панике к концу хода, восстанавливается от неё и сбрасывает СД до 30.",
+      "summary": ""
     }
   ]
 }

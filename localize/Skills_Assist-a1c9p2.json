@@ -1,24 +1,24 @@
-{
+﻿{
   "dataList": [
     {
       "id": 40000601,
       "levelList": [
         {
           "level": 1,
-          "name": "Obstruction",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Base Power +1 for every 2 ([Laceration] + [Vibration]) on target (max 5)\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Препятствие",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 5)\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             }
@@ -31,20 +31,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Double Chaincleave",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Base Power +1 for every 2 ([Laceration] + [Vibration]) on target (max 5)\n[WhenUse] Gain +3 [Breath] Count",
+          "name": "Двойное цепное рассечение",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 5)\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
                 }
               ]
             }
@@ -57,19 +57,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Throw",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 200%)\n[WhenUse] Gain 2 [CriticalDmgUpVespa] next turn",
+          "name": "Бросок гарпуна",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 200%)\n[WhenUse] Получает 2 <sprite name=\"CriticalDmgUpVespa\"><color=#f8c200><u><link=\"CriticalDmgUpVespa\">Искусства владения мечом разрывающей вспышки - Хвандо</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BeeSting]"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"BeeSting\"><color=#e30000><u><link=\"BeeSting\">Вонзившийся гарпун 【Пчелиное жало】</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 80% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 80% от нанесённого урона"
                 }
               ]
             }
@@ -82,19 +82,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Impalement - There It Is.",
-          "desc": "[CantChangeTarget]\nDeal +50% damage for every type of negative effect on target (max 300%)\n[WhenUse] Gain 5 [CriticalDmgUpVespa] next turn",
+          "name": "Вонзание гарпуна — вот оно.",
+          "desc": "[CantChangeTarget]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 300%)\n[WhenUse] Получает 5 <sprite name=\"CriticalDmgUpVespa\"><color=#f8c200><u><link=\"CriticalDmgUpVespa\">Искусства владения мечом разрывающей вспышки - Хвандо</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [ArtifactBeeSting]"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"ArtifactBeeSting\"><color=#e30000><u><link=\"ArtifactBeeSting\">Вонзившийся гарпун 【Осиное жало】</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Stagger target"
+                  "desc": "[OnSucceedAttack] Оглушает цель"
                 }
               ]
             }
@@ -107,13 +107,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Harpoon Recall",
-          "desc": "[CantDuel]\nDeal +50% damage for every type of negative effect on target (max 200%)",
+          "name": "Возврат гарпуна",
+          "desc": "[CantDuel]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 200%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Remove the Nested Harpoon on target"
+                  "desc": "[OnSucceedAttack] Возвращает Вонзившийся гарпун с цели к себе"
                 }
               ]
             }
@@ -126,20 +126,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Counterattack.",
-          "desc": "[DuelCounter]\nDeal +50% damage for every type of negative effect on target (max 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Gain 2 [ResultEnhancement] and 2 [AttackDmgUp] next turn",
+          "name": "Контратака.",
+          "desc": "[DuelCounter]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Получает 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательную защиту</link></u></color></color></mark></b></u>\n[WhenUse] Получает 2 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышения силы</link></u></color> и 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
                 }
               ]
             }
@@ -152,13 +152,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Defensive Assist.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill",
+          "name": "Защитная помощь.",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n<b>Специальный навык для <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color></b>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             }
