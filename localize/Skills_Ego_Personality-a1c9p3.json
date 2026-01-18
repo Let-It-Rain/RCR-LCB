@@ -1,24 +1,24 @@
-{
+﻿{
   "dataList": [
     {
       "id": 2010112,
       "levelList": [
         {
-          "abName": "Yi Sang",
           "level": 4,
-          "name": "Crow’s Eye View",
+          "name": "С высоты вороньего полёта",
+          "abName": "И Сан",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Reduction] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 3 [Agility] to all allies next turn"
+                  "desc": "[OnSucceedAttack] Даёт 3 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход всем союзникам"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -30,18 +30,18 @@
       "id": 2030112,
       "levelList": [
         {
-          "abName": "Don Quixote",
           "level": 4,
-          "name": "La Sangre de Sancho",
+          "name": "Кровь Санчо",
+          "abName": "Дон Кихот",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal by 50% of damage dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона"
                 }
               ]
             }
@@ -53,27 +53,27 @@
       "id": 2050112,
       "levelList": [
         {
-          "abName": "Meursault",
           "level": 4,
-          "name": "Chains of Others",
+          "name": "Чужие цепи",
+          "abName": "Мерсо",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\">Понижения силы атаки</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Protection] next turn"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -85,15 +85,15 @@
       "id": 2060112,
       "levelList": [
         {
-          "abName": "Hong Lu",
           "level": 4,
-          "name": "Land of Illusion",
-          "desc": "[EndSkill] Heal 15 SP for this unit and all allies\n[EndSkill] Remove Burn from this unit and all allies",
+          "name": "Земли иллюзий",
+          "abName": "Хон Лу",
+          "desc": "[EndSkill] Восстанавливает 15 СД себе и всем союзникам\n[EndSkill] Убирает <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> с себя и всех союзников",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -105,18 +105,18 @@
       "id": 2110112,
       "levelList": [
         {
-          "abName": "Outis",
           "level": 4,
-          "name": "To Páthos Máthos",
-          "desc": "If target’s HP is below 50%, deal +30% damage",
+          "name": "Страдание, ставшее опытом",
+          "abName": "Отис",
+          "desc": "Если ОЗ цели ниже 50%, наносит ей на 30% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[EnemyKill] Apply 1 [AttackDmgUp] to a random ally"
+                  "desc": "[EnemyKill] Даёт 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> случайному союзнику"
                 }
               ]
             }

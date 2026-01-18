@@ -1,76 +1,78 @@
-{
+﻿{
   "dataList": [
     {
       "id": 1071,
-      "panicName": "Degraded Corrosion",
-      "lowMoraleDescription": "Turn Start: Gain 1 [Vulnerable]",
-      "panicDescription": "Turn Start: Gain 1 [Vulnerable] and 5 [Combustion]"
+      "panicName": "Деградированная коррозия",
+      "lowMoraleDescription": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> в начале хода",
+      "panicDescription": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> и 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> в начале хода"
     },
     {
       "id": 1073,
-      "panicName": "Wave of Somnolence",
-      "lowMoraleDescription": "Gain 1 fewer [LanternHohenheimBigBird] from Skills",
-      "panicDescription": "Does not act for this turn"
+      "panicName": "Волна сонливости",
+      "lowMoraleDescription": "Получает на 1 <sprite name=\"LanternHohenheimBigBird\"><color=#9f6a3a><u><link=\"LanternHohenheimBigBird\">Лампу</link></u></color> меньше от своих навыков",
+      "panicDescription": "Не действует в течение хода"
     },
     {
       "id": 1078,
-      "panicName": "Shame of the Family",
-      "lowMoraleDescription": "Turn Start: Gain 1 [SlashDamageUp], 1 [ParryingResultUp], and 1 [Vulnerable]\nCannot gain Mang when using Skills",
-      "panicDescription": "Turn Start: Gain 2 [SlashDamageUp], 2 [ParryingResultUp], and 2 [Vulnerable]\nCannot gain Mang when using Skills"
+      "panicName": "Позор семьи",
+      "lowMoraleDescription": "- Получает 1 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышение Рубящего урона</link></u></color>, 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы в столкновении</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>\n- Не может создавать Ман (望) своими навыками",
+      "panicDescription": "- Получает 2 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышения Рубящего урона</link></u></color>, 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы в столкновении</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>\n- Не может создавать Ман (望) своими навыками"
     },
     {
       "id": 1079,
-      "panicName": "\"K-kill... kill me...\"",
-      "lowMoraleDescription": "Turn Start: Gain 8 [ParryingResultDown] and 3 [ResultReduction]",
-      "panicDescription": "Turn Start: Gain 10 [ParryingResultDown] and 5 [ResultReduction]"
+      "panicName": "«У-убейте... убейте меня...»",
+      "lowMoraleDescription": "Получает 5 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижений силы</link></u></color> и 8 <sprite name=\"ParryingResultDown\"><color=#e30000><u><link=\"ParryingResultDown\">Понижений силы в столкновении</link></u></color>",
+      "panicDescription": "Получает 5 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижений силы</link></u></color> и 8 <sprite name=\"ParryingResultDown\"><color=#e30000><u><link=\"ParryingResultDown\">Понижений силы в столкновении</link></u></color>"
     },
     {
       "id": 1077,
-      "panicName": "Outmoded Art",
-      "lowMoraleDescription": "Turn Start: Lose 5 HP and gain 1 [AttackUp]",
-      "panicDescription": "Turn Start: Lose 15 HP and gain 2 [AttackUp]"
+      "panicName": "Старомодное искусство",
+      "lowMoraleDescription": "Теряет 5 СД в начале хода и получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>",
+      "panicDescription": "Теряет 5 СД в начале хода и получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>"
     },
     {
       "id": 1075,
-      "panicName": "Mad Rampage",
-      "lowMoraleDescription": "Turn Start: Gain 2 [Enhancement] and 4 [DefenseDown]; gain 1 [AttackDmgUp] for every 30 HP damage taken last turn (max 5)",
-      "panicDescription": "Turn Start: Gain 3 [Enhancement] and 5 [DefenseDown]; gain 1 [AttackDmgUp] for every 25 HP damage taken last turn (max 5)"
+      "panicName": "Безумное буйство",
+      "lowMoraleDescription": "- Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 4 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\n- Получает по 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышению урона</link></u></color> за каждые 30 потерянных ОЗ в прошлом ходе (До 5)",
+      "panicDescription": "- Получает 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 5 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>\n- Получает по 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышению урона</link></u></color> за каждые 25 потерянных ОЗ в прошлом ходе (До 5)"
     },
     {
       "id": 1076,
-      "panicName": "Fervor",
-      "lowMoraleDescription": "Turn Start: Gain 2 [DefenseDown]; gain 1 [AttackDmgUp] for every 30 HP damage taken last turn (max 5)",
-      "panicDescription": "Turn Start: Gain 1 [Enhancement] and 3 [DefenseDown]; gain 1 [AttackDmgUp] for every 25 HP damage taken last turn (max 5)"
+      "panicName": "Рвение",
+      "lowMoraleDescription": "Рвение (Низкий дух)",
+      "desc": "- Получает 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\n- Получает по 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышению урона</link></u></color> за каждые 30 потерянных ОЗ в прошлом ходе (До 5)",
+      "panicDescription": "- Получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\n- Получает по 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышению урона</link></u></color> за каждые 25 потерянных ОЗ в прошлом ходе (До 5)"
     },
     {
       "id": 1081,
-      "panicName": "Body Broken Beyond Repair",
-      "lowMoraleDescription": "Turn Start: Gain 1 [Vulnerable] and apply 2 [Endurance] to Ezra and Vespa",
-      "panicDescription": "Gain 1 [Vulnerable] and use 'Steady the Breath'"
+      "panicName": "Тело, сломанное безвозвратно",
+      "lowMoraleDescription": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> и даёт 2 <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\">Повышения силы защиты</link></u></color> Эзре и Веспе",
+      "panicDescription": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> и использует свой альтернативный первый навык <color=#1cc7f1>「Успокоить дыхание」</color>"
     },
     {
       "id": 1082,
-      "panicName": "Insecurity: Mask",
-      "lowMoraleDescription": "Base Attack Power -1, Defense Level +2",
-      "panicDescription": "Base Attack Power -1, Defense Level +3"
+      "panicName": "Неуверенность: Маска",
+      "lowMoraleDescription": "- Сила атакующих навыков -1\n- Уровень защиты +2",
+      "panicDescription": "- Сила атакующих навыков -1\n- Уровень защиты +3"
     },
     {
       "id": 1083,
-      "panicName": "Alaya",
+      "panicName": "Арая",
       "lowMoraleDescription": "-",
       "panicDescription": "-"
     },
     {
       "id": 1080,
-      "panicName": "Of the Second Smoke War",
-      "lowMoraleDescription": "Turn Start: Gain 1 [Vulnerable]\nSP Heal Efficiency +2",
-      "panicDescription": "Turn Start: Gain 2 [Vulnerable] and 2 [ParryingResultUp]"
+      "panicName": "Со времён Второй Дымной Войны",
+      "lowMoraleDescription": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> и +2 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления СД</link></u></color>",
+      "panicDescription": "Со времён Второй Дымной Войны (Паника)",
+      "desc": "Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы в столкновении</link></u></color>"
     },
     {
       "id": 1084,
-      "panicName": "Imitation of a Father",
-      "lowMoraleDescription": "- Turn Start: Gain 5 [Combustion] and 5 [Laceration]\n- Take +10% damage from Sinner Ryōshū",
-      "panicDescription": "- Turn Start: Gain 5 [Combustion], +3 [Combustion] Count, 5 [Laceration], and +3 [Laceration] Count\n- Take +20% damage from Sinner Ryōshū"
+      "panicName": "Имитация отца",
+      "lowMoraleDescription": "- Начало хода: получает 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n- Получает на 10% больше урона от Грешницы Рёшу",
+      "panicDescription": "- Начало хода: получает 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, а их счётчик повышается на 3\n- Получает на 20% больше урона от Грешницы Рёшу"
     }
   ]
 }
