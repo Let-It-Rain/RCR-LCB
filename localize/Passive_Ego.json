@@ -338,27 +338,32 @@
     {
       "id": 2080611,
       "name": "Обжорство",
-      "desc": "Если главная цель получила урон по HP в этом ходу и не имела максимальных HP при использовании атаковавшего навыка:\nПри ударе,\n- Если HP Фишмаэль максимальные, на 5~10% больше урона;\n- В ином случае восстанавливает 2~5 HP.\n(До 7 раз за ход)"
+      "desc": "Если главная цель получила урон по HP в этом ходу и не имела максимальных HP при использовании атаковавшего навыка:\nПри ударе,\n- Если HP Фишмаэль максимальные, на 5~10% больше урона;\n- В ином случае восстанавливает 2~5 HP.\n(До 7 раз за ход)",
+      "summary": "If the target isn't at max HP, deal more damage On Hit or heal HP On Hit"
     },
     {
       "id": 2090611,
       "name": "Увлеченность",
-      "desc": "Удваивает силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, наносимого своим самым левым навыком на приборной панели. (Единожды ход)"
+      "desc": "Удваивает силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, наносимого своим самым левым навыком на приборной панели. (Единожды ход)",
+      "summary": "This Skill Inflicts x2 [Laceration] Potency"
     },
     {
       "id": 2060611,
       "name": "Чувство уныния",
-      "desc": "При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Потрясения сучки</link></u></color> на противнике с помощью своих навыков наносит 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход. (Трижды за ход; включая ЭГО навыки)"
+      "desc": "При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Потрясения сучки</link></u></color> на противнике с помощью своих навыков наносит 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход. (Трижды за ход; включая ЭГО навыки)",
+      "summary": "When triggering [VibrationExplosion], inflict 1 [AttackDown] and 2 [DefenseDown] next turn"
     },
     {
       "id": 2100611,
       "name": "Слезная оболочка",
-      "desc": "Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> при получении щита в начале хода.\n- Получает 1 дополнительную <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> при наличии <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color> на себе."
+      "desc": "Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> при получении щита в начале хода.\n- Получает 1 дополнительную <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> при наличии <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color> на себе.",
+      "summary": "If this unit has Shield, gain 1 [Protection]\nIf [ShieldManagerCryingToad] is active, gain 1 [Protection]"
     },
     {
       "id": 2020611,
       "name": "Бег времени",
-      "desc": "При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Потрясения сучки</link></u></color> на противнике с помощью своих навыков получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход. (До 4 раз за ход; включая ЭГО навыки)"
+      "desc": "При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Потрясения сучки</link></u></color> на противнике с помощью своих навыков получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход. (До 4 раз за ход; включая ЭГО навыки)",
+      "summary": "When using a Skill to trigger [VibrationExplosion] on an enemy, gain 1 [Agility] next turn. (4 times per turn, including E.G.O Skills)"
     },
     {
       "id": 2040711,
@@ -373,12 +378,14 @@
     {
       "id": 2110711,
       "name": "Блуждающая",
-      "desc": "Верхняя граница счетчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> повышается на 5.\nНавыки, что тратят счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, наносят на (2 × (Своя сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> - 1))% урона. (До 10%)"
+      "desc": "Верхняя граница счетчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> повышается на 5.\nНавыки, что тратят счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>, наносят на (2 × (Своя сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> - 1))% урона. (До 10%)",
+      "summary": "Skills that consume [Charge] Count deal more damage"
     },
     {
       "id": 2120711,
       "name": "Скорбь",
-      "desc": "Если имеются негативные эффекты к концу хода, получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> на следующий ход.\n\nПри атаке целей, находящихся в срыве или под действием <sprite name=\"EgoErode\"><color=#e30000><u>Коррозии ЭГО</u></color>: на 15% больше урона."
+      "desc": "Если имеются негативные эффекты к концу хода, получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> на следующий ход.\n\nПри атаке целей, находящихся в срыве или под действием <sprite name=\"EgoErode\"><color=#e30000><u>Коррозии ЭГО</u></color>: на 15% больше урона.",
+      "summary": ""
     },
     {
       "id": 2080711,
@@ -388,7 +395,8 @@
     {
       "id": 2020711,
       "name": "Раскидистое Веревочка из конопли",
-      "desc": "После атаки, если цель оглушена или убита, повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1 двум случайным противникам или частям. (Единожды за ход; не суммируется)"
+      "desc": "После атаки, если цель оглушена или убита, повышает счетчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зеленки</link></u></color> на 1 двум случайным противникам или частям. (Единожды за ход; не суммируется)",
+      "summary": "After Attack, if the target is Staggered or defeated, inflict +1 [Burst] Count against 2 random enemies"
     },
     {
       "id": 2060711,
@@ -403,7 +411,8 @@
     {
       "id": 2090711,
       "name": "Железный кол в сердце",
-      "desc": "При нанесении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> или Особого Кетчупа противнику с помощью базовых атакующих навыков наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>. (Единожды за ход)\n- Если у цели уже есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> или Уникальный Кетчуп[TabExplain], наносит еще 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>. (Единожды за ход)\n\nКогда союзник, включая этого, получает прямой урон по HP от противника, наносит 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> на атаковавшего. (Дважды за ход)"
+      "desc": "При нанесении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> или Особого Кетчупа противнику с помощью базовых атакующих навыков наносит 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>. (Единожды за ход)\n- Если у цели уже есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> или Уникальный Кетчуп[TabExplain], наносит еще 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>. (Единожды за ход)\n\nКогда союзник, включая этого, получает прямой урон по HP от противника, наносит 1 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятие</link></u></color> на атаковавшего. (Дважды за ход)",
+      "summary": ""
     },
     {
       "id": 2100711,
@@ -423,7 +432,8 @@
     {
       "id": 2070811,
       "name": "Разбитый колокол",
-      "desc": "Наносит <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> противникам, на которых был <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Спровоцирован Тряски</link></u></color> от эффектов навыков, монет или пассивных умений.\n- Не складывается с ЭГО дарами с идентичным эффектом. (Или вычитается из наносимых улучшенными ЭГО дарами эффектов)"
+      "desc": "Наносит <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> противникам, на которых был <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Спровоцирован Тряски</link></u></color> от эффектов навыков, монет или пассивных умений.\n- Не складывается с ЭГО дарами с идентичным эффектом. (Или вычитается из наносимых улучшенными ЭГО дарами эффектов)",
+      "summary": "Inflict 1 [Vulnerable] upon triggering [VibrationExplosion] "
     },
     {
       "id": 2080811,
@@ -488,12 +498,14 @@
     {
       "id": 2020911,
       "name": "Доктор",
-      "desc": "Начало хода: исцеляет себя и 1 союзника с наименьшим процентом HP на ([CuredFilm] каунт)% от максимального HP этого юнита\n- Если у этого юнита полное HP, исцеляет вместо этого 2 других союзников с наименьшим процентом HP\n- Если у получающих лечение юнитов HP 25% или ниже, или они находятся в стаггере, умножает эффективность исцеления этого эффекта на 1.5\n\nКонец хода: если последним Э.Г.О. умением, использованным Эпштейн в этой битве, было Трусики Кальцит, теряется только 1 каунт [CuredFilm] в конце хода\n- Этот эффект срабатывает в тот же ход, когда использовано Э.Г.О. умение"
+      "desc": "Начало хода: исцеляет себя и 1 союзника с наименьшим процентом HP на ([CuredFilm] каунт)% от максимального HP этого юнита\n- Если у этого юнита полное HP, исцеляет вместо этого 2 других союзников с наименьшим процентом HP\n- Если у получающих лечение юнитов HP 25% или ниже, или они находятся в стаггере, умножает эффективность исцеления этого эффекта на 1.5\n\nКонец хода: если последним Э.Г.О. умением, использованным Эпштейн в этой битве, было Трусики Кальцит, теряется только 1 каунт [CuredFilm] в конце хода\n- Этот эффект срабатывает в тот же ход, когда использовано Э.Г.О. умение",
+      "summary": "Turn Start: heal self and 1 ally with the lowest HP percentage"
     },
     {
       "id": 2060911,
       "name": "Так написано, ода вину",
-      "desc": "Конец хода: среди ресурсов Э.Г.О., потраченных на использование Реснички Альфонса Хон Лу (лень, уныние, гордость), получает 1 ресурс Э.Г.О. наименьшего типа греха.\n\nНаносит +1% урона за каждый потерянный или использованный каунт [Cianjing] или [SeniorCianjing] в этой битве (макс. 15%)"
+      "desc": "Конец хода: среди ресурсов Э.Г.О., потраченных на использование Реснички Альфонса Хон Лу (лень, уныние, гордость), получает 1 ресурс Э.Г.О. наименьшего типа греха.\n\nНаносит +1% урона за каждый потерянный или использованный каунт [Cianjing] или [SeniorCianjing] в этой битве (макс. 15%)",
+      "summary": "Turn End: gain E.G.O resources\nDeal more damage based on how much Thunderer or Higher Thunderer was lost or consumed"
     },
     {
       "id": 2081011,
@@ -508,7 +520,8 @@
     {
       "id": 2110911,
       "name": "Отсосать: но не каждому",
-      "desc": "При победе в столкновении, цель получает 4 урона Завистью\n- При менее чем 33% ХП, или если цель имела менее 33% ХП, наносит 1 [ResultReduction] на следующий ход (один раз за ход)\n- Этот пассивный эффект не наносит [ResultReduction] в тот же ход, когда был активирован ЭГО дар <noparse>Мастурбатор Джихуна</noparse>"
+      "desc": "При победе в столкновении, цель получает 4 урона Завистью\n- При менее чем 33% ХП, или если цель имела менее 33% ХП, наносит 1 [ResultReduction] на следующий ход (один раз за ход)\n- Этот пассивный эффект не наносит [ResultReduction] в тот же ход, когда был активирован ЭГО дар <noparse>Мастурбатор Джихуна</noparse>",
+      "summary": "Clash Win: Deal Envy damage\nIf conditions are met, inflict [ResultReduction] next turn"
     },
     {
       "id": 2070911,
