@@ -5578,13 +5578,13 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Вечеринка с паньятой",
-          "desc": "",
+          "name": "Когда-нибудь я стану мужем Синклера",
+          "desc": "Если цель была <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатом Недорме</link></u></color><style=\"highlight\"></style>, Сила монет +5\r\n[WhenUse] Если на поле боя не было <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатов Недорме</link></u></color><style=\"highlight\"></style>, начинает грустить и уходит в стаггер на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "\r\n\r\n\r\n<size=300%> Информация засекречена"
+                  "desc": "[OnSucceedAttack] Удаляет 1 из своих порогов стаггера.\r\nНаносит +5% урона по целям, которые являются <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатами Недорме</link></u></color><style=\"highlight\"></style>\r\n\r\n"
                 }
               ]
             }
@@ -5592,13 +5592,13 @@
         },
         {
           "level": 4,
-          "name": "Вечеринка с паньятой",
-          "desc": "",
+          "name": "Когда-нибудь я стану мужем Синклера",
+          "desc": "Если цель была <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатом Недорме</link></u></color><style=\"highlight\"></style>, Сила монет +10\r\n[WhenUse] Если на поле боя не было <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатов Недорме</link></u></color><style=\"highlight\"></style>, начинает грустить и уходит в стаггер на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "\r\n\r\n\r\n\r\n<size=300%> Информация засекречена"
+                  "desc": "[OnSucceedAttack] Удаляет все свои пороги стаггера. \r\nНаносит +10% урона по целям, которые являются <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатами Недорме</link></u></color><style=\"highlight\"></style>\r\nНаносит +35% урона против других ютюберов по лимбусу\r\nЕсли ютубер по лимбусу был <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатом Недорме</link></u></color><style=\"highlight\"></style>, вместо этого наносит на +100% больше урона\r\n\r\nТак как это скилл уныния, его можно комбинировать с АЕДД Грегора и нанести 99 потенциала [Burst:*Зелёнки*]"
                 }
               ]
             }
@@ -5611,8 +5611,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уворот",
-          "desc": "",
+          "name": "Привлекающий сексуальный танец",
+          "desc": "[WhenUse] Если Недорме не смог увернуться от атаки, получает стаггер на следующий ход\r\n[WhenUse] Наносит 2-м случайным противникам <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанат Недорме</link></u></color><style=\"highlight\"></style> на этот и следующий ход\r\n[OnSucceedEvade] Накладывает на атаковавшего 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фаната Недорме</link></u></color><style=\"highlight\"></style> на следующий ход (Срабатывает 1 раз за ход)",
           "coinlist": [
             {
               "coindescs": []
@@ -5621,8 +5621,8 @@
         },
         {
           "level": 4,
-          "name": "Уворот",
-          "desc": "<style=\"highlight\">[OnSucceedEvade] Повышает свой счетчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 1</style>",
+          "name": "Привлекающий сексуальный танец",
+          "desc": "[WhenUse] Если цель была <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанатом Недорме</link></u></color><style=\"highlight\"></style>, базовая сила +4\r\n[WhenUse] Наносит 2-м случайным противникам <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанат Недорме</link></u></color><style=\"highlight\"></style> на этот и следующий ход\r\n[WhenUse] Если Недорме не смог увернуться от атаки, получает стаггер на следующий ход\r\n[OnSucceedEvade] Наносит атаковавшему 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Nedorme\">Фанат Недорме</link></u></color><style=\"highlight\"></style> на следующий ход (До 2-х врагов за ход)\r\n[OnSucceedEvade] Наносит атаковавшему 3 [Sinking:*Депрессии*] (Без ограничений)\r\n\r\n",
           "coinlist": [
             {
               "coindescs": []
