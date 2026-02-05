@@ -2145,6 +2145,311 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1121401",
+      "levelList": [
+        {
+          "level": "1",
+          "name": "Intense Stare: Zero-Range",
+          "desc": "[WhenUse] Получает 1 [Binding] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "2",
+          "name": "Intense Stare: Zero-Range",
+          "desc": "Если любое из этих условий выполнено, получает +1 к Силе монет\n- Если скорость этого юнита 1 или ниже\n- Если цель имела [DelusionGregBigBird]\n[WhenUse] Получает 1 [Binding] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "4",
+          "name": "Intense Stare: Zero-Range",
+          "desc": "Если любое из этих условий выполнено, получает +1 к Силе монет\n<style=\"highlight\">- Если скорость цели выше скорости этого юнита на 3 или более</style>\n- Если скорость этого юнита 1 или ниже\n- Если цель имела [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Если цель имела 6+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>), Сила монет +1</style>\n[WhenUse] Получает 1 [Binding] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1121402",
+      "levelList": [
+        {
+          "level": "1",
+          "name": "Destroy the Visible with the Invisible",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (30% урона от этой монеты) Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (30% урона от этой монеты) Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "2",
+          "name": "Destroy the Visible with the Invisible",
+          "desc": "Если любое из этих условий выполнено, получает +2 к Силе монет\n- Если скорость этого юнита 1 или ниже\n- Если цель имела [DelusionGregBigBird]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (30% урона от этой монеты) Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (30% урона от этой монеты) Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "4",
+          "name": "Destroy the Visible with the Invisible",
+          "desc": "Если любое из этих условий выполнено, получает +2 к Силе монет\n<style=\"highlight\">- Если скорость цели выше скорости этого юнита на 3 или более</style>\n- Если скорость этого юнита 1 или ниже\n- Если цель имела [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Если цель имела 6+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>), Сила монет +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (30% урона от этой монеты) Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (30% урона от этой монеты) Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1121403",
+      "levelList": [
+        {
+          "level": "3",
+          "name": "Salvation for those Enchanted by the Lamp",
+          "desc": "Если любое из этих условий выполнено, получает +2 к Силе монет и +20% урона\n- Если скорость этого юнита 1 или ниже\n- Если цель имела [DelusionGregBigBird]\n[WhenUse] Если цель имела [DelusionGregBigBird], все монеты скилла становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Нерушимыми</noparse></link></u></color> и получает +3 к силе в столкновении",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель(ядро) имела 25% или менее ХП, или если цель имела [DelusionGregBigBird], наносит +60% урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имела [DelusionGregBigBird], наносит урон Унынием равный 60% от урона этой монеты"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "4",
+          "name": "Salvation for those Enchanted by the Lamp",
+          "desc": "Если любое из этих условий выполнено, получает +2 к Силе монет и +40% урона\n<style=\"highlight\">- Если скорость цели выше скорости этого юнита на 3 или более</style>\n- Если скорость этого юнита 1 или ниже\n- Если цель имела [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Если цель имела 6+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>), Сила монет +1</style>\n[WhenUse] Если цель имела [DelusionGregBigBird], все монеты скилла становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Нерушимыми</noparse></link></u></color> и получает +3 к силе в столкновении\n<style=\"highlight\">[EndSkill] Если цель была убита, или же если она имела 3 [DelusionGregBigBird], получает 1 [PlusCoinValueUp] на следующий ход (один раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель(ядро) имела 25% или менее ХП, или если цель имела [DelusionGregBigBird], наносит +60% урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имела [DelusionGregBigBird], наносит урон Унынием равный 80% от урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1121404",
+      "levelList": [
+        {
+          "level": "1",
+          "name": "The Wick of Burned Feathers",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает до 8 [LanternGregBigBird]; За каждый полученный стак, получает урон равный 1% от макс. ХП (Этот урон не может убить)\n[EndBattle] Даёт 1 [Agility] на следующий ход другим союзникам с наименьшей скоростью (один раз за ход; Округл. вниз);\r\nКол-во союзников, которые получат [Agility], равно (<sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поносу</noparse></link></u></color> на себе / 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": "4",
+          "name": "The Wick of Burned Feathers",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает до 8 [LanternGregBigBird]; За каждый полученный стак, получает урон равный 1% от макс. ХП (Этот урон не может убить)\n[EndBattle] Даёт 1 [Agility] на следующий ход другим союзникам с наименьшей скоростью (один раз за ход; Округл. вниз);\r\nКол-во союзников, которые получат [Agility], равно (<sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поносу</noparse></link></u></color> на себе / 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

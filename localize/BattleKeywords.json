@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": "AreaAtk",
@@ -1836,22 +1836,26 @@
     {
       "id": "BlackCloud",
       "name": "Черные тучи",
-      "desc": "Максимальное значение: 1.\nВ течение этого хода монеты навыков айдишкий становятся <b>Вечными монетами</b>; при получении урона носитель эффекта не может быть оглушен вплоть до конца хода; также носитель эффекта наносит на 1 Кетчуп больше с помощью своих навыков.\nИтоговая сила +3 при поражении в поединке.\nВ конце хода эффект прекращает свое действие."
+      "desc": "Максимальное значение: 1.\nВ течение этого хода монеты навыков айдишкий становятся <b>Вечными монетами</b>; при получении урона носитель эффекта не может быть оглушен вплоть до конца хода; также носитель эффекта наносит на 1 Кетчуп больше с помощью своих навыков.\nИтоговая сила +3 при поражении в поединке.\nВ конце хода эффект прекращает свое действие.",
+      "summary": "Converts Attack Skill to Unbreakable Coin and gains a new effect"
     },
     {
       "id": "BlackCloudBlade",
       "name": "Лезвие темных облаков",
-      "desc": "Максимальное значение: 1.\nСила рубящих навыков +1.\nПри использовании рубящих навыков дополнительно наносит 1 Кетчуп."
+      "desc": "Максимальное значение: 1.\nСила рубящих навыков +1.\nПри использовании рубящих навыков дополнительно наносит 1 Кетчуп.",
+      "summary": "Enhance Slash Skills"
     },
     {
       "id": "EngageToBattle",
       "name": "В боеготовности",
-      "desc": "Максимальное значение: 1.\nПри нанесении Кетчупа или повышения его счетчика через навыки или монеты повышает потенциал и/или счетчик Кетчупа на 1.\nНа время этой битвы получает 1 Повышение силы рубящих навыков и 3 Повышения рубящего урона."
+      "desc": "Максимальное значение: 1.\nПри нанесении Кетчупа или повышения его счетчика через навыки или монеты повышает потенциал и/или счетчик Кетчупа на 1.\nНа время этой битвы получает 1 Повышение силы рубящих навыков и 3 Повышения рубящего урона.",
+      "summary": "Enhance Slash Skills and inflict more Bleed"
     },
     {
       "id": "CloudWall",
       "name": "Кучевые преграды",
-      "desc": "Максимальное значение: 1.\nИтоговая сила защитных навыков +1.\nПрекращает свое действие по окончании хода или после использования навыка 「Правила Подворотен」."
+      "desc": "Максимальное значение: 1.\nИтоговая сила защитных навыков +1.\nПрекращает свое действие по окончании хода или после использования навыка 「Правила Подворотен」.",
+      "summary": "Enhance Defense Skill"
     },
     {
       "id": "ScarletResultUp",
@@ -2566,6 +2570,62 @@
       "id": "HeatingWireIshmael",
       "name": "Паяльники",
       "desc": "- Макс. стак: 2\n- Если цель при получении урона имела Изжогу, хиллит 3 IQ (2 раза за ход)\n- Наносит Изжогу, когда наносит Кетчуп своими базовыми скиллами\n- Конец хода: Теряет 1 стак",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LanternGregBigBird",
+      "name": "Lamp",
+      "desc": "- Max Stack: 8\n- Turn End: Gain 1 Bind next turn for every 2 Stack (max 4)\n- Turn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n• Gain +10 Aggro to the leftmost Slot\n• Inflict 3 Dazzle to the enemy(Core) with the most current HP",
+      "summary": "Gain Bind next turn",
+      "undefined": "-"
+    },
+    {
+      "id": "ObedienceGregBigBird",
+      "name": "Guardians of the Forest",
+      "desc": "Before Attack, activate the following effects:\n- Plus Coin Skills heal 4 SP (if already at max SP, gain 2 Offense Level Up next turn)\n- Minus Coin Skills lose 8 SP (this effect cannot reduce the unit's SP below -40)\n- Lose this effect",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird",
+      "name": "Dazzle",
+      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nUnits with SP: Change their Panic Type to \"Dazzle\"\nUnits without SP: Defense Level -2",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_Main",
+      "name": "Dazzle",
+      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
+      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_Sub",
+      "name": "Dazzle",
+      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack",
+      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_LowMorale",
+      "name": "Dazzle",
+      "desc": "- Low Morale\n- Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
+      "summary": "Turn End: Gain 1 Bind and 2 Offense Level Down next turn",
+      "undefined": "-"
+    },
+    {
+      "id": "DelusionGregBigBird_Panic",
+      "name": "Dazzle",
+      "desc": "- Panic\n- Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "summary": "Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "undefined": "-"
+    },
+    {
+      "id": "LittleFingerID",
+      "name": "Moonlit Azure Blade",
+      "desc": "- Max Stack: 20\n- Turn Start: Gain 2 Shield for every Stack\n- Deal +1% damage on Critical Hit for every Stack",
       "summary": "",
       "undefined": "-"
     }
