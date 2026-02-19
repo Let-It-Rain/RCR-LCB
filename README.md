@@ -1,13 +1,13 @@
 <div align="center">
 
-<a href="https://github.com/enqenqenqenqenq/RCR">
-  <img src="https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/logo.png"
+<a href="https://github.com/Let-It-Rain/RCR-LCB/">
+  <img src="https://github.com/Let-It-Rain/RCR-LCB/blob/main/data/images/logo.png"
        width="200"
        height="200"/>
 </a>
 <br>
-<a href="https://github.com/enqenqenqenqenq/RCR">
-  <img src="https://github.com/enqenqenqenqenq/RCR/blob/main/data/images/title.png"
+<a href="https://github.com/Let-It-Rain/RCR-LCB/">
+  <img src="https://github.com/Let-It-Rain/RCR-LCB/blob/main/data/images/title.png"
        width="512"
        height="48"/>
 </a>
@@ -15,9 +15,9 @@
 <br>
 
 <p>
-  <a href="https://github.com/enqenqenqenqenq/RCR/"><img src="https://img.shields.io/github/stars/enqenqenqenqenq/RCR?label=%D0%97%D0%B2%D1%91%D0%B7%D0%B4&labelColor=212121&color=ffcf24&style=for-the-badge" alt="Stars"></a>
-  <a href="https://github.com/enqenqenqenqenq/RCR/releases"><img src="https://img.shields.io/github/downloads/enqenqenqenqenq/RCR/total?label=%D0%A1%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&labelColor=212121&color=2b8237&style=for-the-badge" alt="Downloads"></a>
-  <a href="https://github.com/enqenqenqenqenq/RCR/releases/latest"><img src="https://img.shields.io/github/v/release/enqenqenqenqenq/RCR?label=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&labelColor=212121&color=7024ff&style=for-the-badge" alt="Latest Release"></a>
+  <a href="https://github.com/Let-It-Rain/RCR-LCB/"><img src="https://img.shields.io/github/stars/Let-It-Rain/RCR-LCB?label=%D0%97%D0%B2%D1%91%D0%B7%D0%B4&labelColor=212121&color=ffcf24&style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/Let-It-Rain/RCR-LCB/releases"><img src="https://img.shields.io/github/downloads/Let-It-Rain/RCR-LCB/total?label=%D0%A1%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&labelColor=212121&color=2b8237&style=for-the-badge" alt="Downloads"></a>
+  <a href="https://github.com/Let-It-Rain/RCR-LCB/releases/latest"><img src="https://img.shields.io/github/v/release/Let-It-Rain/RCR-LCB?label=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&labelColor=212121&color=7024ff&style=for-the-badge" alt="Latest Release"></a>
   <br><br>
   <a href="https://discord.gg/ZybvEXmpCq">
   <img
