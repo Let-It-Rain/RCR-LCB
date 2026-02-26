@@ -73,7 +73,7 @@
     {
       "id": "9207",
       "name": "Chance & Choice",
-      "desc": "Random chance for the leftmost Slot's E.G.O Skill to deal -50% damage or +150% damage (once per turn)",
+      "desc": "Рандомный шанс на то, что самый левый на панели скиллов ЭГО скилл нанесёт 0.5х или 1.5х урона (один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": "9207",
@@ -84,7 +84,7 @@
     {
       "id": "9208",
       "name": "Entangled Fate",
-      "desc": "Combat Start: At 7+ A-Reson., all allies gain Final Power +5 for this turn (once per Encounter)",
+      "desc": "Начало хода: При 7+ Абсолютного Резонанса, все союзники получают +5 к финальной силе до конца хода (один раз за бой)",
       "simpleDesc": [
         {
           "abilityID": "9208",
@@ -95,7 +95,7 @@
     {
       "id": "9211",
       "name": "Raincloud",
-      "desc": "Turn Start: At 30+ total sum of [Sinking] Potency and [Sinking] Count on all enemies, apply the following effects:\n\n- Skills that inflict [Sinking] Potency or Count: Final Power +1 (including 'Unique Sinking'; excluding E.G.O Skills)\n\n- When 6 or more Identities have Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking', Skills that inflict [Sinking] Potency or Count also deal +20% damage (including 'Unique Sinking' and Backup Units; excluding E.G.O Skills)\n · If the target is at -45 SP, deal additional +10% damage\n\n- When 10 or more Identities have Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking', Plus Coin Skills that inflict [Sinking] Potency or Count also gain Coin Power +1 (including 'Unique Sinking' and Backup Units; excluding E.G.O Skills)\n · Minus Coin Skills: Instead of gaining Coin Power, gain Base Power +(4 / # of Coins) (min 1; rounded down)",
+      "desc": "Начало хода: Если общая сумма потенциала и счётчика [Sinking:*Депрессии*] на всех врагах равна +30, получаешь следующие эффекты:\n\n- Скиллы которые наносят потенциал или счётчик [Sinking:*Депрессии*]: Финальная сила +1 (Учитывает 'уникальную депрессию';не учитывает ЭГО скиллы)\n\n- Когда 6 или более айдишек на поля боя умеют наносить [Sinking:*Депрессию*] своими базовыми скиллами, то скиллы, наносящие потенциал или счётчик [Sinking:*Депрессии*] наносят на 20% больше урона (включая 'Уникальную депрессию' и айдишек в запасе; исключение - ЭГО скиллы)\n · Если цель имеет -45 IQ, +10% урона\n\n- Когда 10 или более айдишек на поля боя умеют наносить [Sinking:*Депрессию*] своими базовыми скиллами, скиллы с положительными монетами, наносящие потенциал или счётчик [Sinking:*Депрессии*] также получают +1 к Силе Монет (считается 'Уникальная депрессия' и айдишки в запасе; исключение - ЭГО скиллы)\n · Скиллы с отрицательными монетами: Вместо получения силы монет, получают Базовую силу +(4 / число монет) (мин. 1; округл. вниз)",
       "simpleDesc": [
         {
           "abilityID": "9211",
@@ -113,8 +113,8 @@
     },
     {
       "id": "9212",
-      "name": "The End of all Evil",
-      "desc": "Activates when there are 3 or more The Pequod-faction Identities (counting Backup units)\n\nOn Hit with an Attack Skill against enemies with [Laceration]: 50% chance to gain 3 [Breath] or +2 [Breath] Count (3 times per turn for each character)\n\nOn Crit: 80% chance to not consume [Breath] Count (once per turn for each character; including E.G.O Skills and Counter Skills)\nOn Crit Heads Hit with a Base Skill: Inflict +1 more of the negative effect with that Coin (once per turn for each character; including Counter Skills and excluding E.G.O Skills)\n\nIf #1 Deployed Identity kills an enemy, The Pequod-faction Identities gain 1 [PenetrateResultUp], 1 [Protection], and 1 [CriticalDamageUp] each turn for the rest of this Encounter (max 3 times per Encounter)\n\nIf one of The Pequod-faction Identities attacks and hits an enemy, heal 7 SP for The Pequod-faction Identity with the earliest Deployment order (once per Skill)\nWhen an ally kills an enemy, heal 15 SP for The Pequod-faction Identity with the earliest Deployment order if said Identity lost SP",
+      "name": "Это я его так членом проткнул",
+      "desc": "Активируется, когда на поле боя есть 3+ айдишки фракции Пекод (ВДВ) (учитываются юниты в запасе)\n\nПри ударе атакующим скиллом, наносящим [Laceration:*Кетчуп*]: 50% шанса получить 3 [Breath:*Кумара*] или +2 счётчика [Breath:*Кумара*] (3 раза за ход для каждого персонажа)\n\nПри Раскумаре: шанс 80% не потратить счётчик [Breath:*Кумара*] (один раз за ход для каждой айдишки; включая ЭГО и каунтер скиллы)\nПри Раскумаре с выпавшим орлом: Наносит +1 доп. негативный эффект этой монетой(один раз за ход для каждой айдишки; включая каунтеры, исключая ЭГО скиллы)\n\n[Эффект активируется для #1 выбранной айдишки] Если цель была убита, айдишки фракции Пекод(ВДВ) получают 1 [PenetrateResultUp], 1 [Protection], и 1 [CriticalDamageUp] каждый ход до конца битвы (макс. 3 раза за битву)\n\nЕсли Пекод-айдишка наносит урон, хиллит 7 IQ для Пекод-айдишки с самым ранным порядком расстановки(один раз за скилл)\nКогда союзник убивает врага, хиллит 15 IQ для Пекод-айдишки с самым ранным порядком расстановки если эта айдишка потеряла IQ",
       "simpleDesc": [
         {
           "abilityID": "9212",
@@ -137,7 +137,7 @@
     {
       "id": "9213",
       "name": "Miniature Ferris Wheel",
-      "desc": "All Bloodfiend allies: Base Skill Coin Power +1, deal +([BloodDinner_Accumulation] / 10)% Skill damage\n\nTurn End: Among allies with [Laceration], 2 allies with the least HP heal 5% HP and gain 10 [SwirlingBloodPersonality] at next Turn Start\n\nOn enemy Kill, increase [BloodDinner] by (enemy Core max HP / 10) (max 50)\n\nTurn End: If an ally died this turn, all allies gain 2 [Enhancement] next turn\n\nIn Encounters where backup enemies appear: When new enemies appear, inflict 5 [Laceration] and +3 [Laceration] Count against them at Combat Start.\nIf there is a <Bloodfiend> among allies: When new enemies enter the battle, activate [Laceration] on all enemies twice and reduce their [Laceration] Count by 2",
+      "desc": "Все союзники-кровожады: Базовая Сила монет +1 для скиллов, наносят +([BloodDinner_Accumulation] / 10)% урона скилла\n\nКонец хода: Среди всех союзников с [Laceration:*Кетчупом*], 2 союзника с наименьшим ХП хиллят 5% ХП и получают 10 [SwirlingBloodPersonality] в начале следующего хода\n\nПри убийстве врага, увеличивает [BloodDinner] на (макс. ХП ядра цели / 10) (макс. 50)\n\nКонец хода: Если в этом ходе умер союзник, все союзники получают 2 [Enhancement] на следующий ход\n\nВ боях, где враги выходят из запаса: Когда на поле выходят новые враги, наносит 5 [Laceration:*Кетчупа*] и +3 счётчика [Laceration:*Кетчупа*] на врагов в начале хода.\nЕсли у вас нет <Кровожидов> среди айдишек: Когда новые враги выходят на поле боя, дважды активирует [Laceration:*Кетчуп*] на всех врагах и снижает его счётчик на 2",
       "simpleDesc": [
         {
           "abilityID": "9213",
@@ -160,7 +160,7 @@
     {
       "id": "9214",
       "name": "Searing Hammer",
-      "desc": "If the enemy has [VibrationIgnition], apply the following effects:\n- On Base Skill Hit, inflict 1 [Combustion] (3 times per Skill)\n- On Base Skill Hit, if the enemy has 15+ [VibrationIgnition], inflict +1 [Combustion] Count (2 times per Skill)\n- For every 3 [Combustion], +1% to Stagger Threshold raised by [VibrationExplosion] (max 15%)",
+      "desc": "Если враг имел [VibrationIgnition], активируются следующие эффекты:\n- При ударе базовым скиллом, наносит 1 [Combustion:*Изжогу*] (3 раза за скилл)\n- При ударе базовиыми скиллами, если цель имела 15+ [VibrationIgnition], наносит +1 счётчик [Combustion:*Изжоги*] (2 раза за скилл)\n- За каждые 3 [Combustion:*Изжоги*], +1% к повышаемому порогу стаггера, происходящим при [VibrationExplosion:*Тряске сучки*] (макс. 15%)",
       "simpleDesc": [
         {
           "abilityID": "9214",
@@ -175,7 +175,7 @@
     {
       "id": "9215",
       "name": "Red Necktie",
-      "desc": "Skill 3 that inflicts [Combustion] Potency, Count, or 'Unique Burn': Clash Power +2 and deal +30% damage",
+      "desc": "3-й скилл, который наносит потенциал, счётчик, или уникальную [Combustion:*Изжогу*]: Сила в столкновении +2 и +30% урона",
       "simpleDesc": [
         {
           "abilityID": "9215",
@@ -186,7 +186,7 @@
     {
       "id": "9216",
       "name": "Uniform - Liu Assoc.",
-      "desc": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply [Combustion] Potency, Count, or 'Unique Burn'. (except E.G.O Skills; except Backup Units)\n\nLiu Association Identities: Base Attack Skills gain Plus Coin Power +2 (Minus Coin Skills gain Base Power +(8 / # of Coins) (min 1; rounded down))\n\nNon-Skill 3 Skills (including E.G.O Skills) that inflict [Combustion] Potency, Count or 'Unique Burn' deal +20% damage\n\nSkill 3 that inflicts [Combustion] Potency, Count, or 'Unique Burn' gain Plus Coin Power +1 (Minus Coin Skills gain Base Power +(4 / # of Coins) (min 1; rounded down)) and deal +30% damage \n- Identities in a faction deal +5% damage for every same-faction Identity in the Team (max 20%; including Backup Units)\n\nTurn End: 2 allies with the least SP heal 8 SP\n- If affected allies are at 0 SP or lower, heal 5 additional SP",
+      "desc": "Начало хода: Этот гифт активируется, если 5 или более айдишек умеют наносить [Combustion:*Изжогу*]. (Исключая ЭГО скиллы и юнитов из запаса)\n\nАйдишки Южной Секции Любителей KFC: Сила монет базовых скиллов +2 (Скиллы с отриц. монетами получают +(8 / число монет) (мин. 1; округл. вниз))\n\nНЕ 3-е скиллы (включая ЭГО скиллы) которые наносят любую [Combustion:*Изжогу*], наносят +20% урона\n\n3-й скилл, наносящий любую [Combustion:*Изжогу*], получает +1 к Силе Монет (Скиллы с отриц. монетами получают базовую силу, равную +(4 / число монет) (мин. 1; округл. вниз)) и наносит +30% урона\n- Айдишки наносят на +5% урона за каждую айдишку из той же фракции (макс. 20%; включая юнитов из запаса)\n\nКонец хода: 2 союзника с наименьшим IQ хиллят 8 IQ\n- Если эти айдишки имеют 0 или менее IQ, вместо этого хиллит 13 IQ",
       "simpleDesc": [
         {
           "abilityID": "9216",
@@ -196,8 +196,8 @@
     },
     {
       "id": "9217",
-      "name": "Someone's Device",
-      "desc": "Attack End: If [IndexPrescriptTargetToEnemy] is killed, the Identity who attacked and killed [IndexPrescriptTargetToEnemy] gains 1 [AzureResultUp] next turn; inflict +3 [Sinking] Count to 1 random surviving enemy (once per turn)\n- If the unit that killed [IndexPrescriptTargetToEnemy] is in The Index faction, gain 1 [Enhancement] instead of [AzureResultUp] next turn (once per turn)\n\nTurn End: The Index faction units take ([KarmaOfIndexAlly] Stack on self)% HP damage.\n(Does not get Staggered due to this effect; this damage does not reduce the allies' HP below 20% HP)\nThen, Identities who took damage due to the above effect gain ([KarmaOfIndexAlly] Stack on self / 5) [ResultEnhancement] next turn (max 2)",
+      "name": "Телефон с тротилом",
+      "desc": "Конец хода: Если [IndexPrescriptTargetToEnemy] убита, то айдишка, которая убила [IndexPrescriptTargetToEnemy], получает 1 [AzureResultUp] на следующий ход; наносит +3 счётчика [Sinking:*Депрессии*] случайному выжившему врагу (один раз за ход)\n- Если юнит, который убил [IndexPrescriptTargetToEnemy] из фракции Индекса, получает 1 [Enhancement] вместо [AzureResultUp] на следующий ход (один раз за ход)\n\nКонец хода: юниты из фракции Индексов получают (стак [KarmaOfIndexAlly:*Кармических последствий*] на себе)% урона по ХП.\n(От этого эффекта нельзя получить стаггер; Этот эффект не может понизить ХП ниже 20%)\nЗатем, айдишки, получившие урон от эффекта выше, получают (Стак [KarmaOfIndexAlly:*Милостей предписания*] на себе / 5) [ResultEnhancement] на следующий ход (макс. 2)",
       "simpleDesc": [
         {
           "abilityID": "9217",
@@ -211,8 +211,8 @@
     },
     {
       "id": "9218",
-      "name": "Providence of the Prescript",
-      "desc": "Identities that inflicted [Sinking], [Sinking] Count, or 'Unique Sinking', gain 3 [Breath] or +2 [Breath] Count at Turn Start (once per turn per Identity)\n\nDuring the Encounter, if an Identity has gained [Breath] 3 times due to the above effect, starting from the next turn, the said Sinner deals +30% damage on Critical Hit",
+      "name": "Бро\nСъешь свою мать и т.д.",
+      "desc": "Айдишкий, которые нанесли любую [Sinking:*Депрессию*], получают 3 [Breath:*Кумара*] или +2 счётчика [Breath:*Кумара*] в начале хода (один раз за ход на айдишку)\n\nВо время битвы, если айдишка получила [Breath:*Кумар*] более 3-х раз из-за вышеописанного эффекта, начиная со следующего хода, этот юнит наносит +30% урона при Раскумаре",
       "simpleDesc": [
         {
           "abilityID": "9218",
@@ -227,7 +227,7 @@
     {
       "id": "9219",
       "name": "Omni-tool",
-      "desc": "When Skills of the same Attack Type hit an enemy 12 times, the enemy gains +0.1 Resistance against that Attack Type (3 times per Encounter per enemy/Abnormality Parts; this effect cannot raise Resistance value over 2.0)",
+      "desc": "Когда скиллы одинакового типа урона атакуют врага 12 раз, враг получает +0.1 к снижению сопротивления против этого типа атаки (Максимум на одном враге/часте тела может быть +0.3 к снижению; этот эффект не может понизить сопротивление дальше 2.0)",
       "simpleDesc": [
         {
           "abilityID": "9219",
@@ -238,7 +238,7 @@
     {
       "id": "19219",
       "name": "Omni-tool+",
-      "desc": "When Skills of the same Attack Type hit an enemy 9 times, the enemy gains +0.1 Resistance against that Attack Type (3 times per Encounter per enemy/Abnormality Parts; this effect cannot raise Resistance value over 2.0)",
+      "desc": "Когда скиллы одинакового типа урона атакуют врага 9 раз, враг получает +0.1 к снижению сопротивления против этого типа атаки (Максимум на одном враге/часте тела может быть +0.3 к снижению; этот эффект не может понизить сопротивление дальше 2.0)",
       "simpleDesc": [
         {
           "abilityID": "19219",
@@ -249,7 +249,7 @@
     {
       "id": "29219",
       "name": "Omni-tool++",
-      "desc": "When Skills of the same Attack Type hit an enemy 6 times, the enemy gains +0.1 Resistance against that Attack Type (3 times per Encounter per enemy/Abnormality Parts; this effect cannot raise Resistance value over 2.0)",
+      "desc": "Когда скиллы одинакового типа урона атакуют врага 6 раз, враг получает +0.1 к снижению сопротивления против этого типа атаки (Максимум на одном враге/часте тела может быть +0.3 к снижению; этот эффект не может понизить сопротивление дальше 2.0)",
       "simpleDesc": [
         {
           "abilityID": "29219",
@@ -260,7 +260,7 @@
     {
       "id": "9222",
       "name": "Pure-white Canvas",
-      "desc": "On Hit with Plus Coin Attack Skills against an enemy with 15+ [Laceration], heal 3 SP (once per turn for each Identity)\n- If said Identity or target has 3+ types of negative effects, heal 6 SP instead",
+      "desc": "При нанесении урона положительными монетами против врагов с 15+ [Laceration:*Кетчупа*], хиллит 3 IQ (один раз за ход для каждой айдишки)\n- Если вышесказанная айдишка или враг имели 3+ негативных эффекта, вместо этого хиллит 8 IQ",
       "simpleDesc": [
         {
           "abilityID": "9222",
@@ -271,7 +271,7 @@
     {
       "id": "9223",
       "name": "Average Artwork",
-      "desc": "The Ring-faction Identities gain [Inspire]\n\nIf The Ring-faction Identity with [Inspire] hits an enemy with Lust or Slash Skills, inflict [ObjectOfExploration] on said enemy next turn\n- If the enemy already has [ObjectOfExploration], replace [ObjectOfExploration] with [PaintingMaterial]\n\nIf The Ring-faction Identity with [Inspire] kills an enemy that has [PaintingMaterial], said Identity gains 1 [PlusCoinValueUp] next turn (once per turn)",
+      "desc": "Все айдишки фракции художников получают [Inspire]\n\nЕсли айдишка фракции художников с [Inspire] ударяет врага скиллом с грехом похоти или скиллом с рассекающим типом урона, наносит [ObjectOfExploration] на врага на следующий ход\n- Если враг уже имел [ObjectOfExploration], заменяет [ObjectOfExploration] на [PaintingMaterial]\n\nЕсли айдишка фракции художников с [Inspire] убивает врага, который имел [PaintingMaterial], эта айдишка получает 1 [PlusCoinValueUp] на следующий ход (один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": "9223",
@@ -286,7 +286,7 @@
     {
       "id": "9224",
       "name": "Exquisite Artwork",
-      "desc": "The Ring-faction Identities gain [Inspire]\n\nIf The Ring-faction Identity with [Inspire] hits an enemy, inflict [ObjectOfExploration] on said enemy\n- If the enemy already has [ObjectOfExploration], replace [ObjectOfExploration] with [PaintingMaterial]\n\nIf The Ring-faction Identity with [Inspire] kills an enemy that has [PaintingMaterial], said Identity loses [Inspire] and gains [GreatAesthetics]",
+      "desc": "Все айдишки фракции художников получают [Inspire]\n\nЕсли айдишка фракции художников с [Inspire] ударяет врага скиллом, наносит [ObjectOfExploration] на врага\n- Если враг уже имел [ObjectOfExploration], заменяет [ObjectOfExploration] на [PaintingMaterial]\n\nЕсли айдишка фракции художников с [Inspire] убивает врага, который имел [PaintingMaterial], эта айдишка теряет [Inspire] и получает [GreatAesthetics]",
       "simpleDesc": [
         {
           "abilityID": "9224",
@@ -305,7 +305,7 @@
     {
       "id": "9225",
       "name": "The Spider's Thread",
-      "desc": "Allies who use Defense Skill deal +10% damage with Skill 3 next turn (once per turn)",
+      "desc": "Союзники, использующин защитный скилл, наносят +10% урона 3-м скиллом на следующий ход (один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": "9225",
@@ -316,7 +316,7 @@
     {
       "id": "19225",
       "name": "The Spider's Thread+",
-      "desc": "Allies who use Defense Skill deal +15% damage with Skill 3 next turn (once per turn)",
+      "desc": "Союзники, использующин защитный скилл, наносят +15% урона 3-м скиллом на следующий ход (один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": "19225",
@@ -327,7 +327,7 @@
     {
       "id": "29225",
       "name": "The Spider's Thread++",
-      "desc": "Allies who use Defense Skill deal +20% damage with Skill 3 next turn (once per turn)",
+      "desc": "Союзники, использующин защитный скилл, наносят +20% урона 3-м скиллом на следующий ход (один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": "29225",
@@ -338,7 +338,7 @@
     {
       "id": "9226",
       "name": "Someone's Azure Blade",
-      "desc": "Combat Start: Allies with Shield gain 1 [CriticalDamageUp]\nOn Crit with ally Skill, said ally gains Shield equal to ([Breath] / 5) for the next turn (max 15)",
+      "desc": "Начало хода: Союзники с щитом получают 1 [CriticalDamageUp]\nПри раскумаре скиллом союзника, этот союзник получает щит, равный ([Breath:*Кумару*] / 5) на следующий ход (макс. 15)",
       "simpleDesc": [
         {
           "abilityID": "9226",
@@ -353,7 +353,7 @@
     {
       "id": "9227",
       "name": "Baleful Hwando",
-      "desc": "This E.G.O Gift changes after 6 Encounter wins\n{0}\n\nFor all allies: Take +20% damage, Clash Power -1",
+      "desc": "Этот ЭГО гифт меняется после 6 побед в боях\n{0}\n\nВсе союзники получают +20% урона, Сила в столкновении -1",
       "simpleDesc": [
         {
           "abilityID": "9227",
@@ -364,7 +364,7 @@
     {
       "id": "9228",
       "name": "One with the Blade",
-      "desc": "All allies deal +25% damage",
+      "desc": "Все союзники наносят +25% урона",
       "simpleDesc": [
         {
           "abilityID": "9228",
@@ -375,7 +375,7 @@
     {
       "id": "9229",
       "name": "Tarnished Gauntlet",
-      "desc": "This E.G.O Gift changes after 6 Encounter wins\n{0}\n\nMin & Max Speed -5 for all allies (this effect cannot reduce Speed below 1)",
+      "desc": "Этот ЭГО гифт меняется после 6 побед в боях\n{0}\n\nМин & макс. скорость -5 для всех союзников (Эффект не понижает скорость ниже 1)",
       "simpleDesc": [
         {
           "abilityID": "9229",
@@ -386,7 +386,7 @@
     {
       "id": "9230",
       "name": "Golden Hour",
-      "desc": "Min & Max Speed +3 for all allies\nFinal Power +2 when using Skills against slower targets with 4+ Speed difference\nOn Hit against an enemy, inflict 1 Bind next turn (4 times per turn)",
+      "desc": "Мин & Макс скорость +3 для всех союзников\nФинальная сила +2 когда используется скилл против более медленного врага с разницой в скороси в 4 или более \nПри ударе врага, наносит 1 Понос на следующий ход (4 раза за ход)",
       "simpleDesc": [
         {
           "abilityID": "9230",
@@ -397,7 +397,7 @@
     {
       "id": "9231",
       "name": "Record Logs of That Day",
-      "desc": "This E.G.O Gift changes after 6 Encounter wins\n{0}\n\nTurn Start: A random ally who is not Staggered enters a forced Stagger state",
+      "desc": "Этот ЭГО гифт меняется после 6 побед в боях\n{0}\n\nНачало хода: Случайно юнит, который не был в стаггере - уходит в стаггер",
       "simpleDesc": [
         {
           "abilityID": "9231",
@@ -408,7 +408,7 @@
     {
       "id": "9232",
       "name": "Potentialities",
-      "desc": "When Staggered due to damage, recover from Stagger; then gain Shield equal to 50% of Max HP and remove 1 random removable negative effect on self (excluding forced Staggers, 2 times per Encounter)\n\nGain 20 Poise at the start of the next turn after activating the above effect (once per turn)",
+      "desc": "Когда айдишка была застагеренна из-за полученного урона - восстанавливается от стаггера; Потом получает щит, равный 50% от макс. ХП и удаляет с себя 1 удаляемый негативный эффект(исключегие - скриптованные стаггеры, 2 раза за битву)\n\nПолучает 20 Кумара на следующий ход после активации этого гифта(один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": "9232",
