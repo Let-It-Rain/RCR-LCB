@@ -2,56 +2,76 @@
   "dataList": [
     {
       "id": "DesperadoBuff",
-      "name": "Desperado",
-      "desc": "- Max Stack: 2\n- For every Stack, Base Attack Skill Clash Power +1, Base Power +1\n- At 2 Stack, Base Attack Skill Plus Coin Power +1, Minus Coin Power -1\n- Expires at Turn End",
+      "name": "Десперадо",
+      "desc": "- Максимум стаков: 2\n- За каждый стак Сила столкновения базовыми скиллами +1, Базовая сила +1\n- При 2 стаках, Базовые скиллы получают +1 к силе положительных монет, -1 к силе отрицательных монет\n- Пропадает в конце хода",
       "summary": ""
     },
     {
       "id": "TensionUp",
-      "name": "Hyped-up",
-      "desc": "- Max Stack: 3\n- For every Stack, deal +5% damage with Wrath and Lust Skills\n- When hit, raise this unit's Stagger Threshold by (5 x Stack)\n- Expires at Turn End",
+      "name": "Взвинченность",
+      "desc": "- Максимум стаков: 3\n- За каждый стак наносит +5% урона навыками гнева и похоти\n- При попадании повышает порог оглушения этого юнита на (5 x стаков)\n- Сбрасывается в конце хода",
       "summary": ""
     },
     {
       "id": "PinkPetals",
-      "name": "Pink Petals",
-      "desc": "- Max Stack: 30\n- For every Stack, take +1% damage when hit by Gloom Skills (max 15%)\n- For every 10 Stack, gain +1 Sinking Count when hit (2 times per turn)\n- When Tremor Burst is triggered on this unit, take ((Sinking Potency + Pink Petals) / 5) Gloom damage\n- Turn End: Lose 1 Stack",
+      "name": "Розовые лепестки",
+      "desc": "- Максимум стаков: 30\n- За каждый стак получает +1% урона от скиллов Уныния (макс. 15%)\n- За каждые 10 стаков получает +1 счётчка Депрессии при попадании (2 раза за ход)\n- При провокации потрясения сучки на этом юните, получает ((Потенциал Депрессии + Розовые лепестки) / 5) урона Унынием\n- Конец хода: теряет 1 стак",
       "summary": ""
     },
     {
       "id": "QueenBeepheromone",
-      "name": "Pheromone",
-      "desc": "- Gain +10 Aggro\n- When hit, inflict 3 Burn on target",
+      "name": "Феромончики",
+      "desc": "- Получает +10 Провокации\n- При попадании накладывает 3 Изжоги на цель",
       "summary": ""
     },
     {
       "id": "QueenBeeMark",
-      "name": "Pheromone Mark",
-      "desc": "- For every 3 Burn on self, take +1% damage when hit (max 20%)\n- Expires at Turn End",
+      "name": "Метка феромончиков",
+      "desc": "- За каждые 3 Изжоги на себе, получает +1% урона (макс. 20%)\n- Пропадает в конце хода",
       "summary": ""
     },
     {
       "id": "RunHallway",
+<<<<<<< HEAD
       "name": "Подготовка к спавну дрочил",
       "desc": "- Max Stack: 3\n- Combat Start: Lose 1 Stack\n- At 0 Stack, use 'Спавн дрочил' at Turn Start",
+=======
+      "name": "Подготовка миграции стада",
+      "desc": "- Максимум стаков: 3\n- Начало боя: теряет 1 стак\n- При 0 стаках использует 'Миграцию стада' в начале хода",
+>>>>>>> 4b99b096 (Не конец)
       "summary": ""
     },
     {
       "id": "NextHallway",
+<<<<<<< HEAD
       "name": "Путешествие дрочил",
       "desc": "- Turn End: recover from Stagger and escape from the Encounter\n(Unless it's a forced Stagger; does not count as death)\n- In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order",
+=======
+      "name": "Перемещение стада",
+      "desc": "- Конец хода: восстанавливается после оглушения и сбегает из столкновения\n(Если только это не принудительное оглушение; не считается смертью)\n- В цепочке боёв отдаёт слоты этого юнита замещающему юниту и перемещается на самое последнее место в порядке расстановки резервных юнитов",
+>>>>>>> 4b99b096 (Не конец)
       "summary": ""
     },
     {
       "id": "PumpkinJelly",
+<<<<<<< HEAD
       "name": "Оранжевый БонБон",
       "desc": "- Max Stack: 1\nTurn Start: At less than 60% HP, heal 30% HP and lose this effect",
+=======
+      "name": "Ораньжевая БонгБонг",
+      "desc": "- Максимум стаков: 1\nНачало хода: при ХП ниже 60% восстанавливает 30% ХП и теряет этот эффект",
+>>>>>>> 4b99b096 (Не конец)
       "summary": ""
     },
     {
       "id": "BestWelfareTeamCaptain",
+<<<<<<< HEAD
       "name": "Еблан с повязкой",
       "desc": "  - Skill Slot +1\n  - Modify Skill pool: Gain 1 copy of Skill 3, but lose 1 copy of Skill 1\n- Increase the amount of Burn, Bleed, Rupture, Sinking, or Tremor Potency inflicted with Skills by +2 (including 'Unique Status Effects')\n- Base Skills that gain or spend Ammo deal +30% damage\n- On Use with Base Skills that gain or spend Ammo, heal 10 SP for 1 ally with the lowest SP (including this unit)\n- On Kill, activate the following:\n· E.G.O Resource +2 to the Affinity that killed the enemy; E.G.O Resource +1 to all Affinities\n· Next turn, inflict the remaining Burn, Bleed, Rupture, Sinking, and Tremor Potency and Count on the said enemy randomly between all enemies (min 1)",
+=======
+      "name": "Капитан команды благосостояния",
+      "desc": "  - Слот навыков +1\n  - Изменяет пул навыков: получает 1 копию навыка 3, но теряет 1 копию навыка 1\n- Увеличивает количество накладываемой силы Изжоги, Кетчупа, Зелёнки, Депрессии или Тряски с помощью навыков на +2 (включая 'уникальные статусные эффекты')\n- Базовые навыки, которые получают или тратят тампоны, наносят +30% урона\n- При использовании базовых навыков, которые получают или тратят тампоны, восстанавливает 10 IQ 1 союзнику с наименьшим IQ (включая этого юнита)\n- При убийстве активирует следующее:\n· +2 К эгоресурсу, которым был убит враг; +1 Ко всем эгоресурсам\n· На следующий ход накладывает оставшуюся силу и счётчики Изжоги, Кетчупа, Зелёнки, Депрессии и Тряски с этого врага рандомно между всеми врагами (мин. 1)",
+>>>>>>> 4b99b096 (Не конец)
       "summary": ""
     }
   ]
