@@ -61,7 +61,7 @@
 - [x] Глава 6
 - [x] Глава 7
 - [x] Глава 8
-- [x] Глава 9 (Наш личный перевод, можно скачать отдельно [вот здесь](https://github.com/EnderDremurr/rcr-canto9-ru/releases/tag/1.0))
+- [x] Глава 9 (Наш личный перевод, можно скачать отдельно [вот здесь](http://github.com/EnderDremurr/rcr-canto9-ru/releases/latest))
 
 ## Интерваллы
 
