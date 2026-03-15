@@ -89,7 +89,7 @@
     {
       "id": 132005,
       "name": "Пополнение ресурсов",
-      "desc": "Когда Часть <b>「Крылья」</b> повреждается: все Грешники восстанавливают 15 СД, а ко всем грехам добавляется по 2 ЭГО Ресурса.",
+      "desc": "Когда Часть <b>「Крылья」</b> повреждается: все Грешники восстанавливают 15 СД, а ко всем грехам добавляется по 2 Э.Г.О Ресурса.",
       "summary": "",
       "undefined": "-"
     },
@@ -110,7 +110,7 @@
     {
       "id": 132502,
       "name": "Воля предписания",
-      "desc": "Конец хода:\n\n- <color=#ff6000><mark=#ff000040><b><u>Если текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color><u> было успешно выполнено</u></b></mark></color>, восстанавливает 15 СД и получает (Стадия <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color> + 1) <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>;\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color></b></mark></color>, получает 1 <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> и 5 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>.\n   · Если не имеется <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color>, получает 1 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милость предписания</link></u></color> вместе с этим;\n   · Не получает <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармические последствия</link></u></color> при 9 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>;\n   · Если в состоянии Расцветшего ЭГО::Посредничество, получает вдвое больше <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>.",
+      "desc": "Конец хода:\n\n- <color=#ff6000><mark=#ff000040><b><u>Если текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color><u> было успешно выполнено</u></b></mark></color>, восстанавливает 15 СД и получает (Стадия <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color> + 1) <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>;\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color></b></mark></color>, получает 1 <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> и 5 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>.\n   · Если не имеется <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировки</link></u></color>, получает 1 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милость предписания</link></u></color> вместе с этим;\n   · Не получает <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармические последствия</link></u></color> при 9 <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>;\n   · Если в состоянии Расцветшего Э.Г.О::Посредничество, получает вдвое больше <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexStudent\">Кармических последствий</link></u></color>.",
       "summary": "",
       "undefined": "-"
     },
@@ -124,8 +124,8 @@
     },
     {
       "id": 132504,
-      "name": "Расцветшее ЭГО::Посредничество",
-      "desc": "Если в конце хода своя СД равна 25 и выше, а также при этом имеется <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировка</link></u></color>: тратит 15 СД, чтобы пробудить Расцветшее ЭГО::Посредничество и восстановиться от оглушения.\n- Получает <sprite name=\"Blandishment_Enemy\"><color=#f8c200><u><link=\"Blandishment_Enemy\">Веру вне всяких сомнений</link></u></color> и меняет значения своих сопротивлений;\n- Если своя СД равна 0 и ниже в начале хода, теряет состояние Расцветшего ЭГО.",
+      "name": "Расцветшее Э.Г.О::Посредничество",
+      "desc": "Если в конце хода своя СД равна 25 и выше, а также при этом имеется <sprite name=\"UnlockBuff_Base\"><color=#f8c200><u><link=\"UnlockBuff_Base\">Разблокировка</link></u></color>: тратит 15 СД, чтобы пробудить Расцветшее Э.Г.О::Посредничество и восстановиться от оглушения.\n- Получает <sprite name=\"Blandishment_Enemy\"><color=#f8c200><u><link=\"Blandishment_Enemy\">Веру вне всяких сомнений</link></u></color> и меняет значения своих сопротивлений;\n- Если своя СД равна 0 и ниже в начале хода, теряет состояние Расцветшего Э.Г.О.",
       "summary": "",
       "undefined": "-"
     },
