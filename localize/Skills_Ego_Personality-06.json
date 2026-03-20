@@ -941,7 +941,7 @@
           "abName": "Шугар мамми",
           "level": 1,
           "name": "Реснички альфонса",
-          "desc": "[WhenUse] Получает 2 [Breath]\\n[BeforeAttack] При 5+ (потенси [Breath] + каунт [Breath]), Сила Финала +1\\n[BeforeAttack] Если у этого юнита есть [Cianjing], наносит +15% урона\\n[BeforeAttack] Если у этого юнита есть [SeniorCianjing], наносит +27% урона\\n[EndSkill] Получает 5 [Cianjing]\\n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует их все и получает 5 [SeniorCianjing]\n",
+          "desc": "[WhenUse] Получает 2 [Breath]\\n[BeforeAttack] При 5+ (потенси [Breath] + счетчик [Breath]), Сила Финала +1\\n[BeforeAttack] Если у этого юнита есть [Cianjing], наносит +15% урона\\n[BeforeAttack] Если у этого юнита есть [SeniorCianjing], наносит +27% урона\\n[EndSkill] Получает 5 [Cianjing]\\n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует их все и получает 5 [SeniorCianjing]\n",
           "coinlist": [
             {
               "coindescs": []
@@ -952,10 +952,10 @@
                   "desc": "Если у этого юнита есть [Cianjing], наносит +([Breath] потенси / 2)% урона при критическом ударе (макс. 15%)\n"
                 },
                 {
-                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + каунт [Breath]) / 2)% урона при критическом ударе (макс. 30%)\n"
+                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + счетчик [Breath]) / 2)% урона при критическом ударе (макс. 30%)\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает 1 каунт [Sinking]\n"
+                  "desc": "[OnSucceedAttack] накладывает 1 счетчик [Sinking]\n"
                 }
               ]
             }
@@ -965,7 +965,7 @@
           "abName": "Шугар мамми",
           "level": 3,
           "name": "Реснички альфонса",
-          "desc": "[WhenUse] получает <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">Финальная сила +1 за каждые 5 ([Breath] потенси + каунт [Breath]) (макс. 2)</style>\n[BeforeAttack] Если у этого юнита есть [Cianjing], получает <style=\"highlight\">+1 вес атаки</style> и наносит +15% урона\n[BeforeAttack] Если у этого юнита есть [SeniorCianjing], получает <style=\"highlight\">+2 вес атаки</style> и наносит +27% урона\n[EndSkill] получает 5 [Cianjing]\n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
+          "desc": "[WhenUse] получает <style=\"highlight\">3</style> [Breath]\n[BeforeAttack] <style=\"highlight\">Финальная сила +1 за каждые 5 ([Breath] потенси + счетчик [Breath]) (макс. 2)</style>\n[BeforeAttack] Если у этого юнита есть [Cianjing], получает <style=\"highlight\">+1 вес атаки</style> и наносит +15% урона\n[BeforeAttack] Если у этого юнита есть [SeniorCianjing], получает <style=\"highlight\">+2 вес атаки</style> и наносит +27% урона\n[EndSkill] получает 5 [Cianjing]\n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
           "coinlist": [
             {
               "coindescs": []
@@ -976,10 +976,10 @@
                   "desc": "Если у этого юнита есть [Cianjing], наносит +([Breath] потенси / 2)% урона при критическом ударе (макс. <style=\"highlight\">20</style>%)\n"
                 },
                 {
-                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + каунт [Breath]) / 2)% урона при критическом ударе (макс. <style=\"highlight\">40</style>%)\n"
+                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + счетчик [Breath]) / 2)% урона при критическом ударе (макс. <style=\"highlight\">40</style>%)\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает <style=\"highlight\">2</style> каунта [Sinking]\n"
+                  "desc": "[OnSucceedAttack] накладывает <style=\"highlight\">2</style> счетчика [Sinking]\n"
                 }
               ]
             }
@@ -989,7 +989,7 @@
           "abName": "Шугар мамми",
           "level": 4,
           "name": "Реснички альфонса",
-          "desc": "[WhenUse] получает <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] Финальная сила +1 за каждые 5 ([Breath] потенси + каунт [Breath]) (макс. <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] Если у этого юнита нет [Cianjing] или [SeniorCianjing], восстанавливает половину использованных ресурсов Э.Г.О и IQ этим навыком (округляется вниз)</style>\n[BeforeAttack] Если у этого юнита есть [Cianjing], получает +1 вес атаки и наносит +<style=\"highlight\">25</style>% урона\n[BeforeAttack] Если у этого юнита есть [SeniorCianjing], получает +2 вес атаки и наносит +<style=\"highlight\">45</style>% урона\n[EndSkill] получает 5 [Cianjing]\n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
+          "desc": "[WhenUse] получает <style=\"highlight\">4</style> [Breath]\n[BeforeAttack] Финальная сила +1 за каждые 5 ([Breath] потенси + счетчик [Breath]) (макс. <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] Если у этого юнита нет [Cianjing] или [SeniorCianjing], восстанавливает половину использованных ресурсов Э.Г.О и IQ этим навыком (округляется вниз)</style>\n[BeforeAttack] Если у этого юнита есть [Cianjing], получает +1 вес атаки и наносит +<style=\"highlight\">25</style>% урона\n[BeforeAttack] Если у этого юнита есть [SeniorCianjing], получает +2 вес атаки и наносит +<style=\"highlight\">45</style>% урона\n[EndSkill] получает 5 [Cianjing]\n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
           "coinlist": [
             {
               "coindescs": []
@@ -1000,10 +1000,10 @@
                   "desc": "Если у этого юнита есть [Cianjing], наносит +(<style=\"highlight\">[Breath] потенси</style>)% урона при критическом ударе (макс. 20%)\n"
                 },
                 {
-                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(<style=\"highlight\">[Breath] потенси + каунт [Breath]</style>)% урона при критическом ударе (макс. 40%)\n"
+                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(<style=\"highlight\">[Breath] потенси + счетчик [Breath]</style>)% урона при критическом ударе (макс. 40%)\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает <style=\"highlight\">3</style> каунта [Sinking]\n"
+                  "desc": "[OnSucceedAttack] накладывает <style=\"highlight\">3</style> счетчика [Sinking]\n"
                 }
               ]
             }
@@ -1018,7 +1018,7 @@
           "abName": "Шугар мамми",
           "level": 1,
           "name": "Реснички альфонса",
-          "desc": "[CantIdentify]  \nВыбирает цель случайным образом  \n[WhenUse] получает 2 [Breath] и +2 каунта [Breath]  \n[BeforeAttack] Если у этого юнита есть [Cianjing] или [SeniorCianjing], Сила монет +1  \n[EndSkill] получает 5 [Cianjing]  \n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
+          "desc": "[CantIdentify]  \nВыбирает цель случайным образом  \n[WhenUse] получает 2 [Breath] и +2 счетчика [Breath]  \n[BeforeAttack] Если у этого юнита есть [Cianjing] или [SeniorCianjing], Сила монет +1  \n[EndSkill] получает 5 [Cianjing]  \n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
           "coinlist": [
             {
               "coindescs": [
@@ -1049,10 +1049,10 @@
                   "desc": "Если у этого юнита есть [Cianjing], наносит +([Breath] потенси / 2)% урона при критическом ударе (макс. 20%)\n"
                 },
                 {
-                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + каунт [Breath]) / 2)% урона при критическом ударе (макс. 40%)\n"
+                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + счетчик [Breath]) / 2)% урона при критическом ударе (макс. 40%)\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает 1 каунт [Sinking]\n"
+                  "desc": "[OnSucceedAttack] накладывает 1 счетчик [Sinking]\n"
                 },
                 {
                   "desc": "[OnSucceedAttack] наносит урон типом греха гордость в размере 25% от нанесённого урона (макс. 25)\n"
@@ -1065,7 +1065,7 @@
           "abName": "Шугар мамми",
           "level": 3,
           "name": "Реснички альфонса",
-          "desc": "[CantIdentify]  \nВыбирает цель случайным образом  \n[WhenUse] получает <style=\"highlight\">3</style> [Breath] и +<style=\"highlight\">3</style> каунта [Breath]  \n[BeforeAttack] Если у этого юнита есть [Cianjing] или [SeniorCianjing], <style=\"highlight\">получает +1 вес атаки, базовая сила +1</style> и Сила монет +1  \n[EndSkill] получает 5 [Cianjing]  \n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
+          "desc": "[CantIdentify]  \nВыбирает цель случайным образом  \n[WhenUse] получает <style=\"highlight\">3</style> [Breath] и +<style=\"highlight\">3</style> счетчика [Breath]  \n[BeforeAttack] Если у этого юнита есть [Cianjing] или [SeniorCianjing], <style=\"highlight\">получает +1 вес атаки, базовая сила +1</style> и Сила монет +1  \n[EndSkill] получает 5 [Cianjing]  \n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
           "coinlist": [
             {
               "coindescs": [
@@ -1096,10 +1096,10 @@
                   "desc": "Если у этого юнита есть [Cianjing], наносит +([Breath] потенси / 2)% урона при критическом ударе (макс. <style=\"highlight\">30</style>%)\n"
                 },
                 {
-                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + каунт [Breath]) / 2)% урона при критическом ударе (макс. <style=\"highlight\">60</style>%)\n"
+                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(([Breath] потенси + счетчик [Breath]) / 2)% урона при критическом ударе (макс. <style=\"highlight\">60</style>%)\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает <style=\"highlight\">2</style> каунта [Sinking]\n"
+                  "desc": "[OnSucceedAttack] накладывает <style=\"highlight\">2</style> счетчика [Sinking]\n"
                 },
                 {
                   "desc": "[OnSucceedAttack] наносит урон типом греха гордость в размере 25% от нанесённого урона (макс. 25)<style=\"highlight\"></style>\n"
@@ -1112,7 +1112,7 @@
           "abName": "Шугар мамми",
           "level": 4,
           "name": "Реснички альфонса",
-          "desc": "[CantIdentify]  \nВыбирает цель случайным образом  \n[WhenUse] получает <style=\"highlight\">4</style> [Breath] и +<style=\"highlight\">4</style> каунта [Breath]  \n[BeforeAttack] Если у этого юнита есть [Cianjing] или [SeniorCianjing], получает +<style=\"highlight\">2</style> вес атаки, базовая сила +<style=\"highlight\">2</style> и Сила монет +<style=\"highlight\">2</style>  \n[EndSkill] получает 5 [Cianjing]  \n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
+          "desc": "[CantIdentify]  \nВыбирает цель случайным образом  \n[WhenUse] получает <style=\"highlight\">4</style> [Breath] и +<style=\"highlight\">4</style> счетчика [Breath]  \n[BeforeAttack] Если у этого юнита есть [Cianjing] или [SeniorCianjing], получает +<style=\"highlight\">2</style> вес атаки, базовая сила +<style=\"highlight\">2</style> и Сила монет +<style=\"highlight\">2</style>  \n[EndSkill] получает 5 [Cianjing]  \n- Если у этого юнита есть [Cianjing] или [SeniorCianjing], расходует все и получает 5 [SeniorCianjing]\n",
           "coinlist": [
             {
               "coindescs": [
@@ -1143,10 +1143,10 @@
                   "desc": "Если у этого юнита есть [Cianjing], наносит +(<style=\"highlight\">[Breath] потенси</style>)% урона при критическом ударе (макс. 30%)\n"
                 },
                 {
-                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(<style=\"highlight\">[Breath] потенси + каунт [Breath]</style>)% урона при критическом ударе (макс. 60%)\n"
+                  "desc": "Если у этого юнита есть [SeniorCianjing], наносит +(<style=\"highlight\">[Breath] потенси + счетчик [Breath]</style>)% урона при критическом ударе (макс. 60%)\n"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает 2 каунта [Sinking] <style=\"highlight\">и +2 каунта [Sinking]</style>\n"
+                  "desc": "[OnSucceedAttack] накладывает 2 счетчика [Sinking] <style=\"highlight\">и +2 счетчика [Sinking]</style>\n"
                 },
                 {
                   "desc": "[OnSucceedAttack] наносит урон типом греха гордость в размере 25% от нанесённого урона (макс. 25)<style=\"highlight\"></style>"

@@ -674,13 +674,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Эта монета наносит +1% урона за каждую (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на основной цели) (макс. 100%)"
+                  "desc": "[OnStartCoin] Эта монета наносит +1% урона за каждую (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на основной цели) (макс. 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает каунт <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эффекты этой Монеты увеличили наносимый урон на +100% или более, активирует [VibrationExplosion] 2 раза; затем уменьшает каунт <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 2"
+                  "desc": "[OnSucceedAttack] Если эффекты этой Монеты увеличили наносимый урон на +100% или более, активирует [VibrationExplosion] 2 раза; затем уменьшает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 2"
                 }
               ]
             }
@@ -690,15 +690,15 @@
           "abName": "Арабская бомба",
           "level": "3",
           "name": "МУЖ ДОЛБИТ МЕНЯ ЧАСАМИ",
-          "desc": "<style=\"highlight\">[BeforeAttack] Если основная цель имеет 30+ (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>), получает +1 Atk Weight</style>\n[EndSkill] На 3 хода теряет 10 IQ в конце хода\n[EndSkill] При активации нечётного (Резонанс Лени) в нечётные ходы или чётного (Резонанс Лени) в чётные ходы, восстанавливает 10 IQ",
+          "desc": "<style=\"highlight\">[BeforeAttack] Если основная цель имеет 30+ (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>), получает +1 Atk Weight</style>\n[EndSkill] На 3 хода теряет 10 IQ в конце хода\n[EndSkill] При активации нечётного (Резонанс Лени) в нечётные ходы или чётного (Резонанс Лени) в чётные ходы, восстанавливает 10 IQ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает +2 каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает +2 счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает +(Резонанс Лени / 2) каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> (макс. 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает +(Резонанс Лени / 2) счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> (макс. 3)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если это основная цель, активирует [FusionVibration] в текущий тип <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели<style=\"highlight\"></style>"
@@ -722,10 +722,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Эта монета наносит +1% урона за каждую (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на основной цели) (макс. 100%)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Эта монета наносит +1% урона за каждую (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на основной цели) (макс. 100%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает каунт <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если эффекты этой Монеты увеличили наносимый урон на +100% или более, активирует [VibrationExplosion] 2 раза; затем уменьшает каунты <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 2<style=\"highlight\"></style>"
@@ -743,10 +743,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает +2 каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает +2 счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает +(Резонанс Лени / 2) каунта <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> (макс. 3)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает +(Резонанс Лени / 2) счетчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> (макс. 3)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если это основная цель, активирует [FusionVibration] в текущий тип <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели<style=\"highlight\"></style>"
@@ -773,13 +773,13 @@
                   "desc": "[OnStartCoin] Эта монета наносит +1% урона за каждую (сумму потенси <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и каунтов <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на основной цели) (макс. 100%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает каунт <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если эффекты этой Монеты увеличили наносимый урон на +50% или более, активирует [VibrationExplosion] один раз.</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эффекты этой Монеты увеличили наносимый урон на +100% или более, активирует [VibrationExplosion] 2 раза; затем уменьшает каунт <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если эффекты этой Монеты увеличили наносимый урон на +100% или более, активирует [VibrationExplosion] 2 раза; затем уменьшает счетчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 2<style=\"highlight\"></style>"
                 }
               ]
             }
