@@ -48,7 +48,7 @@
     {
       "id": 9735,
       "name": "Холодильник для пива",
-      "desc": "Первый навык, повышающий счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особых Солей, получает +2 к Силе в столкновении.\n\nПри использовании вышеописанного навыка, повышает счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 2 и дает 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевой барьер</link></u></color>. (Единожды за ход)\n\nЕсли айдишка Корп. W получает урон HP от любого эффекта, кроме прямого урона, она получает 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевых барьеров</link></u></color>. (Единожды за ход)",
+      "desc": "Первый навык, повышающий счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особых Солей, получает +2 к Силе в столкновении.\n\nПри использовании вышеописанного навыка, повышает счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 2 и даёт 1 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевой барьер</link></u></color>. (один раз за ход)\n\nЕсли айдишка Корп. W получает урон HP от любого эффекта, кроме прямого урона, она получает 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Солевых барьеров</link></u></color>. (один раз за ход)",
       "simpleDesc": [
         {
           "abilityID": 9735,
@@ -63,30 +63,30 @@
     {
       "id": 9736,
       "name": "Чарончик от ЗНН",
-      "desc": "Союзники с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солями</link></u></color> или Особыми солями получают 1 Уровень атаки при каждом столкновении с противником. (До 6, сбрасывается после атаки).\n\nКонец хода: союзники с 10+ (Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> + Особые Соли) получают 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход. При 18+ (Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> + Особые Соли), дополнительно дает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color>.",
+      "desc": "Союзники с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солями</link></u></color> или Особыми солями получают 1 Уровень атаки при каждом столкновении с противником. (До 6, сбрасывается после атаки).\n\nКонец хода: союзники с 10+ (Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> + Особые Соли) получают 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход. При 18+ (Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> + Особые Соли), дополнительно даёт 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color>.",
       "simpleDesc": [
         {
           "abilityID": 9736,
-          "simpleDesc": "Дает Повышение уровень Атаки"
+          "simpleDesc": "даёт Повышение уровень Атаки"
         },
         {
           "abilityID": 97361,
-          "simpleDesc": "Дает <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>"
+          "simpleDesc": "даёт <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>"
         },
         {
           "abilityID": 97362,
-          "simpleDesc": "Дает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>"
+          "simpleDesc": "даёт <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>"
         }
       ]
     },
     {
       "id": 9737,
       "name": "Сердце жителя СПБ",
-      "desc": "Когда союзник с счетчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особыми солями проигрывает в столкновении, он получает щит, равный (Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> + Особые Соли). (Единожды за ход)\n\nКогда HP 50% или меньше, вместо этого получает ((Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> + Особые Соли) × 2) щита. (Единожды за ход)\n\nЕсли айдишка Офиса МультиРазлома получила урон HP во время этой битвы: в следующем ходу восстанавливает 33% от потерянных HP в этом ходу. (Округляется вниз)",
+      "desc": "Когда союзник с счетчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особыми солями проигрывает в столкновении, он получает щит, равный (Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> + Особые Соли). (один раз за ход)\n\nКогда HP 50% или меньше, вместо этого получает ((Счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соль</link></u></color> + Особые Соли) × 2) щита. (один раз за ход)\n\nЕсли айдишка Офиса МультиРазлома получила урон HP во время этой битвы: в следующем ходу восстанавливает 33% от потерянных HP в этом ходу. (Округляется вниз)",
       "simpleDesc": [
         {
           "abilityID": 9737,
-          "simpleDesc": "Дает Щит"
+          "simpleDesc": "даёт Щит"
         },
         {
           "abilityID": 97371,
@@ -101,7 +101,7 @@
       "simpleDesc": [
         {
           "abilityID": 9738,
-          "simpleDesc": "Дает <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>"
+          "simpleDesc": "даёт <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>"
         },
         {
           "abilityID": 97381,
@@ -127,15 +127,15 @@
       "simpleDesc": [
         {
           "abilityID": 9740,
-          "simpleDesc": "Дает Силу монет и наносит больше урона"
+          "simpleDesc": "даёт Силу монет и наносит больше урона"
         },
         {
           "abilityID": 97401,
-          "simpleDesc": "Дает <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> в следующем ходу"
+          "simpleDesc": "даёт <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> в следующем ходу"
         },
         {
           "abilityID": 97402,
-          "simpleDesc": "Дает Силу Монет"
+          "simpleDesc": "даёт Силу Монет"
         }
       ]
     },
@@ -146,7 +146,7 @@
       "simpleDesc": [
         {
           "abilityID": 9741,
-          "simpleDesc": "Дает Силу монет и наносит больше урона"
+          "simpleDesc": "даёт Силу монет и наносит больше урона"
         },
         {
           "abilityID": 97411,
@@ -161,7 +161,7 @@
     {
       "id": 9742,
       "name": "Сердце моего деда (пизда ему)",
-      "desc": "Начало столкновения: эффект активируется при наличии у 5 и более айдишек навыков, повышающих счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особых Солей. (Э.Г.О навыки не учитываются)\n\nБазовые Атакующие навыки, тратящие счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особых Солей: +1 к Силе монет и на (Сумма потраченного счетчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и Особых Солей этим навыком × 4)% больше урона. (До 40%)\n\nКогда союзники с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солями</link></u></color> или Особыми солями участвуют в столкновении с противниками Базовыми Атакующими навыками: Сила в столкновения +1; дает 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> в начале хода за каждую победу в столкновении в этой битве. (До 6)\n\nКогда союзник получает смертельный урон, расходует все его счетчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и Особых Солей и восстанавливает (10 + Сумма израсходованных счетчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и Особых Солей)% HP (Единожды за битву), а так же дает ему 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенности</link></u></color> до его смерти.",
+      "desc": "Начало столкновения: эффект активируется при наличии у 5 и более айдишек навыков, повышающих счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особых Солей. (Э.Г.О навыки не учитываются)\n\nБазовые Атакующие навыки, тратящие счетчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> или Особых Солей: +1 к Силе монет и на (Сумма потраченного счетчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и Особых Солей этим навыком × 4)% больше урона. (До 40%)\n\nКогда союзники с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солями</link></u></color> или Особыми солями участвуют в столкновении с противниками Базовыми Атакующими навыками: Сила в столкновения +1; даёт 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> в начале хода за каждую победу в столкновении в этой битве. (До 6)\n\nКогда союзник получает смертельный урон, расходует все его счетчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и Особых Солей и восстанавливает (10 + Сумма израсходованных счетчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и Особых Солей)% HP (один раз  за битву), а так же даёт ему 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенности</link></u></color> до его смерти.",
       "simpleDesc": [
         {
           "abilityID": 9742,
@@ -184,7 +184,7 @@
       "simpleDesc": [
         {
           "abilityID": 9743,
-          "simpleDesc": "Дает Силу монет и наносит больше урона"
+          "simpleDesc": "даёт Силу монет и наносит больше урона"
         },
         {
           "abilityID": 97431,
