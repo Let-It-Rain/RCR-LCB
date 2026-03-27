@@ -14,7 +14,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> в следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> в следующий ход"
                 }
               ]
             }
@@ -65,7 +65,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> на следующий ход"
@@ -182,7 +182,7 @@
         {
           "level": 1,
           "name": "Жадное поглощение",
-          "desc": "[WhenUse] Если на цели 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\nБазовая сила +1 за каждое <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышения восстановления ОЗ</link></u></color> на себе (До 3)",
+          "desc": "[WhenUse] Если на цели 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зелёнок</link></u></color>, наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>\nБазовая сила +1 за каждое <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышения восстановления ОЗ</link></u></color> на себе (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -197,7 +197,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зелёнок</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Ядро и часть восстанавливают по 5 ОЗ"
@@ -217,7 +217,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зелёнок</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Ядро и часть восстанавливают по 5 ОЗ"
@@ -305,10 +305,17 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> в количестве <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> в количестве <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Зелёнок</link></u></color> на цели"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             }
@@ -322,7 +329,11 @@
         {
           "level": 1,
           "name": "Взбучка",
+<<<<<<< HEAD
           "desc": "Сила в столкновении +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\nСила в столкновении +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">зелёнки</link></u></color> цели на 3",
+=======
+          "desc": "Сила в столкновении +1 против целей с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\nСила в столкновении +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели на 3",
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
           "coinlist": [
             {
               "coindescs": [
@@ -344,7 +355,11 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 },
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             }
@@ -363,21 +378,33 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">зелёнки</link></u></color> <nobr>на 3</nobr>"
+=======
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> <nobr>на 3</nobr>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">зелёнки</link></u></color>"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">зелёнки</link></u></color>"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
@@ -417,7 +444,11 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             }
@@ -455,7 +486,11 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             }
@@ -503,14 +538,22 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и повышает его счётчик на 2"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и повышает его счётчик на 2"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 },
                 {
                   "desc": "[OnSucceedAttack] Если своя скорость выше скорости цели на 3 и более, вновь подкидывает монету 1 раз"
@@ -542,21 +585,33 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и повышает его счётчик на 2"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> и повышает его счётчик на 2"
+=======
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] На 100% больше урона, если цель имеет 20 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "[OnSucceedAttack] На 100% больше урона, если цель имеет 20 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 },
                 {
                   "desc": "[EnemyKill] Заново использует атаку (один раз )"
@@ -573,7 +628,7 @@
         {
           "level": 1,
           "name": "Я тебя поймаю...!",
-          "desc": "Нацеливается на Хитклифа\n[WhenUse] Базовая сила +3 против целей с самой низкой скоростью\n[WhenUse] <sprite name=\"AaCfPbBe\"><color=#e30000><u><link=\"AaCfPbBe\">Помечает добычей</link></u></color> цель в следующем ходе, а также наносит ей 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>, 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> и 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход",
+          "desc": "Нацеливается на Хитклифа\n[WhenUse] Базовая сила +3 против целей с самой низкой скоростью\n[WhenUse] <sprite name=\"AaCfPbBe\"><color=#e30000><u><link=\"AaCfPbBe\">Помечает добычей</link></u></color> цель в следующем ходе, а также наносит ей 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>, 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> и 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Поноса</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -625,10 +680,17 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>, на 30% больше урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>, восстанавливает ОЗ на 50% от нанесённого урона"
+=======
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, на 30% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, восстанавливает ОЗ на 50% от нанесённого урона"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             }
@@ -711,31 +773,50 @@
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
+=======
+                  "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             },
             {
               "coindescs": [
                 {
+<<<<<<< HEAD
                   "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>, восстанавливает ОЗ на 70% от нанесённого урона"
+=======
+                  "desc": "На 30% больше урона целям с 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, восстанавливает ОЗ на 70% от нанесённого урона"
+>>>>>>> 67774bb062221930673bb5b0cdac7a55aa4d841b
                 }
               ]
             }
