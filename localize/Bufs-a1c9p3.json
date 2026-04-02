@@ -31,7 +31,7 @@
     {
       "id": "MosesRedBreathCharge",
       "name": "Пыхнуть трубочку - Красный",
-      "desc": "· Максимальное значение: 3\n· <color=#ff6000><mark color=#ff000040><b><u>Конец хода: если значение максимально, использует мощный навык</color></mark></b></u>\n· Становится невосприимчивой к эффекту паники\n· Получает на (Значение этого эффекта × 20)% больше урона\n· Теряет Уровень защиты в количестве значения этого эффекта\n· Конец хода: теряет 10 ОЗ и 20 СД",
+      "desc": "· Максимальное значение: 3\n· <color=#ff6000><mark color=#ff000040><b><u>Конец хода: если значение максимально, использует мощный навык</color></mark></b></u>\n· Становится невосприимчивой к эффекту паники\n· Получает на (Значение этого эффекта × 20)% больше урона\n· Теряет Уровень защиты в количестве значения этого эффекта\n· Конец хода: теряет 10 ОЗ и 20 IQ",
       "summary": "",
       "undefined": "-",
       "flavor": "Погрузись глубже и позволь багровым образам всплывать на поверхность с каждым вдохом."
@@ -297,7 +297,7 @@
     {
       "id": "LanternHohenheimBigBird",
       "name": "Лампа",
-      "desc": "Максимальное значение: 20\n· Получает 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход за каждые 2 единицы значения этого эффекта (До 10)\n· Конец хода: все свои слоты навыков получают (Значение этого эффекта / количество своих слотов навыков) <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+      "desc": "Максимальное значение: 20\n· Получает 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход за каждые 2 единицы значения этого эффекта (До 10)\n· Конец хода: все свои слоты навыков получают (Значение этого эффекта / количество своих слотов навыков) <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
       "summary": "",
       "undefined": "-"
     },
@@ -347,7 +347,7 @@
     {
       "id": "LvUpFireFly_Over",
       "name": "Перегрузка сонастройки Э.Г.О",
-      "desc": "· Уровень атаки и защиты +10\n· Получает 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и теряет 5 СД в конце хода",
+      "desc": "· Уровень атаки и защиты +10\n· Получает 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и теряет 5 IQ в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": "Чрезмерное использование силы Извлечённого Э.Г.О"
@@ -369,14 +369,14 @@
     {
       "id": "Cubism_LowMorale",
       "name": "Старомодное искусство (Низкий дух)",
-      "desc": "Теряет 5 СД в начале хода и получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>",
+      "desc": "Теряет 5 IQ в начале хода и получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Cubism_Panic",
       "name": "Старомодное искусство (Паника)",
-      "desc": "Теряет 5 СД в начале хода и получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>",
+      "desc": "Теряет 5 IQ в начале хода и получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
@@ -406,7 +406,7 @@
     {
       "id": "ObsessionAndGreed",
       "name": "Шин<nobr>【心】</nobr>- Валенчина",
-      "desc": "· Начало хода: Уровень защиты повышается на 3 за каждое проигранное в прошлом ходе столкновение (До 6)\n· Наносит на (Сила своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> × 3)% больше урона (До 15%)",
+      "desc": "· Начало хода: Уровень защиты повышается на 3 за каждое проигранное в прошлом ходе столкновение (До 6)\n· Наносит на (Сила своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> × 3)% больше урона (До 15%)",
       "summary": "",
       "undefined": "-"
     },
@@ -443,7 +443,7 @@
     {
       "id": "BloodBranch",
       "name": "Ослепляющая кровь<nobr>【盲血】</nobr>",
-      "desc": "· Получает <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход в количестве значения этого эффекта\n· Конец хода: получает (Сила × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> на себе) фиксированного урона\n· Начало боевой фазы: получает (Значение этого эффекта × 3) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>, а сам эффект исчезает",
+      "desc": "· Получает <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход в количестве значения этого эффекта\n· Конец хода: получает (Сила × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color> на себе) фиксированного урона\n· Начало боевой фазы: получает (Значение этого эффекта × 3) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>, а сам эффект исчезает",
       "summary": "",
       "undefined": "-",
       "flavor": "«Если кровь можно удержать во взгляде, её также можно накопить и сгустить для пронзания. Конечно, её также можно использовать, чтобы ослепить. Понятно?»"
@@ -513,14 +513,14 @@
     {
       "id": "TimeEntangleUnstable",
       "name": "Пароксизм - Запутанность послеобраза",
-      "desc": "Максимальное значение: 10\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит (Итоговой урон попавшей монеты / 10) Рубящего урона (Активируется ещё (Значение этого эффекта - 1) раз)\n  - Наносит 1 <sprite name=\"Poison\"><color=#e30000><u><link=\"Poison\">Яд</link></u></color>\n  - Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color>\n  - Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход",
+      "desc": "Максимальное значение: 10\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит (Итоговой урон попавшей монеты / 10) Рубящего урона (Активируется ещё (Значение этого эффекта - 1) раз)\n  - Наносит 1 <sprite name=\"Poison\"><color=#e30000><u><link=\"Poison\">Яд</link></u></color>\n  - Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color>\n  - Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход",
       "summary": " ",
       "undefined": "-"
     },
     {
       "id": "WillAwakenSinclair",
       "name": "Шин<nobr>【心】</nobr>- Некий Синклер",
-      "desc": "· Минимальная и максимальная скорость +3\n· Получает на 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и на 1 единицу его счётчика больше от своих навыков\n· При 20 и более СД f монеты навыков с положительными монетами выпадают орлами на 10% чаще\n· Конец хода: получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход за каждые 10 положительной СД (До 4) и 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> за каждые 20 (До 2)",
+      "desc": "· Минимальная и максимальная скорость +3\n· Получает на 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и на 1 единицу его счётчика больше от своих навыков\n· При 20 и более СД f монеты навыков с положительными монетами выпадают орлами на 10% чаще\n· Конец хода: получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход за каждые 10 положительной СД (До 4) и 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> за каждые 20 (До 2)",
       "summary": "",
       "undefined": "-"
     },
@@ -542,7 +542,7 @@
     {
       "id": "Veteran_LowMorale",
       "name": "Со времён Второй Дымной Войны (Низкий дух)",
-      "desc": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> и +2 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления СД</link></u></color>",
+      "desc": "Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> и +2 к <sprite name=\"MentalSystemResultIncrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultIncrease_Typo\">Эффективности восстановления IQ</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
@@ -647,7 +647,7 @@
     {
       "id": "EsteemNeeds",
       "name": "Жажда признания",
-      "desc": "Максимальное значение: 20\n· За каждую единицу значения этого эффекта: наносит на 5% больше урона Рёшу и получает на 5% больше урона от неё же (До 100%)\n· Итоговая сила +1 за каждые 5 значения, когда атакует Рёшу в качестве главной цели (До 4)\n· Если значение равно 10 и более, теряет 5 СД при поражении в столкновениях",
+      "desc": "Максимальное значение: 20\n· За каждую единицу значения этого эффекта: наносит на 5% больше урона Рёшу и получает на 5% больше урона от неё же (До 100%)\n· Итоговая сила +1 за каждые 5 значения, когда атакует Рёшу в качестве главной цели (До 4)\n· Если значение равно 10 и более, теряет 5 IQ при поражении в столкновениях",
       "summary": "",
       "undefined": "-",
       "flavor": "«Как только я вернусь домой, г- господин Риен скажет мне, что я молодец...»"
@@ -727,14 +727,14 @@
     {
       "id": "UnlockBuff_Rien1",
       "name": "Разблокировка - I",
-      "desc": "· Уровень атаки и защиты +1\n· Восстанавливает 10 СД в конце боевой фазы",
+      "desc": "· Уровень атаки и защиты +1\n· Восстанавливает 10 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuff_Rien2",
       "name": "Разблокировка - II",
-      "desc": "· Уровень атаки и защиты +2\n· Восстанавливает 20 СД в конце боевой фазы",
+      "desc": "· Уровень атаки и защиты +2\n· Восстанавливает 20 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
@@ -779,7 +779,7 @@
     {
       "id": "Shin_Rien",
       "name": "Шин<nobr>【心】</nobr> - Риен",
-      "desc": "· Получает на 1 силу или счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> больше от своих навыков\n· Если СД цели ниже своей, наносит ей на 1% больше урона за каждые 2 единицы разницы в значении СД по сравнению с целью (До 30%)\n· Начало хода: \n  - Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> за каждые 15% потерянных ОЗ (До 5)\n  - Получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> за каждые 40% потерянных ОЗ (До 2)",
+      "desc": "· Получает на 1 силу или счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> больше от своих навыков\n· Если СД цели ниже своей, наносит ей на 1% больше урона за каждые 2 единицы разницы в значении СД по сравнению с целью (До 30%)\n· Начало хода: \n  - Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> за каждые 15% потерянных ОЗ (До 5)\n  - Получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> за каждые 40% потерянных ОЗ (До 2)",
       "summary": "",
       "undefined": "-"
     },
@@ -794,14 +794,14 @@
     {
       "id": "RienWeapon01Hatchet",
       "name": "Когда рубишь рёбра топориком...",
-      "desc": "· Наносит Дробящий урон\n· Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> при попадании целой <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной монетой</link></u></color>",
+      "desc": "· Наносит Дробящий урон\n· Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> при попадании целой <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной монетой</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon01Hatchet2phase",
       "name": "Когда рубишь рёбра топориком...",
-      "desc": "· Наносит Дробящий урон\n· Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2 при попадании целой <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной монетой</link></u></color>",
+      "desc": "· Наносит Дробящий урон\n· Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 2 при попадании целой <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной монетой</link></u></color>",
       "summary": "",
       "undefined": "-",
       "flavor": "«Это едва ли оружие, но лучше, чем вилка.»"
