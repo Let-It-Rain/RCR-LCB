@@ -1174,12 +1174,12 @@
     {
       "id": "MentalSystemResultIncrease_Typo",
       "name": "Эффективность поднятия IQ",
-      "desc": "Число поднятой силы духа по условиям изменения силы духа айдишки."
+      "desc": "Число поднятой IQ по условиям изменения IQ айдишки."
     },
     {
       "id": "MentalSystemResultDecrease_Typo",
       "name": "Эффективность потери IQ",
-      "desc": "Число потерянной силы духа по условиям изменения силы духа айдишки."
+      "desc": "Число потерянной IQ по условиям изменения IQ айдишки."
     },
     {
       "id": "DuelDeclaration",
@@ -1366,7 +1366,7 @@
     {
       "id": "EchoOfMansion",
       "name": "Эхо особняка",
-      "desc": "- При повышении силы или счётчика Депрессии с помощью эффектов навыков или монет, с шансом в 50% повышает счётчик Депрессии на 1.\n- Цели с силой духа меняют тип срыва на 「Эхо особняка」 и при срыве наносят 2 「Эха особняка」 2-м случайным союзникам на следующий ход.\n- Цели, не имеющие силы духа, понижают шанс выпадения орла на 10%.\n- счётчик эффекта понижается в конце хода на 1.\nЭффект не суммируется; он обновляется.\n※ Если цель не может изменить тип срыва, она получает эффекты, словно не имеет силы духа."
+      "desc": "- При повышении силы или счётчика Депрессии с помощью эффектов навыков или монет, с шансом в 50% повышает счётчик Депрессии на 1.\n- Цели с силой духа меняют тип срыва на 「Эхо особняка」 и при срыве наносят 2 「Эха особняка」 2-м случайным союзникам на следующий ход.\n- Цели, не имеющие IQ, понижают шанс выпадения орла на 10%.\n- счётчик эффекта понижается в конце хода на 1.\nЭффект не суммируется; он обновляется.\n※ Если цель не может изменить тип срыва, она получает эффекты, словно не имеет IQ."
     },
     {
       "id": "Switch_Vibration",
@@ -2072,7 +2072,7 @@
     {
       "id": "WaveSinking",
       "name": "Рефлюкс",
-      "desc": "Максимальное значение: 3\n· При получении удара наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессия</link></u></color> в количестве значения эффекта\n· Конец хода: если -30 IQ и менее, активирует следующие эффекты (Для противников без силы духа, если на себе 60 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color>):\n  - Наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> × значение эффекта) урона Унынием\n  - Наносит 1 <sprite name=\"WaveSinking\"><color=#9f6a3a><u><link=\"WaveSinking\">Рефлюкс</link></u></color> на двух других своих союзников с наименьшей IQ, после чего наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> × значение эффекта) урона Унынием по ним обоим\n· После своей смерти эффект переносится на другого своего союзника с его наибольшим, но не максимальным значением",
+      "desc": "Максимальное значение: 3\n· При получении удара наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессия</link></u></color> в количестве значения эффекта\n· Конец хода: если -30 IQ и менее, активирует следующие эффекты (Для противников без IQ, если на себе 60 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color>):\n  - Наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> × значение эффекта) урона Унынием\n  - Наносит 1 <sprite name=\"WaveSinking\"><color=#9f6a3a><u><link=\"WaveSinking\">Рефлюкс</link></u></color> на двух других своих союзников с наименьшей IQ, после чего наносит (Сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color> × значение эффекта) урона Унынием по ним обоим\n· После своей смерти эффект переносится на другого своего союзника с его наибольшим, но не максимальным значением",
       "summary": ""
     },
     {
@@ -2120,7 +2120,7 @@
     {
       "id": "DarkHongluQiuAndHonglu",
       "name": "One Who Walks The Way of the Hegemon",
-      "desc": "- Hong Lu's Skills получает +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least IQ heals 5 IQ\n- When an ally dies, next turn, this unit gains 2 Attack Power Up and remaining allies получает 1 Attack Power Up (once per turn)",
+      "desc": "- Hong Lu's Skills получает +1 Final Power\n- On Clash Win, 1 ally(including this unit) with the least IQ heals 5 IQ\n- When an ally dies, next turn, this unit gains 2 Attack Power Up and remaining allies получает 1 Attack Power Up (один раз за ход)",
       "summary": ""
     },
     {
@@ -2138,7 +2138,7 @@
     {
       "id": "DarkHonglu_EGOResourceup",
       "name": "No Matter How Many Must Bleed...",
-      "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, получает 2 additional Э.Г.О resources of the Skill's Affinity (once per turn)\n- When this unit takes damage, it gains 2 Slash DMG Up next turn (once per turn)",
+      "desc": "[Hong Lu Exclusive Effect]\n- For this Encounter: after using a Skill Attack, получает 2 additional Э.Г.О resources of the Skill's Affinity (один раз за ход)\n- When this unit takes damage, it gains 2 Slash DMG Up next turn (один раз за ход)",
       "summary": ""
     },
     {
@@ -2156,13 +2156,13 @@
     {
       "id": "DarkHonglu_Ai",
       "name": "Happiness, Joy, Sorrow",
-      "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 IQ for 1 ally with the least IQ (including this unit)\n- When an ally is killed, the remaining allies at Turn End получает 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Hong Lu's Final Power +3\n- On Clash Win, heal 5 IQ for 1 ally with the least IQ (including this unit)\n- When an ally is killed, the remaining allies at Turn End получает 1 Attack Power Up next turn (один раз за ход)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": ""
     },
     {
       "id": "DarkHonglu_Nu",
       "name": "Happiness, Joy, Sorrow, Wrath",
-      "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 IQ at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End получает 1 Attack Power Up next turn (once per turn)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Hong Lu's Final Power +5\n- Allies heal 5 IQ at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End получает 1 Attack Power Up next turn (один раз за ход)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal damage, Hong Lu does not die and heals 50% HP instead\n- Increases damage dealt by 30% of the total HP percentage this unit has cumulatively lost during this Encounter (max 100%)\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": ""
     },
     {
@@ -2251,7 +2251,7 @@
     {
       "id": "ArrowInTheEyeFau",
       "name": "Застрявшая стрела",
-      "desc": "- Максимум стаков: 4\n- Начало хода: получает силу кровотечения по количеству стаков\n- Теряет уровень защиты по количеству стаков\n- Конец хода: при 2+ стаках, получает 1 хрупкость следующим ходом (один раз за ход)\n- Сбрасывается при: смерти, отступлении, снятии/окончании баффа. При сбросе накладывает Стрела - Ши на Ши 3-ей восточной секции ассоциации 'Сиси' по количеству стаков",
+      "desc": "- Максимум стаков: 4\n- Начало хода: получает силу Кетчупа по количеству стаков\n- Теряет уровень защиты по количеству стаков\n- Конец хода: при 2+ стаках, получает 1 хрупкость следующим ходом (один раз за ход)\n- Сбрасывается при: смерти, отступлении, снятии/окончании баффа. При сбросе накладывает Стрела - Ши на Ши 3-ей восточной секции ассоциации 'Сиси' по количеству стаков",
       "summary": ""
     },
     {
@@ -2804,7 +2804,7 @@
       "name": "Минута пошла",
       "desc": "- Если Дом Пидоров: Кофемашина Эпштейн на поле боя, получает 2 Защищённости в начале хода\n- Конец хода: Теряет 2 стака",
       "summary": "Gain Protection when conditions are met",
-      "flavor": "Интересный факт, если вы не читали скиллы: По окончанию этого эффекта на хонглу, он получает бесплатный С3-2 к себе в панель скиллов на следующий ход!"
+      "flavor": "Интересный факт, если вы не читали скиллы: По окончанию этого эффекта на Хуй Ло, он получает бесплатный С3-2 к себе в панель скиллов на следующий ход!"
     },
     {
       "id": "IronMaidenPersonality",

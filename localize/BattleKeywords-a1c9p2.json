@@ -57,7 +57,7 @@
     {
       "id": "UnlockBuff_1",
       "name": "Разблокировка - I",
-      "desc": "· Уровень атаки и защиты +1\n· Восстанавливает 15 СД в конце боевой фазы",
+      "desc": "· Уровень атаки и защиты +1\n· Восстанавливает 15 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
@@ -71,7 +71,7 @@
     {
       "id": "UnlockBuff_3",
       "name": "Разблокировка - III",
-      "desc": "· Уровень атаки и защиты +3\n· Восстанавливает 45 СД в конце боевой фазы",
+      "desc": "· Уровень атаки и защиты +3\n· Восстанавливает 45 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
@@ -86,7 +86,7 @@
     {
       "id": "Blandishment_Enemy",
       "name": "Вера вне всяких сомнений",
-      "desc": "· Минимальная и максимальная скорость +1\n· Уровень атаки и защиты +3\n· Получает на 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> больше от своих навыков",
+      "desc": "· Минимальная и максимальная скорость +1\n· Уровень атаки и защиты +3\n· Получает на 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> больше от своих навыков",
       "summary": "",
       "undefined": "-",
       "flavor": "\"Ра.. Разве это не очевидно? Каждое слово, которое выдаёт пейджер, бесспорно не подлежит... н-не подлежит сомнению.\""
@@ -94,7 +94,7 @@
     {
       "id": "Blandishment_Shin_Enemy",
       "name": "Я лей хенг типа</nobr>",
-      "desc": "· Минимальная и максимальная скорость +1\n· Уровень атаки и защиты +3\n· Получает на 1 силу и счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> больше от своих навыков\n· Наносит на (Процент потерянных ОЗ + 25)% больше урона (До 100%)",
+      "desc": "· Минимальная и максимальная скорость +1\n· Уровень атаки и защиты +3\n· Получает на 1 силу и счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> больше от своих навыков\n· Наносит на (Процент потерянных ОЗ + 25)% больше урона (До 100%)",
       "summary": "",
       "undefined": "-"
     },
@@ -130,14 +130,14 @@
     {
       "id": "YellowHarpoon",
       "name": "Жёлтый Гарпун",
-      "desc": "· Начало хода: получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n· Конец хода: если противник имеет <sprite name=\"BeeSting\"><color=#e30000><u><link=\"BeeSting\">Вонзившийся гарпун 【Пчелиное жало】</link></u></color> или <sprite name=\"ArtifactBeeSting\"><color=#e30000><u><link=\"ArtifactBeeSting\">Вонзившийся гарпун 【Осиное жало】</link></u></color>, повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3",
+      "desc": "· Начало хода: получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n· Конец хода: если противник имеет <sprite name=\"BeeSting\"><color=#e30000><u><link=\"BeeSting\">Вонзившийся гарпун 【Пчелиное жало】</link></u></color> или <sprite name=\"ArtifactBeeSting\"><color=#e30000><u><link=\"ArtifactBeeSting\">Вонзившийся гарпун 【Осиное жало】</link></u></color>, повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "YellowHarpoonSin",
       "name": "Шин<nobr>【心】</nobr>- Жёлтый Гарпун",
-      "desc": "· Уровень атаки и защиты +3\n· Восстанавливает 3 СД при атаке противника, нанёсшего Веспе урон в прошлом ходе\n· Если своя СД выше 0, получает +(Положительная СД / 10) к Итоговой силе (Округляется вниз)",
+      "desc": "· Уровень атаки и защиты +3\n· Восстанавливает 3 СД при атаке противника, нанёсшего Веспе урон в прошлом ходе\n· Если своя IQ выше 0, получает +(Положительная СД / 10) к Итоговой силе (Округляется вниз)",
       "summary": "",
       "undefined": "-"
     },
@@ -230,21 +230,21 @@
     {
       "id": "TimeEntangleFour",
       "name": "Четырёхкратная запутанность послеобраза",
-      "desc": "Четвёртая стадия <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>\n· Максимальная и минимальная скорость -2\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит 1 <sprite name=\"Poison\"><color=#e30000><u><link=\"Poison\">Яд</link></u></color>\n  - Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>\n  - Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход\n\n<i>Стадия этого эффекта меняется с каждым новым поведением Звезды Дихуэй</i>",
+      "desc": "Четвёртая стадия <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>\n· Максимальная и минимальная скорость -2\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит 1 <sprite name=\"Poison\"><color=#e30000><u><link=\"Poison\">Яд</link></u></color>\n  - Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>\n  - Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход\n\n<i>Стадия этого эффекта меняется с каждым новым поведением Звезды Дихуэй</i>",
       "summary": "Stage 4 Afterimage Entanglement",
       "undefined": "-"
     },
     {
       "id": "TimeEntangleThree",
       "name": "Трёхкратная запутанность послеобраза",
-      "desc": "Третья стадия <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>\n  - Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход\n\n<i>Стадия этого эффекта меняется с каждым новым поведением Звезды Дихуэй</i>",
+      "desc": "Третья стадия <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчупа</link></u></color>\n  - Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход\n\n<i>Стадия этого эффекта меняется с каждым новым поведением Звезды Дихуэй</i>",
       "summary": "Stage 3 Afterimage Entanglement",
       "undefined": "-"
     },
     {
       "id": "TimeEntangleTwo",
       "name": "Двухкратная запутанность послеобраза",
-      "desc": "Вторая стади <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход\n\n<i>Стадия этого эффекта меняется с каждым новым поведением Звезды Дихуэй</i>",
+      "desc": "Вторая стади <sprite name=\"TimeEntangleDesc\"><color=#9f6a3a><u><link=\"TimeEntangleDesc\">Запутанности послеобраза</link></u></color>\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>\n  - Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход\n\n<i>Стадия этого эффекта меняется с каждым новым поведением Звезды Дихуэй</i>",
       "summary": "Stage 2 Afterimage Entanglement",
       "undefined": "-"
     },
@@ -258,7 +258,7 @@
     {
       "id": "LittleFingerBoss_Shin",
       "name": "Шин<nobr>【心】</nobr>- Звезда Дихуэй",
-      "desc": "Максимальное значение: 3\n· Начало хода:\n  - Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 1 за каждую единицу значения этого эффекта\n  - Получает 1 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышение Рубящего урона</link></u></color> за каждые 15% потерянных ОЗ (До 5)",
+      "desc": "Максимальное значение: 3\n· Начало хода:\n  - Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 1 за каждую единицу значения этого эффекта\n  - Получает 1 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышение Рубящего урона</link></u></color> за каждые 15% потерянных ОЗ (До 5)",
       "summary": " ",
       "undefined": "-"
     },
@@ -339,35 +339,35 @@
     {
       "id": "UnlockBuffAlly_1",
       "name": "Разблокировка - I",
-      "desc": "· Уровень защиты +1\n· Восстанавливает 5 СД в конце боевой фазы",
+      "desc": "· Уровень защиты +1\n· Восстанавливает 5 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuffAlly_2",
       "name": "Разблокировка - II",
-      "desc": "· Уровень защиты +2\n· Восстанавливает 10 СД в конце боевой фазы",
+      "desc": "· Уровень защиты +2\n· Восстанавливает 10 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuffAlly_3",
       "name": "Разблокировка - III",
-      "desc": "· Уровень защиты +3\n· Восстанавливает 15 СД в конце боевой фазы",
+      "desc": "· Уровень защиты +3\n· Восстанавливает 15 IQ в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Blandishment",
       "name": "Оно в потоке",
-      "desc": "· Минимальная и максимальная скорость +1\n· Уровень атаки и защиты +2\n· Получает на 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> больше от своих базовых навыков\n· Сила духа не падаёт ниже -15 от эффектов потери СД <color=#26cfff>[При использовании]</color> своих альтернативных версий базовых атакующих навыков",
+      "desc": "· Минимальная и максимальная скорость +1\n· Уровень атаки и защиты +2\n· Получает на 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> больше от своих базовых навыков\n· Сила духа не падаёт ниже -15 от эффектов потери СД <color=#26cfff>[При использовании]</color> своих альтернативных версий базовых атакующих навыков",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Blandishment_Shin",
       "name": "Я лей хенг типа</nobr>",
-      "desc": "· Минимальная и максимальная скорость +2\n· Уровень атаки и защиты +1\n· Получает на 1 силу и счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> больше от своих базовых навыков\n· Наносит на (Процент потерянных ОЗ / 2)% больше урона своими базовыми навыками (До 40%)",
+      "desc": "· Минимальная и максимальная скорость +2\n· Уровень атаки и защиты +1\n· Получает на 1 силу и счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> больше от своих базовых навыков\n· Наносит на (Процент потерянных ОЗ / 2)% больше урона своими базовыми навыками (До 40%)",
       "summary": "",
       "undefined": "-"
     }
