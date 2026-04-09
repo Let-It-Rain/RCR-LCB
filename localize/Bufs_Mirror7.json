@@ -1,131 +1,118 @@
 {
   "dataList": [
     {
-      "id": "ObjectOfExploration",
       "name": "Курио",
       "desc": "Когда нужные условия соблюдены, эффект заменяется на 'Среднее Художество'",
       "summary": "",
-      "undefined": "-"
+      "id": "ObjectOfExploration"
     },
     {
-      "id": "Inspire",
       "name": "Искра Вдохновения",
       "desc": "Наносит +10% урона против противников с эффектом Среднее Художество",
       "summary": "",
-      "undefined": "-"
+      "id": "Inspire"
     },
     {
-      "id": "PaintingMaterial",
       "name": "Среднее Художество",
       "desc": "Получает +10% урона от скиллов греха Похоти, если имел Кетчуп",
       "summary": "",
-      "undefined": "-"
+      "id": "PaintingMaterial"
     },
     {
-      "id": "GreatAesthetics",
       "name": "Невероятная Эстетика",
       "desc": "- Сила Монет для скиллов с полож. монетами +1; Скиллы с отриц. монетами получают базовую силу, равную +(4 / число монет)\n- Наносит +30% урона скиллами",
       "summary": "",
-      "undefined": "-"
+      "id": "GreatAesthetics"
     },
     {
-      "id": "GiftCannon",
       "name": "Огненая сила",
       "desc": "- Макс. стак: 10\n- Наносит +10% урона за каждый стак",
       "summary": "",
-      "undefined": "-"
+      "id": "GiftCannon"
     },
     {
-      "id": "GiftGlass",
       "name": "Деликатность",
       "desc": "- Макс. стак: 10\n- Получает +10% урона за каждый стак",
       "summary": "",
-      "undefined": "-"
+      "id": "GiftGlass"
     },
     {
-      "id": "BlandishmentShinEnemyDelete",
       "name": "Шин (心) - ???",
       "desc": "- Мин. и Макс. скорость +1\n- Уровень атаки +2, Уровень защиты +2\n- При использовании скиллов, получает на +1 силы и счётчика Кумара больше\n- Наносит +(% отсутствущего ХП + 25)% урона (макс. 100%)",
       "summary": "",
-      "undefined": "-"
+      "id": "BlandishmentShinEnemyDelete"
     },
     {
-      "id": "EnhanceRoseSign",
       "name": "Пизда",
       "desc": "- Все союзники получают ((текущий этаж - 4) x 10)% к Макс. ХП (макс. 60%)\n- Все союзники получают +(текущий этаж - 4) Уровней атаки (макс. 5)",
       "summary": "",
-      "undefined": "-"
+      "id": "EnhanceRoseSign"
     },
     {
-      "id": "LookingFutureMirror",
-      "name": "Glimpse of Precognition",
-      "desc": "- Max Stack: 5\n\n- Clash Power +2 for every Stack\n- For every 2 Stack:\n  - Plus Coin Skills gain Coin Power +1\n  - Minus Coin Skills gain Final Power +2\n- Expires at Skill End",
+      "name": "Проблеск предвидения",
+      "desc": "- Максимум стаков: 5\n\n- Сила столкновения +2 за каждый стак\n- За каждые 2 стака:\n  - Плюсовые монеты получают +1 к Силе монет\n  - Минусовые монеты получают +2 к Финальной силе\n- Пропадает в конце скилла",
       "summary": "",
-      "undefined": "-"
+      "id": "LookingFutureMirror"
     },
     {
-      "id": "MiddleFatherGutsMirror",
-      "name": "Ridiculous Grit",
-      "desc": "- Take -(50 + missing HP percentage)% damage from Skills (rounded down)\n\n- On Clash Win, heal (Clash Count x 5) more SP (max 15)\n\n- Turn End: If this unit lost SP this turn due to its Skill effects, gain 3 Damage Up next turn",
+      "name": "Нелепая жирность",
+      "desc": "- Получает -(50 + процент недостающего ХП)% урона от скиллов (округл. в меньш. сторону)\n\n- При победе в клеше, хиллит (счётчик клешей × 5) дополнительных IQ (макс. 15)\n\n- Конец хода: если этот юнит потерял IQ в этом ходе из-за эффектов своих навыков, получает 3 Повышения урона на следующий ход",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"I don't need some stupid crutch like that \"Shin (心)\" crap. I just gotta pull as much power as I can from these tattoos and grit my teeth, and I'll overpower your fancy little tricks no problem.\""
+      "flavor": "\"Я че, долбоёб чтоли, чтобы пользоваться каким-то ''Шин''? Я просто возьму столько силы из своих МГЕ татушек, сколько смогу!''",
+      "id": "MiddleFatherGutsMirror"
     },
     {
-      "id": "FutureEyeOnMirror",
-      "name": "Eye of Precognition",
-      "desc": "- Max Stack: 30\n- Clash Power +2\n- Turn Start: Gain 5 Stack",
+      "name": "Очко предвидения",
+      "desc": "- Макс. стак: 30\n- Сила столкновения +2\n- Начало хода: Получает 5 стаков",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"The eye does not possess some supernatural power that shows its user the destined future. It is more akin to a computing device that analyzes everything it sees and provides the most likely scenario in the upcoming instant.\""
+      "flavor": "Ого, этот статус называется ''Око предвидения''. Мне определённо стоит просто добавить букву ''Ч'', чтобы это превратилось в очень смешной рофл!",
+      "id": "FutureEyeOnMirror"
     },
     {
-      "id": "FutureEyeOffMirror",
-      "name": "Eye of Precognition - Overheat",
-      "desc": "- Max Stack: 30\n- Attack Skills deal -20% damage\n- Convert all Coins on Skills that spend Acceleration Round to Unbreakable Coins\n- Turn Start: Gain 10 Stack\n- At 30 Stack, convert into \"Eye of Precognition\"",
+      "name": "Очко предвидения - Перегрев",
+      "desc": "- Макс. стак: 30\n- Атакующие скиллы наносят -20% урона\n- Делает все монеты на скилле, который тратит 'Ускоряющие тампоны' вечными\n- Начало хода: Получает 10 стаков\n- При 30 стаках, становится \"Очком предвидения\"",
       "summary": "",
-      "undefined": "-"
+      "flavor": "Охлади своё траханье, чувак!",
+      "id": "FutureEyeOffMirror"
     },
     {
-      "id": "TeachersPreyMirror",
-      "name": "Game Target",
-      "desc": "Fix this unit's Speed to 1; become the main target of the Attack Skill \"Disposal\" used by \"The Thumb Nursefather - Valencina\"",
+      "name": "Игровая цель",
+      "desc": "Фиксирует скорость этого юнита на 1; Становится главной целью атаки \"Утилизация\", которую использует \"Опекун Большого Пальца - Пивозавр\".",
       "summary": "",
-      "undefined": "-",
-      "flavor": "Prey marked by Famiglia Bognatelli will be hunted down without fail."
+      "flavor": "Братуха я тебя настигну",
+      "id": "TeachersPreyMirror"
     },
     {
-      "id": "ObservationTheRingsHidden",
-      "name": "Viewing the Tableau",
-      "desc": "- Base Offense Level -20\n- Base Defense Level -20\n- Turn Start: Take -70% final damage if The Ring Apprentice has not retreated from this Encounter (rounded down; no min. value)",
+      "name": "Просматривая Табло",
+      "desc": "- Базовый уровень атаки -20\n- Базовый уровень защиты -20\n- Начало хода: получает -70% финального урона, если подсос этого врага не покинул эту битву (округл. в меньш. сторону; миним. значение отсутствует)",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"The appreciation of artwork in a gallery calls for unhurried contemplation. Please remember—impatience dulls the appreciation of art.\""
+      "flavor": "Захуярь альбину, тогда можно будет ковырять Килограммчик))",
+      "id": "ObservationTheRingsHidden"
     },
     {
-      "id": "MD7Limit101",
-      "name": "Force Redistribution",
-      "desc": "When killed, apply 3 Offense Level Up to all allies at the next Turn Start (3 times per turn; start of a new wave counts as Turn Start as well)"
+      "name": "Перераспределение силы",
+      "desc": "Когда враг убит, он даёт 3 Повышения уровня атаки ко всем своим союзникам в начале следующего хода (3 раза за ход; начало новой волны также считается началом хода).",
+      "id": "MD7Limit101"
     },
     {
-      "id": "MD7Limit111",
-      "name": "Psychological Elation",
-      "desc": "Turn Start: All allies heal 20 SP"
+      "name": "ПРОСТО СНИХУЯ",
+      "desc": "Начало хода: Все враги получают 20 IQ",
+      "id": "MD7Limit111"
     },
     {
-      "id": "MD7Limit121",
-      "name": "Shield Generation",
-      "desc": "Gain 3000 Shield\n(In Focused Encounters, applies to Core only; Shield gained by this effect does not expire at Turn End)"
+      "name": "Генерация спермы",
+      "desc": "Все враги получают по 3000 ХП в виде щита.\n(В фокусированных битвах применяется только к ядру; щит, полученный от этого эффекта, не исчезает в конце хода.)",
+      "id": "MD7Limit121"
     },
     {
-      "id": "MD7Limit131",
-      "name": "Fracture Proliferation",
-      "desc": "Skills inflict x2 Burn, Bleed, Tremor, Rupture, and Sinking"
+      "name": "Ебите меня семеро",
+      "desc": "Вражеские скиллы теперь наносят удвоенное количество Изжоги, Кетчупа, Тряски, Зелёнки и Депрессии",
+      "id": "MD7Limit131"
     },
     {
-      "id": "MD7Limit141",
-      "name": "Inflict Status Effect",
-      "desc": "Turn Start: Inflict 5 Potency of a random status, chosen from Burn, Bleed, Tremor, Rupture, and Sinking, on all allies(Identities)"
+      "name": "Угадай че выкину",
+      "desc": "Начало хода: Все союзники получают 5 силы рандомного статуса, выбирая из Изжоги, Кетчупа, Тряски, Зелёнки и Депрессии",
+      "id": "MD7Limit141"
     }
   ]
 }
