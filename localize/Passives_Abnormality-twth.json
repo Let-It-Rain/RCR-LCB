@@ -1,69 +1,65 @@
-{
+﻿{
   "dataList": [
     {
       "id": 142201,
-      "name": "The Ring's Docent of Fauvism",
-      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Gain 2 [Protection]</u></b></mark></color> for every allied Fauvist Student of the Ring\n- If this unit used \"Хуйня\" in this Encounter, gain 2 [Protection] and heal 5 SP instead starting from the next turn\n(At lower than -15 SP, double the SP-healing effect)\n- If there are no allied Fauvist Students of the Ring, gain 2 [Vulnerable] and reduce this unit's SP down to 0 instead\n\nImmediately Before Getting Hit by a Skill that has 1 Atk Weight, if there is an allied Student of the Ring, <color=#ff6000><mark=#ff000040><b><u>have the said unit take the attack instead (2 times per turn, excluding Assist Units)</u></b></mark></color>\n\nTurn End of the turn this unit used \"Хуйня\": If an allied Fauvist Student of the Ring was defeated in this Encounter, <color=#ff6000><mark=#ff000040><b><u>refill its vacancy with the same Student unit</u></b></mark></color>\n- Every Turn Start: The Student that refilled the vacancy due to this effect gains (# of allies defeated in this Encounter) [Vulnerable] and [AttackDown] (max 10 each)",
+      "name": "Доцент Фовизма",
+      "desc": "Начало хода: получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> за каждого союзного Фовиста-студента Безымянного пальца на поле боя.\n- Если впервые за битву использует навык <color=#1cc7f1>「Критика」</color>, то начиная со следующего хода к этому эффекту добавляется восстановление 5 СД за каждого такого союзника на поле боя; (Если СД ниже -15, то восстанавливает по 10 СД вместо 5)\n- Если на поле боя больше не осталось союзных Фовистов-студентов Безымянного пальца, то вместо этого эффекта получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и сбрасывает СД до 0.\n\n<color=#ff6000><mark=#ff000040><b><u>Подставляет вместо себя союзных Фовистов-студентов Безымянного пальца</u></b></mark></color> перед получением удара от навыка противника, имеющего одну цель. (До 2 раз за ход; за исключением атак от Киры)\n\nКонец хода, в котором использовала навык <color=#1cc7f1>「Критика」</color>: если на поле боя меньше 4 союзных Фовистов-студентов Безымянного пальца, <color=#ff6000><mark=#ff000040><b><u>то заполняет недостающие места</u></b></mark></color> теми же Фовистами-студентами, которые были побеждены.\n- Призванные таким образом Фовисты-студенты получают (Число побеждённых за битву Фовистов-студентов) <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> и <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижений урона</link></u></color>. (До 10 каждого)",
       "summary": "Immediately before getting hit, force an allied Student to take the hit instead",
       "flavor": ""
     },
     {
       "id": 142202,
-      "name": "Mentorship",
-      "desc": "Turn Start: Randomly apply [AttackUp] and [DefenseUp] to allied Fauvist Students of the Ring equal to the number of turns (including the current turn) each unit has survived, respectively (max 5)\n\nTurn End: If an allied Student is Staggered, <color=#ff6000><mark=#ff000040><b><u>recover them from Stagger</u></b></mark></color>\n- All Attack Type and Affinity Resistance for the Students who recovered from Stagger due to this effect becomes \"Fatal\" for the next turn\n\nTurn End: If a Student is in Panic, heal their SP up to 45",
+      "name": "Наставничество",
+      "desc": "Начало хода: случайным образом даёт союзным Фовистам-студентам Безымянного пальца <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> или <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> в количестве, равном числу ходов, в течение которых они находятся на поле боя. (До 5; включая текущий ход)\n\nКонец хода: <color=#ff6000><mark=#ff000040><b><u>если союзный Фовист-студент оглушён, то восстанавливает его от оглушения</u></b></mark></color>, но в следующем ходе все сопротивления затронутого Фовиста-студента меняются на \"Фатальные\" (x2.0).\n\nКонец хода: если союзный Фовист-студент в панике, восстанавливает его СД до 45.",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 142203,
-      "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [IntenseColors] next turn</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], and [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] and [EagleClawWound] each, inflict 2/3/4 [IntenseColors] instead (amount inflicted is based on the effect that has the least Stack)",
+      "name": "Фовизм - Дикие цвета",
+      "desc": "Конец боевой фазы: <color=#ff6000><mark=#ff000040><b><u>наносит 1 <sprite name=\"IntenseColors\"><color=#e30000><u><link=\"IntenseColors\">Цветастую палитру</link></u></color></u></b></mark></color> на следующий ход тем противникам, которые имеют на себе одновременно <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>, <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color> и <sprite name=\"BoldBrushstrokes\"><color=#e30000><u><link=\"BoldBrushstrokes\">Бестрепетное прикосновение</link></u></color>.\n- Если значение одного из Истерзанных цветов на цели равно <nobr>3+ / 6+ / 9+</nobr>, то наносит ей 2 / 3 / 4 <sprite name=\"IntenseColors\"><color=#e30000><u><link=\"IntenseColors\">Цветастой палитры</link></u></color> соответственно вместо этого. (В приоритете эффект Истерзанного цвета с наименьшим значением)",
       "summary": "Inflict Palette Vibrante",
-      "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken and express the ferity of those that we call wild beasts among them.'"
+      "flavor": "«Внешний облик каждого животного таит в себе особое предназначение. И именно мы, фовисты, пробуждаем и выражаем натуру тех, кого мы называем дикими зверями.»"
     },
     {
       "id": 142204,
-      "name": "Casque de Fauve - Empreinte Vitale",
-      "desc": "Gain the effects of [PanicChangeLock]\nTurn End: If this unit is in Panic, reset SP to 20\n\n<color=#ff6000><mark=#ff000040><b><u>At 70%- HP, gain a new pattern</u></b></mark></color>\n- Remove all effects other than those exclusive to this unit\n- First Turn Start of the new pattern: Gain [FaubismWolfMask] and heal up to 45 SP",
+      "name": "Шлем зверя - Жизненный отпечаток",
+      "desc": "Имеет <sprite name=\"PanicChangeLock\"><color=#9f6a3a><u><link=\"PanicChangeLock\">Неизменный тип паники</link></u></color>.\nЕсли в панике к концу хода, то сбрасывает СД до 20.\n\n<color=#ff6000><mark=#ff000040><b><u>Когда ОЗ падают ниже 70%, меняет поведение в следующем ходе</u></b></mark></color>:\n- Убирает с себя все негативные эффекты за исключением особых;\n- Получает <sprite name=\"FaubismWolfMask\"><color=#f8c200><u><link=\"FaubismWolfMask\">Фовизм 【Маску волка】</link></u></color> и восстанавливает СД до 20.",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 142301,
-      "name": "Rufo, a Docent of The Ring's School of Fauvism",
-      "desc": "In the turn this unit uses a powerful attack, Min & Max Speed +15\n\nTake -30% damage from Unopposed Attacks\nDeal +30% damage with Unopposed Attacks\n- If the Slot targeted by this unit's Unopposed Attack has 2+ [Aggro], reduce the increased damage from this effect by 5% per [Aggro] Stack (min 0%)\n\nOn Clash Lose, gain 1 [AttackDmgUp] (5 per turn)\n- At Turn End, or at Attack End of a Skill that hit a Sinner, the [AttackDmgUp] effect gained with this effect expires",
+      "name": "Руфо, доцент школы Фовизма Безымянного пальца",
+      "desc": "Минимальная и максимальная скорость повышается на 15 при использовании мощного навыка.\n\nПолучает на 30% меньше урона от односторонних атак.\n\nНаносит на 30% больше урона односторонними атаками.\n- Если атакуемый слот навыков противника при этом имеет 2 и более <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color>, то увеличение урона снижается на 5% за каждую её единицу. (Вплоть до 0%)\n\nПолучает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> при поражениях в столкновении. (До 5 за ход)\n- Полученное <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> исчезает в конце атаки по Грешнику или в конце хода.",
       "summary": "Take less damage and deal more damage with Unopposed Attacks\nOn Clash Lose, gain Damage Up",
       "flavor": ""
     },
     {
       "id": 142302,
-      "name": "Le Fauvisme - Masque de Loup : Résurgence de la Sauvagerie",
-<<<<<<< HEAD
-      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Gain 8 [Protection]</u></b></mark></color>\n- Gain 2 fewer [Protection] at Turn Start <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect on this unit</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose using \"Сначала глубокий горловой, потом ещё глубокий горловой\" Skill, gain 2 [Vulnerable] from this effect instead</u></b></mark></color> for the next turn\n\n<color=#ff6000><mark=#ff000040><b><u>Gain 1 Defense Level each time this unit is hit</u></b></mark></color> by a Skill Coin (max 20 per turn)\n- Turn End: Defense Level gained due to this effect expires\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose using \"Сначала глубокий горловой, потом ещё глубокий горловой\" Skill, lose 1 Defense Level each time this unit is hit by a Skill Coin instead</u></b></mark></color> for the next turn (max 20; expires at Turn End)",
-=======
-      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Gain 8 [Protection]</u></b></mark></color>\n- Gain 2 fewer [Protection] at Turn Start <color=#ff6000><mark=#ff000040><b><u>for every type of negative effect on this unit</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose using \"Сначала губокий горловой, потом ещё глубокий горловой\" Skill, gain 2 [Vulnerable] from this effect instead</u></b></mark></color> for the next turn\n\n<color=#ff6000><mark=#ff000040><b><u>Gain 1 Defense Level each time this unit is hit</u></b></mark></color> by a Skill Coin (max 20 per turn)\n- Turn End: Defense Level gained due to this effect expires\n- <color=#ff6000><mark=#ff000040><b><u>On Clash Lose using \"Сначала губокий горловой, потом ещё глубокий горловой\" Skill, lose 1 Defense Level each time this unit is hit by a Skill Coin instead</u></b></mark></color> for the next turn (max 20; expires at Turn End)",
->>>>>>> d9b76f44 (9.5-4 фиксы)
+      "name": "Фовизм — Волчья маска: Возрождение дикости",
+      "desc": "Начало хода: получает 8 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>. (Получает на 2 меньше за каждый тип негативных эффектов на себе)\n- Если проигрывает в столкновении навыком <color=#fe6f01>「Вспыхни пульсирующим багрянцем под своей кожей」</color>, то вместо этого эффекта получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> в начале следующего хода.\n\nСвой Уровень защиты повышается на 1 каждый раз, когда получает удар от противника. (До 20 за ход; сбрасывается в конце хода)\n- Если проигрывает в столкновении навыком <color=#fe6f01>「Вспыхни пульсирующим багрянцем под своей кожей」</color>, то во время следующего хода этот эффект будет действовать в обратную сторону и снижать Уровень защиты на 1 при получении удара. (До 20 за ход; сбрасывается в конце хода)",
       "summary": "When hit, gain Defense Level\nIf this unit lost a Clash using a certain Skill, lose Defense Level instead",
       "flavor": ""
     },
     {
       "id": 142303,
-      "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [IntenseColors] next turn</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], and [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] and [EagleClawWound] each, inflict 2/3/4 [IntenseColors] instead (amount inflicted is based on the effect that has the least Stack)",
+      "name": "Фовизм - Дикие цвета",
+      "desc": "Конец боевой фазы: <color=#ff6000><mark=#ff000040><b><u>наносит 1 <sprite name=\"IntenseColors\"><color=#e30000><u><link=\"IntenseColors\">Цветастую палитру</link></u></color></u></b></mark></color> на следующий ход тем противникам, которые имеют на себе одновременно <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>, <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color> и <sprite name=\"BoldBrushstrokes\"><color=#e30000><u><link=\"BoldBrushstrokes\">Бестрепетное прикосновение</link></u></color>.\n- Если значение одного из Истерзанных цветов на цели равно <nobr>3+ / 6+ / 9+</nobr>, то наносит ей 2 / 3 / 4 <sprite name=\"IntenseColors\"><color=#e30000><u><link=\"IntenseColors\">Цветастой палитры</link></u></color> соответственно вместо этого. (В приоритете эффект Истерзанного цвета с наименьшим значением)",
       "summary": "Inflict Palette Vibrante",
-      "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken and express the ferity of those that we call wild beasts among them.'"
+      "flavor": "«Внешний облик каждого животного таит в себе особое предназначение. И именно мы, фовисты, пробуждаем и выражаем натуру тех, кого мы называем дикими зверями.»"
     },
     {
       "id": 142304,
-      "name": "Le Fauvisme - Maximum Paint Tolerance Dose",
-      "desc": "Gain the effects of [PanicChangeLock]\nTurn End: If this unit is in Panic, reset SP to 30\n\n<color=#ff6000><mark=#ff000040><b><u>At 35%- HP, convert [FaubismWolfMask] into [FaubismWolfMaskBlooded], and heal up to 45 SP</u></b></mark></color>",
+      "name": "Фовизм - Максимальная доза устойчивости к краске",
+      "desc": "Имеет <sprite name=\"PanicChangeLock\"><color=#9f6a3a><u><link=\"PanicChangeLock\">Неизменный тип паники</link></u></color>.\nЕсли в панике к концу хода, то сбрасывает СД до 30.\n\n<color=#ff6000><mark=#ff000040><b><u>Когда ОЗ падают ниже 35%</u></b></mark></color>:\n- <sprite name=\"FaubismWolfMask\"><color=#f8c200><u><link=\"FaubismWolfMask\">Фовизм 【Маска волка】</link></u></color> превращается в <sprite name=\"FaubismWolfMaskBlooded\"><color=#f8c200><u><link=\"FaubismWolfMaskBlooded\">Фовизм 【Окровавленную маску волка】</link></u></color>;\n- Восстанавливает СД до 45.",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 142401,
-      "name": "Remnant of Art",
-      "desc": "On death, give +2 E.G.O resource of the least-owned Affinity",
+      "name": "Остатки искусства",
+      "desc": "При смерти добавляет 2 греха к наименее имеющемуся ЭГО Ресурсу.",
       "summary": "Give E.G.O resource on death",
       "flavor": ""
     }
