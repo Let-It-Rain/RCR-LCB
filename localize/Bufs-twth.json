@@ -1,147 +1,147 @@
-{
+﻿{
   "dataList": [
     {
       "id": "BearClawWound",
-      "name": "Mauled Color [Rouge]",
-      "desc": "- Max Stack: 9\n- When hit, gain 1 Bleed Potency for every 3 Stack (once per turn)\n- Turn End: Gain 1 Defense Level Down next turn for every 4 Stack (max 2)\n- Turn End: Lose 1 Stack",
+      "name": "Истерзанный цвет【Румянец】",
+      "desc": "Максимальное значение: 9\n· При получении удара сила своего <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> повышается на 1 за каждые 3 единицы значения этого эффекта (Единожды за ход)\n· Конец хода: получает 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color> на следующий ход за каждые 4 единицы значения этого эффекта (До 2)\n· Понижается на 1 в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "'Some say that the Ring's paint is made from the same base material as Augmentation Tattoos—they are both nigh-indelible pigments that take considerable effort to erase, let alone bleach.'"
+      "flavor": "«Некоторые утверждают, что краска Безымянного сделана из того же базового материала, что и аугментирующие татуировки — практически несмываемого пигмента, удаление которого требует значительных усилий, не говоря уже об отбеливании.»"
     },
     {
       "id": "EagleClawWound",
-      "name": "Mauled Color [Bleu]",
-      "desc": "- Max Stack: 9\n- When hit, gain 1 Sinking Potency for every 3 Stack (once per turn)\n- Turn End: At 5+ Stack, lose 5 SP\n- Turn End: Lose 1 Stack",
+      "name": "Истерзанный цвет【Синева】",
+      "desc": "Максимальное значение: 9\n· При получении удара сила своего <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> повышается на 1 за каждые 3 единицы значения этого эффекта (Единожды за ход)\n· Конец хода: теряет 5 СД, если значение этого эффекта достигло 5 и более\n· Понижается на 1 в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "'If the Middle uses their tattoos for self-augmentation, does that make the Ring's tattoos more brands that, when forcibly applied, weaken their enemies?'"
+      "flavor": "«Если Средний палец используют свои татуировки для самосовершенствования, то не превращают ли это татуировки Безымянного пальца в клеймо, которое, будучи нанесённым силой, ослабляет цель?»"
     },
     {
       "id": "BoldBrushstrokes",
-      "name": "Touche Hardie",
-      "desc": "- While this unit has this effect, double the amount of HP and SP damage this unit takes from Bleed and Sinking\n- Turn End: Lose 1 Stack\n- Max Stack: 1",
+      "name": "Бестрепетное прикосновение",
+      "desc": "· Теряет вдвое больше ОЗ от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и СД от <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n· Исчезает в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"Wolven claws, lynx claws... and even those of turtles, so minuscule yet intricately arranged... What a bold expression.\""
+      "flavor": "«Волчьи когти, когти рыси... и даже когти черепах, такие крошечные, но при этом замысловато расположенные... Какое смелое выражение.»"
     },
     {
       "id": "IntenseColors",
-      "name": "Palette Vibrante",
-      "desc": "- Take +(Stack x 5)% damage from The Ring-faction units\n· If the attacker is in The Ring School of Fauvism faction, take +(Stack x 10)% damage instead\n- Combat Start: Gain (Stack +1) Bleed, Sinking, Bleed Count, and Sinking Count\n- Combat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (rounded down)\n- Max Stack: 4",
+      "name": "Цветастая палитра",
+      "desc": "Максимальное значение: 4\n· Получает на (Значение этого эффекта × 5)% больше урона от противников из Безымянного пальца (Процент увеличивается вдвое, если атакующий противник принадлежит к Фовистам Безымянного пальца)\n· Начало боевой фазы: получает (Значение этого эффекта + 1) силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, а также единиц счётчика этих эффектов\n· Конец боевой фазы: этот эффект исчезает, а значение Истерзанных цветов на себе уменьшается вдвое (Округляется вниз) (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "FaubismWolfMask",
-      "name": "Le Fauvisme - Masque de Loup",
-      "desc": "- Min & Max Speed +1\n- Inflict +1 more Bleed and Sinking Potency with Skills\n- Before hitting, if target does not have Sinking, inflict +2 Sinking Count (once per Sinner per turn)\n- Before Getting Hit, if target does not have Bleed, inflict +2 Bleed Count (once per Sinner per turn)",
+      "name": "Фовизм【Маска волка】",
+      "desc": "· Минимальная и максимальная скорость +1\n· Наносит на 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> больше своими навыками\n· Если цель не имеет <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (Единожды за ход на Грешника)\n· Если цель не имеет <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (Единожды за ход на Грешника)",
       "summary": "",
       "undefined": "-",
-      "flavor": "\"One might ask: What even distinguishes les Fauves from factions such as Heishous, R Corp. Packs, and more that incorporate beasts into their identities?\"\n\n\"A reasonable query, of that there is no doubt; to that I say we are distinguished by the transcendence of beastliness into artistic costumery, while the Heishous have mindlessly jammed it into their anatomies, disregarding their aesthetic qualities.\""
+      "flavor": "«Можно спросить: чем вообще отличаются Фовисты от таких фракций, как Хэйшоу, отряды Корп. R и других, которые включают зверей в свою идентичность?»\n\n«Вполне разумный вопрос, в этом нет сомнений; на это я отвечу: нас отличает трансцендентность звериности в художественный костюм, в то время как Хэйшоу бездумно впихнули её в свои тела, игнорируя эстетические качества»."
     },
     {
       "id": "FaubismWolfMaskBlooded",
-      "name": "Le Fauvisme - Masque de Loup Ensanglanté",
-      "desc": "- Deal +20% damage; convert all Coins into Unbreakable Coins\n- Min & Max Speed +1\n- Inflict +1 more of the following negative effects with Skills\n· Bleed Potency and Count\n· Sinking Potency and Count\n- Before hitting, if target does not have Sinking, inflict +2 Sinking Count (3 times per Sinner per turn)\n- Before Getting Hit, if target does not have Bleed, inflict +2 Bleed Count (3 times per Sinner per turn)",
+      "name": "Фовизм【Окровавленная маска волка】",
+      "desc": "· Наносит на 20% больше урона\n· Все монеты своих навыков становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n· Минимальная и максимальная скорость +1\n· Наносит на 1 силу или счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> больше своими навыками\n· Если цель не имеет <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (До 3 раз за ход на Грешника)\n· Если цель не имеет <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (До 3 раз за ход на Грешника)",
       "summary": "",
       "undefined": "-",
-      "flavor": "One does not simply awaken the power of one's inner ferity by donning a beastly mask.\nThe interior of each headgear worn by these artists is lined with a mat of needles dipped in the Fauvist paint, which is injected into the body upon equipment. \n\nThus is the paint of the Ring—and these artists, regardless of their School, are all bound to use it."
+      "flavor": "    Нельзя просто так пробудить силу своего внутреннего пыла, надев звериную маску.\n    Внутренняя сторона каждого головного убора, который носят эти художники, выстлана ковриком из игл, имеющих в себе фовистскую краску, которая вводится в тело при надевании.\n\n    Такова краска Безымянного пальца —  и все эти художники, независимо от своей школы, обязаны её использовать."
     },
     {
       "id": "PanicChangeLock",
-      "name": "Fixed Panic",
-      "desc": "This unit's Panic Type does not change when inflicted with an effect that changes Panic Types. Instead, this unit is inflicted with an effect that is inflicted against targets without SP.",
+      "name": "Неизменный тип паники",
+      "desc": "При получении эффектов, меняющих тип паники, её тип остаётся неизменным. Вместо этого эффект работает как на противнике без силы духа.",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "Fauvism_Lowmorale",
-      "name": "Faltering Inspiration",
-      "desc": "- If target has Mauled Color, deal +10% damage\n- Gain 1 Fragile",
+      "name": "Угасающее вдохновение (Низкий дух)",
+      "desc": "· Наносит на 10% больше урона целям, имеющим Истерзанный цвет (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>)\n· Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Fauvism_Panic",
-      "name": "Faltering Inspiration",
-      "desc": "- If target has Mauled Color, deal +20% damage\n- Gain 2 Fragile",
+      "name": "Угасающее вдохновение (Паника)",
+      "desc": "· Наносит на 20% больше урона целям, имеющим Истерзанный цвет (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>)\n· Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FauvismDocent_Lowmorale",
-      "name": "Coloriage Impulsif",
-      "desc": "- Low Morale\n- Deal +2.5% damage for every type of negative effect on target (max 15%)\n- Gain 1 Fragile",
+      "name": "Импульсивное раскрашивание (Низкий дух)",
+      "desc": "· Наносит на 2.5% больше урона за каждый тип негативных эффектов на цели (До 15%)\n· Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "FauvismDocent_Panic",
-      "name": "Coloriage Impulsif",
-      "desc": "- Panic\n- Deal +5% damage for every type of negative effect on target (max 30%)\n- Gain 2 Fragile",
+      "name": "Импульсивное раскрашивание (Паника)",
+      "desc": "· Наносит на 5% больше урона за каждый тип негативных эффектов на цели (До 30%)\n· Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptEnemy_0",
-      "name": "Prescript: [Paper Slip] I",
-      "desc": "Attack and hit a Sinner.\n\n- Turn Start: At 0~2 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 3",
+      "name": "Предписание:【Бумажный листок】I",
+      "desc": "<b>· Задача: попасть навыком по Грешнику своим навыком</b>\n· Увеличивает максимальное значение <sprite name=\"BlessingOfIndexPrescriptAlly\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptAlly\">Милости предписания</link></u></color> до 3",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Предписания передаются многими способами, а их содержание определяется с окончательностью, сродни божественному пророчеству. Те, кто их получает, не имеют власти над тем, как они приходят."
     },
     {
       "id": "IndexPrescriptEnemy_1",
-      "name": "Prescript: [Paper Slip] II",
-      "desc": "Attack and hit a Prescript's Target.\n\n- Turn Start: At 3~5 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 6",
+      "name": "Предписание:【Бумажный листок】II",
+      "desc": "<b>· Задача: попасть по <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цели предписания</link></u></color> своим навыком</b>\n· Увеличивает максимальное значение <sprite name=\"BlessingOfIndexPrescriptAlly\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptAlly\">Милости предписания</link></u></color> до 6",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Предписания передаются многими способами, а их содержание определяется с окончательностью, сродни божественному пророчеству. Те, кто их получает, не имеют власти над тем, как они приходят."
     },
     {
       "id": "IndexPrescriptEnemy_2",
-      "name": "Prescript: [Paper Slip] III",
-      "desc": "Stagger or eliminate a random Sinner, either by you or your ally.\n\n- Turn Start: At 6~8 Grace of the Prescript, gain this effect\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 9",
+      "name": "Предписание:【Бумажный листок】III",
+      "desc": "<b>· Задача: оглушить или устранить любого Грешника самостоятельно или силами союзников</b>\n· Увеличивает максимальное значение <sprite name=\"BlessingOfIndexPrescriptAlly\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptAlly\">Милости предписания</link></u></color> до 9",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Предписания передаются многими способами, а их содержание определяется с окончательностью, сродни божественному пророчеству. Те, кто их получает, не имеют власти над тем, как они приходят."
     },
     {
       "id": "IndexPrescriptEnemy_3",
-      "name": "Prescript: [Paper Slip] IV",
-      "desc": "Eliminate all enemies before the next Prescript arrives.\n\n- Turn Start: At 9 Grace of the Prescript, gain this effect",
+      "name": "Предписание:【Бумажный листок】III",
+      "desc": "<b>Задача: устранить всех противников до появления следующего <sprite name=\"IndexPrescript_Base\"><color=#9f6a3a><u><link=\"IndexPrescript_Base\">Предписания</link></u></color></b>",
       "summary": "",
       "undefined": "-",
-      "flavor": "The Prescripts are delivered by many means, their medium determined with finality akin to divine prophecy. Those who receive them hold no power over how they arrive."
+      "flavor": "Предписания передаются многими способами, а их содержание определяется с окончательностью, сродни божественному пророчеству. Те, кто их получает, не имеют власти над тем, как они приходят."
     },
     {
       "id": "KarmaOfIndexEnemy",
-      "name": "Karmic Consequence",
-      "desc": "- Turn Start:\n· Gain 1 Defense Level Down for every 10 Stacks\n· Gain 1 Fragile for every 20 Stacks\n- Max Stack: 100",
+      "name": "Кармические последствия",
+      "desc": "Максимальное значение: 100\n· Начало хода:\n  - Получает 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color> за каждые 10 значения (До 10)\n  - Получает 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> за каждые 20 значения (До 5)",
       "summary": "",
       "undefined": "-",
-      "flavor": "Receive the Prescript and undertake it. Its execution is etched as karma, drawn into a ceaseless cycle that circles back to the hand of its executor."
+      "flavor": "Получите предписание и выполните его. Это запечатляется как вовлечённая в непрерывный цикл карма, возвращающаяся к тому, кто исполняет предписание."
     },
     {
       "id": "ResentmentSpiderDaughterTwo",
-      "name": "<s>The Middle</s> - Grudge",
-      "desc": "- Max Stack: 10\n- Reduced when using certain Skills\n- For every Stack, Offense Level +1, Defense Level -2, and Counter Skills deal +5% damage\n- At max Stack, take +20% damage",
+      "name": "<s>Средний палец</s> - Злоба",
+      "desc": "Максимальное значение: 10\n· Тратится определёнными навыками Киры\n· Получает на 20% больше урона при максимальном значении этого эффекта\n· За каждую единицу значения этого эффекта:\n  - Уровень атаки +1\n  - Уровень защиты -2\n  - Контратаки наносят на 5% больше урона",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReinforcedTattooSpiderDaughterTwo",
-      "name": "<s>The Middle Styled</s> Augmentation Tattoos",
-      "desc": "- Max Stack: 3\n- Deal +10% Blunt and Envy damage",
+      "name": "Усиливающие татуировки <s>в стиле Среднего пальца</s>",
+      "desc": "Максимальное значение: 3\n· Кира наносит на 10% больше урона Дробящими навыками или навыками с грехом Зависти",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeatingWireOnSpiderTwo",
-      "name": "Thermal Blades ON",
-      "desc": "On Hit with Thermal Blade Skill Coins: Additionally inflict Burn Potency and Count equal to Bleed Potency and Count inflicted",
+      "name": "Тепловые клинки ВКЛ",
+      "desc": "Пока этот эффект активен: при нанесении силы или повышения счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> <b>Навыками <sprite name=\"HeatingWireOnSpider\"><color=#f8c200><u><link=\"HeatingWireOnSpider\">Тепловых клинков</link></u></color></b> наносит цели столько же силы/счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Изжоги</link></u></color>",
       "summary": "",
       "undefined": "-"
     }

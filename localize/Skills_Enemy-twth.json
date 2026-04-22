@@ -1,12 +1,12 @@
-{
+﻿{
   "dataList": [
     {
       "id": 9104301,
       "levelList": [
         {
           "level": 1,
-          "name": "Wildstroke",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Дикий штрих",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -18,10 +18,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -34,8 +34,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dessin Rapide",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Быстрый набросок",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Если цель имеет 5 и более Истерзанных цветов (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>), все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -47,17 +47,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 2"
                 }
               ]
             }
@@ -70,26 +70,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Fauvisme - Paint and Unfurl",
-          "desc": "Deal +10% damage for every 3 Mauled Color on target (max 30%)\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Фовизм — живопись и разворачивание",
+          "desc": "Наносит на 10% больше урона за каждые 3 Истерзанного цвета на цели (До 30%) (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>):\n- Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n- Вновь подкидывает последнюю монету\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
@@ -99,10 +99,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>"
                 }
               ]
             }
@@ -115,8 +115,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gusset",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [BearClawWound], Final Power +2",
+          "name": "Выставка",
+          "desc": "[DuelCounter]\n[WhenUse] Итоговая сила +1 против целей, имеющих <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -141,8 +141,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wildstroke",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Дикий штрих",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -154,10 +154,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -170,8 +170,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dessin Rapide",
-          "desc": "[WhenUse] If target does not have [BearClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Быстрый набросок",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Если цель имеет 5 и более Истерзанных цветов (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>), все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -183,17 +183,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 3"
                 }
               ]
             }
@@ -206,26 +206,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Le Fauvisme - Paint and Unfurl",
-          "desc": "Deal +10% damage for every 3 Mauled Color on target (max 30%)\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Фовизм — живопись и разворачивание",
+          "desc": "Наносит на 10% больше урона за каждые 3 Истерзанного цвета на цели (До 30%) (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>):\n- Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n- Вновь подкидывает последнюю монету\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
@@ -235,10 +235,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BearClawWound]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>"
                 }
               ]
             }
@@ -251,8 +251,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gusset",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [BearClawWound], Final Power +2",
+          "name": "Выставка",
+          "desc": "[DuelCounter]\n[WhenUse] Итоговая сила +1 против целей, имеющих <sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -264,7 +264,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -277,8 +277,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Preparation",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Подготовка картины",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -290,10 +290,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             }
@@ -306,8 +306,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brisk Expression",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Быстрое выражение",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Если цель имеет 5 и более Истерзанных цветов (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>), все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -319,13 +319,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если есть <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color>, вновь подкидывает эту монету 1 раз"
                 }
               ]
             }
@@ -338,23 +338,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Finishing Touch",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Завершающий штрих",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>), то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             },
@@ -364,13 +364,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если есть <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color>, вновь подкидывает эту монету 1 раз"
                 }
               ]
             }
@@ -383,20 +383,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Partial Rework",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [EagleClawWound], Clash Power +2",
+          "name": "Частичная переделка",
+          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +1 против целей, имеющих <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанного цвета 【Синевы】</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанного цвета 【Синевы】</link></u></color>"
                 }
               ]
             }
@@ -409,8 +409,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Artwork Preparation",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1",
+          "name": "Подготовка картины",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -422,10 +422,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             }
@@ -438,8 +438,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Brisk Expression",
-          "desc": "[WhenUse] If target does not have [EagleClawWound], Clash Power +1\n[WhenUse] If target has 6+ ([Laceration] + [Sinking]), Coin Power +1\n[WhenUse] If target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Быстрое выражение",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей, не имеющих <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>\n[WhenUse] Если цель имеет 5 и более Истерзанных цветов (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>), все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -451,13 +451,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если есть <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color>, вновь подкидывает эту монету 1 раз"
                 }
               ]
             }
@@ -470,23 +470,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Finishing Touch",
-          "desc": "[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, convert all Coins on this Skill to [SuperCoin]s\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Завершающий штрих",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (<sprite name=\"BearClawWound\"><color=#e30000><u><link=\"BearClawWound\">Истерзанный цвет 【Румянец】</link></u></color> / <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синева】</link></u></color>), то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             },
@@ -496,13 +496,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If this unit has [Agility], Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Если есть <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешка</link></u></color>, вновь подкидывает эту монету 1 раз"
                 }
               ]
             }
@@ -515,20 +515,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Partial Rework",
-          "desc": "[DuelCounter]\n[WhenUse] If target has [EagleClawWound], Clash Power +2",
+          "name": "Частичная переделка",
+          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +1 против целей, имеющих <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанный цвет 【Синеву】</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанного цвета 【Синевы】</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EagleClawWound]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EagleClawWound\"><color=#e30000><u><link=\"EagleClawWound\">Истерзанного цвета 【Синевы】</link></u></color>"
                 }
               ]
             }
@@ -541,20 +541,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Sighted",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +10% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 2 [Breath] and +2 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Цель обнаружена",
+          "desc": "Сила в столкновении +1 и на 10% больше урона против <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целей предписания</link></u></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной</link></u></color>, если атакует <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color> или имеет 6 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -567,27 +567,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To Where the Prescript Points",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +20% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Куда указывает предписание",
+          "desc": "Сила в столкновении +1 и на 20% больше урона против <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целей предписания</link></u></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 3)\n[WhenUse] Последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной</link></u></color>, если атакует <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color> или имеет 6 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 3\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             }
@@ -600,30 +600,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake Prescript",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +2 and deal +25% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 3+ [BlessingOfIndexPrescriptEnemy], Coin Power +1\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 4 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Исполнить предписание",
+          "desc": "Сила в столкновении +2 и на 25% больше урона против <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целей предписания</link></u></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 3)\n[WhenUse] Сила в столкновении +1 при 3 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>, если атакует <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color> или имеет 6 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 3\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [BlessingOfIndexPrescriptEnemy] on self (max 45%)"
+                  "desc": "Наносит на (Текущее значение <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> × 5)% больше урона (До 45)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -636,20 +636,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Target Sighted",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +10% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 2)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 1 [Breath] and +3 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Цель обнаружена",
+          "desc": "Сила в столкновении +1 и на 10% больше урона против <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целей предписания</link></u></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 2)\n[WhenUse] Последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной</link></u></color>, если атакует <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color> или имеет 6 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> и повышает его счётчик на 3\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -662,27 +662,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To Where the Prescript Points",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +1 and deal +20% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert the final Coin of this Skill into [SuperCoin]\n[WhenUse] Gain 4 [Breath] and +2 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Куда указывает предписание",
+          "desc": "Сила в столкновении +1 и на 20% больше урона против <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целей предписания</link></u></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 3)\n[WhenUse] Последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечной</link></u></color>, если атакует <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color> или имеет 6 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -695,30 +695,30 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Undertake Prescript",
-          "desc": "If target has [IndexPrescriptTargetToPersonality], Clash Power +2 and deal +25% damage\nFinal Power +1 for every 6 ([Breath] on self + [Sinking] on target) (max 3)\n[WhenUse] At 3+ [BlessingOfIndexPrescriptEnemy], Coin Power +1\n[WhenUse] At 6+ [BlessingOfIndexPrescriptEnemy], or if target has [IndexPrescriptTargetToPersonality], convert all Coins of this Skill into [SuperCoin]\n[WhenUse] Gain 3 [Breath] and +4 [Breath] Count\n[DefeatDuel]\n- Damage from this Skill does not Stagger the target\n- On Hit, does not trigger [Sinking] effects on the target",
+          "name": "Исполнить предписание",
+          "desc": "Сила в столкновении +2 и на 25% больше урона против <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Целей предписания</link></u></color>\nИтоговая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (До 3)\n[WhenUse] Сила в столкновении +1 при 3 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>, если атакует <sprite name=\"IndexPrescriptTargetToPersonality\"><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color> или имеет 6 и более <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 4\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [BlessingOfIndexPrescriptEnemy] on self (max 45%)"
+                  "desc": "Наносит на (Текущее значение <sprite name=\"BlessingOfIndexPrescriptEnemy\"><color=#f8c200><u><link=\"BlessingOfIndexPrescriptEnemy\">Милости предписания</link></u></color> × 5)% больше урона (До 45)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking] and +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и повышает его счётчик на 3"
                 }
               ]
             }
