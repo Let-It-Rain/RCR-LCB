@@ -5,20 +5,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Head",
-          "desc": "Prioritizes targets with the least HP\nIf target has [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>If target has used a Defense Skill, deal -200% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[DefeatDuel] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "name": "Извивающаяся голова",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\nНаносит на 50% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n<color=#ff6000><mark color=#ff000040><b><u>Если цель использовала защитный навык, наносит ей на 200% меньше урона</color></mark></b></u>\nБазовая сила +1 за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[EndSkill] Если это была односторонняя атака, теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n- Если при этом цель использовала защитный навык, теряет на 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color> больше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -31,27 +31,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Tail",
-          "desc": "Prioritizes targets with the least HP\nIf target has [Paralysis], deal +50% damage\n<color=#ff6000><mark color=#ff000040><b><u>If target has used a Defense Skill, deal -200% damage</color></mark></b></u>\nBase Power +1 for every [SelfCharge]\n[WhenUse] Lose 1 [SelfCharge]\n[DefeatDuel] Lose 1 [SelfCharge]\n[EndSkill] If it was an Unopposed Attack, lose 1 [SelfCharge]\n- If the target attacked by this Skill used a Defense Skill, lose 1 more [SelfCharge]",
+          "name": "Извивающийся хвост",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\nНаносит на 50% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>\n<color=#ff6000><mark color=#ff000040><b><u>Если цель использовала защитный навык, наносит ей на 200% меньше урона</color></mark></b></u>\nБазовая сила +1 за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n[EndSkill] Если это была односторонняя атака, теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color>\n- Если при этом цель использовала защитный навык, теряет на 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряд</link></u></color> больше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -64,56 +64,56 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Procuration: Annihilation - Mang of Immanent Yearning [本望]",
-          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>At 0+ IQ, generate 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Deal +20% damage, Final Power +3</u></b></mark></color>\n[EndSkill] Lose 15 IQ\n[EndSkill] If this Skill generated Mang, lose 20 IQ\n[EndSkill] Consume all [PressureOfPrescript] and end this turn",
+          "name": "Посредничество: уничтожение - Ман неизбежного стремления<nobr>【本望】</nobr>",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если своя СД выше 0, создаёт 1 Ман (望)</u></b></mark></color>: получает +3 к Итоговой силе, а также наносит на 20% больше урона\n[EndSkill] Теряет 15 СД\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет ещё 20 СД\n[EndSkill] Теряет все <sprite name=\"PressureOfPrescript\"><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color> и заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -126,26 +126,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stomping",
-          "desc": "If target has 4+ [Laceration], Coin Power +1\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Пинок",
+          "desc": "Сила монет +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -158,49 +158,49 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stamp of Vengeance",
-          "desc": "Base Power +1 for every 3 [Laceration] on target (max 3)\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Consume all [ResentmentSpider] on self and gain 1 [DaughterEducationSpider]",
+          "name": "Печать мести",
+          "desc": "Базовая сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3)\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Теряет всю <sprite name=\"ResentmentSpider\"><color=#e30000><u><link=\"ResentmentSpider\">Злобу</link></u></color> и получает 1 <sprite name=\"DaughterEducationSpider\"><color=#f8c200><u><link=\"DaughterEducationSpider\">\"Зацени, мелкая!\"</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -213,36 +213,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Don't Let Somethin' Like This Break Ya!",
-          "desc": "[WhenUse] If this unit has [ReinforcedTattooSpider], deal 5 Blunt bonus damage On Hit with Unbroken Coin\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Не дай какой-то фигне сломить тебя!",
+          "desc": "[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 5 дополнительного Дробящего урона при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -255,36 +255,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gonna Unbox a Layer of Packaging!",
-          "desc": "[WhenUse] If this unit has [ReinforcedTattooSpider], deal 10 Blunt bonus damage On Hit with Unbroken Coin\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] [MiddleFatherSwordOne] becomes [MiddleFatherSwordTwo]",
+          "name": "Придётся снять слой обёртки!",
+          "desc": "[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Снимает с <sprite name=\"MiddleFatherSwordOne\"><color=#9f6a3a><u><link=\"MiddleFatherSwordOne\">Запечатанного меча</link></u></color> его <sprite name=\"MiddleFatherSwordTwo\"><color=#9f6a3a><u><link=\"MiddleFatherSwordTwo\">Первую печать</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             }
@@ -297,26 +297,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stomping",
-          "desc": "If target has 4+ [Laceration], Coin Power +1\n[WhenUse] If this unit has [ReinforcedTattooSpider], inflict 1 [Laceration] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] Gain 1 [ParryingResultUp] next turn (2 times per turn)",
+          "name": "Пинок",
+          "desc": "Сила монет +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[DefeatDuel] Получает 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы в столкновении</link></u></color> на следующий ход (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -329,49 +329,49 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stamp of Vengeance",
-          "desc": "Base Power +1 for every 3 [Laceration] on target (max 3)\n[WhenUse] If this unit has [ReinforcedTattooSpider], inflict 1 [Laceration] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Consume all [ResentmentSpider] on self and gain 1 [DaughterEducationSpider]",
+          "name": "Печать мести",
+          "desc": "Базовая сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3)\n[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Теряет всю <sprite name=\"ResentmentSpider\"><color=#e30000><u><link=\"ResentmentSpider\">Злобу</link></u></color> и получает 1 <sprite name=\"DaughterEducationSpider\"><color=#f8c200><u><link=\"DaughterEducationSpider\">\"Зацени, мелкая!\"</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -384,45 +384,45 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Are Ya Feelin' the Heat?!",
-          "desc": "[WhenUse] If this unit has [ReinforcedTattooSpider], deal 10 Blunt bonus damage On Hit with Unbroken Coin\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[BeforeAttack] At 50%- HP, deal +40% damage",
+          "name": "Чуешь жар?!",
+          "desc": "[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 15 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 15 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -435,46 +435,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Looks Like I Gotta Unbox the Second Layer, too.",
-          "desc": "[WhenUse] If this unit has [ReinforcedTattooSpider], deal 10 Blunt bonus damage On Hit with Unbroken Coin\n[EndSkill] [MiddleFatherSwordTwo] becomes [MiddleFatherSwordThree]",
+          "name": "Похоже, мне придётся снять и второй слой.",
+          "desc": "[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[EndSkill] Снимает с <sprite name=\"MiddleFatherSwordTwo\"><color=#9f6a3a><u><link=\"MiddleFatherSwordTwo\">Полураспечатанного меча</link></u></color> его <sprite name=\"MiddleFatherSwordThree\"><color=#9f6a3a><u><link=\"MiddleFatherSwordThree\">Вторую печать</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color>"
                 }
               ]
             }
@@ -487,26 +487,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stomping!",
-          "desc": "If target has 4+ [Laceration], Coin Power +1\n[WhenUse] If this unit has [ReinforcedTattooSpider], inflict 1 [Laceration] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[DefeatDuel] Gain 1 [SkillPowerUp] next turn (2 times per turn)",
+          "name": "Пинок!",
+          "desc": "Сила монет +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[DefeatDuel] Получает 1 <sprite name=\"SkillPowerUp\"><color=#f8c200><u><link=\"SkillPowerUp\">Повышение базовой силы</link></u></color> на следующий ход (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -519,49 +519,49 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stamp of Complete and Total Extermination!",
-          "desc": "Base Power +1 for every 3 [Laceration] on target (max 3)\n[WhenUse] If this unit has [ReinforcedTattooSpider], inflict 1 [Laceration] On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Consume all [ResentmentSpider] on self and gain 1 [DaughterEducationSpider]",
+          "name": "Печать полного и тотального уничтожения!",
+          "desc": "Базовая сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 3)\n[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color> при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Теряет всю <sprite name=\"ResentmentSpider\"><color=#e30000><u><link=\"ResentmentSpider\">Злобу</link></u></color> и получает 1 <sprite name=\"DaughterEducationSpider\"><color=#f8c200><u><link=\"DaughterEducationSpider\">\"Зацени, мелкая!\"</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpider], inflict 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -574,45 +574,45 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to Melt Away and Die",
-          "desc": "[WhenUse] If this unit has [ReinforcedTattooSpider], deal 10 Slash bonus damage On Hit with Unbroken Coin\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[BeforeAttack] At 50%- HP, deal +40% damage",
+          "name": "Пора бы уже растаять и умереть",
+          "desc": "[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 10 дополнительного Рубящего урона при попадании целыми <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color> монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 15 Slash bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 15 дополнительного Рубящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
@@ -625,46 +625,46 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Lævateinn - Been a While Since I Had to Unbox the Whole Thing!",
-          "desc": "[WhenUse] If this unit has [ReinforcedTattooSpider], deal 10 Slash bonus damage On Hit with Unbroken Coin\n[EndSkill] [MiddleFatherSwordThree] becomes [MiddleFatherSwordFour]",
+          "name": "Леватэйн - Давненько мне не приходилось высвобождать всё целиком!",
+          "desc": "[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpider\"><color=#f8c200><u><link=\"ReinforcedTattooSpider\">Татуировки мести 【<s>Великий Брат</s>】</link></u></color>, наносит 10 дополнительного Рубящего урона при попадании целыми <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color> монетами этого навыка\n[EndSkill] <sprite name=\"MiddleFatherSwordFour\"><color=#f8c200><u><link=\"MiddleFatherSwordFour\">Снимает последнюю печать с Леватэйна</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Slash bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Slash bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Slash bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color>"
                 }
               ]
             }
@@ -677,56 +677,56 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gut Stab [Lævateinn]",
-          "desc": "[BeforeUse] Lose 10 SP\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target\n[BeforeAttack] At 50%- HP, deal +40% damage\n[BeforeAttack] Gain (# of Coins in this Skill x 2) [Combustion]",
+          "name": "Удар в кишки<nobr>【Леватэйн】</nobr>",
+          "desc": "[BeforeUse] Теряет 10 СД\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%\n[BeforeAttack] Получает (Количество монет этого навыка × 2) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 10 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 }
               ]
             }
@@ -739,33 +739,33 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time for Some Warm-up!",
-          "desc": "If target has 5+ [Laceration], Base Power +2\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Время размяться!",
+          "desc": "Базовая сила +2 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 дополнительного Дробящего урона"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpiderDaughter], inflict 2 [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpiderDaughter\"><color=#f8c200><u><link=\"ReinforcedTattooSpiderDaughter\">Усиливающие татуировки в стиле Среднего пальца</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -778,49 +778,49 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Crossing Dervish!",
-          "desc": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpider] state, this Skill activates its Thermal Blade effects\nIf target has 4+ [Laceration], Coin Power +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughter], inflict +1 [Laceration] Count On Coin Hit\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "name": "Перекрёстный вихрь!",
+          "desc": "<b>Навык <sprite name=\"HeatingWireOnSpider\"><color=#f8c200><u><link=\"HeatingWireOnSpider\">Тепловых клинков</link></u></color></b>\nСила монет +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Если есть <sprite name=\"ReinforcedTattooSpiderDaughter\"><color=#f8c200><u><link=\"ReinforcedTattooSpiderDaughter\">Усиливающие татуировки в стиле Среднего пальца</link></u></color>, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1 при попадании монетами этого навыкаn[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 Blunt bonus damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 дополнительного Дробящего урона"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] If this unit has [ReinforcedTattooSpiderDaughter], inflict 2 [Binding] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть <sprite name=\"ReinforcedTattooSpiderDaughter\"><color=#f8c200><u><link=\"ReinforcedTattooSpiderDaughter\">Усиливающие татуировки в стиле Среднего пальца</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -833,40 +833,40 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Destroy the Sound, Crush Flat the Thought",
-          "desc": "Can Clash with this Skill regardless of Speed\nIf this unit has [BlackNightmare]:\n- Convert all Coins to [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Blunt Skill</u></b></mark></color>, Coin Power +2 and deal +50% damage\n- On Clash Lose against a Blunt Skill:\n  - Coin Power -2 and deal -50% damage\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n\nBlunt weapons appear more frequently\n- At 75+ [KarmaOfIndexRien_2Phase], Blunt weapons appear less frequently\n- At 150+ [KarmaOfIndexRien_2Phase], Blunt weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Blunt weapons deal +60% damage\n- Non-Blunt weapons deal -30% damage\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WinDuel] Raise target's Stagger Threshold by 25\n- At 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "name": "Уничтожить звук, раздавить мысль",
+          "desc": "Можно столкнуться независимо от скорости\n\nПри наличии <sprite name=\"BlackNightmare\"><color=#9f6a3a><u><link=\"BlackNightmare\">Потакания предписаниям</link></u></color>:\n- Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n- <color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если сталкивается с Пронзающим / Рубящим навыком</u></b></mark></color>: Сила монет +2 и на 50% больше наносимого урона\n   · При поражении в столкновении против Дробяшего навыка получает -2 к Силе монет и наносит на 50% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n\nДробящее оружие появляется чаще для этого навыка\n- Дробящее оружие появляется реже при 75+ <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>\n- Дробящее оружие появляется ещё более реже при 150+ <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>\n\nУрон монет зависит от выпадающего им типа оружия:\n- Дробящее наносит на 60% больше урона, остальные типы на 30% меньше\n\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик <nobr>на 2</nobr>\n[WinDuel] Поднимает границу выносливости цели <nobr>на 25</nobr> (Этот эффект не активируется при 150 и более <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
                 }
               ]
             }
@@ -879,40 +879,40 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stab the Heart of Silence, Penetrate the Memory",
-          "desc": "Can Clash with this Skill regardless of Speed\nIf this unit has [BlackNightmare]:\n- Convert all Coins to [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Pierce Skill</u></b></mark></color>, Coin Power +2 and deal +50% damage\n- On Clash Lose against a Pierce Skill:\n  - Coin Power -2 and deal -50% damage\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n\nPierce weapons appear more frequently\n- At 75+ [KarmaOfIndexRien_2Phase], Pierce weapons appear less frequently\n- At 150+ [KarmaOfIndexRien_2Phase], Pierce weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Pierce weapons deal +60% damage\n- Non-Pierce weapons deal -30% damage\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WinDuel] Gain 2 [AttackDmgUp] next turn\n- At 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "name": "Раздавить сердце тишины, проткнуть память",
+          "desc": "Можно столкнуться независимо от скорости\n\nПри наличии <sprite name=\"BlackNightmare\"><color=#9f6a3a><u><link=\"BlackNightmare\">Потакания предписаниям</link></u></color>:\n- Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n- <color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если сталкивается с Дробящим / Рубящим навыком</u></b></mark></color>: Сила монет +2 и на 50% больше наносимого урона\n   · При поражении в столкновении против Пронзающего навыка получает -2 к Силе монет и наносит на 50% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n\nПронзающее оружие появляется чаще для этого навыка\n- Пронзающее оружие появляется реже при 75+ <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>\n- Пронзающее оружие появляется ещё более реже при 150+ <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>\n\nУрон монет зависит от выпадающего им типа оружия:\n- Пронзающее наносит на 60% больше урона, остальные типы на 30% меньше\n\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2\n[WinDuel] Получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход (Этот эффект не активируется при 150 и более <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
                 }
               ]
             }
@@ -925,40 +925,40 @@
       "levelList": [
         {
           "level": 1,
-          "name": "With Tempered Secret, Sever the Form",
-          "desc": "Can Clash with this Skill regardless of Speed\nIf this unit has [BlackNightmare]:\n- Convert all Coins to [SuperCoin]s\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Slash Skill</u></b></mark></color>, Coin Power +2 and deal +50% damage\n- On Clash Lose against a Slash Skill:\n  - Coin Power -2 and deal -50% damage\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n\nSlash weapons appear more frequently\n- At 75+ [KarmaOfIndexRien_2Phase], Slash weapons appear less frequently\n- At 150+ [KarmaOfIndexRien_2Phase], Slash weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Slash weapons deal +60% damage\n- Non-Slash weapons deal -30% damage\n[WhenUse] Gain 3 [Breath] and +2 [Breath] Count\n[WinDuel] Final Power +3\n- At 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "name": "С закалённым секретом, отсечь форму",
+          "desc": "Можно столкнуться независимо от скорости\n\nПри наличии <sprite name=\"BlackNightmare\"><color=#9f6a3a><u><link=\"BlackNightmare\">Потакания предписаниям</link></u></color>:\n- Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>\n- <color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если сталкивается с Дробящим / Пронзающим навыком</u></b></mark></color>: Сила монет +2 и на 50% больше наносимого урона\n   · При поражении в столкновении против Рубящего навыка получает -2 к Силе монет и наносит на 50% меньше урона, а также не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n\nРубящее оружие появляется чаще для этого навыка\n- Рубящее оружие появляется реже при 75+ <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>\n- Рубящее оружие появляется ещё более реже при 150+ <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>\n\nУрон монет зависит от выпадающего им типа оружия:\n- Рубящее наносит на 60% больше урона, остальные типы на 30% меньше\n\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2\n[WinDuel] Итоговая сила +3 (Этот эффект не активируется при 150 и более <sprite name=\"KarmaOfIndexRien_2Phase\"><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствиях 【Фортуна】</link></u></color>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain +3 [Breath] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> <nobr>на 2</nobr>"
                 }
               ]
             }
@@ -971,26 +971,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Furioso-Replica",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>This Skill does not trigger the target's Defense Skills</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Gain 3 [Breath] and +3 [Breath] Count\n- Clash Power +5 (<color=#ff6000><mark=#ff000040><b><u>Clash Power gained is reduced by 1 for every 5 [KarmaOfIndexRien] on self, down to 0</u></b></mark></color>)\n[WhenUse] At 0+ SP, generate 1 Mang\n- Deal +20% damage; Final Power +3\n\n[WinDuel]\n- Gain 3 [Breath] and +3 [Breath] Count\n- Attack End: Inflict 3 [Laceration], 1 [Binding], and 1 [Vulnerable] next turn to all targets this unit hit\n[DefeatDuel]\n- Deal -80% final damage\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] If this Skill generated Mang, lose 20 SP\n[EndSkill] End this turn",
+          "name": "Фуриозо - Реплика",
+          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированный залп</link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышет его счётчик на 3\n[WhenUse] Сила в столкновении +5 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 5 <sprite name=\"KarmaOfIndexStudent\"></u><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 1 <nobr>Ман (望)</nobr>: получает +3 к Итоговой силе и наносит на 20% больше урона\n\n[WinDuel] Получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышет его счётчик на 3\n[WinDuel] Наносит в конце атаки 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Наносит на 80% меньше урона\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 20 СД\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reuse this Coin (7 times max)</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -1003,26 +1003,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Furioso [Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>This Skill does not trigger the target's Defense Skills</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Gain 6 [Breath] and +6 [Breath] Count\n- Clash Power +10 (<color=#ff6000><mark=#ff000040><b><u>Clash Power gained is reduced by 1 for every 5 [KarmaOfIndexRien_2Phase] on self</u></b></mark></color>)\n[WhenUse] At 0+ SP, generate 2 Mangs\n- Deal +40% damage; Final Power +5\n\n[WinDuel]\n- Attack End: Inflict 4 [Laceration], 2 [Binding], and 2 [Vulnerable] next turn to all targets this unit hit\n[DefeatDuel]\n- Deal -80% final damage\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] If this Skill generated Mang, lose 25 SP\n[EndSkill] End this turn",
+          "name": "Фуриозо<nobr>【Крещендо】</nobr>",
+          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированный залп</link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 6 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышет его счётчик на 6\n[WhenUse] Сила в столкновении +10 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 5 <sprite name=\"KarmaOfIndexRien_2Phase\"></u><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствий 【Фортуна】</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 2 <nobr>Ман (望)</nobr>: получает +5 к Итоговой силе и наносит на 40% больше урона\n\n[WinDuel] Наносит в конце атаки 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Наносит на 80% меньше урона\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 25 СД\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reuse this Coin (7 times max)</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -1035,26 +1035,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Furioso [Lacrimosa-Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>This Skill does not trigger the target's Defense Skills</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Gain 9 [Breath] and +9 [Breath] Count\n- Clash Power +15 (Clash Power gained is reduced by 1 for every 5 [KarmaOfIndexRien_2Phase] on self)\n[WhenUse] At 0+ SP, generate 3 Mangs\n- Deal +60% damage; Final Power +8\n\n[WinDuel]\n- Attack End: Inflict 5 [Laceration], 3 [Binding], and 3 [Vulnerable] next turn to all targets this unit hit\n[DefeatDuel]\n- Deal -80% final damage\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] on target\n[EndSkill] If this Skill generated Mang, lose 30 SP\n[EndSkill] End this turn",
+          "name": "Фуриозо<nobr>【Лакримоза-Крещендо】</nobr>",
+          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированный залп</link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 9 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышет его счётчик на 9\n[WhenUse] Сила в столкновении +15 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 5 <sprite name=\"KarmaOfIndexRien_2Phase\"></u><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Кармических последствий 【Фортуна】</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 3 <nobr>Ман (望):</nobr> получает +8 к Итоговой силе и наносит на 60% больше урона\n\n[WinDuel] Наносит в конце атаки 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Наносит на 80% меньше урона\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 30 СД\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reuse this Coin (7 times max)</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Sinking]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопание</link></u></color>"
                 }
               ]
             }
@@ -1067,19 +1067,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Installation Art no. 3: Improvised Ribcage",
-          "desc": "[CantDuel] [CantChangeTarget]\nPrioritizes enemy with the highest level\nThis Skill does not trigger Defense Skills\n[WhenUse] Coin Power +1 for every 8 [Laceration] on target (max 2)",
+          "name": "Инсталляция №3: Импровизированная грудная клетка",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных навыков цели\n[WhenUse] Сила монет +1 за каждые 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "This Coin does not deal HP damage"
+                  "desc": "Не наносит урона по ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 15 SP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 15 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Stagger target and turn target into [LivingSpecimenTheRings] next turn</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Оглушает цель и превращает её в <sprite name=\"LivingSpecimenTheRings\"></u><color=#e30000><u><link=\"LivingSpecimenTheRings\">Телесный театр</link></u></color><u> в следующем ходе</u></b></mark></color>"
                 }
               ]
             }
@@ -1092,32 +1092,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Anatomize",
-          "desc": "[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[DefeatDuel] Deal -80% final damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Анатомировать",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -1130,32 +1130,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gather Ingredient - Blood-bathed Objet",
-          "desc": "Prioritizes Corpus Theaters\n[WhenUse] If target has 6+ [Laceration], Coin Power +1\n[DefeatDuel] Deal -80% final damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Сбор ингредиентов - Окровавленный объект",
+          "desc": "Нацеливается на <sprite name=\"LivingSpecimenTheRings\"><color=#e30000><u><link=\"LivingSpecimenTheRings\">Телесные театры</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ResultReduction] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [ResultEnhancement] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -1168,55 +1168,55 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
-          "desc": "During the turn this unit has this Skill equipped, gain 1 [PlusCoinValueDown] and 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>when hit by Attack Skills</u></b></mark></color> (once per Skill; max 3 times per turn)\nCannot be Staggered before using this Skill\nOn Kill with this Skill: heal 15 SP for every target killed\n[StartBattle] Gain 4 [Protection]\n[WhenUse] Deal +3% damage for every 6 ([Laceration] on main target + [Laceration] on sub-target) (max 30%)\n[DefeatDuel] Deal -80% final damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] [MineTheRings] expires",
+          "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков противников перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Единожды за навык противника; до 3 раз за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 СД за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP (once per Skill)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> на следующий ход (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 }
               ]
             }
@@ -1229,22 +1229,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Oh, How We Love the Flesh and the Blood",
-          "desc": "Prioritizes The Ring Apprentice - Albina\n[DefeatDuel] Gain <color=#ff6000><mark=#ff000040><b><u>8 [AttackDmgDown] next turn</u></b></mark></color>",
+          "name": "О, как мы любим плоть и кровь",
+          "desc": "Нацеливается на Ученицу Безымянного - Альбину\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 8 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижений урона</link></u></color></u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "This Coin does not deal HP damage"
+                  "desc": "Не наносит урона по ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Если итоговой целью является противник, повышает ему счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 },
                 {
-                  "desc": "- If target is an ally, apply 6 [AttackUp] instead of the effect above"
+                  "desc": "[OnSucceedAttack] Если итоговой целью является Альбина, даёт ей 6 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> вместо этого"
                 }
               ]
             }
@@ -1257,8 +1257,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Curating the Exhibition",
-          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Gain 3 [SupportProtect]</u></b></mark></color>\n[WhenUse] The attacker does not lose [Laceration] Count before Attack End",
+          "name": "Курирование выставки",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 3 <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательных защиты</link></u></color></u></b></mark></color>\n[WhenUse] Атакующий не будет терять счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> во время этого уворота",
           "coinlist": [
             {}
           ]
@@ -1270,26 +1270,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Please. Vandalism is Prohibited.",
-          "desc": "[DuelCounter]\n[SupportProtect] exclusive Skill\nCannot be Staggered before using this Skill\n[WhenUse] Gain 1 [Protection]\n[WhenUse] If target has 6+ [Laceration], Coin Power +1",
+          "name": "Пожалуйста. Вандализм запрещён.",
+          "desc": "[DuelCounter]\n<b>Специальный навык для <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color></b>\nНе может быть оглушена до использования этого навыка\n[WhenUse] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color>\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [ResultReduction] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [ResultEnhancement] next turn"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"ResultEnhancement\"><color=#f8c200><u><link=\"ResultEnhancement\">Повышение силы</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -1302,42 +1302,42 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Time to Eat, Fascia",
-          "desc": "[DefeatDuel] Deal -80% final damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Пора кушать, Фасция",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 10 [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 SP on self"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 10 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [HumanFleshTheRings]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"HumanFleshTheRings\"><color=#f8c200><u><link=\"HumanFleshTheRings\">Телесный ингредиент</link></u></color>"
                 }
               ]
             }
@@ -1350,55 +1350,55 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Liberation of the Repressed Flesh",
-          "desc": "During the turn this unit has this Skill equipped, gain 1 [PlusCoinValueDown] and 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>when hit by Attack Skills</u></b></mark></color> (once per Skill; max 3 times per turn)\nCannot be Staggered before using this Skill\nOn Kill with this Skill: heal 15 SP for every target killed\n[StartBattle] Gain 4 [Protection]\n[WhenUse] Deal +3% damage for every 6 ([Laceration] on main target + [Laceration] on sub-target) (max 30%)\n[DefeatDuel] Deal -80% final damage and damage dealt by this Skill cannot Stagger the target\n[EndSkill] [BoneBladeTheRings] expires",
+          "name": "Освобождение подавленной плоти",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков противников перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Единожды за навык противника; до 3 раз за ход)\nНе может быть оглушена до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 СД за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP (once per Skill)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color> на следующий ход (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (Единожды за навык)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 }
               ]
             }
@@ -1411,8 +1411,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "The Exhibition Begins",
-          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u> Gain 2 [SupportProtect]</u></b></mark></color>\n[StartBattle] Gain 1 [Agility] next turn",
+          "name": "Выставка начинается",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 2 <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательных защиты</link></u></color></u></b></mark></color>\n[StartBattle] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -1424,26 +1424,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sezionatura di Coniglio",
-          "desc": "At 6+ [Breath], Coin Power +1\n[WhenUse] Base Power +1 for every 4 ([Combustion] + [Vibration]) on target (max 2)",
+          "name": "Разделка кролика",
+          "desc": "Сила монет +1 при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[WhenUse] Базовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion] and +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration] and +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик <nobr>на 3</nobr>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразование амплитуды</link></u></color> в <sprite name=\"VibrationIgnition\"><color=#e30000><u><link=\"VibrationIgnition\">Тремор — Ожог</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color> и понижает его счётчик на 1"
                 }
               ]
             }
@@ -1456,13 +1456,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Precognition",
-          "desc": "Upon successfully evading all Coins on a Skill, use \"Sezionatura di Coniglio\" as an Unopposed Attack against the attacker\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Base Power +1 for every 3 [FutureEyeOn] Stack</u></b></mark></color>\n[WhenUse] [FullReload] (once per turn)\n[OnSucceedEvade] Gain 3 [Breath] (2 times per turn)\n[OnDefeatEvade] Lose 5 SP",
+          "name": "Предвидение",
+          "desc": "При успешном увороте от всех монет атаковавшего использует на нём атаку <color=#fe6f01>「Разделка кролика」</color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Базовая сила +1 за каждые 3 единицы значения <sprite name=\"FutureEyeOn\"><color=#f8c200><u><link=\"FutureEyeOn\">Глаза предвидения</link></u></color></u></b></mark></color>\n[WhenUse] <sprite name=\"FullReload\"><color=#9f6a3a><u><link=\"FullReload\">Перезаряжается</link></u></color> (Единожды за ход)\n[OnDefeatEvade] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 2 раз за ход)"
                 }
               ]
             }
