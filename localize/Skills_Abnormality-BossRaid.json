@@ -1,224 +1,224 @@
 {
-  "dataList": [
-    {
+    "dataList": [
+        {
       "id": 500101,
       "levelList": [
         {
           "level": 1,
-          "name": "Punching",
+          "name": "Поглажу",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 3 Дробящего Урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 3 Дробящего Урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500102,
       "levelList": [
         {
           "level": 1,
-          "name": "Kicking",
+          "name": "Массаж сделаю",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 Дробящего Урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 Дробящего Урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500103,
       "levelList": [
         {
           "level": 1,
-          "name": "Payback",
+          "name": "Профилактика",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 5 SP"
+                  "desc": "[OnSucceedAttack] Цель теряет 5 IQ"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500104,
       "levelList": [
         {
           "level": 1,
-          "name": "Watch Your Back!",
-          "desc": "If target has less than 0 SP, Coin Power +3",
+          "name": "По ночам оглядывайся, мразь",
+          "desc": "Сила монет +3, если IQ цели ниже 0",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Heal 10 SP on self"
+                  "desc": "[OnSucceedAttack] Хиллит себе 10 IQ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Binding] and 2 [Reduction] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] и 2 [Reduction] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target loses 20 SP"
+                  "desc": "[OnSucceedAttack] Цель теряет 20 IQ"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500105,
       "levelList": [
         {
           "level": 1,
-          "name": "Assemble",
-          "desc": "[StartBattle] Summon 2 allies next turn",
+          "name": "Бобик, ко мне",
+          "desc": "[StartBattle] Призывает 2-х союзников на следующий ход",
           "coinlist": [
             {}
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500106,
       "levelList": [
         {
           "level": 1,
-          "name": "Make this Memorable",
+          "name": "Я те всеку потом, дай секу",
           "desc": "",
           "coinlist": [
             {}
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500107,
       "levelList": [
         {
           "level": 1,
-          "name": "MY HAIR COUPOOOOOOOOOOONS!!!",
-          "desc": "[DefeatDuel] Deal -30% final damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "МОИ КУПОНЧЕКЕЕЕЕЕЕЕЕЕЕЕ!!!",
+          "desc": "[DefeatDuel] Наносит -30% итогового урона. Урон от этого Скилла не может Застеггерить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise Stagger Threshold by 30"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает порог Стаггера на 30"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Paralysis] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 5"
+                  "desc": "[OnSucceedAttack] Понижает [RicardoBookRaid] цели на 5"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500108,
       "levelList": [
         {
           "level": 1,
-          "name": "Promised Suffering",
-          "desc": "Prioritizes targets that have the highest [RicardoBookRaid] Stack\n[WhenUse] If target has <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> convert all Coins on this Skill to [SuperCoin]s",
+          "name": "Покусай бордюр, уебок",
+          "desc": "В приоритете цели с самым высоким стаком [RicardoBookRaid]\n[WhenUse] Если цель имеет <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> то все Монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на этот и следующий Ходы"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] this turn and next turn"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на этот и следующий Ходы"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict ([RicardoBookRaid] on target x 3) Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит ([RicardoBookRaid] на цели x 3) дополнительного Дробящего Урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 3"
+                  "desc": "[OnSucceedAttack] Понижает [RicardoBookRaid] цели на 3"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500109,
       "levelList": [
         {
           "level": 1,
-          "name": "Enough Games",
-          "desc": "[StartBattle] Heal 20 SP\n[EndBattle] Gain 5 [Enhancement] next turn",
+          "name": "Броня сальных волос",
+          "desc": "[StartBattle] Хиллит 20 IQ\n[EndBattle] Получает 5 [Enhancement] на следующий ход",
           "coinlist": [
             {}
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500110,
       "levelList": [
         {
           "level": 1,
-          "name": "COMPLETE AND TOTAL EXTERMINATION!!!",
-          "desc": "[DefeatDuel] Deal -30% final damage and damage dealt by this Skill cannot Stagger the target",
+          "name": "Я ЖЕ ОБЕЩАЛ КАЖДОГО НА ХУЮ ПРОКРУТИТЬ!!!",
+          "desc": "[DefeatDuel] Наносит -30% итогового урона. Урон от этого Скилла не может Застеггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -226,24 +226,24 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal damage equal to 3% of target's max HP for every [RicardoBookRaid] on target"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит урон равный 3% от максимального HP за каждый [RicardoBookRaid] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 10"
+                  "desc": "[OnSucceedAttack] Понижает [RicardoBookRaid] цели на 10"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500111,
       "levelList": [
         {
           "level": 1,
-          "name": "Ah, You Were One of the Fam",
-          "desc": "[StartBattle] All of The Middle-faction units heal 10 SP",
+          "name": "Ой миддлы вы дома а я думал вы нахуй пошли",
+          "desc": "[StartBattle] Каждый юнит МГЕ братьев хиллит 10 IQ",
           "coinlist": [
             {},
             {},
@@ -251,14 +251,14 @@
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500112,
       "levelList": [
         {
           "level": 1,
-          "name": "TRICKED ME, DID YOU??!!",
-          "desc": "[StartBattle] Lose 20 SP\n[StartBattle] Gain 6 [AttackUp]\n[StartBattle] Gain 4 [Vulnerable]",
+          "name": "ТАК МИДДЛЫ ВСЁ ЖЕ НАХУЙ ПОШЛИ??!!",
+          "desc": "[StartBattle] Теряет 20 IQ\n[StartBattle] Получает 6 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color>\n[StartBattle] Получает 4 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -270,72 +270,72 @@
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500113,
       "levelList": [
         {
           "level": 1,
-          "name": "Swear Vengeance",
-          "desc": "[EndBattle] Gain 3 [AttackUp] next turn\n- If the Slot using this Skill <color=#ff6000><mark=#ff000040><b><u>is a main target of an Attack Skill</u></b></mark></color>, gain 1 less [AttackUp] Stack from this effect",
+          "name": "Всё, я готов, щас я те всеку",
+          "desc": "[EndBattle] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход\n- Если слот, использующий этот Скилл, <color=#ff6000><mark=#ff000040><b><u>является основной целью Атакующего Скилла</u></b></mark></color>, получает меньше Стаков <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на 1 от этого эффекта",
           "coinlist": [
             {}
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500114,
       "levelList": [
         {
           "level": 1,
-          "name": "IMMEDIATE, COMPLETE, AND TOTAL EXTERMINATION!",
+          "name": "ПРОКРУЧУ НА ХУЮ СЕЙЧАС, МОЩНО И БЫСТРО!",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target"
+                  "desc": "[OnSucceedAttack] Наносит урон равный 1% от максимального HP за каждый [RicardoBookRaid] на цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target"
+                  "desc": "[OnSucceedAttack] Наносит урон равный 1% от максимального HP за каждый [RicardoBookRaid] на цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target"
+                  "desc": "[OnSucceedAttack] Наносит урон равный 1% от максимального HP за каждый [RicardoBookRaid] на цели"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500115,
       "levelList": [
         {
           "level": 1,
-          "name": "No More Tests",
-          "desc": "[WhenUse] Gain 3 [HitDamageUp] next turn\n[WhenUse] If the main target has <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s",
+          "name": "Не бойтесь деточки, больно не будет",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Повышения дробящего урона</link></u></color> на следующий ход\n[WhenUse] Если основная цель имеет <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, все Монеты Скилла становятся [<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>",
           "coinlist": [
             {},
             {}
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500116,
       "levelList": [
         {
           "level": 1,
-          "name": "Mercy of the Big Brother",
+          "name": "Попаду - Выебу, нежно",
           "desc": "",
           "coinlist": [
             {
@@ -344,42 +344,42 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Reduce [RicardoBookRaid] on target by 10</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Понижает [RicardoBookRaid] цели на 10 </u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Stagger target</u></b></mark></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Стаггерит цель</u></b></mark></color>"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500301,
       "levelList": [
         {
           "level": 1,
-          "name": "Seize ya Chance",
-          "desc": "[BeforeHit] Gain 5 Shield for every [MiddleFingerBook] on the target (once per turn; max 50)\n[WhenUse] If target has 5+ [MiddleFingerBook], Base Power +3; inflict 4 [DefenseDown]",
+          "name": "Я уже красный блять",
+          "desc": "[BeforeHit] Получает 5 Щита за каждый [MiddleFingerBook] на цели (раз за ход; максимум 50)\n[WhenUse] Если на цели 5+ [MiddleFingerBook], Базовая Сила +3; Наносит 4 [DefenseDown]",
           "coinlist": [
             {}
           ]
         }
       ]
-    },
-    {
+        },
+        {
       "id": 500401,
       "levelList": [
         {
           "level": 1,
-          "name": "Multifold Retribution",
+          "name": "Слабейший каунтр",
           "desc": "",
           "coinlist": [
             {}
           ]
         }
       ]
-    }
-  ]
+        }
+    ]
 }
