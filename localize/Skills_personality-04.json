@@ -2970,7 +2970,6 @@
       "id": "1041406"
     },
     {
-      "id": 1041501,
       "levelList": [
         {
           "level": 1,
@@ -3110,13 +3109,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041501"
     },
     {
-      "id": 1041502,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Tripleslash - Echoshear [三連 - 殘]",
           "desc": "[WhenUse] Получает +2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
@@ -3156,7 +3155,7 @@
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "Tripleslash - Echoshear [三連 - 殘]",
           "desc": "<style=\"highlight\">[WhenUse] При 6+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, Сила Монет +1</style>\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
@@ -3196,7 +3195,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Tripleslash - Echoshear [三連 - 殘]",
           "desc": "[WhenUse] При 6+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, Сила Монет +1</style>\n<style=\"highlight\">[WhenUse] Финальная Сила +1 за каждые 6 ([Combustion] + [Laceration]) на цели (макс. 2)</style>\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
@@ -3235,13 +3234,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041502"
     },
     {
-      "id": 1041503,
       "levelList": [
         {
-          "level": 3,
+          "level": "3",
           "name": "Rend Space [空間斬]",
           "desc": "[WhenUse] Финальная Сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (Макс. 5)\n[WhenUse] Наносит +5% урона за каждый [SojiRyoshuEchoPast] на себе\n[WhenUse] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Получает +1 Веса Атаки за каждые 2 [SojiRyoshuEchoPast] на себе (макс. 2)\n[WhenUse] Наносит +15% урона за каждые лишние Веса Атаки сверх фактического количества целей (в Фокусированных столкновениях - Частей тела)\n[EndSkill] Случайно накладывает ([SojiRyoshuEchoPast] на себе + 10) [PhantomIncisionID] между целями, которые поразил этот Скилл",
           "flavor": "\"The Way of the Blade, huh? Yeah, sticking to a single path like a one-track-minded dumbass'll eventually get ya to cut stuff like space too. Oh, but don't flatter yourself—it just makes the split space shimmer for a bit like in the heat haze. Give it some time, and the cut closes like it was never even there in the first place.\"",
@@ -3271,7 +3270,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Rend Space [空間斬]",
           "desc": "[WhenUse] Финальная Сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (Макс. 5)\n<style=\"highlight\">[WhenUse] Базовая Сила +1 за каждые 6 ([Combustion] + [Laceration]) на основной цели (макс. 5)</style>\n[WhenUse] Наносит +5% урона за каждый [SojiRyoshuEchoPast] на себе\n[WhenUse] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Получает +1 Веса Атаки за каждые 2 [SojiRyoshuEchoPast] на себе (макс. 2)\n[WhenUse] Наносит +30% урона за каждые лишние Веса Атаки сверх фактического количества целей (в Фокусированных столкновениях - Частей тела)\n[EndSkill] Случайно накладывает ([SojiRyoshuEchoPast] на себе + 10) [PhantomIncisionID] между целями, которые поразил этот Скилл",
           "flavor": "\"The Way of the Blade, huh? Yeah, sticking to a single path like a one-track-minded dumbass'll eventually get ya to cut stuff like space too. Oh, but don't flatter yourself—it just makes the split space shimmer for a bit like in the heat haze. Give it some time, and the cut closes like it was never even there in the first place.\"",
@@ -3300,10 +3299,10 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041503"
     },
     {
-      "id": 1041504,
       "levelList": [
         {
           "level": 1,
@@ -3311,7 +3310,9 @@
           "desc": "[StartBattle] Выбирает 1 Союзника из Дома Пидоров с самым поздним порядком высадки (2 раза за ход)\n- При 1+ [SojiRyoshuEntangle], выбирает 1 дополнительного союзника\n- Когда у Цели заканчиваются все использованные в этом ходу скиллы, либо если Цель в Стаггере, либо если Цель больше не имеет доступных скиллов, использует на цели \"Slay the Heavens - Tiansha\" в качестве односторонней атаки (раз за Айдишку).\n - Дом Пидоров: агрессивный Фембой Синклер последний в приоритете\n[StartBattle] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (раз за ход)",
           "flavor": "\"What you're pursuing is my phantom.\"",
           "coinlist": [
-            {}
+            {
+              "coindescs": []
+            }
           ]
         },
         {
@@ -3320,13 +3321,15 @@
           "desc": "[StartBattle] Выбирает 1 Союзника из Дома Пидоров с самым поздним порядком высадки (2 раза за ход)\n- При 1+ [SojiRyoshuEntangle], выбирает 1 дополнительного союзника\n- Когда у Цели заканчиваются все использованные в этом ходу скиллы, либо если Цель в Стаггере, либо если Цель больше не имеет доступных скиллов, использует на цели \"Slay the Heavens - Tiansha\" в качестве односторонней атаки (раз за Айдишку).\n - Дом Пидоров: агрессивный Фембой Синклер последний в приоритете\n[StartBattle] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (раз за ход)\n<style=\"highlight\">[OnSucceedEvade] Получает 1 [Breath] (3 раза за ход)",
           "flavor": "\"What you're pursuing is my phantom.\"",
           "coinlist": [
-            {}
+            {
+              "coindescs": []
+            }
           ]
         }
-      ]
+      ],
+      "id": "1041504"
     },
     {
-      "id": 1041505,
       "levelList": [
         {
           "level": 1,
@@ -3346,10 +3349,10 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041505"
     },
     {
-      "id": 1041506,
       "levelList": [
         {
           "level": 1,
@@ -3378,13 +3381,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041506"
     },
     {
-      "id": 1041507,
       "levelList": [
         {
-          "level": 3,
+          "level": "3",
           "name": "Rend Space - Echoshear [空間斬 - 殘]",
           "desc": "[WhenUse] За каждые [SojiRyoshuEntangle] на себе, Скилл теряет 1 Базовую Силу и получает дополнительную 1 Монету перед использованием 2-й Монеты\n[WhenUse] Финальная Монета получает 1+ к Силе Монет за каждые [SojiRyoshuEchoPast] на себе\n[WhenUse] Наносит +30% урона за каждые лишние Веса Атаки сверх фактического количества целей (в Фокусированных столкновениях - Частей тела)\n[EndSkill] Повышает Мин. & Макс. предел Стака [SojiRyoshuEchoPast] на 1 и опускает [SojiRyoshuEchoPast] до минимального Стака на себе (макс. 2 раза за Бой)\n[EndSkill] Расходует 50 [PhantomIncisionTotalID]",
           "flavor": "\"This indeed paves a new avenue in the field of space-rending techniques.\"\n\"Have you heard? One might think that rending the very fabric of space is the culmination of the Way of the Blade, but the path extends beyond that. Continue training, and one develops their own unique style of doing so. It adds another layer of artistry by leaving an unconventional touch to the universal technique, allowing for the rent to linger or, sometimes, even be reduced into the flash of an instant.\"\n\"It is somewhat of a point of pride for those who walk the Way of the Blade, meaning that it is also a frequent point of contention in the field. Fuhu, it is reminiscent of the days I used to engage in discourse of comparable belligerence with the other Maestros.\"",
@@ -3423,13 +3426,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041507"
     },
     {
-      "id": 1041508,
       "levelList": [
         {
-          "level": 3,
+          "level": "3",
           "name": "Rend Space - String Connection [空間斬 - 緣]",
           "desc": "[CantDuel]\nЭтот Скилл не триггерит Защитные Скиллы цели\n[WhenUse] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</color></link></u></color>\n[WhenUse] Получает [SojiRyoshuShin]\n[EndSkill] Убирает первую границу Стаггера этого юнита (раз за бой)",
           "flavor": "\"Taxidermied and immobilized does the foe lie in the trace the blade has rent in space.\"\n\"Such bladework is oft of utter keenness that its victims know not that they have been hewn; or even if they are somehow cognizant of the fact, they are affixed by a bladetrail that has seized the space they inhabit, only to bleed when the moment passes.\"\n\"Yet... the difference lies in how it cuts.\"\n\"The blade has indeed hewn but a singular trace, yet in sheathing it the wielder has conjured in their mind the multitude of slashes that have followed the same path—a most precise technique.\"\n\"Hm. Oft have I come across techniques such as that slash in the days following the incident, techniques that seem to contradict the very nature of causality.\"",
@@ -3453,7 +3456,8 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1041508"
     }
   ]
 }
