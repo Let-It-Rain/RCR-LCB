@@ -357,7 +357,7 @@
         {
           "level": 1,
           "name": "Предвидение",
-          "desc": "При успешном увороте от всех монет атаковавшего использует атаку <color=#fe6f01>「Разделка кролика」</color> на нём\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Базовая сила +1 за каждые 2 единицы значения <sprite name=\"FutureEyeOn\"><color=#f8c200><u><link=\"FutureEyeOn\">Глаза предвидения</link></u></color></u></b></mark></color>\n[WhenUse] <sprite name=\"FullReload\"><color=#9f6a3a><u><link=\"FullReload\">Перезаряжается</link></u></color> (один раз за ход)\n[OnDefeatEvade] Теряет 5 IQ",
+          "desc": "При успешном увороте от всех монет атаковавшего использует атаку <color=#fe6f01>「Разделка кролика」</color> на нём\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Базовая сила +1 за каждые 2 единицы значения <sprite name=\"FutureEyeOn\"><color=#f8c200><u><link=\"FutureEyeOn\">Глаза предвидения</link></u></color></u></b></mark></color>\n[WhenUse] <sprite name=\"FullReload\"><color=#9f6a3a><u><link=\"FullReload\">Перезаряжается</link></u></color> (Один раз за ход)\n[OnDefeatEvade] Теряет 5 IQ",
           "coinlist": [
             {
               "coindescs": [
@@ -496,7 +496,7 @@
         {
           "level": 1,
           "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -507,7 +507,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (Один раз  за навык)"
                 }
               ]
             },
@@ -520,7 +520,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -533,7 +533,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -794,7 +794,7 @@
         {
           "level": 1,
           "name": "Освобождение сдерживаемой плоти",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушена до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить целей\n[EndSkill] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушена до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить целей\n[EndSkill] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -805,7 +805,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (Один раз  за навык)"
                 }
               ]
             },
@@ -818,7 +818,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -831,7 +831,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -2149,7 +2149,7 @@
         {
           "level": 1,
           "name": "Бичевание императора",
-          "desc": "Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 100%)\nНаносит на 10% больше урона за каждых 2 <sprite name=\"OffenseBug\"><color=#9f6a3a><u><link=\"OffenseBug\">Вредящих паразитов</link></u></color> на цели (До 250%)\n[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[StartDuel] Теряет 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "desc": "Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 100%)\nНаносит на 10% больше урона за каждых 2 <sprite name=\"OffenseBug\"><color=#9f6a3a><u><link=\"OffenseBug\">Вредящих паразитов</link></u></color> на цели (До 250%)\n[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> на 10\n[StartDuel] Теряет 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2167,7 +2167,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> и наносит на (Потраченный счётчик × 20)% больше урона"
+                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Солей</link></u></color> и наносит на (Потраченный счётчик × 20)% больше урона"
                 }
               ]
             }
@@ -2489,7 +2489,7 @@
         {
           "level": 1,
           "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
-          "desc": "[CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>",
+          "desc": "[CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2500,7 +2500,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (Один раз  за навык)"
                 }
               ]
             },
@@ -2513,7 +2513,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -2526,7 +2526,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -2572,7 +2572,7 @@
         {
           "level": 1,
           "name": "Освобождение сдерживаемой плоти",
-          "desc": "[CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушена до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>",
+          "desc": "[CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Один раз  за навык противника; до 3 раз за ход)\nНе может быть оглушена до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 30%)\n[DefeatDuel] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>\n[DefeatDuel] Наносит на 60% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"BoneBladeTheRings\"><color=#f8c200><u><link=\"BoneBladeTheRings\">Произведение искусства: Фасция</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2583,7 +2583,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 IQ (Один раз  за навык)"
                 }
               ]
             },
@@ -2596,7 +2596,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Один раз  за навык)"
                 }
               ]
             },
@@ -2609,7 +2609,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (один раз  за навык)"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход (Один раз  за навык)"
                 }
               ]
             },
