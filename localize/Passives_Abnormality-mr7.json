@@ -18,12 +18,12 @@
     {
       "id": 135503,
       "name": "Unlock",
-      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 90%-/70%-/50%- HP,\n- Gain [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Heal to 45 IQ\n- Consume all [PressureOfPrescript] and recover from Stagger\n- Gain 1 [BlessingOfIndexPrescriptEnemy] in the turn after [UnlockBuff_Base] was gained for the first time\n\nIf [UnlockBuff_Base] was gained based on HP conditional above,\n- Gain [KarmaOfIndexStudent] by (sum of healed IQ / 15)\n- Increase [BlessingOfIndexPrescriptEnemy] to 3/6/9 if this unit had less than 3/6/9 [BlessingOfIndexPrescriptEnemy]; gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] next turn for every [BlessingOfIndexPrescriptEnemy] Stack gained\n\nMin & Max Speed +10 in the turn this unit uses its powerful attack"
+      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 90%-/70%-/50%- ХП,\n- Gain [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Heal to 45 IQ\n- Consume all [PressureOfPrescript] and recover from Stagger\n- Gain 1 [BlessingOfIndexPrescriptEnemy] in the turn after [UnlockBuff_Base] was gained for the first time\n\nIf [UnlockBuff_Base] was gained based on ХП conditional above,\n- Gain [KarmaOfIndexStudent] by (sum of healed IQ / 15)\n- Increase [BlessingOfIndexPrescriptEnemy] to 3/6/9 if this unit had less than 3/6/9 [BlessingOfIndexPrescriptEnemy]; gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] next turn for every [BlessingOfIndexPrescriptEnemy] Stack gained\n\nMin & Max Speed +10 in the turn this unit uses its powerful attack"
     },
     {
       "id": 135505,
       "name": "Concentration",
-      "desc": "At [UnlockBuff_3], apply the following effects:\n- [BlandishmentShinEnemyDelete], gain Shield equal to 50% of max HP (lasts for the rest of this Encounter)\n- Intensify [PressureOfPrescript] to [PressureOfPrescript_2nd] and max out its Stack\n- Turn Start: Gain 1 [PressureOfPrescript_2nd]"
+      "desc": "At [UnlockBuff_3], apply the following effects:\n- [BlandishmentShinEnemyDelete], gain Shield equal to 50% of max ХП (lasts for the rest of this Encounter)\n- Intensify [PressureOfPrescript] to [PressureOfPrescript_2nd] and max out its Stack\n- Turn Start: Gain 1 [PressureOfPrescript_2nd]"
     },
     {
       "id": 141801,
@@ -65,14 +65,14 @@
     {
       "id": 137905,
       "name": "La Spada di Palermo",
-      "desc": "Deal +15% more damage against Shields for every Burn on the main target (max 300%)\nOn Skill Use, if target's Attack Skill is either a Slash or a Pierce Skill, Clash Power +1\nIf this unit's Skill effects triggered [VibrationExplosion], gain 2 [AttackDmgUp] next turn (3 times per turn)\nIf this unit hit Critically with its Skill effects, heal 5 SP",
+      "desc": "Deal +15% more damage against Shields for every Burn on the main target (max 300%)\nOn Skill Use, if target's Attack Skill is either a Slash or a Pierce Skill, Clash Power +1\nIf this unit's Skill effects triggered [VibrationExplosion], gain 2 [AttackDmgUp] next turn (3 times per turn)\nIf this unit hit Critically with its Skill effects, heal 5 IQ",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 137904,
       "name": "The Shame of Famiglia Bognatelli",
-      "desc": "Take -30% HP, SP damage from [Combustion], [Laceration], [Burst], [Sinking]; -30% to Stagger Threshold raised by [Vibration]\nAt 1+ [AccelBullet], Skills that spend [AccelBullet] deal +30% damage and deal +150% damage against Shields\nGain 4 [Breath] for every [AccelBullet] spent\nWhen flipping a Coin that spends [AccelBullet], does not cancel the attack even if this unit does not have Acceleration Round",
+      "desc": "Take -30% ХП, IQ damage from [Combustion], [Laceration:*Кетчупа*], [Burst:*Зелёнки*] , [Sinking:*Депрессии*] ; -30% to Stagger Threshold raised by [Vibration]\nAt 1+ [AccelBullet], Skills that spend [AccelBullet] deal +30% damage and deal +150% damage against Shields\nGain 4  [Breath:*Кумара*] for every [AccelBullet] spent\nWhen flipping a Coin that spends [AccelBullet], does not cancel the attack even if this unit does not have Acceleration Round",
       "summary": "",
       "undefined": "-",
       "flavor": "\"You were an inheritor of the Palermitan style and a wielder of our family heirloom—you had every privilege one could ever hope for. How dare you embarrass yourself like this?\"\n\"We'll let you keep the Relic and the sword, for they have been defiled by your dishonorable stench.\"\n\"To be promoted to the station of a Sottocapo, an Underboss... only to be ousted in a mere 3 days. No one else has suffered such pathetic humiliation apart from you, Valencina.\"\n\"You are the shame of our family. La Famiglia Bognatelli withdraws its love from you.\""
@@ -103,7 +103,7 @@
     {
       "id": 138201,
       "name": "Vengeance Tattoos [<s>Great Brother</s>]",
-      "desc": "Takes -30% damage from [Combustion], [Laceration], [Vibration], and [Burst] (rounded down)\n-50% to the amount of Stagger Threshold raised (rounded down)",
+      "desc": "Takes -30% damage from [Combustion], [Laceration:*Кетчупа*], [Vibration], and [Burst:*Зелёнки*]  (rounded down)\n-50% to the amount of Stagger Threshold raised (rounded down)",
       "summary": "",
       "undefined": "-"
     },
@@ -124,7 +124,7 @@
     {
       "id": 138204,
       "name": "Resentment",
-      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpider] and lose 1 [DaughterEducationSpider] (number of hits taken is always tracked)\n\nAt max [ResentmentSpider] Stack, use a powerful attack\n\nTurn End: At less than 90% / 60% / 40% HP, max out this unit's [ResentmentSpider] Stack"
+      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpider] and lose 1 [DaughterEducationSpider] (number of hits taken is always tracked)\n\nAt max [ResentmentSpider] Stack, use a powerful attack\n\nTurn End: At less than 90% / 60% / 40% ХП, max out this unit's [ResentmentSpider] Stack"
     },
     {
       "id": 138205,
@@ -134,7 +134,7 @@
     {
       "id": 138801,
       "name": "Am I doing this right, Papa?!",
-      "desc": "Begins Encounter with [HeatingWireOffSpider]\n\nTurn Start: At 3+ [GotACompliment], gain [HeatingWireOnSpider] and also inflict [Combustion] with Skills that inflict [Laceration]\n- Turn End: At less than 3 [GotACompliment], convert this unit's [HeatingWireOnSpider] to [HeatingWireOffSpider]\n\nIf \"Опекун Среднего - Matthias\" has [MiddleFatherSwordFour], this unit does not enter [HeatingWireOffSpider] state",
+      "desc": "Begins Encounter with [HeatingWireOffSpider]\n\nTurn Start: At 3+ [GotACompliment], gain [HeatingWireOnSpider] and also inflict [Combustion] with Skills that inflict [Laceration:*Кетчупа*]\n- Turn End: At less than 3 [GotACompliment], convert this unit's [HeatingWireOnSpider] to [HeatingWireOffSpider]\n\nIf \"Опекун Среднего - Matthias\" has [MiddleFatherSwordFour], this unit does not enter [HeatingWireOffSpider] state",
       "flavor": "\"I like my papa because he always praises me and buys me comic books.\""
     },
     {
@@ -155,14 +155,14 @@
     {
       "id": 138804,
       "name": "I'm pretty sure the Middle never forgets",
-      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpiderDaughter] and lose 1 [GotACompliment] (number of hits taken is always tracked)\n\nAt max [ResentmentSpiderDaughter] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% HP, max out this unit's [ResentmentSpiderDaughter] Stack",
+      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpiderDaughter] and lose 1 [GotACompliment] (number of hits taken is always tracked)\n\nAt max [ResentmentSpiderDaughter] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% ХП, max out this unit's [ResentmentSpiderDaughter] Stack",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 138001,
       "name": "Риен, Опекун Указательного",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Take -50% damage from Unopposed Attacks</u></b></mark></color>\nTake -50% damage from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]\nWhen healing SP from [UnlockBuff_Base], if this unit's SP is below 15, heal SP up to 15\n\nEncounter Start: Gain [BurningWoundRien_Mask] and heal SP up to 30\n\nAt 55%- HP, end the turn and gain a new pattern\n- Remove all effects other than those exclusive to this unit\n- At less than 9 [StackRienSpecialSkill], change [StackRienSpecialSkill] Stack to 9",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Take -50% damage from Unopposed Attacks</u></b></mark></color>\nTake -50% damage from [Combustion], [Laceration:*Кетчупа*], [Vibration], [Burst:*Зелёнки*] , and [Sinking:*Депрессии*] \nWhen healing IQ from [UnlockBuff_Base], if this unit's IQ is below 15, heal IQ up to 15\n\nEncounter Start: Gain [BurningWoundRien_Mask] and heal IQ up to 30\n\nAt 55%- ХП, end the turn and gain a new pattern\n- Remove all effects other than those exclusive to this unit\n- At less than 9 [StackRienSpecialSkill], change [StackRienSpecialSkill] Stack to 9",
       "flavor": "I waited for \"the moment\" as the Prescript told me to.\nEven after my darling daughter left, I waited.\n\nAnd after a while, I was contacted by Limbus Company, and saw that the Backdoor was open.\nThat's when the device beeped and let me know that it was finally time to bring my daughter home."
     },
     {
@@ -174,25 +174,25 @@
     {
       "id": 138003,
       "name": "Will of the Prescript",
-      "desc": "Turn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- Apply [IndexPrescriptTargetToPersonality] against a random Sinner, and prioritize attacking them\n<color=#ff6000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n\nWhen attacking, if [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff6000><mark=#ff000040><b><u>use the remaining Skills against a random other Sinner\n- Prioritizes targets with the least current HP, unless they have 1 HP</u></b></mark></color>\n- When the randomly chosen Sinner is killed, or if the said Sinner's HP is brought down to 1, repeat this effect on another Sinner\n\nDeal +2.5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage against all targets",
+      "desc": "Turn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- Apply [IndexPrescriptTargetToPersonality] against a random Sinner, and prioritize attacking them\n<color=#ff6000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n\nWhen attacking, if [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff6000><mark=#ff000040><b><u>use the remaining Skills against a random other Sinner\n- Prioritizes targets with the least current ХП, unless they have 1 ХП</u></b></mark></color>\n- When the randomly chosen Sinner is killed, or if the said Sinner's ХП is brought down to 1, repeat this effect on another Sinner\n\nDeal +2.5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage against all targets",
       "flavor": "Do you wish me to raise a family?\n\n\"It must've been fate that brought us together. To think that I'd ever meet a husband like you...\""
     },
     {
       "id": 138004,
       "name": "Undertake Prescript",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 10 SP and gain 3 [BlessingOfIndexPrescriptEnemy] (once per turn)\n\n<color=#ff6000><mark=#ff000040><b><u>Turn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 8 [KarmaOfIndexRien]</u></b></mark></color>\n- If this unit does not have [UnlockBuff_Base], gain 1 [BlessingOfIndexPrescriptEnemy] at Turn End\n- At 9 [BlessingOfIndexPrescriptEnemy], does not gain [KarmaOfIndexRien]",
+      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 10 IQ and gain 3 [BlessingOfIndexPrescriptEnemy] (once per turn)\n\n<color=#ff6000><mark=#ff000040><b><u>Turn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 8 [KarmaOfIndexRien]</u></b></mark></color>\n- If this unit does not have [UnlockBuff_Base], gain 1 [BlessingOfIndexPrescriptEnemy] at Turn End\n- At 9 [BlessingOfIndexPrescriptEnemy], does not gain [KarmaOfIndexRien]",
       "flavor": "Do you wish me to lose my family?\n\n\"Honey, I gotta take a quick trip up north today.\"\n\"Ah, also—hey, buddy. I'm expecting a package this afternoon, so would you be a dear and pick it up for me, sweetheart?\""
     },
     {
       "id": 138005,
       "name": "Unlock",
-      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 95%-/85%-/75%- HP,\n- Gain [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nTurn 1 End: At lower than [UnlockBuff_Base] stage 1, gain [UnlockBuff_Rien1]\nTurn 2 End: At lower than [UnlockBuff_Base] stage 2, gain [UnlockBuff_Rien2]\n\nWhen gaining [UnlockBuff_Base] for the first time, if this unit's SP is below 15, heal up to 15 SP\n\nWhen [UnlockBuff_Base] is activated due to HP or Turn conditionals:\n- At less than 3/6/9 [BlessingOfIndexPrescriptEnemy] Stack, raise the Stack to 3/6/9 and gain 5 [KarmaOfIndexRien] at the next Turn Start for every Stack gained",
+      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 95%-/85%-/75%- ХП,\n- Gain [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nTurn 1 End: At lower than [UnlockBuff_Base] stage 1, gain [UnlockBuff_Rien1]\nTurn 2 End: At lower than [UnlockBuff_Base] stage 2, gain [UnlockBuff_Rien2]\n\nWhen gaining [UnlockBuff_Base] for the first time, if this unit's IQ is below 15, heal up to 15 IQ\n\nWhen [UnlockBuff_Base] is activated due to ХП or Turn conditionals:\n- At less than 3/6/9 [BlessingOfIndexPrescriptEnemy] Stack, raise the Stack to 3/6/9 and gain 5 [KarmaOfIndexRien] at the next Turn Start for every Stack gained",
       "flavor": "\"Following the Prescripts is to unlock what is locked.\""
     },
     {
       "id": 138101,
       "name": "Риен, the Father [Imitation]",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Take -75% damage from Unopposed Attacks</u></b></mark></color>\nTake -75% damage from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]\nWhen healing SP from [UnlockBuff_Base], if this unit's SP is below 15, heal up to 15 SP\n\nWhen this unit enters a new phase at 55% HP, gain the following effects:\n- Remove all effects other than those exclusive to this unit\n- Gain [IndexPrescript_RienSecondPhase]\n- Convert [BurningWoundRien_Mask] to [BurningWoundRien]\n- Convert [KarmaOfIndexRien] to [KarmaOfIndexRien_2Phase]; then gain 10 Stacks of that effect\n- If this unit does not have [Shin_Rien], immediately gain that effect\n\nAt 25% or lower HP, gain a new pattern and greatly enhance a certain Skill",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Take -75% damage from Unopposed Attacks</u></b></mark></color>\nTake -75% damage from [Combustion], [Laceration:*Кетчупа*], [Vibration], [Burst:*Зелёнки*] , and [Sinking:*Депрессии*] \nWhen healing IQ from [UnlockBuff_Base], if this unit's IQ is below 15, heal up to 15 IQ\n\nWhen this unit enters a new phase at 55% ХП, gain the following effects:\n- Remove all effects other than those exclusive to this unit\n- Gain [IndexPrescript_RienSecondPhase]\n- Convert [BurningWoundRien_Mask] to [BurningWoundRien]\n- Convert [KarmaOfIndexRien] to [KarmaOfIndexRien_2Phase]; then gain 10 Stacks of that effect\n- If this unit does not have [Shin_Rien], immediately gain that effect\n\nAt 25% or lower ХП, gain a new pattern and greatly enhance a certain Skill",
       "flavor": "Once, he harbored a suspicion that he was being shaped into an imitation of someone; he doubted the Will and nearly defied it, for he did not know whom he was to mimic. Only when it was too late did he understand its intent and come to accept the Prescript's will.\nOnly then was the false father completed."
     },
     {
@@ -204,19 +204,19 @@
     {
       "id": 138103,
       "name": "Will of the Prescript",
-      "desc": "Turn Start:\n- Apply [IndexPrescriptTargetToPersonality] against a random Sinner, and prioritize attacking them\n<color=#ff6000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n- Gain [Protection] equal to [BlessingOfIndexPrescriptEnemy] (max 9)\n<color=#ff6000><mark=#ff000040><b><u>\n· Lose 1 Stack for every 20 [KarmaOfIndexRien_2Phase]</u></b></mark></color>\n\nWhen attacking, if [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff6000><mark=#ff000040><b><u>use the remaining Skills against a random other Sinner\n- Prioritizes targets with the least current HP, unless they have 1 HP\n- When the randomly chosen Sinner is killed, or if the said Sinner's HP is brought down to 1, repeat this effect on another Sinner</u></b></mark></color>\n\nDeal +5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 40%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +50% damage against all targets\n\nStarting from the first turn after the phase change, activate the following effects:\n- Turn Start: Gain [BlackNightmare]\n· If this unit used a powerful attack in the previous turn, lose [BlackNightmare] for that turn\n- When gaining [BlackNightmare], if this unit has fewer than 9 [StackRienSpecialSkill] Stacks, activate a unique pattern",
+      "desc": "Turn Start:\n- Apply [IndexPrescriptTargetToPersonality] against a random Sinner, and prioritize attacking them\n<color=#ff6000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n- Gain [Protection] equal to [BlessingOfIndexPrescriptEnemy] (max 9)\n<color=#ff6000><mark=#ff000040><b><u>\n· Lose 1 Stack for every 20 [KarmaOfIndexRien_2Phase]</u></b></mark></color>\n\nWhen attacking, if [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff6000><mark=#ff000040><b><u>use the remaining Skills against a random other Sinner\n- Prioritizes targets with the least current ХП, unless they have 1 ХП\n- When the randomly chosen Sinner is killed, or if the said Sinner's ХП is brought down to 1, repeat this effect on another Sinner</u></b></mark></color>\n\nDeal +5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 40%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +50% damage against all targets\n\nStarting from the first turn after the phase change, activate the following effects:\n- Turn Start: Gain [BlackNightmare]\n· If this unit used a powerful attack in the previous turn, lose [BlackNightmare] for that turn\n- When gaining [BlackNightmare], if this unit has fewer than 9 [StackRienSpecialSkill] Stacks, activate a unique pattern",
       "flavor": "I raised a family.\n\n\"You're not supposed to be here right now.\"\n\"My work is still much underway, and I'd like to carve them up in peace so they can attain the most exquisite beauty I can sculpt.\"\n\"... Don't tell me, are you here to defy the Prescript?\""
     },
     {
       "id": 138104,
       "name": "Undertake Prescript",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 15 SP and gain 1 [BlessingOfIndexPrescriptEnemy] (once per turn)\n\n<color=#ff6000><mark=#ff000040><b><u>Turn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 8 [KarmaOfIndexRien_2Phase] and lose 1 [BlessingOfIndexPrescriptEnemy]</u></b></mark></color>\n- If this unit used a powerful Skill this turn, gain 12 [KarmaOfIndexRien_2Phase] and lose 2 [BlessingOfIndexPrescriptEnemy] instead",
+      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 15 IQ and gain 1 [BlessingOfIndexPrescriptEnemy] (once per turn)\n\n<color=#ff6000><mark=#ff000040><b><u>Turn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 8 [KarmaOfIndexRien_2Phase] and lose 1 [BlessingOfIndexPrescriptEnemy]</u></b></mark></color>\n- If this unit used a powerful Skill this turn, gain 12 [KarmaOfIndexRien_2Phase] and lose 2 [BlessingOfIndexPrescriptEnemy] instead",
       "flavor": "I... lost my family.\n\n\"Don't go...\"\n\"Don't go... Not... like this... Daddy... Please... help us...\""
     },
     {
       "id": 138301,
       "name": "All of My Corpus has been Given to Tibia",
-      "desc": "Take -30% HP, SP damage from [Combustion], [Vibration], [Burst], and [Sinking]\nTake -50% damage from [Laceration]\n\nTurn Start: If this unit is Staggered, recover from Stagger. Afterward, gain 2 [CrimsonTakeDamageUp] and becomes unable to use 'Installation Art no. 3: Improvised Ribcage' until next turn (once per Encounter)\n\nTurn End: Gain 1 [DefenseDown] next turn for every 4 [Combustion] on self (max 15)"
+      "desc": "Take -30% ХП, IQ damage from [Combustion], [Vibration], [Burst:*Зелёнки*] , and [Sinking:*Депрессии*] \nTake -50% damage from [Laceration:*Кетчупа*]\n\nTurn Start: If this unit is Staggered, recover from Stagger. Afterward, gain 2 [CrimsonTakeDamageUp] and becomes unable to use 'Installation Art no. 3: Improvised Ribcage' until next turn (once per Encounter)\n\nTurn End: Gain 1 [DefenseDown] next turn for every 4 [Combustion] on self (max 15)"
     },
     {
       "id": 138306,
@@ -231,7 +231,7 @@
     {
       "id": 141706,
       "name": "With this Artwork, I will Prove Myself before the Maestro",
-      "desc": "At less than 20 SP when Опекун Безымянного enters the Encounter, heal SP to 20"
+      "desc": "At less than 20 IQ when Опекун Безымянного enters the Encounter, heal IQ to 20"
     },
     {
       "id": 138302,
