@@ -518,5 +518,32 @@
     "PreserveCase": true,
     "Replacement": "Хилит",
     "Target": "Хиллит"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "-я айдишка",
+    "Target": "th Identity"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "$1 - $2",
+    "Target": "^(.+)'s (\\d+-я айдишка)$"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "$1 - $2",
+    "Target": "^(.+)’s (\\d+-я айдишка)$"
   }
 ]
