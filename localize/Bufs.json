@@ -645,7 +645,7 @@
       "name": "Импульс",
       "desc": "При 5 и более единицах на счётчике эффекта получает 30 урона по IQ, 2 Уязвимости и 10 Связываний; после эффект прекращает своё действие.",
       "id": "Desire",
-      "summary": "Take 30 IQ урона & получает 2 Fragile и 10 Bind"
+      "summary": "Получает 30 IQ урона & получает 2 Fragile и 10 Bind"
     },
     {
       "name": "Фанатичность",
@@ -1079,7 +1079,7 @@
     },
     {
       "name": "Wandering",
-      "desc": "- Panic\n- Конец хода: Deal 5 IQ урона to allies. Flees from battle after 3 turns have passed",
+      "desc": "- Panic\n- Конец хода: Наносит 5 IQ урона to allies. Flees from battle after 3 turns have passed",
       "id": "Prowl_Panic",
       "undefined": "-"
     },
@@ -1091,7 +1091,7 @@
     },
     {
       "name": "Dejection",
-      "desc": "- Panic\n- In a clash, if any Coin lands tails, Сила клеша -3 for the clash",
+      "desc": "- Panic\n- In a clash, если any Coin lands tails, Сила клеша -3 for the clash",
       "id": "Blue_Panic",
       "undefined": "-"
     },
@@ -2347,7 +2347,7 @@
     },
     {
       "name": "Happiness",
-      "desc": "- Хуй Ло's Сила клеша +1\n- When there are 1 или more surviving allies в этой битве: upon taking fatal урона, Хуй Ло does not die и heals 50% ХП вместо этого\n- Nullfies the effect that turns this unit в a Precious Jade once. When clashing against Skills that turns this unit в a Precious Jade, Сила клеша +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's IQ by 10, и inflicts 2 Fragile against Jia Mu\nПри победе в клеше against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Хуй Ло's Сила клеша +1\n- When there are 1 или more surviving allies в этой битве: upon taking fatal урона, Хуй Ло does not die и heals 50% ХП вместо этого\n- Nullfies the effect that turns this unit в a Precious Jade once. When clashing against Skills that turns this unit в a Precious Jade, Сила клеша +5; если this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's IQ by 10, и inflicts 2 Fragile against Jia Mu\nПри победе в клеше against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": "",
       "id": "DarkHonglu_Xi"
     },
@@ -2571,21 +2571,21 @@
     {
       "name": "Курдюк",
       "desc": "- Получает на 10% больше урона от навыков обжорства и уныния\n- Юниты с IQ: меняют тип паники на \"Сломленная метка\"\n- Юниты без IQ: сила столкновения -1\n- Конец хода: уменьшает 1 стак\n- Эффект не суммируется; наложение заменяет текущее значение на новое\n- Условие \"Юниты без IQ\" применяется к некоторым врагам, у которых есть IQ, но они не могут менять тип паники\n\n※ Эффекты типа паники \"Курдюк\"\n- Низкий моральный дух: сила столкновения -1, Уровень жирности -2 на себя\n- Паника: сила столкновения -2, Уровень жирности -3 на себя",
-      "summary": "Take +10% урона from Gluttony и Gloom Skills\n- Units with IQ: change their Panic Type to \"Shattermark\"\n- Units without IQ: -10% chance to flip Heads for Plus Coins",
+      "summary": "Получает +10% урона from Gluttony и Gloom Skills\n- Units with IQ: change their Panic Type to \"Shattermark\"\n- Units without IQ: -10% chance to flip Heads for Plus Coins",
       "id": "CrushMarks",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "Получает на 10% больше урона от навыков обжорства и уныния.\nЮниты с IQ: меняют тип паники на \"Курдюк\".\nКонец хода: теряет 1 стак.",
-      "summary": "Take +10% урона from Gluttony и Gloom Skills\n- Change Panic Type to \"Shattermark\"",
+      "summary": "Получает +10% урона from Gluttony и Gloom Skills\n- Change Panic Type to \"Shattermark\"",
       "id": "CrushMarks_Main",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "- Получает на 10% больше урона от навыков чревоугодия и уныния\n- Юниты без IQ: сила столкновения -1\n- Конец хода: терает 1 стак",
-      "summary": "Take +10% урона from Gluttony и Gloom Skills\n- Сила клеша -1",
+      "summary": "Получает +10% урона from Gluttony и Gloom Skills\n- Сила клеша -1",
       "id": "CrushMarks_Sub",
       "undefined": "-"
     },
@@ -2717,21 +2717,21 @@
     {
       "name": "Гипноz",
       "desc": "- За каждую 1 (Депрессию + Изжогу), получает на +0.5% больше урона от всех базовых скиллов (макс. 10%)\n- Враги с IQ: Меняет тип паники на \"Гипноz\"\n- Враги без IQ: Получает 2 понижения уровня защиты\n- Конец хода: Теряет 1 стак\n- Этот эффект не суммируется; нанося новый эффект, старый пропадает\n- Применяет условие \"Юниты без IQ\" к врагам, у которых есть IQ, но они не могут сменить тип паники\n\n※ Эффекты паники от Гипноzа\n- Низкая мораль: Конец хода: Получает 1 Понос и 2 Понижения уровня атаки на следующий ход\n- Паника: Конец хода: получает 1 Понос и 4 Понижения уровня атаки на следующий ход",
-      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nUnits with IQ: Change their Panic Type to \"Dazzle\"\nUnits without IQ: Уровень жирности -2",
+      "summary": "за каждые 1 (Sinking + Burn), получает +0.5% урона from Base Attack Skills (макс. 10%)\nUnits with IQ: Change their Panic Type to \"Dazzle\"\nUnits without IQ: Уровень жирности -2",
       "id": "DelusionGregBigBird",
       "undefined": "-"
     },
     {
       "name": "Гипноz",
       "desc": "- За каждую 1 (Депрессию + Изжогу), получает на +0.5% больше урона от всех базовых скиллов (макс. 10%)\n- Враги с IQ: Меняет тип паники на \"Гипноz\"\n- Конец хода: Теряет 1 стак",
-      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nChange Panic Type to \"Dazzle\"",
+      "summary": "за каждые 1 (Sinking + Burn), получает +0.5% урона from Base Attack Skills (макс. 10%)\nChange Panic Type to \"Dazzle\"",
       "id": "DelusionGregBigBird_Main",
       "undefined": "-"
     },
     {
       "name": "Гипноz",
       "desc": "- За каждую 1 (Депрессию + Изжогу), получает на +0.5% больше урона от всех базовых скиллов (макс. 10%)\n- Враги без IQ: Получает 2 понижения уровня защиты\n- Конец хода: Теряет 1 стак",
-      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nУровень жирности -2",
+      "summary": "за каждые 1 (Sinking + Burn), получает +0.5% урона from Base Attack Skills (макс. 10%)\nУровень жирности -2",
       "id": "DelusionGregBigBird_Sub",
       "undefined": "-"
     },
@@ -3199,34 +3199,34 @@
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Lust Skills</color> или <color=#f8c200>Skills that наносит Bleed или 'Unique Bleed'</color> deal +25% урона (for Э.Г.О Skills, deal +100% урона вместо этого)\n- Enemies take x1.5 урона from <color=#f8c200>Bleed</color> (округляется вниз)\n- Upon <color=#f8c200>A-Reson.</color>, получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 раз за ход)",
+      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Lust Skills</color> или <color=#f8c200>Skills that наносит Bleed или 'Unique Bleed'</color> наносит +25% урона (for Э.Г.О Skills, наносит +100% урона вместо этого)\n- Enemies получает x1.5 урона from <color=#f8c200>Bleed</color> (округляется вниз)\n- Upon <color=#f8c200>A-Reson.</color>, получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 раз за ход)",
       "id": "FavorBuffTwth1stPhaseForUI"
     },
     {
       "name": "Силиконовая смазка [Бля]",
-      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Gloom Skills</color> или <color=#f8c200>Skills that наносит Sinking или 'Unique Sinking'</color> deal +25% урона (for Э.Г.О Skills, deal +100% урона вместо этого)\n- Начало хода: Enemies in <color=#f8c200>Panic</color> получает 3 Fragile\n- <color=#f8c200>The Finger-faction Айдишки</color> deal +15% урона to и take -15% урона from enemies",
+      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Gloom Skills</color> или <color=#f8c200>Skills that наносит Sinking или 'Unique Sinking'</color> наносит +25% урона (for Э.Г.О Skills, наносит +100% урона вместо этого)\n- Начало хода: Enemies in <color=#f8c200>Panic</color> получает 3 Fragile\n- <color=#f8c200>The Finger-faction Айдишки</color> наносит +15% урона to и получает -15% урона from enemies",
       "id": "FavorBuffTwth2ndPhaseForUI"
     },
     {
       "name": "Бейби оил",
-      "desc": "- <color=#ff0000>макс. ХП</color> +25%\n- Skills наносит +1 more <color=#ff0000>Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]</color>\n- If target has <color=#ff0000>Palette Vibrante</color>, Сила клеша +2 и Базовая сила +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, <color=#ff0000>хилит 10 IQ на себе</color> за каждые Sinner that has <color=#ff0000>Palette Vibrante</color> (макс. 30 IQ)",
+      "desc": "- <color=#ff0000>макс. ХП</color> +25%\n- Skills наносит +1 more <color=#ff0000>Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]</color>\n- Если target has <color=#ff0000>Palette Vibrante</color>, Сила клеша +2 и Базовая сила +1\n- [Phase 2 exclusive effect] Начало хода: Если this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, <color=#ff0000>хилит 10 IQ на себе</color> за каждые Sinner that has <color=#ff0000>Palette Vibrante</color> (макс. 30 IQ)",
       "id": "FavorBuffTwthHardForUI"
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- Attack Skills that are Lust Skills или Skills that наносит Bleed или 'Unique Bleed' deal +25% урона (for Э.Г.О Skills, deal +100% урона вместо этого)\n- Upon A-Reson., получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 раз за ход)",
+      "desc": "- Attack Skills that are Lust Skills или Skills that наносит Bleed или 'Unique Bleed' наносит +25% урона (for Э.Г.О Skills, наносит +100% урона вместо этого)\n- Upon A-Reson., получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 раз за ход)",
       "summary": "Bleed Skills, 'Unique Bleed' Skills, и Lust Skills наносит больше урона",
       "id": "FavorBuffTwth"
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- Take x1.5 урона from Bleed (округляется вниз)",
-      "summary": "Take more урона from Bleed",
+      "desc": "- Получает x1.5 урона from Bleed (округляется вниз)",
+      "summary": "Получает more урона from Bleed",
       "id": "FavorBuffTwthEnemy"
     },
     {
       "name": "Силиконовая смазка [Бля]",
-      "desc": "- Attack Skills that are Gloom Skills или Skills that наносит Sinking или 'Unique Sinking' deal +25% урона (for Э.Г.О Skills, deal +100% урона вместо этого)\n- The Finger-faction Айдишки deal +15% урона to и take -15% урона from enemies",
+      "desc": "- Attack Skills that are Gloom Skills или Skills that наносит Sinking или 'Unique Sinking' наносит +25% урона (for Э.Г.О Skills, наносит +100% урона вместо этого)\n- The Finger-faction Айдишки наносит +15% урона to и получает -15% урона from enemies",
       "summary": "Sinking Skills, 'Unique Sinking' Skills, и Gloom Skills наносит больше урона",
       "id": "FavorBuffTwthTwo"
     },
@@ -3238,14 +3238,14 @@
     },
     {
       "name": "Бейби оил",
-      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Сила клеша +2 и Базовая сила +1",
-      "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nIf target has Palette Vibrante, получает Сила клеша и Базовая сила",
+      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- Если target has Palette Vibrante, Сила клеша +2 и Базовая сила +1",
+      "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nЕсли target has Palette Vibrante, получает Сила клеша и Базовая сила",
       "id": "FavorBuffTwthHard"
     },
     {
       "name": "Бейби оил",
-      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Сила клеша +2 и Базовая сила +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, хилит 10 IQ на себе за каждые Sinner that has Palette Vibrante (макс. 30 IQ)",
-      "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nIf target has Palette Vibrante, получает Сила клеша и Базовая сила",
+      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- Если target has Palette Vibrante, Сила клеша +2 и Базовая сила +1\n- [Phase 2 exclusive effect] Начало хода: Если this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, хилит 10 IQ на себе за каждые Sinner that has Palette Vibrante (макс. 30 IQ)",
+      "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nЕсли target has Palette Vibrante, получает Сила клеша и Базовая сила",
       "id": "FavorBuffTwthHardTwo"
     },
     {
@@ -3409,7 +3409,7 @@
     {
       "id": "Cromer_Boredom",
       "name": "Accept the Pain!",
-      "desc": "Deal и take 100% more урона.\nDefense Skill Финальная сила -5."
+      "desc": "Наносит и получает 100% more урона.\nDefense Skill Финальная сила -5."
     },
     {
       "id": "Hardening",
@@ -3804,23 +3804,23 @@
     {
       "id": "RetaliationBookSpiderOutis",
       "name": "Book of Vengeance [Пиццерия Фредди Фазбера]",
-      "desc": "- Against units that have this effect, Глемрок Фредди Пригожина и Пиццерия Фредди Фазбера: Кейси Фишмаэль хилит 5 IQ On Hit using a Skill (once per Skill, 2 раз за ход)\n- On Hit using a Skill against Глемрок Фредди Пригожина, получает 1 дополнительный стаков of The Middle - Grudge (once per Skill, 2 раз за ход for each Identity)\n- On Hit using a Skill against Пиццерия Фредди Фазбера: Кейси Фишмаэль, получает 1 дополнительный стаков of The Middle - Grudge (once per Skill, 2 раз за ход for each Identity)\n- Expires в конце хода",
+      "desc": "- Against units that have this effect, Глемрок Фредди Пригожина и Пиццерия Фредди Фазбера: Кейси Фишмаэль хилит 5 IQ On Hit using a Skill (once per Skill, 2 раз за ход)\n- On Hit using a Skill against Глемрок Фредди Пригожина, получает 1 дополнительный стаков of МГЕ братья Подзарядка (once per Skill, 2 раз за ход for each Identity)\n- On Hit using a Skill against Пиццерия Фредди Фазбера: Кейси Фишмаэль, получает 1 дополнительный стаков of МГЕ братья Подзарядка (once per Skill, 2 раз за ход for each Identity)\n- Expires в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "ResentmentSpiderOutis",
-      "name": "The Middle - Grudge",
-      "desc": "- макс. стаков: 15\n- If target has Vengeance Mark, deal +20% урона",
+      "name": "МГЕ братья Подзарядка",
+      "desc": "- макс. стаков: 15\n- Если target has Vengeance Mark, наносит +20% урона",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "ReinforcedTattooSpiderOutis",
-      "name": "The Middle - Vengeance Tattoo [<s>Great Sister</s>]",
-      "desc": "- макс. стаков: 10\n- Финальная сила +1 for Базовые скиллы за каждые 5 стаков (макс. 2)\n- Envy Skills и Blunt Skills deal +5% урона за каждые стаков (макс. 50%)",
+      "name": "МГЕ братья - Татухи на сиськах [<s>Фредди Фазбер</s>]",
+      "desc": "- макс. стаков: 10\n- Финальная сила +1 for Базовые скиллы за каждые 5 стаков (макс. 2)\n- Envy Skills и Blunt Skills наносит +5% урона за каждые стаков (макс. 50%)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3828,7 +3828,7 @@
     {
       "id": "DaughterEducationSpiderOutis",
       "name": "Check This Out, Kiddo!",
-      "desc": "- макс. стаков: 10\n- уменьшается на 1 когда этот юнит получает удар от 2 Skills\n- При 5+ стаков, Базовые скиллы получают Финальная сила +1\n- Blunt Skills deal +1% урона за каждые стаков (макс. 10%)",
+      "desc": "- макс. стаков: 10\n- уменьшается на 1 когда этот юнит получает удар от 2 Skills\n- При 5+ стаков, Базовые скиллы получают Финальная сила +1\n- Blunt Skills наносит +1% урона за каждые стаков (макс. 10%)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3836,15 +3836,15 @@
     {
       "id": "GotAComplimentIshmael",
       "name": "Фредди дал мне конфетку!",
-      "desc": "- макс. стаков: 10\n- уменьшается на 1 когда этот юнит получает удар от 2 Skills\n- При 5+ стаков, Базовые скиллы получают Финальная сила +1\n- Blunt Skills deal +1% урона за каждые стаков (макс. 10%)",
+      "desc": "- макс. стаков: 10\n- уменьшается на 1 когда этот юнит получает удар от 2 Skills\n- При 5+ стаков, Базовые скиллы получают Финальная сила +1\n- Blunt Skills наносит +1% урона за каждые стаков (макс. 10%)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "MiddleFatherGutsOutis",
-      "name": "Ridiculous Grit",
-      "desc": "- макс. стаков: 3\n- Fix any Attack Type Resistances that exceed Normal (1.0) to Normal (unless Staggered)\n- Take -(30 + (The Middle - Vengeance Tattoo [<s>Great Sister</s>] стаков x 4))% урона от скиллов (макс. 50%; округляется вниз)\n- При победе в клеше, хилит дополнительно (количество клешей x 5) IQ (макс. 15)\n- Конец хода: If this unit lost IQ this turn due to its Skill effects, deal +10% урона на следующий ход using Базовые скиллы (один раз за ход)\n- Конец хода: Теряет 1 стак",
+      "name": "Идет как-то медведь по лесу...",
+      "desc": "- макс. стаков: 3\n- Fix any Attack Type Resistances that exceed Normal (1.0) to Normal (unless Staggered)\n- Получает -(30 + (МГЕ братья - Татухи на сиськах [<s>Фредди Фазбер</s>] стаков x 4))% урона от скиллов (макс. 50%; округляется вниз)\n- При победе в клеше, хилит дополнительно (количество клешей x 5) IQ (макс. 15)\n- Конец хода: Если this unit lost IQ this turn due to its Skill effects, наносит +10% урона на следующий ход using Базовые скиллы (один раз за ход)\n- Конец хода: Теряет 1 стак",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3852,7 +3852,7 @@
     {
       "id": "MiddleFatherSwordOneOutis",
       "name": "Елда аниматроника",
-      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ Bleed, deal (10% of the Coin's final урона) дробящего урона (округляется вниз)",
+      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Базовые скиллы наносит +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, если target has 20+ Bleed, наносит (10% of the Coin's final урона) дробящего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3860,7 +3860,7 @@
     {
       "id": "MiddleFatherSwordTwoOutis",
       "name": "Елда поднимается",
-      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) дробящего урона (округляется вниз)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы наносит +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, если target has 20+ (Burn + Bleed), наносит (10% of the Coin's final урона) дробящего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3868,7 +3868,7 @@
     {
       "id": "MiddleFatherSwordThreeOutis",
       "name": "Елда всё еще поднимается",
-      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) рубящего урона (округляется вниз)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы наносит +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, если target has 20+ (Burn + Bleed), наносит (10% of the Coin's final урона) рубящего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3876,7 +3876,7 @@
     {
       "id": "MiddleFatherSwordFourOutis",
       "name": "Стоячая елда аниматроника",
-      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Базовые скиллы with Стоячая елда аниматроника-Эксклюзивный скиллы corresponding to each Skill's rank\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) пронзающего урона (округляется вниз)",
+      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Базовые скиллы with Стоячая елда аниматроника-Эксклюзивный скиллы corresponding to each Skill's rank\n- Blunt Базовые скиллы наносит +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, если target has 20+ (Burn + Bleed), наносит (10% of the Coin's final урона) пронзающего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3884,14 +3884,14 @@
     {
       "id": "MidFamilyOutis",
       "name": "Месть за детишек",
-      "desc": "- Envy Базовые скиллы deal +20% урона\n- Базовые скиллы получают Финальная сила +1",
+      "desc": "- Envy Базовые скиллы наносит +20% урона\n- Базовые скиллы получают Финальная сила +1",
       "summary": "",
       "undefined": "-",
       "flavor": ""
     },
     {
       "id": "CountSkillMidOutis",
-      "name": "Rising Fever",
+      "name": "Глемрок свага",
       "desc": "Теряет 1 стак при удовлетворении одного из следующих условий (один раз за ход):\n- Using the \"Подзарядка Фаз-часов\" Skill (including activation via Counter)\n- в конце хода after activating 6+ Envy A-Reson.\n\nПри 0 стаков, use the \"Фаз-тастика!\" Skill",
       "summary": "",
       "undefined": "-",
@@ -3900,7 +3900,7 @@
     {
       "id": "MatchesPersonality",
       "name": "Blazing",
-      "desc": "- Min & макс. Speed +1\n- This turn's first-used Base Attack Skill gains Финальная сила +2\n- Take 2% ХП урона On Hit with the affected Skill (макс. 10%; this урона does not Stagger или reduce this unit's ХП below 1)\n- Expires в конце хода",
+      "desc": "- Min & макс. Speed +1\n- This turn's first-used Base Attack Skill gains Финальная сила +2\n- Получает 2% ХП урона On Hit with the affected Skill (макс. 10%; this урона does not Stagger или reduce this unit's ХП below 1)\n- Expires в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": ""

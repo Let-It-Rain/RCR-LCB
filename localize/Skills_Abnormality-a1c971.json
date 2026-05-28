@@ -591,7 +591,7 @@
         {
           "level": 1,
           "name": "Dismantle",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 3  [Breath:*Кумара*] Potency на себе (макс. 5)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] If the target has 20+ [ObservedPerson], convert all Coins on this Skill to [SuperCoin:*Вечные монеты*]</u></b></mark></color>",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 3  [Breath:*Кумара*] Potency на себе (макс. 5)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если the target has 20+ [ObservedPerson], convert all Coins on this Skill to [SuperCoin:*Вечные монеты*]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -624,7 +624,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ счётчика [Vibration], trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration] by 1"
+                  "desc": "[OnSucceedAttack] Если target has 5+ счётчика [Vibration], trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration] by 1"
                 },
                 {
                   "desc": "[WinDuelAttack] Наносит 5 [Vibration] Potency и +3 счётчика [Vibration]"
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Trigger Extinction Sequence",
-          "desc": "[WhenUse] Consume half of  [Breath:*Кумара*] Potency и Count на себе\n- Получает (sum of consumed  [Breath:*Кумара*] Potency и Count / 2) Финальная сила (макс. 20)\n- Deal +(sum of consumed  [Breath:*Кумара*] Potency и Count x 2)% урона (макс. 50%)\n- +(sum of consumed  [Breath:*Кумара*] Potency и Count x 4)% урона on Critical Hit (макс. 100%)\n[DefeatDuel] Reduce remaining счётчика  [Breath:*Кумара*] by half",
+          "desc": "[WhenUse] Consume half of  [Breath:*Кумара*] Potency и Count на себе\n- Получает (sum of consumed  [Breath:*Кумара*] Potency и Count / 2) Финальная сила (макс. 20)\n- Наносит +(sum of consumed  [Breath:*Кумара*] Potency и Count x 2)% урона (макс. 50%)\n- +(sum of consumed  [Breath:*Кумара*] Potency и Count x 4)% урона on Critical Hit (макс. 100%)\n[DefeatDuel] Reduce remaining счётчика  [Breath:*Кумара*] by half",
           "coinlist": [
             {
               "coindescs": [
@@ -652,10 +652,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "If user took no ХП урона last turn, guarantee a Crit"
+                  "desc": "Если user took no ХП урона last turn, guarantee a Crit"
                 },
                 {
-                  "desc": "If user took ХП урона last turn, does not Crit; вместо этого, deal -80% урона"
+                  "desc": "Если user took ХП урона last turn, does not Crit; вместо этого, наносит -80% урона"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Trigger [VibrationExplosion] thrice; then, reduce target's счётчика [Vibration] by 3"
