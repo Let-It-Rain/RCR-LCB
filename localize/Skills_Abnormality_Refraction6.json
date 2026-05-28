@@ -495,7 +495,7 @@
         {
           "level": "1",
           "name": "Smite the Wicked",
-          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse]\n- Финальная сила +1 и наносит +20% урона за каждые 6  [Breath:*Кумара*] на себе (макс. 6 и 120%, respectively)\n- Получает 4  [Breath:*Кумара*] и +4 счётчика  [Breath:*Кумара*]\n- <color=#ff6000><mark=#ff000040><b><u>Наносит +([StackPresentActivate] x 4)% урона (макс. 120%)</u></b></mark></color>\n[BeforeAttack] Если у этого юнита есть 20+  [Breath:*Кумара*] Potency, consume up to 20 surplus  [Breath:*Кумара*] Potency past 20 to наносит +( [Breath:*Кумара*] consumed x 5)% урона (макс. 100%)\n- On Clashтеряет, this effect does not activate\n[WinDuel] Получает 5 [StackPresentActivate]\n[DefeatDuel]\n- Halve [StackPresentActivate] (округляется вниз)\n- Получает 2 [AttackDmgDown] и 1 [Paralysis]\n- Target cannot be Staggered until this Skill's Attack End\n[EndSkill] Если target is killed, Reuse this Skill on the target that has the highest ХП (один раз за ход)\n- On Clashтеряет, this effect does not activate",
+          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse]\n- Финальная сила +1 и наносит +20% урона за каждые 6  [Breath:*Кумара*] на себе (макс. 6 и 120%, respectively)\n- Получает 4  [Breath:*Кумара*] и +4 счётчика  [Breath:*Кумара*]\n- <color=#ff6000><mark=#ff000040><b><u>Наносит +([StackPresentActivate] x 4)% урона (макс. 120%)</u></b></mark></color>\n[BeforeAttack] Если у этого юнита есть 20+  [Breath:*Кумара*] Potency, consume up to 20 surplus  [Breath:*Кумара*] Potency past 20 to наносит +( [Breath:*Кумара*] consumed x 5)% урона (макс. 100%)\n- On Clashтеряет, this effect не activate\n[WinDuel] Получает 5 [StackPresentActivate]\n[DefeatDuel]\n- Halve [StackPresentActivate] (округляется вниз)\n- Получает 2 [AttackDmgDown] и 1 [Paralysis]\n- Target cannot be Staggered until this Skill's Attack End\n[EndSkill] Если target is killed, Reuse this Skill on the target that has the highest ХП (один раз за ход)\n- On Clashтеряет, this effect не activate",
           "coinlist": [
             {
               "coindescs": [
@@ -503,7 +503,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Если target's Pierce Resist. is below \"Weak\" (1.5), treat is as Weak (1.5)</u></b></mark></color>\n- On Clashтеряет, this effect does not activate"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Если target's Pierce Resist. is below \"Weak\" (1.5), treat is as Weak (1.5)</u></b></mark></color>\n- On Clashтеряет, this effect не activate"
                 },
                 {
                   "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>при менее чем 33% ХП, наносит +(50% of this Coin's урона)% bonus пронзающего урона</u></b></mark></color>"
@@ -546,7 +546,7 @@
         {
           "level": "1",
           "name": "Rotting Annihilation",
-          "desc": "Can Clash with this Skill regardless of Speed\nWhile Clashing with this Skill, <color=#ff6000><mark=#ff000040><b><u>the main target's счётчика [Laceration:*Кетчупа*] does not drop below 1</u></b></mark></color>\n[WhenUse]\n- Сила клеша +1 за каждые 6 [Laceration:*Кетчупа*] на главной цели (макс. 6)\n- Наносит +([StackFutureActivate] x 2)% урона (макс. 60%)\n- при менее чем 66% ХП, convert the second Coin в [SuperCoin]\n- при менее чем 33% ХП, convert all Coins в [SuperCoin:*Вечные монеты*]\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
+          "desc": "Can Clash with this Skill regardless of Speed\nWhile Clashing with this Skill, <color=#ff6000><mark=#ff000040><b><u>the main target's счётчика [Laceration:*Кетчупа*] не drop below 1</u></b></mark></color>\n[WhenUse]\n- Сила клеша +1 за каждые 6 [Laceration:*Кетчупа*] на главной цели (макс. 6)\n- Наносит +([StackFutureActivate] x 2)% урона (макс. 60%)\n- при менее чем 66% ХП, convert the second Coin в [SuperCoin]\n- при менее чем 33% ХП, convert all Coins в [SuperCoin:*Вечные монеты*]\n[DefeatDuel] Target cannot be Staggered until this Skill's Attack End",
           "coinlist": [
             {
               "coindescs": [
@@ -575,7 +575,7 @@
         {
           "level": "1",
           "name": "Bloodflower",
-          "desc": "Can Clash with this Skill regardless of Speed\nWhile Clashing with this Skill, <color=#ff6000><mark=#ff000040><b><u>the main target's счётчика [Laceration:*Кетчупа*] does not drop below 1</u></b></mark></color>\n[WhenUse]\n- Финальная сила +1 за каждые 6 [Laceration:*Кетчупа*] на главной цели (макс. 6)\n- Наносит +([StackFutureActivate] x 4)% урона (макс. 120%)\n[WinDuel] Получает 5 [StackFutureActivate]\n[DefeatDuel]\n- Halve [StackFutureActivate] (округляется вниз)\n- Получает 2 [AttackDmgDown] и 2 [Paralysis]\n- Target cannot be Staggered until this Skill's Attack End",
+          "desc": "Can Clash with this Skill regardless of Speed\nWhile Clashing with this Skill, <color=#ff6000><mark=#ff000040><b><u>the main target's счётчика [Laceration:*Кетчупа*] не drop below 1</u></b></mark></color>\n[WhenUse]\n- Финальная сила +1 за каждые 6 [Laceration:*Кетчупа*] на главной цели (макс. 6)\n- Наносит +([StackFutureActivate] x 4)% урона (макс. 120%)\n[WinDuel] Получает 5 [StackFutureActivate]\n[DefeatDuel]\n- Halve [StackFutureActivate] (округляется вниз)\n- Получает 2 [AttackDmgDown] и 2 [Paralysis]\n- Target cannot be Staggered until this Skill's Attack End",
           "coinlist": [
             {
               "coindescs": [
@@ -613,7 +613,7 @@
         {
           "level": "1",
           "name": "Wrath of the Inverted Scale [逆鱗之禍]",
-          "desc": "This Skill activates only when <color=#ff6000><mark=#ff000040><b><u>the \"Inverted Scale\" Part is hit as the main target</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>тратит все [YesdragonSelfRefraction]</u></b></mark></color> на себе и Reuse the final Coin (# of Stacks consumed) times (макс. 5 times)",
+          "desc": "This Skill activates only когда <color=#ff6000><mark=#ff000040><b><u>the \"Inverted Scale\" Part is hit as the main target</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>тратит все [YesdragonSelfRefraction]</u></b></mark></color> на себе и Reuse the final Coin (# of Stacks consumed) times (макс. 5 times)",
           "coinlist": [
             {
               "coindescs": [
@@ -706,7 +706,7 @@
         {
           "level": "1",
           "name": "The Descending Pin [落針]",
-          "desc": "[WhenUse] Базовая сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 2 [YesdragonSelfRefraction]</u></b></mark></color> на себе\n[WhenUse] Если target has [Binding] или [Paralysis], Базовая сила +2\n[WinDuel] <color=#ff6000><mark=#ff000040><b><u>Spawn \"Flower-burying Pin\" на следующий ход</u></b></mark></color>\n[DefeatDuel] Хилит 5 IQ на цели\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Does not spawn \"Flower-burying Pin\"</u></b></mark></color>, и the head takes <color=#ff6000><mark=#ff000040><b><u>fixed урона</u></b></mark></color>",
+          "desc": "[WhenUse] Базовая сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 2 [YesdragonSelfRefraction]</u></b></mark></color> на себе\n[WhenUse] Если target has [Binding] или [Paralysis], Базовая сила +2\n[WinDuel] <color=#ff6000><mark=#ff000040><b><u>Spawn \"Flower-burying Pin\" на следующий ход</u></b></mark></color>\n[DefeatDuel] Хилит 5 IQ на цели\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>не spawn \"Flower-burying Pin\"</u></b></mark></color>, и the head takes <color=#ff6000><mark=#ff000040><b><u>fixed урона</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -955,7 +955,7 @@
         {
           "level": "1",
           "name": "The Descending Pin [落針]",
-          "desc": "[WhenUse] Базовая сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 2 [YesdragonSelfRefraction]</u></b></mark></color> на себе\n[WhenUse] Если target has [Binding] или [Paralysis], Базовая сила +2\n[WhenUse] Если у этого юнита есть <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Сила монет +1\n<color=#ff6000><mark=#ff000040><b><u>Spawn \"Flower-burying Pin\" на следующий ход</u></b></mark></color>\n[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>Does not spawn \"Flower-burying Pin\"</u></b></mark></color>",
+          "desc": "[WhenUse] Базовая сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 2 [YesdragonSelfRefraction]</u></b></mark></color> на себе\n[WhenUse] Если target has [Binding] или [Paralysis], Базовая сила +2\n[WhenUse] Если у этого юнита есть <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, Сила монет +1\n<color=#ff6000><mark=#ff000040><b><u>Spawn \"Flower-burying Pin\" на следующий ход</u></b></mark></color>\n[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>не spawn \"Flower-burying Pin\"</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1214,7 +1214,7 @@
         {
           "level": "1",
           "name": "Furioso-Replica",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот скилл не активирует защитные скиллы цели</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Получает 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n- Сила клеша +5 (<color=#ff6000><mark=#ff000040><b><u>Сила клеша gained is уменьшается на 1 за каждые 8 [KarmaOfIndexRien] на себе, down to 0</u></b></mark></color>)\n[WhenUse] При 0+ IQ, generate 1 Mang\n- Наносит +20% урона; Финальная сила +3\n[WinDuel]\n- Получает 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n- Attack End: Наносит 3 [Laceration:*Кетчупа*], 1 [Binding], и 1 [Vulnerable] на следующий ход to all targets this unit hit\n[DefeatDuel]\n- Получает 4 [AttackDmgDown] и 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking:*Депрессии*]  на цели\n[EndSkill] Если this Skill generated Mang, теряет 20 IQ\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот скилл не активирует защитные скиллы цели</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Получает 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n- Сила клеша +5 (<color=#ff6000><mark=#ff000040><b><u>Сила клеша gained is уменьшается на 1 за каждые 8 [KarmaOfIndexRien] на себе, down to 0</u></b></mark></color>)\n[WhenUse] При 0+ IQ, generate 1 Mang\n- Наносит +20% урона; Финальная сила +3\n[WinDuel]\n- Получает 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n- Attack End: Наносит 3 [Laceration:*Кетчупа*], 1 [Binding], и 1 [Vulnerable] на следующий ход to all targets this unit hit\n[DefeatDuel]\n- Получает 4 [AttackDmgDown] и 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n[EndSkill] Если this Skill generated Mang, теряет 20 IQ\n[EndSkill] End this turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1246,7 +1246,7 @@
         {
           "level": "1",
           "name": "Destroy the Sound, Crush Flat the Thought",
-          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Blunt Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Blunt Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking:*Депрессии*]  на цели\n\nBlunt weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Blunt weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Blunt weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Blunt weapons наносит +60% урона\n- Non-Blunt weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Raise target's Stagger Threshold by 25\n- При 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>Когда clashing against a non-Blunt Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Blunt Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n\nBlunt weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Blunt weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Blunt weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Blunt weapons наносит +60% урона\n- Non-Blunt weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Raise target's Stagger Threshold by 25\n- При 150+ [KarmaOfIndexRien_2Phase], this effect не activate",
           "coinlist": [
             {
               "coindescs": [
@@ -1292,7 +1292,7 @@
         {
           "level": "1",
           "name": "Stab the Heart of Silence, Penetrate the Memory",
-          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Pierce Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Pierce Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking:*Депрессии*]  на цели\n\nPierce weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Pierce weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Pierce weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Pierce weapons наносит +60% урона\n- Non-Pierce weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Получает 2 [AttackDmgUp] на следующий ход\n- При 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>Когда clashing against a non-Pierce Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Pierce Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n\nPierce weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Pierce weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Pierce weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Pierce weapons наносит +60% урона\n- Non-Pierce weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Получает 2 [AttackDmgUp] на следующий ход\n- При 150+ [KarmaOfIndexRien_2Phase], this effect не activate",
           "coinlist": [
             {
               "coindescs": [
@@ -1338,7 +1338,7 @@
         {
           "level": "1",
           "name": "With Tempered Secret, Sever the Form",
-          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>When clashing against a non-Slash Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Slash Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking:*Депрессии*]  на цели\n\nSlash weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Slash weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Slash weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Slash weapons наносит +60% урона\n- Non-Slash weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Финальная сила +3\n- При 150+ [KarmaOfIndexRien_2Phase], this effect does not activate",
+          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>Когда clashing against a non-Slash Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Slash Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n\nSlash weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Slash weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Slash weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Slash weapons наносит +60% урона\n- Non-Slash weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Финальная сила +3\n- При 150+ [KarmaOfIndexRien_2Phase], this effect не activate",
           "coinlist": [
             {
               "coindescs": [
@@ -1384,7 +1384,7 @@
         {
           "level": "1",
           "name": "Furioso [Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот скилл не активирует защитные скиллы цели</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Получает 6  [Breath:*Кумара*] и +6 счётчика  [Breath:*Кумара*]\n- Сила клеша +10 (<color=#ff6000><mark=#ff000040><b><u>Сила клеша gained is уменьшается на 1 за каждые 8 [KarmaOfIndexRien_2Phase] на себе</u></b></mark></color>)\n[WhenUse] При 0+ IQ, generate 2 Mangs\n- Наносит +40% урона; Финальная сила +5\n[WinDuel]\n- Attack End: Наносит 4 [Laceration:*Кетчупа*], 2 [Binding], и 2 [Vulnerable] на следующий ход to all targets this unit hit\n[DefeatDuel]\n- Получает 6 [AttackDmgDown] и 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking:*Депрессии*]  на цели\n[EndSkill] Если this Skill generated Mang, теряет 25 IQ\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот скилл не активирует защитные скиллы цели</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Получает 6  [Breath:*Кумара*] и +6 счётчика  [Breath:*Кумара*]\n- Сила клеша +10 (<color=#ff6000><mark=#ff000040><b><u>Сила клеша gained is уменьшается на 1 за каждые 8 [KarmaOfIndexRien_2Phase] на себе</u></b></mark></color>)\n[WhenUse] При 0+ IQ, generate 2 Mangs\n- Наносит +40% урона; Финальная сила +5\n[WinDuel]\n- Attack End: Наносит 4 [Laceration:*Кетчупа*], 2 [Binding], и 2 [Vulnerable] на следующий ход to all targets this unit hit\n[DefeatDuel]\n- Получает 6 [AttackDmgDown] и 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n[EndSkill] Если this Skill generated Mang, теряет 25 IQ\n[EndSkill] End this turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1416,7 +1416,7 @@
         {
           "level": "1",
           "name": "Furioso [Lacrimosa-Crescendo]",
-          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот скилл не активирует защитные скиллы цели</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Получает 9  [Breath:*Кумара*] и +9 счётчика  [Breath:*Кумара*]\n- Сила клеша +15 (Сила клеша gained is уменьшается на 1 за каждые 8 [KarmaOfIndexRien_2Phase] на себе)\n[WhenUse] При 0+ IQ, generate 3 Mangs\n- Наносит +60% урона; Финальная сила +8\n[WinDuel]\n- Attack End: Наносит 5 [Laceration:*Кетчупа*], 3 [Binding], и 3 [Vulnerable] на следующий ход to all targets this unit hit\n[DefeatDuel]\n- Получает 8 [AttackDmgDown] и 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking:*Депрессии*]  на цели\n[EndSkill] Если this Skill generated Mang, теряет 30 IQ\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот скилл не активирует защитные скиллы цели</u></b></mark></color>\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Получает 9  [Breath:*Кумара*] и +9 счётчика  [Breath:*Кумара*]\n- Сила клеша +15 (Сила клеша gained is уменьшается на 1 за каждые 8 [KarmaOfIndexRien_2Phase] на себе)\n[WhenUse] При 0+ IQ, generate 3 Mangs\n- Наносит +60% урона; Финальная сила +8\n[WinDuel]\n- Attack End: Наносит 5 [Laceration:*Кетчупа*], 3 [Binding], и 3 [Vulnerable] на следующий ход to all targets this unit hit\n[DefeatDuel]\n- Получает 8 [AttackDmgDown] и 9 [Paralysis]\n- Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n[EndSkill] Если this Skill generated Mang, теряет 30 IQ\n[EndSkill] End this turn",
           "coinlist": [
             {
               "coindescs": [
@@ -1547,7 +1547,7 @@
         {
           "level": "1",
           "name": "I'll Go fer Scissors. How 'Bout You?",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если this Skill is an Unopposed Attack, или если this Skill loses a Clash, наносит +300% урона</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Если target has [ResultReduction], Сила клеша +20</u></b></mark></color>\n[WinDuel] This Skill does not trigger the target's Defense Skill\n[WinDuel] End this Skill и use \"You Win...\" on the target\n",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если this Skill is an Unopposed Attack, или если this Skill loses a Clash, наносит +300% урона</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Если target has [ResultReduction], Сила клеша +20</u></b></mark></color>\n[WinDuel] This Skill не trigger the target's Defense Skill\n[WinDuel] End this Skill и use \"You Win...\" on the target\n",
           "coinlist": [
             {
               "coindescs": [
@@ -1583,7 +1583,7 @@
         {
           "level": "1",
           "name": "You Win...",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- Does not trigger Defense Skills\n- Its attack does not hit\n[WhenUse] Накладывает 2 [AttackUp] на цели на следующий ход\n[EndSkill] Хилит (this Coin's Финальная сила x 5) ХП for 2 Sinners that have the lowest current ХП",
+          "desc": "[CantDuel]\nThis Skill has the following properties:\n- не trigger Defense Skills\n- Its attack не hit\n[WhenUse] Накладывает 2 [AttackUp] на цели на следующий ход\n[EndSkill] Хилит (this Coin's Финальная сила x 5) ХП for 2 Sinners that have the lowest current ХП",
           "coinlist": [
             {
               "coindescs": []
