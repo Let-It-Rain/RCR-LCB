@@ -1067,7 +1067,7 @@
     },
     {
       "name": "Suicidal",
-      "desc": "- Panic\n- Cannot act for 3 turns. Unit dies at turn start; all its allies lose 10 IQ",
+      "desc": "- Panic\n- Cannot act for 3 turns. Unit dies at turn start; all its alliesтеряет 10 IQ",
       "id": "Suicide_Panic",
       "undefined": "-"
     },
@@ -3199,7 +3199,7 @@
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Lust Skills</color> or <color=#f8c200>Skills that наносит Bleed or 'Unique Bleed'</color> deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- Enemies take x1.5 урона from <color=#f8c200>Bleed</color> (rounded down)\n- Upon <color=#f8c200>A-Reson.</color>, получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 times per turn)",
+      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Lust Skills</color> or <color=#f8c200>Skills that наносит Bleed or 'Unique Bleed'</color> deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- Enemies take x1.5 урона from <color=#f8c200>Bleed</color> (округляется вниз)\n- Upon <color=#f8c200>A-Reson.</color>, получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 times per turn)",
       "id": "FavorBuffTwth1stPhaseForUI"
     },
     {
@@ -3209,7 +3209,7 @@
     },
     {
       "name": "Бейби оил",
-      "desc": "- <color=#ff0000>макс. ХП</color> +25%\n- Skills наносит +1 more <color=#ff0000>Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]</color>\n- If target has <color=#ff0000>Palette Vibrante</color>, Clash Power +2 и Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, <color=#ff0000>хилит 10 IQ on self</color> за каждые Sinner that has <color=#ff0000>Palette Vibrante</color> (макс. 30 IQ)",
+      "desc": "- <color=#ff0000>макс. ХП</color> +25%\n- Skills наносит +1 more <color=#ff0000>Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]</color>\n- If target has <color=#ff0000>Palette Vibrante</color>, Clash Power +2 и Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, <color=#ff0000>хилит 10 IQ на себе</color> за каждые Sinner that has <color=#ff0000>Palette Vibrante</color> (макс. 30 IQ)",
       "id": "FavorBuffTwthHardForUI"
     },
     {
@@ -3220,7 +3220,7 @@
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- Take x1.5 урона from Bleed (rounded down)",
+      "desc": "- Take x1.5 урона from Bleed (округляется вниз)",
       "summary": "Take more урона from Bleed",
       "id": "FavorBuffTwthEnemy"
     },
@@ -3244,7 +3244,7 @@
     },
     {
       "name": "Бейби оил",
-      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Clash Power +2 и Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, хилит 10 IQ on self за каждые Sinner that has Palette Vibrante (макс. 30 IQ)",
+      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Clash Power +2 и Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, хилит 10 IQ на себе за каждые Sinner that has Palette Vibrante (макс. 30 IQ)",
       "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nIf target has Palette Vibrante, получает Clash Power и Base Power",
       "id": "FavorBuffTwthHardTwo"
     },
@@ -3776,29 +3776,29 @@
     {
       "id": "BlueSand_Main",
       "name": "Blue Sand",
-      "desc": "- On Clash Lose,получает +1 Sinking Count (3 times per turn)\n- IQ Units: change their Panic Type to \"Blue Sand\"\n- Конец хода: Reduce 1 стаков",
-      "summary": "On Clash Lose,получает +1 Sinking Count (3 times per turn)\n- IQ Units: change their Panic Type to \"Blue Sand\"",
+      "desc": "- On Clashтеряет,получает +1 Sinking Count (3 times per turn)\n- IQ Units: change their Panic Type to \"Blue Sand\"\n- Конец хода: Reduce 1 стаков",
+      "summary": "On Clashтеряет,получает +1 Sinking Count (3 times per turn)\n- IQ Units: change their Panic Type to \"Blue Sand\"",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Sub",
       "name": "Blue Sand",
-      "desc": "- On Clash Lose,получает +1 Sinking Count (3 times per turn)\n- Non-IQ Units: Min & макс. Speed -1\n- Конец хода: Reduce 1 стаков",
-      "summary": "On Clash Lose,получает +1 Sinking Count (3 times per turn)\n- Non-IQ Units: Min & макс. Speed -1",
+      "desc": "- On Clashтеряет,получает +1 Sinking Count (3 times per turn)\n- Non-IQ Units: Min & макс. Speed -1\n- Конец хода: Reduce 1 стаков",
+      "summary": "On Clashтеряет,получает +1 Sinking Count (3 times per turn)\n- Non-IQ Units: Min & макс. Speed -1",
       "undefined": "-"
     },
     {
       "id": "BlueSand_LowMorale",
       "name": "Blue Sand",
       "desc": "- Low Morale\n- Clash Power -1\n- Min & макс. Speed -1",
-      "summary": "Clash Power -1 on self",
+      "summary": "Clash Power -1 на себе",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Panic",
       "name": "Blue Sand",
       "desc": "- Panic\n- Clash Power -2\n- Min & макс. Speed -1",
-      "summary": "Clash Power -2 on self",
+      "summary": "Clash Power -2 на себе",
       "undefined": "-"
     },
     {
@@ -3844,7 +3844,7 @@
     {
       "id": "MiddleFatherGutsOutis",
       "name": "Ridiculous Grit",
-      "desc": "- макс. стаков: 3\n- Fix any Attack Type Resistances that exceed Normal (1.0) to Normal (unless Staggered)\n- Take -(30 + (The Middle - Vengeance Tattoo [<s>Great Sister</s>] стаков x 4))% урона from Skills (макс. 50%; rounded down)\n- On Clash Win, хилит an additional (Clash count x 5) IQ (макс. 15)\n- Конец хода: If this unit lost IQ this turn due to its Skill effects, deal +10% урона на следующий ход using Base Skills (один раз за ход)\n- Конец хода: Lose 1 стаков",
+      "desc": "- макс. стаков: 3\n- Fix any Attack Type Resistances that exceed Normal (1.0) to Normal (unless Staggered)\n- Take -(30 + (The Middle - Vengeance Tattoo [<s>Great Sister</s>] стаков x 4))% урона from Skills (макс. 50%; округляется вниз)\n- On Clash Win, хилит an additional (Clash count x 5) IQ (макс. 15)\n- Конец хода: If this unit lost IQ this turn due to its Skill effects, deal +10% урона на следующий ход using Base Skills (один раз за ход)\n- Конец хода: Lose 1 стаков",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3852,7 +3852,7 @@
     {
       "id": "MiddleFatherSwordOneOutis",
       "name": "Sealed Sword",
-      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of the Coin's final урона) Blunt урона (rounded down)",
+      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of the Coin's final урона) Blunt урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3860,7 +3860,7 @@
     {
       "id": "MiddleFatherSwordTwoOutis",
       "name": "First Seal Removed",
-      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Blunt урона (rounded down)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Blunt урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3868,7 +3868,7 @@
     {
       "id": "MiddleFatherSwordThreeOutis",
       "name": "Second Seal Removed",
-      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Slash урона (rounded down)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Slash урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3876,7 +3876,7 @@
     {
       "id": "MiddleFatherSwordFourOutis",
       "name": "Lævateinn",
-      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Base Skills with Lævateinn-Эксклюзивный скиллs corresponding to each Skill's rank\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Pierce урона (rounded down)",
+      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Base Skills with Lævateinn-Эксклюзивный скиллs corresponding to each Skill's rank\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Pierce урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
