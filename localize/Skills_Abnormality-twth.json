@@ -345,7 +345,7 @@
         {
           "level": 1,
           "name": "Critique",
-          "desc": "[CantChangeTarget]\n[WhenUse]\n- Сила клеша +2 <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> на цели (макс. 12)\n- Наносит +12.5% урона <color=#ff6000><mark=#ff000040><b><u>за каждые allied Fauvist Student of the Ring</u></b></mark></color> on the field (макс. 50%)\n- <color=#ff6000><mark=#ff000040><b><u>Если target has [IntenseColors], </u></b></mark></color>Сила клеша +6 и наносит +200% урона\n· <color=#ff6000><mark=#ff000040><b><u>Если target has equipped Defense Skills</u></b></mark></color> while having [IntenseColors], Сила клеша +6 и наносит -90% урона; вместо этого. Damage from this Skill не Stagger the target; On Hit, не trigger [Sinking:*Депрессии*]  effects on the target\n[DefeatDuel]\n- Damage from this Skill не Stagger the target\n- On Hit, не trigger [Sinking:*Депрессии*]  effects on the target",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Сила клеша +2 <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> на цели (макс. 12)\n- Наносит +12.5% урона <color=#ff6000><mark=#ff000040><b><u>за каждые allied Fauvist Student of the Ring</u></b></mark></color> on the field (макс. 50%)\n- <color=#ff6000><mark=#ff000040><b><u>Если target has [IntenseColors], </u></b></mark></color>Сила клеша +6 и наносит +200% урона\n· <color=#ff6000><mark=#ff000040><b><u>Если target has equipped Defense Skills</u></b></mark></color> while having [IntenseColors], Сила клеша +6 и наносит -90% урона; вместо этого. Damage from this Skill не Stagger the target; On Hit, не trigger <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  effects on the target\n[DefeatDuel]\n- Damage from this Skill не Stagger the target\n- On Hit, не trigger <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  effects on the target",
           "coinlist": [
             {
               "coindescs": [
@@ -356,10 +356,10 @@
                   "desc": "[OnSucceedAttack] Reuse this Coin (макс. 2 times)\n- On Hit after losing a Clash, Reuse this Coin (макс. once вместо этого)\n- не trigger если target has equipped Defense Skills"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кетчупа*] и +2 счётчика [Laceration:*Кетчупа*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:*Депрессии*]  и +2 счётчика [Sinking:*Депрессии*] "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  и +2 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
                 }
               ]
             }
@@ -373,7 +373,7 @@
         {
           "level": 1,
           "name": "The Thrill of Inspiration",
-          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse] Финальная сила +1 и наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> на главной цели (макс. 6 и 60% respectively)\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> on each target (макс. 60% against each target)\n[DefeatDuel]\n- Наносит -75% урона\n- Наносит 2/3 less Stacks of [BearClawWound] и [EagleClawWound] with this Skill's effect (rounded up)\n- Damage from this Skill не Stagger the target\n- On Hit, не trigger [Sinking:*Депрессии*]  effects on the target",
+          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse] Финальная сила +1 и наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> на главной цели (макс. 6 и 60% respectively)\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> on each target (макс. 60% against each target)\n[DefeatDuel]\n- Наносит -75% урона\n- Наносит 2/3 less Stacks of [BearClawWound] и [EagleClawWound] with this Skill's effect (rounded up)\n- Damage from this Skill не Stagger the target\n- On Hit, не trigger <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  effects on the target",
           "coinlist": [
             {
               "coindescs": [
@@ -381,10 +381,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*] и +3 счётчика [Laceration:*Кетчупа*]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:*Депрессии*]  и +3 счётчика [Sinking:*Депрессии*] "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  и +3 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
                 },
                 {
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [BearClawWound]</u></b></mark></color>"
@@ -407,7 +407,7 @@
         {
           "level": 1,
           "name": "Burst Forth the Pulsing Crimson under Your Skin.",
-          "desc": "[WideAreaRampage]\nPrioritizes targets that have [IntenseColors]\nэтот скилл не активирует защитные скиллы (excluding Clashable Guard)\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Финальная сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> на главной цели (макс. 6)\n- <color=#ff6000><mark=#ff000040><b><u>Если the main target has [IntenseColors],</u></b></mark></color> Сила клеша +6\n- <color=#ff6000><mark=#ff000040><b><u>Если target has [IntenseColors],</u></b></mark></color> наносит +200% урона (against each target separately)\n· <color=#ff6000><mark=#ff000040><b><u>Если target has equipped Defense Skills</u></b></mark></color> while having [IntenseColors], наносит -90% урона вместо этого\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect на цели</u></b></mark></color> (макс. 60%, against each target separately)\n[DefeatDuel]\n- Получает 5 [AttackDmgDown] и 5 [Paralysis]\n- Damage from this Skill не Stagger the target\n- On Hit, не trigger [Sinking:*Депрессии*]  effects on the target\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\nPrioritizes targets that have [IntenseColors]\nэтот скилл не активирует защитные скиллы (excluding Clashable Guard)\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Финальная сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect</u></b></mark></color> на главной цели (макс. 6)\n- <color=#ff6000><mark=#ff000040><b><u>Если the main target has [IntenseColors],</u></b></mark></color> Сила клеша +6\n- <color=#ff6000><mark=#ff000040><b><u>Если target has [IntenseColors],</u></b></mark></color> наносит +200% урона (against each target separately)\n· <color=#ff6000><mark=#ff000040><b><u>Если target has equipped Defense Skills</u></b></mark></color> while having [IntenseColors], наносит -90% урона вместо этого\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect на цели</u></b></mark></color> (макс. 60%, against each target separately)\n[DefeatDuel]\n- Получает 5 [AttackDmgDown] и 5 [Paralysis]\n- Damage from this Skill не Stagger the target\n- On Hit, не trigger <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  effects on the target\n[EndSkill] End this turn",
           "coinlist": [
             {
               "coindescs": [
@@ -415,7 +415,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
@@ -425,7 +425,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +3 счётчика [Laceration:*Кетчупа*]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
@@ -435,7 +435,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:*Депрессии*] "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
                 }
               ]
             },
@@ -445,7 +445,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +3 счётчика [Sinking:*Депрессии*] "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +3 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
                 }
               ]
             },
