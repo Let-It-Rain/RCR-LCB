@@ -4,7 +4,7 @@
       "id": 142201,
       "name": "Доцент Фовизма",
       "desc": "Начало хода: получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> за каждого союзного Фовиста-студента Безымянного пальца на поле боя.\n- Если впервые за битву использует навык <color=#1cc7f1>「Критика」</color>, то начиная со следующего хода к этому эффекту добавляется восстановление 5 СД за каждого такого союзника на поле боя; (Если СД ниже -15, то восстанавливает по 10 СД вместо 5)\n- Если на поле боя больше не осталось союзных Фовистов-студентов Безымянного пальца, то вместо этого эффекта получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и сбрасывает СД до 0.\n\n<color=#ff6000><mark=#ff000040><b><u>Подставляет вместо себя союзных Фовистов-студентов Безымянного пальца</u></b></mark></color> перед получением удара от навыка противника, имеющего одну цель. (До 2 раз за ход; за исключением атак от Киры)\n\nКонец хода, в котором использовала навык <color=#1cc7f1>「Критика」</color>: если на поле боя меньше 4 союзных Фовистов-студентов Безымянного пальца, <color=#ff6000><mark=#ff000040><b><u>то заполняет недостающие места</u></b></mark></color> теми же Фовистами-студентами, которые были побеждены.\n- Призванные таким образом Фовисты-студенты получают (Число побеждённых за битву Фовистов-студентов) <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> и <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижений урона</link></u></color>. (До 10 каждого)",
-      "summary": "Immediately before getting hit, force an allied Student to take the hit instead",
+      "summary": "Immediately before getting hit, force an allied Student to take the hit вместо этого",
       "flavor": ""
     },
     {
@@ -39,7 +39,7 @@
       "id": 142302,
       "name": "Фовизм — Волчья маска: Возрождение дикости",
       "desc": "Начало хода: получает 8 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>. (Получает на 2 меньше за каждый тип негативных эффектов на себе)\n- Если проигрывает в столкновении навыком <color=#fe6f01>「Вспыхни пульсирующим багрянцем под своей кожей」</color>, то вместо этого эффекта получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> в начале следующего хода.\n\nСвой Уровень жирности повышается на 1 каждый раз, когда получает удар от противника. (До 20 за ход; сбрасывается в конце хода)\n- Если проигрывает в столкновении навыком <color=#fe6f01>「Вспыхни пульсирующим багрянцем под своей кожей」</color>, то во время следующего хода этот эффект будет действовать в обратную сторону и снижать Уровень жирности на 1 при получении удара. (До 20 за ход; сбрасывается в конце хода)",
-      "summary": "When hit, получает Уровень жирности\nIf this unit lost a Clash using a certain Skill, теряет Уровень жирности instead",
+      "summary": "при получении удара, получает Уровень жирности\nIf this unit lost a Clash using a certain Skill, теряет Уровень жирности вместо этого",
       "flavor": ""
     },
     {
@@ -66,14 +66,14 @@
     {
       "id": 500601,
       "name": "Reflectrial",
-      "desc": "At 10+ Clashes against the same enemy, randomly получает orтеряет Сила клеша by (количество клешей/10) in a Clash (округляется вниз)\n\nмакс. Potency cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 30\nмакс. Count cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 10",
+      "desc": "При 10+ Clashes against the same enemy, randomly получает orтеряет Сила клеша by (количество клешей/10) in a Clash (округляется вниз)\n\nмакс. Potency cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 30\nмакс. Count cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 10",
       "flavor": ""
     },
     {
       "id": 500602,
       "name": "The Ring's Docent of Fauvism",
-      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 2 [Protection]</u></b></mark></color> за каждые allied Fauvist Student of the Ring\n- If this unit used \"Critique\" in this Encounter, получает 2 [Protection] и хилит 5 IQ instead starting from the на следующий ход\n(At lower than -15 IQ, double the IQ-healing effect)\n- If there are no allied Fauvist Students of the Ring, получает 2 [Vulnerable] и reduce this unit's IQ down to 0 instead\n\nImmediately Before Getting Hit by a Skill that has 1 Atk Weight, if there is an allied Student of the Ring, <color=#ff6000><mark=#ff000040><b><u>apply 2 [Protection] on that unit; then, have the said unit take the attack instead (2 times per turn)</u></b></mark></color>\n\nTurn End of the turn this unit used \"Critique\": If an allied Fauvist Student of the Ring was defeated in this Encounter, <color=#ff6000><mark=#ff000040><b><u>refill its vacancy with the same Student unit</u></b></mark></color>\n- Every Начало хода: The Student that refilled the vacancy due to this effect gains (# of allies defeated in this Encounter) [Vulnerable] и [AttackDown] (макс. 10 each)",
-      "summary": "Immediately before getting hit, force an allied Student to take the hit instead",
+      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 2 [Protection]</u></b></mark></color> за каждые allied Fauvist Student of the Ring\n- If this unit used \"Critique\" в этой битве, получает 2 [Protection] и хилит 5 IQ вместо этого starting from the на следующий ход\n(При lower than -15 IQ, double the IQ-healing effect)\n- If there are no allied Fauvist Students of the Ring, получает 2 [Vulnerable] и reduce this unit's IQ down to 0 вместо этого\n\nImmediately Before Getting Hit by a Skill that has 1 Atk Weight, if there is an allied Student of the Ring, <color=#ff6000><mark=#ff000040><b><u>apply 2 [Protection] on that unit; then, have the said unit take the attack вместо этого (2 раз за ход)</u></b></mark></color>\n\nTurn End of the turn this unit used \"Critique\": If an allied Fauvist Student of the Ring was defeated в этой битве, <color=#ff6000><mark=#ff000040><b><u>refill its vacancy with the same Student unit</u></b></mark></color>\n- Every Начало хода: The Student that refilled the vacancy due to this effect gains (# of allies defeated в этой битве) [Vulnerable] и [AttackDown] (макс. 10 each)",
+      "summary": "Immediately before getting hit, force an allied Student to take the hit вместо этого",
       "flavor": ""
     },
     {
@@ -86,48 +86,48 @@
     {
       "id": 500604,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [IntenseColors] на следующий ход</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], и [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] и [EagleClawWound] each, наносит 2/3/4 [IntenseColors] instead (amount inflicted is based on the effect that has the least стаков)",
+      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [IntenseColors] на следующий ход</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], и [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] и [EagleClawWound] each, наносит 2/3/4 [IntenseColors] вместо этого (amount inflicted is based on the effect that has the least стаков)",
       "summary": "Наносит Palette Vibrante",
       "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken и express the ferity of those that we call wild beasts among them.'"
     },
     {
       "id": 500605,
       "name": "Casque de Fauve - Empreinte Vitale",
-      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: If this unit is in Panic, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>At 70%- ХП, получает a new pattern</u></b></mark></color>\n- Remove all effects other than those exclusive этому юниту\n- Наносит <color=#ff6000><mark=#ff000040><b><u>8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, +8 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 8 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> , и +8 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> </u></b></mark></color> on all Sinners on the field\n- First Turn Start of the new pattern: Получает [FaubismWolfMask] и хилит up to 45 IQ",
+      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: If this unit is in Panic, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>При 70%- ХП, получает a new pattern</u></b></mark></color>\n- Remove all effects other than those exclusive этому юниту\n- Наносит <color=#ff6000><mark=#ff000040><b><u>8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, +8 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 8 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> , и +8 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> </u></b></mark></color> on all Sinners on the field\n- First Turn Start of the new pattern: Получает [FaubismWolfMask] и хилит up to 45 IQ",
       "summary": "",
       "flavor": ""
     },
     {
       "id": 500701,
       "name": "Reflectrial",
-      "desc": "At 10+ Clashes against the same enemy, randomly получает orтеряет Сила клеша by (количество клешей/10) in a Clash (округляется вниз)\n\nмакс. Potency cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 30\nмакс. Count cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 10",
+      "desc": "При 10+ Clashes against the same enemy, randomly получает orтеряет Сила клеша by (количество клешей/10) in a Clash (округляется вниз)\n\nмакс. Potency cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 30\nмакс. Count cap for [Combustion], <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> : 10",
       "flavor": ""
     },
     {
       "id": 500702,
       "name": "Rufo, a Docent of The Ring's School of Fauvism",
-      "desc": "In the turn this unit uses a powerful attack, Min & макс. Speed +15\n\nTake -50% урона from Unopposed Attacks\nDeal +50% урона with Unopposed Attacks\n- If the Slot targeted by this unit's Unopposed Attack has 2+ [Aggro], reduce the increased урона from this effect by 5% per [Aggro] стаков (min 0%)\n\nOn Clashтеряет, получает 1 [AttackDmgUp] (5 per turn)\n- в конце хода, или at Attack End of a Skill that hit a Sinner, the [AttackDmgUp] effect gained with this effect expires",
+      "desc": "In the turn this unit uses a powerful attack, Min & макс. Speed +15\n\nTake -50% урона from Unopposed Attacks\nDeal +50% урона with Unopposed Attacks\n- If the Slot targeted by this unit's Unopposed Attack has 2+ [Aggro], reduce the increased урона from this effect by 5% per [Aggro] стаков (min 0%)\n\nOn Clashтеряет, получает 1 [AttackDmgUp] (5 per turn)\n- в конце хода, или при Attack End of a Skill that hit a Sinner, the [AttackDmgUp] effect gained with this effect expires",
       "summary": "получает меньше урона и наносит больше урона with Unopposed Attacks\nOn Clashтеряет, получает Damage Up",
       "flavor": ""
     },
     {
       "id": 500703,
       "name": "Le Fauvisme - Masque de Loup : Résurgence de la Sauvagerie",
-      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 10 [Protection]</u></b></mark></color>\n- Получает 1 fewer [Protection] at Turn Start <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect на этом юните</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>On Clashтеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, получает 2 [Vulnerable] from this effect instead</u></b></mark></color> for the на следующий ход\n\n<color=#ff6000><mark=#ff000040><b><u>Получает 1 Уровень жирности each time this unit is hit</u></b></mark></color> by a Skill Coin (макс. 20 per turn)\n- Конец хода: Уровень жирности gained due to this effect expires\n- <color=#ff6000><mark=#ff000040><b><u>On Clashтеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, теряет 1 Уровень жирности each time this unit is hit by a Skill Coin instead</u></b></mark></color> for the на следующий ход (макс. 20; expires в конце хода)",
-      "summary": "When hit, получает Уровень жирности\nIf this unit lost a Clash using a certain Skill, теряет Уровень жирности instead",
+      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 10 [Protection]</u></b></mark></color>\n- Получает 1 fewer [Protection] при Turn Start <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect на этом юните</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>On Clashтеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, получает 2 [Vulnerable] from this effect вместо этого</u></b></mark></color> for the на следующий ход\n\n<color=#ff6000><mark=#ff000040><b><u>Получает 1 Уровень жирности each time this unit is hit</u></b></mark></color> by a Skill Coin (макс. 20 per turn)\n- Конец хода: Уровень жирности gained due to this effect expires\n- <color=#ff6000><mark=#ff000040><b><u>On Clashтеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, теряет 1 Уровень жирности each time this unit is hit by a Skill Coin вместо этого</u></b></mark></color> for the на следующий ход (макс. 20; expires в конце хода)",
+      "summary": "при получении удара, получает Уровень жирности\nIf this unit lost a Clash using a certain Skill, теряет Уровень жирности вместо этого",
       "flavor": ""
     },
     {
       "id": 500704,
       "name": "Le Fauvisme - Couleurs Sauvages",
-      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [IntenseColors] на следующий ход</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], и [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] и [EagleClawWound] each, наносит 2/3/4 [IntenseColors] instead (amount inflicted is based on the effect that has the least стаков)",
+      "desc": "Combat End: <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [IntenseColors] на следующий ход</u></b></mark></color> to Sinners that have [BearClawWound], [EagleClawWound], и [BoldBrushstrokes] simultaneously\n- If target has 3+/6+/9+ [BearClawWound] и [EagleClawWound] each, наносит 2/3/4 [IntenseColors] вместо этого (amount inflicted is based on the effect that has the least стаков)",
       "summary": "Наносит Palette Vibrante",
       "flavor": "'Intrinsic in the outward appearance of each animal is a distinct purpose. And we les Fauves are the ones who awaken и express the ferity of those that we call wild beasts among them.'"
     },
     {
       "id": 500705,
       "name": "Le Fauvisme - Maximum Paint Tolerance Dose",
-      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: If this unit is in Panic, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>At 35%- ХП, convert [FaubismWolfMask] в [FaubismWolfMaskBlooded], и хилит up to 45 IQ</u></b></mark></color>",
+      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: If this unit is in Panic, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>При 35%- ХП, convert [FaubismWolfMask] в [FaubismWolfMaskBlooded], и хилит up to 45 IQ</u></b></mark></color>",
       "summary": "",
       "flavor": ""
     }
