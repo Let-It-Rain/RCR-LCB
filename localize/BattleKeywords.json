@@ -2120,7 +2120,7 @@
     {
       "name": "Огонь по блядскому хутору",
       "desc": "Максимально количество: 1\nНаносит на 3% больше урона при раскумаре за каждый <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванные воспоминания</link></u></color> (макс 18%)\nПри поподание, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчуп</link></u></color> (3 раза за ход)\nПри убийстве, получи 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Раскумара</link></u></color> и 2 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Раскумара</link></u></color> (2 раза за ход)\nПропадает в конце хода",
-      "summary": "Deal more Crit урона, наносит more Bleed",
+      "summary": "наносит больше Crit урона, наносит more Bleed",
       "id": "FellBulletPersonality",
       "undefined": "-"
     },
@@ -2214,7 +2214,7 @@
     },
     {
       "name": "No Matter How Many Must Bleed...",
-      "desc": "[Хуй Ло Exclusive Effect]\n- For this Encounter: after using a Skill Attack, получает 2 additional Э.Г.О resources of the Skill's Affinity (Один раз за ход)\n- When this unit takes урона, it gains 2 Slash DMG Up на следующий ход (Один раз за ход)",
+      "desc": "[Хуй Ло Exclusive Effect]\n- For this Encounter: after using a Skill Attack, получает 2 дополнительный Э.Г.О resources of the Skill's Affinity (Один раз за ход)\n- When this unit takes урона, it gains 2 Slash DMG Up на следующий ход (Один раз за ход)",
       "summary": "",
       "id": "DarkHonglu_EGOResourceup"
     },
@@ -2360,7 +2360,7 @@
     {
       "name": "Наелся и спит",
       "desc": "- Максимальное значение: 1  \n- Обретает обездвиженность  \n- Получает на 10 + (сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе × 5)% меньше урона (максимум 25%)  \n- Начало хода: получает барьер <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> в зависимости от силы <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе (максимум 5)  \n- Конец хода: получает +10 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и +2 к силе атаки на следующий ход, затем теряет этот эффект  \n- Получает аггро на самый левый слот этого юнита в зависимости от силы <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе (максимум 5)  \n- При получении удара получает +1 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и 1 нагрузку на следующий ход (максимум 5 за ход)  \n- Если этот юнит в панике или в коррозии Э.Г.О в начале хода, или если этот юнит оглушён, теряет этот эффект",
-      "summary": "Immobilized. Take less урона. получает Aggro и Charge Barrier. получает Charge Count на следующий ход. When hit, получает Load и Charge Count",
+      "summary": "Immobilized. получает меньше урона. получает Aggro и Charge Barrier. получает Charge Count на следующий ход. When hit, получает Load и Charge Count",
       "id": "WOverCharge",
       "undefined": "-"
     },
@@ -2374,14 +2374,14 @@
     {
       "name": "Розспівування",
       "desc": "- Максимум стаков: 3\n- Только для Айдишек <Хохлоленда>; включает усиленные навыки\n- Навык 1 и Навык 2 получают +1 к итоговой силе; наносят +5% урона за каждый стак (максимум 15%)\n- Навык 3 получает +2 к итоговой силе; наносит +10% урона за каждый стак (максимум 30%)\n- После атаки Навыком 3 или в начале хода, если у этого юнита нет твёрдокровной брони, теряет 1 стак",
-      "summary": "On Hit, deal more урона",
+      "summary": "On Hit, наносит больше урона",
       "id": "FocusOnActing",
       "undefined": "-"
     },
     {
       "name": "Концерт",
       "desc": "- Максимум стаков: 4  \n- Получает +10% урона от навыков похоти  \n• Если цель — айдишка <Хохлоленда>, получает +20% урона независимо от типа навыка  \n• При максимальных стаках наносит -20% урона по айдишкам <Хохлоленда>  \n- Теряет 1 стак после попадания и завершения навыка этого юнита или после попадания и завершения навыка, атаковавшего этого юнита",
-      "summary": "<Хохлоленд> Айдишки take less урона",
+      "summary": "<Хохлоленд> Айдишки получает меньше урона",
       "id": "ParadeConcentration",
       "undefined": "-"
     },
@@ -2496,7 +2496,7 @@
     {
       "name": "Стояк роналдо",
       "desc": "- Макс. стак: 2\n- Получает (стак x 10)% меньше урона\n- Начало хода: Получает щит, равный кумару на себе (макс. 20)\n- Конец хода: Получает 3 кумара и +1 счётчик кумара; Самый левый навык этого юнита на панели скиллов получает 5 Провокации на следующий ход \n- Конец хода: Теряет 1 стак",
-      "summary": "Take less урона",
+      "summary": "получает меньше урона",
       "id": "ProtectStanceRyoshu",
       "undefined": "-"
     },
@@ -2941,7 +2941,7 @@
     {
       "name": "Скоростная готовка",
       "desc": "- Мин & макс. скорость +1\n- Базовые атакующие скиллы получают Силу клеша +1 и +10% урона",
-      "summary": "- Получает Min & макс. Speed\n- Base Attack Skills получает Сила клеша и deal more урона",
+      "summary": "- Получает Min & макс. Speed\n- Base Attack Skills получает Сила клеша и наносит больше урона",
       "flavor": "Блять как первое слово названия этого эффекта выговорить вообще",
       "id": "MelodyBodyArt",
       "undefined": "-"
@@ -2949,7 +2949,7 @@
     {
       "name": "Скоростная готовка Очень быстрая",
       "desc": "- Мин & макс. скорость +2\n- Базовые атакующие скиллы получают Силу клеша +2 и +20% урона",
-      "summary": "- Получает Min & макс. Speed\n- Base Attack Skills получает Сила клеша и deal more урона",
+      "summary": "- Получает Min & макс. Speed\n- Base Attack Skills получает Сила клеша и наносит больше урона",
       "flavor": "А где оно вообще употребляется я не могу найти",
       "id": "MelodyBodyArtChebello",
       "undefined": "-"
@@ -2981,7 +2981,7 @@
     {
       "name": "Ускорение варки - Годовая норма кофе",
       "desc": "- Мин & Макс. скорость +2\n- Получает новый скиллсет\n- Наносит +20% урона по врагам, кто медленнее чем этот юнит",
-      "summary": "Получает Min & макс. Speed\nПолучает a new set of Базовые скиллы\nWhen conditions are met, deal more урона",
+      "summary": "Получает Min & макс. Speed\nПолучает a new set of Базовые скиллы\nWhen conditions are met, наносит больше урона",
       "flavor": "Привет я хейшо мао Р.Ё.Ш.У., отис, Эпштейн\r\nСОБЕРИ МОИ ГИММИКИ",
       "id": "SilverOpportunity",
       "undefined": "-"
@@ -3084,7 +3084,7 @@
     {
       "name": "Силиконовая смазка [Кращней]",
       "desc": "- Attack Skills that are Lust Skills или Skills that наносит Bleed или 'Unique Bleed' deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- Upon A-Reson., получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 times per turn)",
-      "summary": "Bleed Skills, 'Unique Bleed' Skills, и Lust Skills deal more урона",
+      "summary": "Bleed Skills, 'Unique Bleed' Skills, и Lust Skills наносит больше урона",
       "id": "FavorBuffTwth"
     },
     {
@@ -3096,7 +3096,7 @@
     {
       "name": "Силиконовая смазка [Бля]",
       "desc": "- Attack Skills that are Gloom Skills или Skills that наносит Sinking или 'Unique Sinking' deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- The Finger-faction Айдишки deal +15% урона to и take -15% урона from enemies",
-      "summary": "Sinking Skills, 'Unique Sinking' Skills, и Gloom Skills deal more урона",
+      "summary": "Sinking Skills, 'Unique Sinking' Skills, и Gloom Skills наносит больше урона",
       "id": "FavorBuffTwthTwo"
     },
     {
@@ -3192,7 +3192,7 @@
     {
       "id": "RetaliationBookSpiderOutis",
       "name": "Book of Vengeance [Пиццерия Фредди Фазбера]",
-      "desc": "- Against units that have this effect, Пиццерия Фредди Фазбера: Фредди Фазбер Пригожина и Пиццерия Фредди Фазбера: The Middle Apprentice Фишмаэль хилит 5 IQ On Hit using a Skill (once per Skill, 2 times per turn)\n- On Hit using a Skill against Пиццерия Фредди Фазбера: Фредди Фазбер Пригожина, получает 1 additional стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- On Hit using a Skill against Пиццерия Фредди Фазбера: The Middle Apprentice Фишмаэль, получает 1 additional стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- Expires в конце хода",
+      "desc": "- Against units that have this effect, Пиццерия Фредди Фазбера: Фредди Фазбер Пригожина и Пиццерия Фредди Фазбера: The Middle Apprentice Фишмаэль хилит 5 IQ On Hit using a Skill (once per Skill, 2 times per turn)\n- On Hit using a Skill against Пиццерия Фредди Фазбера: Фредди Фазбер Пригожина, получает 1 дополнительный стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- On Hit using a Skill against Пиццерия Фредди Фазбера: The Middle Apprentice Фишмаэль, получает 1 дополнительный стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- Expires в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3240,7 +3240,7 @@
     {
       "id": "MiddleFatherSwordOneOutis",
       "name": "Sealed Sword",
-      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ Bleed, deal (10% of the Coin's final урона) дробящий урона (округляется вниз)",
+      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ Bleed, deal (10% of the Coin's final урона) дробящего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3248,7 +3248,7 @@
     {
       "id": "MiddleFatherSwordTwoOutis",
       "name": "First Seal Removed",
-      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) дробящий урона (округляется вниз)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) дробящего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3256,7 +3256,7 @@
     {
       "id": "MiddleFatherSwordThreeOutis",
       "name": "Second Seal Removed",
-      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) рубящий урона (округляется вниз)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) рубящего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3264,7 +3264,7 @@
     {
       "id": "MiddleFatherSwordFourOutis",
       "name": "Строительный паяльник",
-      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Базовые скиллы with Строительный паяльник-Эксклюзивный скиллы corresponding to each Skill's rank\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) пронзающий урона (округляется вниз)",
+      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Базовые скиллы with Строительный паяльник-Эксклюзивный скиллы corresponding to each Skill's rank\n- Blunt Базовые скиллы deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Базовые скиллы, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) пронзающего урона (округляется вниз)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
