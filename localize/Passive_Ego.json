@@ -351,19 +351,19 @@
       "name": "Чувство уныния",
       "desc": "При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Потрясения сучки</link></u></color> на противнике с помощью своих навыков наносит 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход. (Трижды за ход; включая Э.Г.О навыки)",
       "id": "2060611",
-      "summary": "When triggering [VibrationExplosion], наносит 1 [AttackDown] and 2 [DefenseDown] на следующий ход"
+      "summary": "When triggering [VibrationExplosion], наносит 1 [AttackDown] и 2 [DefenseDown] на следующий ход"
     },
     {
       "name": "Слёзная оболочка",
       "desc": "Получает 1 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> при получении щита в начале хода.\n- Получает 1 дополнительную <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищенность</link></u></color> при наличии <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color> на себе.",
       "id": "2100611",
-      "summary": "Если у этого юнита есть Shield, gain 1 [Protection]\nIf [ShieldManagerCryingToad] is active, gain 1 [Protection]"
+      "summary": "Если у этого юнита есть Shield, получает 1 [Protection]\nIf [ShieldManagerCryingToad] is active, получает 1 [Protection]"
     },
     {
       "name": "Бег времени",
       "desc": "При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Потрясения сучки</link></u></color> на противнике с помощью своих навыков получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход. (До 4 раз за ход; включая Э.Г.О навыки)",
       "id": "2020611",
-      "summary": "When using a Skill to trigger [VibrationExplosion] on an enemy, gain 1 [Agility] на следующий ход. (4 times per turn, including E.G.O Skills)"
+      "summary": "When using a Skill to trigger [VibrationExplosion] on an enemy, получает 1 [Agility] на следующий ход. (4 times per turn, including Э.Г.О Skills)"
     },
     {
       "name": "Метка взора",
@@ -499,13 +499,13 @@
       "name": "Доктор",
       "desc": "Начало хода: исцеляет себя и 1 союзника с наименьшим процентом ХП на ([CuredFilm] каунт)% от максимального ХП этого юнита\n- Если у этого юнита полное ХП, исцеляет вместо этого 2 других союзников с наименьшим процентом ХП\n- Если у получающих лечение юнитов ХП 25% или ниже, или они находятся в стаггере, умножает эффективность исцеления этого эффекта на 1.5\n\nКонец хода: если последним Э.Г.О умением, использованным Эпштейн в этой битве, было Трусики Кальцит, теряется только 1 счётчик [CuredFilm] в конце хода\n- Этот эффект срабатывает в тот же ход, когда использовано Э.Г.О умение",
       "id": "2020911",
-      "summary": "Начало хода: хилит self and 1 ally with the lowest ХП percentage"
+      "summary": "Начало хода: хилит self и 1 ally with the lowest ХП percentage"
     },
     {
       "name": "Так написано, ода вину",
       "desc": "Конец хода: среди ресурсов Э.Г.О., потраченных на использование Реснички Альфонса Хон Лу (лень, уныние, гордость), получает 1 ресурс Э.Г.О наименьшего типа греха.\n\nНаносит +1% урона за каждый потерянный или использованный счётчик [Cianjing] или [SeniorCianjing] в этой битве (макс. 15%)",
       "id": "2060911",
-      "summary": "Конец хода: gain E.G.O resources\nDeal more урона based on how much Thunderer or Higher Thunderer was lost or consumed"
+      "summary": "Конец хода: получает Э.Г.О resources\nDeal more урона based on how much Thunderer or Higher Thunderer was lost or consumed"
     },
     {
       "name": "Бездонный танец",
@@ -532,7 +532,7 @@
       "name": "Оголил хуй в центре подворотен",
       "desc": "Если цель имела [ThreeMirrorpartYiSang], наносит +1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color> базовыми скиллами этого юнита (до 8 дополнительных единиц статусов за ход)\nЗа каждое убийство врага <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогой</noparse></link></u></color>, получает \"Повышение урона\" на следующий ход на случайный тип урона (3 за ход; каждый раз случайный бафф)",
       "id": "2010811",
-      "summary": "Inflicts more [Combustion] and <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  Potency to enemies with [ThreeMirrorpartYiSang]\nза каждые enemy killed by [Combustion] урона, gain DMG Up for a random Attack Type"
+      "summary": "Inflicts more [Combustion] и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  Potency to enemies with [ThreeMirrorpartYiSang]\nза каждые enemy killed by [Combustion] урона, получает DMG Up for a random Attack Type"
     },
     {
       "name": "Показ сисек в прямом эфире",
@@ -565,7 +565,7 @@
       "id": 2010212,
       "name": "Ember",
       "desc": "<style=\"highlight\">On Use of a Wrath Skill or a Skill that inflicts [Combustion] Potency or Count: At 6+ total sum of [Combustion] on all targets, Clash Power +1</style>\n\nOn Clash Win, наносит (Wrath <style=\"highlight\">Reson. x 2</style>) [Combustion] <style=\"highlight\">на главной цели</style> (<style=\"highlight\">макс. 8</style> per Skill)",
-      "summary": "Gain Clash Power\nWhen conditions are met, наносит [Combustion]"
+      "summary": "Получает Clash Power\nWhen conditions are met, наносит [Combustion]"
     }
   ]
 }

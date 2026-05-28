@@ -144,19 +144,19 @@
       "name": "Усиление положительной монеты",
       "desc": "Повышает силу положительной монеты на число счётчика этого эффекта.",
       "id": "PlusCoinValueUp",
-      "summary": "Plus Coin Power +{0}"
+      "summary": "Plus Сила монет +{0}"
     },
     {
       "name": "Усиление отрицательной монеты",
       "desc": "Повышает силу отрицательной монеты на число счётчика этого эффекта.",
       "id": "MinusCoinValueUp",
-      "summary": "Minus Coin Power +{0}"
+      "summary": "Minus Сила монет +{0}"
     },
     {
       "name": "Усиление умножающей монеты",
       "desc": "Повышает силу умножающей монеты на число счётчика этого эффекта.",
       "id": "TimesCoinValueUp",
-      "summary": "Multiply Coin Power +{0}"
+      "summary": "Multiply Сила монет +{0}"
     },
     {
       "name": "Понижение силы защиты",
@@ -310,13 +310,13 @@
       "name": "Желание",
       "desc": "В начале хода получает 10 Связываний.\nВсе физические сопротивления становятся <b>фатальными</b>.\nСила навыка атаки +2.\nСила навыка защиты -2.",
       "id": "Greedy",
-      "summary": "Gain 2 Fragile and 10 Bind"
+      "summary": "Получает 2 Fragile и 10 Bind"
     },
     {
       "name": "Розовые ленты",
       "desc": "Повышает счётчик на 1 каждый раз, как подбрасывает монетку навыка атаки.\nВ конце хода получает Понос, равное счётчику эффекта, затем эффект прекращает своё действие.",
       "id": "PinkRibbon_Ishmael",
-      "summary": "Gain {0} Bind"
+      "summary": "Получает {0} Bind"
     },
     {
       "name": "Опарыши",
@@ -328,13 +328,13 @@
       "name": "Повышение уровня атаки",
       "desc": "Уровень сваги повышается на сила этого эффекта на один ход.",
       "id": "AttackUp",
-      "summary": "Offense Level +{0}"
+      "summary": "Offense Уровень +{0}"
     },
     {
       "name": "Понижение уровня атаки",
       "desc": "Уровень сваги понижается на сила этого эффекта на один ход.",
       "id": "AttackDown",
-      "summary": "Offense Level -{0}"
+      "summary": "Offense Уровень -{0}"
     },
     {
       "name": "Великая гора",
@@ -566,7 +566,7 @@
       "name": "Проклятие",
       "desc": "В конце хода получает эффект из списка, затем понижает счётчик на 1.\n\n<b>Список эффектов:</b>\n- 1 Понижение силы атаки;\n- 1 Понижение силы защиты;\n- 2 Понижения уровня атаки;\n- 2 Понижения уровня защиты.",
       "id": "Curse",
-      "summary": "Gain a negative status effect, then reduce Count by 1"
+      "summary": "Получает a negative status effect, then reduce Count by 1"
     },
     {
       "name": "Повышение урона по уязвимости",
@@ -645,7 +645,7 @@
       "name": "Импульс",
       "desc": "При 5 и более единицах на счётчике эффекта получает 30 урона по IQ, 2 Уязвимости и 10 Связываний; после эффект прекращает своё действие.",
       "id": "Desire",
-      "summary": "Take 30 IQ урона & gain 2 Fragile and 10 Bind"
+      "summary": "Take 30 IQ урона & получает 2 Fragile и 10 Bind"
     },
     {
       "name": "Фанатичность",
@@ -657,7 +657,7 @@
       "name": "Гвозди Корп. N",
       "desc": "В начале хода получает 1 Кетчуп и повышает счётчик Кетчупа на счётчик этого эффекта.\nВ конце хода понижает счётчик этого эффекта на 1.",
       "id": "Nail",
-      "summary": "Gain 1 Bleed and add +{0} Bleed Count"
+      "summary": "Получает 1 Bleed и add +{0} Bleed Count"
     },
     {
       "name": "Золотой блеск",
@@ -789,7 +789,7 @@
       "name": "Гвозди",
       "desc": "Уникальный Кетчуп\nВ начале хода получает 1 Кетчуп и повышает счётчик Кетчупа на счётчик этого эффекта.\nВ конце хода понижает счётчик этого эффекта вдвое. (Десятичные опускаются)",
       "id": "NailPersonality",
-      "summary": "Gain 1 Bleed and add +{0} Bleed Count"
+      "summary": "Получает 1 Bleed и add +{0} Bleed Count"
     },
     {
       "name": "Фанатичность",
@@ -866,7 +866,7 @@
       "name": "Уровень сваги⁺",
       "desc": "Уровень сваги повышается на счётчик этого эффекта на один ход.",
       "id": "AttackLevelAdder",
-      "summary": "Offense Level +{0}"
+      "summary": "Offense Уровень +{0}"
     },
     {
       "name": "Аппетит",
@@ -878,13 +878,13 @@
       "name": "Множитель Э.Г.О-ресурсов",
       "desc": "Повышает число получаемых от навыков Э.Г.О-ресурсов на счётчик этого эффекта на один ход.",
       "id": "GainSinStockAdder",
-      "summary": "+{0} E.G.O resource gain"
+      "summary": "+{0} Э.Г.О resource получает"
     },
     {
       "name": "Неистовство",
       "desc": "Получает 3 Повышения силы атаки и 3 Уязвимости на один ход и меняет поведение. Не получает Агрессию будучи атакованным.",
       "id": "Enrage",
-      "summary": "Gain 3 Attack Power Up & 3 Fragile"
+      "summary": "Получает 3 Attack Power Up & 3 Fragile"
     },
     {
       "name": "Пространственный разлом",
@@ -1055,7 +1055,7 @@
     },
     {
       "name": "Maddened",
-      "desc": "- Panic\n- Targets indiscriminately; Clash Power +1, and получает 2 Damage Up",
+      "desc": "- Panic\n- Targets indiscriminately; Clash Power +1, и получает 2 Damage Up",
       "id": "Crazy_Panic",
       "undefined": "-"
     },
@@ -1517,7 +1517,7 @@
       "name": "Тряска: Разлом",
       "desc": "- Если сумма силы и счётчика Тряски равна 20 и более, во время оглушения повышает уровень оглушения на 1.\n- Этот эффект не может превысить максимальный уровень оглушения\n\nПовышает грань оглушения при потрясения сучки.\nПонижает счётчик на 1 в конце хода\n(Повышает/понижает сила и счётчик вместо Тряски.)",
       "id": "VibrationCrack",
-      "summary": "When Staggered, and when the sum of Tremor Potency and Count adds up to 20 or higher, raise Stagger Level by 1\nПовышает порог стаггера на {0}"
+      "summary": "When Staggered, и when the sum of Tremor Potency и Count adds up to 20 or higher, raise Stagger Уровень by 1\nПовышает порог стаггера на {0}"
     },
     {
       "name": "Пред ликом Короля",
@@ -1962,7 +1962,7 @@
     {
       "name": "Черные тучи",
       "desc": "Максимальное значение: 1.\nВ течение этого хода монеты навыков Айдишкий становятся <b>Вечными монетами</b>; при получении урона носитель эффекта не может быть оглушен вплоть до конца хода; также носитель эффекта наносит на 1 Кетчуп больше с помощью своих навыков.\nИтоговая сила +3 при поражении в поединке.\nВ конце хода эффект прекращает своё действие.",
-      "summary": "Converts Attack Skill to Unbreakable Coin and gains a new effect",
+      "summary": "Converts Attack Skill to Unbreakable Coin и gains a new effect",
       "id": "BlackCloud"
     },
     {
@@ -1974,7 +1974,7 @@
     {
       "name": "В боеготовности",
       "desc": "Максимальное значение: 1.\nПри нанесении Кетчупа или повышения его счётчика через навыки или монеты повышает сила и/или счётчик Кетчупа на 1.\nНа время этой битвы получает 1 Повышение силы рубящих навыков и 3 Повышения рубящего урона.",
-      "summary": "Enhance Slash Skills and наносит more Bleed",
+      "summary": "Enhance Slash Skills и наносит more Bleed",
       "id": "EngageToBattle"
     },
     {
@@ -2323,7 +2323,7 @@
     },
     {
       "name": "One Who Walks The Way of the Hegemon",
-      "desc": "- Хуй Ло's Skills получает +1 Финальная сила\n- On Clash Win, 1 ally(including this unit) with the least IQ heals 5 IQ\n- When an ally dies, на следующий ход, this unit gains 2 Attack Power Up and remaining allies получает 1 Attack Power Up (Один раз за ход)",
+      "desc": "- Хуй Ло's Skills получает +1 Финальная сила\n- On Clash Win, 1 ally(including this unit) with the least IQ heals 5 IQ\n- When an ally dies, на следующий ход, this unit gains 2 Attack Power Up и remaining allies получает 1 Attack Power Up (Один раз за ход)",
       "summary": "",
       "id": "DarkHongluQiuAndHonglu"
     },
@@ -2347,25 +2347,25 @@
     },
     {
       "name": "Happiness",
-      "desc": "- Хуй Ло's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die and heals 50% ХП instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's IQ by 10, and inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Хуй Ло's Clash Power +1\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die и heals 50% ХП instead\n- Nullfies the effect that turns this unit into a Precious Jade once. When clashing against Skills that turns this unit into a Precious Jade, Clash Power +5; if this unit wins that Clash, this unit does not become a Precious Jade, recovers from Stagger, reduces Jia Mu's IQ by 10, и inflicts 2 Fragile against Jia Mu\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": "",
       "id": "DarkHonglu_Xi"
     },
     {
       "name": "Happiness, Joy",
-      "desc": "- Хуй Ло's Финальная сила +1\n- On Clash Win, хилит 5 IQ for 1 ally with the least IQ (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die and heals 50% ХП instead\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Хуй Ло's Финальная сила +1\n- On Clash Win, хилит 5 IQ for 1 ally with the least IQ (including this unit)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die и heals 50% ХП instead\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": "",
       "id": "DarkHonglu_Le"
     },
     {
       "name": "Happiness, Joy, Sorrow",
-      "desc": "- Хуй Ло's Финальная сила +3\n- On Clash Win, хилит 5 IQ for 1 ally with the least IQ (including this unit)\n- When an ally is killed, the remaining allies at Turn End получает 1 Attack Power Up на следующий ход (Один раз за ход)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die and heals 50% ХП instead\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Хуй Ло's Финальная сила +3\n- On Clash Win, хилит 5 IQ for 1 ally with the least IQ (including this unit)\n- When an ally is killed, the remaining allies в конце хода получает 1 Attack Power Up на следующий ход (Один раз за ход)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die и heals 50% ХП instead\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": "",
       "id": "DarkHonglu_Ai"
     },
     {
       "name": "Happiness, Joy, Sorrow, Wrath",
-      "desc": "- Хуй Ло's Финальная сила +5\n- Allies хилит 5 IQ at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies at Turn End получает 1 Attack Power Up на следующий ход (Один раз за ход)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die and heals 50% ХП instead\n- Increases урона dealt by 30% of the total ХП percentage this unit has cumulatively lost during this Encounter (макс. 100%)\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
+      "desc": "- Хуй Ло's Финальная сила +5\n- Союзники хилят 5 IQ at every Turn Start (including this unit)\n- When an ally is killed, the remaining allies в конце хода получает 1 Attack Power Up на следующий ход (Один раз за ход)\n- When there are 1 or more surviving allies in this Encounter: upon taking fatal урона, Хуй Ло does not die и heals 50% ХП instead\n- Increases урона dealt by 30% of the total ХП percentage this unit has cumulatively lost during this Encounter (макс. 100%)\nOn Clash Win against Jia Mu, получает 1 random Э.Г.О Resource each from 3 of the Э.Г.О Affinities with the least amount of resources",
       "summary": "",
       "id": "DarkHonglu_Nu"
     },
@@ -2487,7 +2487,7 @@
     {
       "name": "Наелся и спит",
       "desc": "- Максимальное значение: 1  \n- Обретает обездвиженность  \n- Получает на 10 + (сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе × 5)% меньше урона (максимум 25%)  \n- Начало хода: получает барьер <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> в зависимости от силы <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе (максимум 5)  \n- Конец хода: получает +10 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и +2 к силе атаки на следующий ход, затем теряет этот эффект  \n- Получает аггро на самый левый слот этого юнита в зависимости от силы <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе (максимум 5)  \n- При получении удара получает +1 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и 1 нагрузку на следующий ход (максимум 5 за ход)  \n- Если этот юнит в панике или в коррозии Э.Г.О в начале хода, или если этот юнит оглушён, теряет этот эффект",
-      "summary": "Immobilized. Take less урона. получает Aggro and Charge Barrier. получает Charge Count на следующий ход. When hit, получает Load and Charge Count",
+      "summary": "Immobilized. Take less урона. получает Aggro и Charge Barrier. получает Charge Count на следующий ход. When hit, получает Load и Charge Count",
       "id": "WOverCharge",
       "undefined": "-"
     },
@@ -2508,7 +2508,7 @@
     {
       "name": "Концерт",
       "desc": "- Максимум стаков: 4  \n- Получает +10% урона от навыков похоти  \n• Если цель — айдишка <Хохлоленда>, получает +20% урона независимо от типа навыка  \n• При максимальных стаках наносит -20% урона по айдишкам <Хохлоленда>  \n- Теряет 1 стак после попадания и завершения навыка этого юнита или после попадания и завершения навыка, атаковавшего этого юнита",
-      "summary": "<Хохлоленд> Identities take less урона",
+      "summary": "<Хохлоленд> Айдишки take less урона",
       "id": "ParadeConcentration",
       "undefined": "-"
     },
@@ -2529,21 +2529,21 @@
     {
       "name": "Рука - Канадский журавль (Масть)",
       "desc": "- Базовая сила умения 1 +2\n- Когда этот юнит экипирует и использует базовую атаку <color=#ff0000>Гнева</color> или навык Э.Г.О в крайнем левом слоте умений, активирует эффекты \"формирования руки\" из пассивки \"Кой-Кой\".",
-      "summary": "Gain Base Power",
+      "summary": "Получает Base Power",
       "id": "HanafudaOne",
       "undefined": "-"
     },
     {
       "name": "Рука - Трава Сузуки (Масть)",
       "desc": "- Базовая сила умения 2 +1\n- Когда этот юнит экипирует и использует базовое умение атаки <color=#fbc82b>Лени</color> или умение Э.Г.О в крайнем левом слоте умений, активирует эффекты \"формирования руки\" в пассивке \"Кой-Кой\"",
-      "summary": "Gain Base Power",
+      "summary": "Получает Base Power",
       "id": "HanafudaTwo",
       "undefined": "-"
     },
     {
       "name": "Рука - Синяя Сакура (Масть)",
       "desc": "- Базовая сила навыка 3 +1\n- Когда этот юнит экипирует и использует базовый навык атаки или навык Э.Г.О <color=#15c3ee>Глум</color> в крайнем левом слоте навыков, активирует эффекты \"формирования руки\" из пассивки \"Кой-Кой\"",
-      "summary": "Gain Base Power",
+      "summary": "Получает Base Power",
       "id": "HanafudaThree",
       "undefined": "-"
     },
@@ -2557,49 +2557,49 @@
     {
       "name": "Открытая рана",
       "desc": "- Максимум стаков: 2\n- Конец хода: получает 1 связывание в следующий ход\n- Конец хода: при 2 стаках заменяет этот эффект на глубокую рану в следующий ход",
-      "summary": "Gain Bind на следующий ход",
+      "summary": "Получает Bind на следующий ход",
       "id": "HurtNightStiletto",
       "undefined": "-"
     },
     {
       "name": "Бробив очка",
       "desc": "- Максимальное значение: 3\n- Базовые навыки этого юнита накладывают на 1 больше силы зелёнки и депрессии\n- Конец хода: теряет 1 стак",
-      "summary": "Наносит +1 more of Rupture and Sinking Potency",
+      "summary": "Наносит +1 more of Rupture и Sinking Potency",
       "id": "GrownHorns",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "- Получает на 10% больше урона от навыков обжорства и уныния\n- Юниты с IQ: меняют тип паники на \"Сломленная метка\"\n- Юниты без IQ: сила столкновения -1\n- Конец хода: уменьшает 1 стак\n- Эффект не суммируется; наложение заменяет текущее значение на новое\n- Условие \"Юниты без IQ\" применяется к некоторым врагам, у которых есть IQ, но они не могут менять тип паники\n\n※ Эффекты типа паники \"Курдюк\"\n- Низкий моральный дух: сила столкновения -1, Уровень жирности -2 на себя\n- Паника: сила столкновения -2, Уровень жирности -3 на себя",
-      "summary": "Take +10% урона from Gluttony and Gloom Skills\n- Units with IQ: change their Panic Type to \"Shattermark\"\n- Units without IQ: -10% chance to flip Heads for Plus Coins",
+      "summary": "Take +10% урона from Gluttony и Gloom Skills\n- Units with IQ: change their Panic Type to \"Shattermark\"\n- Units without IQ: -10% chance to flip Heads for Plus Coins",
       "id": "CrushMarks",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "Получает на 10% больше урона от навыков обжорства и уныния.\nЮниты с IQ: меняют тип паники на \"Курдюк\".\nКонец хода: теряет 1 стак.",
-      "summary": "Take +10% урона from Gluttony and Gloom Skills\n- Change Panic Type to \"Shattermark\"",
+      "summary": "Take +10% урона from Gluttony и Gloom Skills\n- Change Panic Type to \"Shattermark\"",
       "id": "CrushMarks_Main",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "- Получает на 10% больше урона от навыков чревоугодия и уныния\n- Юниты без IQ: сила столкновения -1\n- Конец хода: терает 1 стак",
-      "summary": "Take +10% урона from Gluttony and Gloom Skills\n- Clash Power -1",
+      "summary": "Take +10% урона from Gluttony и Gloom Skills\n- Clash Power -1",
       "id": "CrushMarks_Sub",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "- Низкий боевой дух\n- Сила столкновения -1, Уровень жирности -2",
-      "summary": "Clash Power -1, Defense Level -2",
+      "summary": "Clash Power -1, Defense Уровень -2",
       "id": "CrushMarks_LowMorale",
       "undefined": "-"
     },
     {
       "name": "Курдюк",
       "desc": "- Низкий боевой дух\n- Сила столкновения -2, Уровень жирности -3",
-      "summary": "Clash Power -2, Defense Level -3",
+      "summary": "Clash Power -2, Defense Уровень -3",
       "id": "CrushMarks_Panic",
       "undefined": "-"
     },
@@ -2613,14 +2613,14 @@
     {
       "name": "Глубокая рана",
       "desc": "- Базовый стак: 3\n- При тряске сучки, получает +1 Счётчик Кетчупа (2 раза за ход)\n- Не может получить открытую рану (В фокусированных битвах - часть)\n- Конец хода: получает (Стак - 1) Поноса на следующий ход\n- Конец хода: уменьшает стак на 1",
-      "summary": "Gain Bleed Count\nGain Bind на следующий ход",
+      "summary": "Получает Bleed Count\nПолучает Bind на следующий ход",
       "id": "CriHurtNightStiletto",
       "undefined": "-"
     },
     {
       "name": "Фатальная рана",
       "desc": "- Базовый стак: 3\n- При тряске сучки, получает +3 Счётчика Кетчупа (2 раза за ход)\n- Не может получить открытую рану (В фокусированных битвах - часть)\n- Конец хода: Получает понос равный стаку на следующий ход\n- Конец хода: Уменьшает стак на 1",
-      "summary": "Gain Bleed Count\nGain Bind на следующий ход",
+      "summary": "Получает Bleed Count\nПолучает Bind на следующий ход",
       "id": "HorrHurtNightStiletto",
       "undefined": "-"
     },
@@ -2662,7 +2662,7 @@
     {
       "name": "Игла",
       "desc": "- Уникальный кетчуп\n- Когда получает урон завистью, получает 1 Счётчик Кетчупа и уменьшает эффект данного дебаффа на 1\n- Конец хода: получает 1 кетчуп и уменьшает данный эффект на 1",
-      "summary": "Gain Bleed Count",
+      "summary": "Получает Bleed Count",
       "id": "NiddleEGO",
       "undefined": "-"
     },
@@ -2703,7 +2703,7 @@
     {
       "name": "Лампа",
       "desc": "- Макс. стак: 8\n- Конец хода: получает 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> на следующий ход за каждые 2 стака (макс. 4)\n- Конец хода: При макс. стаке, если на поле боя есть враги, тратит все стаки чтобы получить на следующий ход:\n• Получает +10 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\"><noparse>Провокации</noparse></link></u></color> на свой самый левый слот скилла\n• Наносит 3 Гипноz врагу(ядру) с самым большим текущим ХП",
-      "summary": "Gain Bind на следующий ход",
+      "summary": "Получает Bind на следующий ход",
       "id": "LanternGregBigBird",
       "undefined": "-"
     },
@@ -2717,7 +2717,7 @@
     {
       "name": "Гипноz",
       "desc": "- За каждую 1 (Депрессию + Изжогу), получает на +0.5% больше урона от всех базовых скиллов (макс. 10%)\n- Враги с IQ: Меняет тип паники на \"Гипноz\"\n- Враги без IQ: Получает 2 понижения уровня защиты\n- Конец хода: Теряет 1 стак\n- Этот эффект не суммируется; нанося новый эффект, старый пропадает\n- Применяет условие \"Юниты без IQ\" к врагам, у которых есть IQ, но они не могут сменить тип паники\n\n※ Эффекты паники от Гипноzа\n- Низкая мораль: Конец хода: Получает 1 Понос и 2 Понижения уровня атаки на следующий ход\n- Паника: Конец хода: получает 1 Понос и 4 Понижения уровня атаки на следующий ход",
-      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nUnits with IQ: Change their Panic Type to \"Dazzle\"\nUnits without IQ: Defense Level -2",
+      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nUnits with IQ: Change their Panic Type to \"Dazzle\"\nUnits without IQ: Defense Уровень -2",
       "id": "DelusionGregBigBird",
       "undefined": "-"
     },
@@ -2731,21 +2731,21 @@
     {
       "name": "Гипноz",
       "desc": "- За каждую 1 (Депрессию + Изжогу), получает на +0.5% больше урона от всех базовых скиллов (макс. 10%)\n- Враги без IQ: Получает 2 понижения уровня защиты\n- Конец хода: Теряет 1 стак",
-      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nDefense Level -2",
+      "summary": "за каждые 1 (Sinking + Burn), take +0.5% урона from Base Attack Skills (макс. 10%)\nDefense Уровень -2",
       "id": "DelusionGregBigBird_Sub",
       "undefined": "-"
     },
     {
       "name": "Гипноz",
       "desc": "- Низкая мораль\n- Конец хода: Получает 1 Понос и 2 Понижения уровня защиты на следующий ход",
-      "summary": "Конец хода: Gain 1 Bind and 2 Offense Level Down на следующий ход",
+      "summary": "Конец хода: Получает 1 Bind и 2 Offense Уровень Down на следующий ход",
       "id": "DelusionGregBigBird_LowMorale",
       "undefined": "-"
     },
     {
       "name": "Гипноz",
       "desc": "- Паника\n- Конец хода: Получает 1 Понос и 4 Понижения уровня защиты на следующий ход",
-      "summary": "Конец хода: Gain 1 Bind and 4 Offense Level Down на следующий ход",
+      "summary": "Конец хода: Получает 1 Bind и 4 Offense Уровень Down на следующий ход",
       "id": "DelusionGregBigBird_Panic",
       "undefined": "-"
     },
@@ -3064,7 +3064,7 @@
     {
       "name": "Разогретая мультиварка",
       "desc": "Применяет следующие эффекты для Базовых скиллов и Контратаки с клешем, относительно силе 'Вкусные ингредиенты':\n- 1+ : Базовая сила +1\n- 2+ : Если враг имел Кетчуп или 'Уникальный Кетчуп', +10% урона\n- 3+ : Наносит на 1 больше силы и счётчика Кетчупа\n- 4+ : Базовая сила +1\n- 5+ : Базовая сила +1",
-      "summary": "Gain various effects based on Corpus Ingredient Potency",
+      "summary": "Получает various effects based on Corpus Ingredient Potency",
       "flavor": "Йоу зацените это",
       "id": "TibiaPersonality",
       "undefined": "-"
@@ -3072,7 +3072,7 @@
     {
       "name": "Скоростная готовка",
       "desc": "- Мин & макс. скорость +1\n- Базовые атакующие скиллы получают Силу клеша +1 и +10% урона",
-      "summary": "- Gain Min & макс. Speed\n- Base Attack Skills gain Clash Power and deal more урона",
+      "summary": "- Получает Min & макс. Speed\n- Base Attack Skills получает Clash Power и deal more урона",
       "flavor": "Блять как первое слово названия этого эффекта выговорить вообще",
       "id": "MelodyBodyArt",
       "undefined": "-"
@@ -3080,7 +3080,7 @@
     {
       "name": "Скоростная готовка Очень быстрая",
       "desc": "- Мин & макс. скорость +2\n- Базовые атакующие скиллы получают Силу клеша +2 и +20% урона",
-      "summary": "- Gain Min & макс. Speed\n- Base Attack Skills gain Clash Power and deal more урона",
+      "summary": "- Получает Min & макс. Speed\n- Base Attack Skills получает Clash Power и deal more урона",
       "flavor": "А где оно вообще употребляется я не могу найти",
       "id": "MelodyBodyArtChebello",
       "undefined": "-"
@@ -3088,7 +3088,7 @@
     {
       "name": "Морковка",
       "desc": "- Базовый стак: 3\n- Когда этот юнит получает урон от Базовых атакующих скиллов, случайно получает 1 из следующих эффектов на следующий ход и теряет 1 стак этого эффекта (Один раз за скилл)\n  · 3 Силы Кетчупа\n  · 1 Понос\n  · 1 Понижение уровня защиты",
-      "summary": "Randomly gain 1 of the following: Bleed Potency, Bind, or Defense Power Down",
+      "summary": "Randomly получает 1 of the following: Bleed Potency, Bind, or Defense Power Down",
       "flavor": "Для справки, я люблю ебать живое\r\n- Rain",
       "id": "LivingSpecimenPersonality",
       "undefined": "-"
@@ -3096,7 +3096,7 @@
     {
       "name": "Начинаю варить",
       "desc": "- Если Пиццерия Фредди Фазбера: Кофемашина Эпштейн на поле боя, получает 2 Защищённости в начале хода\n- Конец хода: Теряет 2 стака",
-      "summary": "Gain Protection when conditions are met",
+      "summary": "Получает Protection when conditions are met",
       "flavor": "Интересный факт, если вы не читали скиллы: По окончанию этого эффекта на Хуй Ло, он получает бесплатный С3-2 к себе в панель скиллов на следующий ход!",
       "id": "GoldenOpportunity",
       "undefined": "-"
@@ -3104,7 +3104,7 @@
     {
       "name": "Кофе... Машина",
       "desc": "- Получает +4 Провокации в самый левый слот скиллов\n- Начало хода: Получает 1 Жировые складки, 5 Повышений уровня защиты, и щит, ХП которого равно 5% от текущего ХП юнита\n- Когда получает урон последней монетой врага, наносит Пронзающий урон, равный 20% урона от последней монеты и наносит +2 счётчика Кетчупа (макс. один раз за скилл, 3 раза за ход. Макс урона за ход: 60)",
-      "summary": "- Gain Aggro to the leftmost Slot\n- Gain Protection, Defense Level Up, and Shield\n- When conditions are met, deal Pierce урона and наносит Bleed count on the attacker",
+      "summary": "- Получает Aggro to the leftmost Slot\n- Получает Protection, Defense Уровень Up, и Shield\n- When conditions are met, deal Pierce урона и наносит Bleed count on the attacker",
       "flavor": "ЕБУЧИЕ КОКБЛОКИ ",
       "id": "IronMaidenPersonality",
       "undefined": "-"
@@ -3112,7 +3112,7 @@
     {
       "name": "Ускорение варки - Годовая норма кофе",
       "desc": "- Мин & Макс. скорость +2\n- Получает новый скиллсет\n- Наносит +20% урона по врагам, кто медленнее чем этот юнит",
-      "summary": "Gain Min & макс. Speed\nGain a new set of Base Skills\nWhen conditions are met, deal more урона",
+      "summary": "Получает Min & макс. Speed\nПолучает a new set of Base Skills\nWhen conditions are met, deal more урона",
       "flavor": "Привет я хейшо мао Р.Ё.Ш.У., отис, Эпштейн\r\nСОБЕРИ МОИ ГИММИКИ",
       "id": "SilverOpportunity",
       "undefined": "-"
@@ -3120,7 +3120,7 @@
     {
       "name": "Оружие: Бобик",
       "desc": "Следующие эффекты применяются к Базовым скиллам юнита, в зависимости от силы 'Вкусные ингредиенты':\n- 1+ : Базовая сила +1\n- 2+ : Если этот юнит имел Кетчуп или 'Уникальный Кетчуп', наносит +10% урона\n- 3+ : Наносит на 1 силу и счётчика Кетчупа больше\n- 4+ : Базовая сила +1",
-      "summary": "Gain various effects based on Corpus Ingredient Potency",
+      "summary": "Получает various effects based on Corpus Ingredient Potency",
       "flavor": "БЕГИ ИЗ Пиццерии Фредди Фазбера\r\nКто прочитал тот гей кста\r\nИ пидор\r\nИ Нерг\r\nИ пидор\r\nИ динахуй",
       "id": "FasciaPersonality",
       "undefined": "-"
@@ -3199,23 +3199,23 @@
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- The Identities' Attack Skills that are <color=#f8c200>Lust Skills</color> or <color=#f8c200>Skills that наносит Bleed or 'Unique Bleed'</color> deal +25% урона (for E.G.O Skills, deal +100% урона instead)\n- Enemies take x1.5 урона from <color=#f8c200>Bleed</color> (rounded down)\n- Upon <color=#f8c200>A-Reson.</color>, gain 1 random least-owned E.G.O resource and 1 E.G.O resource of the Affinity used for A-Reson. (2 times per turn)",
+      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Lust Skills</color> or <color=#f8c200>Skills that наносит Bleed or 'Unique Bleed'</color> deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- Enemies take x1.5 урона from <color=#f8c200>Bleed</color> (rounded down)\n- Upon <color=#f8c200>A-Reson.</color>, получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 times per turn)",
       "id": "FavorBuffTwth1stPhaseForUI"
     },
     {
       "name": "Силиконовая смазка [Бля]",
-      "desc": "- The Identities' Attack Skills that are <color=#f8c200>Gloom Skills</color> or <color=#f8c200>Skills that наносит Sinking or 'Unique Sinking'</color> deal +25% урона (for E.G.O Skills, deal +100% урона instead)\n- Начало хода: Enemies in <color=#f8c200>Panic</color> gain 3 Fragile\n- <color=#f8c200>The Finger-faction Identities</color> deal +15% урона to and take -15% урона from enemies",
+      "desc": "- The Айдишки' Attack Skills that are <color=#f8c200>Gloom Skills</color> or <color=#f8c200>Skills that наносит Sinking or 'Unique Sinking'</color> deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- Начало хода: Enemies in <color=#f8c200>Panic</color> получает 3 Fragile\n- <color=#f8c200>The Finger-faction Айдишки</color> deal +15% урона to и take -15% урона from enemies",
       "id": "FavorBuffTwth2ndPhaseForUI"
     },
     {
       "name": "Бейби оил",
-      "desc": "- <color=#ff0000>макс. ХП</color> +25%\n- Skills наносит +1 more <color=#ff0000>Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], and Изуродованный цвет [Бля]</color>\n- If target has <color=#ff0000>Palette Vibrante</color>, Clash Power +2 and Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, <color=#ff0000>хилит 10 IQ on self</color> за каждые Sinner that has <color=#ff0000>Palette Vibrante</color> (макс. 30 IQ)",
+      "desc": "- <color=#ff0000>макс. ХП</color> +25%\n- Skills наносит +1 more <color=#ff0000>Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]</color>\n- If target has <color=#ff0000>Palette Vibrante</color>, Clash Power +2 и Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, <color=#ff0000>хилит 10 IQ on self</color> за каждые Sinner that has <color=#ff0000>Palette Vibrante</color> (макс. 30 IQ)",
       "id": "FavorBuffTwthHardForUI"
     },
     {
       "name": "Силиконовая смазка [Кращней]",
-      "desc": "- Attack Skills that are Lust Skills or Skills that наносит Bleed or 'Unique Bleed' deal +25% урона (for E.G.O Skills, deal +100% урона instead)\n- Upon A-Reson., gain 1 random least-owned E.G.O resource and 1 E.G.O resource of the Affinity used for A-Reson. (2 times per turn)",
-      "summary": "Bleed Skills, 'Unique Bleed' Skills, and Lust Skills deal more урона",
+      "desc": "- Attack Skills that are Lust Skills or Skills that наносит Bleed or 'Unique Bleed' deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- Upon A-Reson., получает 1 random least-owned Э.Г.О resource и 1 Э.Г.О resource of the Affinity used for A-Reson. (2 times per turn)",
+      "summary": "Bleed Skills, 'Unique Bleed' Skills, и Lust Skills deal more урона",
       "id": "FavorBuffTwth"
     },
     {
@@ -3226,26 +3226,26 @@
     },
     {
       "name": "Силиконовая смазка [Бля]",
-      "desc": "- Attack Skills that are Gloom Skills or Skills that наносит Sinking or 'Unique Sinking' deal +25% урона (for E.G.O Skills, deal +100% урона instead)\n- The Finger-faction Identities deal +15% урона to and take -15% урона from enemies",
-      "summary": "Sinking Skills, 'Unique Sinking' Skills, and Gloom Skills deal more урона",
+      "desc": "- Attack Skills that are Gloom Skills or Skills that наносит Sinking or 'Unique Sinking' deal +25% урона (for Э.Г.О Skills, deal +100% урона instead)\n- The Finger-faction Айдишки deal +15% урона to и take -15% урона from enemies",
+      "summary": "Sinking Skills, 'Unique Sinking' Skills, и Gloom Skills deal more урона",
       "id": "FavorBuffTwthTwo"
     },
     {
       "name": "Силиконовая смазка [Бля]",
-      "desc": "- Начало хода: When Panicked, gain 3 Fragile",
-      "summary": "When Panicked, gain Fragile",
+      "desc": "- Начало хода: When Panicked, получает 3 Fragile",
+      "summary": "When Panicked, получает Fragile",
       "id": "FavorBuffTwthEnemyTwo"
     },
     {
       "name": "Бейби оил",
-      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], and Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Clash Power +2 and Base Power +1",
-      "summary": "Наносит more Bleed Potency, Sinking Potency, and Изуродованный цвет\nIf target has Palette Vibrante, gain Clash Power and Base Power",
+      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Clash Power +2 и Base Power +1",
+      "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nIf target has Palette Vibrante, получает Clash Power и Base Power",
       "id": "FavorBuffTwthHard"
     },
     {
       "name": "Бейби оил",
-      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], and Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Clash Power +2 and Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, хилит 10 IQ on self за каждые Sinner that has Palette Vibrante (макс. 30 IQ)",
-      "summary": "Наносит more Bleed Potency, Sinking Potency, and Изуродованный цвет\nIf target has Palette Vibrante, gain Clash Power and Base Power",
+      "desc": "- макс. ХП +25%\n- Skills наносит +1 more Bleed Potency, Sinking Potency, Изуродованный цвет [Кращней], и Изуродованный цвет [Бля]\n- If target has Palette Vibrante, Clash Power +2 и Base Power +1\n- [Phase 2 exclusive effect] Начало хода: If this unit will use \"Burst Forth the Pulsing Crimson under Your Skin\" this turn, хилит 10 IQ on self за каждые Sinner that has Palette Vibrante (макс. 30 IQ)",
+      "summary": "Наносит more Bleed Potency, Sinking Potency, и Изуродованный цвет\nIf target has Palette Vibrante, получает Clash Power и Base Power",
       "id": "FavorBuffTwthHardTwo"
     },
     {
@@ -3322,29 +3322,29 @@
     },
     {
       "id": "EgoErode",
-      "name": "E.G.O Corrosion",
-      "desc": "Won’t listen to orders and will only use Corrosion Skills.",
+      "name": "Э.Г.О Corrosion",
+      "desc": "Won’t listen to orders и will only use Corrosion Skills.",
       "summary": "Out of control; uses Corrosion Skills",
       "undefined": "-"
     },
     {
       "id": "Daunted_LowMorale",
       "name": "Atrophied (Low Morale)",
-      "desc": "Начало хода: Gain 2 Attack Power Down.",
-      "summary": "Gain 2 Attack Power Down",
+      "desc": "Начало хода: Получает 2 Attack Power Down.",
+      "summary": "Получает 2 Attack Power Down",
       "undefined": "-"
     },
     {
       "id": "Daunted_Panic",
       "name": "Atrophied",
-      "desc": "- Panic\n- Начало хода: Gain 4 Attack Power Down",
-      "summary": "Gain 4 Attack Power Down"
+      "desc": "- Panic\n- Начало хода: Получает 4 Attack Power Down",
+      "summary": "Получает 4 Attack Power Down"
     },
     {
       "id": "Overwhelm_LowMorale",
       "name": "Overwhelmed (Low Morale)",
-      "desc": "Начало хода: Gain 2 Attack Power Down.",
-      "summary": "Gain 2 Attack Power Down",
+      "desc": "Начало хода: Получает 2 Attack Power Down.",
+      "summary": "Получает 2 Attack Power Down",
       "undefined": "-"
     },
     {
@@ -3357,14 +3357,14 @@
     {
       "id": "Anger_LowMorale",
       "name": "Agitated",
-      "desc": "- Low Morale\n- Начало хода: Gain 1 Attack Power Up and 2 Fragile",
-      "summary": "Gain 1 Damage Up and 2 Fragile"
+      "desc": "- Low Morale\n- Начало хода: Получает 1 Attack Power Up и 2 Fragile",
+      "summary": "Получает 1 Damage Up и 2 Fragile"
     },
     {
       "id": "Anger_Panic",
       "name": "Agitated",
-      "desc": "- Panic\n- Начало хода: Gain 2 Damage Up and 5 Fragile",
-      "summary": "Gain 2 Damage Up and 5 Fragile"
+      "desc": "- Panic\n- Начало хода: Получает 2 Damage Up и 5 Fragile",
+      "summary": "Получает 2 Damage Up и 5 Fragile"
     },
     {
       "id": "Run_LowMorale",
@@ -3375,20 +3375,20 @@
     {
       "id": "Choice_1030301",
       "name": "Event Effect",
-      "desc": "Combat Start: Gain 3 Attack Power Up.",
-      "summary": "Gain 3 Attack Power Up"
+      "desc": "Combat Start: Получает 3 Attack Power Up.",
+      "summary": "Получает 3 Attack Power Up"
     },
     {
       "id": "Choice_1030501",
       "name": "Event Effect",
-      "desc": "Gain 5 Attack Power Down each turn.",
-      "summary": "Gain 5 Attack Power Down"
+      "desc": "Получает 5 Attack Power Down each turn.",
+      "summary": "Получает 5 Attack Power Down"
     },
     {
       "id": "Choice_1031001",
       "name": "Event Effect",
-      "desc": "Gain 3 Damage Down each turn.",
-      "summary": "Gain 3 Damage Down"
+      "desc": "Получает 3 Damage Down each turn.",
+      "summary": "Получает 3 Damage Down"
     },
     {
       "id": "ReinforcedAssemble",
@@ -3409,7 +3409,7 @@
     {
       "id": "Cromer_Boredom",
       "name": "Accept the Pain!",
-      "desc": "Deal and take 100% more урона.\nDefense Skill Финальная сила -5."
+      "desc": "Deal и take 100% more урона.\nDefense Skill Финальная сила -5."
     },
     {
       "id": "Hardening",
@@ -3419,20 +3419,20 @@
     {
       "id": "Perfected",
       "name": "Perfect Shell",
-      "desc": "Начало хода: The Arms gain 2 Attack Power Up. Removed when the Arms’ ХП falls below 50%",
-      "summary": "Gain 2 Attack Power Up"
+      "desc": "Начало хода: The Arms получает 2 Attack Power Up. Removed when the Arms’ ХП falls below 50%",
+      "summary": "Получает 2 Attack Power Up"
     },
     {
       "id": "Whistle_Courage",
       "name": "Courage to Triumph Fear",
-      "desc": "Начало хода: Gain 1 Attack Power Up and 2 Protection.",
-      "summary": "Gain 1 Attack Power Up & 2 Protection"
+      "desc": "Начало хода: Получает 1 Attack Power Up и 2 Protection.",
+      "summary": "Получает 1 Attack Power Up & 2 Protection"
     },
     {
       "id": "Whistle_Fear",
       "name": "Fearsome Whistles",
-      "desc": "Начало хода: Gain 1 Bind and 1 Paralyze.",
-      "summary": "Gain 1 Bind & 1 Paralyze"
+      "desc": "Начало хода: Получает 1 Bind и 1 Paralyze.",
+      "summary": "Получает 1 Bind & 1 Paralyze"
     },
     {
       "id": "LittleCourage",
@@ -3449,20 +3449,20 @@
     {
       "id": "Strong_Chicken",
       "name": "Unvented Anger",
-      "desc": "Gain 1 Attack Power Up every turn.",
-      "summary": "Gain 1 Attack Power Up"
+      "desc": "Получает 1 Attack Power Up every turn.",
+      "summary": "Получает 1 Attack Power Up"
     },
     {
       "id": "EgoAwakenDongrangShardOfBrokenConnection",
       "name": "Piece of a Broken Bond",
-      "desc": "Саня's skillsполучает +2 Финальная сила\nWhen an ally dies, remaining allies gain 1 Haste and 1 Attack Power Up на следующий ход (один раз за ход)\nAs long as at least one other ally is alive in this battle, Саня does not die",
+      "desc": "Саня's skillsполучает +2 Финальная сила\nWhen an ally dies, remaining allies получает 1 Haste и 1 Attack Power Up на следующий ход (один раз за ход)\nAs long as at least one other ally is alive in this battle, Саня does not die",
       "summary": ""
     },
     {
       "id": "Choice_1040301",
       "name": "Unknown Wound",
-      "desc": "Gain 10 Rupture for this turn.",
-      "summary": "Gain 10 Rupture for the turn"
+      "desc": "Получает 10 Rupture for this turn.",
+      "summary": "Получает 10 Rupture for the turn"
     },
     {
       "id": "S2Mirror2ndFloor",
@@ -3473,20 +3473,20 @@
     {
       "id": "S2Mirror3rdFloor",
       "name": "Mirror of Mirrors - F3",
-      "desc": "Skill Финальная сила +1\nSkill Offense Level +3",
-      "summary": "Skill Финальная сила +1; Skill Offense Level +3"
+      "desc": "Skill Финальная сила +1\nSkill Offense Уровень +3",
+      "summary": "Skill Финальная сила +1; Skill Offense Уровень +3"
     },
     {
       "id": "S2Mirror4thFloor",
       "name": "Mirror of Mirrors - F4",
-      "desc": "Skill Финальная сила +1\nSkill Offense Level +3\nSkill Base Power +1",
-      "summary": "Skill Финальная сила +1; Skill Offense Level +3; Skill Base Power +1"
+      "desc": "Skill Финальная сила +1\nSkill Offense Уровень +3\nSkill Base Power +1",
+      "summary": "Skill Финальная сила +1; Skill Offense Уровень +3; Skill Base Power +1"
     },
     {
       "id": "S2Mirror5thFloor",
       "name": "Mirror of Mirrors - F5",
-      "desc": "Skill Финальная сила +1\nSkill Offense Level +3\nSkill Base Power +1\nSkill Plus Coin Power +2\nSkill Minus Coin Power -2",
-      "summary": "Skill Финальная сила +1; Skill Offense Level +3; Skill Base Power +1; Skill Plus Coin Power +2; Skill Minus Coin Power -2"
+      "desc": "Skill Финальная сила +1\nSkill Offense Уровень +3\nSkill Base Power +1\nSkill Plus Сила монет +2\nSkill Minus Coin Power -2",
+      "summary": "Skill Финальная сила +1; Skill Offense Уровень +3; Skill Base Power +1; Skill Plus Сила монет +2; Skill Minus Coin Power -2"
     },
     {
       "id": "StickCoinHeadAndTailToMaxPer",
@@ -3503,32 +3503,32 @@
     {
       "id": "S2Mirror2ndFloor_Hard",
       "name": "Mirror of Mirrors Hard - F2",
-      "desc": "Skill Финальная сила +1\nSkill Offense Level +3\nSkill Base Power +1\nSkill Plus Coin Power +2\nSkill Minus Coin Power -2",
-      "summary": "Skill Финальная сила +1; Skill Offense Level +3; Skill Base Power +1; Skill Plus Coin Power +2; Skill Minus Coin Power -2"
+      "desc": "Skill Финальная сила +1\nSkill Offense Уровень +3\nSkill Base Power +1\nSkill Plus Сила монет +2\nSkill Minus Coin Power -2",
+      "summary": "Skill Финальная сила +1; Skill Offense Уровень +3; Skill Base Power +1; Skill Plus Сила монет +2; Skill Minus Coin Power -2"
     },
     {
       "id": "S2Mirror3rdFloor_Hard",
       "name": "Mirror of Mirrors Hard - F3",
-      "desc": "Skill Финальная сила +2\nSkill Offense Level +3\nSkill Base Power +1\nSkill Plus Coin Power +2\nSkill Minus Coin Power -2",
-      "summary": "Skill Финальная сила +2; Skill Offense Level +3; Skill Base Power +1; Skill Plus Coin Power +2; Skill Minus Coin Power -2"
+      "desc": "Skill Финальная сила +2\nSkill Offense Уровень +3\nSkill Base Power +1\nSkill Plus Сила монет +2\nSkill Minus Coin Power -2",
+      "summary": "Skill Финальная сила +2; Skill Offense Уровень +3; Skill Base Power +1; Skill Plus Сила монет +2; Skill Minus Coin Power -2"
     },
     {
       "id": "S2Mirror4thFloor_Hard",
       "name": "Mirror of Mirrors Hard - F4",
-      "desc": "Skill Финальная сила +3\nSkill Offense Level +3\nSkill Base Power +1\nSkill Plus Coin Power +2\nSkill Minus Coin Power -2",
-      "summary": "Skill Финальная сила +3; Skill Offense Level +3; Skill Base Power +1; Skill Plus Coin Power +2; Skill Minus Coin Power -2"
+      "desc": "Skill Финальная сила +3\nSkill Offense Уровень +3\nSkill Base Power +1\nSkill Plus Сила монет +2\nSkill Minus Coin Power -2",
+      "summary": "Skill Финальная сила +3; Skill Offense Уровень +3; Skill Base Power +1; Skill Plus Сила монет +2; Skill Minus Coin Power -2"
     },
     {
       "id": "S2Mirror5thFloor_Hard",
       "name": "Mirror of Mirrors Hard - F5",
-      "desc": "Skill Финальная сила +5\nSkill Offense Level +3\nSkill Base Power +1\nSkill Plus Coin Power +2\nSkill Minus Coin Power -2",
-      "summary": "Skill Финальная сила +5; Skill Offense Level +3; Skill Base Power +1; Skill Plus Coin Power +2; Skill Minus Coin Power -2"
+      "desc": "Skill Финальная сила +5\nSkill Offense Уровень +3\nSkill Base Power +1\nSkill Plus Сила монет +2\nSkill Minus Coin Power -2",
+      "summary": "Skill Финальная сила +5; Skill Offense Уровень +3; Skill Base Power +1; Skill Plus Сила монет +2; Skill Minus Coin Power -2"
     },
     {
       "id": "S2Mirror1stFloor_Hard",
       "name": "Mirror of Mirrors Hard - F1",
-      "desc": "Skill Финальная сила +1\nSkill Offense Level +3\nSkill Base Power +1\nSkill Plus Coin Power +2\nSkill Minus Coin Power -2",
-      "summary": "Skill Финальная сила +1; Skill Offense Level +3; Skill Base Power +1; Skill Plus Coin Power +2; Skill Minus Coin Power -2"
+      "desc": "Skill Финальная сила +1\nSkill Offense Уровень +3\nSkill Base Power +1\nSkill Plus Сила монет +2\nSkill Minus Coin Power -2",
+      "summary": "Skill Финальная сила +1; Skill Offense Уровень +3; Skill Base Power +1; Skill Plus Сила монет +2; Skill Minus Coin Power -2"
     },
     {
       "id": "RailBuffForLine2_A_ENEMY",
@@ -3697,25 +3697,25 @@
     {
       "id": "EchoOfMansion_Main",
       "name": "Echoes of the Manor",
-      "desc": "- 50% chance toполучает +1 Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects\n- Change this unit's Panic Type to Echoes of the Manor.\n- When this unit Panics, наносит 2 Echoes of the Manor to 2 random other allies of this unit\n- Reduced by 1 at Turn End",
+      "desc": "- 50% chance toполучает +1 Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects\n- Change this unit's Panic Type to Echoes of the Manor.\n- When this unit Panics, наносит 2 Echoes of the Manor to 2 random other allies of this unit\n- Reduced by 1 в конце хода",
       "summary": ""
     },
     {
       "id": "EchoOfMansion_Sub",
       "name": "Echoes of the Manor",
-      "desc": "- 50% chance toполучает +1 Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects\n- -10% chance to flip Heads\n- Reduce by 1 at Turn End",
+      "desc": "- 50% chance toполучает +1 Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects\n- -10% chance to flip Heads\n- Reduce by 1 в конце хода",
       "summary": ""
     },
     {
       "id": "LibrarianOfHistoryNormal",
       "name": "Assistant Librarian of History",
-      "desc": "- Skill Slot +1\n- Хилит 15 IQ at Turn Start\n- Inflicts double the amount of Potency & Count for Burn, Bleed, Rupture, Sinking, and Tremor. (applies to 'Unique' Status effects as well)",
+      "desc": "- Skill Slot +1\n- Хилит 15 IQ at Turn Start\n- Inflicts double the amount of Potency & Count for Burn, Bleed, Rupture, Sinking, и Tremor. (applies to 'Unique' Status effects as well)",
       "summary": ""
     },
     {
       "id": "LibrarianOfHistoryHard",
       "name": "Librarian of History",
-      "desc": "- Skill Slot +1\n- Хилит 15 IQ at Turn Start\n- Inflicts double the amount of Potency & Count for Burn, Bleed, Rupture, Sinking, and Tremor. (applies to 'Unique' Status effects as well)\n- When an enemy is defeated, 2 allies(including this unit) with the least IQ хилит 25 IQ.\n- On Kill,получает +2 E.G.O resource for the Affinity that defeated the enemy; +1 to all E.G.O resources",
+      "desc": "- Skill Slot +1\n- Хилит 15 IQ at Turn Start\n- Inflicts double the amount of Potency & Count for Burn, Bleed, Rupture, Sinking, и Tremor. (applies to 'Unique' Status effects as well)\n- When an enemy is defeated, 2 allies(including this unit) with the least IQ хилит 25 IQ.\n- On Kill,получает +2 Э.Г.О resource for the Affinity that defeated the enemy; +1 to all Э.Г.О resources",
       "summary": ""
     },
     {
@@ -3727,49 +3727,49 @@
     {
       "id": "AaCfPaBa_Alt1",
       "name": "Unending Bereavement",
-      "desc": "Every Начало хода: хилит 5 IQ\nWhen hit, lose 3 IQ and gain 2 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 0 IQ, gain 3 Attack Power Up",
+      "desc": "Every Начало хода: хилит 5 IQ\nWhen hit, lose 3 IQ и получает 2 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 0 IQ, получает 3 Attack Power Up",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPaBa_Alt2",
       "name": "Behead Heathcliffs",
-      "desc": "Every Начало хода: хилит 10 IQ\nWhen hit, gain 2 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 0 IQ, gain 3 Attack Power Up",
+      "desc": "Every Начало хода: хилит 10 IQ\nWhen hit, получает 2 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 0 IQ, получает 3 Attack Power Up",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt1",
       "name": "Pouring Wrath",
-      "desc": "Конец хода: хилит 10 IQ\nWhen hit, gain 1 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 0 IQ, gain 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, gain 1 Damage Up and 3 Defense Level Down",
+      "desc": "Конец хода: хилит 10 IQ\nWhen hit, получает 1 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 0 IQ, получает 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, получает 1 Damage Up и 3 Defense Уровень Down",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt2",
       "name": "Behead Heathcliffs",
-      "desc": "Конец хода: хилит 10 IQ\nWhen hit, gain 1 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 10 IQ, gain 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, gain 3 Damage Up and 3 Defense Level Down",
+      "desc": "Конец хода: хилит 10 IQ\nWhen hit, получает 1 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 10 IQ, получает 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, получает 3 Damage Up и 3 Defense Уровень Down",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt3",
-      "name": "Affection and Hatred",
-      "desc": "Конец хода: хилит 15 IQ\nOn Hit, gain 1 Haste and 1 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 10 IQ, gain 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, gain 3 Damage Up",
+      "name": "Affection и Hatred",
+      "desc": "Конец хода: хилит 15 IQ\nOn Hit, получает 1 Haste и 1 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 10 IQ, получает 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, получает 3 Damage Up",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt4",
       "name": "Faded Promise",
-      "desc": "Конец хода: хилит 15 IQ\nOn Hit, gain 1 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 20 IQ, gain 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, gain 3 Damage Up and 3 Offense Level Up\nAt 1 ХП, хилит 40% ХП and 25 IQ (once per Encounter)",
+      "desc": "Конец хода: хилит 15 IQ\nOn Hit, получает 1 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 20 IQ, получает 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, получает 3 Damage Up и 3 Offense Уровень Up\nAt 1 ХП, хилит 40% ХП и 25 IQ (once per Encounter)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AaCfPcBa_Alt5",
       "name": "Faded Promise",
-      "desc": "Конец хода: хилит 15 IQ\nOn Hit, gain 1 Offense Level Up на следующий ход (3 times per turn)\nНачало хода: at less than 20 IQ, gain 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, gain 3 Damage Up and 3 Offense Level Up\nAs long as there is at least 1 other surviving ally, Цыган's ХП does not drop below 1\nAt 1 ХП, хилит 40% ХП and 25 IQ (once per Encounter)",
+      "desc": "Конец хода: хилит 15 IQ\nOn Hit, получает 1 Offense Уровень Up на следующий ход (3 times per turn)\nНачало хода: at less than 20 IQ, получает 3 Attack Power Up\nНачало хода: Если у этого юнита есть Dullahan, получает 3 Damage Up и 3 Offense Уровень Up\nAs long as there is at least 1 other surviving ally, Цыган's ХП does not drop below 1\nAt 1 ХП, хилит 40% ХП и 25 IQ (once per Encounter)",
       "summary": "",
       "undefined": "-"
     },
@@ -3804,7 +3804,7 @@
     {
       "id": "RetaliationBookSpiderOutis",
       "name": "Book of Vengeance [The House of Spiders]",
-      "desc": "- Against units that have this effect, The House of Spiders: The Middle Nursefather Пригожина and The House of Spiders: The Middle Apprentice Фишмаэль хилит 5 IQ On Hit using a Skill (once per Skill, 2 times per turn)\n- On Hit using a Skill against The House of Spiders: The Middle Nursefather Пригожина, gain 1 additional стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- On Hit using a Skill against The House of Spiders: The Middle Apprentice Фишмаэль, gain 1 additional стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- Expires at Turn End",
+      "desc": "- Against units that have this effect, The House of Spiders: The Middle Nursefather Пригожина и The House of Spiders: The Middle Apprentice Фишмаэль хилит 5 IQ On Hit using a Skill (once per Skill, 2 times per turn)\n- On Hit using a Skill against The House of Spiders: The Middle Nursefather Пригожина, получает 1 additional стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- On Hit using a Skill against The House of Spiders: The Middle Apprentice Фишмаэль, получает 1 additional стаков of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- Expires в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3820,7 +3820,7 @@
     {
       "id": "ReinforcedTattooSpiderOutis",
       "name": "The Middle - Vengeance Tattoo [<s>Great Sister</s>]",
-      "desc": "- макс. стаков: 10\n- Финальная сила +1 for Base Skills за каждые 5 стаков (макс. 2)\n- Envy Skills and Blunt Skills deal +5% урона за каждые стаков (макс. 50%)",
+      "desc": "- макс. стаков: 10\n- Финальная сила +1 for Base Skills за каждые 5 стаков (макс. 2)\n- Envy Skills и Blunt Skills deal +5% урона за каждые стаков (макс. 50%)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3828,7 +3828,7 @@
     {
       "id": "DaughterEducationSpiderOutis",
       "name": "Check This Out, Kiddo!",
-      "desc": "- макс. стаков: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- At 5+ стаков, Base Skills gain Финальная сила +1\n- Blunt Skills deal +1% урона за каждые стаков (макс. 10%)",
+      "desc": "- макс. стаков: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- At 5+ стаков, Base Skills получает Финальная сила +1\n- Blunt Skills deal +1% урона за каждые стаков (макс. 10%)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3836,7 +3836,7 @@
     {
       "id": "GotAComplimentIshmael",
       "name": "I Got Praised!",
-      "desc": "- макс. стаков: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- At 5+ стаков, Base Skills gain Финальная сила +1\n- Blunt Skills deal +1% урона за каждые стаков (макс. 10%)",
+      "desc": "- макс. стаков: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- At 5+ стаков, Base Skills получает Финальная сила +1\n- Blunt Skills deal +1% урона за каждые стаков (макс. 10%)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3852,7 +3852,7 @@
     {
       "id": "MiddleFatherSwordOneOutis",
       "name": "Sealed Sword",
-      "desc": "- Конец хода: Gain 2 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of the Coin's final урона) Blunt урона (rounded down)",
+      "desc": "- Конец хода: Получает 2 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 Bleed на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of the Coin's final урона) Blunt урона (rounded down)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3860,7 +3860,7 @@
     {
       "id": "MiddleFatherSwordTwoOutis",
       "name": "First Seal Removed",
-      "desc": "- Конец хода: Gain 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Blunt урона (rounded down)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Blunt урона (rounded down)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3868,7 +3868,7 @@
     {
       "id": "MiddleFatherSwordThreeOutis",
       "name": "Second Seal Removed",
-      "desc": "- Конец хода: Gain 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Slash урона (rounded down)",
+      "desc": "- Конец хода: Получает 1 Haste на следующий ход\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Slash урона (rounded down)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3876,7 +3876,7 @@
     {
       "id": "MiddleFatherSwordFourOutis",
       "name": "Lævateinn",
-      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Base Skills with Lævateinn-exclusive Skills corresponding to each Skill's rank\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Pierce урона (rounded down)",
+      "desc": "- Начало хода: Наносит 3 Burn on all units on the field\n- Replace this unit's Base Skills with Lævateinn-Эксклюзивный скиллs corresponding to each Skill's rank\n- Blunt Base Skills deal +2% урона за каждые 4 (Burn + Bleed) на цели (макс. 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final урона) Pierce урона (rounded down)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3884,7 +3884,7 @@
     {
       "id": "MidFamilyOutis",
       "name": "Avenging My Family",
-      "desc": "- Envy Base Skills deal +20% урона\n- Base Skills gain Финальная сила +1",
+      "desc": "- Envy Base Skills deal +20% урона\n- Base Skills получает Финальная сила +1",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3892,7 +3892,7 @@
     {
       "id": "CountSkillMidOutis",
       "name": "Rising Fever",
-      "desc": "Lose 1 стаков when meeting one of the following conditions (один раз за ход):\n- Using the \"Stamp of Vengeance\" Skill (including activation via Counter)\n- At Turn End after activating 6+ Envy A-Reson.\n\nAt 0 стаков, use the \"Time to Unpack!\" Skill",
+      "desc": "Lose 1 стаков when meeting one of the following conditions (один раз за ход):\n- Using the \"Stamp of Vengeance\" Skill (including activation via Counter)\n- в конце хода after activating 6+ Envy A-Reson.\n\nAt 0 стаков, use the \"Time to Unpack!\" Skill",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3900,7 +3900,7 @@
     {
       "id": "MatchesPersonality",
       "name": "Blazing",
-      "desc": "- Min & макс. Speed +1\n- This turn's first-used Base Attack Skill gains Финальная сила +2\n- Take 2% ХП урона On Hit with the affected Skill (макс. 10%; this урона does not Stagger or reduce this unit's ХП below 1)\n- Expires at Turn End",
+      "desc": "- Min & макс. Speed +1\n- This turn's first-used Base Attack Skill gains Финальная сила +2\n- Take 2% ХП урона On Hit with the affected Skill (макс. 10%; this урона does not Stagger or reduce this unit's ХП below 1)\n- Expires в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": ""

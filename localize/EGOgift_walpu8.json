@@ -5,7 +5,7 @@
       "desc": "При использовании навыка, который получает или тратит <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color>: получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> и 2 [AttackUp] на следующий ход (Один раз за ход на айдишку)\n- Скиллы, накладывающие силу <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>, счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> или 'Уникальную депрессию', наносят +(20 / число монет)% урона",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Agility] and [AttackUp] на следующий ход",
+          "simpleDesc": "Получает [Agility] и [AttackUp] на следующий ход",
           "id": ""
         },
         {
@@ -20,7 +20,7 @@
       "desc": "При использовании навыка, который получает или тратит <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Патроны</noparse></link></u></color>: получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> и 1 [Enhancement] на следующий ход (Один раз за ход для каждой Айдишки)\n- Скиллы, накладывающие силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> или 'Уникального Кетчупа', наносят +(20 / число монет)% урона",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Agility] and [Enhancement] на следующий ход",
+          "simpleDesc": "Получает [Agility] и [Enhancement] на следующий ход",
           "id": ""
         },
         {
@@ -35,11 +35,11 @@
       "desc": "Эффекты этого Э.Г.О Гифта. усиливаются в зависимости от количества Айдишек в отряде, чьи атакующие навыки получают или тратят <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color> (кроме Э.Г.О скиллов; учитываются все юниты в отряде).\n\n- При 2+...\nПри использовании с навыка, который получает или тратит <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Патроны</noparse></link></u></color>: получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешки</noparse></link></u></color> и 4 [AttackUp] на следующий ход (Один раз за айдишку за ход).\n\n- При 5+...\nСкиллы, использованные айдишками, которые получают или тратят <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color>: Сила столкновения +1, наносит +10% урона.\nНавыки, которые получают или тратят <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color>: наносит +(100 / число монет)% урона.\nЕсли у затронутого юнита закончились <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color>, получает 4 <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color> в начале следующего хода (Один раз за айдишку за бой).\n\n- При 8+...\nНачало хода: накладывает 1 [DesperadoBuff] на Айдишки, которые получают или тратят <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color>.\n• Если затронутый юнит не тратил <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Патроны</noparse></link></u></color> в прошлый ход, накладывает 1 дополнительный [DesperadoBuff].\nКонец боя: наносит (общая сумма [DesperadoBuff] на всех союзниках × 3) пронзающего урона 1 случайному врагу (макс. 30).\n• Затем, повторяет вышеуказанный эффект (количество Айдишек в отряде, которые получают или тратят <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color> - 1) раз.",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Agility] and [AttackUp] на следующий ход",
+          "simpleDesc": "Получает [Agility] и [AttackUp] на следующий ход",
           "id": ""
         },
         {
-          "simpleDesc": "Gain Clash Power and deal more урона",
+          "simpleDesc": "Получает Clash Power и deal more урона",
           "id": ""
         },
         {
@@ -47,7 +47,7 @@
           "id": ""
         },
         {
-          "simpleDesc": "Gain [Bullet]",
+          "simpleDesc": "Получает [Bullet]",
           "id": ""
         },
         {
@@ -66,11 +66,11 @@
       "desc": "Когда в этом ходе умирает союзник или враг, все Айдишки получают 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color> на следующий ход (Один раз за волну врагов)\n- Если союзник победил в клеше, в том же ходе когда получил [Vulnerable] из-за эффект выше, все союзники теряют 1 [Vulnerable] и наносят 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> всем врагам (Один раз за ход)",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Vulnerable] на следующий ход",
+          "simpleDesc": "Получает [Vulnerable] на следующий ход",
           "id": ""
         },
         {
-          "simpleDesc": "Reduce [Vulnerable] стаков on all allies and наносит [Laceration:*Кетчупа*] and счётчика [Laceration:*Кетчупа*] against all enemies",
+          "simpleDesc": "Reduce [Vulnerable] стаков on all allies и наносит [Laceration:*Кетчупа*] и счётчика [Laceration:*Кетчупа*] against all enemies",
           "id": ""
         }
       ],
@@ -81,11 +81,11 @@
       "desc": "Когда в этом ходе умирает союзник или враг, все Айдишки получают 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color> на следующий ход (Один раз за волну врагов)\n- Если союзник победил в клеше, в том же ходе когда получил [Vulnerable] из-за эффект выше, все союзники теряют 1 [Vulnerable] и наносят 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> всем врагам (2 раза за ход)",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Vulnerable] на следующий ход",
+          "simpleDesc": "Получает [Vulnerable] на следующий ход",
           "id": ""
         },
         {
-          "simpleDesc": "Reduce [Vulnerable] стаков on all allies and наносит [Laceration:*Кетчупа*] and счётчика [Laceration:*Кетчупа*] against all enemies",
+          "simpleDesc": "Reduce [Vulnerable] стаков on all allies и наносит [Laceration:*Кетчупа*] и счётчика [Laceration:*Кетчупа*] against all enemies",
           "id": ""
         }
       ],
@@ -96,11 +96,11 @@
       "desc": "Когда в этом ходе умирает союзник или враг, все Айдишки получают 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color> на следующий ход (Один раз за волну врагов)\n- Если союзник победил в клеше, в том же ходе когда получил [Vulnerable] из-за эффект выше, все союзники теряют 1 [Vulnerable] и наносят 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> всем врагам (3 раза за ход)",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Vulnerable] на следующий ход",
+          "simpleDesc": "Получает [Vulnerable] на следующий ход",
           "id": ""
         },
         {
-          "simpleDesc": "Reduce [Vulnerable] стаков on all allies and наносит [Laceration:*Кетчупа*] and счётчика [Laceration:*Кетчупа*] against all enemies",
+          "simpleDesc": "Reduce [Vulnerable] стаков on all allies и наносит [Laceration:*Кетчупа*] и счётчика [Laceration:*Кетчупа*] against all enemies",
           "id": ""
         }
       ],
@@ -111,11 +111,11 @@
       "desc": "[Эффекты применяются только к #3 Развёрнутой айдишке]\n\nНачало хода: получает 1 [TensionUp]\n\nПри попадании, 25% шанс наложить 1 [TensionUp] на себя и 1 случайного союзника\n- Если это был скилл, который накладывает <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color> (включая силу, счётчик и уникальные варианты), повышает шанс до 50%",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [TensionUp]",
+          "simpleDesc": "Получает [TensionUp]",
           "id": ""
         },
         {
-          "simpleDesc": "Apply [TensionUp] to self and 1 random ally",
+          "simpleDesc": "Apply [TensionUp] to self и 1 random ally",
           "id": ""
         }
       ],
@@ -126,11 +126,11 @@
       "desc": "[Эффекты применяются только к #3, #4 Развёрнутой айдишке]\n\nНачало хода: получает 1 [TensionUp]\n\nПри попадании, 25% шанс наложить 1 [TensionUp] на себя и 1 случайного союзника\n- Если это был скилл, который накладывает <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color> (включая силу, счётчик и уникальные варианты), повышает шанс до 75%",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [TensionUp]",
+          "simpleDesc": "Получает [TensionUp]",
           "id": ""
         },
         {
-          "simpleDesc": "Apply [TensionUp] to self and 1 random ally",
+          "simpleDesc": "Apply [TensionUp] to self и 1 random ally",
           "id": ""
         }
       ],
@@ -141,11 +141,11 @@
       "desc": "[Эффекты применяются только к #3, #4 Развёрнутой айдишке]\n\nНачало хода: получает 1 [TensionUp]\n\nПри попадании, 25% шанс наложить 1 [TensionUp] на себя и 2 случайных союзника\n- Если это был скилл, который накладывает <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> или <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color> (включая силу, счётчик и уникальные варианты), повышает шанс до 100%",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [TensionUp]",
+          "simpleDesc": "Получает [TensionUp]",
           "id": ""
         },
         {
-          "simpleDesc": "Apply [TensionUp] to self and 2 random allies",
+          "simpleDesc": "Apply [TensionUp] to self и 2 random allies",
           "id": ""
         }
       ],
@@ -167,11 +167,11 @@
       "desc": "При попадании навыком пронзающего типа по врагу: получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> и 1 [PenetrateDamageUp] на следующий ход (2 раза за ход для каждой Айдишки)\n- При убийстве врага этим навыком: получает ещё 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> и 2 [PenetrateDamageUp] на следующий ход (1 раз за ход для каждой Айдишки)\n\nПри попадании по врагу скиллом, наносящим сила <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>, счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> или \"Уникальную депрессию\", наносит 2 [PinkPetals]\n- Накладывает 1 дополнительный [PinkPetals] за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> на враге (макс. 4)\n- Если у врага есть 10+ стаков [PinkPetals], наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> при попадании (3 раза за ход)\n\nКонец хода: Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поноса</noparse></link></u></color> и 3 [DefenseDown] на следующий ход на врагов (для чурок, частей) с 5+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>)\n- Если у цели есть 10+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>), накладывает 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поноса</noparse></link></u></color>, 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color> и 4 [DefenseDown] вместо этого\n\nКонец хода: Если у всех врагов остались стаки [PinkPetals], все союзники получают 1 [Enhancement] на следующий ход",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [Agility] and [PenetrateDamageUp] на следующий ход",
+          "simpleDesc": "Получает [Agility] и [PenetrateDamageUp] на следующий ход",
           "id": ""
         },
         {
-          "simpleDesc": "Gain 1 [Agility] and 2 [PenetrateDamageUp] на следующий ход",
+          "simpleDesc": "Получает 1 [Agility] и 2 [PenetrateDamageUp] на следующий ход",
           "id": ""
         },
         {
@@ -179,11 +179,11 @@
           "id": ""
         },
         {
-          "simpleDesc": "Наносит [Binding] and [DefenseDown] на следующий ход. Наносит [Binding], [Paralysis], and [DefenseDown] when conditions are met",
+          "simpleDesc": "Наносит [Binding] и [DefenseDown] на следующий ход. Наносит [Binding], [Paralysis], и [DefenseDown] when conditions are met",
           "id": ""
         },
         {
-          "simpleDesc": "All allies gain [Enhancement] на следующий ход",
+          "simpleDesc": "All allies получает [Enhancement] на следующий ход",
           "id": ""
         }
       ],
@@ -194,7 +194,7 @@
       "desc": "[Эффекты применяются только к #6 Развёрнутой айдишке]\n\nНачало боя: получает [QueenBeepheromone]\n\nПолучает на 15% меньше урона от врагов с <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогой</noparse></link></u></color>\n\nКонец хода: наносит [QueenBeeMark] на следующий ход на врага (в фокусированных столкновениях - на часть), который нанёс этому юниту наибольший урон.\n- Если союзники не получали урона от врагов, наносит [QueenBeeMark] на следующий ход на 1 случайного врага (в фокусированных столкновениях - на часть).",
       "simpleDesc": [
         {
-          "simpleDesc": "Gain [QueenBeepheromone]",
+          "simpleDesc": "Получает [QueenBeepheromone]",
           "id": ""
         },
         {
@@ -209,7 +209,7 @@
       "desc": "[Эффекты применяются только к #1 Развёрнутой айдишке]\n\nПосле использования атакующего навыка в конце хода: восстанавливает 5 IQ\n- Затем, если затронутый юнит имеел максимальное ХП и являлся айдишкой из Корпорации Лоботомия., получает 1 [PlusCoinValueUp] на следующий ход",
       "simpleDesc": [
         {
-          "simpleDesc": "Хилит IQ; gain [PlusCoinValueUp] на следующий ход if conditions are met",
+          "simpleDesc": "Хилит IQ; получает [PlusCoinValueUp] на следующий ход if conditions are met",
           "id": ""
         }
       ],
