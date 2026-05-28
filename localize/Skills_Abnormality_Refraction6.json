@@ -1246,7 +1246,7 @@
         {
           "level": "1",
           "name": "Destroy the Sound, Crush Flat the Thought",
-          "desc": "Can Clash with this Skill regardless of Speed\nЕсли у этого юнита есть [BlackNightmare]:\n- Convert all Coins to [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>Когда clashing against a non-Blunt Skill</u></b></mark></color>, Сила монет +2 и наносит +50% урона\n- On Clashтеряет against a Blunt Skill:\n  - Coin Power -2 и наносит -50% урона\n  - Damage dealt by this Skill cannot Stagger the target; On Hit, не activate [Sinking:*Депрессии*]  на цели\n\nBlunt weapons appear more frequently\n- При 75+ [KarmaOfIndexRien_2Phase], Blunt weapons appear less frequently\n- При 150+ [KarmaOfIndexRien_2Phase], Blunt weapons appear even less frequently\nThe following effects activate depending on the weapon's Attack Type\n- Blunt weapons наносит +60% урона\n- Non-Blunt weapons наносит -30% урона\n[WhenUse] Получает 3  [Breath:*Кумара*] и +2 счётчика  [Breath:*Кумара*]\n[WinDuel] Raise target's Stagger Threshold by 25\n- При 150+ [KarmaOfIndexRien_2Phase], this effect не activate",
+          "desc": "Может вступать в столкновение с данным умением независимо от скорости\n\nЕсли у этого юнита есть [BlackNightmare]:\n- Преобразовать все монеты в [SuperCoin:*Вечные монеты*]\n- <color=#ff6000><mark=#ff000040><b><u>При столкновении с не-тупым умением</u></b></mark></color>, сила монет +2 и наносит +50% урона\n- При столкновении с тупым умением:\n  - Сила монет -2 и наносит -50% урона\n  - Урон, наносимый этим умением, не может оглушить цель; При попадании не активирует [Sinking:*Депрессии*] на цели\n\nТупое оружие появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase], тупое оружие появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase], тупое оружие появляется ещё реже\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Тупое оружие наносит +60% урона\n- Не-тупое оружие наносит -30% урона\n[WhenUse] Получает 3 [Breath:*Кумара*] и +2 счётчика [Breath:*Кумара*]\n[WinDuel] Повышает порог оглушения цели на 25\n- При 150+ [KarmaOfIndexRien_2Phase], этот эффект не активируется",
           "coinlist": [
             {
               "coindescs": [
@@ -1448,7 +1448,7 @@
         {
           "level": "1",
           "name": "Don't Let Them Hurt Me",
-          "desc": "[CanDuelGuard]\nФинальная сила -4 за каждые ally defeated в этой битве",
+          "desc": "[CanDuelGuard]\nФинальная сила -4 за каждых побеждённых союзников в этой битве",
           "coinlist": [
             {
               "coindescs": [
@@ -1467,7 +1467,7 @@
         {
           "level": "1",
           "name": "Play With Me!",
-          "desc": "Финальная сила +1 и наносит +5% урона за каждые ally defeated в этой битве\n[DefeatDuel] Базовая сила -7\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "Финальная сила +1 и наносит +5% урона за каждых побеждённых союзников в этой битве\n[DefeatDuel] Базовая сила -7\n[DefeatDuel] Урон наносимый этим Скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1496,7 +1496,7 @@
         {
           "level": "1",
           "name": "Hyah!",
-          "desc": "Финальная сила +1 и наносит +10% урона за каждые ally defeated в этой битве\n[DefeatDuel] Базовая сила -8\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "Финальная сила +1 и наносит +10% урона за каждых побеждённых союзников в этой битве\n[DefeatDuel] Базовая сила -8\n[DefeatDuel] Урон наносимый этим Скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1518,7 +1518,7 @@
         {
           "level": "1",
           "name": "Do You Like Dolls?",
-          "desc": "Финальная сила +1 и наносит +5% урона за каждые ally defeated в этой битве\n[DefeatDuel] Базовая сила -10\n[DefeatDuel] Damage dealt by this Skill cannot Stagger the target",
+          "desc": "Финальная сила +1 и наносит +5% урона за каждых побеждённых союзников в этой битве\n[DefeatDuel] Базовая сила -10\n[DefeatDuel] Урон наносимый этим Скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1547,7 +1547,7 @@
         {
           "level": "1",
           "name": "I'll Go fer Scissors. How 'Bout You?",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если this Skill is an Unopposed Attack, или если this Skill loses a Clash, наносит +300% урона</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Если target has [ResultReduction], Сила клеша +20</u></b></mark></color>\n[WinDuel] This Skill не trigger the target's Defense Skill\n[WinDuel] End this Skill и use \"You Win...\" on the target\n",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если этот скилл является односторонней атакой или проигрывает клэш, наносит +300% урона</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Если цель имеет [ResultReduction], сила клэша +20</u></b></mark></color>\n[WinDuel] Этот навык не запускает защитный навык цели\n[WinDuel] Завершает этот Скилл и использует \"You Win...\" на цели",
           "coinlist": [
             {
               "coindescs": [
@@ -1583,7 +1583,7 @@
         {
           "level": "1",
           "name": "You Win...",
-          "desc": "[CantDuel]\nThis Skill has the following properties:\n- не trigger Defense Skills\n- Its attack не hit\n[WhenUse] Накладывает 2 [AttackUp] на цели на следующий ход\n[EndSkill] Хилит (this Coin's Финальная сила x 5) ХП for 2 Sinners that have the lowest current ХП",
+          "desc": "[CantDuel]\nЭтот Скилл имеет следующие свойства:\n- Не триггерит защитные скиллы\n- Эта атака не попадает\n[WhenUse] Накладывает 2 [AttackUp] на цели на следующий ход\n[EndSkill] Хилит (Финальная сила этой монеты x 5) ХП двум Грешникам с наименьшим текущим ХП",
           "coinlist": [
             {
               "coindescs": []
@@ -1634,12 +1634,12 @@
         {
           "level": "1",
           "name": "Мазок говна №3: Пики точёные или Хуи дрочёные",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных навыков цели\n[WhenUse] Сила монет +1 за каждые 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на цели (До 2)",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных скиллов цели\n[WhenUse] Сила монет +1 за каждые 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон по СД вместо ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит урон по IQ вместо ХП"
                 },
                 {
                   "desc": "[OnSucceedAttack] Восстанавливает себе 15 IQ"
@@ -1745,8 +1745,8 @@
       "levelList": [
         {
           "level": "1",
-          "name": "Liberation of the Repressed Flesh",
-          "desc": "Во время хода которого экипирован этот скилл, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при получении удара от атакующих скиллов</u></b></mark></color> (один раз за скилл; макс. 3 раза за ход)\nНе может быть оглушён перед использованием этого скилла\nПри убийстве этим скиллом: восстанавливает 15 IQ за каждую убитую цель\n[StartBattle] Получает 4 [Protection]\n[WhenUse] Наносит +3% урона за каждые 6 ([Laceration:*Кетчупа*] на основной цели + [Laceration:*Кетчупа*] на дополнительной цели) (макс. 30%)\n[DefeatDuel] Наносит -90% урона, и нанесённый этим навыком урон не может застаггерить цель\n[EndSkill] [BoneBladeTheRings] истекает",
+          "name": "Нравится видеть меня без одежды?)))",
+          "desc": "Во время хода которого экипирован этот скилл, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при получении удара от атакующих скиллов</u></b></mark></color> (один раз за скилл; макс. 3 раза за ход)\nНе может быть оглушён перед использованием этого скилла\nПри убийстве этим скиллом: восстанавливает 15 IQ за каждую убитую цель\n[StartBattle] Получает 4 [Protection]\n[WhenUse] Наносит +3% урона за каждые 6 ([Laceration:*Кетчупа*] на основной цели + [Laceration:*Кетчупа*] на дополнительной цели) (макс. 30%)\n[DefeatDuel] Наносит -90% урона, и нанесённый этим навыком урон не может застаггерить цель\n[EndSkill] теряет [BoneBladeTheRings]",
           "coinlist": [
             {
               "coindescs": [
@@ -1754,7 +1754,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по IQ"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Цель теряет 5 IQ"
                 },
                 {
                   "desc": "[OnSucceedAttack] Хилит 5 IQ (один раз за скилл)"
