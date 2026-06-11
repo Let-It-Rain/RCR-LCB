@@ -1,65 +1,59 @@
 {
   "dataList": [
     {
-      "id": 40003801,
-      "name": "Limbus Company Specialized Custom Prosthetic Prototype mk5 - Dokkaebi Arms",
-      "desc": "Начало битвы: Получает [AengduNewArm]\n\nЕсли there is an ally при менее чем 50% ХП on the field excluding this unit, получает 1 [SupportProtect] (один раз за ход)",
-      "summary": "Получает [SupportProtect]",
-      "flavor": "\"On the outside, it looks no different from prostheses you might find in other Nests или Backstreets... But apparently, this particular prosthetic limb has been created using technology unique to Limbus Company. I wonder what that could be...\"\n\n\"Since the development of this prototype was led by the LCD Department, I would assume it has something to do with the power of Distortions... Oh, that's not to say that I have any certainty regarding the matter—I was only in charge of transporting it, you see. It's just a simple speculation, really. In any case, I doubt this is your average prosthetic limb meant for body enhancement.\""
+      "name": "Специальный кастомный прототип протеза Компании Limbus мк5 - Руки Токкэби ",
+      "desc": "Начало битвы: Получает [AengduNewArm]\n\nЕсли есть союзник с менее чем 50% ХП на поле за исключением этого юнита, получает 1 [SupportProtect] (один раз за ход)",
+      "id": "40003801"
     },
     {
-      "id": 40003802,
-      "name": "Demonfire Spinecleaver",
-      "desc": "Skill End: Получает 1 [WindBlade] за каждые 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (макс. 5, 2 раз за ход)\n\nOn Base Attack Skill End: При 15+ [WindBlade], activate \"Even the Balance - Lucent Rippling Flame\" on the enemy (один раз за ход)\n\nOn Defense Skill Clash Теряет, Если у этого юнита есть 3+ [Agility], this unit cannot be Staggered from taking урона until Defense Skill End, и activate \"To Claim Their Bones\" against the enemy after being hit (2 раз за ход, excluding forced Staggers)",
-      "summary": "Activate дополнительный Skill когда conditions are met"
+      "name": "Хребтокол демонического огня",
+      "desc": "Конец хода: Получает 1 [WindBlade] за каждые 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (макс. 5, 2 раз за ход)\n\nПосле завершения базового атакующего скилла: При 15+ [WindBlade], активирует \"Теперь есть ручки, и есть конфетки\" по врагу (один раз за ход)\n\nПри проигрыше защитным скиллом, Если у этого юнита есть 3+ [Agility], не может застаггериться от полученного урона до окончания защитного Скилла, и активирует \"Мини вырву вашу душу\" по врагу после получения удара (2 раз за ход, исключая принуждённые стаггеры)",
+      "id": "40003802"
     },
     {
-      "id": 40003803,
-      "name": "Swiftblade",
-      "desc": "On Crit, получает 1 [Agility] на следующий ход (3 times per Skill, 2 раз за ход)",
-      "summary": "Получает [Agility]"
+      "name": "Стремительный Клинок",
+      "desc": "При Раскумаре, получает 1 [Agility] на следующий ход (3 раза за скилл, 2 раз за ход)",
+      "id": "40003803"
     },
     {
-      "id": 40003804,
-      "name": "To Where I Must Return",
-      "desc": "Когда 3 или more other Blade Lineage allies are defeated:\n- Когда gaining  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency/Count using this unit's own Skills и Coin effects: Получает 1 more of each\n- Когда 5 или more other Blade Lineage allies are defeated, получает 2 more of each вместо этого\n- Начало столкновения: Накладывает [SwordPlayOfTheHomeland] на себе",
-      "summary": ""
+      "name": "Туда, куда я должна вернуться",
+      "desc": "Когда 3 или более союзников Родословной MTL убито:\n- Когда получает силу/счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> от своих Скиллов или Эффектов монет: Получает на 1 больше каждого\n- Когда 5 или более союзников Родословной MTL убито, получает на 2 больше каждого вместо этого\n- Начало столкновения: Накладывает [SwordPlayOfTheHomeland] на себе",
+      "id": "40003804"
     },
     {
-      "id": 40004001,
-      "name": "Fugitive",
-      "desc": "Upon entering the Encounter for the first time, получает [BrandedKimSatgat]"
+      "name": "Беглец",
+      "desc": "При первом входе в бой, получает [BrandedKimSatgat]",
+      "id": "40004001"
     },
     {
-      "id": 40004002,
-      "name": "Bearing of a Salsu",
-      "desc": "При 1 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, теряет 10 ХП вместо этого of losing счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (this effect cannot Stagger this unit и не drop this unit's ХП below 1)\n\nНаносит +(missing ХП percentage на себе / 2) урона on Critical Hit using Базовые скиллы (макс. 50%)"
+      "name": "Выдержка Сальсу",
+      "desc": "При 1 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, теряет 10 ХП вместо потери счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (эффект не может застаггерить юнита и опустить его ХП ниже 1)\n\nНаносит +(процент на потерянных ХП  себе / 2) урона при Раскумаре Базовыми скиллами (макс. 50%)",
+      "id": "40004002"
     },
     {
-      "id": 40004003,
-      "name": "Swordplay of the Homeland",
-      "desc": "Начало столкновения: Если Pride Reson. was activated,\n- Получает (Pride Reson. x 2)  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (макс. 8)\n- Накладывает 1 [SlashResultUp] и 1 [CriticalDamageUp] on all Sinners и Assist Units excluding this unit (for Blade Lineage targets, double this effect)\n\nКонец хода: Получает ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе / 4) [Agility] на следующий ход (макс. 6, округляется вниз)"
+      "name": "Искусство меча Родины",
+      "desc": "Начало столкновения: Если Резонанс гордыни был активирован,\n- Получает (Резонанс гордыни x 2) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (макс. 8)\n- Накладывает 1 [SlashResultUp] и 1 [CriticalDamageUp] на всех Балбесов и Ассист Юнитов исключая этого юнита (для Родословной MTL удваивает этот эффект)\n\nКонец хода: Получает (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе / 4) [Agility] на следующий ход (макс. 6, округляется вниз)",
+      "id": "40004003"
     },
     {
-      "id": 40004004,
-      "name": "Blade Lineage Mentor",
-      "desc": "Когда gaining  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency/Count using this unit's own Skills и Coin effects: Накладывает 1  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency и 1 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> on the Sinner и 2 Assist Units that do not have  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> или have the lowest  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency (excluding this unit)\n- For Blade Lineage allies, накладывает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency и +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> вместо этого\n\nКогда a Blade Lineage Sinner или Assist Unit is defeated, this unit loses 10 IQ"
+      "name": "Наставник Родословной MTL",
+      "desc": "При получении силы/счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> от своих Скиллов или Эффектов монет: Накладывает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и 1 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>на Балбесов и 2 Ассист юнитов, что не имеют <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> или с самым низким <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумаром</noparse></link></u></color> (исключая этого юнита)\n- Для Родословной MTL, накладывает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> вместо этого\n\nКогда Балбес Родословной MTL или Ассист юнит побеждены, теряет 10 IQ",
+      "id": "40004004"
     },
     {
-      "id": 40004005,
-      "name": "Yield My Flesh to Claim Their Bones",
-      "desc": "в этой битве, когда this unit takes урона that brings its ХП down to 0, nullify that урона; then, this unit's ХП cannot drop below 1 for the turn (один раз за бой)\n\nКонец хода: При 30+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency, fix this unit's Speed to 20 на следующий ход и equip \"Yield My Flesh\" on the leftmost Skill Slot\n- Если \"Yield My Flesh\" becomes inaccessible due to Skill effect, this effect не activate"
+      "name": "Уступлю плоть свою, дабы забрать их кости",
+      "desc": "В этой битве, когда этот юнит получает урон сводящий его ХП до 0, нивелирует этот урона; затем, ХП этого юнита не может опуститься ниже 1 в этом ходу (один раз за бой)\n\nКонец хода: При 30+ <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, фиксирует скорость юнита до 20 на следующий ход даёт \"Уступлю плоть свою\" в самый левый слот скиллов\n- Если \"Уступлю плоть свою\" становится недоступным из-за эффекта скилла, не активируется",
+      "id": "40004005"
     },
     {
-      "id": 40004006,
-      "name": "Fate Lost",
-      "desc": "Теряет this Encounter если this unit is killed",
-      "flavor": "One may get lost и wander onto the wrong path, but willful defiance или deviation from the flow are forbidden by \"it.\""
+      "name": "Надежды нет",
+      "desc": "Проигрывает бой если этот юнит погиб",
+      "id": "40004006"
     },
     {
-      "id": 40003901,
-      "name": "Dimensional Bag [Ezra]",
-      "desc": "Начало битвы: Получает 1 [DimensionalBagEzraA]\n\nЕсли this unit used the current Workshop weapon more than once, switch weapons the на следующий ход\n\nList of weapons:\n- Allas Workshop Gloves\n- Nester Workshop Hammer\n- Screw Atelier Drill Hammer\n- Namir Workshop Gauntlets\n- YuRia Atelier Axe"
+      "name": "Полный соц пакет [ретривер]",
+      "desc": "Начало битвы: Получает 1 [DimensionalBagEzraA]\n\nПри использовании текущего оружия мастерских более одного раза, меняет его в следующем ходу\n\nСписок оружий:\n- Перчатки мастерской Алласа\n- Молоток мастерской Нестера\n- Сверлильный молоток Ателье винта\n- Перчатки мастерской Намира\n- Топор Ателье ЮРии",
+      "id": "40003901"
     }
   ]
 }
