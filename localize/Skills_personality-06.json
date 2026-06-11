@@ -3114,12 +3114,11 @@
       "id": "1061408"
     },
     {
-      "id": 1061501,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Constricting Ohra Bonds",
-          "desc": "[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] Получает +3 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3144,14 +3143,14 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если target has [TiedRopeHonglu], наносит 1 [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель имела [TiedRopeHonglu], наносит 1 [TiedRopeHonglu]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "Constricting Ohra Bonds",
           "desc": "[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила монет +1\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
           "coinlist": [
@@ -3178,16 +3177,16 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если target has [TiedRopeHonglu], наносит 1 [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель имела [TiedRopeHonglu], наносит 1 [TiedRopeHonglu]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Constricting Ohra Bonds",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)\n[WhenUse] Если target has [TiedRopeHonglu], Финальная сила +1\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)\n[WhenUse] Если цель имела [TiedRopeHonglu], Финальная сила +1\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3212,21 +3211,21 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если target has [TiedRopeHonglu], наносит 1 [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель имела [TiedRopeHonglu], наносит 1 [TiedRopeHonglu]"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1061501"
     },
     {
-      "id": 1061502,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Avulsion Slash",
-          "desc": "[WhenUse] получает +2 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] Получает +2 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3241,7 +3240,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если target has 2+ [TiedRopeHonglu], consume 1 [TiedRopeHonglu] на цели to Reuse this Coin (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Если цель имела 2+ [TiedRopeHonglu], тратит 1 [TiedRopeHonglu] на цели чтобы снова подкинуть монету (один раз за скилл)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3250,16 +3249,16 @@
                   "desc": "[ReUseOnSucceedAttack] Получает 2 [Agility] на следующий ход"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Activate [Laceration:*Кетчупа*] на цели. Target loses 1 счётчика [Laceration:*Кетчупа*]"
+                  "desc": "[ReUseOnSucceedAttack] Активирует [Laceration:*Кетчуп*] на цели. Цель теряет 1 счётчик [Laceration:*Кетчупа*]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "Avulsion Slash",
-          "desc": "[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила монет +1\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] При 6+ ([Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила монет +1\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3274,7 +3273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если target has 2+ [TiedRopeHonglu], consume 1 [TiedRopeHonglu] на цели to Reuse this Coin (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Если цель имела 2+ [TiedRopeHonglu], тратит 1 [TiedRopeHonglu] на цели чтобы снова подкинуть монету (один раз за скилл)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3283,16 +3282,16 @@
                   "desc": "[ReUseOnSucceedAttack] Получает 2 [Agility] на следующий ход"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Activate [Laceration:*Кетчупа*] на цели. Target loses 1 счётчика [Laceration:*Кетчупа*]"
+                  "desc": "[ReUseOnSucceedAttack] Активирует [Laceration:*Кетчуп*] на цели. Цель теряет 1 счётчик [Laceration:*Кетчупа*]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Avulsion Slash",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)\n[WhenUse] Если target has [TiedRopeHonglu], Финальная сила +1\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)\n[WhenUse] Если цель имела [TiedRopeHonglu], Финальная сила +1\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3307,7 +3306,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если target has 2+ [TiedRopeHonglu], consume 1 [TiedRopeHonglu] на цели to Reuse this Coin (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Если цель имела 2+ [TiedRopeHonglu], тратит 1 [TiedRopeHonglu] на цели чтобы снова подкинуть монету (один раз за скилл)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3316,21 +3315,21 @@
                   "desc": "[ReUseOnSucceedAttack] Получает 2 [Agility] на следующий ход"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Activate [Laceration:*Кетчупа*] на цели. Target loses 1 счётчика [Laceration:*Кетчупа*]"
+                  "desc": "[ReUseOnSucceedAttack] Активирует [Laceration:*Кетчуп*] на цели. Цель теряет 1 счётчик [Laceration:*Кетчупа*]"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1061502"
     },
     {
-      "id": 1061503,
       "levelList": [
         {
-          "level": 3,
+          "level": "3",
           "name": "Hunter's Scouring",
-          "desc": "[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила монет +1\n[WhenUse] Если target has [TiedRopeHonglu], convert all Coins in this Skill to [SuperCoin:*Вечные монеты*], получает Финальная сила +1, и the final Coin applies the following On Hit:\n- Наносит +2 счётчика [Laceration:*Кетчупа*]\n- Наносит 1 [Reduction] на следующий ход\n[WhenUse] Получает 5  [Breath:*Кумара*]\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] При 6+ ([Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила монет +1\n[WhenUse] Если цель имела [TiedRopeHonglu], все монеты этого скилла становятся [SuperCoin:*Вечными*], а также получает +1 к Финальной силе, и а последняя монета:\n- Наносит +2 счётчика [Laceration:*Кетчупа*]\n- Наносит 1 [Reduction] на следующий ход\n[WhenUse] Получает 5  [Breath:*Кумара*]\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3338,7 +3337,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если target не have [TiedRopeHonglu], наносит [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель не имела [TiedRopeHonglu], наносит [TiedRopeHonglu]"
                 }
               ]
             },
@@ -3372,9 +3371,9 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Hunter's Scouring",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)\n[WhenUse] Если target has [ScratchesHurtID], наносит +20% урона\n[WhenUse] Если target has [TiedRopeHonglu], convert all Coins in this Skill to [SuperCoin:*Вечные монеты*], получает Финальная сила +1, и the final Coin applies the following On Hit:\n- Наносит +2 счётчика [Laceration:*Кетчупа*]\n- Наносит 1 [Reduction] на следующий ход\n[WhenUse] Получает 5  [Breath:*Кумара*]\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)\n[WhenUse] Если цель имела [ScratchesHurtID], наносит +20% урона\n[WhenUse] Если цель имела [TiedRopeHonglu], все монеты этого скилла становятся [SuperCoin:*Вечными*], а также получает +1 к Финальной силе, и а последняя монета:\n- Наносит +2 счётчика [Laceration:*Кетчупа*]\n- Наносит 1 [Reduction] на следующий ход\n[WhenUse] Получает 5  [Breath:*Кумара*]\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3382,7 +3381,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если target не have [TiedRopeHonglu], наносит [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель не имела [TiedRopeHonglu], наносит [TiedRopeHonglu]"
                 }
               ]
             },
@@ -3403,7 +3402,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Наносит +50% урона on Critical Hit"
+                  "desc": "Наносит +50% урона при раскумаре"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*]"
@@ -3421,15 +3420,15 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1061503"
     },
     {
-      "id": 1061504,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Throwing the Ohra Bond",
-          "desc": "[DuelCounter]\n[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила клеша +2\n[WhenUse] Получает 5  [Breath:*Кумара*]",
+          "desc": "[DuelCounter]\n[WhenUse] При 6+ ([Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила клеша +2\n[WhenUse] Получает 5  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3447,9 +3446,9 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Throwing the Ohra Bond",
-          "desc": "[DuelCounter]\n[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила клеша +2\n[WhenUse] Получает 5  [Breath:*Кумара*]\n[WinDuel] получает +3 счётчика  [Breath:*Кумара*]",
+          "desc": "[DuelCounter]\n[WhenUse] При 6+ ([Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели), Сила клеша +2\n[WhenUse] Получает 5  [Breath:*Кумара*]\n[WinDuel] Получает +3 счётчика  [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3466,7 +3465,8 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1061504"
     }
   ]
 }
