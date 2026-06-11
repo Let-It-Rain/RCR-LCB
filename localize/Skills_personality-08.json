@@ -2281,12 +2281,11 @@
       "id": "1081404"
     },
     {
-      "id": 1081501,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Rending Arts",
-          "desc": "[WhenUse] получает +2 счётчика  [Breath:*Кумара*]\n[EndSkill] Если у этого юнита есть [Agility], получает 1 [WindBladeIshmael] (один раз за ход)",
+          "desc": "[WhenUse] Получает +2 счётчика [Breath:*Кумара*]\n[EndSkill] Если этот юнит имеет [Agility:*Спешку*], получает 1 [WindBladeIshmael] (раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2298,17 +2297,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1  [Breath:*Кумара*]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:*Кумара*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:*Кетчупа*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "Rending Arts",
           "desc": "<style=\"highlight\">[WhenUse] При 3+ [Agility], Сила клеша +1</style>\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*]\n[EndSkill] Если у этого юнита есть [Agility], получает 1 [WindBladeIshmael] (один раз за ход)",
           "coinlist": [
@@ -2332,7 +2331,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Rending Arts",
           "desc": "<style=\"highlight\">[WhenUse] При 5+  [Breath:*Кумара*], Сила монет +1\n[WhenUse] Сила клеша +1 за каждые 5 [Laceration:*Кетчупа*] на цели (макс. 2)</style>\n[WhenUse] При 3+ [Agility], Сила клеша +1\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*]\n[EndSkill] Если у этого юнита есть [Agility], получает 1 [WindBladeIshmael] (один раз за ход)",
           "coinlist": [
@@ -2358,20 +2357,20 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081501"
     },
     {
-      "id": 1081502,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Acupuncture",
-          "desc": "[WhenUse] получает +3 счётчика  [Breath:*Кумара*]\n[EndSkill] Получает 1 [WindBladeIshmael] за каждые [Agility] на себе (макс. 2, один раз за ход)",
+          "desc": "[WhenUse] Получает +3 счётчика  [Breath:*Кумара*]\n[EndSkill] Получает 1 [WindBladeIshmael] за каждую [Agility:*Спешку*] на себе (макс. 2, раз за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2  [Breath:*Кумара*]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:*Кетчупа*]"
@@ -2381,7 +2380,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2  [Breath:*Кумара*]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:*Кетчупа*]"
@@ -2401,7 +2400,7 @@
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "Acupuncture",
           "desc": "<style=\"highlight\">[WhenUse] При 3+ [Agility], Сила клеша +2</style>\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]\n[EndSkill] Получает 1 [WindBladeIshmael] за каждые [Agility] на себе (макс. 2, один раз за ход)",
           "coinlist": [
@@ -2438,7 +2437,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Acupuncture",
           "desc": "<style=\"highlight\">[WhenUse] При 5+  [Breath:*Кумара*], Сила монет +1\n[WhenUse] Сила клеша +1 за каждые 5 [Laceration:*Кетчупа*] на цели (макс. 2)</style>\n[WhenUse] При 3+ [Agility], Сила клеша +2\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]\n[EndSkill] Получает 1 [WindBladeIshmael] за каждые [Agility] на себе (макс. 2, один раз за ход)",
           "coinlist": [
@@ -2477,13 +2476,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081502"
     },
     {
-      "id": 1081503,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Lucent Rippling Flame",
           "desc": "Наносит +1.5% урона on Critical Hit за каждые  [Breath:*Кумара*] на себе (макс. 30%)\n[WhenUse] Финальная сила +1 за каждые 2 [Agility] на себе (макс. 2)\n[WhenUse] При 10+ [WindBladeIshmael], convert all Coins в [SuperCoin:*Вечные монеты*]\n[WhenUse] Получает 3  [Breath:*Кумара*]\n[WhenUse] Получает 2 [Agility] на следующий ход (один раз за ход)\n[EndSkill] Получает 1 [WindBladeIshmael] за каждые [Agility] на себе (макс. 3, один раз за ход)",
           "coinlist": [
@@ -2517,7 +2516,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Lucent Rippling Flame",
           "desc": "Наносит +1.5% урона on Critical Hit за каждые  [Breath:*Кумара*] на себе (макс. 30%)\n[WhenUse] Финальная сила +1 за каждые 2 [Agility] на себе (макс. 2)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Laceration:*Кетчупа*] на цели) (макс. 2)</style>\n[WhenUse] При 10+ [WindBladeIshmael], convert all Coins в [SuperCoin:*Вечные монеты*]\n[WhenUse] Получает 3  [Breath:*Кумара*]\n[WhenUse] Получает 2 [Agility] на следующий ход (один раз за ход)\n[EndSkill] Получает 1 [WindBladeIshmael] за каждые [Agility] на себе (макс. 3, один раз за ход)",
           "coinlist": [
@@ -2559,13 +2558,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081503"
     },
     {
-      "id": 1081504,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "I'll Light the Path Forward",
           "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect] (один раз за ход)\n[WhenUse] Получает 2 [Agility] на следующий ход (один раз за ход)\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*] (один раз за ход)\n[WinDuel] Получает 3  [Breath:*Кумара*]",
           "coinlist": [
@@ -2579,7 +2578,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "I'll Light the Path Forward",
           "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect] (один раз за ход)\n[WhenUse] Получает 2 [Agility] на следующий ход (один раз за ход)\n[WhenUse] получает +2 счётчика  [Breath:*Кумара*] (один раз за ход)\n[WinDuel] Получает 3  [Breath:*Кумара*]\n<style=\"highlight\">[EndSkillAll] Если у этого юнита есть [Agility], получает 2 [WindBladeIshmael] (один раз за ход)</style>",
           "coinlist": [
@@ -2592,13 +2591,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081504"
     },
     {
-      "id": 1081505,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "To Claim Their Bones",
           "desc": "[CantDuel]\nэтот скилл не активирует защитные скиллы\nНаносит +0.5% урона за каждые 1% missing ХП на себе (макс. 20%)\nНаносит +3% урона on Critical Hit за каждые [Agility] на себе (макс. 15%)",
           "coinlist": [
@@ -2625,7 +2624,7 @@
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "To Claim Their Bones",
           "desc": "[CantDuel]\nэтот скилл не активирует защитные скиллы\nНаносит +0.5% урона за каждые 1% missing ХП на себе (макс. 20%)\nНаносит +3% урона on Critical Hit за каждые [Agility] на себе (макс. 15%)\n<style=\"highlight\">[WhenUse] Наносит +1% урона за каждые [WindBladeIshmael] на себе (макс. 15%)</style>",
           "coinlist": [
@@ -2652,7 +2651,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "To Claim Their Bones",
           "desc": "[CantDuel]\nэтот скилл не активирует защитные скиллы\nНаносит +0.5% урона за каждые 1% missing ХП на себе (макс. 20%)\nНаносит +3% урона on Critical Hit за каждые [Agility] на себе (макс. 15%)\n[WhenUse] Наносит +1% урона за каждые [WindBladeIshmael] на себе (макс. 15%)\n<style=\"highlight\">[WhenUse] Наносит +1.5% урона on Critical Hit за каждые  [Breath:*Кумара*] на себе (макс. 30%)</style>",
           "coinlist": [
@@ -2678,13 +2677,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081505"
     },
     {
-      "id": 1081506,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Even the Balance - Lucent Rippling Flame",
           "desc": "[CantDuel]\nэтот скилл не активирует защитные скиллы\nНаносит +1.5% урона on Critical Hit за каждые  [Breath:*Кумара*] на себе (макс. 30%)\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]\n[EndSkill] тратит все [WindBladeIshmael] на себе",
           "coinlist": [
@@ -2725,7 +2724,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Even the Balance - Lucent Rippling Flame",
           "desc": "[CantDuel]\nэтот скилл не активирует защитные скиллы\nНаносит +1.5% урона on Critical Hit за каждые  [Breath:*Кумара*] на себе (макс. 30%)\n<style=\"highlight\">Наносит +5% урона on Critical Hit за каждые [Agility] на себе (макс. 25%)</style>\n[WhenUse] получает +3 счётчика  [Breath:*Кумара*]\n[EndSkill] тратит все [WindBladeIshmael] на себе",
           "coinlist": [
@@ -2774,13 +2773,13 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081506"
     },
     {
-      "id": 1081507,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Observing the Stones on the Board",
           "desc": "[CanDuelGuard]\n[SupportProtect] Эксклюзивный скилл\n\n[WhenUse] Получает 3  [Breath:*Кумара*]",
           "coinlist": [
@@ -2794,7 +2793,7 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Observing the Stones on the Board",
           "desc": "[CanDuelGuard]\n[SupportProtect] Эксклюзивный скилл\n<style=\"highlight\">[WhenUse] Хилит 5 IQ на цели this unit guarded using [SupportProtect]</style>\n[WhenUse] Получает 3  [Breath:*Кумара*]",
           "coinlist": [
@@ -2807,7 +2806,8 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1081507"
     }
   ]
 }
