@@ -315,7 +315,7 @@
         {
           "level": "1",
           "name": "Briefcase Corner Point",
-          "desc": "[WhenUse] Получает 1 [Agility] на следующий ход (один раз за ход)\nЕсли цель имела 6+ (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> + [Vibration:*Тряски*]), Базовая сила +1",
+          "desc": "[WhenUse] Получает 1 [Agility] на следующий ход (один раз за ход)\nЕсли цель имела 6+ (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>), Базовая сила +1",
           "coinlist": [
             {
               "coindescs": [
@@ -323,7 +323,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
@@ -333,7 +333,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             }
@@ -355,7 +355,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряску*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
                 }
               ]
             },
@@ -365,14 +365,14 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] и понижает счётчик Тряски на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color> и понижает счётчик Тряски на 1"
                 }
               ]
             }
@@ -386,7 +386,7 @@
         {
           "level": "1",
           "name": "Enframe Subject",
-          "desc": "Сила монет +1 за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + [Vibration:*Тряске*] на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "desc": "Сила монет +1 за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряске</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -394,17 +394,17 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует сучку*] и уменьшает счётчик тряски на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует сучку</noparse></link></u></color> и уменьшает счётчик тряски на 1"
                 }
               ]
             },
@@ -414,7 +414,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis:*Паралича*] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[EndCoin] Наносит 1 [TakePicture] на следующий ход"
@@ -513,7 +513,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Провоцирует сучку*] и уменьшает счётчик тряски на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует сучку</noparse></link></u></color> и уменьшает счётчик тряски на 1"
                 }
               ]
             }
