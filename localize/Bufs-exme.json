@@ -1,206 +1,178 @@
 {
   "dataList": [
     {
-      "id": "ScratchesHurt",
       "name": "Avulsion Wound",
-      "desc": "- Max стаков: 3\n- Начало хода: Получает 2 Bleed за каждые стаков\n• При макс. стаков, получает +1 Bleed Count\n- Конец хода: Получает Bind равный стаков на следующий ход\n• При Max стаков, получает 1 Attack Power Down as well на следующий ход\n- Конец хода: Если this unit did not получает any Critical Hit this turn, теряет 1 стак",
+      "desc": "- Макс. стак: 3\n- Начало хода: Получает 2 Кетчупа за каждый стак\n• При макс. стаке, получает +1 счётчик Кетчупа\n- Конец хода: Получает Понос, равный стаку на следующий ход\n• При макс. стаке, получает 1 Понижение силы атаки на следующий ход\n- Конец хода: Если этот юнит не получил урон Раскумаром в этом ходе, теряет 1 стак",
       "summary": "",
-      "undefined": "-"
+      "id": "ScratchesHurt"
     },
     {
-      "id": "TiedRope",
       "name": "Trussed",
-      "desc": "- Base стаков: 3\n- Fix this unit's Speed to 1\n- Fix this unit's Базовые скиллы' Coin Power to 0\n- Конец хода: Теряет 1 стак\n- Если the \"Prisoner Transport Arrangements\" buff on the inflicter исчезает, this effect исчезает as well",
+      "desc": "- Базовых стаков: 3\n- Фиксирует скорость этого юнита на 1\n- Установите Базовую силу монеты базовых скиллов этого юнита на 0\n- Конец хода: Теряет 1 стак\n- Если бафф \"Prisoner Transport Arrangements\" на наложившем исчезает, этот эффект исчезает также",
       "summary": "",
-      "undefined": "-",
-      "flavor": "Look how the baseborn hunt the other baseborn to serve them up to the powers that be."
+      "flavor": "Look how the baseborn hunt the other baseborn to serve them up to the powers that be.",
+      "id": "TiedRope"
     },
     {
-      "id": "TiedWithRope",
       "name": "Prisoner Transport Arrangements",
-      "desc": "- Base стаков: 1\n- Currently Trussing {0}\n- Fix this unit's Speed to 1\n- Если the Trussed effect this unit inflicted на цели исчезает, или если эта Айдишка погибла или Staggered, теряет this effect\n- Если the target this unit inflicted \"Trussed\" on is defeated this turn, теряет the \"Prisoner Transport Arrangements\" effect",
+      "desc": "- Базовый стак: 1\n- Фиксирует скорость этого юнита на цифре 1\n- Если эффект Trussed, наложенный этим юнитом на цель, исчезает, или если эта Айдишка погибла или в стаггере, теряет этот эффект\n- Если цель, на которую этот юнит наложил Trussed, побеждена на этот ход, теряет эффект \"Prisoner Transport Arrangements\"",
       "summary": "",
-      "undefined": "-"
+      "id": "TiedWithRope"
     },
     {
-      "id": "RegretSCorp",
       "name": "Headsplitting Memory",
-      "desc": "- Max стаков: 1\n- Конец хода: Получает 1 Bind на следующий ход\n- Конец хода: Получает (current turn count / 4) Сила клеша Up (округляется вниз, макс. 3)\n- Исчезает в конце хода",
+      "desc": "- Макс. стак: 1\n- Конец хода: Получает 1 Понос на следующий ход\n- Конец хода: Получает (текущее число хода / 4) Повышение силы клеша (округляется вниз, макс. 3)\n- Исчезает в конце хода",
       "summary": "",
-      "undefined": "-"
+      "id": "RegretSCorp"
     },
     {
-      "id": "TakePicture",
       "name": "Intelligence Gathering",
-      "desc": "- Когда using a Skill of identical rank to the Skill photographed, Сила клеша -5\n(※ Defense Skills и Э.Г.О Skills are counted separately)\n({0})\n- Исчезает в конце хода",
+      "desc": "- Когда использует скилл того же ранга, что и сфотографированный навык, сила клеша -5\n(※ Защитные и Э.Г.О скиллы считаются отдельно)\n- Исчезает в конце хода",
       "summary": "",
-      "undefined": "-"
+      "id": "TakePicture"
     },
     {
-      "id": "LensmanNail",
       "name": "Pinning Nail",
-      "desc": "- Max стаков: 10\n- Начало хода: Получает 1 Уровень сваги Down за каждые 2 Bind (макс. 3)\n- Начало хода: Получает Bleed равный стаков\n- On Tremor Burst, получает Bleed Count равный стаков (один раз за ход)\n- Конец хода: Получает Bind равный стаков на следующий ход (макс. 6), then теряет 1 стак",
+      "desc": "- Макс. стак: 10\n- Начало хода: Получает 1 Понижение уровня сваги за каждые 2 Поноса (макс. 3)\n- Начало хода: Получает Кетчуп равный стакам\n- При тряске сучки, получает счётчик Кетчупа, равный стакам (один раз за ход)\n- Конец хода: Получает Понос, равный стакам на следующий ход (макс. 6), затем теряет 1 стак",
       "summary": "",
-      "undefined": "-"
+      "id": "LensmanNail"
     },
     {
-      "id": "PhotoTransition",
       "name": "Memory Transition",
-      "desc": "- Base стаков: 3\n- Конец хода: Теряет 1 стак. Если у этого юнита есть 0 Stacks of this effect при Turn Start, certain units и effects transform\n(когда Staggered, выходит из стаггера)\n\n- Once the above effect activates, reset Memory Transition стаков to Base стаков",
+      "desc": "- Базовый стак: 3  \n- Конец хода: теряет 1 стак. Если у этого юнита есть 0 стаков этого эффекта при начале хода, некоторые юниты и эффекты трансформируются  \n(когда в стаггере, выходит из стаггера)  \n\n- Как только вышеуказанный эффект активируется, сбрасывает количество стаков Memory Transition до базового количества стаков",
       "summary": "",
-      "undefined": "-"
+      "id": "PhotoTransition"
     },
     {
-      "id": "AengduNewArm",
       "name": "Dokkaebi Arms",
-      "desc": "- Base Уровень сваги +4\n- Base Уровень жирности +4\n- Получает -20% урона\n- On Skill Use, получает 1 Haste на следующий ход (2 раз за ход)\n- Combat End: получает +2 Poise Count",
+      "desc": "- Базовый Уровень сваги +4  \n- Базовый Уровень жирности +4  \n- Получает -20% урона  \n- При использовании навыка получает 1 Спешку на следующий ход (2 раза за ход)  \n- Конец хода: получает +2 счётчика Кумара",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"... Dokkaebi Arms? Do you, perchance, speak of Dokkaebis that often appear in tales of old? Hmm...\"\n\"I can scarcely believe it, yet after all I have witnessed while relying on the hospitality of Limbus Company, the existence of Dokkaebis from folklore may well be within reason.\"\n\"Come to think of it... I do recall hearing of a name called 'Dokkaebi Unit'...\""
+      "flavor": "\"... Dokkaebi Arms? Do you, perchance, speak of Dokkaebis that often appear in tales of old? Hmm...\"\n\"I can scarcely believe it, yet after all I have witnessed while relying on the hospitality of Limbus Company, the existence of Dokkaebis from folklore may well be within reason.\"\n\"Come to think of it... I do recall hearing of a name called 'Dokkaebi Unit'...\"",
+      "id": "AengduNewArm"
     },
     {
-      "id": "WindBlade",
       "name": "Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire",
-      "desc": "- Max стаков: 20\n- Наносит +1% рубящего урона за каждые стаков (макс. 10%)\n- Defense Skills теряет 1 Сила клеша за каждые 2 Stacks (макс. 5)\n- Конец хода: Получает 1 Haste на следующий ход за каждые 5 Stacks (макс. 3)",
+      "desc": "- Макс. стак: 20\n- Наносит +1% рубящего урона за каждые 10 стаков (макс. 10%)\n- Защитные скиллы теряют 1 Силу клеша за каждые 2 стака (макс. 5)\n- Конец хода: Получает 1 Спешку на следующий ход за каждые 5 стаков (макс. 3)",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"Hm? You like that model? Ooh, new girl's got an eye for quality! Excuse me~! Can we try this model? Oh, c'mon, relax! I know the наносит—'You break it, you buy it.' Thanks! Hehe... See? Told ya I'm a regular here~ Okay, so the sword и the scabbard come as a set, so grab 'em both и feel the weight. How's that? Not as heavy as they look, huh?\"\n\"Oho...\"\n\"So there's this particle? Powder? Thingy in that scabbard under patent by Mook Workshop! Every time you sheathe и unsheathe the sword, for a brief moment, its blade comes out way sharper и lighter! And that model you're holding happens to focus on the <i>sharpness</i>! So it's like, *Ding!* и voila, you get a nice buff on your weapon!\"\n\"I think it's one of the Ye [銳] series models—that's Mook Workshop's classic lineup, by the way. Check out the finish here, it's... What the heck?! Hey, this is the Ye [銳] 'Type II' model that went out of production! You know what, this stuff really isn't easy to come by—we're lucky we found one here!\"\n\"Если it's such a rarity, Lady Ezra, perhaps you ought to wield it вместо этого...\"\n\"Hnngh... No, it's fine... Well, I can see it's literally made for you! And it'll work real nice with those boosters on your new prosthetic arms. It'll need some getting used to, but you'll be one heck of a fighter once you get the hang of it! Anyway, consider it a gift from yours truly—you're officially one of us now. Officially our new girl! No more temp ID.\"\n\"Then... I shall accept with gratitude.\"\n\"By the way... Remember that 'classic lineup' part? It's super durable, but there <i>are</i> delicate parts that you should watch out not to break—okay, you know what, let 'em break если it really comes to that. Just...\"\n\"Just don't die on us.\"\n\"... I shall получает your words to heart.\""
+      "flavor": "\"Hm? You like that model? Ooh, new girl's got an eye for quality! Excuse me~! Can we try this model? Oh, c'mon, relax! I know the наносит—'You break it, you buy it.' Thanks! Hehe... See? Told ya I'm a regular here~ Okay, so the sword и the scabbard come as a set, so grab 'em both и feel the weight. How's that? Not as heavy as they look, huh?\"\n\"Oho...\"\n\"So there's this particle? Powder? Thingy in that scabbard under patent by Mook Workshop! Every time you sheathe и unsheathe the sword, for a brief moment, its blade comes out way sharper и lighter! And that model you're holding happens to focus on the <i>sharpness</i>! So it's like, *Ding!* и voila, you get a nice buff on your weapon!\"\n\"I think it's one of the Ye [銳] series models—that's Mook Workshop's classic lineup, by the way. Check out the finish here, it's... What the heck?! Hey, this is the Ye [銳] 'Type II' model that went out of production! You know what, this stuff really isn't easy to come by—we're lucky we found one here!\"\n\"Если it's such a rarity, Lady Ezra, perhaps you ought to wield it вместо этого...\"\n\"Hnngh... No, it's fine... Well, I can see it's literally made for you! And it'll work real nice with those boosters on your new prosthetic arms. It'll need some getting used to, but you'll be one heck of a fighter once you get the hang of it! Anyway, consider it a gift from yours truly—you're officially one of us now. Officially our new girl! No more temp ID.\"\n\"Then... I shall accept with gratitude.\"\n\"By the way... Remember that 'classic lineup' part? It's super durable, but there <i>are</i> delicate parts that you should watch out not to break—okay, you know what, let 'em break если it really comes to that. Just...\"\n\"Just don't die on us.\"\n\"... I shall получает your words to heart.\"",
+      "id": "WindBlade"
     },
     {
-      "id": "Collage_LowMorale",
       "name": "Jumbled Memories",
-      "desc": "- Начало хода: Получает 1~3 Уровень сваги Up и 1~3 Уровень жирности Down",
+      "desc": "- Начало хода: Получает 1~3 Повышения уровня сваги и 1~3 Понижения уровня жирности ",
       "summary": "",
-      "undefined": "-"
+      "id": "Collage_LowMorale"
     },
     {
-      "id": "Collage_Panic",
       "name": "Jumbled Memories",
-      "desc": "- Начало хода: Получает 1~5 Уровень сваги Up и 1~5 Уровень жирности Down",
+      "desc": "- Начало хода: Получает 1~5 Повышения уровня сваги и 1~5 Понижения уровня жирности ",
       "summary": "",
-      "undefined": "-"
+      "id": "Collage_Panic"
     },
     {
-      "id": "Lensman_LowMorale",
       "name": "Intelligence Obsession",
-      "desc": "- In a Clash against targets that have Intelligence Gathering, Базовая сила +1 и наносит +10% урона\n- Начало хода: Получает 1 Fragile",
+      "desc": "- В клеше против целей, которые имели Intelligence Gathering, Базовая сила +1 и наносит +10% урона.\n- Начало хода: получает 1 Уязвимость",
       "summary": "",
-      "undefined": "-"
+      "id": "Lensman_LowMorale"
     },
     {
-      "id": "Lensman_Panic",
       "name": "Intelligence Obsession",
-      "desc": "- In a Clash against targets that have Intelligence Gathering, Базовая сила +1 и наносит +20% урона\n- Начало хода: Получает 2 Fragile",
+      "desc": "- В клеше против целей, которые имели Intelligence Gathering, Базовая сила +1 и наносит +20% урона.\n- Начало хода: получает 2 Уязвимоси",
       "summary": "",
-      "undefined": "-"
+      "id": "Lensman_Panic"
     },
     {
-      "id": "Aengdu_Lowmorale",
       "name": "Resentment",
-      "desc": "- Начало хода: Получает 1 Attack Power Up и 1 Defense Power Down\n- Конец хода: Получает 2 Haste на следующий ход",
+      "desc": "- Начало хода: Получает 1 Повышение атаки и 1 Понижение защиты\n- Конец хода: Получает 2 Спешки на следующий ход",
       "summary": "",
-      "undefined": "-"
+      "id": "Aengdu_Lowmorale"
     },
     {
-      "id": "Aengdu_Panic",
       "name": "Resentment",
-      "desc": "- Начало хода: Получает 2 Attack Power Up и 2 Defense Power Down\n- Конец хода: Получает 2 Haste на следующий ход",
+      "desc": "- Начало хода: Получает 2 Повышения атаки и 2 Понижения защиты\n- Конец хода: Получает 2 Спешки на следующий ход",
       "summary": "",
-      "undefined": "-"
+      "id": "Aengdu_Panic"
     },
     {
-      "id": "BrandedKimSatgat",
       "name": "Brand - No [奴]",
-      "desc": "- Base Уровень сваги -??\n- Base Уровень жирности -??",
+      "desc": "- Базовый Уровень сваги -??\n- Базовый Уровень жирности -??",
       "summary": "",
-      "undefined": "-"
+      "id": "BrandedKimSatgat"
     },
     {
-      "id": "DimensionalBagEzraETwo",
       "name": "Dimensional Bag - YuRia Atelier",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: YuRia Atelier Axe\n- Next Workshop weapon: Allas Workshop Gloves",
+      "desc": "Вытаскивает следующее оруже из Сумки измерений\n- Текущее оружие мастерской: Топор ателье ЮРия\n- Следующее оружие мастерской: Перчатки мастерской Аллас",
       "summary": "",
-      "undefined": "-"
+      "id": "DimensionalBagEzraETwo"
     },
     {
-      "id": "RestingKimSatgat_LowMorale",
       "name": "Deep-rooted Regret",
-      "desc": "- Low Morale\n- Начало хода: Получает 2 Damage Down и хилит 40 ХП",
+      "desc": "- Низкая мораль\n- Начало хода: Получает 2 Понижения урона и хилит 40 ХП",
       "summary": "",
-      "undefined": "-"
+      "id": "RestingKimSatgat_LowMorale"
     },
     {
-      "id": "RestingKimSatgat_Panic",
       "name": "Deep-rooted Regret",
-      "desc": "- Panic\n- Начало хода: Получает 3 Damage Down и хилит 60 ХП",
+      "desc": "- Паника\n- Начало хода: Получает 3 Понижения урона и хилит 60 ХП",
       "summary": "",
-      "undefined": "-"
+      "id": "RestingKimSatgat_Panic"
     },
     {
-      "id": "ChoiSwordsmanship",
       "name": "Swordplay of the Homeland [Sal]",
-      "desc": "- Min стаков 1; Max стаков 9\n- On Skill Use, при Min или Max Stacks, convert all Coins this unit uses to <color=#ff6000><mark color=#ff000040><b><u>Unbreakable Coins</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Skill Базовая сила и Coin Power shift based on стаков</color></mark></b></u>\n· 1 ~ 2 стака: Базовая сила -6, Сила монет +4\n· 3 ~ 4 стака: Базовая сила -3, Сила монет +2\n· 5 стаков: No effect\n· 6 ~ 7 стаков: Базовая сила +4, Coin Power -2\n· 8 ~ 9: Базовая сила +8, Coin Power -3",
+      "desc": "- Мин стаков 1; Макс стаков 9\n- При использовании навыка, при минимальном или максимальном количестве стаков, все монеты, которые использует этот юнит, преобразуются в <color=#ff6000><mark color=#ff000040><b><u>Вечные монеты</color></mark></b></u>\n- <color=#ff6000><mark color=#ff000040><b><u>Базовая сила скилла и сила монет изменяются в зависимости от стаков</color></mark></b></u>\n· 1 ~ 2 стака: Базовая сила -6, Сила монет +4\n· 3 ~ 4 стака: Базовая сила -3, Сила монет +2\n· 5 стаков: Без эффекта\n· 6 ~ 7 стаков: Базовая сила +4, Сила монет -2\n· 8 ~ 9: Базовая сила +8, Сила монет -3",
       "summary": "",
-      "undefined": "-"
+      "id": "ChoiSwordsmanship"
     },
     {
-      "id": "ChoiSwordsmanshipOne",
       "name": "Battleform of the Homeland - Bearhunt",
-      "desc": "Assume a different Battleform of the Homeland after {0} turns\nUse a pattern made of <color=#ff6000><mark color=#ff000040><b><u>single-coin</color></mark></b></u> Skills\n\nIm Gyeong-eop gains advantage при <color=#ff6000><mark color=#ff000040><b><u>higher</color></mark></b></u> Swordplay of the Homeland [Sal] стаков",
+      "desc": "Использует поведение <color=#ff6000><mark color=#ff000040><b><u>одномонетных</color></mark></b></u> скиллов\n\nIm Gyeong-eop получает преимущество при <color=#ff6000><mark color=#ff000040><b><u>большем кол-ве стаков</color></mark></b></u> Swordplay of the Homeland [Sal]",
       "summary": "",
-      "undefined": "-",
-      "flavor": "The mountains of S Corp.'s District 19 are home to all manner of beasts.\nAmongst them, the bear, in particular, boasts strength и force akin to boulders falling from the cliff in a landslide. Giving ground to the creature's charge is ill-advised—one must aim to hew it down with the first slash of the blade."
+      "flavor": "The mountains of S Corp.'s District 19 are home to all manner of beasts.\nAmongst them, the bear, in particular, boasts strength и force akin to boulders falling from the cliff in a landslide. Giving ground to the creature's charge is ill-advised—one must aim to hew it down with the first slash of the blade.",
+      "id": "ChoiSwordsmanshipOne"
     },
     {
-      "id": "ChoiSwordsmanshipMany",
       "name": "Battleform of the Homeland - Tigerhunt",
-      "desc": "Assume a different Battleform of the Homeland after {0} turns\nUse a pattern made of <color=#ff6000><mark color=#ff000040><b><u>multi-coin</color></mark></b></u> Skills\n\nIm Gyeong-eop gains advantage при <color=#ff6000><mark color=#ff000040><b><u>lower</color></mark></b></u> Swordplay of the Homeland [Sal] стаков",
+      "desc": "Использует поведение <color=#ff6000><mark color=#ff000040><b><u>многомонетных</color></mark></b></u> скиллов\n\nIm Gyeong-eop получает преимущество при <color=#ff6000><mark color=#ff000040><b><u>меньшем кол-ве стаков</color></mark></b></u> Swordplay of the Homeland [Sal]",
       "summary": "",
-      "undefined": "-",
-      "flavor": "Tigers are cunning и ferocious.\nOne cannot hope to cut through a tiger's flesh with a single stroke. Only a relentless flurry of chained slashes can overwhelm the creature until it is felled при last.\nFail to do so, и the tiger will escape death—или best its opponent to one day grow в a Sangun, a Lord of the Mountain.\nWhether these beings will grant auspicious fortune on men или return as malevolent calamity is impossible to tell."
+      "flavor": "Tigers are cunning и ferocious.\nOne cannot hope to cut through a tiger's flesh with a single stroke. Only a relentless flurry of chained slashes can overwhelm the creature until it is felled при last.\nFail to do so, и the tiger will escape death—или best its opponent to one day grow в a Sangun, a Lord of the Mountain.\nWhether these beings will grant auspicious fortune on men или return as malevolent calamity is impossible to tell.",
+      "id": "ChoiSwordsmanshipMany"
     },
     {
-      "id": "ChoiSwordsmanshipShield",
       "name": "Dujeong Brigandine [Sal]",
-      "desc": "- Max стаков: 5\n- Когда gaining this effect, получает Shield равный 10% of this unit's макс. ХП за каждые стаков (min 1, округляется вниз; Shield gained due to this effect не expire в конце хода)\n- Начало столкновения: Получает 1 Уровень жирности Down за каждые 2 стака (rounded up)\n- Наносит +(стаков x 2.5)% рубящего урона\n- <color=#ff6000><mark color=#ff000040><b><u>Теряет 1 стак когда taking Shield урон равный 10% of this unit's макс. ХП</color></mark></b></u> (Remaining Shield урона until стаков loss: {0})",
+      "desc": "- Макс. стаки: 5\n- Когда получает этот эффект, получает Щит, равный 10% от макс. ХП этого юнита за каждые стаки (минимум 1, округляется вниз; Щит, полученный из-за этого эффекта, не исчезает в конце хода)\n- Начало столкновения: Получает 1 Понижения уровня жирности за каждые 2 стака (округляется вверх)\n- Наносит +(стаки × 2.5)% Рубящего урона\n- <color=#ff6000><mark color=#ff000040><b><u>Теряет 1 стак, когда получает урон по щиту, равный 10% от макс. ХП этого юнита</color></mark></b></u>",
       "summary": "",
-      "undefined": "-"
+      "id": "ChoiSwordsmanshipShield"
     },
     {
-      "id": "PhotoTransitionChoi",
       "name": "Memory Transition",
-      "desc": "- Base стаков: 3\n- Конец хода: Теряет 1 стак\n- <color=#ff6000><mark color=#ff000040><b><u>При 1 стак, Retreat в конце хода и transition в a different location</color></mark></b></u>\n- Когда Returning to the field, based on current Battleform of the Homeland, получает или теряет (# of turns spent in Retreat) Swordplay of the Homeland [Sal] стаков\n· Когда in Battleform of the Homeland - Bearhunt: Получает стаков\n· Когда in Battleform of the Homeland - Tigerhunt: Теряет стаков",
+      "desc": "- Базовые стаки: 3\n- Конец хода: Теряет 1 стак\n- <color=#ff6000><mark color=#ff000040><b><u>При 1 стаке, отступает в конце хода и переходит в другую локацию</color></mark></b></u>\n- Когда возвращается на поле, на основе текущей Battleform of the Homeland, получает или теряет (число ходов в отступлении) стаков Swordplay of the Homeland [Sal]\n· Когда в Battleform of the Homeland - Bearhunt: Получает стаки\n· Когда в Battleform of the Homeland - Tigerhunt: Теряет стаки",
       "summary": "",
-      "undefined": "-"
+      "id": "PhotoTransitionChoi"
     },
     {
-      "id": "PhotoTransitionChoiCamera",
       "name": "Memory Transition",
-      "desc": "- Base стаков: 3\n- Конец хода: Теряет 1 стак\n- <color=#ff6000><mark color=#ff000040><b><u>При 1 стак, Retreat в конце хода и transition в a different location</color></mark></b></u>\n- Когда Returning to the field, based on Im Gyeong-eop's current Battleform of the Homeland, Im Gyeong-eop gains или loses (# of turns Im Gyeong-eop spent in Retreat) Swordplay of the Homeland [Sal] стаков (Currently при {0} turns)\n· Когда in Battleform of the Homeland - Bearhunt: Получает стаков\n· Когда in Battleform of the Homeland - Tigerhunt: Теряет стаков",
+      "desc": "- Базовые стаки: 3\n- Конец хода: Теряет 1 стак\n- <color=#ff6000><mark color=#ff000040><b><u>При 1 стаке, отступает в конце хода и переходит в другую локацию</color></mark></b></u>\n- Когда возвращается на поле боя, в зависимости от текущей Im Gyeong-eop's боевой формы, Im Gyeong-eop получает или теряет (число ходов в отступлении) Swordplay of the Homeland [Sal] стаков\n· Когда in Battleform of the Homeland - Bearhunt: Получает стаков\n· Когда in Battleform of the Homeland - Tigerhunt: Теряет стаков",
       "summary": "",
-      "undefined": "-"
+      "id": "PhotoTransitionChoiCamera"
     },
     {
-      "id": "ChoiSword_LowMorale",
       "name": "Developed Memories",
-      "desc": "- Low Morale\n- Получает 1 Fragile, наносит +10% урона, и наносит +15% урона on Critical Hit",
+      "desc": "- Низкая мораль\n- Получает 1 Уязвимость, наносит +10% урона, и наносит +15% урона при раскумаре",
       "summary": "",
-      "undefined": "-"
+      "id": "ChoiSword_LowMorale"
     },
     {
-      "id": "ChoiSword_Panic",
       "name": "Developed Memories",
-      "desc": "- Panic\n- Получает 2 Fragile, наносит +10% урона, наносит +30% урона on Critical Hit, и double the effects inflicted by the Coins of the \"Bow of the Homeland [Sal] - Arrowloose\" Skill",
+      "desc": "- Паника\n- Получает 2 Уязвимости, наносит +10% урона, наносит +30% урона при раскумаре, и удваивает наносимые эффекты от монет скилла \"Bow of the Homeland [Sal] - Arrowloose\" ",
       "summary": "",
-      "undefined": "-"
+      "id": "ChoiSword_Panic"
     },
     {
-      "id": "DimensionalBagEzraDTwo",
       "name": "Dimensional Bag - Namir Workshop",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: Namir Workshop Gauntlets\n- Next Workshop weapon: YuRia Atelier Axe",
+      "desc": "Вытаскивает следующее оружие из Сумки измерений\n- Текущее оружие мастерской: Перчатки мастерской Намир\n- Следующее оружие мастерской: Топор ателье ЮРия",
       "summary": "",
-      "undefined": "-",
-      "flavor": "\"Now this one's got G Corp.'s Singularity baked in—the Sphere! Here's how it works: You float up, pop the switch midair, и crush down with the weight of the gravity. Land a solid hit, и it's gonna be... brutal.\""
+      "flavor": "\"Now this one's got G Corp.'s Singularity baked in—the Sphere! Here's how it works: You float up, pop the switch midair, и crush down with the weight of the gravity. Land a solid hit, и it's gonna be... brutal.\"",
+      "id": "DimensionalBagEzraDTwo"
     }
   ]
 }
