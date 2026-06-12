@@ -1,108 +1,99 @@
 {
   "dataList": [
     {
-      "id": 145004,
       "name": "Headsplitting Memory",
-      "desc": "On Clash Теряет, получает 1 [RegretSCorp] (один раз за ход)"
+      "desc": "При поражении в клеше, получает 1 [RegretSCorp] (один раз за ход)",
+      "id": "145004"
     },
     {
-      "id": 144804,
       "name": "Ch'unokkun",
-      "desc": "Если this unit inflicted [TiedRope] на цели, получает [TiedWithRope]",
-      "flavor": "S Corp. commands two sorts of Taboo Hunters: The Royal Censors и the Ch'unokkuns.\nAgents of the Royal Court, the Royal Censors generally operate alone, moving undercover to pursue those who have dared to break the Taboo of Salpippyeo.\nCh'unokkuns, much like Fixer Offices, form bands within their own ranks. Once an order или a contract to hunt down a Branded is bestowed upon them, each band hunts its mark in the manner preferred by the band. The hunt for Nobi knows neither honor nor dignity."
+      "desc": "Если этот юнит нанёс [TiedRope] на цель, получает [TiedWithRope]",
+      "id": "144804"
     },
     {
-      "id": 144801,
       "name": "Scouring Hunterband [推刷巾]",
       "desc": "Наносит +5% урона за каждые 1 [Binding] на цели (макс. 15%)",
-      "flavor": "To cover the eyes is not to be blind.\nThese fabrics, created using Q Corp.'s Singularity, are fashioned в many forms, such as blindfolds и headbands, и are commonly used throughout the East. It is not unusual to see Fixers и employees of corporate entities in the East covering their heads и faces with these products.\nThe fabrics serve the same function as sunglasses, visors, и combat prosthetic eyes found elsewhere in the City. They scan the target's information in real time, augment the wearer's vision, и provide tactical analysis. При times, they can also serve as a means of communication with distant allies."
+      "id": "144801"
     },
     {
-      "id": 144802,
       "name": "Tracking Traces",
-      "desc": "При победе в клеше, получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> за каждые [ScratchesHurt] на цели"
+      "desc": "При победе в клеше, получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> за каждые [ScratchesHurt] на цели",
+      "id": "144802"
     },
     {
-      "id": 144803,
       "name": "Throwing the Ohra Bond",
-      "desc": "On Hit, если target is Похмельцо, наносит 2 [Binding] на следующий ход"
+      "desc": "При ударе, если цель в стаггере, наносит 2 [Binding] на следующий ход",
+      "id": "144803"
     },
     {
-      "id": 145201,
       "name": "Arranged Information",
-      "desc": "Если this unit inflicted [TakePicture] on an enemy, хилит 10 IQ"
+      "desc": "Если этот юнит нанёс [TakePicture] на врага, хилит 10 IQ",
+      "id": "145201"
     },
     {
-      "id": 145202,
       "name": "Firm Nailing",
-      "desc": "On triggering [VibrationExplosion] on an enemy, raise target's Stagger Threshold by [LensmanNail] стаков"
+      "desc": "При [VibrationExplosion:*Тряске сучки*], увеличивает порог стаггера цели на стак [LensmanNail]",
+      "id": "145202"
     },
     {
-      "id": 145001,
       "name": "Swordplay of the Homeland [Sal] - Great Hwando",
-      "desc": "Начало битвы: Получает 5 [ChoiSwordsmanship]\n\n<color=#ff6000><mark color=#ff000040><b><u>Assume a different Battleform of the Homeland every 3 turns</color></mark></b></u>\n\nКонец хода: Если у этого юнита есть Shield, получает 5  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на следующий ход\n\nКогда the following conditions are met, use a pattern that includes the \"Bow of the Homeland - Arrowloose\" Skill\n- Когда this unit lost all Clashes for 2 turns in a row (не check for Unopposed Attacks)\n- In the turn after the turn in which this unit spent in Stagger\n- Когда in Low Morale или Panic",
-      "flavor": "The Sword of the Homeland, S Corp.'s traditional art of swordsmanship, is also divided в three branches: Sal, Pi, и Ppyeo.\nWithin their teachings exist techniques to hew и cleave through creatures of colossal stature such as Sanguns.\nTo perform them in full, a swordsman must wield a great hwando capable of bearing the strain of the techniques."
+      "desc": "Начало битвы: Получает 5 [ChoiSwordsmanship]\n\n<color=#ff6000><mark color=#ff000040><b><u>Принимает другую боевую форму Родины каждые 3 хода</color></mark></b></u>\n\nКонец хода: Если у этого юнита есть Щит, получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на следующий ход\n\nКогда выполняются следующие условия, использует паттерн, включающий навык \"Лук Родины - Выпущенная стрела\"\n- Если этот юнит проигрывал все клеши 2 хода подряд (не проверяется для односторонних атак)\n- На ход после того, как этот юнит провёл в стаггере\n- Когда имеет Низкую мораль или Панику",
+      "id": "145001"
     },
     {
-      "id": 145002,
       "name": "Dujeong Brigandine [Sal] - Iron Bulwark",
-      "desc": "Получает -30% урона from <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  (округляется вниз)\n\nПолучает the effects of [PanicChangeLock]; Если this unit is Panicked в конце хода, reset IQ to 45\n\nUpon entering the Encounter for the first time, получает 5 [ChoiSwordsmanshipShield]\n\n<color=#ff6000><mark color=#ff000040><b><u>Когда [ChoiSwordsmanshipShield] исчезает, end Encounter</color></mark></b></u>",
-      "flavor": "The Eastern Warstride Armors are not so much \"equipped\" as they are \"piloted.\" S Corp.'s Dujeong Brigandine is one example of such armor.\nMuch like R Corp.'s Powered Armor Suit и the Full Plate Armor used by the Knights of the West, the Dujeong Brigandine greatly augments the user's offensive и defensive combat capabilities.\nYet these advantages do not mean that Eastern Warstride Armors are readily supplied for combat personnel. Each unit has its own unique controls и comes with the limitation of requiring separate fuels.\nWhat remains certain, however, is that, as with all the aforementioned armors, once a rider has familiarized himself with the Dujeong Brigandine's extended reach и heightened power output, he becomes a machine of war that strides across battlefields with the promise of slaughter."
+      "desc": "Получает -30% урона от<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration:*Тряски*], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  (округляется вниз)\n\nПолучает эффекты [PanicChangeLock]; Если этот юнит находился в панике в конце хода, сбрасывает IQ до 45\n\nПри первом входе в битву, получает 5 [ChoiSwordsmanshipShield]\n\n<color=#ff6000><mark color=#ff000040><b><u>Когда [ChoiSwordsmanshipShield] исчезает, заканчивает битву</color></mark></b></u>",
+      "id": "145002"
     },
     {
-      "id": 145003,
       "name": "Martial Arts of Perseverance",
-      "desc": "При победе в клеше, получает +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (2 раз за ход)\n\nЕсли the target this unit's Skill hit has less than 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> Potency, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> при Attack End (один раз за скилл, 2 раз за ход, prioritize the main target)",
-      "flavor": "'There are those who persevere in training for lack of talent. Then there are those blessed with talent, only to let it rust.'\n'All men say that the title of Apex Blade can be seized only by the gifted.'\n'It matters not. Until the day comes for this blade of mine to rise high enough to meet the clouds, I shall persevere in honing my prowess.'"
+      "desc": "При победе в клеше, получает +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (2 раз за ход)\n\nЕсли цель скилла этого юнита при получении удара имела менее 5 силы<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> при конце атаки (один раз за скилл, 2 раз за ход, приоритет - основная цель)",
+      "id": "145003"
     },
     {
-      "id": 145005,
       "name": "Yield My Flesh",
-      "desc": "Наносит и получает +20% урона при Раскумаре against и from Bamboo-hatted Kim",
-      "flavor": "\"This flesh, I claim.\""
+      "desc": "Ким в бамбуковой шляпе наносит и получает +20% урона при раскумаре",
+      "id": "145005"
     },
     {
-      "id": 145006,
       "name": "Developed Memories",
-      "desc": "Upon entering the Encounter, получает 3 [PhotoTransitionChoi]\n\n<color=#ff6000><mark color=#ff000040><b><u>Начало хода: При 0 [PhotoTransitionChoi] стаков, Retreat и transition в a different location</color></mark></b></u>\n\nКогда Returning to the field, based on current Battleform of the Homeland, получает или теряет [ChoiSwordsmanship]\n- Когда in [ChoiSwordsmanshipOne]: Получает стаков\n- Когда in [ChoiSwordsmanshipMany]: Теряет стаков"
+      "desc": "При входе в битву, получает 3 [PhotoTransitionChoi]\n\n<color=#ff6000><mark color=#ff000040><b><u>Начало хода: При 0 [PhotoTransitionChoi] стаков, отступает и переходит в другую локацию</color></mark></b></u>\n\nКогда возвращается на поле битвы, в зависимости от текущей боевой формы, получает или теряет [ChoiSwordsmanship]\n- Когда в [ChoiSwordsmanshipOne]: Получает стаки\n- Когда в [ChoiSwordsmanshipMany]: Теряет стаки",
+      "id": "145006"
     },
     {
-      "id": 145007,
       "name": "Mismatched Memories",
-      "desc": "Начало хода: Получает the following effects:\n- Когда in [ChoiSwordsmanshipOne]: при менее чем 5 [ChoiSwordsmanship] стаков, получает (5 - [ChoiSwordsmanship] стаков) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- Когда in [ChoiSwordsmanshipMany]: При more than 5 [ChoiSwordsmanship] стаков, получает <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> равный surplus [ChoiSwordsmanship] стаков past 5 "
+      "desc": "Начало хода: Получает следующие эффекты:\n- Когда в [ChoiSwordsmanshipOne]: при менее чем 5 стаков [ChoiSwordsmanship], получает (5 - стаков [ChoiSwordsmanship]) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- Когда в [ChoiSwordsmanshipMany]: При более чем 5 [ChoiSwordsmanship] стаков, получает <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> равный излишку стаков [ChoiSwordsmanship] после 5 единиц",
+      "id": "145007"
     },
     {
-      "id": 145101,
       "name": "Swordplay of the Homeland [Sal] - Rend Flesh from Flesh",
-      "desc": "Начало битвы: Получает 5 [ChoiSwordsmanship]\n\nAssume a different Battleform of the Homeland every 3 turns\n\nOn Hit using a Slash Skill, получает 1  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> Potency (один раз за скилл)\n\nКогда the following conditions are met, use a pattern that includes the \"Bow of the Homeland - Arrowloose\" Skill\n- Когда this unit lost all Clashes for 2 turns in a row (не check for Unopposed Attacks)\n- Turn after Stagger\n- Когда in Low Morale или Panic\n\nНачало хода: При Min или Max [ChoiSwordsmanship] Stacks, use a powerful Skill\nЕсли this unit used the \"Bow of the Homeland - Arrowloose\" Skill in the last turn, use a powerful Skill regardless of [ChoiSwordsmanship] стаков на себе\nПри 55% или lower ХП, use a powerful Skill regardless of [ChoiSwordsmanship] стаков на себе",
-      "flavor": "The Sword of the Homeland passed down in the Sal Court Circle is not, при its heart, an art of killing.\nTo cut и cut again until blood runs dry и the bone is laid bare—that is the essence of this art that strips the opponent's flesh в ribbons.\nThat is the Sword of the Homeland practiced by \"Sal.\""
+      "desc": "Начало битвы: Получает 5 [ChoiSwordsmanship]\n\nМеняет свою боевую форму каждые 3 хода\n\nПри ударе рубящим скиллом, получает 1 силу<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (один раз за скилл)\n\nКогда выполняются следующие условия, использует паттерн, включающий навык \"Лук Родины - Выпущенная стрела\"\n- Если этот юнит проигрывал все клеши 2 хода подряд (не проверяется для односторонних атак)\n- На ход после того, как этот юнит провёл в стаггере\n- Когда имеет Низкую мораль или Панику\n\nНачало хода: При мин. или макс. стаках [ChoiSwordsmanship], использует мощный скилл\nЕсли этот юнит использовал в последнем ходе \"Лук Родины - Выпущенная стрела\" использует мощный скилл независимо от своих стаков [ChoiSwordsmanship]\nПри 55% или менее ХП, использует мощный скилл независимо от своих стаков [ChoiSwordsmanship]",
+      "id": "145101"
     },
     {
-      "id": 145104,
       "name": "Swordplay of the Homeland [Sal] - Shift Battleform",
-      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Начало хода: Получает или теряет 2 [ChoiSwordsmanship] стаков based on Battleform of the Homeland на себе (не activate in the first turn of the Encounter)</color></mark></b></u>\n- [ChoiSwordsmanshipOne]: Получает стаков\n- [ChoiSwordsmanshipMany]: Теряет стаков\n\nIn the turn where this unit equipped Envy Skills, this unit will not be affected by [ChoiSwordsmanship] стаков adjustment effects, и will <color=#ff6000><mark color=#ff000040><b><u>reset [ChoiSwordsmanship] стаков to 5 на следующий ход</color></mark></b></u>"
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Начало хода: Получает или теряет 2 [ChoiSwordsmanship] стаков в зависимости от типа боевой формы на себе (не активируется в первый ход битвы)</color></mark></b></u>\n- [ChoiSwordsmanshipOne]: Получает стаки\n- [ChoiSwordsmanshipMany]: Теряет стаки\n\nВ тот же ход когда этот юнит использует скиллы Зависти, на этот юнита не влияют стаки [ChoiSwordsmanship], и он <color=#ff6000><mark color=#ff000040><b><u>сбрасывает стаки [ChoiSwordsmanship] до 5 на следующий ход</color></mark></b></u>",
+      "id": "145104"
     },
     {
-      "id": 145105,
       "name": "Dujeong Brigandine [Sal] - Great Mountain",
-      "desc": "Получает -30% урона from <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  (округляется вниз)\n\nПолучает the effects of [PanicChangeLock]; Если this unit is Panicked в конце хода, reset IQ to 45\n\nНачало хода: Получает the following effects:\n\n- Когда in [ChoiSwordsmanshipOne]: при менее чем 5 [ChoiSwordsmanship] стаков, получает (5 - [ChoiSwordsmanship] стаков) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n\n- Когда in [ChoiSwordsmanshipMany]: При more than 5 [ChoiSwordsmanship] стаков, получает <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> равный surplus [ChoiSwordsmanship] стаков past 5",
-      "flavor": "The three Court Circles of Sal, Pi, и Ppyeo each remade the standard Dujeong Brigandine of S Corp. в forms suited to their own doctrines.\nThe olden tales say that the \"Sal\" has ever been the first to spearhead a slaughter, eager to cleave the enemy's flesh before any other.\nThe \"Pi\" harvests the blood that spills forth from each opened flesh wound и turns it в endurance on the battlefield.\nThe \"Ppyeo\" takes the close of a slaughter. They part one joint from the other, bringing the enemy to their knees. Then, a blade through the neckbone finishes the collective act of killing."
+      "desc": "Получает -30% урона от <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, [Vibration:*Тряски*], <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> , <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  (округляется вниз)\n\nПолучает эффекты [PanicChangeLock]; Если этот юнит находился в панике в конце хода, сбрасывает IQ до 45\n\nНачало хода: Получает следующие эффекты:\n\n- Когда в [ChoiSwordsmanshipOne]: при менее чем 5 стаках [ChoiSwordsmanship], получает (5 - стак [ChoiSwordsmanship]) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n\n- Когда в [ChoiSwordsmanshipMany]: При более чем 5 стаках [ChoiSwordsmanship], получает <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> равный избытку [ChoiSwordsmanship] стаков после 5 единиц",
+      "id": "145105"
     },
     {
-      "id": 146101,
       "name": "Scattering Memories",
-      "desc": "On death, give +1 Э.Г.О resource of the least-owned Affinity",
-      "summary": "Give Э.Г.О resource on death"
+      "desc": "При смерти, даёт +1 Э.Г.О ресурса наименее имеющегося типа греха",
+      "id": "146101"
     },
     {
-      "id": 146001,
       "name": "Location-type Distortion: Photo Lab",
-      "desc": "This unit cannot be killed, и не получает any урона from sources other than Skill урона от скиллов attacking this unit as the main target\n\nThis unit's Speed is fixed to 1\n\nTurn Start after entering the Encounter: Получает 3 [PhotoTransitionChoiCamera]\n\nКонец хода: <color=#ff6000><mark color=#ff000040><b><u>Если [PhotoTransitionChoiCamera] reaches 0 стаков, или если this unit's ХП reaches 1</color></mark></b></u>, activate the following при the next Начало хода:\n- Remove self и N Corp. Class 2 Staff from the Encounter\n- Return Im Gyeong-eop to the Encounter\n- Move the battle to a different location"
+      "desc": "Этот юнит не может быть убит, и не получает никакого урона от источников, кроме урона от скиллов, атакующих эту цель как основную.\n\nСкорость этого юнита фиксирована на 1.\n\nНачало хода после входа в битву: Получает 3 [PhotoTransitionChoiCamera]\n\nКонец хода: <color=#ff6000><mark color=#ff000040><b><u>Если [PhotoTransitionChoiCamera] достигает 0 стаков, или если ХП этого юнита достигает 1</color></mark></b></u>, активирует эффекты ниже при Начале следующего хода:\n- Удаляет себя и Сотрудника 2-го класса N-Корп из битвы\n- Возвращает Im Gyeong-eop в битву\n- Перемещает битву в другую локацию",
+      "id": "146001"
     },
     {
-      "id": 146002,
       "name": "From Memory to Record",
-      "desc": "Начало столкновения: Если the battlefield has returned from S Corp. to N Corp. this turn, хилит 15 IQ for all Sinners"
+      "desc": "Начало столкновения: Если в этом ходе поле битвы поменялось из S. корп. на N корп., хилит 15 IQ всем балбесам",
+      "id": "146002"
     }
   ]
 }
