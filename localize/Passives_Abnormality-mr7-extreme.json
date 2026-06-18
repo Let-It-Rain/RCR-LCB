@@ -2,133 +2,134 @@
   "dataList": [
     {
       "id": 139001,
-      "name": "Let the Blood Festival Flow",
-      "desc": "The battle proceeds to the next phase after all the Clay Dolls are defeated"
+      "name": "Пусть кровавый фестиваль продолжается",
+      "desc": "Бой перейдёт в следующую фазу после уничтожения всех Терракотовых кукол."
     },
     {
       "id": 139003,
-      "name": "Let the Fire Festival Ignite",
-      "desc": "Если both Arms are destroyed или the main body’s ХП is brought to 70%, the battle proceeds to the next phase"
+      "name": "Пусть огненный фестиваль зажжётся",
+      "desc": "Бой перейдёт в следующую фазу, когда обе Руки будут отсечены и ОЗ Тела упадут до 70%."
     },
     {
       "id": 139004,
-      "name": "Frenzy",
-      "desc": "During phase 3, наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> on all enemies every turn"
+      "name": "Безумие",
+      "desc": "Когда бой перешёл в третью фазу, наносит всем противникам 7 [Combustion:`Огня`] в начале каждого хода."
     },
     {
       "id": 139006,
-      "name": "Let the Star Festival Fall",
-      "desc": "Когда the Core ХП is brought to 25% или lower, the battle proceeds to the next phase"
+      "name": "Пусть звёздный фестиваль падёт",
+      "desc": "Бой перейдёт в следующую фазу, когда ОЗ Ядра упадут до 25% и ниже."
     },
     {
       "id": 139101,
-      "name": "Idolatry",
-      "desc": "не die при 0 ХП; вместо этого, remains on the стадии as an immobile и untargetable unit.\nSuppressed когда the Doomsday Calendar is suppressed"
+      "name": "Идолопоклонство",
+      "desc": "Не умирает при опускании ОЗ до 0, а остаётся в неактивном состоянии на фоне."
     },
     {
       "id": 139301,
-      "name": "Returning Past",
-      "desc": "При 50+ [AccumulatedPast], и если Core ХП is при 80%-, the Core heals 200 ХП by consuming 50 [AccumulatedPast] в конце хода"
+      "name": "Возвращающееся прошлое",
+      "desc": "Конец хода: если имеется 50 [AccumulatedPast:`Накопленного прошлого`] и ОЗ упали ниже 80%, то тратит 50 [AccumulatedPast:`Накопленного прошлого`] для восстановления 200 ОЗ Ядру."
     },
     {
       "id": 139302,
-      "name": "Misplaced Past",
-      "desc": "Когда the Body is broken, тратит все [AccumulatedPast]\nКогда the Body is broken, starting на следующий ход, all Attack Types и Affinities become Ineffective(0.5) for the rest of the Encounter"
+      "name": "Затерянное прошлое",
+      "desc": "Когда Тело повреждается: полностью теряет [AccumulatedPast:`Накопленное прошлое`], а все типы атак и грехов становятся \"Неэффективными\" (x0.5) против Тела начиная со следующего хода и до конца этого боя."
     },
     {
       "id": 139303,
-      "name": "Broken Exhaust Port",
-      "desc": "Когда Steam Blaster is broken, completelyтеряет  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> on all parts\nOnce Steam Blaster is broken, every time this unit gains  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, получает [Vulnerable] за каждые  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> gained\nOnce Steam Blaster is broken, теряет 1  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> On Use of an Attack Skill"
+      "name": "Сломанный паровой пистолет",
+      "desc": "Когда часть Паровой пистолет повреждается, все Части теряют своё [Breath:`Дыхание`].\n\nКогда Паровой пистолет повреждён: получает [Vulnerable:`Уязвимость`] вместе с [Breath:`Дыханием`], а также теряет по 1 [Breath:`Дыханию`] при использовании атакующих навыков."
     },
     {
       "id": 139304,
-      "name": "Leaking Steam",
-      "desc": "Когда Steam Blaster is hit, теряет 1  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и 1 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+      "name": "Утечка пара",
+      "desc": "Теряет 1 силу и счётчик [Breath:`Дыхания`], когда Паровой пистолет получает удар."
     },
     {
       "id": 139305,
-      "name": "Metronome",
-      "desc": "Если [AccumulatedPast] is an odd number, получает 3 [Vulnerable] и [AttackDmgUp]\nЕсли it is an even number, получает 3 [Protection] и [AttackDmgDown]"
+      "name": "Метроном",
+      "desc": "Если [AccumulatedPastMirror:`Накопленное прошлое`] нечётное, получает 3 [Vulnerable:`Уязвимости`] и 3 [AttackDmgUp:`Повышения урона`].\nЕсли чётное, получает 3 [Protection:`Защищённости`] и 3 [AttackDmgDown:`Понижения урона`]."
     },
     {
       "id": 139401,
-      "name": "Vigorous Volaille",
-      "desc": "Конец хода: Хилит 5 ХП за каждые Raw Chicken on the field"
+      "name": "Счастливый цыплёнок",
+      "desc": "Конец хода: восстанавливает 5 ОЗ за каждого Сырого цыплёнка на поле боя."
     },
     {
       "id": 139402,
-      "name": "Gloomy Gallus",
-      "desc": "Конец хода: Наносит 5 IQ урона to all enemies за каждые Raw Chicken on the field"
+      "name": "Грустная курочка",
+      "desc": "Конец хода: все противники теряют по 5 СД за каждого Сырого цыплёнка на поле боя."
     },
     {
       "id": 139403,
-      "name": "Fragile Fowl",
-      "desc": "Когда a Part breaks, получает 1 [Vulnerable] every turn за каждые Raw Chicken that died before that Part was broken"
+      "name": "Ранимая наседка",
+      "desc": "Когда Часть повреждается: каждый ход получает 1 [Vulnerable:`Уязвимость`] за каждого Сырого цыплёнка, который умер перед повреждением этой Части."
     },
     {
       "id": 139404,
-      "name": "Powerful Poussin",
-      "desc": "Если the Part isn’t broken, получает 1 [AttackDmgUp] every turn за каждые surviving Raw Chicken"
+      "name": "Мощная курятина",
+      "desc": "Если ни одна из Частей не повреждена, получает 1 [AttackDmgUp:`Повышение урона`] за каждого живого Сырого цыплёнка."
     },
     {
       "id": 139501,
-      "name": "Bongy Chicken Struts",
-      "desc": "Конец хода: Наносит 3 IQ урона to a random enemy"
+      "name": "Куриные Боньи ножки",
+      "desc": "Конец хода: случайный противник теряет 3 СД."
     },
     {
       "id": 139701,
-      "name": "Bongy Chicken Beefs Up",
-      "desc": "Конец хода: Накладывает 2 [AttackDmgUp] и 2 [Protection] to all allies на следующий ход, including this unit"
+      "name": "Усиление курочки Бони",
+      "desc": "Конец хода: даёт на следующий ход 2 [AttackDmgUp:`Повышения урона`] и 2 [Protection:`Защищённости`] всем Сырым цыплятам и себе."
     },
     {
       "id": 141001,
-      "name": "Blood Sac",
-      "desc": "Если у этого юнита есть [BloodPocket]:\n- The Body's Wrath Resist. -50%\n- The Body's Gloom Resist. +50%"
+      "name": "Кровяной мешок",
+      "desc": "Если есть [BloodPocket:`Кровяной мешок`]:\n- Сопротивление тела к Гневу -50%;\n- Сопротивление тела к Унынию +50%."
     },
     {
       "id": 141002,
-      "name": "Fluid Sac",
-      "desc": "Если у этого юнита есть [WaterPocket], хилит its Core by (стаков x 20)"
+      "name": "Жидкостный мешок",
+      "desc": "Если имеется [WaterPocket:`Жидкостный мешок`], Ядро восстанавливает (20 × значение [WaterPocket:`Жидкостного мешка`]) ОЗ."
     },
     {
       "id": 141003,
-      "name": "Ruptured Blood Sac",
-      "desc": "Once the Body is broken, При победе в клеше, activate the enemy's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> once и reduce счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> by 1"
+      "name": "Порванный кровяной мешок",
+      "desc": "Когда Тело повреждено: при победе в столкновении активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1."
     },
     {
       "id": 141004,
-      "name": "Splash Around",
-      "desc": "Накладывает 1 [PlayingWithWaterTogetherMirror] on the target that Clashed against this unit's Skill using a Skill that has the same Attack Type as this unit's (один раз за скилл, 3 раз за ход)\n- Если it was a Blunt Skill, накладывает 2 [PlayingWithWaterTogetherMirror] вместо этого"
+      "name": "Плеск вокруг",
+      "desc": "Если навык противника имеет тот же тип физического урона во время столкновения, даёт ему 1 [PlayingWithWaterTogetherMirror:`Плеск-пляск`] в конце столкновения. (До 3 раз за ход)\n- Если навык был Дробящим, то даёт 2 [PlayingWithWaterTogetherMirror:`Плеск-пляска`] вместо этого."
     },
     {
       "id": 141101,
-      "name": "Fluid Sac",
-      "desc": "Если у этого юнита есть [WaterPocket], хилит its Core by (стаков x 30)"
+      "name": "Жидкостный мешок",
+      "desc": "Если имеется [WaterPocket:`Жидкостный мешок`], Ядро восстанавливает (30 × значение [WaterPocket:`Жидкостного мешка`]) ОЗ."
     },
     {
       "id": 141102,
-      "name": "Ruptured Blood Sac",
-      "desc": "Once the Body is broken, При победе в клеше, activate the enemy's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> twice и reduce счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> by 2"
+      "name": "Порванный кровяной мешок",
+      "desc": "Когда Тело повреждено: при победе в столкновении активирует [Laceration:`Кровотечение`] цели 2 раза и понижает его счётчик на 2."
     },
     {
       "id": 141201,
-      "name": "Blood Sac",
-      "desc": "Если у этого юнита есть [BloodPocket]:\n- The Body's Wrath Resist. -35%\n- The Body's Gloom Resist. +35%"
+      "name": "Кровяной мешок",
+      "desc": "Если есть [BloodPocket:`Кровяной мешок`]:\n- Сопротивление тела к Гневу -35%;\n- Сопротивление тела к Унынию +35%."
     },
     {
       "id": 141202,
-      "name": "Fluid Sac",
-      "desc": "Если у этого юнита есть [WaterPocket], хилит its Core by (стаков x 35)"
+      "name": "Жидкостный мешок",
+      "desc": "Если имеется [WaterPocket:`Жидкостный мешок`], Ядро восстанавливает (35 × значение [WaterPocket:`Жидкостного мешка`]) ОЗ."
     },
     {
       "id": 141203,
-      "name": "Ruptured Blood Sac",
-      "desc": "Once the Body is broken, При победе в клеше, activate the enemy's <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> thrice и reduce счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> by 3"
+      "name": "Порванный кровяной мешок",
+      "desc": "Когда Тело повреждено: при победе в столкновении активирует [Laceration:`Кровотечение`] цели 3 раза и понижает его счётчик на 3."
     },
     {
       "id": 141204,
-      "name": "SplishSplashSplish",
-      "desc": "Если target не have [PlayingWithWaterTogetherMirror], получает the following effects:\n- Наносит +80% урона\n- On Hit using a Skill's final Coin, trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1\n\nЕсли target has [PlayingWithWaterTogetherMirror], получает the following effects:\n- Наносит -50% урона\n- Получает +10% урона за каждые [PlayingWithWaterTogetherMirror] стаков на цели (макс. 100%)\n\nЕсли no one has [PlayingWithWaterTogetherMirror], получает the following effects:\n- On Hit using a Skill, наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n- On Hit using a Skill's final Coin, activate <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> once; then, reduce target's счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> by 1"
+      "name": "ПлескПляскПлеск",
+      "desc": "Если противник не имеет [PlayingWithWaterTogetherMirror:`Плеск-пляск`]:\n- Наносит на 80% больше урона;\n- При попадании последней монетой [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1.\n\nЕсли противник имеет [PlayingWithWaterTogetherMirror:`Плеск-пляск`]:\n- Наносит на 50% меньше урона;\n- Получает на 10% больше урона за каждую единицу значения этого эффекта на нём. (До 100%)\n\nЕсли ни у кого из противников нет [PlayingWithWaterTogetherMirror:`Плеск-пляска`]:\n- Наносит 5 [Laceration:`Кровотечения`] при попадании навыками;\n- При попадании последней монетой активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1.",
+      "_comment": "Вот это мы получаем вместо новых аномалий в игре"
     }
   ]
 }
