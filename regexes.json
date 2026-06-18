@@ -171,7 +171,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " [Breath:*Кумара*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Breath]"
   },
   {
@@ -181,7 +181,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Laceration:*Кетчупа*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Laceration]"
   },
   {
@@ -191,7 +191,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Combustion:*Изжоги*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Combustion]"
   },
   {
@@ -201,7 +201,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Sinking:*Депрессии*] ",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Sinking]"
   },
   {
@@ -211,7 +211,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Vibration:*Тряски*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Vibration]"
   },
   {
@@ -221,7 +221,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Burst:*Зелёнки*] ",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Burst]"
   },
   {
@@ -231,7 +231,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Charge:*Соли*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[Charge]"
   },
   {
@@ -431,7 +431,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "$1 - $2",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "^(.+)'s (\\d+-я Айдишка)$"
   },
   {
@@ -441,7 +441,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "$1 - $2",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "^(.+)’s (\\d+-я Айдишка)$"
   },
   {
@@ -1021,7 +1021,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "превращает $1-ю монету в",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "convert Coin (\\w+) into"
   },
   {
@@ -1031,7 +1031,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "-ю монету в [SuperCoin:*Вечную монету*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "-ю монету в [SuperCoin]"
   },
   {
@@ -1261,7 +1261,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[SuperCoin:*Вечные монеты*]",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "[SuperCoin]s"
   },
   {
@@ -2061,7 +2061,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Забив][вибаЗ",
-    "ReplaceTags": true,
+    "ReplaceTags": false,
     "Target": "Reflectrial][lairtcelfeR"
   },
   {
@@ -2123,5 +2123,15 @@
     "Replacement": "(Лимитированная хуйня)",
     "ReplaceTags": false,
     "Target": "Limited Reward"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Используется для покупки лимитных наград за Забив][вибаЗ",
+    "ReplaceTags": false,
+    "Target": "Used for purchasing (Лимитированная хуйня)s from the \"Забив][вибаЗ]\" Reward Exchange shop."
   }
 ]

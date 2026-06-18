@@ -651,7 +651,7 @@
           "abName": "Польский дед",
           "level": "1",
           "name": "Панцершрек",
-          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка.\nПри 40 [MlynarWaiting] становится способным к столкновению.\n[WhenUse] При 40 [MlynarWaiting], до окончания действия этого навыка, этот юнит не может быть введён в стаггер от получаемого урона и получает +20 к силе в столкновении.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- За каждые (поглощённых стаков / 20) восстанавливает 1 ресурс Э.Г.О (в следующем порядке: гордость, затем гнев)\n- За каждые (поглощённых стаков / 10) получает +1 вес атаки (максимум 4)\n- За каждые (поглощённых стаков / 10) получает [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, 4-я монета наносит +50% урона, и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +5% урона за каждые 8 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration]) на основной цели (максимум 25%).\n[EndSkill] Восстанавливает 5 IQ за каждую цель, которая была введена в стаггер или убита уроном этого навыка (максимум 25).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык не поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +4 [Aggro] на следующий ход (Один раз за ход).",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка.\nПри 40 [MlynarWaiting] становится способным к столкновению.\n[WhenUse] При 40 [MlynarWaiting], до окончания действия этого навыка, этот юнит не может быть введён в стаггер от получаемого урона и получает +20 к силе в столкновении.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- За каждые (поглощённых стаков / 20) восстанавливает 1 ресурс Э.Г.О (в следующем порядке: гордость, затем гнев)\n- За каждые (поглощённых стаков / 10) получает +1 вес атаки (максимум 4)\n- За каждые (поглощённых стаков / 10) получает [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, 4-я монета наносит +50% урона, и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +5% урона за каждые 8 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration:*Тряски*]) на основной цели (максимум 25%).\n[EndSkill] Восстанавливает 5 IQ за каждую цель, которая была введена в стаггер или убита уроном этого навыка (максимум 25).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык не поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +4 [Aggro] на следующий ход (Один раз за ход).",
           "coinlist": [
             {
               "coindescs": [
@@ -665,13 +665,13 @@
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это последняя Монета и у цели 15+ силы [Vibration], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это последняя Монета и у цели 15+ силы [Vibration:*Тряски*], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration:*Тряски*] цели на 1."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта Монета была использована 4 раза, наносит урон лени, равный каунту [Vibration] на цели (максимум 5)."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта Монета была использована 4 раза, наносит урон лени, равный каунту [Vibration:*Тряски*] на цели (максимум 5)."
                 }
               ]
             }
@@ -681,7 +681,7 @@
           "abName": "Польский дед",
           "level": "3",
           "name": "Панцершрек",
-          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка.\nПри 40 [MlynarWaiting] становится способным к столкновению.\n[WhenUse] При 40 [MlynarWaiting], до окончания действия этого навыка, этот юнит не может быть введён в стаггер от получаемого урона и получает +20 к силе в столкновении.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- За каждые (поглощённых стаков / 20) восстанавливает 1 ресурс Э.Г.О (в следующем порядке: гордость, затем гнев)\n- За каждые (поглощённых стаков / 10) получает +1 вес атаки (максимум 4)\n- За каждые (поглощённых стаков / 10) получает [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, 4-я монета наносит +<style=\"highlight\">80</style>% урона, и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +5% урона за каждые 8 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration]) на основной цели (максимум 25%).\n[EndSkill] Восстанавливает 5 IQ за каждую цель, которая была введена в стаггер или убита уроном этого навыка (максимум 25).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык не поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +4 [Aggro] на следующий ход (Один раз за ход).",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка.\nПри 40 [MlynarWaiting] становится способным к столкновению.\n[WhenUse] При 40 [MlynarWaiting], до окончания действия этого навыка, этот юнит не может быть введён в стаггер от получаемого урона и получает +20 к силе в столкновении.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- За каждые (поглощённых стаков / 20) восстанавливает 1 ресурс Э.Г.О (в следующем порядке: гордость, затем гнев)\n- За каждые (поглощённых стаков / 10) получает +1 вес атаки (максимум 4)\n- За каждые (поглощённых стаков / 10) получает [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, 4-я монета наносит +<style=\"highlight\">80</style>% урона, и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +5% урона за каждые 8 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration:*Тряски*]) на основной цели (максимум 25%).\n[EndSkill] Восстанавливает 5 IQ за каждую цель, которая была введена в стаггер или убита уроном этого навыка (максимум 25).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык не поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +4 [Aggro] на следующий ход (Один раз за ход).",
           "coinlist": [
             {
               "coindescs": [
@@ -698,13 +698,13 @@
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это последняя Монета и у цели 15+ силы [Vibration], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1<style=\"highlight\"></style>."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это последняя Монета и у цели 15+ силы [Vibration:*Тряски*], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration:*Тряски*] цели на 1<style=\"highlight\"></style>."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта Монета была использована 4 раза, наносит урон лени, равный каунту [Vibration] на цели (максимум 5)<style=\"highlight\"></style>."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта Монета была использована 4 раза, наносит урон лени, равный каунту [Vibration:*Тряски*] на цели (максимум 5)<style=\"highlight\"></style>."
                 }
               ]
             }
@@ -714,7 +714,7 @@
           "abName": "Польский дед",
           "level": "4",
           "name": "Панцершрек",
-          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка.\nПри 40 [MlynarWaiting] становится способным к столкновению.\n[WhenUse] При 40 [MlynarWaiting], до окончания действия этого навыка, этот юнит не может быть введён в стаггер от получаемого урона и получает +20 к силе в столкновении.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- За каждые (поглощённых стаков / 20) восстанавливает 1 ресурс Э.Г.О (в следующем порядке: гордость, затем гнев)\n- За каждые (поглощённых стаков / 10) получает +1 вес атаки (максимум 4)\n- За каждые (поглощённых стаков / 10) получает [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, 4-я монета наносит +<style=\"highlight\">100</style>% урона, и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +5% урона за каждые 8 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration]) на основной цели (максимум 25%).\n[EndSkill] Восстанавливает 5 IQ за каждую цель, которая была введена в стаггер или убита уроном этого навыка (максимум 25).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык не поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +4 [Aggro] на следующий ход (Один раз за ход).",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка.\nПри 40 [MlynarWaiting] становится способным к столкновению.\n[WhenUse] При 40 [MlynarWaiting], до окончания действия этого навыка, этот юнит не может быть введён в стаггер от получаемого урона и получает +20 к силе в столкновении.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- За каждые (поглощённых стаков / 20) восстанавливает 1 ресурс Э.Г.О (в следующем порядке: гордость, затем гнев)\n- За каждые (поглощённых стаков / 10) получает +1 вес атаки (максимум 4)\n- За каждые (поглощённых стаков / 10) получает [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, 4-я монета наносит +<style=\"highlight\">100</style>% урона, и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +5% урона за каждые 8 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration:*Тряски*]) на основной цели (максимум 25%).\n[EndSkill] Восстанавливает 5 IQ за каждую цель, которая была введена в стаггер или убита уроном этого навыка (максимум 25).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык не поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +4 [Aggro] на следующий ход (Один раз за ход).",
           "coinlist": [
             {
               "coindescs": [
@@ -731,13 +731,13 @@
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это последняя Монета и у цели 15+ силы [Vibration], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1<style=\"highlight\"></style>."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это последняя Монета и у цели 15+ силы [Vibration:*Тряски*], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration:*Тряски*] цели на 1<style=\"highlight\"></style>."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта Монета была использована 4 раза, наносит урон лени, равный каунту [Vibration] на цели (максимум <style=\"highlight\">10</style>)."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта Монета была использована 4 раза, наносит урон лени, равный каунту [Vibration:*Тряски*] на цели (максимум <style=\"highlight\">10</style>)."
                 }
               ]
             }
@@ -752,7 +752,7 @@
           "abName": "Польский дед",
           "level": "1",
           "name": "Всадник геополитики",
-          "desc": "[CantIdentify]\nЦели выбираются случайно.\n[WhenUse] При 40 [MlynarWaiting], базовая сила +1.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- Получает (поглощённых стаков / 10) [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, последняя Монета наносит +110% урона и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +3% урона за каждые 6 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration]) на основной цели (максимум 15%).\n[BeforeAttack] Базовая сила -4 за каждую треснувшую Монету (максимум -16).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +8 [Aggro] на следующий ход (Один раз за ход).",
+          "desc": "[CantIdentify]\nЦели выбираются случайно.\n[WhenUse] При 40 [MlynarWaiting], базовая сила +1.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- Получает (поглощённых стаков / 10) [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, последняя Монета наносит +110% урона и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +3% урона за каждые 6 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration:*Тряски*]) на основной цели (максимум 15%).\n[BeforeAttack] Базовая сила -4 за каждую треснувшую Монету (максимум -16).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +8 [Aggro] на следующий ход (Один раз за ход).",
           "coinlist": [
             {
               "coindescs": [
@@ -784,10 +784,10 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у цели 15+ силы [Vibration], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у цели 15+ силы [Vibration:*Тряски*], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration:*Тряски*] цели на 1."
                 }
               ]
             }
@@ -797,7 +797,7 @@
           "abName": "Польский дед",
           "level": "3",
           "name": "Всадник геополитики",
-          "desc": "[CantIdentify]\nЦели выбираются случайно.\n<style=\"highlight\">При атаке 3+ целей: если Монеты 1~3 попали без треска, последняя Монета наносит +25% урона (Один раз за Монету; в фокусированных столкновениях каждая Часть считается за 1 цель)</style>\n[WhenUse] При 40 [MlynarWaiting], базовая сила +1.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- Получает (поглощённых стаков / 10) [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, последняя Монета наносит +<style=\"highlight\">130</style>% урона и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +3% урона за каждые 6 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration]) на основной цели (максимум 15%).\n[BeforeAttack] Базовая сила -4 за каждую треснувшую Монету (максимум -16).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +8 [Aggro] на следующий ход (Один раз за ход).",
+          "desc": "[CantIdentify]\nЦели выбираются случайно.\n<style=\"highlight\">При атаке 3+ целей: если Монеты 1~3 попали без треска, последняя Монета наносит +25% урона (Один раз за Монету; в фокусированных столкновениях каждая Часть считается за 1 цель)</style>\n[WhenUse] При 40 [MlynarWaiting], базовая сила +1.\n\n[BeforeAttack] Поглощает все [MlynarWaiting] и получает следующие эффекты (все значения округляются в меньшую сторону):\n- Получает (поглощённых стаков / 10) [DefenseUp] (Один раз за ход)\n- Если было поглощено 40 стаков, последняя Монета наносит +<style=\"highlight\">130</style>% урона и этот юнит получает 2 [Protection] (Один раз за ход)\n\n[BeforeAttack] Наносит +3% урона за каждые 6 (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> + [Vibration:*Тряски*]) на основной цели (максимум 15%).\n[BeforeAttack] Базовая сила -4 за каждую треснувшую Монету (максимум -16).\n[EndSkill] Даёт 1 [MlynarWaiting].\n[EndBattle] Если этот навык поглотил 40 [MlynarWaiting], крайний левый слот навыков на панели получает +8 [Aggro] на следующий ход (Один раз за ход).",
           "coinlist": [
             {
               "coindescs": [
@@ -829,10 +829,10 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тряски*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у цели 15+ силы [Vibration], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у цели 15+ силы [Vibration:*Тряски*], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration:*Тряски*] цели на 1."
                 }
               ]
             }
@@ -874,10 +874,10 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тряски*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у цели 15+ силы [Vibration], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у цели 15+ силы [Vibration:*Тряски*], вызывает [VibrationExplosion]; затем уменьшает счётчик [Vibration:*Тряски*] цели на 1."
                 }
               ]
             }
