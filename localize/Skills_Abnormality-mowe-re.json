@@ -6,15 +6,15 @@
         {
           "level": 1,
           "name": "Запуск протеза",
-          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
+          "desc": "[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -28,35 +28,35 @@
         {
           "level": 1,
           "name": "Рефлюкс застывшей крови",
-          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
+          "desc": "[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             }
@@ -70,34 +70,34 @@
         {
           "level": 1,
           "name": "Конверсивный заряд биоэнергией",
-          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\"><noparse>Понижения уровня атаки</noparse></link></u></color>"
                 }
               ]
             }
@@ -111,7 +111,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы своего счётчика [Laceration:`Кровотечения`] (До 2)",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы своего счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> (До 2)",
           "coinlist": [
             {}
           ]
@@ -124,22 +124,22 @@
         {
           "level": 1,
           "name": "Перелив крови",
-          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
+          "desc": "[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             }
@@ -153,47 +153,47 @@
         {
           "level": 1,
           "name": "Конверсивный заряд биоэнергией",
-          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\"><noparse>Понижения уровня атаки</noparse></link></u></color>"
                 }
               ]
             }
@@ -207,36 +207,36 @@
         {
           "level": 1,
           "name": "Принц маканчик",
-          "desc": "[StartBattle] Количество целей повышается на число противников с [Laceration:`Кровотечением`] (До 5 дополнительных целей)\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Laceration:`Кровотечения`]\n[DefeatDuel] Теряет 1 [KeptBlood:`Запас крови`]",
+          "desc": "[StartBattle] Количество целей повышается на число противников с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечением</noparse></link></u></color> (До 5 дополнительных целей)\n[WhenUse] Базовая сила +1 против целей с 4 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\"><noparse>Запас крови</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [KeptBlood:`Накопленную кровь`]"
+                  "desc": "[OnSucceedAttack] Получает 1 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\"><noparse>Накопленную кровь</noparse></link></u></color>"
                 }
               ]
             }
@@ -250,33 +250,33 @@
         {
           "level": 1,
           "name": "Я же... Макан... сего парада!..",
-          "desc": "[CantDuel]\nНе может быть оглушён до конца хода\n[WhenUse] Получает 4 [Paralysis:`Паралича`]\n[WhenUse] Удваивает восстановление ОЗ от пассивного умения <b>「Глефа из застывшей крови」</b>\n[WhenUse] Сбрасывает СД до 0\n[EndSkill] Получает 10 [KeptBlood:`Накопленной крови`] и заканчивает этот ход",
+          "desc": "[CantDuel]\nНе может быть оглушён до конца хода\n[WhenUse] Получает 4 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>\n[WhenUse] Удваивает восстановление ОЗ от пассивного умения <b>「Глефа из застывшей крови」</b>\n[WhenUse] Сбрасывает СД до 0\n[EndSkill] Получает 10 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\"><noparse>Накопленной крови</noparse></link></u></color> и заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             }
@@ -290,36 +290,36 @@
         {
           "level": 1,
           "name": "Я не вернусь... во веки веков!..",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration:`Кровотечения`] на главной цели (До 3)\n[WhenUse] Сила монет +1, если счётчик [Laceration:`Кровотечения`] главной цели равен 4 и более\n[WhenUse] Наносит на (Счётчик [Laceration:`Кровотечения`] главной цели × 5)% больше урона (До 20%)\n[WinDuel] Удваивает восстановление ОЗ от пассивного умения <b>「Глефа из застывшей крови」</b>\n[DefeatDuel] Эффект восстановления ОЗ от пассивного умения <b>「Глефа из застывшей крови」</b> не активируется во время атаки\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей\n[EndSkill] Получает 10 [KeptBlood:`Накопленной крови`]",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на главной цели (До 3)\n[WhenUse] Сила монет +1, если счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> главной цели равен 4 и более\n[WhenUse] Наносит на (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> главной цели × 5)% больше урона (До 20%)\n[WinDuel] Удваивает восстановление ОЗ от пассивного умения <b>「Глефа из застывшей крови」</b>\n[DefeatDuel] Эффект восстановления ОЗ от пассивного умения <b>「Глефа из застывшей крови」</b> не активируется во время атаки\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей\n[EndSkill] Получает 10 <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\"><noparse>Накопленной крови</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             }
