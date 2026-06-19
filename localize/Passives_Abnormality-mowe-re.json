@@ -2,23 +2,23 @@
   "dataList": [
     {
       "id": 123806,
-      "name": "Nightmare of Хохлоленд",
-      "desc": "Если there are Хохлоленд Bloodfiends among the enemies, получает the following effects:\n- In a Clash against Хохлоленд Bloodfiends, теряет 4 Сила клеша\n- Когда attacking Хохлоленд Bloodfiends, теряет 5 IQ (один раз за скилл; 2 раз за ход)\n- Наносит -20% Skill урона against Хохлоленд Bloodfiends"
+      "name": "Кошмар Хохлоленда}",
+      "desc": "Если среди противников есть Идентичности «Хохлоленда}», то получает следующие эффекты:\n- Сила в столкновенях с ними понижается на 4;\n- Теряет 5 СД при попадании по ним; (Единожды за свою атаку; до 2 раз за ход)\n- Наносит им на 20% меньше урона."
     },
     {
       "id": 123801,
-      "name": "Stored Blood",
-      "desc": "в конце хода, depending on the [KeptBlood] стаков на себе:\n- Наносит +2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> и +1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> Count на себе за каждые стаков\n- При 5 или fewer стаков: получает 1 [Binding], 1 [Vulnerable], 1 [AttackDown] итеряет 5 IQ на следующий ход за каждые (6 - стаков) (this effect cannot reduce this unit's IQ below -20)\n- При больше чем 5 стаков: получает 1 [AttackUp], 1 [DefenseUp], и хилит 8 IQ на следующий ход за каждые (стаков - 5) (this effect cannot increase this unit's IQ higher than 30)"
+      "name": "Скопившаяся кровь",
+      "desc": "Получает следующие эффекты в конце хода в зависимости от значения [KeptBlood:`Накопленной крови`]:\n- Получает 2 [Laceration:`Кровотечения`] и его счётчик повышается на 1 за каждую единицу значения;\n- При 5 и менее: получает на следующий ход 1 [Binding:`Связывание`], 1 [Vulnerable:`Уязвимость`], 1 [AttackDown:`Понижение уровня атаки`] и теряет 5 СД за каждую единицу [KeptBlood:`Накопленной крови`] ниже 6; (Не может опустить СД ниже -20)\n- При более чем 5: получает на следующий ход 1 [AttackUp:`Повышение уровня атаки`], 1 [DefenseUp:`Повышение уровня защиты`] и восстанавливает 8 СД за каждую единицу [KeptBlood:`Накопленной крови`] после 5. (Не может увеличить СД выше 30)"
     },
     {
       "id": 123805,
-      "name": "Sanguivore - Coagulation",
-      "desc": "Upon entry, хилит 30 IQ\nНачало хода: Если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>,\n- Получает 1 [AttackUp] и 1 [DefenseUp] за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> (макс. 5)\n- Получает 1 [ParryingResultUp] за каждые 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> (макс. 2)\nПолучает -50% <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> урона (округляется вниз)"
+      "name": "Кровожадство - свёртывание крови",
+      "desc": "Восстанавливает 30 СД при входе в битву.\n\nЕсли в начале хода на себе есть [Laceration:`Кровотечение`]:\n- Получает 1 [AttackUp:`Повышение уровня атаки`] и 1 [DefenseUp:`Повышение уровня защиты`] за каждые 5 [Laceration:`Кровотечения`] на себе; (До 5)\n- Получает 1 [ParryingResultUp:`Повышение силы в столкновении`] за каждые 10 [Laceration:`Кровотечения`] на себе. (До 2)\n\nПолучает на 50% меньше урона от [Laceration:`Кровотечения`]. (Округляется вниз)"
     },
     {
       "id": 130502,
-      "name": "Prosthesis Model - L37",
-      "desc": "Upon entry, хилит 20 IQ\nНачало хода: за каждые 1 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> Count, хилит 1 IQ (макс. 15)\nНачало хода: при менее чем 5 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> Count, наносит 1 [Reduction] на себе\nНачало хода: При 5+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> Count, получает 2 [ParryingResultUp]\nНачало хода: При 10+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> Count, получает 1 [PlusCoinValueUp]\nНачало хода: При 15+ <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> Count, наносит +(<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> Count на себе x 2)% урона with Base Attack Skills"
+      "name": "Протез модели L37",
+      "desc": "Восстанавливает 20 СД при входе в битву.\n\nНачало хода:\n- Восстанавливает СД в количестве своего счётчика [Charge:`Заряда`]; (До 15)\n- Получает 1 [Reduction:`Понижение силы атаки`], если свой счётчик [Charge:`Заряда`] ниже 5;\n- Получает 2 [ParryingResultUp:`Повышения силы в столкновении`], если свой счётчик [Charge:`Заряда`] равен 5 и более;\n- Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`], если свой счётчик [Charge:`Заряда`] равен 10 и более;\n- Наносит на (Счётчик [Charge:`Заряда`] × 2)% больше урона атакующими навыками на протяжении хода, если свой счётчик [Charge:`Заряда`] равен 5 и более."
     }
   ]
 }
