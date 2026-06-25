@@ -2793,52 +2793,51 @@
       "id": "1071505"
     },
     {
-      "id": 1071601,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "La Spada di Palermo",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряску*]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "La Spada di Palermo",
           "desc": "<style=\"highlight\">[WhenUse] Если target has 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряску*]"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "La Spada di Palermo",
           "desc": "[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>",
           "coinlist": [
@@ -2852,19 +2851,19 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряску*]"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1071601"
     },
     {
-      "id": 1071602,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Colpi Sottani",
           "desc": "",
           "coinlist": [
@@ -2882,13 +2881,15 @@
                 }
               ]
             },
-            {}
+            {
+              "coindescs": []
+            }
           ]
         },
         {
-          "level": 2,
+          "level": "2",
           "name": "Colpi Sottani",
-          "desc": "<style=\"highlight\">[WhenUse] Если target has 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Если цель имела 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2907,16 +2908,16 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у этого юнита есть [EvolvingManual], или если target has [DuelEdgeAlly], trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у этого юнита был [EvolvingManual], или если цель имела [DuelEdgeAlly], провоцирует [VibrationExplosion:*Потрясение сучки*] и уменьшает счётчик [Vibration:*Тряски*] на 1</style>"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Colpi Sottani",
-          "desc": "[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)\n[WinDuel] Если target has [DuelEdgeAlly], наносит +1 счётчик [Vibration:*Тряски*]</style>",
+          "desc": "[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)\n[WinDuel] Если цель имела [DuelEdgeAlly], наносит +1 счётчик [Vibration:*Тряски*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2935,21 +2936,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у этого юнита есть [EvolvingManual], или если target has [DuelEdgeAlly], trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1<style=\"highlight\"></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у этого юнита был [EvolvingManual], или если цель имела [DuelEdgeAlly], провоцирует [VibrationExplosion:*Потрясение сучки*] и уменьшает счётчик [Vibration:*Тряски*] на 1</style>"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1071602"
     },
     {
-      "id": 1071603,
       "levelList": [
         {
-          "level": 3,
+          "level": "3",
           "name": "Il Cacciatore",
-          "desc": "[BeforeUse] Если target has 5 [DuelEdgeAlly], activate \"Sezionatura di Cervo\" вместо этого (один раз за ход)\n[WhenUse] Если target has 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1\n[WhenUse] Получает the following effects based on [DuelEdgeAlly] стаков на цели:\n- 1+ [DuelEdgeAlly]: Наносит +1 more [Vibration:*Тряски*] Potency\n- 2+ [DuelEdgeAlly]: Наносит +1 more счётчика [Vibration:*Тряски*]\n- 3+ [DuelEdgeAlly]: Наносит +1 more [Combustion:*Изжоги*] Potency\n- 4+ [DuelEdgeAlly]: Наносит +1 more счётчика [Combustion:*Изжоги*]\n[WhenUse] Если у этого юнита есть [EvolvingManual], или если target has 3+ [DuelEdgeAlly], convert all Coins on this Skill to [SuperCoin:*Вечные монеты*]",
+          "desc": "[BeforeUse] Если цель имела 5 [DuelEdgeAlly], активирует скилл \"Sezionatura di Cervo\" (один раз за ход)\n[WhenUse] Если цель имела 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1\n[WhenUse] Получает следующие эффекты в зависимости от количества стаков [DuelEdgeAlly] на цели:\n\n- 1+ [DuelEdgeAlly]: Наносит на +1 силу [Vibration:*Тряски*] больше\n- 2+ [DuelEdgeAlly]: Наносит на +1 счётчик [Vibration:*Тряски*] больше\n- 3+ [DuelEdgeAlly]: Наносит на +1 силу [Combustion:*Изжоги*] больше\n- 4+ [DuelEdgeAlly]: Наносит на +1 счётчика [Combustion:*Изжоги*] больше\n[WhenUse] Если у этого юнита есть [EvolvingManual], или если цель имела 3+ [DuelEdgeAlly], все монеты скилла становятся [SuperCoin:*Вечными*]",
           "coinlist": [
             {
               "coindescs": [
@@ -2971,22 +2972,22 @@
                   "desc": "Наносит +10% урона за каждые [EvolvingManual] на себе (макс. 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] в [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationIgnition]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion:*Потрясение сучки*] и уменьшает счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у этого юнита есть [EvolvingManual], или если target has 3+ [DuelEdgeAlly], trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1"
+                  "desc": "[OnSucceedAttack] Если у этого юнита есть [EvolvingManual], или если цель имела 3+ [DuelEdgeAlly], провоцирует [VibrationExplosion:*Потрясение сучки*] и уменьшает счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Il Cacciatore",
-          "desc": "[BeforeUse] Если target has 5 [DuelEdgeAlly], activate \"Sezionatura di Cervo\" вместо этого (один раз за ход)\n[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>\n[WhenUse] Получает the following effects based on [DuelEdgeAlly] стаков на цели:\n- <style=\"highlight\">Наносит +6% урона за каждые стаков (макс. 30%)</style>\n- 1+ [DuelEdgeAlly]: Наносит +1 more [Vibration:*Тряски*] Potency\n- 2+ [DuelEdgeAlly]: Наносит +1 more счётчика [Vibration:*Тряски*]\n- 3+ [DuelEdgeAlly]: Наносит +1 more [Combustion:*Изжоги*] Potency\n- 4+ [DuelEdgeAlly]: Наносит +1 more счётчика [Combustion:*Изжоги*]\n[WhenUse] Если у этого юнита есть [EvolvingManual], или если target has 3+ [DuelEdgeAlly], convert all Coins on this Skill to [SuperCoin:*Вечные монеты*]",
+          "desc": "[BeforeUse] Если цель имела 5 [DuelEdgeAlly], активирует скилл \"Sezionatura di Cervo\" (один раз за ход)\n[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>\n[WhenUse] Получает следующие эффекты в зависимости от количества стаков [DuelEdgeAlly] на цели:\n\n- <style=\"highlight\">Наносит +6% урона за каждый стак (макс. 30%)</style>\n- 1+ [DuelEdgeAlly]: Наносит на +1 силу [Vibration:*Тряски*] больше\n- 2+ [DuelEdgeAlly]: Наносит на +1 счётчик [Vibration:*Тряски*] больше\n- 3+ [DuelEdgeAlly]: Наносит на +1 силу [Combustion:*Изжоги*] больше\n- 4+ [DuelEdgeAlly]: Наносит на +1 счётчика [Combustion:*Изжоги*] больше\n[WhenUse] Если у этого юнита есть [EvolvingManual], или если цель имела 3+ [DuelEdgeAlly], все монеты скилла становятся [SuperCoin:*Вечными*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3008,74 +3009,74 @@
                   "desc": "Наносит <style=\"highlight\">+25%</style> урона за каждые [EvolvingManual] на себе (макс. <style=\"highlight\">75%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] в [VibrationIgnition]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationIgnition]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion:*Потрясение сучки*] и уменьшает счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у этого юнита есть [EvolvingManual], или если target has 3+ [DuelEdgeAlly], trigger [VibrationExplosion] <style=\"highlight\">2 times</style>; then, reduce target's счётчика [Vibration:*Тряски*] by <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Если у этого юнита есть [EvolvingManual], или если цель имела 3+ [DuelEdgeAlly], дважды провоцирует [VibrationExplosion:*Потрясение сучки*] и уменьшает счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1071603"
     },
     {
-      "id": 1071604,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "Measuring Blade Reach",
           "desc": "[DuelCounter]\nНаносит +10% урона за каждые [DuelEdgeAlly] на цели (макс. 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*] (2 раз за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*] (2 раза за ход)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*] (2 раз за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряску*] (2 раза за ход)"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Measuring Blade Reach",
           "desc": "[DuelCounter]\nНаносит +<style=\"highlight\">20</style>% урона за каждые [DuelEdgeAlly] на цели (макс. <style=\"highlight\">100</style>%)\n<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*] (2 раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*] (2 раза за ход)<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*] (2 раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряску*] (2 раза за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1071604"
     },
     {
-      "id": 1071605,
       "levelList": [
         {
-          "level": 1,
+          "level": "1",
           "name": "I Will Protect.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] Эксклюзивный скилл",
+          "desc": "[CanDuelGuard]\nЯвляется эксклюзивным скиллом [SupportProtect:*Вспомогательной защиты*]",
           "coinlist": [
             {
               "coindescs": [
@@ -3087,9 +3088,9 @@
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "I Will Protect.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] Эксклюзивный скилл\n<style=\"highlight\">[WhenUse]\n- Получает 2 [Protection] (один раз за ход)\n- Хилит 5 IQ for the unit protected by the [SupportProtect]</style>",
+          "desc": "[CanDuelGuard]\nЯвляется эксклюзивным скиллом [SupportProtect:*Вспомогательной защиты*]\n<style=\"highlight\">[WhenUse]\n- Получает 2 [Protection] (один раз за ход)\n- Хилит 5 IQ союзнику, которого защитил этот юнит с помощью [SupportProtect:*Вспомогательной защиты*]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3100,15 +3101,15 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1071605"
     },
     {
-      "id": 1071606,
       "levelList": [
         {
-          "level": 3,
+          "level": "3",
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse]\n- получает +([EvolvingManual] - 1) Atk Weight (макс. 2)\n- Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2)\n- Когда attacking just 1 target, наносит +15% урона (for Focused Encounters, 1 Part)\n- Наносит +15% урона за каждые excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n\n[EndSkill]\n- тратит все [DuelEdgeAlly] на главной цели\n- Получает 1 [EvolvingManual]. Если the main target is defeated, получает 2 [EvolvingManual] вместо этого",
+          "desc": "[WhenUse]\n- Получает +([EvolvingManual] - 1) к Весу атаки (макс. 2)\n- Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2)\n- Когда атакует 1 цель, на +15% урона (в фокусированных битвах - 1 часть тела)\n- Наносит +15% урона за каждый избыток Веса атаки (в фокусированных битвах - части тела)\n\n[EndSkill]\n- Тратит все стаки [DuelEdgeAlly] на главной цели\n- Получает 1 [EvolvingManual]. Если если главная цель убита, получает 2 [EvolvingManual]",
           "coinlist": [
             {
               "coindescs": [
@@ -3143,22 +3144,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] This Coin gains Сила монет +1 за каждые [EvolvingManual] (макс. 3)"
+                  "desc": "[OnStartCoin] Эта монета получает +1 к Силе монет за каждый [EvolvingManual] (макс. 3)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] в [VibrationIgnition]"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationIgnition]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's счётчика [Vibration:*Тряски*] by 2"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion:*Потрясение сучки*] 2 раза и уменьшает счётчик [Vibration:*Тряски*] цели на 2"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
+          "level": "4",
           "name": "Sezionatura di Cervo",
-          "desc": "[WhenUse]\n- получает +([EvolvingManual] - 1) Atk Weight (макс. 2)\n- Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. <style=\"highlight\">3</style>)\n- Когда attacking just 1 target, наносит +<style=\"highlight\">25</style>% урона (for Focused Encounters, 1 Part)\n- Наносит +<style=\"highlight\">25</style>% урона за каждые excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n\n[EndSkill]\n- тратит все [DuelEdgeAlly] на главной цели\n- Получает 1 [EvolvingManual]. Если the main target is defeated, получает 2 [EvolvingManual] вместо этого",
+          "desc": "[WhenUse]\n- Получает +([EvolvingManual] - 1) к Весу атаки (макс. 2)\n- Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. <style=\"highlight\">3</style>)\n- Когда атакует 1 цель, на +25% урона (в фокусированных битвах - 1 часть тела)\n- Наносит +15% урона за каждый Вес атаки, превышающий число врагов на поле боя (в фокусированных битвах - части тела)\n\n[EndSkill]\n- Тратит все стаки [DuelEdgeAlly] на главной цели\n- Получает 1 [EvolvingManual]. Если если главная цель убита, получает 2 [EvolvingManual]",
           "coinlist": [
             {
               "coindescs": [
@@ -3193,19 +3194,20 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnStartCoin] This Coin gains Сила монет +1 за каждые [EvolvingManual] (макс. 3)<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Эта монета получает +1 к Силе монет за каждый [EvolvingManual] (макс. 3)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [Switch_Vibration] в [VibrationIgnition]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Провоцирует [Switch_Vibration] в [VibrationIgnition]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] <style=\"highlight\">3 times</style>; then, reduce target's счётчика [Vibration:*Тряски*] by <style=\"highlight\">3</style>"
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion:*Потрясение сучки*] 3 раза и уменьшает счётчик [Vibration:*Тряски*] цели на 3"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1071606"
     }
   ]
 }
