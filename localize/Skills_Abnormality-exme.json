@@ -1,321 +1,322 @@
 {
   "dataList": [
     {
+      "id": 144801,
       "levelList": [
         {
-          "level": "1",
-          "name": "Constricting Ohra Bonds",
-          "desc": "[WhenUse] При 6+ ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели), Базовая сила +1\n[WhenUse] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Если скорость этого юнита быстрее цели, получает дополнительно +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Сужение алых пут",
+          "desc": "[WhenUse] Базовая сила +1, если сумма силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели равна 6 и более\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n- Если быстрее цели, то повышает его ещё на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [ScratchesHurt] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScratchesHurt:`Отрывную рану`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144801"
+      ]
     },
     {
+      "id": 144802,
       "levelList": [
         {
-          "level": "1",
-          "name": "Hamstringing",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся [SuperCoin]\n[WhenUse] Получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Если скорость этого юнита быстрее цели, получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Перерезание сухожилия",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если быстрее цели, то последняя монета этого навыка становится [SuperCoin:`Вечной`]\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 3\n- Если быстрее цели, то получает ещё 3 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144802"
+      ]
     },
     {
+      "id": 144803,
       "levelList": [
         {
-          "level": "1",
-          "name": "Avulsion Slash",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>\n[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WinDuel] Получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Отрывной разрез",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WinDuel] Получает 2 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurt] на следующий ход"
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurt:`Отрывную рану`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144803"
+      ]
     },
     {
+      "id": 144804,
       "levelList": [
         {
-          "level": "1",
-          "name": "Branding",
-          "desc": "Приоритизирует цели, которые имеют [TiedRope]\nЕсли скорость этого юнита быстрее цели, наносит +25% урона за каждую разницу в скорости (макс. 100%)\n[WhenUse] Сила монет +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)",
+          "level": 1,
+          "name": "Клеймение",
+          "desc": "Нацеливается на противников с [TiedRope:`Опутыванием`]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144804"
+      ]
     },
     {
+      "id": 144805,
       "levelList": [
         {
-          "level": "1",
-          "name": "Escape Cutoff",
-          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WinDuel] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Отрезание отступления",
+          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144805"
+      ]
     },
     {
+      "id": 144901,
       "levelList": [
         {
-          "level": "1",
-          "name": "Trammel",
-          "desc": "[WhenUse] При 6+ ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели), Базовая сила +1\n[WhenUse] получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Если скорость этого юнита быстрее цели, получает дополнительно +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Препятствование",
+          "desc": "[WhenUse] Базовая сила +1, если сумма силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели равна 6 и более\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n- Если быстрее цели, то повышает его ещё на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144901"
+      ]
     },
     {
+      "id": 144902,
       "levelList": [
         {
-          "level": "1",
-          "name": "Choke Hold",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся в [SuperCoin]\n[WhenUse] Получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Если скорость этого юнита быстрее цели, получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Удушающий захват",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если быстрее цели, то последняя монета этого навыка становится [SuperCoin:`Вечной`]\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 2\n- Если быстрее цели, то получает ещё 3 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144902"
+      ]
     },
     {
+      "id": 144903,
       "levelList": [
         {
-          "level": "1",
-          "name": "Hunter's Scouring",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>\n[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WinDuel] Получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Охотничья чистка",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если быстрее цели, то последняя монета этого навыка становится [SuperCoin:`Вечной`]\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WinDuel] Получает ещё 2 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Binding] на этот и следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Binding:`Связывания`] на этот и следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Шанс ([Binding] x 20)% чтобы нанести [TiedRope]\n- Если цель в стаггере, этот эффект наносится независимо от шанса"
+                  "desc": "[OnSucceedAttack] Наносит [TiedRope:`Опутывание`] с шансом ([Binding:`Связывание`] на цели × 20)%\n- Если цель оглушена, то всё равно наносит [TiedRope:`Опутывание`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144903"
+      ]
     },
     {
+      "id": 144904,
       "levelList": [
         {
-          "level": "1",
-          "name": "Branding",
-          "desc": "Приоритизирует цели, которые имеют [TiedRope]\nЕсли скорость этого юнита быстрее цели, наносит +25% урона за каждую разницу в скорости (макс. 100%)\n[WhenUse] Сила монет +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)",
+          "level": 1,
+          "name": "Клеймение",
+          "desc": "Нацеливается на противников с [TiedRope:`Опутыванием`]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144904"
+      ]
     },
     {
+      "id": 144905,
       "levelList": [
         {
-          "level": "1",
-          "name": "Route Cutoff",
-          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 6 ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WinDuel] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Отрезание пути",
+          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "144905"
+      ]
     },
     {
+      "id": 145201,
       "levelList": [
         {
-          "level": "1",
-          "name": "Briefcase Corner Point",
-          "desc": "[WhenUse] Получает 1 [Agility] на следующий ход (один раз за ход)\nЕсли цель имела 6+ (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>), Базовая сила +1",
+          "level": 1,
+          "name": "Приём углом чемодана",
+          "desc": "Базовая сила +1 против целей с 6 и более единицами в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -323,914 +324,901 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145201"
+      ]
     },
     {
+      "id": 145202,
       "levelList": [
         {
-          "level": "1",
-          "name": "Weighted Bash",
-          "desc": "[WhenUse] Получает 2 [Agility] на следующий ход (один раз за ход)\nСила монет +1 за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели) (макс. 2)",
+          "level": 1,
+          "name": "Удар весом",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color> и понижает счётчик Тряски на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145202"
+      ]
     },
     {
+      "id": 145203,
       "levelList": [
         {
-          "level": "1",
-          "name": "Enframe Subject",
-          "desc": "Сила монет +1 за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряске</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "level": 1,
+          "name": "Запечатлеть субъект",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует сучку</noparse></link></u></color> и уменьшает счётчик тряски на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [TakePicture] на следующий ход"
+                  "desc": "[EndCoin] Наносит 1 [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145203"
+      ]
     },
     {
+      "id": 145204,
       "levelList": [
         {
-          "level": "1",
-          "name": "Snapshot",
-          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "level": 1,
+          "name": "Снимок",
+          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [AttackDown] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [TakePicture] на следующий ход"
+                  "desc": "[EndCoin] Наносит 1 [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145204"
+      ]
     },
     {
+      "id": 145301,
       "levelList": [
         {
-          "level": "1",
-          "name": "Steel Plate Slam",
-          "desc": "[WhenUse] Получает 1 [Agility] на следующий ход (один раз за ход)\nЕсли цель имела 6+ (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>), Базовая сила +1",
+          "level": 1,
+          "name": "Удар стальной пластиной",
+          "desc": "Базовая сила +1 против целей с 6 и более единицами в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145301"
+      ]
     },
     {
+      "id": 145302,
       "levelList": [
         {
-          "level": "1",
-          "name": "Nailhead Strike",
-          "desc": "[WhenUse] Получает 2 [Agility] на следующий ход (один раз за ход)\nСила монет +1 за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели) (макс. 2)",
+          "level": 1,
+          "name": "Укол гвоздём",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Получает 2 [Agility:`Спешка`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует сучку</noparse></link></u></color> и уменьшает счётчик тряски на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145302"
+      ]
     },
     {
+      "id": 145303,
       "levelList": [
         {
-          "level": "1",
-          "name": "Focus Recompose",
-          "desc": "Сила монет +1 за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "level": 1,
+          "name": "Рекомпозиция фокуса",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] Наносит [TakePicture] на следующий ход"
+                  "desc": "[EndCoin] Наносит [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145303"
+      ]
     },
     {
+      "id": 145304,
       "levelList": [
         {
-          "level": "1",
-          "name": "Snapshot",
-          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели + <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели) (макс. 2)\n[WhenUse] Если скорость этого юнита быстрее цели, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "level": 1,
+          "name": "Снимок",
+          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [AttackDown] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] Наносит [TakePicture] на следующий ход"
+                  "desc": "[EndCoin] Наносит [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145304"
+      ]
     },
     {
+      "id": 145001,
       "levelList": [
         {
-          "level": "1",
-          "name": "Oxsplitter",
-          "desc": "[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)",
+          "level": 1,
+          "name": "Разделка быка",
+          "desc": "[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145001"
+      ]
     },
     {
+      "id": 145002,
       "levelList": [
         {
-          "level": "1",
-          "name": "Bearsplitter",
-          "desc": "[WhenUse] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] При 6+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, конвертирует монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Разделка медведя",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin:`Вечными`] при 6 и более [Breath:`Дыхания`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145002"
+      ]
     },
     {
+      "id": 145003,
       "levelList": [
         {
-          "level": "1",
-          "name": "Bearspine Breaker",
-          "desc": "[WhenUse] При 8+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, наносит +40% урона при раскумаре\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>При 7+ [ChoiSwordsmanship], конвертирует монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color> и наносит +20% урона при раскумаре</color></mark></b></u>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Разрушение медвежьего позвоночника",
+          "desc": "[WhenUse] Наносит на 40% больше урона при критических попаданиях при 8 и более [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin:`Вечными`] и критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship:`Фехтования родины 【Саль】`] равно 7 и более</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown] на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на этот и следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145003"
+      ]
     },
     {
+      "id": 145005,
       "levelList": [
         {
-          "level": "1",
-          "name": "Swordform of the Homeland - Sal's Sundering",
-          "desc": "[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)",
+          "level": 1,
+          "name": "Форма меча родины - Раскол Саля",
+          "desc": "[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145005"
+      ]
     },
     {
+      "id": 145006,
       "levelList": [
         {
-          "level": "1",
-          "name": "Tiger Hunt",
-          "desc": "[WhenUse] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] При 6+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, конвертирует монеты  в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные</noparse></link></u></color>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Охота на тигра",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin:`Вечными`] при 6 и более [Breath:`Дыхания`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145006"
+      ]
     },
     {
+      "id": 145007,
       "levelList": [
         {
-          "level": "1",
-          "name": "Tigersplitter",
-          "desc": "[WhenUse] При 8+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, наносит +40% урона при раскумаре\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>При 3 или менее [ChoiSwordsmanship], все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color> и наносит +20% урона при раскумаре</color></mark></b></u>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Разделка тигра",
+          "desc": "[WhenUse] На 40% больше урона при критическом попадании при 8 и более [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin:`Вечными`] и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship:`Фехтования родины 【Саль】`] равно 3 и менее</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown] this turn и на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на этот и следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145007"
+      ]
     },
     {
+      "id": 145009,
       "levelList": [
         {
-          "level": "1",
-          "name": "Sword of the Homeland [Sal] - Reassume Stance",
-          "desc": "Эффект [ChoiSwordsmanship] не распространяется\n[CantDuel] С юнитами Вспомогательной защиты\nПриоритизирует твоих балбесов\nЕсли скилл цели [SupportProtect] Эксклюзивный скилл, конвертирует в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если скилл цели [SupportProtect] Эксклюзивный скилл, этот эффект цели\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При ударе односторонней атакой, или при ударе против врагов которые использовали [SupportProtect] Эксклюзивный скилл, получает 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "level": 1,
+          "name": "Форма меча родины【Саль】- Занять позицию",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\nНе может столкнуться с Эзрой, Энду или Кимом\nНацеливается на Грешников\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>, то монета этого навыка становится [SuperCoin:`Вечной`]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u> (Не активируется, если сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Получает 2 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u>, если столкновение было с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b> или этот навык был использован в качестве односторонней атаки",
           "coinlist": [
-            {
-              "coindescs": []
-            }
+            {}
           ]
         }
-      ],
-      "id": "145009"
+      ]
     },
     {
+      "id": 145010,
       "levelList": [
         {
-          "level": "1",
-          "name": "Sword of the Homeland [Sal] - Swordhoning",
-          "desc": "Эффект [ChoiSwordsmanship] не распространяется\n[CantDuel] С юнитами Вспомогательной защиты\nПриоритизирует твоих балбесов\nЕсли скилл цели [SupportProtect] Эксклюзивный скилл, конвертирует в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если скилл цели [SupportProtect] Эксклюзивный скилл, этот эффект цели\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При ударе односторонней атакой, или при ударе против врагов которые использовали [SupportProtect] Эксклюзивный скилл, теряет 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "level": 1,
+          "name": "Форма меча родины【Саль】- Оттачивание меча",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\nНе может столкнуться с Эзрой, Энду или Кимом\nНацеливается на Грешников\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>, то монета этого навыка становится [SuperCoin:`Вечной`]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u> (Не активируется, если сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Теряет 2 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u> если столкновение было с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b> или этот навык был использован в качестве односторонней атаки",
           "coinlist": [
-            {
-              "coindescs": []
-            }
+            {}
           ]
         }
-      ],
-      "id": "145010"
+      ]
     },
     {
+      "id": 145011,
       "levelList": [
         {
-          "level": "1",
-          "name": "Bow of the Homeland [Sal] - Arrowloose",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Таргетит цели с наибольшим числом <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color></color></mark></b></u>\nЭффект [ChoiSwordsmanship] не распространяется\n[WhenUse] Тратит 3 силы <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе чтобы получить Финальная сила +2",
+          "level": 1,
+          "name": "Форма меча родины【Саль】- Выпущенная стрела",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\nНацеливается на противника с наибольшей силой [Laceration:`Кровотечения`]\n[WhenUse] Тратит 3 [Breath:`Дыхания`], чтобы получить +2 к Итоговой силе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +4 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает порог стаггера на 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145011"
+      ]
     },
     {
+      "id": 145012,
       "levelList": [
         {
-          "level": "1",
-          "name": "Guardform",
-          "desc": "Эффект [ChoiSwordsmanship] не распространяется\n[StartBattle] Получает 5  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +5 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Получает 2 [CriticalDamageUp] на следующий ход",
+          "level": 1,
+          "name": "Защитная форма",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\n[StartBattle] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 3\n[WhenUse] Получает 2 [CriticalDamageUp:`Повышения критического урона`] на следующий ход",
           "coinlist": [
-            {
-              "coindescs": []
-            }
+            {}
           ]
         }
-      ],
-      "id": "145012"
+      ]
     },
     {
+      "id": 145013,
       "levelList": [
         {
-          "level": "1",
-          "name": "Counterform",
-          "desc": "Эффект [ChoiSwordsmanship] не распространяется\n[StartBattle] Получает 5  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +5 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Контратакующая форма",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\n[StartBattle] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145013"
+      ]
     },
     {
+      "id": 145101,
       "levelList": [
         {
-          "level": "1",
-          "name": "Oxsplitter",
-          "desc": "[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)",
+          "level": 1,
+          "name": "Разделка быка",
+          "desc": "[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145101"
+      ]
     },
     {
+      "id": 145102,
       "levelList": [
         {
-          "level": "1",
-          "name": "Bearsplitter",
-          "desc": "[WhenUse] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] При 6+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, конвертирует монеты  в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Разделка медведя",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Монета этого навыка становится [SuperCoin:`Вечной`] при 6 и более [Breath:`Дыхания`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145102"
+      ]
     },
     {
+      "id": 145103,
       "levelList": [
         {
-          "level": "1",
-          "name": "Bearspine Breaker",
-          "desc": "[WhenUse] При 8+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, наносит +40% урона при раскумаре\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] При более чем 6 [ChoiSwordsmanship], получает Финальную сила за каждый избыток [ChoiSwordsmanship] стаков (макс. 3)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>При 7+ [ChoiSwordsmanship], конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color> и наносит +20% урона при раскумаре</color></mark></b></u>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Разрушение медвежьего позвоночника",
+          "desc": "[WhenUse] Наносит на 40% больше урона при критических попаданиях при 8 и более [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждую единицу значения [ChoiSwordsmanship:`Фехтования родины 【Саль】`] свыше 6 (До 3)\n[WhenUse] Монета этого навыка становится [SuperCoin:`Вечной`] и её критический урон повышается на 20%, если значение [ChoiSwordsmanship:`Фехтования родины 【Саль】`] равно 7 и более\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown] на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на этот и следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145103"
+      ]
     },
     {
+      "id": 145104,
       "levelList": [
         {
-          "level": "1",
-          "name": "Even Sanguns Shall Be Cleft Under This Sword",
-          "desc": "Таргетит цели с наибольшим числом<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n[WhenUse] Не может быть застаггерен пока этот скилл не закончится\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 3)\n[WhenUse] При более чем 6 [ChoiSwordsmanship], получает Финальную сила +2 за каждые избытка [ChoiSwordsmanship] стаков (макс. 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Этот скилл всегда выкидывает орлы, раскумаривается, и не и не тратит счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color></color></mark></b></u>\n[BeforeAttack] Наносит +20% урона при раскумаре за каждые 2 [ChoiSwordsmanship] на себе (макс. 80%)\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Даже Сангуны будут рассечены этим мечом",
+          "desc": "Нацеливается на противника с наибольшей силой [Laceration:`Кровотечения`]\n\n[WhenUse] Не может быть оглушена до конца использования этого навыка\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] Итоговая сила +2 за каждую единицу значения [ChoiSwordsmanship:`Фехтования родины 【Саль】`] свыше 6 (До 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Монета этого навыка выпадает орлом с шансом 100%, попадает критически, а также не тратит счётчик [Breath:`Дыхания`] при этом</color></mark></b></u>\n[BeforeAttack] Наносит на 20% больше урона за каждые 2 [ChoiSwordsmanship:`Фехтования родины 【Саль】`] (До 80%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе x 10)% финального урона этой монеты) Рубящего урона (макс. 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Сила своего [Breath:`Дыхания`] × 10)% от итогового урона этой монеты (До 100%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ((<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели x 10)% финального урона этой монеты) урона Похотью (макс. 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Похотью, равный (Сила [Laceration:`Кровотечения`] на цели × 10)% от итогового урона этой монеты (До 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели. Цель теряет 1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145104"
+      ]
     },
     {
+      "id": 145105,
       "levelList": [
         {
-          "level": "1",
-          "name": "Swordform of the Homeland - Sal's Sundering",
-          "desc": "[WhenUse] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)",
+          "level": 1,
+          "name": "Форма меча родины - Раскол Саля",
+          "desc": "[WhenUse] Получает 3 [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145105"
+      ]
     },
     {
+      "id": 145106,
       "levelList": [
         {
-          "level": "1",
-          "name": "Tiger Hunt",
-          "desc": "[WhenUse] Получает +3 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] При 6+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Охота на тигра",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin:`Вечными`] при 6 и более [Breath:`Дыхания`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145106"
+      ]
     },
     {
+      "id": 145107,
       "levelList": [
         {
-          "level": "1",
-          "name": "Tigersplitter",
-          "desc": "[WhenUse] При 8+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, наносит +40% урона при раскумаре\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>При 3 или менее [ChoiSwordsmanship], все монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color> и наносят +20% урона при раскумаре</color></mark></b></u>\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Разделка тигра",
+          "desc": "[WhenUse] На 40% больше урона при критическом попадании при 8 и более [Breath:`Дыхания`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin:`Вечными`] и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship:`Фехтования родины 【Саль】`] равно 3 и менее</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown] на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на этот и следующий ход"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145107"
+      ]
     },
     {
+      "id": 145108,
       "levelList": [
         {
-          "level": "1",
-          "name": "No Tiger's Flesh Shall Be Left Uncloven",
-          "desc": "Таргетит цели с наибольшим числом<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n[WhenUse] Не может быть застаггерен пока этот скилл не закончится\n[WhenUse] Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 3)\n[WhenUse] При более чем 6 [ChoiSwordsmanship], получает Финальную сила +2 за каждые избытка [ChoiSwordsmanship] стаков (макс. 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Этот скилл всегда выкидывает орлы, раскумаривается, и не и не тратит счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color></color></mark></b></u>\n[BeforeAttack] Наносит +20% урона при раскумаре за каждые 2 [ChoiSwordsmanship] на себе (макс. 80%)\n[DefeatDuel]\n- Наносит -80% урона\n- Не раскумаривается\n- Этот скилл не может застаггерить",
+          "level": 1,
+          "name": "Не должно остаться неразрезанной тигриной плоти",
+          "desc": "С этим навыком можно столкнуться независимо от скорости\n\nНацеливается на противника с наибольшей силой [Laceration:`Кровотечения`]\n[WhenUse] Не может быть оглушена до конца использования этого навыка\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Все монеты этого навыка выпадают орлом, попадают критически, а также не тратят счётчик [Breath:`Дыхания`] при этом</color></mark></b></u>\n[BeforeAttack] Наносит на 20% больше урона за каждые 2 [ChoiSwordsmanship:`Фехтования родины 【Саль】`] (До 80%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели. Цель теряет 1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели. Цель теряет 1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели. Цель теряет 1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если главная цель имела 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит +8 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели которые задела эта монета"
+                  "desc": "[OnSucceedAttack] Если главная цель имеет 10 и более [Laceration:`Кровотечения`], то повышает счётчик [Laceration:`Кровотечения`] на 4 всем целям, по которым попала этой монетой"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +8 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 8"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145108"
+      ]
     },
     {
+      "id": 145109,
       "levelList": [
         {
-          "level": "1",
-          "name": "Sword of the Homeland [Sal] - Reassume Stance",
-          "desc": "Эффект [ChoiSwordsmanship] не распространяется\n[CantDuel] С юнитами Вспомогательной защиты\nПриоритизирует твоих балбесов\nЕсли скилл цели [SupportProtect] Эксклюзивный скилл, конвертирует в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если скилл цели [SupportProtect] Эксклюзивный скилл, этот эффект цели\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При ударе односторонней атакой, или при ударе против врагов которые использовали [SupportProtect] Эксклюзивный скилл, получает 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "level": 1,
+          "name": "Форма меча родины【Саль】- Занять позицию",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\nНе может столкнуться с Эзрой, Энду или Кимом\nНацеливается на Грешников\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>, то монета этого навыка становится [SuperCoin:`Вечной`]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u> (Не активируется, если сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Получает 2 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u>, если столкновение было с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b> или этот навык был использован в качестве односторонней атаки",
           "coinlist": [
-            {
-              "coindescs": []
-            }
+            {}
           ]
         }
-      ],
-      "id": "145109"
+      ]
     },
     {
+      "id": 145110,
       "levelList": [
         {
-          "level": "1",
-          "name": "Sword of the Homeland [Sal] - Swordhoning",
-          "desc": "Эффект [ChoiSwordsmanship] не распространяется\n[CantDuel] С юнитами Вспомогательной защиты\nПриоритизирует твоих балбесов\nЕсли скилл цели [SupportProtect] Эксклюзивный скилл, конвертирует в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если скилл цели [SupportProtect] Эксклюзивный скилл, этот эффект цели\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При ударе односторонней атакой, или при ударе против врагов которые использовали [SupportProtect] Эксклюзивный скилл,  теряет 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "level": 1,
+          "name": "Форма меча родины【Саль】- Оттачивание меча",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\nНе может столкнуться с Эзрой, Энду или Кимом\nНацеливается на Грешников\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>, то монета этого навыка становится [SuperCoin:`Вечной`]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u> (Не активируется, если сталкивается с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b>)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Теряет 2 [ChoiSwordsmanship:`Фехтования родины 【Саль】`]</color></mark></b></u> если столкновение было с <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b> или этот навык был использован в качестве односторонней атаки",
           "coinlist": [
-            {
-              "coindescs": []
-            }
+            {}
           ]
         }
-      ],
-      "id": "145110"
+      ]
     },
     {
+      "id": 145111,
       "levelList": [
         {
-          "level": "1",
-          "name": "Bow of the Homeland [Sal] - Arrowloose",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Таргетит цели с наибольшим числом <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color></color></mark></b></u>\nНе триггерит условия [ChoiSwordsmanship]\n[WhenUse] Тратит 3 силы<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе чтобы получить Финальная сила +2",
+          "level": 1,
+          "name": "Форма меча родины【Саль】- Выпущенная стрела",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\nНацеливается на противника с наибольшей силой [Laceration:`Кровотечения`]\n[WhenUse] Тратит 3 [Breath:`Дыхания`], чтобы получить +2 к Итоговой силе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +4 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает порог стаггера на 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145111"
+      ]
     },
     {
+      "id": 145112,
       "levelList": [
         {
-          "level": "1",
-          "name": "Guardform",
-          "desc": "Не триггерит условия [ChoiSwordsmanship]\n[StartBattle] Получает 5  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +5 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n[WhenUse] Получает 2 [CriticalDamageUp] на следующий ход",
+          "level": 1,
+          "name": "Защитная форма",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\n[StartBattle] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 5\n[WhenUse] Получает 2 [CriticalDamageUp:`Повышения критического урона`] на следующий ход",
           "coinlist": [
-            {
-              "coindescs": []
-            }
+            {}
           ]
         }
-      ],
-      "id": "145112"
+      ]
     },
     {
+      "id": 145113,
       "levelList": [
         {
-          "level": "1",
-          "name": "Counterform",
-          "desc": "Не триггерит условия [ChoiSwordsmanship]\n[StartBattle] Получает 5  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +5 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "level": 1,
+          "name": "Контратакующая форма",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship:`Фехтования родины 【Саль】`]\n\n[StartBattle] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
           ]
         }
-      ],
-      "id": "145113"
+      ]
     }
   ]
 }
