@@ -3103,12 +3103,11 @@
       "id": "1021509"
     },
     {
-      "id": 1021601,
       "levelList": [
         {
-          "level": 1,
-          "name": "Flash of Sunup",
-          "desc": "[WhenUse] Сила клеша +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (макс. 2)\n[WhenUse] При 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+          "level": "1",
+          "name": "Скроллинг тиндера",
+          "desc": "[WhenUse] Сила клеша +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (макс. 2)\n[WhenUse] При 20+ [StigmaWorkshopCelloCaseOne], Повторно подбрасывает последнюю монету один раз",
           "coinlist": [
             {
               "coindescs": [
@@ -3127,9 +3126,9 @@
           ]
         },
         {
-          "level": 2,
-          "name": "Flash of Sunup",
-          "desc": "<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>\n[WhenUse] Сила клеша +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (макс. 2)\n[WhenUse] При 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+          "level": "2",
+          "name": "Скроллинг тиндера",
+          "desc": "<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>\n[WhenUse] Сила клеша +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (макс. 2)\n[WhenUse] При 20+ [StigmaWorkshopCelloCaseOne], Повторно подбрасывает последнюю монету один раз",
           "coinlist": [
             {
               "coindescs": [
@@ -3148,9 +3147,9 @@
           ]
         },
         {
-          "level": 4,
-          "name": "Flash of Sunup",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Получает 4 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Сила клеша +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (макс. <style=\"highlight\">3</style>)\n[WhenUse] При 20+ [StigmaWorkshopCelloCaseOne], Reuse the final Coin once",
+          "level": "4",
+          "name": "Скроллинг тиндера",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Получает 4 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] Сила клеша +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (макс. <style=\"highlight\">3</style>)\n[WhenUse] При 20+ [StigmaWorkshopCelloCaseOne], Повторно подбрасывает последнюю монету один раз",
           "coinlist": [
             {
               "coindescs": [
@@ -3168,17 +3167,19 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1021601"
     },
     {
-      "id": 1021602,
       "levelList": [
         {
-          "level": 1,
-          "name": "Butterfly Slash",
-          "desc": "[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Сила клеша +1 (макс. 2)\n- Reuse the final Coin once (2 times per Skill)",
+          "level": "1",
+          "name": "Когти неверности",
+          "desc": "[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Сила клеша +1 (макс. 2)\n- Повторно подбрасывает последнюю монету один раз (2 раз за скилл)",
           "coinlist": [
-            {},
+            {
+              "coindescs": []
+            },
             {
               "coindescs": [
                 {
@@ -3188,21 +3189,21 @@
                   "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (один раз за скилл)"
+                  "desc": "[ReUseOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (один раз за скилл)"
                 }
               ]
             }
           ]
         },
         {
-          "level": 2,
-          "name": "Butterfly Slash",
-          "desc": "<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)\n[WhenUse] Получает 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Сила клеша +1 (макс. 2)\n- Reuse the final Coin once (2 times per Skill)",
+          "level": "2",
+          "name": "Когти неверности",
+          "desc": "<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)\n[WhenUse] Получает 3 [StigmaWorkshopCelloCaseOne]</style>\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Сила клеша +1 (макс. 2)\n- Повторно подбрасывает последнюю монету один раз (2 раз за скилл)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 10+ [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Наносит +1 счётчик [Combustion:*Изжоги*]\n- Наносит +1 счётчик [Vibration:*Тряски*]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 10+ [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Наносит +1 счётчик [Combustion:*Изжоги*]\n- Наносит +1 счётчик [Vibration:*Тряски*]</style>"
                 }
               ]
             },
@@ -3215,21 +3216,21 @@
                   "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (один раз за скилл)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (один раз за скилл)<style=\"highlight\"></style>"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
-          "name": "Butterfly Slash",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] Получает <style=\"highlight\">6</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Сила клеша +1 (макс. <style=\"highlight\">3</style>)\n- Reuse the final Coin once (2 times per Skill)",
+          "level": "4",
+          "name": "Когти неверности",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] Получает <style=\"highlight\">6</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Сила клеша +1 (макс. <style=\"highlight\">3</style>)\n- Повторно подбрасывает последнюю монету один раз (2 раз за скилл)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <style=\"highlight\">за каждые 10 [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Наносит +1 счётчик [Combustion:*Изжоги*] (макс. 2)\n- Наносит +1 счётчик [Vibration:*Тряски*] (макс. 2)</style>"
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">за каждые 10 [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Наносит +1 счётчик [Combustion:*Изжоги*] (макс. 2)\n- Наносит +1 счётчик [Vibration:*Тряски*] (макс. 2)</style>"
                 }
               ]
             },
@@ -3242,21 +3243,21 @@
                   "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (один раз за скилл)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (один раз за скилл)<style=\"highlight\"></style>"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1021602"
     },
     {
-      "id": 1021603,
       "levelList": [
         {
-          "level": 3,
-          "name": "Eject",
-          "desc": "[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], activate \"Eject - High Noon[TabExplain]\" вместо этого (один раз за ход)\n[WhenUse] Если target has 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1\n[WhenUse] Получает 5 [StigmaWorkshopCelloCaseOne]\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Сила клеша +1 (макс. 2)\n- Наносит +1 счётчик [Combustion:*Изжоги*] (макс. 2)\n- Наносит +1 счётчик [Vibration:*Тряски*] (макс. 2)\n- Reuse the final Coin once (2 times per Skill)",
+          "level": "3",
+          "name": "Проглот с усами",
+          "desc": "[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], активирует \"Усики - пропуск в трусики[TabExplain]\" вместо этого (один раз за ход)\n[WhenUse] Если на цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1\n[WhenUse] Получает 5 [StigmaWorkshopCelloCaseOne]\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Сила клеша +1 (макс. 2)\n- Наносит +1 счётчик [Combustion:*Изжоги*] (макс. 2)\n- Наносит +1 счётчик [Vibration:*Тряски*] (макс. 2)\n- Повторно подбрасывает последнюю монету один раз (2 раз за скилл)",
           "coinlist": [
             {
               "coindescs": [
@@ -3275,7 +3276,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (2 times per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (2 раз за скилл)"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
@@ -3285,9 +3286,9 @@
           ]
         },
         {
-          "level": 4,
-          "name": "Eject",
-          "desc": "[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], activate \"Eject - High Noon[TabExplain]\" вместо этого (один раз за ход)\n[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>\n[WhenUse] Получает <style=\"highlight\">8</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает the following effects:\n- Сила клеша +1 (макс. <style=\"highlight\">3</style>)\n- Наносит +1 счётчик [Combustion:*Изжоги*] (макс. <style=\"highlight\">3</style>)\n- Наносит +1 счётчик [Vibration:*Тряски*] (макс. <style=\"highlight\">3</style>)\n- Reuse the final Coin once (2 times per Skill)",
+          "level": "4",
+          "name": "Проглот с усами",
+          "desc": "[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], активирует \"Усики - пропуск в трусики[TabExplain]\" вместо этого (один раз за ход)\n[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на цели (макс. 2)</style>\n[WhenUse] Получает <style=\"highlight\">8</style> [StigmaWorkshopCelloCaseOne]\n[WhenUse] за каждые 10 [StigmaWorkshopCelloCaseOne], получает следующие эффекты:\n- Сила клеша +1 (макс. <style=\"highlight\">3</style>)\n- Наносит +1 счётчик [Combustion:*Изжоги*] (макс. <style=\"highlight\">3</style>)\n- Наносит +1 счётчик [Vibration:*Тряски*] (макс. <style=\"highlight\">3</style>)\n- Повторно подбрасывает последнюю монету один раз (2 раз за скилл)",
           "coinlist": [
             {
               "coindescs": [
@@ -3306,7 +3307,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (<style=\"highlight\">3</style> times per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (<style=\"highlight\">3</style> раз за скилл)"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
@@ -3315,14 +3316,14 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1021603"
     },
     {
-      "id": 1021604,
       "levelList": [
         {
-          "level": 1,
-          "name": "Stigmatize",
+          "level": "1",
+          "name": "Куколдайз",
           "desc": "[DuelCounter]\n[WhenUse] При 5+ [Combustion:*Изжоги*], Сила монет +1\n[WhenUse] Теряет 5 [Combustion:*Изжоги*] (один раз за ход)\n[WinDuel] Теряет 3 [Combustion:*Изжоги*] (один раз за ход)",
           "coinlist": [
             {
@@ -3342,9 +3343,9 @@
           ]
         },
         {
-          "level": 3,
-          "name": "Stigmatize",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], activate \"Dismemberment при High Noon[TabExplain]\" вместо этого (один раз за ход)\n- Если у этого юнита есть [CaseOverheating], the effect above не activate\n[WhenUse] При 5+ [Combustion:*Изжоги*], Сила монет +1</style>\n[WhenUse] Теряет 5 [Combustion:*Изжоги*] (один раз за ход)\n[WinDuel] Теряет 3 [Combustion:*Изжоги*] (один раз за ход)",
+          "level": "3",
+          "name": "Куколдайз",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], активирует \"Измена на глазах Филипа[TabExplain]\" вместо этого (один раз за ход)\n- Если у этого юнита есть [CaseOverheating], эффект выше не активируется\n[WhenUse] При 5+ [Combustion:*Изжоги*], Сила монет +1</style>\n[WhenUse] Теряет 5 [Combustion:*Изжоги*] (один раз за ход)\n[WinDuel] Теряет 3 [Combustion:*Изжоги*] (один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3363,9 +3364,9 @@
           ]
         },
         {
-          "level": 4,
-          "name": "Stigmatize",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Получает 6 [StigmaWorkshopCelloCaseOne] (один раз за бой)</style>\n[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], activate \"Dismemberment при High Noon[TabExplain]\" вместо этого (один раз за ход)\n- Если у этого юнита есть [CaseOverheating], the effect above не activate\n[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 5 [Combustion:*Изжоги*] на себе (макс. 2)</style>\n[WhenUse] Теряет 5 [Combustion:*Изжоги*] (один раз за ход)\n[WinDuel] Теряет 3 [Combustion:*Изжоги*] (один раз за ход)",
+          "level": "4",
+          "name": "Куколдайз",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Получает 6 [StigmaWorkshopCelloCaseOne] (один раз за бой)</style>\n[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne], активирует \"Измена на глазах Филипа[TabExplain]\" вместо этого (один раз за ход)\n- Если у этого юнита есть [CaseOverheating], эффект выше не активируется\n[WhenUse] <style=\"highlight\">Сила монет +1 за каждые 5 [Combustion:*Изжоги*] на себе (макс. 2)</style>\n[WhenUse] Теряет 5 [Combustion:*Изжоги*] (один раз за ход)\n[WinDuel] Теряет 3 [Combustion:*Изжоги*] (один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3383,14 +3384,14 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1021604"
     },
     {
-      "id": 1021605,
       "levelList": [
         {
-          "level": 2,
-          "name": "Seconded Offensive",
+          "level": "2",
+          "name": "Скроллинг грайндра",
           "desc": "",
           "coinlist": [
             {
@@ -3410,8 +3411,8 @@
           ]
         },
         {
-          "level": 3,
-          "name": "Seconded Offensive",
+          "level": "3",
+          "name": "Скроллинг грайндра",
           "desc": "<style=\"highlight\">[WhenUse] Наносит +1% урона за каждые [StigmaWorkshopCelloCaseOne] на себе (макс. 30%)</style>",
           "coinlist": [
             {
@@ -3431,9 +3432,9 @@
           ]
         },
         {
-          "level": 4,
-          "name": "Seconded Offensive",
-          "desc": "<style=\"highlight\">[WhenUse] Получает the following effects based on [StigmaWorkshopCelloCaseOne] стаков:\n- Наносит +2% урона за каждые стаков (макс. 60%)\n- Финальная сила +1 за каждые 10 Stacks (макс. 3)</style>",
+          "level": "4",
+          "name": "Скроллинг грайндра",
+          "desc": "<style=\"highlight\">[WhenUse] Получает следующие эффекты, основываясь на [StigmaWorkshopCelloCaseOne] стаков:\n- Наносит +2% урона за каждые стаков (макс. 60%)\n- Финальная сила +1 за каждые 10 стаков (макс. 3)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3451,15 +3452,15 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "1021605"
     },
     {
-      "id": 1021606,
       "levelList": [
         {
-          "level": 3,
-          "name": "Eject - High Noon",
-          "desc": "[WideAreaRampage]\nактивирует следующие эффекты на цели with every hit of this Skill:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target has no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (once per target)\n[WhenUse]\n- Сила клеша +3\n- Если the main target has 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +2 счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход on all targets hit (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
+          "level": "3",
+          "name": "Усики - пропуск в трусики",
+          "desc": "[WideAreaRampage]\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если на цели есть no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- Если если у главной цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +2 счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход на все цели по которым попало (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3481,19 +3482,19 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 times)"
+                  "desc": "Reuse this Coin (макс. 2 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (2 times per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (2 раз за скилл)"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
-          "name": "Eject - High Noon",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Наносит +([Combustion:*Изжоги*] на себе + [Combustion:*Изжоги*] на цели)% урона (макс. 20%, counted per target)</style>\nактивирует следующие эффекты на цели with every hit of this Skill:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target has no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (once per target)\n[WhenUse]\n- Сила клеша +3\n<style=\"highlight\">- Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход on all targets hit (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
+          "level": "4",
+          "name": "Усики - пропуск в трусики",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Наносит +([Combustion:*Изжоги*] на себе + [Combustion:*Изжоги*] на цели)% урона (макс. 20%, считается для каждой цели)</style>\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если на цели есть no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n<style=\"highlight\">- Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход на все цели по которым попало (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3515,27 +3516,27 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 times)<style=\"highlight\"></style>"
+                  "desc": "Reuse this Coin (макс. 2 раз)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Если у этого юнита есть [Firstlight], наносит +([Combustion:*Изжоги*] Potency на цели / 2)% урона (макс. 20%)</style>"
+                  "desc": "<style=\"highlight\">Если у этого юнита есть [Firstlight], наносит +(сила [Combustion:*Изжоги*] на цели / 2)% урона (макс. 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (<style=\"highlight\">3</style> times per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (<style=\"highlight\">3</style> раз за скилл)"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1021606"
     },
     {
-      "id": 1021607,
       "levelList": [
         {
-          "level": 3,
-          "name": "Dismemberment при High Noon",
-          "desc": "[WideAreaRampage]\nНаносит +(missing ХП percentage на себе / 2)% урона (макс. 25%)\nактивирует следующие эффекты на цели with every hit of this Skill:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (once per target)\n[WhenUse]\n- Сила клеша +3\n- Если the main target has 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +2 счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Consume up to 30 [Combustion:*Изжоги*] на себе и хилит (5 + [Combustion:*Изжоги*] consumed)% ХП (макс. 35%)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
+          "level": "3",
+          "name": "Измена на глазах Филипа",
+          "desc": "[WideAreaRampage]\nНаносит +(недостающего у себя процента ХП / 2)% урона (макс. 25%)\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- Если если у главной цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +2 счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Consume up to 30 [Combustion:*Изжоги*] на себе и хилит (5 + потраченого [Combustion:*Изжоги*])% ХП (макс. 35%)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3557,19 +3558,19 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 times)"
+                  "desc": "Reuse this Coin (макс. 2 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (2 times per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (2 раз за скилл)"
                 }
               ]
             }
           ]
         },
         {
-          "level": 4,
-          "name": "Dismemberment при High Noon",
-          "desc": "[WideAreaRampage]\nНаносит +(<style=\"highlight\">missing ХП percentage на себе</style>)% урона (макс. <style=\"highlight\">50%</style>)\n<style=\"highlight\">Наносит +([Combustion:*Изжоги*] Potency на цели)% урона (макс. 20%, counted per target)</style>\nактивирует следующие эффекты на цели with every hit of this Skill:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (once per target)\n[WhenUse]\n- Сила клеша +3\n- <style=\"highlight\">Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Consume up to 30 [Combustion:*Изжоги*] на себе и хилит (<style=\"highlight\">20</style> + [Combustion:*Изжоги*] consumed)% ХП (макс. <style=\"highlight\">50%</style>)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
+          "level": "4",
+          "name": "Измена на глазах Филипа",
+          "desc": "[WideAreaRampage]\nНаносит +(<style=\"highlight\">недостающего у себя процента ХП</style>)% урона (макс. <style=\"highlight\">50%</style>)\n<style=\"highlight\">Наносит +(сила [Combustion:*Изжоги*] на цели)% урона (макс. 20%, считается для каждой цели)</style>\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- <style=\"highlight\">Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Consume up to 30 [Combustion:*Изжоги*] на себе и хилит (<style=\"highlight\">20</style> + потраченого [Combustion:*Изжоги*])% ХП (макс. <style=\"highlight\">50%</style>)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3591,19 +3592,20 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 times)<style=\"highlight\"></style>"
+                  "desc": "Reuse this Coin (макс. 2 раз)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Если у этого юнита есть [Firstlight], наносит +([Combustion:*Изжоги*] Potency на цели)% урона (макс. 20%)</style>"
+                  "desc": "<style=\"highlight\">Если у этого юнита есть [Firstlight], наносит +(сила [Combustion:*Изжоги*] на цели)% урона (макс. 20%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's счётчика [Vibration:*Тряски*] by 1 (<style=\"highlight\">3</style> times per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (<style=\"highlight\">3</style> раз за скилл)"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "id": "1021607"
     }
   ]
 }
