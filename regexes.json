@@ -141,7 +141,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "счётчика [$1]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "\\[([^\\]]+)\\] Count"
   },
   {
@@ -171,7 +171,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " [Breath:*Кумара*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Breath]"
   },
   {
@@ -181,7 +181,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Laceration:*Кетчупа*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Laceration]"
   },
   {
@@ -191,7 +191,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Combustion:*Изжоги*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Combustion]"
   },
   {
@@ -201,7 +201,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Sinking:*Депрессии*] ",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Sinking]"
   },
   {
@@ -211,7 +211,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Vibration:*Тряски*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Vibration]"
   },
   {
@@ -221,7 +221,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Burst:*Зелёнки*] ",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Burst]"
   },
   {
@@ -231,7 +231,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[Charge:*Соли*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[Charge]"
   },
   {
@@ -431,7 +431,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "$1 - $2",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "^(.+)'s (\\d+-я Айдишка)$"
   },
   {
@@ -441,7 +441,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "$1 - $2",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "^(.+)’s (\\d+-я Айдишка)$"
   },
   {
@@ -1021,7 +1021,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "превращает $1-ю монету в",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "convert Coin (\\w+) into"
   },
   {
@@ -1031,7 +1031,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "-ю монету в [SuperCoin:*Вечную монету*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "-ю монету в [SuperCoin]"
   },
   {
@@ -1261,7 +1261,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[SuperCoin:*Вечные монеты*]",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "[SuperCoin]s"
   },
   {
@@ -1921,7 +1921,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "использует скилл \"$1\"",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "use the \"([^\"]+)\" Skill"
   },
   {
@@ -2110,9 +2110,9 @@
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "[Ультраговно]",
+    "Replacement": "Ультраговно",
     "ReplaceTags": true,
-    "Target": "[Façade]"
+    "Target": "Façade"
   },
   {
     "FileWhiteList": [],
@@ -2131,7 +2131,7 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Используется для покупки лимитных наград за Забив][вибаЗ",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "Used for purchasing (Лимитированная хуйня)s from the \"Забив][вибаЗ]\" Reward Exchange shop."
   },
   {
@@ -2233,5 +2233,175 @@
     "Replacement": "для всех балбесов",
     "ReplaceTags": false,
     "Target": "for all Sinners"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "недостающего у себя процента ХП",
+    "ReplaceTags": false,
+    "Target": "missing ХП percentage на себе"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "каждым ударом этого скилла",
+    "ReplaceTags": false,
+    "Target": "with every hit of this Skill"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "раз за скилл",
+    "ReplaceTags": false,
+    "Target": "times per Skill"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": " раз",
+    "ReplaceTags": false,
+    "Target": " times"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "уменьшает у цели счётчик",
+    "ReplaceTags": false,
+    "Target": "reduce target's счётчика"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "затем,",
+    "ReplaceTags": false,
+    "Target": "then,"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "сила $1 на цели",
+    "ReplaceTags": true,
+    "Target": "(\\[[^\\]]+\\])\\s*Potency\\s+на цели"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "[VibrationExplosion:*Трясёт сучку*]",
+    "ReplaceTags": true,
+    "Target": "Trigger [VibrationExplosion]"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "один раз за цель",
+    "ReplaceTags": false,
+    "Target": "once per target"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "считается для каждой цели",
+    "ReplaceTags": false,
+    "Target": "counted per target"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "на все цели по которым попало",
+    "ReplaceTags": false,
+    "Target": "on all targets hit"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "потраченого $1",
+    "ReplaceTags": true,
+    "Target": "(\\[[^\\]]+\\])\\s*consumed"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": " на ",
+    "ReplaceTags": false,
+    "Target": " by "
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "если у главной цели есть",
+    "ReplaceTags": false,
+    "Target": "the main target has"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "следующие эффекты, основываясь на",
+    "ReplaceTags": false,
+    "Target": "the following effects based on"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "эффект выше не активируется",
+    "ReplaceTags": false,
+    "Target": "the effect above не activate"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": ", активирует",
+    "ReplaceTags": false,
+    "Target": ", activate"
   }
 ]
