@@ -3273,7 +3273,7 @@
     },
     {
       "name": "High Noon",
-      "desc": "- Min Speed +2\n- On Base Attack Skill Use: Получает Базовая сила +2 и наносит +(45 / # of Coins)% урона\n\n- Накладывает следующие эффекты to \"Sunset Blade\"\n· On final Coin Hit: Если на цели есть 15+ Burn, активирует Burn на цели; затем, reduce target's счётчика изжоги на 1\n\n- Накладывает следующие эффекты to \"Blazing Strike\"\n· Наносит +100% урона\n· On Use: Convert all Coins в Unbreakable Coins\n· On Hit against an enemy, активирует Burn на цели; затем, reduce target's счётчика изжоги на 1\n· On Use: При 3+ Volatile Passion, consume up to 100 Scorchfield\n· Наносит +1% урона за каждые Scorchfield consumed (макс. 100%)\n\n* Scorchfield Effects\n- Stores all Burn урона dealt in this zone\n- Resets когда moving to a different zone\n- This value is shared на all characters",
+      "desc": "- Min Speed +2\n- On Base Attack Skill Use: Получает Базовая сила +2 и наносит +(45 / # of Coins)% урона\n\n- Накладывает следующие эффекты to \"Sunset Blade\"\n· On final Coin Hit: Если на цели есть 15+ Burn, активирует Burn на цели; затем, уменьшает у цели счётчик изжоги на 1\n\n- Накладывает следующие эффекты to \"Blazing Strike\"\n· Наносит +100% урона\n· On Use: Convert all Coins в Unbreakable Coins\n· On Hit against an enemy, активирует Burn на цели; затем, уменьшает у цели счётчик изжоги на 1\n· On Use: При 3+ Volatile Passion, Тратит до 100 Scorchfield\n· Наносит +1% урона за каждые Scorchfield consumed (макс. 100%)\n\n* Scorchfield Effects\n- Stores all Burn урона dealt in this zone\n- Resets когда moving to a different zone\n- This value is shared на all characters",
       "summary": "Strengthen Base Attack Skills",
       "flavor": "\"The request has been resolved ahead of schedule, и the weather conditions are optimal today for a team lunch. Shall we all proceed?\"",
       "id": "DawnFaust"
@@ -3287,7 +3287,7 @@
     },
     {
       "name": "Loneliness при High Noon",
-      "desc": "- Min Speed +2\n- On Base Attack Skill Use: Получает Базовая сила +3 и наносит +(90 / # of Coins)% урона\n\n- Накладывает следующие эффекты to \"Sunset Blade\"\n· On final Coin Hit: Если на цели есть 15+ Burn, активирует Burn на цели; затем, reduce target's счётчика изжоги на 1\n\n- Накладывает следующие эффекты to \"Blazing Strike\"\n· Наносит +150% урона\n· On Use: Convert all Coins в Unbreakable Coins\n· On Hit against an enemy, активирует Burn на цели; затем, reduce target's счётчика изжоги на 1\n· On Use: Consume up to 100 Scorchfield и наносит +1% урона за каждые Scorchfield consumed (макс. 150%)\n\n- Когда this unit takes урона that brings its ХП down to 0 this turn, this unit's ХП cannot drop below 1 for the turn, и recovers from Stagger когда Staggered due to урона (один раз за бой)\n\n* Scorchfield Effects\n- Stores all Burn урона dealt in this zone\n- Resets когда moving to a different zone\n- This value is shared на all characters",
+      "desc": "- Min Speed +2\n- On Base Attack Skill Use: Получает Базовая сила +3 и наносит +(90 / # of Coins)% урона\n\n- Накладывает следующие эффекты to \"Sunset Blade\"\n· On final Coin Hit: Если на цели есть 15+ Burn, активирует Burn на цели; затем, уменьшает у цели счётчик изжоги на 1\n\n- Накладывает следующие эффекты to \"Blazing Strike\"\n· Наносит +150% урона\n· On Use: Convert all Coins в Unbreakable Coins\n· On Hit against an enemy, активирует Burn на цели; затем, уменьшает у цели счётчик изжоги на 1\n· On Use: Тратит до 100 Scorchfield и наносит +1% урона за каждые Scorchfield consumed (макс. 150%)\n\n- Когда this unit takes урона that brings its ХП down to 0 this turn, this unit's ХП cannot drop below 1 for the turn, и recovers from Stagger когда Staggered due to урона (один раз за бой)\n\n* Scorchfield Effects\n- Stores all Burn урона dealt in this zone\n- Resets когда moving to a different zone\n- This value is shared на all characters",
       "summary": "Strengthen Base Attack Skills",
       "flavor": "\"Do you understand what 'loneliness' means, Sinclair? Loneliness is being bathed in the light of the sun при high noon, only to realize that the ones you would have shared a luncheon with have departed you. That is how I would put в words the concept of 'loneliness'—for me, при least. I do hope, Sinclair, that you will never have cause to understand that concept.\"",
       "id": "DawnFaustDying"
@@ -3301,21 +3301,21 @@
     },
     {
       "name": "Список измен",
-      "desc": "- Max стаков: 30\n- Может получить до 20 стаков за ход\n- При попадании базовым скиллом, получает 2 стаков\n- Конец хода: При 20+ стаков, получает Burn на следующий ход равный half of излишек стаков past 20 (округляется вниз)\n· При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
+      "desc": "- Max стаков: 30\n- Может получить до 20 стаков за ход\n- При попадании базовым скиллом, получает 2 стака\n- Конец хода: При 20+ стаков, получает Burn на следующий ход равный half of излишек стаков past 20 (округляется вниз)\n· При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
       "summary": "Получает стаков On Hit, получает Burn на следующий ход based on стаков",
       "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, или in combat against multiple adversaries.\"",
       "id": "StigmaWorkshopCelloCaseOne"
     },
     {
       "name": "Список измен",
-      "desc": "- Max стаков: 30\n- Может получить до 20 стаков за ход\n- При попадании базовым скиллом, получает 2 стаков\n- Конец хода: При 20+ стаков, получает Burn на следующий ход равный half of излишек стаков past 20 (округляется вниз)\n· При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
+      "desc": "- Max стаков: 30\n- Может получить до 20 стаков за ход\n- При попадании базовым скиллом, получает 2 стака\n- Конец хода: При 20+ стаков, получает Burn на следующий ход равный half of излишек стаков past 20 (округляется вниз)\n· При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
       "summary": "Получает стаков On Hit, получает Burn на следующий ход based on стаков",
       "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, или in combat against multiple adversaries.\"",
       "id": "StigmaWorkshopCelloCaseTwo"
     },
     {
       "name": "Список измен",
-      "desc": "- Max стаков: 30\n- Может получить до 20 стаков за ход\n- При попадании базовым скиллом, получает 2 стаков\n- Конец хода: При 20+ стаков, получает Burn на следующий ход равный half of излишек стаков past 20 (округляется вниз)\n· При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
+      "desc": "- Max стаков: 30\n- Может получить до 20 стаков за ход\n- При попадании базовым скиллом, получает 2 стака\n- Конец хода: При 20+ стаков, получает Burn на следующий ход равный half of излишек стаков past 20 (округляется вниз)\n· При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
       "summary": "Получает стаков On Hit, получает Burn на следующий ход based on стаков",
       "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, или in combat against multiple adversaries.\"",
       "id": "StigmaWorkshopCelloCaseThree"

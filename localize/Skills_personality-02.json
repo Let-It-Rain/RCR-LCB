@@ -3460,7 +3460,7 @@
         {
           "level": "3",
           "name": "Усики - пропуск в трусики",
-          "desc": "[WideAreaRampage]\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если на цели есть no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- Если если у главной цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +2 счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход на все цели по которым попало (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
+          "desc": "[WideAreaRampage]\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если на цели есть no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- Если если у главной цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] на всех целях\n- Наносит +2 счётчика [Vibration:*Тряски*] на всех целях\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход на все цели по которым попало (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3482,7 +3482,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 раз)"
+                  "desc": "Повторно использует эту монету (макс. 2 раз)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (2 раз за скилл)"
@@ -3494,7 +3494,7 @@
         {
           "level": "4",
           "name": "Усики - пропуск в трусики",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">Наносит +([Combustion:*Изжоги*] на себе + [Combustion:*Изжоги*] на цели)% урона (макс. 20%, считается для каждой цели)</style>\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если на цели есть no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n<style=\"highlight\">- Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход на все цели по которым попало (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Наносит +([Combustion:*Изжоги*] на себе + [Combustion:*Изжоги*] на цели)% урона (макс. 20%, считается для каждой цели)</style>\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если на цели есть no [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n<style=\"highlight\">- Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] на всех целях\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] на всех целях\n[EndSkill]\n- Наносит 1 [ResultReduction] на следующий ход на все цели по которым попало (один раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3516,7 +3516,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 раз)<style=\"highlight\"></style>"
+                  "desc": "Повторно использует эту монету (макс. 2 раз)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">Если у этого юнита есть [Firstlight], наносит +(сила [Combustion:*Изжоги*] на цели / 2)% урона (макс. 20%)</style>"
@@ -3536,7 +3536,7 @@
         {
           "level": "3",
           "name": "Измена на глазах Филипа",
-          "desc": "[WideAreaRampage]\nНаносит +(недостающего у себя процента ХП / 2)% урона (макс. 25%)\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- Если если у главной цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +2 счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Consume up to 30 [Combustion:*Изжоги*] на себе и хилит (5 + потраченого [Combustion:*Изжоги*])% ХП (макс. 35%)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
+          "desc": "[WideAreaRampage]\nНаносит +(недостающего у себя процента ХП / 2)% урона (макс. 25%)\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- Если если у главной цели есть 6+ ([Combustion:*Изжоги*] + [Vibration:*Тряски*]), Сила монет +1 и Сила клеша +2\n- Наносит +2 счётчика [Combustion:*Изжоги*] на всех целях\n- Наносит +2 счётчика [Vibration:*Тряски*] на всех целях\n[EndSkill]\n- Тратит до 30 [Combustion:*Изжоги*] на себе и хилит (5 + потраченого [Combustion:*Изжоги*])% ХП (макс. 35%)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3558,7 +3558,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 раз)"
+                  "desc": "Повторно использует эту монету (макс. 2 раз)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (2 раз за скилл)"
@@ -3570,7 +3570,7 @@
         {
           "level": "4",
           "name": "Измена на глазах Филипа",
-          "desc": "[WideAreaRampage]\nНаносит +(<style=\"highlight\">недостающего у себя процента ХП</style>)% урона (макс. <style=\"highlight\">50%</style>)\n<style=\"highlight\">Наносит +(сила [Combustion:*Изжоги*] на цели)% урона (макс. 20%, считается для каждой цели)</style>\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- <style=\"highlight\">Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] on all targets\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] on all targets\n[EndSkill]\n- Consume up to 30 [Combustion:*Изжоги*] на себе и хилит (<style=\"highlight\">20</style> + потраченого [Combustion:*Изжоги*])% ХП (макс. <style=\"highlight\">50%</style>)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
+          "desc": "[WideAreaRampage]\nНаносит +(<style=\"highlight\">недостающего у себя процента ХП</style>)% урона (макс. <style=\"highlight\">50%</style>)\n<style=\"highlight\">Наносит +(сила [Combustion:*Изжоги*] на цели)% урона (макс. 20%, считается для каждой цели)</style>\nактивирует следующие эффекты на цели каждым ударом этого скилла:\n- Наносит 1 [Combustion:*Изжоги*] или 1 [Vibration:*Тряски*]\n- Если target не have [VibrationIgnition], trigger [Switch_Vibration] в [VibrationIgnition] (один раз за цель)\n[WhenUse]\n- Сила клеша +3\n- <style=\"highlight\">Сила монет +1 и Сила клеша +2 за каждые 6 ([Combustion:*Изжоги*] + [Vibration:*Тряски*]) на главной цели (макс. 2 и 4 respectively)</style>\n- Наносит +<style=\"highlight\">3</style> счётчика [Combustion:*Изжоги*] на всех целях\n- Наносит +<style=\"highlight\">3</style> счётчика [Vibration:*Тряски*] на всех целях\n[EndSkill]\n- Тратит до 30 [Combustion:*Изжоги*] на себе и хилит (<style=\"highlight\">20</style> + потраченого [Combustion:*Изжоги*])% ХП (макс. <style=\"highlight\">50%</style>)\n- тратит все [StigmaWorkshopCelloCaseOne] на себе\n- Получает 3 [Firstlight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3592,7 +3592,7 @@
                   "desc": "[SuperCoin]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Reuse this Coin (макс. 2 раз)<style=\"highlight\"></style>"
+                  "desc": "Повторно использует эту монету (макс. 2 раз)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">Если у этого юнита есть [Firstlight], наносит +(сила [Combustion:*Изжоги*] на цели)% урона (макс. 20%)</style>"
