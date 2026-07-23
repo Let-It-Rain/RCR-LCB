@@ -4,7 +4,7 @@
       "id": 142201,
       "name": "Доцент Фовизма",
       "desc": "Начало хода: получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> за каждого союзного Фовиста-студента Безымянного пальца на поле боя.\n- Если впервые за битву использует навык <color=#1cc7f1>「Критика」</color>, то начиная со следующего хода к этому эффекту добавляется восстановление 5 СД за каждого такого союзника на поле боя; (Если СД ниже -15, то восстанавливает по 10 СД вместо 5)\n- Если на поле боя больше не осталось союзных Фовистов-студентов Безымянного пальца, то вместо этого эффекта получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и сбрасывает СД до 0.\n\n<color=#ff6000><mark=#ff000040><b><u>Подставляет вместо себя союзных Фовистов-студентов Безымянного пальца</u></b></mark></color> перед получением удара от навыка противника, имеющего одну цель. (До 2 раз за ход; за исключением атак от Киры)\n\nКонец хода, в котором использовала навык <color=#1cc7f1>「Критика」</color>: если на поле боя меньше 4 союзных Фовистов-студентов Безымянного пальца, <color=#ff6000><mark=#ff000040><b><u>то заполняет недостающие места</u></b></mark></color> теми же Фовистами-студентами, которые были побеждены.\n- Призванные таким образом Фовисты-студенты получают (Число побеждённых за битву Фовистов-студентов) <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> и <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижений урона</link></u></color>. (До 10 каждого)",
-      "summary": "Immediately before getting hit, force an allied Student to получает the hit вместо этого",
+      "summary": "Immediately Перед получением удара, force an allied Student для получения the hit вместо этого",
       "flavor": ""
     },
     {
@@ -32,7 +32,7 @@
       "id": 142301,
       "name": "Ле шлюха Ле франсэ, доцент школы Фовизма Безымянного пальца",
       "desc": "Минимальная и максимальная скорость повышается на 15 при использовании мощного навыка.\n\nПолучает на 30% меньше урона от односторонних атак.\n\nНаносит на 30% больше урона односторонними атаками.\n- Если атакуемый слот навыков противника при этом имеет 2 и более <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color>, то увеличение урона снижается на 5% за каждую её единицу. (Вплоть до 0%)\n\nПолучает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> при поражениях в столкновении. (До 5 за ход)\n- Полученное <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> исчезает в конце атаки по Грешнику или в конце хода.",
-      "summary": "получает меньше урона и наносит больше урона with Unopposed Attacks\nOn Clashтеряет, получает Damage Up",
+      "summary": "получает меньше урона и наносит больше урона with Unopposed Attacks\nПри клешетеряет и получает Damage Up",
       "flavor": ""
     },
     {
@@ -72,14 +72,14 @@
     {
       "id": 500602,
       "name": "The Ring's Docent of Fauvism",
-      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 2 [Protection]</u></b></mark></color> за каждые allied Fauvist Student of the Ring\n- Если this unit used \"Critique\" в этой битве, получает 2 [Protection] и хилит 5 IQ вместо этого starting from the на следующий ход\n(При lower than -15 IQ, double the IQ-healing effect)\n- Если there are no allied Fauvist Students of the Ring, получает 2 [Vulnerable] и reduce this unit's IQ down to 0 вместо этого\n\nImmediately Before Getting Hit на a Skill that has 1 Вес атаки, если there is an allied Student of the Ring, <color=#ff6000><mark=#ff000040><b><u>накладывает 2 [Protection] on that unit; затем, have the said unit получает the attack вместо этого (2 раз за ход)</u></b></mark></color>\n\nTurn End of the turn this unit used \"Critique\": Если an allied Fauvist Student of the Ring was defeated в этой битве, <color=#ff6000><mark=#ff000040><b><u>refill its vacancy with the same Student unit</u></b></mark></color>\n- Every Начало хода: The Student that refilled the vacancy due to this effect gains (# of allies defeated в этой битве) [Vulnerable] и [AttackDown] (макс. 10 each)",
-      "summary": "Immediately before getting hit, force an allied Student to получает the hit вместо этого",
+      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 2 [Protection]</u></b></mark></color> за каждые allied Fauvist Student of the Ring\n- Если this unit used \"Critique\" в этой битве, получает 2 [Protection] и хилит 5 IQ вместо этого starting from the на следующий ход\n(При lower than -15 IQ, double the IQ-healing effect)\n- Если there are no allied Fauvist Students of the Ring, получает 2 [Vulnerable] и reduce IQ этого юнита down to 0 вместо этого\n\nImmediately Перед получением удара на a Skill that has 1 Вес атаки, если there is an allied Student of the Ring, <color=#ff6000><mark=#ff000040><b><u>накладывает 2 [Protection] on that unit; затем, have the said unit получает the attack вместо этого (2 раз за ход)</u></b></mark></color>\n\nTurn End of the turn this unit used \"Critique\": Если an allied Fauvist Student of the Ring was defeated в этой битве, <color=#ff6000><mark=#ff000040><b><u>refill its vacancy with the same Student unit</u></b></mark></color>\n- Every Начало хода: The Student that refilled the vacancy из-за этого эффекта gains (# of allies defeated в этой битве) [Vulnerable] и [AttackDown] (макс. 10 each)",
+      "summary": "Immediately Перед получением удара, force an allied Student для получения the hit вместо этого",
       "flavor": ""
     },
     {
       "id": 500603,
       "name": "Mentorship",
-      "desc": "Начало хода: Randomly накладывает [AttackUp] и [DefenseUp] to allied Fauvist Students of the Ring равное number of turns (including the current turn) each unit has survived, соответственно (макс. 5)\n\nКонец хода: Если an allied Student is Похмельцо, <color=#ff6000><mark=#ff000040><b><u>recover them from Stagger</u></b></mark></color>\n- All Attack Type и Affinity Resistance for the Students who recovered from Stagger due to this effect becomes \"Fatal\" for the на следующий ход\n\nКонец хода: Если a Student is in Паника, хилит their IQ up to 45",
+      "desc": "Начало хода: Randomly накладывает [AttackUp] и [DefenseUp] to allied Fauvist Students of the Ring равное number of turns (including the current turn) each unit has survived, соответственно (макс. 5)\n\nКонец хода: Если an allied Student is Похмельцо, <color=#ff6000><mark=#ff000040><b><u>recover them from Stagger</u></b></mark></color>\n- All Attack Type и Affinity Resistance for the Students who recovered from Stagger из-за этого эффекта becomes \"Fatal\" for the на следующий ход\n\nКонец хода: Если a Student is in Паника, хилит their IQ до 45",
       "summary": "",
       "flavor": ""
     },
@@ -93,7 +93,7 @@
     {
       "id": 500605,
       "name": "Casque de Fauve - Empreinte Vitale",
-      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: Если this unit is in Паника, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>При 70%- ХП, получает a new pattern</u></b></mark></color>\n- Remove all effects other than those exclusive этому юниту\n- Наносит <color=#ff6000><mark=#ff000040><b><u>8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, +8 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 8 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> , и +8 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> </u></b></mark></color> on all Sinners на поле боя\n- First Turn Start of the new pattern: Получает [FaubismWolfMask] и хилит up to 45 IQ",
+      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: Если этот юнит находится в Паника, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>При 70%- ХП, получает a new pattern</u></b></mark></color>\n- Remove all effects other than those exclusive этому юниту\n- Наносит <color=#ff6000><mark=#ff000040><b><u>8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, +8 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 8 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> , и +8 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> </u></b></mark></color> on all Sinners на поле боя\n- First Turn Start of the new pattern: Получает [FaubismWolfMask] и хилит до 45 IQ",
       "summary": "",
       "flavor": ""
     },
@@ -106,14 +106,14 @@
     {
       "id": 500702,
       "name": "Rufo, a Docent of The Ring's School of Fauvism",
-      "desc": "In the turn this unit uses a powerful attack, минимальная и максимальная скорость +15\n\nПолучает -50% урона from Unopposed Attacks\nНаносит +50% урона with Unopposed Attacks\n- Если the Slot targeted на this unit's Unopposed Attack has 2+ [Aggro], reduce the increased урона from this effect на 5% per [Aggro] стаков (min 0%)\n\nOn Clashтеряет, получает 1 [AttackDmgUp] (5 per turn)\n- в конце хода, или при Attack End of a Skill that hit a Sinner, the [AttackDmgUp] effect gained with this effect исчезает",
-      "summary": "получает меньше урона и наносит больше урона with Unopposed Attacks\nOn Clashтеряет, получает Damage Up",
+      "desc": "In the turn this unit uses a powerful attack, минимальная и максимальная скорость +15\n\nПолучает -50% урона from Unopposed Attacks\nНаносит +50% урона with Unopposed Attacks\n- Если the Slot targeted на this unit's Unopposed Attack has 2+ [Aggro], reduce the increased урона from this effect на 5% per [Aggro] стаков (min 0%)\n\nПри клешетеряет и получает 1 [AttackDmgUp] (5 per turn)\n- в конце хода, или в конце атаки of a Skill that hit a Sinner, the [AttackDmgUp] effect gained with this effect исчезает",
+      "summary": "получает меньше урона и наносит больше урона with Unopposed Attacks\nПри клешетеряет и получает Damage Up",
       "flavor": ""
     },
     {
       "id": 500703,
       "name": "Le Fauvisme - Masque de Loup : Résurgence de la Sauvagerie",
-      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 10 [Protection]</u></b></mark></color>\n- Получает 1 fewer [Protection] при Turn Start <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect на этом юните</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>On Clashтеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, получает 2 [Vulnerable] from this effect вместо этого</u></b></mark></color> for the на следующий ход\n\n<color=#ff6000><mark=#ff000040><b><u>Получает 1 Уровень жирности each time this unit is hit</u></b></mark></color> на a Skill Coin (макс. 20 per turn)\n- Конец хода: Уровень жирности gained due to this effect исчезает\n- <color=#ff6000><mark=#ff000040><b><u>On Clashтеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, теряет 1 Уровень жирности each time this unit is hit на a Skill Coin вместо этого</u></b></mark></color> for the на следующий ход (макс. 20; исчезает в конце хода)",
+      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Получает 10 [Protection]</u></b></mark></color>\n- Получает 1 fewer [Protection] при Turn Start <color=#ff6000><mark=#ff000040><b><u>за каждые type of negative effect на этом юните</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>При клешетеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, получает 2 [Vulnerable] from this effect вместо этого</u></b></mark></color> for the на следующий ход\n\n<color=#ff6000><mark=#ff000040><b><u>Получает 1 Уровень жирности each time this unit is hit</u></b></mark></color> на a Skill Coin (макс. 20 per turn)\n- Конец хода: Уровень жирности gained из-за этого эффекта исчезает\n- <color=#ff6000><mark=#ff000040><b><u>При клешетеряет using \"Burst Forth the Pulsing Crimson under Your Skin\" Skill, теряет 1 Уровень жирности each time this unit is hit на a Skill Coin вместо этого</u></b></mark></color> for the на следующий ход (макс. 20; исчезает в конце хода)",
       "summary": "при получении удара, получает Уровень жирности\nЕсли this unit lost a Clash using a certain Skill, теряет Уровень жирности вместо этого",
       "flavor": ""
     },
@@ -127,7 +127,7 @@
     {
       "id": 500705,
       "name": "Le Fauvisme - Maximum Paint Tolerance Dose",
-      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: Если this unit is in Паника, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>При 35%- ХП, convert [FaubismWolfMask] в [FaubismWolfMaskBlooded], и хилит up to 45 IQ</u></b></mark></color>",
+      "desc": "Получает the effects of [PanicChangeLock]\nКонец хода: Если этот юнит находится в Паника, reset IQ to 45\n\n<color=#ff6000><mark=#ff000040><b><u>При 35%- ХП, convert [FaubismWolfMask] в [FaubismWolfMaskBlooded], и хилит до 45 IQ</u></b></mark></color>",
       "summary": "",
       "flavor": ""
     }
