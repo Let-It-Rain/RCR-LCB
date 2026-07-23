@@ -578,6 +578,12 @@
       "desc": "Если цель имела [SinkingWhite], Сила клеша +1\n\nПри ударе по врагам с 15+ (<sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  + оба [SinkingWhite]), наносит 1 [SinkingWhite](Баб-очка) и 1 [SinkingWhite](Баб-очка) (один раз за ход; в фокусированных битвах - части)\n\n[AlwaysUseEGOPassive2010911]\n\nПри ударе, Базовые скиллы наносят 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цель (один раз за скилл)\n\n- Считается за айдишку, наносящей <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>\n- Базовые скиллы считаются за \"Скиллы которые наносят <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>\"\n\n\n[WhenUseEGOPassive2010911]\n\nМаксимальное количество силы и счётчика [BulletLament] +10\nПосле <sprite name=\"ReloadLament\"><color=#9f6a3a><u><link=\"ReloadLament\"><noparse>Перезарядки</noparse></link></u></color>, хилит 10 IQ и <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\"><noparse>Сбрасывает</noparse></link></u></color> 1 Базовый скилл наименьшего ранга во всех скилл слотах этого юнита (исключение - \"Брызги моего семени во все стороны\") (2 раза за ход)\nКонец хода: Если прожимал защитный скилл в этом ходу - хилит 10 IQ\nКонец хода: Когда застаггерен, выходит из стаггера, затем <sprite name=\"ReloadLament\"><color=#9f6a3a><u><link=\"ReloadLament\"><noparse>Перезаряжается</noparse></link></u></color> (один раз за бой; исключая скриптованные стаггеры)",
       "id": "2010911",
       "summary": "Gain Clash Power and inflict [SinkingWhite]"
+    },
+    {
+      "id": 2090212,
+      "name": "Spark of Flame",
+      "desc": "<style=\"highlight\">Combat Start: If Wrath A-Reson. was activated, inflict 1 [CrimsonTakeDamageUp] on the main target on Clash Win (once per turn)</style>\n\nAfter defeating an enemy that has [Combustion], heal <style=\"highlight\">(Wrath Reson.)</style>% HP <style=\"highlight\">(max 12%)</style>",
+      "summary": "Inflict [CrimsonTakeDamageUp]\nHeal HP when conditions are met"
     }
   ]
 }
