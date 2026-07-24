@@ -105,7 +105,7 @@
         {
           "level": 1,
           "name": "Transferring Talisman",
-          "desc": "[StartBattle]все части получает 3 [Protection]\n[WhenUse] Все [WrappedCurseTagRe] на цели исчезает\n- Получает [ReattachedCurseTag_Re] равное [WrappedCurseTagRe] стаков expired",
+          "desc": "[StartBattle]все части получают 3 [Protection]\n[WhenUse] Все [WrappedCurseTagRe] на цели исчезает\n- Получает [ReattachedCurseTag_Re] равное [WrappedCurseTagRe] стаков expired",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Наносит +10% урона за каждые 50 [AccumulatedPast] на себе\n[WhenUse] Если this unit's [AccumulatedPast] is an odd number, this Skill deals +30% урона\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "Наносит +10% урона за каждые 50 [AccumulatedPast] на себе\n[WhenUse] Если у этого юнита [AccumulatedPast] является нечётным числом, этот скилл наносит +30% урона\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -215,7 +215,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Наносит +10% урона за каждые 50 [AccumulatedPast]\n[WhenUse] Если this unit's [AccumulatedPast] is an even number, получает 3 [Protection] (один раз за ход)",
+          "desc": "Наносит +10% урона за каждые 50 [AccumulatedPast]\n[WhenUse] Если у этого юнита [AccumulatedPast] является чётным числом, получает 3 [Protection] (один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -263,7 +263,7 @@
         {
           "level": 1,
           "name": "5384",
-          "desc": "[WhenUse]все части получает 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "[WhenUse] Все части получают 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -271,7 +271,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Raise Stagger Threshold равный  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает порог стаггера на число <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе"
                 }
               ]
             },
@@ -284,7 +284,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +20% урона за каждые 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (макс. 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack]все части получает 4  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack]все части получают 4  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 }
               ]
             }
@@ -309,7 +309,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] При 5+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, Повышает порог стаггера на 50% of урона dealt"
                 },
                 {
-                  "desc": "[OnSucceedAttack]все части получает 8  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +4 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack]все части получают 8  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +4 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 }
               ]
             }
@@ -323,7 +323,7 @@
         {
           "level": 1,
           "name": "974569A",
-          "desc": "При 10+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, Skill Power +2",
+          "desc": "При 10+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, Сила скилла +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1030,7 +1030,7 @@
         {
           "level": 1,
           "name": "Wriggling Head",
-          "desc": "Prioritizes targets that have the lowest ХП\nЕсли на цели есть [Paralysis], наносит +50% урона\nЕсли на цели есть used a Defense Skill, наносит -100% урона\nБазовая сила +1 за каждые [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если на цели есть equipped Defense Skills, теряет 2 [SelfCharge]\n[DefeatDuel] Теряет 2 дополнительный [SelfCharge]",
+          "desc": "Ставит в приоритет цели, у которых есть the lowest ХП\nЕсли на цели есть [Paralysis], наносит +50% урона\nЕсли на цели есть used a Defense Skill, наносит -100% урона\nБазовая сила +1 за каждые [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если на цели есть экипированные защитные скиллы, теряет 2 [SelfCharge]\n[DefeatDuel] Теряет 2 дополнительный [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1056,7 +1056,7 @@
         {
           "level": 1,
           "name": "Wriggling Tail",
-          "desc": "Prioritizes targets that have the lowest ХП\nЕсли на цели есть [Paralysis], наносит +50% урона\nЕсли на цели есть used a Defense Skill, наносит -100% урона\nБазовая сила +1 за каждые [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если на цели есть equipped Defense Skills, теряет 2 [SelfCharge]\n[DefeatDuel] Теряет 2 дополнительный [SelfCharge]",
+          "desc": "Ставит в приоритет цели, у которых есть the lowest ХП\nЕсли на цели есть [Paralysis], наносит +50% урона\nЕсли на цели есть used a Defense Skill, наносит -100% урона\nБазовая сила +1 за каждые [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если на цели есть экипированные защитные скиллы, теряет 2 [SelfCharge]\n[DefeatDuel] Теряет 2 дополнительный [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1333,7 +1333,7 @@
         {
           "level": 1,
           "name": "Churning",
-          "desc": "[StartBattle]все части получает 3 [Protection]",
+          "desc": "[StartBattle]все части получают 3 [Protection]",
           "coinlist": [
             {
               "coindescs": [
