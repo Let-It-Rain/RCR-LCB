@@ -5,16 +5,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Entangling Talisman",
-          "desc": "[WhenUse] Наносит 3 [WrappedCurseTagRe] на цели\n\n[DefeatDuel]\n- Урон, нанесённый этим скиллом не может застаггерить цель\n- не активируется [Burst:*Зелёнки*] на цели",
+          "name": "Приклеенный оберег",
+          "desc": "[WhenUse] Наносит 3 <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенных оберега проклятия</noparse></link></u></color>\n[DefeatDuel] Не может оглушить цель и не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -27,21 +27,21 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cumulating Curse",
-          "desc": "[WhenUse] Наносит [WrappedCurseTagRe] равный [WrappedCurseTagRe] на цели\n- Если на цели нет [WrappedCurseTagRe], наносит 3 [WrappedCurseTagRe]",
+          "name": "Накапливающееся проклятие",
+          "desc": "[WhenUse] Удваивает <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенные обереги проклятия</noparse></link></u></color> цели\n- Если на цели нет <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенных оберегов проклятия</noparse></link></u></color>, то наносит 3 <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенных оберега проклятия</noparse></link></u></color>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -54,44 +54,44 @@
       "levelList": [
         {
           "level": 1,
-          "name": "So That No One Will Cry",
-          "desc": "[WhenUse] При 10+ [ReattachedCurseTag_Re], Coin Power -1\n[WhenUse] Если на цели есть 3+ [WrappedCurseTagRe], convert все Coins on this Skill в [SuperCoin:*Вечные монеты*]\n\n[DefeatDuel]\n- Финальная сила -10, наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n- не активируется [Burst:*Зелёнки*] на цели\n[EndBattle] Все [ReattachedCurseTag_Re] исчезает",
+          "name": "Чтобы никто не плакал",
+          "desc": "[WhenUse] Сила монет -1 при 10 и более <sprite name=\"ReattachedCurseTag_Re\"><color=#9f6a3a><u><link=\"ReattachedCurseTag_Re\"><noparse>Переклеенных оберегах проклятия</noparse></link></u></color> на себе\n[WhenUse] Если на цели 3 и более <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенные обереги проклятия</noparse></link></u></color>, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>\n\n[DefeatDuel]\n- Итоговая сила -10, наносит на 80% меньше урона и не может оглушить цель\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> при попадании\n[EndBattle] Убирает все <sprite name=\"ReattachedCurseTag_Re\"><color=#9f6a3a><u><link=\"ReattachedCurseTag_Re\"><noparse>Переклеенный оберег проклятия</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -104,8 +104,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Transferring Talisman",
-          "desc": "[StartBattle]все части получают 3 [Protection]\n[WhenUse] Все [WrappedCurseTagRe] на цели исчезает\n- Получает [ReattachedCurseTag_Re] равное [WrappedCurseTagRe] стаков expired",
+          "name": "Передача оберега",
+          "desc": "[StartBattle] Все части получают 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\"><noparse>Защищённости</noparse></link></u></color>\n[WhenUse] Убирает все <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенные обереги проклятия</noparse></link></u></color> с цели и получает такое же количество <sprite name=\"ReattachedCurseTag_Re\"><color=#9f6a3a><u><link=\"ReattachedCurseTag_Re\"><noparse>Переклеенных оберегов проклятия</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -123,8 +123,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Proliferating Curse",
-          "desc": "[WhenUse] Наносит [WrappedCurseTagRe] равный [WrappedCurseTagRe] на цели\n- Если на цели нет [WrappedCurseTagRe], наносит 3 [WrappedCurseTagRe]",
+          "name": "Растущее проклятие",
+          "desc": "[WhenUse] Удваивает <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенные обереги проклятия</noparse></link></u></color> цели\n- Если на цели нет <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенных оберегов проклятия</noparse></link></u></color>, то наносит 3 <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенных оберега проклятия</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -142,44 +142,44 @@
       "levelList": [
         {
           "level": 1,
-          "name": "So That No One Will Cry",
-          "desc": "[WhenUse] При 10+ [ReattachedCurseTag_Re], Coin Power -1\n[WhenUse] Если на цели есть 3+ [WrappedCurseTagRe], convert все Coins on this Skill в [SuperCoin:*Вечные монеты*]\n\n[DefeatDuel]\n- Финальная сила -10, наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n- не активируется [Burst:*Зелёнки*] на цели\n[EndBattle] Все [ReattachedCurseTag_Re] исчезает",
+          "name": "Чтобы никто не плакал",
+          "desc": "[WhenUse] Сила монет -1 при 10 и более <sprite name=\"ReattachedCurseTag_Re\"><color=#9f6a3a><u><link=\"ReattachedCurseTag_Re\"><noparse>Переклеенных оберегах проклятия</noparse></link></u></color> на себе\n[WhenUse] Если на цели 3 и более <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\"><noparse>Приклеенные обереги проклятия</noparse></link></u></color>, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>\n\n[DefeatDuel]\n- Итоговая сила -10, наносит на 80% меньше урона и не может оглушить цель\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> при попадании\n\n[EndBattle] Убирает все <sprite name=\"ReattachedCurseTag_Re\"><color=#9f6a3a><u><link=\"ReattachedCurseTag_Re\"><noparse>Переклеенный оберег проклятия</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +1 счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -193,15 +193,15 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Наносит +10% урона за каждые 50 [AccumulatedPast] на себе\n[WhenUse] Если у этого юнита [AccumulatedPast] является нечётным числом, этот скилл наносит +30% урона\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "Наносит на 10% больше урона за каждые 50 <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\"><noparse>Накопленного прошлого</noparse></link></u></color>\n[WhenUse] Если <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\"><noparse>Накопленное прошлое</noparse></link></u></color> нечётное, то наносит на 30% больше урона\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -215,12 +215,12 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Наносит +10% урона за каждые 50 [AccumulatedPast]\n[WhenUse] Если у этого юнита [AccumulatedPast] является чётным числом, получает 3 [Protection] (один раз за ход)",
+          "desc": "Наносит на 10% больше урона за каждые 50 <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\"><noparse>Накопленного прошлого</noparse></link></u></color>\n[WhenUse] Если <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\"><noparse>Накопленное прошлое</noparse></link></u></color> чётное, то получает 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\"><noparse>Защищённости</noparse></link></u></color> (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -234,22 +234,22 @@
         {
           "level": 1,
           "name": "853",
-          "desc": "[WhenUse] Сила клеша +1 за каждые 5  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе (макс. 3)",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> (До 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог стаггера на 50% of урона dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1% урона за каждые [AccumulatedPast] (макс. 50%)"
+                  "desc": "[OnSucceedAttack] На (Значение <sprite name=\"AccumulatedPastMirror\"><color=#9f6a3a><u><link=\"AccumulatedPastMirror\"><noparse>Накопленного прошлого</noparse></link></u></color>)% больше урона за каждое (До 50%)"
                 }
               ]
             }
@@ -263,28 +263,28 @@
         {
           "level": 1,
           "name": "5384",
-          "desc": "[WhenUse] Все части получают 3  [Breath:*Кумара*] и +3 счётчика  [Breath:*Кумара*]\n\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "[WhenUse] Все части получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышают его счётчик на 3\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает порог стаггера на число <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на силу своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +20% урона за каждые 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (макс. 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит на 20% больше урона за каждые 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> (До 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack]все части получают 4  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Все части получают 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>"
                 }
               ]
             }
@@ -298,7 +298,7 @@
         {
           "level": 1,
           "name": "6475384",
-          "desc": "При 7+  [Breath:*Кумара*], Сила монет +1\n\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "Сила в монет +1 при 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -306,10 +306,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] При 5+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, Повышает порог стаггера на 50% of урона dealt"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] При 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> поднимает границу выносливости цели на 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack]все части получают 8  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +4 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Все части получают 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышают его счётчик на 4"
                 }
               ]
             }
@@ -322,13 +322,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "974569A",
-          "desc": "При 10+  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, Сила скилла +2",
+          "name": "974569",
+          "desc": "Сила навыка +2 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "Наносит +1% урона за каждые [AccumulatedPast] (макс. 200%)"
+                  "desc": "[OnSucceedAttack] На (Значение <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\"><noparse>Накопленного прошлого</noparse></link></u></color>)% больше урона за каждое (До 200%)"
                 }
               ]
             }
@@ -341,16 +341,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Gloomy Moan",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 3 ([Burst:*Зелёнки*] + [Sinking:*Депрессии*] ) на цели (макс. 2)\n\n[DefeatDuel]\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "name": "Пасмурный стон",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 единицы в сумме силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на цели (До 2)\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color>"
                 }
               ]
             }
@@ -363,20 +363,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Unrelenting Sinking",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 3 (<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> ) на цели (макс. 2)",
+          "name": "Нескончаемое утопание",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 единицы в сумме силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color>"
                 }
               ]
             }
@@ -389,20 +389,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sorrowful Recoil",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 3 (<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> ) на цели (макс. 2)",
+          "name": "Скачок печали",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 единицы в сумме силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -415,23 +415,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sorrowful Torrent",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 3 (<sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  + <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> ) на цели (макс. 2)",
+          "name": "Поток печали",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 единицы в сумме силы <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -444,16 +444,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Cries Seeking Something",
-          "desc": "Наносит +25% урона за каждый Старый Зонт\n[WhenUse] Сила клеша +2 за каждый выживший Старый Зонт\n\n[DefeatDuel]\n- Финальная сила -10, наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n- не активируется [Burst:*Зелёнки*] и [Sinking:*Депрессии*] на цели\n\n[EndBattle] Все Old Umbrella исчезает\n[EndBattle] Получает [WaveFoxUmbrella] равное [WaveFoxUmbrella] стаков gained in the first turn",
+          "name": "Плач в поисках чего-то",
+          "desc": "Наносит на 25% больше урона за каждый оставшийся Старый зонт\n[WhenUse] Сила в столкновения +2 за каждый оставшийся на Старый зонт\n\n[DefeatDuel]\n- Итоговая сила -10, наносит на 80% меньше урона и не может оглушить целей\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> при попадании\n\n[EndBattle] Получает <sprite name=\"WaveFoxUmbrella\"><color=#9f6a3a><u><link=\"WaveFoxUmbrella\"><noparse>Защитные зонты</noparse></link></u></color>, равные количеству полученных <sprite name=\"WaveFoxUmbrella\"><color=#9f6a3a><u><link=\"WaveFoxUmbrella\"><noparse>Защитных зонтов</noparse></link></u></color> в первом ходе, а все Старые зонты исчезают с поля боя",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color>"
                 }
               ]
             }
@@ -466,8 +466,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Waiting",
-          "desc": "[StartBattle] Все enemies теряет 20 IQ",
+          "name": "Ожидание",
+          "desc": "[StartBattle] Все противники теряют 20 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -485,8 +485,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Volatile Reaction",
-          "desc": "[StartBattle] Получает [Thorn]",
+          "name": "Резкая реакция",
+          "desc": "[StartBattle] Получает <sprite name=\"Thorn\"><color=#9f6a3a><u><link=\"Thorn\"><noparse>Шипы</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -504,8 +504,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Volatile Response",
-          "desc": "[StartBattle] Получает [Thorn]",
+          "name": "Резкий ответ",
+          "desc": "[StartBattle] Получает <sprite name=\"Thorn\"><color=#9f6a3a><u><link=\"Thorn\"><noparse>Шипы</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -523,16 +523,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pleading Cries",
-          "desc": "In a Clash, Сила клеша +2 за каждый выживший Старый Зонт\nНаносит +25% урона за каждый Старый Зонт\n\n[DefeatDuel]\n- Финальная сила -10, наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n- не активируется [Burst:*Зелёнки*] и [Sinking:*Депрессии*] на цели",
+          "name": "Крик о помощи",
+          "desc": "Сила в столкновении +2 за каждый оставшийся Старый зонт\nНаносит на 25% больше урона за каждый оставшийся Старый зонт\n\n[DefeatDuel]\n- Итоговая сила -10, наносит на 80% меньше урона и не может оглушить целей\n- Не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color>"
                 }
               ]
             }
@@ -545,8 +545,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Sorrow",
-          "desc": "[EndSkill] Наносит +3 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +3 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  на всех врагов",
+          "name": "Рассеивающаяся грусть",
+          "desc": "[EndSkill] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на 3 всем противникам",
           "coinlist": [
             {
               "coindescs": [
@@ -564,19 +564,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Interlocking Moment",
-          "desc": "Получает Базовая сила +1 за каждые 3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[WhenUse] Получает +3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[DefeatDuel] Тратит 2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Остановленный момент",
+          "desc": "Базовая сила +1 за каждые 3 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>\n[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 3\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTimeBokGak]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTimeBokGak:`Остановку времени`](;InterlockingTime)"
                 },
                 {
-                  "desc": "- Если на цели есть a negative effect, наносит 2 [InterlockingTimeBokGak] вместо этого"
+                  "desc": "- Если на цели есть другие негативные эффекты, то наносит ей ещё 1 [InterlockingTimeBokGak:`Остановку времени`](;InterlockingTime)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -589,16 +589,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Siphon Time",
-          "desc": "Базовая сила +1 за каждые 3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[WhenUse] Получает +4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Забранное время",
+          "desc": "Базовая сила +1 за каждые 3 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>\n[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 4",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [TimeRental_Re] на следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\"><noparse>Одолженного времени</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -611,35 +611,35 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Accelerating Moment",
-          "desc": "Базовая сила +1 за каждые [TimeRental_Re]\n\n[DefeatDuel]\n- Тратит 3 счётчика [Charge:*Соли*]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "name": "Момент ускорения",
+          "desc": "Базовая сила повышается на текущее значение <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\"><noparse>Одолженного времени</noparse></link></u></color>\n\n[DefeatDuel]\n- Теряет 3 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>\n- Наносит на 80% меньше урона и не может огулшить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTimeBokGak]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTimeBokGak:`Остановку времени`](;InterlockingTime)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [InterlockingTimeBokGak]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [InterlockingTimeBokGak:`Остановку времени`](;InterlockingTime)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает +4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +20% урона за каждые [TimeRental_Re]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На (Текущее значение <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\"><noparse>Одолженного времени</noparse></link></u></color> × 20)% больше урона"
                 }
               ]
             }
@@ -652,8 +652,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charged Defense",
-          "desc": "[StartBattle] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Зарядная защита",
+          "desc": "[StartBattle] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -671,19 +671,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snagged Lure",
-          "desc": "[CantDuel]\nPrioritizes Sinners who are [FairyCharm]\nThis Skill's Atk Weight = Number of Sinners who are [FairyCharm]",
+          "name": "Пойманная наживка",
+          "desc": "[CantDuel]\nНацеливается на <sprite name=\"FairyCharm\"><color=#9f6a3a><u><link=\"FairyCharm\"><noparse>Очарованных</noparse></link></u></color> Грешников\nКоличество целей этого навыка равняется числу <sprite name=\"FairyCharm\"><color=#9f6a3a><u><link=\"FairyCharm\"><noparse>Очарованных</noparse></link></u></color> Грешников",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core и Body хилит 15 ХП"
+                  "desc": "[OnSucceedAttack] Восстанавливает 15 ОЗ Ядру и Телу"
                 }
               ]
             }
@@ -696,16 +696,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burrowing Roots",
+          "name": "Роющие корни",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
                 }
               ]
             }
@@ -718,16 +718,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Expanding Roots",
+          "name": "Растущие корни",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -740,16 +740,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Infusing Stems",
-          "desc": "[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Покушающиеся стебли",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +5% урона за каждые <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  на цели (макс. 100%)"
+                  "desc": "[OnSucceedAttack] Наносит на (Сила <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> цели × 5)% больше урона (До 100%)"
                 }
               ]
             }
@@ -762,13 +762,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Uncovered Abyss",
-          "desc": "Если на цели есть 5+ [Burst:*Зелёнки*] , наносит +100% урона\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Незакрытая бездна",
+          "desc": "Наносит на 100% больше урона целям с 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             }
@@ -781,12 +781,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Charmed Consciousness",
-          "desc": "Attacking Faelantern deals 0 урона",
+          "name": "Зачарованное сознание",
+          "desc": "Не наносит урона Фее",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -798,19 +800,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Snagged Lure",
-          "desc": "[CantDuel]\nPrioritizes Sinners who are [FairyCharm]\nThis Skill's Atk Weight = Number of Sinners who are [FairyCharm]",
+          "name": "Пойманная наживка",
+          "desc": "[CantDuel]\nНацеливается на <sprite name=\"FairyCharm\"><color=#9f6a3a><u><link=\"FairyCharm\"><noparse>Очарованных</noparse></link></u></color> Грешников",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color>  и +3 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Core и Body хилит 30 ХП"
+                  "desc": "[OnSucceedAttack] Восстанавливает 30 ОЗ Ядру и Телу"
                 }
               ]
             }
@@ -823,13 +825,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bite",
-          "desc": "[StartBattle] Получает 2 [SelfCharge]\n[WhenUse] При 5+ [SelfCharge], Базовая сила +2\n[DefeatDuel] Теряет 1 [SelfCharge]",
+          "name": "Укус",
+          "desc": "[StartBattle] Получает 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>\n[WhenUse] Базовая сила +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядах</noparse></link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -842,20 +844,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Tail Poke",
-          "desc": "[StartBattle] Получает 2 [SelfCharge]\n[WhenUse] При 5+ [SelfCharge], Сила монет +1\n[DefeatDuel] Теряет 1 [SelfCharge]",
+          "name": "Тычок хвостом",
+          "desc": "[StartBattle] Получает 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>\n[WhenUse] Сила монет +1 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядах</noparse></link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -868,19 +870,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wrapping Coil",
-          "desc": "[StartBattle] Получает 3 [SelfCharge]\n[WhenUse] При 5+ [SelfCharge], Базовая сила +2\n[DefeatDuel] Теряет 1 [SelfCharge]",
+          "name": "Обмотка",
+          "desc": "[StartBattle] Получает 3 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>\n[WhenUse] Базовая сила +2 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядах</noparse></link></u></color>\n[DefeatDuel] Теряет 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -893,20 +895,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Load",
-          "desc": "[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] При 5+ [SelfCharge], Сила монет +1\nЕсли на цели есть [Paralysis], наносит +30% урона\n[DefeatDuel] Теряет 2 [SelfCharge]",
+          "name": "Электрическая нагрузка",
+          "desc": "[StartBattle] Получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] Сила монет +1 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядах</noparse></link></u></color>\n[WhenUse] На 30% больше урона, если цель имеет <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color>\n[DefeatDuel] Теряет 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             }
@@ -919,27 +921,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Release",
-          "desc": "[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] При 5+ [SelfCharge], Сила монет +1\nЕсли на цели есть [Paralysis], наносит +30% урона\n[DefeatDuel] Теряет 3 [SelfCharge]",
+          "name": "Выпуск электричества",
+          "desc": "[StartBattle] Получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] Сила монет +1 при 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядах</noparse></link></u></color>\n[WhenUse] На 30% больше урона, если цель имеет <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color>\n[DefeatDuel] Теряет 3 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             }
@@ -952,20 +954,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Electric Discharge",
-          "desc": "[StartBattle] Получает 1 [SelfCharge]\nЕсли на цели есть [Paralysis], наносит +30% урона",
+          "name": "Электрический разряд",
+          "desc": "[StartBattle] Получает 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] На 30% больше урона, если цель имеет <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color>"
                 }
               ]
             }
@@ -978,8 +980,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-voltage Electric Discharge",
-          "desc": "[WhenUse] При больше чем 7 [SelfCharge], наносит +10% урона за каждые excess [SelfCharge] past 7 (макс. 120%)\n[WhenUse] Теряет все [SelfCharge] на себе; если this unit lost 10+ [SelfCharge], получает Сила клеша +5\n[DefeatDuel] Этот скилл наносит 0 урона",
+          "name": "Высоковольтный электрический разряд",
+          "desc": "[WhenUse] При 7 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядах</noparse></link></u></color> наносит на 10% больше урона за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color> после 7 (До 120%)\n[WhenUse] Тратит весь <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n- Если потратилось 10 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзарядов</noparse></link></u></color>, Сила в столкновении +5\n[DefeatDuel] Не наносит урона",
           "coinlist": [
             {
               "coindescs": [
@@ -987,7 +989,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Vulnerable] на главной цели"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
                 }
               ]
             },
@@ -997,13 +999,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ElectricStorage]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"ElectricStorage\"><color=#9f6a3a><u><link=\"ElectricStorage\"><noparse>Конденсатор</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis] на главной цели"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [ElectricStorage], наносит 40% финального урона этой монеты as fixed урона"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"ElectricStorage\"><color=#9f6a3a><u><link=\"ElectricStorage\"><noparse>Конденсатор</noparse></link></u></color>, наносит ей дополнительный фиксированный урон в размере 40% от итогового урона этой монеты"
                 }
               ]
             }
@@ -1016,8 +1018,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Coil Up",
-          "desc": "[TurnStartBattle] The Head Part gains Shield на its current ХП\n[EndBattle] Если the Head Part hв качестве щита, получает 10 [SelfCharge] на следующий ход",
+          "name": "Свернуться",
+          "desc": "[StartBattle] Голова получает ОЗ Щита, равные её текущим ОЗ\n[EndBattle] Если у Головы остались ОЗ Щита, получает 10 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Позарядов</noparse></link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -1029,20 +1031,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Head",
-          "desc": "Ставит в приоритет цели, у которых есть the lowest ХП\nЕсли на цели есть [Paralysis], наносит +50% урона\nЕсли на цели есть used a Defense Skill, наносит -100% урона\nБазовая сила +1 за каждые [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если на цели есть экипированные защитные скиллы, теряет 2 [SelfCharge]\n[DefeatDuel] Теряет 2 дополнительный [SelfCharge]",
+          "name": "Извивающаяся голова",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\nНаносит на 50% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличом</noparse></link></u></color>\nЕсли цель использовала защитный навык, не наносит ей урона\nБазовая сила +1 за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] Если цель экипировала защитный навык, то тратит ещё 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>\n[DefeatDuel] Теряет <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             }
@@ -1055,27 +1057,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wriggling Tail",
-          "desc": "Ставит в приоритет цели, у которых есть the lowest ХП\nЕсли на цели есть [Paralysis], наносит +50% урона\nЕсли на цели есть used a Defense Skill, наносит -100% урона\nБазовая сила +1 за каждые [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если на цели есть экипированные защитные скиллы, теряет 2 [SelfCharge]\n[DefeatDuel] Теряет 2 дополнительный [SelfCharge]",
+          "name": "Извивающийся хвост",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\nНаносит на 50% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличом</noparse></link></u></color>\nЕсли цель использовала защитный навык, не наносит ей урона\nБазовая сила +1 за каждый <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] Тратит 1 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряд</noparse></link></u></color>\n[WhenUse] Если цель экипировала защитный навык, то тратит ещё 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>\n[DefeatDuel] Теряет <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\"><noparse>Подзаряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             }
@@ -1088,12 +1090,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wanna Get Drunk?",
+          "name": "Хочешь выпить?",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> и +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             }
@@ -1106,15 +1109,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Let's Share the Drink!",
+          "name": "Выпьем вместе!",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] The Core и the Part that used this Skill хилит 5% ХП"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5% ОЗ"
                 }
               ]
             }
@@ -1127,23 +1131,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "This is Все I Got!",
-          "desc": "Prioritize targets that have <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>",
+          "name": "На этом у меня всё!",
+          "desc": "Нацеливается на противников с <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремором</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color> равный счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует Тремор</noparse></link></u></color> цели на весь его счётчик"
                 },
                 {
-                  "desc": "[OnSucceedAttack] тратит весь счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Тратит весь <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремор</noparse></link></u></color> цели"
                 }
               ]
             }
@@ -1156,22 +1160,22 @@
       "levelList": [
         {
           "level": 1,
-          "name": "I'll Have This!",
-          "desc": "Prioritizes targets that do not have [TipsinessRail]\nЕсли на цели нет [TipsinessRail], Сила клеша +8\n[WhenUse] Если на цели нет [TipsinessRail], наносит +200% урона\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Возьму-ка это!",
+          "desc": "Нацеливается в первую очередь на противников без <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\"><noparse>Опьянения</noparse></link></u></color>\n\nЕсли у цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\"><noparse>Опьянения</noparse></link></u></color>, Сила в столкновении +8\n[WhenUse] Если у цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\"><noparse>Опьянения</noparse></link></u></color>, то наносит ей на 200% больше урона\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть 5+ [TipsinessRail], наносит 0 урона"
+                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\"><noparse>Опьянения</noparse></link></u></color>, не наносит урон"
                 },
                 {
-                  "desc": "Fairy Gentleman becomes Staggered на следующий ход"
+                  "desc": "[OnSucceedAttack] Оглушается в следующем ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove все [TipsinessRail] на цели"
+                  "desc": "[OnSucceedAttack] <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\"><noparse>Опьянение</noparse></link></u></color> исчезает с цели"
                 }
               ]
             }
@@ -1184,8 +1188,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "You Like This Brew?",
-          "desc": "[WhenUse] Получает 3 [Binding] на следующий ход",
+          "name": "Нравится это пойло?",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -1197,19 +1201,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Have a Swig!",
-          "desc": "[StartBattle] Summon Refracted Fairy Wine на следующий ход\n[DefeatDuel] Refracted Fairy Wine summoned при 50% ХП\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Сделай глоточек!",
+          "desc": "[StartBattle] Призывает Вино фей в следующем ходе\n[DefeatDuel] Вино фей призывается с 50% ОЗ\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует Тремор</noparse></link></u></color>"
                 }
               ]
             }
@@ -1222,7 +1226,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Sweet Fairy Wine",
+          "name": "Сладкое вино феи",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1234,18 +1239,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Skim Wounds",
+          "name": "Беглые раны",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть 2+ счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> цели равен 2 и более, то наносит ей 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть 2+ счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит 1 [Paralysis]"
+                  "desc": ""
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +4 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 4"
                 }
               ]
             }
@@ -1258,12 +1264,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Entangled Injury",
+          "name": "Тянущаяся травма",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -1276,25 +1283,26 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Smeared Flesh",
+          "name": "Размазанная плоть",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, the Core и the Part that used this Skill хилит 25 ХП"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>, то восстанавливает себе 25 ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть 2+ счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> цели равен 2 и более, то наносит ей 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, the Core и the Part that used this Skill хилит 25 ХП"
+                  "desc": "[OnSucceedAttack] Если на цели есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>, то восстанавливает себе 25 ОЗ"
                 }
               ]
             }
@@ -1307,19 +1315,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Casting Shade",
-          "desc": "Prioritizes target that has the most силы [Laceration:*Кетчупа*]\n[StartBattle] Summon Refracted Clover на следующий ход\n[DefeatDuel] Refracted Clover summoned при 50% ХП\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Отбрасывающий тень",
+          "desc": "Нацеливается на противников с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] Призывает Гигантский клевер в следующем ходе\n[DefeatDuel] Гигантский клевер призывается с 50% ОЗ\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +(5 x <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели x счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели)% урона (макс. 200%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> цели × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> цели × 5)% больше урона (До 200%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] тратит все <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Тратит всё <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> цели"
                 }
               ]
             }
@@ -1332,16 +1340,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Churning",
-          "desc": "[StartBattle]все части получают 3 [Protection]",
+          "name": "Поглощение",
+          "desc": "[StartBattle] Все части получают 3 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\"><noparse>Защищённости</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Хилит the Core и the Part that used this Skill на 1% of this unit's макс. ХП за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> цели)% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 1 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> цели на 1"
                 }
               ]
             }
@@ -1354,13 +1362,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Киска в зоне риска",
-          "desc": "[WhenUse] Получает +3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[DefeatDuel] Тратит 2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Рассечение пространства",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 3\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -1373,20 +1381,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Местная порнозвезда",
-          "desc": "[WhenUse] Получает +3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[DefeatDuel] Тратит 2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Непрерывные рассечения пространства",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 3\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разлома</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разлома</noparse></link></u></color>"
                 }
               ]
             }
@@ -1399,13 +1407,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Discharge Byproducts",
-          "desc": "[WhenUse] Получает +4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[DefeatDuel] Тратит 2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Побочный выброс",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 4\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -1418,32 +1426,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Разнос писечек",
-          "desc": "При 10+ счётчика [Charge:*Соли*], Тратит 10 счётчика [Charge:*Соли*] для получения Сила клеша +5 и наносит +100% урона\nпри менее чем 10 счётчика [Charge:*Соли*], Тратит 100 Core ХП. Наносит +80% урона (ХП этого юнита cannot drop below 1 due to this Skill's effect)\n\n[DefeatDuel] Получает следующие эффекты:\n- Получает 2 [Paralysis]\n- Наносит -80% урона\n- This Skill не может застаггерить цель\n- не активируется [Burst:*Зелёнки*] на цели",
+          "name": "Разрыв пространства",
+          "desc": "[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> равен 10 и более, то тратит 10 его единиц для получения +5 к Силе в столкновении и повышения урона на 100%\n[WhenUse] Если свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> менее 10, то теряет 100 ОЗ Ядра и наносит на 80% больше урона вместо этого (ОЗ не опускаются ниже 1 от этого эффекта)\n[DefeatDuel] Получает 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель, а также не активирует эффект <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> при попадании",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разлома</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разлома</noparse></link></u></color>"
                 }
               ]
             }
@@ -1456,20 +1464,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prepared Retribution",
-          "desc": "[WhenUse] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Подготовленная месть",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -1482,16 +1490,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Vomit Byproducts",
-          "desc": "[WhenUse] Если если у главной цели есть [DimensionRift], наносит +10% урона\n[DefeatDuel] Тратит 2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Побочное извержение",
+          "desc": "[WhenUse] Наносит на 10% больше урона целям с <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственным разломом</noparse></link></u></color>\n[DefeatDuel] Теряет 2 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [DimensionRift]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разломов</noparse></link></u></color>"
                 }
               ]
             }
@@ -1504,16 +1512,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "High-speed Разнос писечек",
-          "desc": "Can Clash with this Skill regardless of Speed; Не может застаггерится before using this Skill\n[DefeatDuel]\n- Получает 2 [Reduction] и 1 [Paralysis]\n- Наносит -90% урона и урона dealt на this Skill не может застаггерить цель\nПолучает Сила клеша +1 за каждые most-owned Dimension effect на себе\nНаносит +10% урона за каждые Dimension effect на себе",
+          "name": "Высокоскоростной разрыв пространства",
+          "desc": "Можно столкнуться независимо от скорости\nНе может быть оглушён до конца использования этого навыка\n\n[WhenUse] Наносит на 10% больше урона за каждый имеющийся эффект Измерений\n[WhenUse] Сила в столкновении +1 за каждую единицу значения наиболее имеющегося эффекта Измерения\n[DefeatDuel] Получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color> и 2 <sprite name=\"Reduction\"><color=#e30000><u><link=\"Reduction\"><noparse>Понижения силы атаки</noparse></link></u></color>\n[DefeatDuel] Наносит на 90% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -1526,13 +1534,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Opportunity Spotted",
-          "desc": "[WhenUse] Если на цели есть [DimensionRift], наносит +20% урона",
+          "name": "Найденная возможность",
+          "desc": "[WhenUse] Наносит на 20% больше урона целям с <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственным разломом</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разлома</noparse></link></u></color>"
                 }
               ]
             }
@@ -1545,13 +1553,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rift Attack",
-          "desc": "[WhenUse] Если если у главной цели есть [DimensionRift], наносит +10% урона",
+          "name": "Атака из разлома",
+          "desc": "[WhenUse] Наносит на 10% больше урона, если на цели есть <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственный разлом</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift]"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\"><noparse>Пространственных разлома</noparse></link></u></color>"
                 }
               ]
             }
@@ -1564,8 +1572,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "Если this 'Dimensional Rift' remains, наносит +10% урона",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, урон Заблудшего пассажира увеличится на 10% (Получит <sprite name=\"PassedPortal_Red\"><color=#9f6a3a><u><link=\"PassedPortal_Red\"><noparse>Кровоточащее измерение</noparse></link></u></color>)",
           "coinlist": [
             {}
           ]
@@ -1577,8 +1585,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "Если this 'Dimensional Rift' remains, Core макс. ХП +20%",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, максимальные ОЗ Заблудшего пассажира увеличатся на 20% (Получит <sprite name=\"PassedPortal_Green\"><color=#9f6a3a><u><link=\"PassedPortal_Green\"><noparse>Отравляющее измерение</noparse></link></u></color>)",
           "coinlist": [
             {}
           ]
@@ -1590,8 +1598,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "Если this 'Dimensional Rift' remains, мин. и макс. скорость +1",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, скорость Заблудшего пассажира увеличится на 1 (Получит <sprite name=\"PassedPortal_Yellow\"><color=#9f6a3a><u><link=\"PassedPortal_Yellow\"><noparse>Содрогающееся измерение</noparse></link></u></color>)",
           "coinlist": [
             {}
           ]
@@ -1603,8 +1611,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Dimensional Leap",
-          "desc": "Если this 'Dimensional Rift' remains, Сила монет +1",
+          "name": "Пространственный скачок",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, Сила монет Заблудшего пассажира увеличится на 1 (Получит <sprite name=\"PassedPortal_Blue\"><color=#9f6a3a><u><link=\"PassedPortal_Blue\"><noparse>Электризующее измерение</noparse></link></u></color>)",
           "coinlist": [
             {}
           ]
@@ -1616,8 +1624,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "To the Garden of Infinity",
-          "desc": "[CantDuel]\n[WhenUse] Накладывает [PrepareSinRose] on все Sinners on the field\n[WhenUse] Если Core has less than 40% ХП, Roses will spawn in [EnhanceRose] на следующий ход",
+          "name": "В сад вечности",
+          "desc": "[CantDuel]\n[WhenUse] Накладывает <sprite name=\"PrepareSinRose\"><color=#9f6a3a><u><link=\"PrepareSinRose\"><noparse>Терновую корону</noparse></link></u></color> на всех Грешников\n[WhenUse] Если ОЗ Ядра ниже 40%, то Розы будут призываться в усиленном состоянии начиная со следующего хода",
           "coinlist": [
             {}
           ]
@@ -1629,32 +1637,32 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stop",
-          "desc": "Финальная сила +1 за каждые Sinner defeated в этой битве\n[WhenUse] Финальная сила +1 за каждые 2 types of negative effects на цели (макс. 3)\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Стоп",
+          "desc": "Итоговая сила +1 за каждого убитого в этой битве Грешника\n[WhenUse] Итоговая сила +1 за каждые 2 типа негативных эффектов на цели (До 3)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> и 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color> и 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> и 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color> и 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -1667,16 +1675,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Captivity",
-          "desc": "Финальная сила +1 за каждые Sinner defeated в этой битве\n[WhenUse] Финальная сила +1 за каждые 2 types of negative effects на цели (макс. 3)\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Пленение",
+          "desc": "Итоговая сила +1 за каждого убитого в этой битве Грешника\n[WhenUse] Итоговая сила +1 за каждые 2 типа негативных эффектов на цели (До 3)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
@@ -1686,10 +1694,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Хилит 10% ХП for the Rose that has the lowest ХП"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшим процентом ОЗ"
                 }
               ]
             }
@@ -1702,36 +1710,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Endless Blooming",
-          "desc": "Prioritizes targets that do not have [PrepareSinRose]\nФинальная сила +1 за каждые Sinner defeated в этой битве\n[WhenUse] Финальная сила +1 за каждые 2 types of negative effects на цели (макс. 3)\n[DefeatDuel] Наносит -80% урона и урона dealt на this Skill не может застаггерить цель",
+          "name": "Нескончаемое цветение",
+          "desc": "Нацеливается на противников без <sprite name=\"PrepareSinRose\"><color=#9f6a3a><u><link=\"PrepareSinRose\"><noparse>Терновой кроны</noparse></link></u></color>\nИтоговая сила +1 за каждого убитого в этой битве Грешника\n[WhenUse] Итоговая сила +1 за каждые 2 типа негативных эффектов на цели (До 3)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Paralysis] и 1 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color> и 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит [PrepareSinRose]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает <sprite name=\"PrepareSinRose\"><color=#9f6a3a><u><link=\"PrepareSinRose\"><noparse>Терновый венец</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Хилит the Core на 5% of its макс. ХП"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает себе 5% ОЗ"
                 }
               ]
             }
@@ -1744,13 +1752,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wall Of Separation",
-          "desc": "Базовая сила +3 за каждые surviving Rose\n[EndBattle] Если there are no surviving Roses, получает 2 [Vulnerable] на следующий ход",
+          "name": "Стена отдаления",
+          "desc": "Базовая сила +3 за каждую Розу на поле боя\n[EndBattle] Если на поле боя не осталось Роз, то получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Хилит the Core на 5% of its макс. ХП"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5% ОЗ"
                 }
               ]
             }
@@ -1763,8 +1771,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Wishing for Eternity",
-          "desc": "[StartBattle] Накладывает 1 [Enhancement] to 1 random Rose на следующий ход\nпри получении удара while this unit hв качестве щита, наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  on the attacker",
+          "name": "Мечты о нескончаемом",
+          "desc": "[StartBattle] Даёт 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\"><noparse>Повышение силы атаки</noparse></link></u></color> случайной Розе на следующий ход\nНаносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопание</noparse></link></u></color> атаковавшему при получении удара по щиту",
           "coinlist": [
             {}
           ]
@@ -1776,8 +1784,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Here, With You",
-          "desc": "[StartBattle] Накладывает 1 [Endurance] to 1 random Rose на следующий ход\nпри получении удара while this unit hв качестве щита, наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  on the attacker",
+          "name": "Здесь, с тобой",
+          "desc": "[StartBattle] Даёт 1 <sprite name=\"Endurance\"><color=#f8c200><u><link=\"Endurance\"><noparse>Повышение силы защиты</noparse></link></u></color> на следующий ход случайной Розе\nНаносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопание</noparse></link></u></color> атаковавшему при получении удара по щиту",
           "coinlist": [
             {}
           ]
@@ -1789,27 +1797,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burning Wrath",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Сжигающий гнев",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color>"
                 }
               ]
             }
@@ -1822,20 +1830,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Scattering Wrath",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Вездесущий гнев",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Огня</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -1848,36 +1856,36 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Approaching Lust",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Нарастающая похоть",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lower user’s Stagger Threshold на 50% of урона dealt"
+                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 50% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lower user’s Stagger Threshold на 50% of урона dealt"
+                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 50% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Lower user’s Stagger Threshold на 50% of урона dealt"
+                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 50% от нанесённого урона"
                 }
               ]
             }
@@ -1890,27 +1898,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Burrowing Lust",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Пронизывающая похоть",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -1923,13 +1931,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Petrified Sloth",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Парализующая леность",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             }
@@ -1942,16 +1950,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Stubborn Sloth",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Несподручная леность",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует Тремор</noparse></link></u></color>"
                 }
               ]
             }
@@ -1964,8 +1972,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Slumbering Sloth",
-          "desc": "при получении удара while this unit hв качестве щита, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color> на себе и target\n[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Усыпляющая леность",
+          "desc": "При получении урона по щиту <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует Тремор</noparse></link></u></color> на себе и атаковавшем\n[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {}
           ]
@@ -1977,13 +1985,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Voracious Gluttony",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Ненасытное чревоугодие",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color>"
                 }
               ]
             }
@@ -1996,13 +2004,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Prevalent Gluttony",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Превосходящее чревоугодие",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +4 счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Зелёнки</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\"><noparse>Разрыва</noparse></link></u></color> на 4"
                 }
               ]
             }
@@ -2015,34 +2023,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Restless Gluttony",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Неугасимое чревоугодие",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Хилит на 25% of ХП урона dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Хилит на 25% of ХП урона dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Хилит на 25% of ХП урона dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Хилит на 25% of ХП урона dealt"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на 25% от нанесённого урона"
                 }
               ]
             }
@@ -2055,13 +2063,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Overflowing Gloom",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Переполняющее уныние",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color>"
                 }
               ]
             }
@@ -2074,20 +2082,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rising Gloom",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Растущее уныние",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> "
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на 3"
                 }
               ]
             }
@@ -2100,8 +2108,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Embracing Gloom",
-          "desc": "при получении удара while this unit hв качестве щита, получает +1 счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  и наносит +1 счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  на цели\n[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Всеобъемлющее уныние",
+          "desc": "Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Утопания</noparse></link></u></color> на 1 атаковавшему и себе при получении удара по щиту\n[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {}
           ]
@@ -2113,8 +2121,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spouting Pride",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)\n[WhenUse] Накладывает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> on все allies",
+          "name": "Фонтанирующая гордыня",
+          "desc": "[WhenUse] Даёт 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> всем союзникам\n[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {},
             {}
@@ -2127,20 +2135,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Erect Pride",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)\n[WhenUse] Накладывает +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> on все allies",
+          "name": "Возвышенная гордыня",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)\n[WhenUse] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 2 всем союзникам",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 1"
                 }
               ]
             }
@@ -2153,8 +2161,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Touchy Pride",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)",
+          "name": "Чуткая гордыня",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)",
           "coinlist": [
             {},
             {}
@@ -2167,20 +2175,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Heaping Envy",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)\n[WhenUse] Получает +3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[DefeatDuel] Теряет 3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
+          "name": "Взваленная зависть",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)\n[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 3\n[DefeatDuel] Теряет 3 единицы счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color> на 1"
                 }
               ]
             }
@@ -2193,8 +2201,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Spreading Envy",
-          "desc": "[WhenUse] Базовая сила +1 за каждые Rose that has a different Affinity from this unit (макс. 6)\n[WhenUse] Тратит 10 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> для получения Сила монет +4",
+          "name": "Растущая зависть",
+          "desc": "[WhenUse] Базовая сила +1 за каждую Розу с отличающимся грехом (До 6)\n[WhenUse] Тратит 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Заряда</noparse></link></u></color>, чтобы получить +4 к Силе монет",
           "coinlist": [
             {},
             {},
