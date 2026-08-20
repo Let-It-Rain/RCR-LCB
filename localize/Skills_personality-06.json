@@ -3479,12 +3479,12 @@
         {
           "level": "1",
           "name": "Фей хуя",
-          "desc": "[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика [Breath:*Кумара*]",
+          "desc": "[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели было 3+ [DianxueHongLu], повторно использует эту монету (один раз за скилл)"
@@ -3496,18 +3496,18 @@
         {
           "level": "2",
           "name": "Фей хуя",
-          "desc": "<style=\"highlight\">Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1</style>\n[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика [Breath:*Кумара*]",
+          "desc": "<style=\"highlight\">Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1</style>\n[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели было 3+ [DianxueHongLu], повторно использует эту монету (один раз за скилл)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color></style>"
                 }
               ]
             }
@@ -3516,18 +3516,18 @@
         {
           "level": "4",
           "name": "Фей хуя",
-          "desc": "Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1\n<style=\"highlight\">[WhenUse] Сила клеша +1 за каждые 6 ([Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели) (макс. 2)</style>\n[WhenUse] Если на цели не было [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика [Breath:*Кумара*]",
+          "desc": "Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1\n<style=\"highlight\">[WhenUse] Сила клеша +1 за каждые 6 (<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на цели) (макс. 2)</style>\n[WhenUse] Если на цели не было [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели было 3+ [DianxueHongLu], повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3541,15 +3541,15 @@
         {
           "level": "1",
           "name": "Привет, я отсяду?",
-          "desc": "[WinDuel] Получает 3 [Breath:*Кумара*]\n- Получает счётчик [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "desc": "[WinDuel] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Получает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> равный [DianxueHongLu] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Breath:*Кумара*]"
+                  "desc": "[OnSucceedAttack] Получает +1 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
                 }
               ]
             },
@@ -3565,22 +3565,22 @@
         {
           "level": "2",
           "name": "Привет, я отсяду?",
-          "desc": "<style=\"highlight\">Если скорость этого юнита выше, чем у цели, получает Силу монет в зависимости от разницы в скорости (Сила монет +1 за каждые 2 разницы в скорости; макс. 2)</style>\n[WinDuel] Получает 3  [Breath:*Кумара*]\n- Получает счётчик [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "desc": "<style=\"highlight\">Если скорость этого юнита выше, чем у цели, получает Силу монет в зависимости от разницы в скорости (Сила монет +1 за каждые 2 разницы в скорости; макс. 2)</style>\n[WinDuel] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Получает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> равный [DianxueHongLu] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +<style=\"highlight\">2</style> счётчика  [Breath:*Кумара*]"
+                  "desc": "[OnSucceedAttack] Получает +<style=\"highlight\">2</style> счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели есть 2+ [DianxueHongLu], повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
@@ -3595,22 +3595,22 @@
         {
           "level": "4",
           "name": "Привет, я отсяду?",
-          "desc": "Если скорость этого юнита выше, чем у цели, получает Силу монет в зависимости от разницы в скорости (Сила монет +1 за каждые 2 разницы в скорости; макс. 2)\n<style=\"highlight\">[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели), Финальная сила +1</style>\n[WinDuel] Получает 3  [Breath:*Кумара*]\n- Получает счётчик [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "desc": "Если скорость этого юнита выше, чем у цели, получает Силу монет в зависимости от разницы в скорости (Сила монет +1 за каждые 2 разницы в скорости; макс. 2)\n<style=\"highlight\">[WhenUse] При 6+ ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на цели), Финальная сила +1</style>\n[WinDuel] Получает 3  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Получает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> равный [DianxueHongLu] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +2 счётчика  [Breath:*Кумара*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели есть 2+ [DianxueHongLu], повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
@@ -3630,29 +3630,29 @@
         {
           "level": "3",
           "name": "Вы же не будете бить миловидного мужчину, верно?",
-          "desc": "Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1\n[WinDuel] Получает 3 [Breath:*Кумара*]\n- Получает счётчик [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "desc": "Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1\n[WinDuel] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Получает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> равный [DianxueHongLu] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжогу*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжогу</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Наносит +([Breath:*Кумар*] на себе + [Combustion:*Изжога*] на цели)% урона при раскумаре (макс. 20%)"
+                  "desc": "Наносит +(<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> на себе + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжога</noparse></link></u></color> на цели)% урона при раскумаре (макс. 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [DefenseDown] (2 раз за ход)"
@@ -3661,7 +3661,7 @@
                   "desc": "[OnSucceedAttack] Если на цели есть [DianxueHongLu], повторно использует эту монету (один раз за скилл)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Наносит урон гневом равный ([Combustion:*Изжога*] на цели x 2)% финального урона этой монеты (макс. 40%)"
+                  "desc": "[ReUseOnSucceedAttack] Наносит урон гневом равный (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжога</noparse></link></u></color> на цели x 2)% финального урона этой монеты (макс. 40%)"
                 }
               ]
             }
@@ -3670,29 +3670,29 @@
         {
           "level": "4",
           "name": "Вы же не будете бить миловидного мужчину, верно?",
-          "desc": "Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1\n<style=\"highlight\">[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели), Сила монет +1</style>\n[WinDuel] Получает <style=\"highlight\">5</style>  [Breath:*Кумара*]\n- Получает счётчик [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "desc": "Если скорость этого юнита выше, чем у цели на 2 или более, Сила монет +1\n<style=\"highlight\">[WhenUse] При 6+ ( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на цели), Сила монет +1</style>\n[WinDuel] Получает <style=\"highlight\">5</style>  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>\n- Получает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> равный [DianxueHongLu] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Наносит +([Breath:*Кумар*] на себе + [Combustion:*Изжога*] на цели)% урона при раскумаре (макс. <style=\"highlight\">30</style>%)"
+                  "desc": "Наносит +(<sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> на себе + <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжога</noparse></link></u></color> на цели)% урона при раскумаре (макс. <style=\"highlight\">30</style>%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [DefenseDown] (2 раз за ход)<style=\"highlight\"></style>"
@@ -3701,7 +3701,7 @@
                   "desc": "[OnSucceedAttack] Если на цели есть [DianxueHongLu], повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Наносит урон гневом равный ([Combustion:*Изжога*] на цели x 2)% финального урона этой монеты (макс. 40%)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Наносит урон гневом равный (<sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжога</noparse></link></u></color> на цели x 2)% финального урона этой монеты (макс. 40%)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3715,7 +3715,7 @@
         {
           "level": "1",
           "name": "Танец под кумарными облачками",
-          "desc": "Если скорость этого юнита быстрее атакующего на 2 или более, Сила монет +1\n[StartBattle] Получает +2 счётчика [Breath:*Кумара*] (один раз за ход)",
+          "desc": "Если скорость этого юнита быстрее атакующего на 2 или более, Сила монет +1\n[StartBattle] Получает +2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (один раз за ход)",
           "coinlist": [
             {
               "coindescs": []
@@ -3725,7 +3725,7 @@
         {
           "level": "4",
           "name": "Танец под кумарными облачками",
-          "desc": "Если скорость этого юнита быстрее атакующего на 2 или более, Сила монет +1\n[StartBattle] Получает +<style=\"highlight\">3</style> счётчика [Breath:*Кумара*] (один раз за ход)",
+          "desc": "Если скорость этого юнита быстрее атакующего на 2 или более, Сила монет +1\n[StartBattle] Получает +<style=\"highlight\">3</style> счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (один раз за ход)",
           "coinlist": [
             {
               "coindescs": []
