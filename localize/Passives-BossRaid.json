@@ -116,6 +116,66 @@
       "desc": "Добавляет 1 ЭГО Ресурс ко всем грехам при своей смерти.",
       "id": "501501",
       "summary": "Give Э.Г.О resource При смерти"
+    },
+    {
+      "id": 501911,
+      "name": "Reflectrial",
+      "desc": "При 10+ Clashes against the same enemy, randomly получает или теряет Сила клеша на (количество клешей/10) in a Clash (макс. 10)\n\nMax Potency cap for [Combustion:*Изжоги*], [Laceration:*Кетчупа*], [Vibration:*Тряски*], [Burst:*Зелёнки*] , и [Sinking:*Депрессии*] : 30\nMax Count cap for the above effects: 10\n\nTeam 1 Начало битвы:\n- This unit и все Sinners on the field: Change IQ to 30 (for Minus Coin Айдишки, -30)\n- получает +3 Э.Г.О Resource for все Affinities\n\nUpon activating the Passive effects of \"Tiantui Star\",\nEnd the turn и enter Phase 2 на следующий ход\n- Entering the new phase не reset effects на этом юните\n\nTeam 2 & 3 Начало битвы:\nBased на этом юните's current ХП percentage, the Passive effects below are considered to have activated in the order listed\n- больше чем 85% ХП: Tigermark Round[TabExplain] Reload[TabExplain]\n- 85% или lower: Tigermark Round[TabExplain] Reload[TabExplain]; Lei Heng\n- 66% или lower: Tigermark Round[TabExplain] Reload[TabExplain]; Lei Heng; Tiantui Star\n- 50% или lower: Tigermark Round[TabExplain] Reload[TabExplain]; Lei Heng; Tiantui Star; Lei Heng, The Pinky's Tiantui Star"
+    },
+    {
+      "id": 501901,
+      "name": "The Thumb's Officer, Capo IIII",
+      "desc": "Получает -30% урона from [Combustion:*Изжоги*], [Laceration:*Кетчупа*], [Vibration:*Тряски*], [Burst:*Зелёнки*] , и [Sinking:*Депрессии*] \n\nКогда flipping a Coin that consumes [BulletPropellant]: While not having [BulletPropellant] не cancel this unit's attacks, the Coin's \"наносит [Combustion:*Изжоги*]\" и \"наносит счётчика [Combustion:*Изжоги*]\" effects do not activate\n\nIn a Clash, наносит +(1 + (# of Clashes / 3)) счётчика [Vibration:*Тряски*]\n(макс. 3; 3 раз за ход against the same target)"
+    },
+    {
+      "id": 501902,
+      "name": "Ten Blades of the East",
+      "desc": "При Начало битвы, и в начале хода upon gaining a new pattern:\n- Получает 1 [Bothersome]\n- Хилит 5 IQ за каждые 10% missing ХП на себе (макс. 40)\n\nПолучает the effects of [PanicChangeLock]\nКонец хода: Если этот юнит находится в Panic, reset IQ to 45"
+    },
+    {
+      "id": 501903,
+      "name": "Chosen Prey",
+      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [Prey_leiheng] against the Sinner that dealt the most урона этому юниту</u></b></mark></color> last turn\n\nAfter Lei Heng attacks the Sinner that has [Prey_leiheng]:\n- Если target is Staggered, все Sinners теряет 10 IQ и получает 1 [ParryingResultDown] for this turn и на следующий ход (один раз за ход)\n- Если target is defeated, активирует the above effect один раз more"
+    },
+    {
+      "id": 501904,
+      "name": "Tiantui Star's Blade [天退星刀]",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>При ударе, Unopposed Attacks</u></b></mark></color> наносит +30% урона и наносит 1 [Vulnerable] на следующий ход\n\nSkill Coins that spent [BulletPropellant] Наносит +20% урона При ударе и наносит 2 [DefenseDown] на следующий ход\n\n<color=#ff6000><mark=#ff000040><b><u>The above effects do not activate если the target equipped a Defense Skill</u></b></mark></color>"
+    },
+    {
+      "id": 501912,
+      "name": "Tiantui Star's Blade - Overheat",
+      "desc": "Если this unit used a powerful attack (\"Tanglecleaver\" или \"Savage Tigerslayer's Perfected Flurry of Blades\"), получает [Complacency] на следующий ход равное number of раз those skills were used (макс. 5)"
+    },
+    {
+      "id": 501910,
+      "name": "Chachihu [揷翅虎]",
+      "desc": "Начало столкновения: <color=#ff6000><mark=#ff000040><b><u>Based на этом юните's Speed value</u></b></mark></color>,\n- Хилит IQ равный Speed value. при менее чем 0 IQ, double the хилит amount\n- Получает (Speed Value / 3) [SlashDamageUp] (макс. 5)\n\nНачало столкновения: <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть 3+ [Binding], the above effect не активируется;</u></b></mark></color> получает [DefenseDown] равный [Binding] на себе (макс. 9)"
+    },
+    {
+      "id": 501905,
+      "name": "Tigermark Round Reload",
+      "desc": "При the end of Turn 1, reload [BulletPropellant] и получает a new pattern на следующий ход\n- Если this unit is Staggered, выходит из стаггера"
+    },
+    {
+      "id": 501906,
+      "name": "Lei Heng [雷橫]",
+      "desc": "Конец хода: При 85% или less ХП, или при the end of Turn 2, получает a new pattern на следующий ход\n- Use a powerful attack (\"Tanglecleaver\"), repeat every 3rd turn. +10 to мин. и макс. скорость for turns in which this unit uses this Skill\n- При the start of that turn, получает 25 [BattleSense]\n- Если this unit is Staggered, выходит из стаггера"
+    },
+    {
+      "id": 501907,
+      "name": "Tiantui Star [天退星]",
+      "desc": "Если ХП этого юнита dropped to 66% или below during combat, enter a new phase на следующий ход и получает a new pattern\n- Когда that turn starts, получает 1 [Irritation]\n- Когда that turn starts, получает 18 [BulletPropellantSpecial] и reload immediately\n· Если this unit spends все [BulletPropellantSpecial], convert the effect to [BulletPropellant] и summon 2 of \"Stern Soldato of the Thumb\" units на следующий ход и have them supply this unit with [BulletPropellantSpecial]\n- Когда в стаггере, выходит из стаггера"
+    },
+    {
+      "id": 501908,
+      "name": "Lei Heng, The Pinky's Tiantui Star",
+      "desc": "Конец хода: При 50% или lower ХП, получает a new pattern на следующий ход\n- Replace the powerful attack \"Tanglecleaver\" with \"Savage Tigerslayer's Perfected Flurry of Blades\"; мин. и макс. скорость +15 for turns in which this unit uses this Skill\n- Convert [BattleSense] to [RestoredBattleSense]\n- Convert [Irritation] to [HugeIrritation]\n- Если this unit is Staggered, выходит из стаггера"
+    },
+    {
+      "id": 502001,
+      "name": "Savage Tigermark Support",
+      "desc": "Начало хода: Получает 3 [Vulnerable]\nКонец хода: Supply [BulletPropellantSpecial] to Lei Heng\n\nЕсли this unit is killed, Lei Heng gains 1 [Vulnerable] на следующий ход"
     }
   ]
 }

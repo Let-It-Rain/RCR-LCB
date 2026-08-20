@@ -3473,6 +3473,263 @@
         }
       ],
       "id": "1061504"
+    },
+    {
+      "id": 1061601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Fa Jin",
+          "desc": "[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика  [Breath:*Кумара*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 3+ [DianxueHongLu], Повторно использует эту монету (один раз за скилл)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Fa Jin",
+          "desc": "<style=\"highlight\">Если скорость этого юнита выше, чем у цели на 2 или more, Сила монет +1</style>\n[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика  [Breath:*Кумара*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 3+ [DianxueHongLu], Повторно использует эту монету (один раз за скилл)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Fa Jin",
+          "desc": "Если скорость этого юнита выше, чем у цели на 2 или more, Сила монет +1\n<style=\"highlight\">[WhenUse] Сила клеша +1 за каждые 6 ( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели) (макс. 2)</style>\n[WhenUse] Если на цели нет [DianxueHongLu], Сила клеша +1\n[WhenUse] Получает +3 счётчика  [Breath:*Кумара*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 3+ [DianxueHongLu], Повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Virescent Flame Palm",
+          "desc": "[WinDuel] Получает 3  [Breath:*Кумара*]\n- Получает счётчика  [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +1 счётчик  [Breath:*Кумара*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 2+ [DianxueHongLu], Повторно использует эту монету (один раз за скилл)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Virescent Flame Palm",
+          "desc": "<style=\"highlight\">Если скорость этого юнита выше, чем у цели, получает Coin Power based on разница в скорости (Сила монет +1 за каждые 2 разница в скорости; макс. 2)</style>\n[WinDuel] Получает 3  [Breath:*Кумара*]\n- Получает счётчика  [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +<style=\"highlight\">2</style> счётчика  [Breath:*Кумара*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 2+ [DianxueHongLu], Повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Наносит [DefenseDown] равный [DianxueHongLu] на цели (один раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Virescent Flame Palm",
+          "desc": "Если скорость этого юнита выше, чем у цели, получает Coin Power based on разница в скорости (Сила монет +1 за каждые 2 разница в скорости; макс. 2)\n<style=\"highlight\">[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели), Финальная сила +1</style>\n[WinDuel] Получает 3  [Breath:*Кумара*]\n- Получает счётчика  [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика  [Breath:*Кумара*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 2+ [DianxueHongLu], Повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит [DefenseDown] равный [DianxueHongLu] на цели (один раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Получает the Hit to the Last Blow, Please?",
+          "desc": "Если скорость этого юнита выше, чем у цели на 2 или more, Сила монет +1\n[WinDuel] Получает 3  [Breath:*Кумара*]\n- Получает счётчика  [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели)% урона при раскумаре (макс. 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [DefenseDown] (2 раз за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [DianxueHongLu], Повторно использует эту монету (один раз за скилл)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит урон гневом равный ([Combustion:*Изжоги*] на цели x 2)% финального урона этой монеты (макс. 40%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Получает the Hit to the Last Blow, Please?",
+          "desc": "Если скорость этого юнита выше, чем у цели на 2 или more, Сила монет +1\n<style=\"highlight\">[WhenUse] При 6+ ( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели), Сила монет +1</style>\n[WinDuel] Получает <style=\"highlight\">5</style>  [Breath:*Кумара*]\n- Получает счётчика  [Breath:*Кумара*] равный [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +( [Breath:*Кумара*] на себе + [Combustion:*Изжоги*] на цели)% урона при раскумаре (макс. <style=\"highlight\">30</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [DefenseDown] (2 раз за ход)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [DianxueHongLu], Повторно использует эту монету (один раз за скилл)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит урон гневом равный ([Combustion:*Изжоги*] на цели x 2)% финального урона этой монеты (макс. 40%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Light as a Tuft of Cloud",
+          "desc": "Если скорость этого юнита faster than the attacker's на 2 или more, Сила монет +1\n[StartBattle] Получает +2 счётчика  [Breath:*Кумара*] (один раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Light as a Tuft of Cloud",
+          "desc": "Если скорость этого юнита faster than the attacker's на 2 или more, Сила монет +1\n[StartBattle] Получает +<style=\"highlight\">3</style> счётчика  [Breath:*Кумара*] (один раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
