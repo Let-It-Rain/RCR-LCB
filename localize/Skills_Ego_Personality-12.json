@@ -892,15 +892,15 @@
           "abName": "Кон4-Ж1д-67",
           "level": "1",
           "name": "БДСМ-машина.",
-          "desc": "Получает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- +Сила монет равная (Сила [Charge:*Соли*] на себе - 1)\n[BeforeAttack] Наносит +(Сила [Charge:*Соли*] на себе - 1) [Combustion:*Изжоги*] (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика [Charge:*Соли*] (макс. 7)\n[BeforeAttack] Тратит до 15 счётчиков [Charge:*Соли*] и наносит +1% урона за каждые счётчика потраченной [Charge:*Соли*] (макс. 15%)",
+          "desc": "Получает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на главной цели\n- +Сила монет равная (Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1)\n[BeforeAttack] Наносит +(Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 7)\n[BeforeAttack] Тратит до 15 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и наносит +1% урона за каждые счётчика потраченной <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 15%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding], наносит +2 счётчика [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding], наносит +2 счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 }
               ]
             },
@@ -920,22 +920,22 @@
           "abName": "Кон4-Ж1д-67",
           "level": "3",
           "name": "БДСМ-машина.",
-          "desc": "Получает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- +Сила монет равная (Сила [Charge:*Соли*] на себе - 1)\n[BeforeAttack] Наносит +(Сила [Charge:*Соли*] на себе - 1) [Combustion:*Изжоги*] (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика [Charge:*Соли*] (макс. 7)\n<style=\"highlight\">- При 3 или меньше счётчика [Charge:*Соли*], получает 3 счётчика [Charge:*Соли*]</style>\n[BeforeAttack] Тратит до 15 счётчиков [Charge:*Соли*] и наносит +<style=\"highlight\">2</style>% урона за каждую потраченную [Charge:*Соль*] (макс. <style=\"highlight\">30</style>%)\n<style=\"highlight\">[EndSkill] Если перед атакой потратил 15 счётчиков [Charge:*Соли*], получает +5 счётчика [Charge:*Соли*]</style>",
+          "desc": "Получает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на главной цели\n- +Сила монет равная (Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1)\n[BeforeAttack] Наносит +(Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 7)\n<style=\"highlight\">- При 3 или меньше счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>, получает 3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color></style>\n[BeforeAttack] Тратит до 15 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и наносит +<style=\"highlight\">2</style>% урона за каждую потраченную <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> (макс. <style=\"highlight\">30</style>%)\n<style=\"highlight\">[EndSkill] Если перед атакой потратил 15 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>, получает +5 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]<style=\"highlight\"></style>"
@@ -951,22 +951,22 @@
           "abName": "Кон4-Ж1д-67",
           "level": "4",
           "name": "БДСМ-машина.",
-          "desc": "Получает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- +Сила монет равная (Сила [Charge:*Соли*] на себе - 1)\n[BeforeAttack] Наносит +(Сила [Charge:*Соли*] на себе - 1) [Combustion:*Изжоги*] (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика [Charge:*Соли*] (макс. 7)\n- При 3 или менее счётчиках [Charge:*Соли*], получает 3 счётчика [Charge:*Соли*]\n[BeforeAttack] Тратит до 15 счётчиков [Charge:*Соли*] и наносит +<style=\"highlight\">3</style>% урона за каждую потраченную  [Charge:*Соль*] (макс. <style=\"highlight\">45</style>%)\n<style=\"highlight\">[EndSkill] Если перед атакой потратил 15 счётчика [Charge:*Соли*], получает +5 счётчика [Charge:*Соли*]</style>",
+          "desc": "Получает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на главной цели\n- +Сила монет равная (Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1)\n[BeforeAttack] Наносит +(Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 7)\n- При 3 или менее счётчиках <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>, получает 3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n[BeforeAttack] Тратит до 15 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> и наносит +<style=\"highlight\">3</style>% урона за каждую потраченную  <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соль</noparse></link></u></color> (макс. <style=\"highlight\">45</style>%)\n<style=\"highlight\">[EndSkill] Если перед атакой потратил 15 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>, получает +5 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [IDMicroChip]"
@@ -987,12 +987,12 @@
           "abName": "Кон4-Ж1д-67",
           "level": "1",
           "name": "БДСМ-машина.",
-          "desc": "[CantIdentify]\nЕбашит рандомно\nПолучает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- +Сила монет равная ([Charge:*Соли*] на себе - 1)\n[BeforeAttack] Получает +(наивысш. резон. + 3) счётчиков [Charge:*Соли*] (макс. 10)\n[BeforeAttack] Наносит +(Сила [Charge:*Соли*] + её счётчик - 1)% урона (макс. 20%)\n[EnemyKill] Получает +4 счётчика [Charge:*Соли*]",
+          "desc": "[CantIdentify]\nЕбашит рандомно\nПолучает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на главной цели\n- +Сила монет равная (<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1)\n[BeforeAttack] Получает +(наивысш. резон. + 3) счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 10)\n[BeforeAttack] Наносит +(Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> + её счётчик - 1)% урона (макс. 20%)\n[EnemyKill] Получает +4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]"
@@ -1015,12 +1015,12 @@
           "abName": "Кон4-Ж1д-67",
           "level": "3",
           "name": "БДСМ-машина.",
-          "desc": "[CantIdentify]\nЕбашит рандомно\nПолучает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- +Сила монет равная ([Charge:*Соли*] на себе - 1)\n[BeforeAttack] Получает +(наивысш. резон. + 3) счётчиков [Charge:*Соли*] (макс. 10)\n[BeforeAttack] Наносит +((Сила [Charge:*Соли*] + Счётчик - 1) x <style=\"highlight\">2</style>)% урона (макс. <style=\"highlight\">40</style>%)\n[EnemyKill]\n- получает +4 счётчика [Charge:*Соли*]\n<style=\"highlight\">- Получает 1 [AttackDmgUp] на следующий ход (один раз за ход)</style>",
+          "desc": "[CantIdentify]\nЕбашит рандомно\nПолучает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на главной цели\n- +Сила монет равная (<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1)\n[BeforeAttack] Получает +(наивысш. резон. + 3) счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 10)\n[BeforeAttack] Наносит +((Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> + Счётчик - 1) x <style=\"highlight\">2</style>)% урона (макс. <style=\"highlight\">40</style>%)\n[EnemyKill]\n- получает +4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n<style=\"highlight\">- Получает 1 [AttackDmgUp] на следующий ход (один раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]"
@@ -1033,10 +1033,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] Тратит до 8 счётчика [Charge:*Соли*]</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Тратит до 8 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если потратил счётчик [Charge:*Соли*], наносит урон Завистью равный (потраченный счётчик [Charge:*Соли*] x 5)% от финального урона этой монеты (мин. 5%, макс. 40%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если потратил счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>, наносит урон Завистью равный (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> x 5)% от финального урона этой монеты (мин. 5%, макс. 40%)</style>"
                 }
               ]
             }
@@ -1046,12 +1046,12 @@
           "abName": "Кон4-Ж1д-67",
           "level": "4",
           "name": "БДСМ-машина.",
-          "desc": "[CantIdentify]\nЕбашит рандомно\nПолучает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- +Сила монет равная ([Charge:*Соли*] на себе - 1)\n[BeforeAttack] Получает +(наивысш. резон. + 3) счётчиков [Charge:*Соли*] (макс. 10)\n[BeforeAttack] Наносит +((Сила [Charge:*Соли*] + Счётчик - 1) x <style=\"highlight\">2</style>)% урона (макс. <style=\"highlight\">40</style>%)\n[EnemyKill]\n- получает +4 счётчика [Charge:*Соли*]\n<style=\"highlight\">- Получает 1 [AttackDmgUp] на следующий ход (один раз за ход)</style>",
+          "desc": "[CantIdentify]\nЕбашит рандомно\nПолучает Силу монет при следующих условиях (макс. 3):\n- Сила монет +1 за каждые 6 силы <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> на главной цели\n- +Сила монет равная (<sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> на себе - 1)\n[BeforeAttack] Получает +(наивысш. резон. + 3) счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> (макс. 10)\n[BeforeAttack] Наносит +((Сила <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> + Счётчик - 1) x <style=\"highlight\">2</style>)% урона (макс. <style=\"highlight\">40</style>%)\n[EnemyKill]\n- получает +4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>\n<style=\"highlight\">- Получает 1 [AttackDmgUp] на следующий ход (один раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">+3</style> счётчика [Combustion:*Изжоги*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">+3</style> счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [IDMicroChip]"
@@ -1064,10 +1064,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Тратит до 8 счётчика [Charge:*Соли*]<style=\"highlight\"></style>"
+                  "desc": "[OnStartCoin] Тратит до 8 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если потратил счётчик [Charge:*Соли*], наносит урон Завистью равный (потраченный счётчик [Charge:*Соли*] x 5)% от финального урона этой монеты (мин. 5%, макс. 40%)"
+                  "desc": "[OnSucceedAttack] Если потратил счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color>, наносит урон Завистью равный (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\"><noparse>Соли</noparse></link></u></color> x 5)% от финального урона этой монеты (мин. 5%, макс. 40%)"
                 }
               ]
             }
