@@ -885,6 +885,196 @@
         }
       ],
       "id": "2120921"
+    },
+    {
+      "id": 2121011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Move-in Reg.",
+          "abName": "Kqe-1j-23",
+          "desc": "Получает Coin Power based on the following conditions (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- Получает Coin Power равный (силы [Charge:*Соли*] на себе - 1)\n[BeforeAttack] This Skill inflicts +(силы [Charge:*Соли*] на себе - 1) more силы [Combustion:*Изжоги*] (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика [Charge:*Соли*] (макс. 7)\n[BeforeAttack] Тратит до 15 счётчика [Charge:*Соли*] и наносит +1% урона за каждые счётчика потраченого [Charge:*Соли*] (макс. 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Move-in Reg.",
+          "abName": "Kqe-1j-23",
+          "desc": "Получает Coin Power based on the following conditions (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- Получает Coin Power равный (силы [Charge:*Соли*] на себе - 1)\n[BeforeAttack] This Skill inflicts +(силы [Charge:*Соли*] на себе - 1) more силы [Combustion:*Изжоги*] (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика [Charge:*Соли*] (макс. 7)\n<style=\"highlight\">- При 3 или fewer счётчика [Charge:*Соли*], получает 3 more счётчика [Charge:*Соли*]</style>\n[BeforeAttack] Тратит до 15 счётчика [Charge:*Соли*] и наносит +<style=\"highlight\">2</style>% урона за каждые счётчика потраченого [Charge:*Соли*] (макс. <style=\"highlight\">30</style>%)\n<style=\"highlight\">[EndSkill] Если the Before Attack effects consumed 15 счётчика [Charge:*Соли*], получает +5 счётчика [Charge:*Соли*]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Move-in Reg.",
+          "abName": "Kqe-1j-23",
+          "desc": "Получает Coin Power based on the following conditions (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- Получает Coin Power равный (силы [Charge:*Соли*] на себе - 1)\n[BeforeAttack] This Skill inflicts +(силы [Charge:*Соли*] на себе - 1) more силы [Combustion:*Изжоги*] (макс. 2)\n[BeforeAttack] Получает +(наивысший резонанс + 1) счётчика [Charge:*Соли*] (макс. 7)\n- При 3 или fewer счётчика [Charge:*Соли*], получает 3 more счётчика [Charge:*Соли*]\n[BeforeAttack] Тратит до 15 счётчика [Charge:*Соли*] и наносит +<style=\"highlight\">3</style>% урона за каждые счётчика потраченого [Charge:*Соли*] (макс. <style=\"highlight\">45</style>%)\n[EndSkill] Если the Before Attack effects consumed 15 счётчика [Charge:*Соли*], получает +5 счётчика [Charge:*Соли*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding],  наносит +2 счётчика [Combustion:*Изжоги*]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2121021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Move-in Reg.",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nTargets randomly\nПолучает Coin Power based on the following conditions (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- Получает Coin Power равный (силы [Charge:*Соли*] на себе - 1)\n[BeforeAttack] Получает +(наивысший резонанс + 3) счётчика [Charge:*Соли*] (макс. 10)\n[BeforeAttack] Наносит +(силы [Charge:*Соли*] + Count - 1)% урона (макс. 20%)\n[EnemyKill] Получает +4 счётчика [Charge:*Соли*]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Move-in Reg.",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nTargets randomly\nПолучает Coin Power based on the following conditions (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- Получает Coin Power равный (силы [Charge:*Соли*] на себе - 1)\n[BeforeAttack] Получает +(наивысший резонанс + 3) счётчика [Charge:*Соли*] (макс. 10)\n[BeforeAttack] Наносит +((силы [Charge:*Соли*] + Count - 1) x <style=\"highlight\">2</style>)% урона (макс. <style=\"highlight\">40</style>%)\n[EnemyKill]\n- получает +4 счётчика [Charge:*Соли*]\n<style=\"highlight\">- Получает 1 [AttackDmgUp] на следующий ход (один раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Тратит до 8 счётчика [Charge:*Соли*]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если this Coin consumed счётчика [Charge:*Соли*], наносит Envy урон равный (счётчика потраченого [Charge:*Соли*] x 5)% финального урона этой монеты (min 5%, макс. 40%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Move-in Reg.",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nTargets randomly\nПолучает Coin Power based on the following conditions (макс. 3):\n- Сила монет +1 за каждые 6 силы [Combustion:*Изжоги*] на главной цели\n- Получает Coin Power равный (силы [Charge:*Соли*] на себе - 1)\n[BeforeAttack] Получает +(наивысший резонанс + 3) счётчика [Charge:*Соли*] (макс. 10)\n[BeforeAttack] Наносит +((силы [Charge:*Соли*] + Count - 1) x <style=\"highlight\">3</style>)% урона (макс. <style=\"highlight\">60</style>%)\n[EnemyKill]\n- получает +4 счётчика [Charge:*Соли*]\n- Получает 1 [AttackDmgUp] на следующий ход (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">+3</style> счётчика [Combustion:*Изжоги*]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Тратит до 8 счётчика [Charge:*Соли*]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если this Coin consumed счётчика [Charge:*Соли*], наносит Envy урон равный (счётчика потраченого [Charge:*Соли*] x 5)% финального урона этой монеты (min 5%, макс. 40%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
