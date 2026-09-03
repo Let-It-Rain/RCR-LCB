@@ -55,6 +55,27 @@
               ]
             }
           ]
+        },
+        {
+          "abName": "Wellcheers",
+          "level": "5",
+          "name": "Soda",
+          "desc": "<style=\"highlight\">Если цель имела менее 25% ХП, наносит +40% урона\n[BeforeAttack] При 4+ наивысш. резон., получает +1 к Весу атаки\n\n[EndSkill] Накладывает 1 [GainSinStockAdder] на следующий ход (2 + наивысший резонанс) случайным союзникам, включая эту айдишку (макс. 7)\n[EndSkill] Если среди целей были те, кто в панике или стаггере, получает 1 наименее имеющийся Э.Г.О-ресурс; хилит 3 IQ</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 4 [Vibration:*Тряски*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Депрессии*] <style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 случайных Э.Г.О-ресурса, которых вы уже имеете; все союзники хилят 3 IQ<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ],
       "id": "2040511"
@@ -110,6 +131,33 @@
                 },
                 {
                   "desc": "[EndSkill] Все союзники получают +1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Э.Г.О ресурс АМП</color></link></u>., получает 1 спешку на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "abName": "Wellcheers",
+          "level": "5",
+          "name": "Soda",
+          "desc": "[CantIdentify]\nЕбашит рандомно\n\n<style=\"highlight\">Если цель имела менее 25% ХП, наносит +40% урона\n[DefeatDuel] Базовая сила -12\n[BeforeAttack] При 4+ наивысш. резон., получает +1 к Весу атаки\n[EndSkill] Если среди целей были те, кто в панике или стаггере, получает 1 наименее имеющийся Э.Г.О-ресурс; хилит 3 IQ</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 4 [Vibration:*Тряски*]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Sinking:*Депрессии*] <style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndSkill] Все союзники получают 1 [GainSinStockAdder], накладывает 1 [Agility] на следующий ход<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndSkillTail] Все союзники получают 1 [GainSinStockAdder] на следующий ход (один раз за ход)</style>"
                 }
               ]
             }
