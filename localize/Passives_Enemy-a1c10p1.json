@@ -1,90 +1,90 @@
 {
   "dataList": [
     {
-      "id": 9105901,
-      "name": "Glass bottles need to be handled carefully...!",
-      "desc": "при получении удара на a Skill, получает 3 [Laceration:*Кетчупа*] (один раз за скилл)\n\nКогда the above effect activates, получает 1 [ResultEnhancement] на следующий ход (макс. 2)"
+      "name": "Со стеклянными бутылками нужно быть осторожными!",
+      "desc": "При получении удара скиллом, получает 3 [Laceration:*Кетчупа*] (один раз за скилл)\n\nКогда эффект выше активируется, получает 1 [ResultEnhancement] на следующий ход (макс. 2)",
+      "id": "9105901"
     },
     {
-      "id": 9105902,
-      "name": "Phew, my bottle's safe",
-      "desc": "Конец хода: Если this unit не have [Laceration:*Кетчупа*], хилит 5 IQ"
+      "name": "Фух, мои бутылки в безопасности",
+      "desc": "Конец хода: Если у этого юнита нет [Laceration:*Кетчупа*], хилит 5 IQ",
+      "id": "9105902"
     },
     {
-      "id": 9105903,
-      "name": "I must fill the bottle",
-      "desc": "Если the target hit на this unit's Skill has [Laceration:*Кетчупа*], и если this unit is not при макс. ХП, хилит 2% ХП (2 раз pre turn; округляется вниз)"
+      "name": "Я должен заполнить бутылку",
+      "desc": "Если цель, которую ударил этот скилл, имеет [Laceration:*Кетчупа*], и если этот юнит не на макс. ХП, хилит 2% ХП (2 раза за ход; округляется вниз)",
+      "id": "9105903"
     },
     {
-      "id": 9106601,
-      "name": "Le Noir: Fabric",
-      "desc": "При первом выходе на поле боя, получает 5 [NoirBindArmor]\n\nНачало хода: получает щит равный (10 + [NoirBindArmor] стаков)% of this unit's макс. ХП",
-      "flavor": "Le Noir's Worsted holds the body like armor, accentuating it beneath a firm, fixed silhouette."
+      "name": "Ле Нуар: Фабрика",
+      "desc": "При первом выходе на поле боя, получает 5 [NoirBindArmor]\n\nНачало хода: получает щит равный (10 + [NoirBindArmor] стаков)% от макс. ХП этого юнита.",
+      "flavor": "Камвольная шерсть Le Noir облегает тело, словно доспехи, подчеркивая его формы и создавая строгий, четко зафиксированный силуэт.",
+      "id": "9106601"
     },
     {
-      "id": 9106602,
-      "name": "Preservation",
-      "desc": "Получает 1 [NoirBindArmor] за каждые 5 кумулятивного счётчика [ChargeNoir] this unit consumes в этой битве\nПолучает 1 [ChargeNoir] за каждые 10 кумулятивного счётчика [ChargeNoir] this unit consumes в этой битве",
-      "flavor": "Force is compressed, gathered, и fixed in place. Sometimes, it takes more force to prevent change than to cause it."
+      "name": "Сохранение",
+      "desc": "Получает 1 [NoirBindArmor] за каждые 5 кумулятивного счётчика [ChargeNoir], потраченного этим юнитом в этой битве\nПолучает 1 [ChargeNoir] за каждые 10 кумулятивного счётчика [ChargeNoir], потраченного этим юнитом в этой битве",
+      "flavor": "Сила сжимается, собирается и фиксируется на месте. Иногда требуется больше усилий, чтобы предотвратить изменения, чем чтобы их вызвать.",
+      "id": "9106602"
     },
     {
-      "id": 9106603,
       "name": "Change for Inertness",
-      "desc": "Начало хода: При 10+ счётчика [ChargeNoir], использует a powerful Skill\n\nпри использовании скилла, при 15+ счётчика [ChargeNoir], Тратит 3 счётчика [ChargeNoir] to наносит +20% урона",
-      "flavor": "This new Voice tells me that it will help change me... so that I'll never change again."
+      "desc": "Начало хода: При 10+ счётчика [ChargeNoir], использует сильный скилл.\n\nПри использовании скилла, при 15+ счётчика [ChargeNoir], Тратит 3 счётчика [ChargeNoir] и наносит +20% урона",
+      "flavor": "Этот новый Голос говорит мне, что поможет мне измениться... так, чтобы я больше никогда не менялся.",
+      "id": "9106603"
     },
     {
-      "id": 9106604,
-      "name": "I hear it... the Voice of another god...!",
-      "desc": "При первом выходе на поле боя, получает 2 [RisingMadnessNoir]\n- Начало хода: Когда ХП этого юнита drops below 50% for the first time в этой битве, convert [RisingMadnessNoir] в [RisingMadnessNoir2nd]\n\nПри клеше теряет и получает +2 счётчика [ChargeNoir]",
-      "flavor": "They heard the warm Voice, yet could change no further. With the mind trapped within the flesh, the self schismatized from itself и fell в madness."
+      "name": "Я слышу... слышу Голос очередного бога...!",
+      "desc": "При первом выходе на поле боя, получает 2 [RisingMadnessNoir]\n- Начало хода: Когда ХП этого юнита станет менее 50% в первый раз за эту битву, конвертирует [RisingMadnessNoir] в [RisingMadnessNoir2nd]\n\nПри клеше теряет и получает +2 счётчика [ChargeNoir]",
+      "flavor": "Они слышали этот теплый Голос, но более не могли измениться. Когда разум оказался заперт в плоти, «я» раскололось надвое и погрузилось в безумие.",
+      "id": "9106604"
     },
     {
-      "id": 9106001,
-      "name": "Digging",
-      "desc": "Clash Start: Получает 2  силы [Breath:*Кумара*] на следующий ход за каждые type of effect на цели (макс. 10)\n- Если на цели есть 3+ types of effects, получает +3 счётчика  [Breath:*Кумара*] на следующий ход",
-      "flavor": "Unable to create worth или value of their own, the Kakis dig through the pockets of the valued in the department store, searching for things of worth."
+      "name": "Копание",
+      "desc": "Начало Клеша: Получает 2  силы [Breath:*Кумара*] на следующий ход за каждый тип эффектов на цели (макс. 10)\n- Если на цели есть 3+ типа эффектов, получает +3 счётчика  [Breath:*Кумара*] на следующий ход",
+      "flavor": "Неспособные создать собственную ценность или значимость, Каки роются в карманах уважаемых людей в магазине в поисках ценных вещей.\r\n",
+      "id": "9106001"
     },
     {
-      "id": 9106002,
-      "name": "Awaiting Seasonal Trend",
+      "name": "Ожидание Сезонного Тренда",
       "desc": "При 6+  силы [Breath:*Кумара*], Сила монет +1",
-      "flavor": "So, what's the core trend this season? Tell me before everyone else gets one!"
+      "flavor": "Итак, какой тренд — главный в этом сезоне? Расскажи мне, пока его не подхватили все остальные!",
+      "id": "9106002"
     },
     {
-      "id": 9106003,
-      "name": "Clinging to What Little Remains",
-      "desc": "Начало хода: Хилит 3 IQ за каждые 10% missing ХП на себе (макс. 15)"
+      "name": "Цепляясь за то немногое, что осталось",
+      "desc": "Начало хода: Хилит 3 IQ за каждые 10% потерянного ХП на себе (макс. 15)",
+      "id": "9106003"
     },
     {
-      "id": 9106004,
-      "name": "I hear it... the Voice of another god...!",
-      "desc": "При первом выходе на поле боя, получает 2 [RisingMadnessSisyphe]\n- Начало хода: Когда ХП этого юнита drops below 50% for the first time в этой битве, convert [RisingMadnessSisyphe] в [RisingMadnessSisyphe2nd]",
-      "flavor": "They heard the warm Voice, yet could change no further. With the mind trapped within the flesh, the self schismatized from itself и fell в madness."
+      "name": "Я слышу... слышу Голос очередного бога...!",
+      "desc": "При первом выходе на поле боя, получает 2 [RisingMadnessSisyphe]\n- Начало хода: Когда ХП этого юнита станет менее 50% в первый раз за эту битву, конвертирует [RisingMadnessSisyphe] в [RisingMadnessSisyphe2nd]",
+      "flavor": "Они слышали этот теплый Голос, но более не могли измениться. Когда разум оказался заперт в плоти, «я» раскололось надвое и погрузилось в безумие.",
+      "id": "9106004"
     },
     {
-      "id": 9106301,
-      "name": "Sewing",
-      "desc": "Наносит на +1 больше [NiddlePin] стаков against targets that have 1.5+ Pierce Resist. или Envy Resist.",
-      "flavor": "Ends per inch, picks per inch, stitch per inch. Important!"
+      "name": "Разрезание",
+      "desc": "Наносит на +1 больше [NiddlePin] стаков против целей, у которых 1.5+ сопротивление к Колющему урону или к Зависти.",
+      "flavor": "Ends per inch, picks per inch, stitch per inch. Important!",
+      "id": "9106301"
     },
     {
-      "id": 9106302,
-      "name": "A Tiny Sharp Needle",
-      "desc": "Когда using Skills to наносит силы [Laceration:*Кетчупа*] against enemies that have [NiddlePin], наносит +([NiddlePin] стаков на цели) more силы [Laceration:*Кетчупа*] (макс. 3)",
-      "flavor": "A needle is no different from a nail."
+      "name": "Маленькая Тонкая Игла",
+      "desc": "Когда использует скиллы, которые накладывают [Laceration:*Кетчуп*] против целей, имеющих [NiddlePin], наносит +([NiddlePin] стаков на цели) больше силы [Laceration:*Кетчупа*] (макс. 3)",
+      "flavor": "Иголка ничем не отличается от гвоздя.",
+      "id": "9106302"
     },
     {
-      "id": 9106701,
-      "name": "Desperation",
-      "desc": "Начало хода: При 3+ силы [ChargeRouge] и 10+ счётчика [ChargeRouge], использует a powerful Skill\n\nSkills наносит +1% урона за каждые 1% missing ХП на себе",
-      "flavor": "So that I can be myself... My true self, expressed beyond what mere clothes can express!"
+      "name": "Отчаяние",
+      "desc": "Начало хода: При 3+ силы [ChargeRouge] и 10+ счётчика [ChargeRouge], использует сильный скилл\n\nСкиллы наносят +1% урона за каждые 1% потерянного ХП на себе",
+      "flavor": "Чтобы я могла быть собой... сама собой — по-настоящему, выражая себя так, как не под силу одной лишь одежде!",
+      "id": "9106701"
     },
     {
-      "id": 9106702,
-      "name": "I hear it... the Voice of another god...!",
-      "desc": "Начало битвы: Получает [RisingMadnessRouge]\n- Начало хода: Когда ХП этого юнита drops below 50% for the first time в этой битве, convert [RisingMadnessRouge] в [RisingMadnessRouge2nd]\n\nПри клеше теряет и получает +2 счётчика [ChargeRouge]",
-      "flavor": "They heard the warm Voice, yet could change no further. With the mind trapped within the flesh, the self schismatized from itself и fell в madness."
+      "name": "Я слышу... слышу Голос очередного бога...!",
+      "desc": "Начало битвы: Получает [RisingMadnessRouge]\n- Начало хода: Когда ХП этого юнита становится менее 50% в первый раз за эту битву, конвертирует [RisingMadnessRouge] в [RisingMadnessRouge2nd]\n\nПри клеше теряет и получает +2 счётчика [ChargeRouge]",
+      "flavor": "Они слышали этот теплый Голос, но более не могли измениться. Когда разум оказался заперт в плоти, «я» раскололось надвое и погрузилось в безумие.",
+      "id": "9106702"
     }
   ]
 }
