@@ -1,0 +1,90 @@
+{
+  "dataList": [
+    {
+      "id": 9105901,
+      "name": "Glass bottles need to be handled carefully...!",
+      "desc": "при получении удара на a Skill, получает 3 [Laceration:*Кетчупа*] (один раз за скилл)\n\nКогда the above effect activates, получает 1 [ResultEnhancement] на следующий ход (макс. 2)"
+    },
+    {
+      "id": 9105902,
+      "name": "Phew, my bottle's safe",
+      "desc": "Конец хода: Если this unit не have [Laceration:*Кетчупа*], хилит 5 IQ"
+    },
+    {
+      "id": 9105903,
+      "name": "I must fill the bottle",
+      "desc": "Если the target hit на this unit's Skill has [Laceration:*Кетчупа*], и если this unit is not при макс. ХП, хилит 2% ХП (2 раз pre turn; округляется вниз)"
+    },
+    {
+      "id": 9106601,
+      "name": "Le Noir: Fabric",
+      "desc": "При первом выходе на поле боя, получает 5 [NoirBindArmor]\n\nНачало хода: получает щит равный (10 + [NoirBindArmor] стаков)% of this unit's макс. ХП",
+      "flavor": "Le Noir's Worsted holds the body like armor, accentuating it beneath a firm, fixed silhouette."
+    },
+    {
+      "id": 9106602,
+      "name": "Preservation",
+      "desc": "Получает 1 [NoirBindArmor] за каждые 5 кумулятивного счётчика [ChargeNoir] this unit consumes в этой битве\nПолучает 1 [ChargeNoir] за каждые 10 кумулятивного счётчика [ChargeNoir] this unit consumes в этой битве",
+      "flavor": "Force is compressed, gathered, и fixed in place. Sometimes, it takes more force to prevent change than to cause it."
+    },
+    {
+      "id": 9106603,
+      "name": "Change for Inertness",
+      "desc": "Начало хода: При 10+ счётчика [ChargeNoir], использует a powerful Skill\n\nпри использовании скилла, при 15+ счётчика [ChargeNoir], Тратит 3 счётчика [ChargeNoir] to наносит +20% урона",
+      "flavor": "This new Voice tells me that it will help change me... so that I'll never change again."
+    },
+    {
+      "id": 9106604,
+      "name": "I hear it... the Voice of another god...!",
+      "desc": "При первом выходе на поле боя, получает 2 [RisingMadnessNoir]\n- Начало хода: Когда ХП этого юнита drops below 50% for the first time в этой битве, convert [RisingMadnessNoir] в [RisingMadnessNoir2nd]\n\nПри клеше теряет и получает +2 счётчика [ChargeNoir]",
+      "flavor": "They heard the warm Voice, yet could change no further. With the mind trapped within the flesh, the self schismatized from itself и fell в madness."
+    },
+    {
+      "id": 9106001,
+      "name": "Digging",
+      "desc": "Clash Start: Получает 2  силы [Breath:*Кумара*] на следующий ход за каждые type of effect на цели (макс. 10)\n- Если на цели есть 3+ types of effects, получает +3 счётчика  [Breath:*Кумара*] на следующий ход",
+      "flavor": "Unable to create worth или value of their own, the Kakis dig through the pockets of the valued in the department store, searching for things of worth."
+    },
+    {
+      "id": 9106002,
+      "name": "Awaiting Seasonal Trend",
+      "desc": "При 6+  силы [Breath:*Кумара*], Сила монет +1",
+      "flavor": "So, what's the core trend this season? Tell me before everyone else gets one!"
+    },
+    {
+      "id": 9106003,
+      "name": "Clinging to What Little Remains",
+      "desc": "Начало хода: Хилит 3 IQ за каждые 10% missing ХП на себе (макс. 15)"
+    },
+    {
+      "id": 9106004,
+      "name": "I hear it... the Voice of another god...!",
+      "desc": "При первом выходе на поле боя, получает 2 [RisingMadnessSisyphe]\n- Начало хода: Когда ХП этого юнита drops below 50% for the first time в этой битве, convert [RisingMadnessSisyphe] в [RisingMadnessSisyphe2nd]",
+      "flavor": "They heard the warm Voice, yet could change no further. With the mind trapped within the flesh, the self schismatized from itself и fell в madness."
+    },
+    {
+      "id": 9106301,
+      "name": "Sewing",
+      "desc": "Наносит на +1 больше [NiddlePin] стаков against targets that have 1.5+ Pierce Resist. или Envy Resist.",
+      "flavor": "Ends per inch, picks per inch, stitch per inch. Important!"
+    },
+    {
+      "id": 9106302,
+      "name": "A Tiny Sharp Needle",
+      "desc": "Когда using Skills to наносит силы [Laceration:*Кетчупа*] against enemies that have [NiddlePin], наносит +([NiddlePin] стаков на цели) more силы [Laceration:*Кетчупа*] (макс. 3)",
+      "flavor": "A needle is no different from a nail."
+    },
+    {
+      "id": 9106701,
+      "name": "Desperation",
+      "desc": "Начало хода: При 3+ силы [ChargeRouge] и 10+ счётчика [ChargeRouge], использует a powerful Skill\n\nSkills наносит +1% урона за каждые 1% missing ХП на себе",
+      "flavor": "So that I can be myself... My true self, expressed beyond what mere clothes can express!"
+    },
+    {
+      "id": 9106702,
+      "name": "I hear it... the Voice of another god...!",
+      "desc": "Начало битвы: Получает [RisingMadnessRouge]\n- Начало хода: Когда ХП этого юнита drops below 50% for the first time в этой битве, convert [RisingMadnessRouge] в [RisingMadnessRouge2nd]\n\nПри клеше теряет и получает +2 счётчика [ChargeRouge]",
+      "flavor": "They heard the warm Voice, yet could change no further. With the mind trapped within the flesh, the self schismatized from itself и fell в madness."
+    }
+  ]
+}
