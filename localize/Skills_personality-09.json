@@ -3705,7 +3705,7 @@
         {
           "level": 1,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +3 [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects (once per turn):\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 1 [Enhancement]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Если target is an ally, накладывает +3 счётчика [Charge:*Соли*] и 1 [AttackUp]\n[EndSkill] Если target is an ally, активирует следующие эффекты (один раз за ход):\n- Накладывает Shield равный 5% of this unit's макс. ХП (min 1)\n- Накладывает 1 [NoirScissorShield]\n- Если target is [PersonalityCharge], накладывает 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": []
@@ -3715,7 +3715,7 @@
         {
           "level": 2,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +<style=\"highlight\">4</style> [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects (once per turn):\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 1 [Enhancement]<style=\"highlight\"></style>",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Если target is an ally, накладывает +<style=\"highlight\">4</style> счётчика [Charge:*Соли*] и 1 [AttackUp]\n[EndSkill] Если target is an ally, активирует следующие эффекты (один раз за ход):\n- Накладывает Shield равный 5% of this unit's макс. ХП (min 1)\n- Накладывает 1 [NoirScissorShield]\n- Если target is [PersonalityCharge], накладывает 1 [Enhancement]<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": []
@@ -3725,7 +3725,7 @@
         {
           "level": 4,
           "name": "Retouche",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] If target is an ally, apply +4 [Charge] Count and 1 [AttackUp]\n[EndSkill] If target is an ally, activate the following effects <style=\"highlight\">(2 times per turn)</style>:\n- Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP (min 1)\n- Apply 1 [NoirScissorShield]\n- If target is [PersonalityCharge], apply 2 [Enhancement]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Если target is an ally, накладывает +4 счётчика [Charge:*Соли*] и 1 [AttackUp]\n[EndSkill] Если target is an ally, активирует следующие эффекты <style=\"highlight\">(2 раз за ход)</style>:\n- Накладывает Shield равный <style=\"highlight\">10%</style> of this unit's макс. ХП (min 1)\n- Накладывает 1 [NoirScissorShield]\n- Если target is [PersonalityCharge], накладывает 2 [Enhancement]",
           "coinlist": [
             {
               "coindescs": []
@@ -3739,27 +3739,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said Identity is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Pin и Trim Along the Patterns",
+          "desc": "[StartBattle] Накладывает следующие эффекты to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; один раз за ход):\n- Накладывает 2 [AttackUp]\n- Накладывает Shield равный 5% of this unit's макс. ХП (min 1)\n- Если the said Identity is [PersonalityCharge], накладывает дополнительно 1 [AttackUp] и Shield равный 5% of this unit's макс. ХП\n\n[WhenUse] Если на цели есть 6+ силы [Vibration:*Тряски*], Сила монет +1\n[WhenUse] Тратит 5 счётчика [ChargeKhakiAlly] для получения Финальная сила +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count"
+                  "desc": "[OnSucceedAttack] Получает +6 счётчика [ChargeKhakiAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -3767,27 +3767,27 @@
         },
         {
           "level": 2,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to <style=\"highlight\">this unit and</style> 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said Identity is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Pin и Trim Along the Patterns",
+          "desc": "[StartBattle] Накладывает следующие эффекты to <style=\"highlight\">this unit и</style> 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]; один раз за ход):\n- Накладывает 2 [AttackUp]\n- Накладывает Shield равный 5% of this unit's макс. ХП (min 1)\n- Если the said Identity is [PersonalityCharge], накладывает дополнительно 1 [AttackUp] и Shield равный 5% of this unit's макс. ХП\n\n[WhenUse] Если на цели есть 6+ силы [Vibration:*Тряски*], Сила монет +1\n[WhenUse] Тратит 5 счётчика [ChargeKhakiAlly] для получения Финальная сила +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +6 счётчика [ChargeKhakiAlly]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3795,30 +3795,30 @@
         },
         {
           "level": 4,
-          "name": "Pin and Trim Along the Patterns",
-          "desc": "[StartBattle] Apply the following effects to this unit, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), <style=\"highlight\">and 1 ally with the lowest current HP percentage</style> (once per turn):\n- Apply 2 [AttackUp]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n- If the said ally is [PersonalityCharge], apply an additional 1 [AttackUp] and Shield equal to 5% of this unit's max HP\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] Potency on target (max 2)</style>\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2",
+          "name": "Pin и Trim Along the Patterns",
+          "desc": "[StartBattle] Накладывает следующие эффекты этому юниту, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), <style=\"highlight\">и 1 ally with the lowest current ХП percentage</style> (один раз за ход):\n- Накладывает 2 [AttackUp]\n- Накладывает Shield равный 5% of this unit's макс. ХП (min 1)\n- Если the said ally is [PersonalityCharge], накладывает дополнительно 1 [AttackUp] и Shield равный 5% of this unit's макс. ХП\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 сила [Vibration:*Тряски*] на цели (макс. 2)</style>\n[WhenUse] Тратит 5 счётчика [ChargeKhakiAlly] для получения Финальная сила +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +6 [ChargeKhakiAlly] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает +6 счётчика [ChargeKhakiAlly]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [AmberResistDown] (once per turn)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AmberResistDown] (один раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3832,35 +3832,35 @@
         {
           "level": 3,
           "name": "Coupez dans le Biais",
-          "desc": "Deal +15% damage for every [NoirScissorCut] on self (max 30%)\n\n[StartBattle] Apply the following effects to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]) and 1 ally with the lowest current HP percentage (once per turn):\n- Apply 1 [NoirScissorShield]\n- Apply Shield equal to 5% of this unit's max HP (min 1)\n\n[WhenUse] If target has 6+ [Vibration] Potency, Coin Power +1\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2\n\n[EndSkill] Gain +5 [ChargeKhakiAlly] Count",
+          "desc": "Наносит +15% урона за каждые [NoirScissorCut] на себе (макс. 30%)\n\n[StartBattle] Накладывает следующие эффекты to 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]) и 1 ally with the lowest current ХП percentage (один раз за ход):\n- Накладывает 1 [NoirScissorShield]\n- Накладывает Shield равный 5% of this unit's макс. ХП (min 1)\n\n[WhenUse] Если на цели есть 6+ силы [Vibration:*Тряски*], Сила монет +1\n[WhenUse] Финальная сила +1 за каждые 3 силы [ChargeKhakiAlly] (макс. 2)\n[WhenUse] Тратит 5 счётчика [ChargeKhakiAlly] для получения Финальная сила +2\n\n[EndSkill] Получает +5 счётчика [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [ChargeKhakiAlly] Count, consume 5 [ChargeKhakiAlly] Count to trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] При 5+ счётчика [ChargeKhakiAlly], Тратит 5 счётчика [ChargeKhakiAlly] to [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -3869,35 +3869,35 @@
         {
           "level": 4,
           "name": "Coupez dans le Biais",
-          "desc": "Deal <style=\"highlight\">+30%</style> damage for every [NoirScissorCut] on self <style=\"highlight\">(max 60%)</style>\n\n[StartBattle] Apply the following effects to this unit, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), and 1 ally with the lowest current HP percentage (once per turn):\n- Apply 1 [NoirScissorShield]\n- Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP (min 1)\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Vibration] Potency on target (max 2)</style>\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Consume 5 [ChargeKhakiAlly] Count to gain Final Power +2\n\n[EndSkill] Gain +5 [ChargeKhakiAlly] Count",
+          "desc": "Наносит <style=\"highlight\">+30%</style> урона за каждые [NoirScissorCut] на себе <style=\"highlight\">(макс. 60%)</style>\n\n[StartBattle] Накладывает следующие эффекты этому юниту, 1 other ally with the earliest Deployment Order (prioritizes [PersonalityCharge]), и 1 ally with the lowest current ХП percentage (один раз за ход):\n- Накладывает 1 [NoirScissorShield]\n- Накладывает Shield равный <style=\"highlight\">10%</style> of this unit's макс. ХП (min 1)\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 сила [Vibration:*Тряски*] на цели (макс. 2)</style>\n[WhenUse] Финальная сила +1 за каждые 3 силы [ChargeKhakiAlly] (макс. 2)\n[WhenUse] Тратит 5 счётчика [ChargeKhakiAlly] для получения Финальная сила +2\n\n[EndSkill] Получает +5 счётчика [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 5+ [ChargeKhakiAlly] Count, consume 5 [ChargeKhakiAlly] Count to trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] При 5+ счётчика [ChargeKhakiAlly], Тратит 5 счётчика [ChargeKhakiAlly] to [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -3911,12 +3911,12 @@
         {
           "level": 1,
           "name": "Trimming",
-          "desc": "[DuelCounter]\n[StartBattle] Gain +5 [ChargeKhakiAlly] Count (2 times per turn)\n[StartBattle] Apply Shield equal to 5% of this unit's max HP to this unit and 2 other allies with the lowest current HP percentage (min 1, once per turn)",
+          "desc": "[DuelCounter]\n[StartBattle] Получает +5 счётчика [ChargeKhakiAlly] (2 раз за ход)\n[StartBattle] Накладывает Shield равный 5% of this unit's макс. ХП этому юниту и 2 other allies with the lowest current ХП percentage (min 1, один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -3925,12 +3925,12 @@
         {
           "level": 4,
           "name": "Trimming",
-          "desc": "[DuelCounter]\n[StartBattle] Gain +5 [ChargeKhakiAlly] Count (2 times per turn)\n[StartBattle] Apply Shield equal to <style=\"highlight\">10%</style> of this unit's max HP to this unit and 2 other allies with the lowest current HP percentage (min 1, once per turn)\n\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 5 [ChargeKhakiAlly] Count (max 4)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Получает +5 счётчика [ChargeKhakiAlly] (2 раз за ход)\n[StartBattle] Накладывает Shield равный <style=\"highlight\">10%</style> of this unit's макс. ХП этому юниту и 2 other allies with the lowest current ХП percentage (min 1, один раз за ход)\n\n<style=\"highlight\">[WhenUse] Сила клеша +1 за каждые 5 счётчика [ChargeKhakiAlly] (макс. 4)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -3944,18 +3944,18 @@
         {
           "level": 1,
           "name": "Patterning",
-          "desc": "[CantDuel]\n[WhenUse] Gain +3 [ChargeKhakiAlly] Count",
+          "desc": "[CantDuel]\n[WhenUse] Получает +3 счётчика [ChargeKhakiAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 3+ [ChargeKhakiAlly] Potency, Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] При 3+ силы [ChargeKhakiAlly], Повторно использует эту монету (один раз за скилл)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [NoirScissorAlly]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly]"
                 }
               ]
             }
@@ -3969,19 +3969,19 @@
         {
           "level": 1,
           "name": "Cutout",
-          "desc": "[CantDuel]\n[WhenUse] Final Power +1 for every 3 [ChargeKhakiAlly] Potency (max 2)\n[WhenUse] Gain +5 [ChargeKhakiAlly] Count\n\n[EndSkill] Consume 2 [NoirScissorAlly] on target\n[EndSkill] Gain 1 [NoirScissorCut]",
+          "desc": "[CantDuel]\n[WhenUse] Финальная сила +1 за каждые 3 силы [ChargeKhakiAlly] (макс. 2)\n[WhenUse] Получает +5 счётчика [ChargeKhakiAlly]\n\n[EndSkill] Тратит 2 [NoirScissorAlly] на цели\n[EndSkill] Получает 1 [NoirScissorCut]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
