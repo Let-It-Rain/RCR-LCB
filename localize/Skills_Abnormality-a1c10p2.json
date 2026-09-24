@@ -744,7 +744,7 @@
         {
           "level": 1,
           "name": "Trimming",
-          "desc": "[WhenUse]\n- При 10+ счётчика [ChargeKhaki], Сила монет +1\n- Если у этого юнита есть [LargeTailoringShears], наносит +([LargeTailoringShears] стаков x 10)% урона (макс. 30%)\n[WhenUse] При менее 15 счётчика [ChargeKhaki], получает +2 счётчика [ChargeKhaki]",
+          "desc": "[WhenUse]\n- При 10+ счётчика [ChargeKhaki], Сила монет +1\n- Если у этого юнита есть [LargeTailoringShears], наносит +(стаки [LargeTailoringShears] x 10)% урона (макс. 30%)\n[WhenUse] При менее 15 счётчика [ChargeKhaki], получает +2 счётчика [ChargeKhaki]",
           "coinlist": [
             {
               "coindescs": [
@@ -879,7 +879,7 @@
         {
           "level": 1,
           "name": "Coupez dans le Biais",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>С этим скиллом можно клешится независимо от скорости</u></b></mark></color>\n[WhenUse]\n- получает +([LargeTailoringShears] стаков) Вес атаки (макс. 3)\n- При 10+ счётчика [ChargeKhaki], Тратит 10 счётчика [ChargeKhaki] для получения Сила монет +2\n- Тратит до 20 оставшегося счётчика [ChargeKhaki] чтобы нанести +1% урона за каждый потраченный счётчик (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel]\n- Теряет 3 [FinishedFabric]\n- Наносит -90% урона\n- Получает 4 [Paralysis]</u></b></mark></color>\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>С этим скиллом можно клешится независимо от скорости</u></b></mark></color>\n[WhenUse]\n- получает +(стаки [LargeTailoringShears]) Вес атаки (макс. 3)\n- При 10+ счётчика [ChargeKhaki], Тратит 10 счётчика [ChargeKhaki] для получения Сила монет +2\n- Тратит до 20 оставшегося счётчика [ChargeKhaki] чтобы нанести +1% урона за каждый потраченный счётчик (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel]\n- Теряет 3 [FinishedFabric]\n- Наносит -90% урона\n- Получает 4 [Paralysis]</u></b></mark></color>\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1597,7 +1597,7 @@
         {
           "level": 1,
           "name": "Stamping [Reverb]",
-          "desc": "при получении удара пока у этого юнита есть щит, наносит (силы [ChargeNoir] на себе x [NoirBindArmor] стаков) урона на атакующем\n[WhenUse] Получает +3 счётчика [ChargeNoir]",
+          "desc": "при получении удара пока у этого юнита есть щит, наносит (силы [ChargeNoir] на себе x стаки [NoirBindArmor]) урона на атакующем\n[WhenUse] Получает +3 счётчика [ChargeNoir]",
           "coinlist": []
         }
       ]
@@ -1694,7 +1694,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель - союзник, накладывает следующие эффекты:\n- Запихивает цель себе в очко\n- Хилит 1% ХП\n- Хилит 20 IQ\n- Получает 2 [AttackDmgUp] в этом ходу и на следующий ход"
+                  "desc": "[OnSucceedAttack] Если цель - союзник, накладывает следующих эффектов:\n- Запихивает цель себе в очко\n- Хилит 1% ХП\n- Хилит 20 IQ\n- Получает 2 [AttackDmgUp] в этом ходу и на следующий ход"
                 }
               ]
             }

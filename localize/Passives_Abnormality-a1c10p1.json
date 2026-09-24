@@ -2,7 +2,7 @@
   "dataList": [
     {
       "name": "Ле Нуар: Ткань",
-      "desc": "Начало битвы: Получает 5 [NoirBindArmor]\nНачало хода: получает щит равный ([NoirBindArmor] стаков)% от макс. ХП этого юнита",
+      "desc": "Начало битвы: Получает 5 [NoirBindArmor]\nНачало хода: получает щит равный (стаки [NoirBindArmor])% от макс. ХП этого юнита",
       "flavor": "Камвольная шерсть Ле Нуар облегает тело, словно доспехи, подчеркивая его формы и создавая строгий, четко зафиксированный силуэт.",
       "id": "146501"
     },
@@ -133,7 +133,7 @@
     },
     {
       "name": "Ле Нуар: Ткань",
-      "desc": "Начало битвы: Получает 5 [NoirBindArmor]\n\nНачало хода: получает щит равный ([NoirBindArmor] стаков / 2)% от макс. ХП этого юнита.\n\nКогда в стаггере, теряет все [NoirBindArmor]\nНачало хода: Когда этот юнит выходит из стаггера, получает 5 [NoirBindArmor]",
+      "desc": "Начало битвы: Получает 5 [NoirBindArmor]\n\nНачало хода: получает щит равный (стаки [NoirBindArmor] / 2)% от макс. ХП этого юнита.\n\nКогда в стаггере, теряет все [NoirBindArmor]\nНачало хода: Когда этот юнит выходит из стаггера, получает 5 [NoirBindArmor]",
       "flavor": "Камвольная шерсть Ле Нуар облегает тело, словно доспехи, подчеркивая его формы и создавая строгий, четко зафиксированный силуэт.",
       "id": "149201"
     },
@@ -157,13 +157,13 @@
     },
     {
       "name": "Ле Нуар: Ткань",
-      "desc": "Начало битвы: Получает 3 [NoirBindArmor]\n\nНачало хода: получает щит равный ([NoirBindArmor] стаков)% от макс. ХП этого юнита (не работает, если в Стаггере)",
+      "desc": "Начало битвы: Получает 3 [NoirBindArmor]\n\nНачало хода: получает щит равный (стаки [NoirBindArmor])% от макс. ХП этого юнита (не работает, если в Стаггере)",
       "flavor": "Камвольная шерсть Ле Нуар облегает тело, словно доспехи, подчеркивая его формы и создавая строгий, четко зафиксированный силуэт.",
       "id": "148201"
     },
     {
       "name": "Сохранение",
-      "desc": "Получает 1 [NoirBindArmor] за каждые 3 кумулятивного счётчика [ChargeNoir], которые этот юнит потратил в этой битве\nПолучает 1 [ChargeNoir] за каждые 10 кумулятивного счётчика [ChargeNoir], которые этот юнит потратил в этой битве\n\nПри 3+ силы [ChargeNoir], макс. счётчика [ChargeNoir] +5",
+      "desc": "Получает 1 [NoirBindArmor] за каждые 3 кумулятивного счётчика [ChargeNoir], которые этот юнит потратил в этой битве\nПолучает 1 [ChargeNoir] за каждые 10 кумулятивного счётчика [ChargeNoir], которые этот юнит потратил в этой битве\n\nПри 3+ силы [ChargeNoir], макс. счётчик [ChargeNoir] +5",
       "flavor": "Сила сжимается, накапливается и фиксируется на месте. Иногда для предотвращения изменений требуется больше силы, чем для их возникновения.",
       "id": "148202"
     },
@@ -193,7 +193,7 @@
     },
     {
       "name": "Обратная Связь",
-      "desc": "Начало хода: Если у этого юнита есть [Realisation], активирует \"Один удар\" как \"Один удар - Посильнее\" вместо этого\n\nПри активации [VibrationExplosion], накладывает +20% к повышению порога Стаггера на [VibrationExplosion]\n- При 12+ счётчика [ChargeNoir], при активации [VibrationExplosion], тратит 1 счётчик [ChargeNoir] на себе и вместо этого накладывает +40% к повышению порога Стаггера на [VibrationExplosion] (за цель)\n\nПри активации [VibrationExplosion], если на цели нет порога Стаггера, наносит фиксированный урон равный [DefenseUp] стаков на себе (макс. 20)",
+      "desc": "Начало хода: Если у этого юнита есть [Realisation], активирует \"Один удар\" как \"Один удар - Посильнее\" вместо этого\n\nПри активации [VibrationExplosion], накладывает +20% к повышению порога Стаггера на [VibrationExplosion]\n- При 12+ счётчика [ChargeNoir], при активации [VibrationExplosion], тратит 1 счётчик [ChargeNoir] на себе и вместо этого накладывает +40% к повышению порога Стаггера на [VibrationExplosion] (за цель)\n\nПри активации [VibrationExplosion], если на цели нет порога Стаггера, наносит фиксированный урон равный стакам [DefenseUp] на себе (макс. 20)",
       "flavor": "The Noirs believe they can collapse their opponents' worth на subjecting them to violent tremors—the more violently the target vibrates, the more changes it must undergo from moment to moment.\n\nThe combat techniques of the Noirs were built upon that conviction.",
       "id": "148303"
     },
@@ -228,7 +228,7 @@
     },
     {
       "name": "Розоватая пульсация мускулатуры",
-      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>При 15+ счётчика [ChargeRouge], если у этого юните нет [Gourmandise], тратит весь счётчик [ChargeRouge] на себе и получает [Gourmandise]</u></b></mark></color>\n\nПолучает следующие эффекты пока у этого юнита есть [Gourmandise]:\n- при использовании скилла, получает +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n- При ударе, получает 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n- при получении удара по одной из частей, получает 1 [BuffetSick]\n- При клеше теряет и получает 3 [BuffetSick]\n- При убийстве, если на цели есть 3+ [BloodyMucus], создает \"Ripped Flesh of the Crimson God\" на следующий ход\n- Конец Хода: Хилит 3 IQ за каждого противника, у которого есть [BloodyMucus]\n\nКонец хода: <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть 30+ [BuffetSick]</u></b></mark></color> когда [Gourmandise] исчезает, на следующий ход, ослабь тип поведения этого юнита, и застаггерит все \"Ripped Flesh of the Crimson God\" на этом поле.\n\n※ [BloodyMucus] стак может быть уменьшен данными способами: <color=#ff6000><mark=#ff000040><b>Использование Э.Г.О скиллов и Защитных скиллов</u></b></mark></color>\n※ \"Ripped Flesh of the Crimson God\" получает [DeterioratingBody] равный [BloodyMucus] на побежденной цели\n※ \"Ripped Flesh of the Crimson God\" у которой есть [DeterioratingBody] не может быть убита\n※ до 3 \"Ripped Flesh of the Crimson God\" могут быть заспавнены на поле.",
+      "desc": "Начало хода: <color=#ff6000><mark=#ff000040><b><u>При 15+ счётчика [ChargeRouge], если у этого юните нет [Gourmandise], тратит весь счётчик [ChargeRouge] на себе и получает [Gourmandise]</u></b></mark></color>\n\nПолучает следующих эффектов пока у этого юнита есть [Gourmandise]:\n- при использовании скилла, получает +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n- При ударе, получает 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>\n- при получении удара по одной из частей, получает 1 [BuffetSick]\n- При клеше теряет и получает 3 [BuffetSick]\n- При убийстве, если на цели есть 3+ [BloodyMucus], создает \"Ripped Flesh of the Crimson God\" на следующий ход\n- Конец Хода: Хилит 3 IQ за каждого противника, у которого есть [BloodyMucus]\n\nКонец хода: <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть 30+ [BuffetSick]</u></b></mark></color> когда [Gourmandise] исчезает, на следующий ход, ослабь тип поведения этого юнита, и застаггерит все \"Ripped Flesh of the Crimson God\" на этом поле.\n\n※ [BloodyMucus] стак может быть уменьшен данными способами: <color=#ff6000><mark=#ff000040><b>Использование Э.Г.О скиллов и Защитных скиллов</u></b></mark></color>\n※ \"Ripped Flesh of the Crimson God\" получает [DeterioratingBody] равный [BloodyMucus] на побежденной цели\n※ \"Ripped Flesh of the Crimson God\" у которой есть [DeterioratingBody] не может быть убита\n※ до 3 \"Ripped Flesh of the Crimson God\" могут быть заспавнены на поле.",
       "flavor": "Его конечности бешено дергаются и дергаются, словно никогда и не принадлежали ему.",
       "id": "148402"
     },
@@ -258,7 +258,7 @@
     },
     {
       "name": "Бессмысленная пульсация",
-      "desc": "- Когда заспавнена, получает [DeterioratingBody] равный [BloodyMucus] стаков на цели, которая была убита для спавна этого юнита.\n\nПобеждена, когда [DeterioratingBody] исчезает",
+      "desc": "- Когда заспавнена, получает [DeterioratingBody] равный стакам [BloodyMucus] на цели, которая была убита для спавна этого юнита.\n\nПобеждена, когда [DeterioratingBody] исчезает",
       "flavor": "Оно живет, но у него нет мозга. Может ли разум возникнуть из пульсирующей мышцы?",
       "id": "149701"
     }
