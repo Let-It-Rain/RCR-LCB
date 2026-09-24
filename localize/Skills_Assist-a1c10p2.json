@@ -41,10 +41,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Against Юниты без IQ, наносит +50% урона"
+                  "desc": "Против юнитов без IQ, наносит +50% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Target loses 10 IQ"
+                  "desc": "[OnSucceedAttack] Цель теряет 10 IQ"
                 }
               ]
             }
@@ -53,7 +53,7 @@
         {
           "level": 3,
           "name": "Crimson Nail",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Если у этого юнита есть higher IQ than the target, или если target is a non-IQ unit, Сила монет +1",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Если у этого юнита есть higher IQ than the target, или если у цели нет IQ, Сила монет +1",
           "coinlist": [
             {
               "coindescs": [
@@ -71,10 +71,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Against Юниты без IQ, наносит +50% урона"
+                  "desc": "Против юнитов без IQ, наносит +50% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Target loses 10 IQ"
+                  "desc": "[OnSucceedAttack] Цель теряет 10 IQ"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold]"
@@ -118,7 +118,7 @@
         {
           "level": 2,
           "name": "Go Away",
-          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +1 Atk Weight за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -151,7 +151,7 @@
         {
           "level": 3,
           "name": "Go Away",
-          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +1 Atk Weight за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -203,7 +203,7 @@
                   "desc": "[EndCoin] Накладывает 1 [ParryingResultUp]"
                 },
                 {
-                  "desc": "[EndCoin] Накладывает 1 [AttackUp] за каждые силы [ChargeRouge] на себе (макс. 5)"
+                  "desc": "[EndCoin] Накладывает 1 [AttackUp] за каждую силу [ChargeRouge] на себе (макс. 5)"
                 }
               ]
             }
@@ -212,7 +212,7 @@
         {
           "level": 2,
           "name": "Perk Up",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +1 Atk Weight за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
                   "desc": "[EndCoin] Накладывает 1 [ParryingResultUp]"
                 },
                 {
-                  "desc": "[EndCoin] Накладывает 1 [AttackUp] за каждые силы [ChargeRouge] на себе (макс. 5)"
+                  "desc": "[EndCoin] Накладывает 1 [AttackUp] за каждую силу [ChargeRouge] на себе (макс. 5)"
                 }
               ]
             }
@@ -229,7 +229,7 @@
         {
           "level": 3,
           "name": "Perk Up",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +1 Atk Weight за каждые 2 силы [ChargeRouge] на себе (макс. 2)\n[EndSkill] Если у этого юнита есть [GourmandiseAlly], и при 10+ счётчика [ChargeRouge], Тратит до 10 [ChargeRouge] и накладывает 1 [SkillPowerUp] всем целям that were hit",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)\n[EndSkill] Если у этого юнита есть [GourmandiseAlly], и при 10+ счётчика [ChargeRouge], Тратит до 10 [ChargeRouge] и накладывает 1 [SkillPowerUp] всем целям, по которым был нанесен удар",
           "coinlist": [
             {
               "coindescs": [
@@ -237,7 +237,7 @@
                   "desc": "[EndCoin] Накладывает 1 [ParryingResultUp]"
                 },
                 {
-                  "desc": "[EndCoin] Накладывает 1 [AttackUp] за каждые силы [ChargeRouge] на себе (макс. 5)"
+                  "desc": "[EndCoin] Накладывает 1 [AttackUp] за каждую силу [ChargeRouge] на себе (макс. 5)"
                 }
               ]
             }
@@ -246,7 +246,7 @@
         {
           "level": 4,
           "name": "Perk Up",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +1 Atk Weight за каждые 2 силы [ChargeRouge] на себе (макс. 2)\n[EndSkill] Если у этого юнита есть [GourmandiseAlly], и при 10+ счётчика [ChargeRouge], Тратит до 10 [ChargeRouge] и накладывает 1 [SkillPowerUp] всем целям that were hit",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)\n[EndSkill] Если у этого юнита есть [GourmandiseAlly], и при 10+ счётчика [ChargeRouge], Тратит до 10 [ChargeRouge] и накладывает 1 [SkillPowerUp] всем целям, по которым был нанесен удар",
           "coinlist": [
             {
               "coindescs": [
@@ -254,7 +254,7 @@
                   "desc": "[EndCoin] Накладывает 1 [SkillPowerUp]"
                 },
                 {
-                  "desc": "[EndCoin] Накладывает 1 [AttackUp] this turn и на следующий ход за каждые силы [ChargeRouge] на себе (макс. 5)"
+                  "desc": "[EndCoin] Накладывает 1 [AttackUp] в этом ходу и на следующий ход за каждую силу [ChargeRouge] на себе (макс. 5)"
                 }
               ]
             }
@@ -273,7 +273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Хилит (Финальная сила скилла x 2) ХП на цели\n- Если target is a \"Le Rouge\" unit, Тратит their ХП вместо этого и хилит self на the same amount (урона dealt на this effect не Stagger или reduce the target's ХП below 1)"
+                  "desc": "[EndCoin] Хилит (Финальная сила скилла x 2) ХП на цели\n- Если цель является юнитом \"Le Rouge\", Тратит его ХП вместо этого и хилит себя на это число (урон от этого эффекта не может застаггерить цель или опустить её ХП ниже 1)"
                 }
               ]
             }
@@ -282,15 +282,15 @@
         {
           "level": 2,
           "name": "Don't Get Hurty",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] При 3+ силы [ChargeRouge], получает +2 Atk Weight",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] При 3+ силы [ChargeRouge], получает +2 Вес атаки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Хилит (Финальная сила скилла x 2) ХП на цели\n- Если target is a \"Le Rouge\" unit, Тратит their ХП вместо этого и хилит self на the same amount (урона dealt на this effect не Stagger или reduce the target's ХП below 1)"
+                  "desc": "[EndCoin] Хилит (Финальная сила скилла x 2) ХП на цели\n- Если цель является юнитом \"Le Rouge\", Тратит его ХП вместо этого и хилит себя на это число (урон от этого эффекта не может застаггерить цель или опустить её ХП ниже 1)"
                 },
                 {
-                  "desc": "[EndCoin] Хилит (Финальная сила скилла) IQ на цели\n- Если target is при макс. IQ, remove 1 removable negative effect applied на цели"
+                  "desc": "[EndCoin] Хилит (Финальная сила скилла) IQ на цели\n- Если у цели макс. IQ, убирает 1 снимаемый негативный эффект на цели"
                 }
               ]
             }
@@ -299,15 +299,15 @@
         {
           "level": 3,
           "name": "Don't Get Hurty",
-          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] При 3+ силы [ChargeRouge], получает +4 Atk Weight",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] При 3+ силы [ChargeRouge], получает +4 Вес атаки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Хилит (Финальная сила скилла x 2) ХП на цели\n- Additionally хилит (силы [ChargeRouge] на себе x 2)% ХП на цели\n- Если target is a \"Le Rouge\" unit, Тратит their ХП вместо этого и хилит self на the same amount (урона dealt на this effect не Stagger или reduce the target's ХП below 1)"
+                  "desc": "[EndCoin] Хилит (Финальная сила скилла x 2) ХП на цели\n- Additionally хилит (силы [ChargeRouge] на себе x 2)% ХП на цели\n- Если цель является юнитом \"Le Rouge\", Тратит его ХП вместо этого и хилит себя на это число (урон от этого эффекта не может застаггерить цель или опустить её ХП ниже 1)"
                 },
                 {
-                  "desc": "[EndCoin] Хилит (Финальная сила скилла) IQ на цели\n- Additionally хилит (силы [ChargeRouge] на себе x 3) IQ на цели\n- Если target is при макс. IQ, remove 1 removable negative effect applied на цели"
+                  "desc": "[EndCoin] Хилит (Финальная сила скилла) IQ на цели\n- Additionally хилит (силы [ChargeRouge] на себе x 3) IQ на цели\n- Если у цели макс. IQ, убирает 1 снимаемый негативный эффект на цели"
                 }
               ]
             }
@@ -326,10 +326,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Recover target from Stagger"
+                  "desc": "[EndCoin] Снимает стаггер с цели"
                 },
                 {
-                  "desc": "[EndCoin] Хилит ХП на цели равный this Skill's Финальная сила"
+                  "desc": "[EndCoin] Хилит ХП на цели равный финальной силе этого скилла"
                 }
               ]
             }
@@ -343,13 +343,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Recover target from Stagger"
+                  "desc": "[EndCoin] Снимает стаггер с цели"
                 },
                 {
-                  "desc": "[EndCoin] Хилит ХП на цели равный this Skill's Финальная сила"
+                  "desc": "[EndCoin] Хилит ХП на цели равный финальной силе этого скилла"
                 },
                 {
-                  "desc": "[EndCoin] Накладывает Shield на следующий ход равный 50% of target's макс. ХП"
+                  "desc": "[EndCoin] Накладывает щит на следующий ход равный 50% макс. ХП цели"
                 }
               ]
             }
@@ -363,7 +363,7 @@
         {
           "level": 1,
           "name": "Baptism of Crimson Nails",
-          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] для получения +2 Atk Weight и Сила монет +2",
+          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] для получения +2 Вес атаки и Сила монет +2",
           "coinlist": [
             {
               "coindescs": [
@@ -400,7 +400,7 @@
         {
           "level": 2,
           "name": "Baptism of Crimson Nails",
-          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] для получения +2 Atk Weight и Сила монет +2\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)",
+          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] для получения +2 Вес атаки и Сила монет +2\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
         {
           "level": 3,
           "name": "Baptism of Crimson Nails",
-          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] для получения +2 Atk Weight и Сила монет +2\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 5+ силы [ChargeRouge], накладывает следующие эффекты:\n- получает +2 Atk Weight\n- получает Силу монет +(силы [ChargeRouge] на себе - 3)",
+          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] для получения +2 Вес атаки и Сила монет +2\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 5+ силы [ChargeRouge], накладывает следующие эффекты:\n- получает +2 Вес атаки\n- получает Силу монет +(силы [ChargeRouge] на себе - 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -488,7 +488,7 @@
         {
           "level": 1,
           "name": "I'll End It for You...",
-          "desc": "[CantDuel]\nНаносит +0.5% урона за каждые 1% missing ХП на цели (макс. 30%)\n[WhenUse] Если у этого юнита есть [GourmandiseAlly], получает +1 Atk Weight",
+          "desc": "[CantDuel]\nНаносит +0.5% урона за каждые 1% недостающего ХП на цели (макс. 30%)\n[WhenUse] Если у этого юнита есть [GourmandiseAlly], получает +1 Вес атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -496,7 +496,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у этого юнита есть [GourmandiseAlly], Повторно использует эту монету (1 time макс.)"
+                  "desc": "[OnSucceedAttack] Если у этого юнита есть [GourmandiseAlly], Повторно использует эту монету (1 раз макс.)"
                 }
               ]
             }
@@ -510,7 +510,7 @@
         {
           "level": 1,
           "name": "La Nausée",
-          "desc": "[StartBattle] тратит весь счётчик [ChargeRouge] на себе и хилит (счётчика потраченого [ChargeRouge])% ХП on все allies, including this unit",
+          "desc": "[StartBattle] тратит весь счётчик [ChargeRouge] на себе и хилит (счётчика потраченного [ChargeRouge])% ХП всем союзникам, включая этого юнита",
           "flavor": "The inevitable growing pains for those who are maturing в gods.\n\nThis sensation takes many forms: vertigo, nausea, seizure, self-deception... и to some, refusal. To them, the world is full of terror и alienating chaos. To endure the nausea, to protect those that are yet their own и those that are yet to become superfluous, the nascent god vomits.",
           "coinlist": [
             {

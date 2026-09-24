@@ -120,7 +120,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет экипированных защитных навыков, то вновь подкидывает эту монету (До 2 раз за навык)\n- Если проиграла в столкновении, то подкидывает эту монету вновь всего 1 раз вместо 2-ух"
+                  "desc": "[OnSucceedAttack] Если цель не имеет экипированных защитных навыков, то вновь подкидывает эту монету (До 2 раза за навык)\n- Если проиграла в столкновении, то подкидывает эту монету вновь всего 1 раз вместо 2-ух"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
@@ -353,7 +353,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повторно использует эту монету (макс. 2 раз)\n- При ударе после проигрыша в клеше, Повторно использует эту монету (макс. один раз вместо этого)\n- не активирует Если на цели есть экипированные защитные скиллы"
+                  "desc": "[OnSucceedAttack] Повторно использует эту монету (макс. 2 раза)\n- При ударе после проигрыша в клеше, Повторно использует эту монету (макс. один раз вместо этого)\n- не активирует Если на цели есть экипированные защитные скиллы"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
@@ -373,7 +373,7 @@
         {
           "level": 1,
           "name": "The Thrill of Inspiration",
-          "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse] Финальная сила +1 и наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта</u></b></mark></color> на главной цели (макс. 6 и 60% соответственно)\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта</u></b></mark></color> на каждой цели (макс. 60% against each target)\n[DefeatDuel]\n- Наносит -75% урона\n- Наносит на 2/3 меньше стаков [BearClawWound] и [EagleClawWound] эффектом этого скилла (округляется вверх)\n- Урон от этого скилла не может застаггерить цель\n- При ударе, не активирует <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> effects on the target",
+          "desc": "С этим скиллом можно клешится независимо от скорости\n[WhenUse] Финальная сила +1 и наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта</u></b></mark></color> на главной цели (макс. 6 и 60% соответственно)\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта</u></b></mark></color> на каждой цели (макс. 60% against each target)\n[DefeatDuel]\n- Наносит -75% урона\n- Наносит на 2/3 меньше стаков [BearClawWound] и [EagleClawWound] эффектом этого скилла (округляется вверх)\n- Урон от этого скилла не может застаггерить цель\n- При ударе, не активирует <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> effects on the target",
           "coinlist": [
             {
               "coindescs": [
@@ -407,7 +407,7 @@
         {
           "level": 1,
           "name": "Burst Forth the Pulsing Crimson under Your Skin.",
-          "desc": "[WideAreaRampage]\nСтавит в приоритет цели, у которых есть [IntenseColors]\nэтот скилл не активирует защитные скиллы (исключая защиту с клешем)\nCan Clash with this Skill regardless of Speed\n[WhenUse]\n- Финальная сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта</u></b></mark></color> на главной цели (макс. 6)\n- <color=#ff6000><mark=#ff000040><b><u>Если если у главной цели есть [IntenseColors],</u></b></mark></color> Сила клеша +6\n- <color=#ff6000><mark=#ff000040><b><u>Если на цели есть [IntenseColors],</u></b></mark></color> наносит +200% урона (against each target separately)\n· <color=#ff6000><mark=#ff000040><b><u>Если на цели есть экипированные защитные скиллы</u></b></mark></color> while having [IntenseColors], наносит -90% урона вместо этого\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта на цели</u></b></mark></color> (макс. 60%, against each target separately)\n[DefeatDuel]\n- Получает 5 [AttackDmgDown] и 5 [Paralysis]\n- Урон от этого скилла не может застаггерить цель\n- При ударе, не активирует <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  effects on the target\n[EndSkill] End this turn",
+          "desc": "[WideAreaRampage]\nСтавит в приоритет цели, у которых есть [IntenseColors]\nэтот скилл не активирует защитные скиллы (исключая защиту с клешем)\nС этим скиллом можно клешится независимо от скорости\n[WhenUse]\n- Финальная сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта</u></b></mark></color> на главной цели (макс. 6)\n- <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [IntenseColors],</u></b></mark></color> Сила клеша +6\n- <color=#ff6000><mark=#ff000040><b><u>Если на цели есть [IntenseColors],</u></b></mark></color> наносит +200% урона (against each target separately)\n· <color=#ff6000><mark=#ff000040><b><u>Если на цели есть экипированные защитные скиллы</u></b></mark></color> while having [IntenseColors], наносит -90% урона вместо этого\n[WinDuel]\n- Наносит +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта на цели</u></b></mark></color> (макс. 60%, against each target separately)\n[DefeatDuel]\n- Получает 5 [AttackDmgDown] и 5 [Paralysis]\n- Урон от этого скилла не может застаггерить цель\n- При ударе, не активирует <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  effects on the target\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
