@@ -1164,7 +1164,7 @@
           "level": 1,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "[BeforeAttack] Получает +1 счётчик [Charge:*Соли*]\n[BeforeAttack] Тратит до 6 счётчика [Charge:*Соли*] на себе; затем, накладывает 5 [ChargeForceField] на себе и on (1 + (счётчика потраченного [Charge:*Соли*] / 2)) random other allies (макс. 5 units; округляется вниз)",
+          "desc": "[BeforeAttack] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до 6 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе; затем, накладывает 5 [ChargeForceField] на себе и on (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайным другим союзниками (макс. 5 персонажей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -1180,12 +1180,12 @@
           "level": 3,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "<style=\"highlight\">[WhenUse] Получает силу клеша, равную силы [Charge:*Соли*] на себе (макс. 2)</style>\n[BeforeAttack] Получает +<style=\"highlight\">3</style> счётчика [Charge:*Соли*]\n[BeforeAttack] Тратит до <style=\"highlight\">8</style> счётчика [Charge:*Соли*] на себе; затем, накладывает 5 [ChargeForceField] на себе и on (1 + (счётчика потраченного [Charge:*Соли*] / 2)) random other allies (макс. <style=\"highlight\">6</style> units; округляется вниз)",
+          "desc": "<style=\"highlight\">[WhenUse] Получает силу столкновения, равную силе <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе (макс. 2)</style>\n[BeforeAttack] Получает +<style=\"highlight\">3</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до <style=\"highlight\">8</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе; затем, накладывает 5 [ChargeForceField] на себе и on (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайным другим союзникам (макс. <style=\"highlight\">6</style> персонажей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>"
                 }
               ]
             },
@@ -1202,7 +1202,7 @@
           "level": 4,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "[WhenUse] Получает силу столкновения, равную силе <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает +<style=\"highlight\">5</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до <style=\"highlight\">10</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе; затем, накладывает 5 [ChargeForceField] на себе и on (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайным другим союзникам (макс. <style=\"highlight\">7</style> units; округляется вниз)",
+          "desc": "[WhenUse] Получает силу столкновения, равную силе <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает +<style=\"highlight\">5</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до <style=\"highlight\">10</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе; затем, накладывает 5 [ChargeForceField] на себе и on (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайным другим союзникам (макс. <style=\"highlight\">7</style> персонажей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -1229,7 +1229,7 @@
           "level": 1,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "[CantIdentify]\nцелится на randomly\nНаносит +15% урона against целится на that have Shield\n[BeforeAttack] Базовая сила -6 за каждые Cracked Coin (макс. -12)\n[BeforeAttack] Получает +3 счётчика [Charge:*Соли*]\n[BeforeAttack] Тратит до 6 счётчика [Charge:*Соли*]; затем, накладывает 7 [ChargeForceField] на себе и on (1 + (счётчика потраченного [Charge:*Соли*] / 2)) random other allies (макс. 5 units; округляется вниз)",
+          "desc": "[CantIdentify]\nцелится случайно\nНаносит +15% урона цели со щитом\n[BeforeAttack] Базовая сила -6 за каждые сломанную монету (макс. -12)\n[BeforeAttack] Получает +3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до 6 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>; затем, накладывает 7 [ChargeForceField] на себе и на (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайных других союзниках (макс. 5 персонажей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -1237,7 +1237,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>"
                 }
               ]
             },
@@ -1247,7 +1247,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Тратит до 10 счётчика [Charge:*Соли*]; затем, this Coin gains Финальная сила равный Счётчик consumed"
+                  "desc": "[OnStartCoin] Тратит до 10 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>; затем, эта монета получает финальную силу равную потраченному счётчику"
                 }
               ]
             }
@@ -1257,7 +1257,7 @@
           "level": 3,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "[CantIdentify]\nцелится на randomly\nНаносит +<style=\"highlight\">20</style>% урона against целится на that have Shield\n[BeforeAttack] Базовая сила -6 за каждые Cracked Coin (макс. -12)\n<style=\"highlight\">[BeforeAttack] Получает Финальная сила равный силы [Charge:*Соли*] на себе (макс. 2)</style>\n[BeforeAttack] Получает +<style=\"highlight\">4</style> счётчика [Charge:*Соли*]\n[BeforeAttack] Тратит до <style=\"highlight\">8</style> счётчика [Charge:*Соли*] на себе; затем, накладывает 7 [ChargeForceField] на себе и on (1 + (счётчика потраченного [Charge:*Соли*] / 2)) random other allies (макс. <style=\"highlight\">6</style> units; округляется вниз)",
+          "desc": "[CantIdentify]\nцелится случайно\nНаносит +<style=\"highlight\">20</style>% урона цели со щитом\n[BeforeAttack] Базовая сила -6 за каждую сломанную монету (макс. -12)\n<style=\"highlight\">[BeforeAttack] Получает финальная силу равную силе <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе (макс. 2)</style>\n[BeforeAttack] Получает +<style=\"highlight\">4</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до <style=\"highlight\">8</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе; затем, накладывает 7 [ChargeForceField] на себе и на (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайным другим союзниками (макс. <style=\"highlight\">6</style> персонажей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -1265,7 +1265,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>"
                 }
               ]
             },
@@ -1275,7 +1275,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Тратит до 10 счётчика [Charge:*Соли*]; затем, this Coin gains Финальная сила равный Счётчик consumed"
+                  "desc": "[OnStartCoin] Тратит до 10 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>; затем, эта монета получает финальную силу равную потраченному счётчику"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [PhotoElectricity]</style>"
@@ -1288,7 +1288,7 @@
           "level": 4,
           "name": "Repudiation",
           "abName": "Resident of Metropolaris",
-          "desc": "[CantIdentify]\nцелится на randomly\nНаносит +<style=\"highlight\">25</style>% урона against целится на that have Shield\n[BeforeAttack] Базовая сила -6 за каждые Cracked Coin (макс. -12)\n[BeforeAttack] Получает Финальная сила равный силы [Charge:*Соли*] на себе (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает +<style=\"highlight\">5</style> счётчика [Charge:*Соли*]\n[BeforeAttack] Тратит до <style=\"highlight\">10</style> счётчика [Charge:*Соли*] на себе; затем, накладывает 7 [ChargeForceField] на себе и on (1 + (счётчика потраченного [Charge:*Соли*] / 2)) random other allies (макс. <style=\"highlight\">7</style> units; округляется вниз)",
+          "desc": "[CantIdentify]\nцелится случайно\nНаносит +<style=\"highlight\">25</style>% урона цели со щитом\n[BeforeAttack] Базовая сила -6 за каждую сломанную монету (макс. -12)\n[BeforeAttack] Получает финальную силу равную силе <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает +<style=\"highlight\">5</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>\n[BeforeAttack] Тратит до <style=\"highlight\">10</style> счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> на себе; затем, накладывает 7 [ChargeForceField] на себя и на (1 + (счётчика потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color> / 2)) случайным другим союзникам (макс. <style=\"highlight\">7</style> персонажей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -1296,7 +1296,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает +2 счётчика [Charge:*Соли*]"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>"
                 }
               ]
             },
@@ -1306,7 +1306,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Тратит до 10 счётчика [Charge:*Соли*]; затем, this Coin gains Финальная сила равный Счётчик consumed"
+                  "desc": "[OnStartCoin] Тратит до 10 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Соли</link></u></color>; затем, эта монета получает финальную силу равную потраченному счётчику"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PhotoElectricity]"
