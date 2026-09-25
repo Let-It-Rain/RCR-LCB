@@ -60,7 +60,7 @@
       "desc": "При попадании навыком зависти или контратакой накладывает +1 счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> или +1 счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> (3 разаа за ход).\n\nКогда счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> у врага падает ниже 1 во время боя, вместо этого уменьшает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color>, если у этого врага есть 2+ счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\"><noparse>Изжоги</noparse></link></u></color> (3 разаа за ход).",
       "simpleDesc": [
         {
-          "simpleDesc": "Наносит Bleed Count и счётчика изжоги",
+          "simpleDesc": "Наносит Bleed Счётчик и счётчика изжоги",
           "id": ""
         },
         {
@@ -120,7 +120,7 @@
           "id": ""
         },
         {
-          "simpleDesc": "On Crit: Chance to notтеряет Poise Count. Increase the amount of negative effect inflicted",
+          "simpleDesc": "On Crit: Chance to notтеряет Poise Счётчик. Increase the amount of negative effect inflicted",
           "id": ""
         },
         {
@@ -151,7 +151,7 @@
           "id": ""
         },
         {
-          "simpleDesc": "Наносит Bleed Potency и Count",
+          "simpleDesc": "Наносит Bleed силу и Счётчик",
           "id": ""
         }
       ],
@@ -214,7 +214,7 @@
       "desc": "Айдишки, которые нанесли любую <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессию</noparse></link></u></color>, получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> или +2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> в начале хода (Один раз за ход на Айдишку)\n\nВо время битвы, если Айдишка получила <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумар</noparse></link></u></color> более 3-х раз из-за вышеописанного эффекта, начиная со следующего хода, этот юнит наносит +30% урона при Раскумаре",
       "simpleDesc": [
         {
-          "simpleDesc": "Получает Poise Potency и Count",
+          "simpleDesc": "Получает Poise силу и Счётчик",
           "id": ""
         },
         {
@@ -396,7 +396,7 @@
     },
     {
       "name": "Записки... писки",
-      "desc": "Этот Э.Г.О гифт меняется после 6 побед в боях\n{0}\n\nНачало хода: Случайно юнит, который не был в стаггере - уходит в стаггер",
+      "desc": "Этот Э.Г.О гифт меняется после 6 побед в боях\n{0}\n\nНачало хода: Случайно юнит, который не был в стаггере - Уходит в стаггер",
       "simpleDesc": [
         {
           "simpleDesc": "Gets Похмельцо",
@@ -407,7 +407,7 @@
     },
     {
       "name": "Квитанции о налоговых задолженностях",
-      "desc": "Когда Айдишка была застагеренна из-за полученного урона - восстанавливается от стаггера; Потом получает щит, равный 50% от макс. ХП и удаляет с себя 1 удаляемый негативный эффект(исключегие - скриптованные стаггеры, 2 разаа за битву)\n\nПолучает 20 Кумара на следующий ход после активации этого гифта(Один раз за ход)",
+      "desc": "Когда Айдишка была застагеренна из-за полученного урона - Восстанавливается от стаггера; Потом получает щит, равный 50% от макс. ХП и удаляет с себя 1 удаляемый негативный эффект(исключегие - Скриптованные стаггеры, 2 разаа за битву)\n\nПолучает 20 Кумара на следующий ход после активации этого гифта(Один раз за ход)",
       "simpleDesc": [
         {
           "simpleDesc": "выходит из стаггера; Убирает negative effect",
@@ -569,7 +569,7 @@
     },
     {
       "name": "Связывающее меня и Гитлера лассо",
-      "desc": "При раскумаре против врага, наносит 1 [Binding] на следующий ход (2 раза за ход)\nПри ударе используя скилл против врага, который имел [Binding], получает 1  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (2 разаа за ход за айдишку)\n\nНачало хода: Все враги, которые имели <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> получают [AttackDown], равный <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поносу</noparse></link></u></color> на себе (макс. 5)\n\nНачало хода: Если все враги (в Фокусированных битвах - части тела) имели [Binding], все союзники получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+      "desc": "При раскумаре против врага, наносит 1 [Binding] на следующий ход (2 раза за ход)\nПри ударе используя скилл против врага, который имел [Binding], получает 1  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> (2 разаа за ход за айдишку)\n\nНачало хода: Все враги, которые имели <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> получают [AttackDown], равный <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поносу</noparse></link></u></color> на себе (макс. 5)\n\nНачало хода: Если все враги (в Фокусированных битвах - Части тела) имели [Binding], все союзники получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
       "simpleDesc": [
         {
           "simpleDesc": "",
@@ -580,7 +580,7 @@
     },
     {
       "name": "Чемодан Зеленского",
-      "desc": "При нанесении урона скиллом, который наносит силу или счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит 1 [NailPersonality] (один раз за скилл)\nКогда происходит [VibrationExplosion], если она имела [NailPersonality], наносит 1 [Binding] на следующий ход (3 раза за ход)",
+      "desc": "При нанесении урона скиллом, который наносит сила или счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, наносит 1 [NailPersonality] (один раз за скилл)\nКогда происходит [VibrationExplosion], если она имела [NailPersonality], наносит 1 [Binding] на следующий ход (3 раза за ход)",
       "simpleDesc": [
         {
           "simpleDesc": "",
