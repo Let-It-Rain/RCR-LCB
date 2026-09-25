@@ -6706,12 +6706,622 @@
   },
   {
     "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При победе в клеше:",
+    "ReplaceTags": false,
+    "Target": "Clash Win:"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "% урона по IQ",
+    "ReplaceTags": false,
+    "Target": "% IQ урона"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "% урона по ХП",
+    "ReplaceTags": false,
+    "Target": "% ХП урона"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "всем союзникам",
+    "ReplaceTags": false,
+    "Target": "for все союзники"
+  },
+  {
+    "FileWhiteList": [],
     "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "- ${1}",
+    "Replacement": "Если этот юнит получил урон от $1",
     "ReplaceTags": false,
-    "Target": "- (\\p{Ll})"
+    "Target": "Если this unit took (.+?) урона"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При потрясении сучки",
+    "ReplaceTags": false,
+    "Target": "On Tremor Burst"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "других случайных союзников",
+    "ReplaceTags": false,
+    "Target": "other random allies"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "на $1",
+    "ReplaceTags": false,
+    "Target": "on (\\d+)"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "провоцирует потрясение сучки",
+    "ReplaceTags": false,
+    "Target": "trigger Tremor Burst"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "до конца хода",
+    "ReplaceTags": false,
+    "Target": "for the rest of the turn"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Не может получить этот статус",
+    "ReplaceTags": false,
+    "Target": "Cannot получает"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "половину $1 этого юнита",
+    "ReplaceTags": false,
+    "Target": "half of this unit's (.+)"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "случайно между",
+    "ReplaceTags": false,
+    "Target": "randomly between"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "союзниками этого юнита",
+    "ReplaceTags": false,
+    "Target": "this unit's allies"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "в этом ходу",
+    "ReplaceTags": false,
+    "Target": "that turn"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При $1-и стаках",
+    "ReplaceTags": false,
+    "Target": "При (\\d+) стака"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При 1-м стаках",
+    "ReplaceTags": false,
+    "Target": "При 1-и стаках"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При 2-х стаках",
+    "ReplaceTags": false,
+    "Target": "При 2-и стаках"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При 3-и стаках",
+    "ReplaceTags": false,
+    "Target": "При 3-и стаках"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При 4-х стаках",
+    "ReplaceTags": false,
+    "Target": "При 4-и стаках"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "пока имеет",
+    "ReplaceTags": false,
+    "Target": "while having"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": ", что будет наложен",
+    "ReplaceTags": false,
+    "Target": " that will be applied"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "равный силе",
+    "ReplaceTags": false,
+    "Target": "равный силу"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При макс. стаках",
+    "ReplaceTags": false,
+    "Target": "При макс. стаков"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "наносит на $1 больше",
+    "ReplaceTags": false,
+    "Target": "наносит (\\d+) more"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "силы и счётчика $1",
+    "ReplaceTags": false,
+    "Target": "(\\w+) силу и \\1 счётчик"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "данный скилл получает",
+    "ReplaceTags": false,
+    "Target": "the said Skill gains"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "и наносит",
+    "ReplaceTags": false,
+    "Target": "и deals"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "(мин.",
+    "ReplaceTags": false,
+    "Target": "(min"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "учитывая уникальную соль",
+    "ReplaceTags": false,
+    "Target": "including Unique Charge"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "щит был сломан",
+    "ReplaceTags": false,
+    "Target": "Shield was broken"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "против грешников",
+    "ReplaceTags": false,
+    "Target": "against Sinners"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "скилла против",
+    "ReplaceTags": false,
+    "Target": "скилла against"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": " грешников",
+    "ReplaceTags": false,
+    "Target": " Sinners"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "равную стакам",
+    "ReplaceTags": false,
+    "Target": "равную стаков"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "скилл получает",
+    "ReplaceTags": false,
+    "Target": "Skill gains"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "первый использованный",
+    "ReplaceTags": false,
+    "Target": "first-used"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "экипированный защитный скилл",
+    "ReplaceTags": false,
+    "Target": "an equipped Defense Skill"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "уменьшения регенерации ХП",
+    "ReplaceTags": false,
+    "Target": "ХП Healing Down"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "При клеше против",
+    "ReplaceTags": false,
+    "Target": "UpПри клешеing against"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Каждый раз, когда этот юнит получает урон",
+    "ReplaceTags": false,
+    "Target": "Every time this unit is hit"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "теряет силу клеша, равную стакам",
+    "ReplaceTags": false,
+    "Target": "теряет Сила клеша равный стакам"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "на цели",
+    "ReplaceTags": false,
+    "Target": "on the target"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Часть получает щит",
+    "ReplaceTags": false,
+    "Target": "The Part gains Shield"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "считается как эффект \"$1\"",
+    "ReplaceTags": false,
+    "Target": "counts as a \"([^\"]+)\" effect"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "когда теряет щит",
+    "ReplaceTags": false,
+    "Target": "когда losing Shield"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "к повышению порога стаггера",
+    "ReplaceTags": false,
+    "Target": "to Stagger Threshold raised"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": ", соответственно",
+    "ReplaceTags": false,
+    "Target": " respectively"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "всем союзникам",
+    "ReplaceTags": false,
+    "Target": "to Все союзники"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Сила атаки",
+    "ReplaceTags": false,
+    "Target": "Attack Power"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Макс. скорость",
+    "ReplaceTags": false,
+    "Target": "Max Speed"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Скиллы \"$1\" всех союзников",
+    "ReplaceTags": false,
+    "Target": "Все союзники \"([^\"]+)\"' Skills"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "всех союзников получают",
+    "ReplaceTags": false,
+    "Target": "всех союзников получает"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "всем",
+    "ReplaceTags": false,
+    "Target": "to все"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "врагам, не являющимся \"$1\"",
+    "ReplaceTags": false,
+    "Target": "non-\"([^\"]+)\" enemies"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "потрясение сучки провоцируется",
+    "ReplaceTags": false,
+    "Target": "Tremor Burst is triggered"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Все союзные грешники",
+    "ReplaceTags": false,
+    "Target": "Все allied грешников"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Все цели",
+    "ReplaceTags": false,
+    "Target": "Все targets"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "каждые $1 хода",
+    "ReplaceTags": false,
+    "Target": "every (\\d+) turns"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "на всех скиллах",
+    "ReplaceTags": false,
+    "Target": "в on все Skills"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "% больше",
+    "ReplaceTags": false,
+    "Target": "% more"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "исключая насильные стаггеры",
+    "ReplaceTags": false,
+    "Target": "excluding forced Staggers"
   }
 ]

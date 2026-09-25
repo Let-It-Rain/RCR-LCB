@@ -744,7 +744,7 @@
         {
           "level": 1,
           "name": "Trimming",
-          "desc": "[WhenUse]\n- При 10+ счётчика [ChargeKhaki], Сила монет +1\n- Если у этого юнита есть [LargeTailoringShears], наносит +([LargeTailoringShears] стаков x 10)% урона (макс. 30%)\n[WhenUse] При менее 15 счётчика [ChargeKhaki], получает +2 счётчика [ChargeKhaki]",
+          "desc": "[WhenUse]\n- При 10+ счётчика [ChargeKhaki], Сила монет +1\n- Если у этого юнита есть [LargeTailoringShears], наносит +(стаки [LargeTailoringShears] x 10)% урона (макс. 30%)\n[WhenUse] При менее 15 счётчика [ChargeKhaki], получает +2 счётчика [ChargeKhaki]",
           "coinlist": [
             {
               "coindescs": [
@@ -879,7 +879,7 @@
         {
           "level": 1,
           "name": "Coupez dans le Biais",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>С этим скиллом можно клешится независимо от скорости</u></b></mark></color>\n[WhenUse]\n- получает +([LargeTailoringShears] стаков) Вес атаки (макс. 3)\n- При 10+ счётчика [ChargeKhaki], Тратит 10 счётчика [ChargeKhaki] для получения Сила монет +2\n- Тратит до 20 оставшегося счётчика [ChargeKhaki] чтобы нанести +1% урона за каждый потраченный счётчик (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel]\n- Теряет 3 [FinishedFabric]\n- Наносит -90% урона\n- Получает 4 [Paralysis]</u></b></mark></color>\n- Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>С этим скиллом можно клешится независимо от скорости</u></b></mark></color>\n[WhenUse]\n- получает +(стаки [LargeTailoringShears]) Вес атаки (макс. 3)\n- При 10+ счётчика [ChargeKhaki], Тратит 10 счётчика [ChargeKhaki] для получения Сила монет +2\n- Тратит до 20 оставшегося счётчика [ChargeKhaki] чтобы нанести +1% урона за каждый потраченный счётчик (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel]\n- Теряет 3 [FinishedFabric]\n- Наносит -90% урона\n- Получает 4 [Paralysis]</u></b></mark></color>\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -926,7 +926,7 @@
                   "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] Получает 1 [FinishedFabric] на следующий ход</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если бьёт по главной цели, [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если бьёт по главной цели, [VibrationExplosion:*Трясёт сучку*] 2 разаа; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
@@ -1007,7 +1007,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 разаа; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
@@ -1184,7 +1184,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 3 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 3 разаа; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 3"
                 },
                 {
                   "desc": "[OnSucceedAttack] Поднимает порог стаггера на число финального урона этой монеты"
@@ -1258,10 +1258,10 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 1 дополнительный раз за каждые 200 [NoirShieldUp] на себе (4 раза макс.)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 1 дополнительный раз за каждые 200 [NoirShieldUp] на себе (4 разаа макс.)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 3 раза"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 3 разаа"
                 }
               ]
             }
@@ -1597,7 +1597,7 @@
         {
           "level": 1,
           "name": "Stamping [Reverb]",
-          "desc": "при получении удара пока у этого юнита есть щит, наносит (силы [ChargeNoir] на себе x [NoirBindArmor] стаков) урона на атакующем\n[WhenUse] Получает +3 счётчика [ChargeNoir]",
+          "desc": "при получении удара пока у этого юнита есть щит, наносит (силы [ChargeNoir] на себе x стаки [NoirBindArmor]) урона на атакующем\n[WhenUse] Получает +3 счётчика [ChargeNoir]",
           "coinlist": []
         }
       ]
@@ -1749,7 +1749,7 @@
           "level": 1,
           "name": "Обработка кожи в мозговом жире: в духе первородного греха",
           "desc": "<color=#ff6000><mark=#ff000040><b><u>Наносит +10% урона за каждого живого Tanned Prisoner</u></b></mark></color> на поле\n[StartBattle] Накладывает 2 [Enhancement] на всех союзников\n[WhenUse] если ХП этого юнита меньше 50%, получает Финальная сила +1 за каждые Tanned Prisoner на поле\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
-          "flavor": "Within its brain are the brains of sinners, tumbling и mixing as they are tanned на its cerebral fluid.",
+          "flavor": "Within its brain are the brains of грешников, tumbling и mixing as they are tanned на its cerebral fluid.",
           "coinlist": [
             {
               "coindescs": [
