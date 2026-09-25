@@ -2,97 +2,97 @@
   {
     "FileWhiteList": [
       {
-        "_filePath": "/PersonalityVoiceDlg/",
-        "FilePath": "/PersonalityVoiceDlg/"
+        "_filePath": "PersonalityVoiceDlg",
+        "FilePath": "PersonalityVoiceDlg"
       }
     ],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Начало стендапа",
     "ReplaceTags": false,
-    "Target": "Представление"
+    "Target": "^Представление$"
   },
   {
     "FileWhiteList": [
       {
-        "_filePath": "/PersonalityVoiceDlg/",
-        "FilePath": "/PersonalityVoiceDlg/"
+        "_filePath": "PersonalityVoiceDlg",
+        "FilePath": "PersonalityVoiceDlg"
       }
     ],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Утречка чат!",
     "ReplaceTags": false,
-    "Target": "Утреннее представление"
+    "Target": "^Утреннее представление$"
   },
   {
     "FileWhiteList": [
       {
-        "_filePath": "/PersonalityVoiceDlg/",
-        "FilePath": "/PersonalityVoiceDlg/"
+        "_filePath": "PersonalityVoiceDlg",
+        "FilePath": "PersonalityVoiceDlg"
       }
     ],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Обед уютненько",
     "ReplaceTags": false,
-    "Target": "Полуденное (дневное) представление"
+    "Target": "^Полуденное \\(дневное\\) представление$"
   },
   {
     "FileWhiteList": [
       {
-        "_filePath": "/PersonalityVoiceDlg/",
-        "FilePath": "/PersonalityVoiceDlg/"
+        "_filePath": "PersonalityVoiceDlg",
+        "FilePath": "PersonalityVoiceDlg"
       }
     ],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Вечер в хату",
     "ReplaceTags": false,
-    "Target": "Вечернее представление"
+    "Target": "^Вечернее представление$"
   },
   {
     "FileWhiteList": [
       {
-        "_filePath": "/PersonalityVoiceDlg/",
-        "FilePath": "/PersonalityVoiceDlg/"
+        "_filePath": "PersonalityVoiceDlg",
+        "FilePath": "PersonalityVoiceDlg"
       }
     ],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Чесание яичек",
     "ReplaceTags": false,
-    "Target": "Бездействие"
+    "Target": "^Бездействие$"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Уровень сваги",
     "ReplaceTags": false,
-    "Target": "Уровень атаки"
+    "Target": "Уровень атаки|\\bOffense (?:Level|Уровень)\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Уровень жирности",
     "ReplaceTags": false,
-    "Target": "Уровень защиты"
+    "Target": "Уровень защиты|\\bDefense (?:Level|Уровень)\\b"
   },
   {
     "FileWhiteList": [],
@@ -142,23 +142,23 @@
     "PreserveCase": false,
     "Replacement": "счётчика [$1]",
     "ReplaceTags": true,
-    "Target": "\\[([^\\]]+)\\] Count"
+    "Target": "\\[([^\\]]+)\\] Count\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "+1 счётчик",
+    "Replacement": "$1 счётчик",
     "ReplaceTags": false,
-    "Target": "+1 счётчика"
+    "Target": "\\b((?:\\d*[02-9])?1) счётчика\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Вес атаки",
     "ReplaceTags": false,
@@ -170,7 +170,7 @@
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": " [Breath:*Кумара*]",
+    "Replacement": "[Breath:*Кумара*]",
     "ReplaceTags": true,
     "Target": "[Breath]"
   },
@@ -200,7 +200,7 @@
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "[Sinking:*Депрессии*] ",
+    "Replacement": "[Sinking:*Депрессии*]",
     "ReplaceTags": true,
     "Target": "[Sinking]"
   },
@@ -220,7 +220,7 @@
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "[Burst:*Зелёнки*] ",
+    "Replacement": "[Burst:*Зелёнки*]",
     "ReplaceTags": true,
     "Target": "[Burst]"
   },
@@ -236,69 +236,69 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Пиццерия Фредди Фазбера",
     "ReplaceTags": false,
-    "Target": "Дом пауков"
+    "Target": "\\bДом (?:пауков|пидоров)\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Пиццерия Фредди Фазбера",
-    "ReplaceTags": false,
-    "Target": "Дом пидоров"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Пиццерии Фредди Фазбера",
     "ReplaceTags": false,
-    "Target": "Дома пауков"
+    "Target": "\\bДом[аеу] (?:пауков|пидоров)\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "Пиццерии Фредди Фазбера",
+    "Replacement": "Пиццерией Фредди Фазбера",
     "ReplaceTags": false,
-    "Target": "Пиццерии Фредди Фазбера"
+    "Target": "\\bДомом (?:пауков|пидоров)\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Новый проёб круток:",
     "ReplaceTags": false,
-    "Target": "New Identity Target Extraction:"
+    "Target": "\\bNew Identity Target Extraction:"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Проёб круток:",
     "ReplaceTags": false,
-    "Target": "Target Extraction:"
+    "Target": "\\bTarget Extraction:"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Ночи депа",
+    "ReplaceTags": false,
+    "Target": "\\bWalpurgis Nights\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Ночь депа",
     "ReplaceTags": false,
@@ -306,19 +306,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Хохлоленд",
     "ReplaceTags": false,
-    "Target": "La Manchaland"
+    "Target": "La Manchaland|Ла Манчаленд|Мочаленд"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Фурри фандомы",
+    "ReplaceTags": false,
+    "Target": "\\bHeishou Packs\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Фурри фандом",
     "ReplaceTags": false,
@@ -326,29 +336,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Гарантированный деп",
     "ReplaceTags": false,
-    "Target": "Assured Extraction:"
+    "Target": "\\bAssured Extraction:"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Начало хода:",
     "ReplaceTags": false,
-    "Target": "Turn Start:"
+    "Target": "\\bTurn Start:"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Ахуенное Э.Г.О",
     "ReplaceTags": false,
@@ -361,48 +371,28 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "<Условия открытия>",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "<Unlock Conditions>"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Конец хода:",
     "ReplaceTags": false,
-    "Target": "Turn End:"
+    "Target": "\\bTurn End:"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "Вечных",
+    "Replacement": "Вечн",
     "ReplaceTags": false,
-    "Target": "Нерушимых"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Вечными",
-    "ReplaceTags": false,
-    "Target": "Нерушимыми"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Вечной",
-    "ReplaceTags": false,
-    "Target": "Нерушимой"
+    "Target": "\\bНерушим(?=[а-яё])"
   },
   {
     "FileWhiteList": [],
@@ -446,53 +436,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "Хохлоленд",
+    "Replacement": "$1 паники",
     "ReplaceTags": false,
-    "Target": "Мочаленд"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Хохлоленд",
-    "ReplaceTags": false,
-    "Target": "Ла Манчаленд"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": true,
-    "Replacement": "Тип паники",
-    "ReplaceTags": false,
-    "Target": "Тип срыва"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": true,
-    "Replacement": "Эффект паники",
-    "ReplaceTags": false,
-    "Target": "Эффект срыва"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": true,
-    "Replacement": "Эффекты паники",
-    "ReplaceTags": false,
-    "Target": "Эффекты срыва"
+    "Target": "\\b(Тип|Эффекты?) срыва\\b"
   },
   {
     "FileWhiteList": [],
@@ -508,7 +458,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "на следующий ход",
     "ReplaceTags": false,
@@ -528,7 +478,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "за каждые",
     "ReplaceTags": false,
@@ -538,7 +488,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Финальная сила",
     "ReplaceTags": false,
@@ -548,7 +498,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на главной цели",
     "ReplaceTags": false,
@@ -568,7 +518,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Если у этого юнита есть",
     "ReplaceTags": false,
@@ -576,13 +526,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "на цели",
     "ReplaceTags": false,
-    "Target": "on target"
+    "Target": "\\bon (?:the )?targeted (?:enemy|enemies)\\b|на целиed enemy"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "на цели",
+    "ReplaceTags": false,
+    "Target": "\\bon (?:the )?target\\b(?!['’])"
   },
   {
     "FileWhiteList": [],
@@ -598,7 +558,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Повышает порог стаггера на",
     "ReplaceTags": false,
@@ -608,7 +568,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "один раз за ход",
     "ReplaceTags": false,
@@ -618,7 +578,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "активируется как",
     "ReplaceTags": false,
@@ -626,13 +586,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": true,
     "Replacement": "получает +",
     "ReplaceTags": false,
-    "Target": "Gain +"
+    "Target": "\\bGain \\+"
   },
   {
     "FileWhiteList": [],
@@ -658,7 +618,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в конце хода",
     "ReplaceTags": false,
@@ -666,29 +626,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": true,
     "Replacement": "Союзники хилят",
     "ReplaceTags": false,
-    "Target": "Allies хилит"
+    "Target": "\\bAllies хилит"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Э.Г.О",
     "ReplaceTags": false,
-    "Target": "E.G.O"
+    "Target": "\\bE\\.G\\.Os?\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "Айдишки",
     "ReplaceTags": false,
@@ -696,23 +656,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Аптай",
     "ReplaceTags": false,
-    "Target": "Uptie Tier"
+    "Target": "\\bUptie Tiers?\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Тредспин",
     "ReplaceTags": false,
-    "Target": "Threadspinning Tier"
+    "Target": "\\bThreadspinning Tiers?\\b"
   },
   {
     "FileWhiteList": [],
@@ -726,19 +686,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Сила монет +",
     "ReplaceTags": false,
-    "Target": "Coin power +"
+    "Target": "\\bCoin power \\+"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Эксклюзивный скилл",
     "ReplaceTags": false,
@@ -748,7 +708,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при ударе монетой",
     "ReplaceTags": false,
@@ -768,7 +728,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "равное",
     "ReplaceTags": false,
@@ -786,19 +746,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "наивысший резонанс",
     "ReplaceTags": false,
-    "Target": "highest Reson."
+    "Target": "\\bhighest Reson\\."
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "округляется вниз",
     "ReplaceTags": false,
@@ -816,19 +776,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "недостающего ХП",
     "ReplaceTags": false,
-    "Target": "of missing ХП"
+    "Target": "\\bof missing ХП"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "пока у этого юнита есть щит",
+    "ReplaceTags": false,
+    "Target": "\\bwhile this unit (?:has Shield\\b|hв качестве щита)"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в качестве щита",
     "ReplaceTags": false,
@@ -838,27 +808,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Уровень сваги",
-    "ReplaceTags": false,
-    "Target": "Offense Уровень"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Уровень жирности",
-    "ReplaceTags": false,
-    "Target": "Defense Уровень"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "тратит все",
     "ReplaceTags": false,
@@ -868,7 +818,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "на себе",
     "ReplaceTags": false,
@@ -876,19 +826,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "финального урона этой монеты",
     "ReplaceTags": false,
-    "Target": "of this Coin's final урона"
+    "Target": "\\bof this Coin's final урона"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Внешние эффекты не могут использовать этот скилл повторно",
     "ReplaceTags": false,
@@ -898,7 +848,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Этот скилл не активирует защитные скиллы цели",
     "ReplaceTags": false,
@@ -908,7 +858,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "находится среди целей",
     "ReplaceTags": false,
@@ -918,17 +868,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": true,
-    "Replacement": "скиллы",
-    "ReplaceTags": false,
-    "Target": "скиллs"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Базовые скиллы",
     "ReplaceTags": false,
@@ -938,7 +878,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при удовлетворении одного из следующих условий",
     "ReplaceTags": false,
@@ -948,7 +888,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "когда этот юнит получает удар от",
     "ReplaceTags": false,
@@ -958,7 +898,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "уменьшается на",
     "ReplaceTags": false,
@@ -978,7 +918,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "от скиллов",
     "ReplaceTags": false,
@@ -986,19 +926,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При победе в клеше",
     "ReplaceTags": false,
-    "Target": "On Clash Win"
+    "Target": "\\b(?:up)?on Clash Win\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "дополнительно",
     "ReplaceTags": false,
@@ -1008,7 +948,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "количество клешей",
     "ReplaceTags": false,
@@ -1022,7 +962,7 @@
     "PreserveCase": false,
     "Replacement": "превращает $1-ю монету в",
     "ReplaceTags": true,
-    "Target": "convert Coin (\\w+) into"
+    "Target": "\\bconvert Coin (\\w+) into\\b"
   },
   {
     "FileWhiteList": [],
@@ -1038,7 +978,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Этот скилл наносит",
     "ReplaceTags": false,
@@ -1048,7 +988,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Не получает урона в этот ход",
     "ReplaceTags": false,
@@ -1058,7 +998,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Заканчивает битву",
     "ReplaceTags": false,
@@ -1068,7 +1008,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Сила клеша",
     "ReplaceTags": false,
@@ -1078,7 +1018,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Базовая сила",
     "ReplaceTags": false,
@@ -1088,7 +1028,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Этот скилл получает",
     "ReplaceTags": false,
@@ -1098,7 +1038,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "равный",
     "ReplaceTags": false,
@@ -1108,7 +1048,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на этот слот скиллов",
     "ReplaceTags": false,
@@ -1118,7 +1058,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "количеству монет в этом скилле",
     "ReplaceTags": false,
@@ -1126,19 +1066,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При 6+ А-рез. Зависти",
     "ReplaceTags": false,
-    "Target": "At 6+ sum of Envy A-Reson.,"
+    "Target": "\\bAt 6\\+ sum of Envy A-Reson\\.,"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "активируется с самого левого слота скиллов",
     "ReplaceTags": false,
@@ -1148,7 +1088,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Уменьшает порог стаггера этого юнита на",
     "ReplaceTags": false,
@@ -1158,7 +1098,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при менее чем",
     "ReplaceTags": false,
@@ -1168,7 +1108,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "один раз за бой",
     "ReplaceTags": false,
@@ -1178,27 +1118,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Понижает порог своего стаггера на",
-    "ReplaceTags": false,
-    "Target": "Lower user's stagger threshold by"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Этот скилл получает",
-    "ReplaceTags": false,
-    "Target": "This skill gains"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на этом юните",
     "ReplaceTags": false,
@@ -1218,7 +1138,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Конвертирует монеты этого скилла",
     "ReplaceTags": false,
@@ -1238,17 +1158,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "",
-    "ReplaceTags": false,
-    "Target": ""
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "начиная с монеты №",
     "ReplaceTags": false,
@@ -1256,19 +1166,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[SuperCoin:*Вечные монеты*]",
     "ReplaceTags": true,
-    "Target": "[SuperCoin]s"
+    "Target": "\\[SuperCoin]s\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Если этот скилл был активирован как",
     "ReplaceTags": false,
@@ -1276,13 +1186,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
-    "PreserveCase": true,
+    "PreserveCase": false,
+    "Replacement": "контратаки",
+    "ReplaceTags": false,
+    "Target": "\\bCounter Skills\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
     "Replacement": "контратака",
     "ReplaceTags": false,
-    "Target": "Counter Skill"
+    "Target": "\\bCounter Skill\\b"
   },
   {
     "FileWhiteList": [],
@@ -1298,7 +1218,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "наносит рубящий",
     "ReplaceTags": false,
@@ -1308,7 +1228,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "наносит пронзающий",
     "ReplaceTags": false,
@@ -1318,7 +1238,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "наносит дробящий",
     "ReplaceTags": false,
@@ -1328,7 +1248,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Получает дополнительный",
     "ReplaceTags": false,
@@ -1336,33 +1256,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "рубящий урон",
     "ReplaceTags": false,
-    "Target": "Slash урон"
+    "Target": "\\bSlash урон"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "дробящий урон",
     "ReplaceTags": false,
-    "Target": "Blunt урон"
+    "Target": "\\bBlunt урон"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "пронзающий урон",
     "ReplaceTags": false,
-    "Target": "Pierce урон"
+    "Target": "\\bPierce урон"
   },
   {
     "FileWhiteList": [],
@@ -1398,7 +1318,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "наносит больше",
     "ReplaceTags": false,
@@ -1408,7 +1328,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "получает меньше",
     "ReplaceTags": false,
@@ -1428,7 +1348,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этому юниту",
     "ReplaceTags": false,
@@ -1438,7 +1358,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в прошлом ходу",
     "ReplaceTags": false,
@@ -1448,7 +1368,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "до конца битвы",
     "ReplaceTags": false,
@@ -1458,7 +1378,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "IQ этого юнита не падает ниже",
     "ReplaceTags": false,
@@ -1468,7 +1388,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "при использовании",
     "ReplaceTags": false,
@@ -1476,49 +1396,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "1 стак",
+    "Replacement": "$1 стак",
     "ReplaceTags": false,
-    "Target": "1 стаков"
+    "Target": "\\b((?:\\d*[02-9])?1) стаков\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "$1 стака",
+    "ReplaceTags": false,
+    "Target": "\\b((?:\\d*[02-9])?[234]) стаков\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "2 стака",
-    "ReplaceTags": false,
-    "Target": "2 стаков"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "3 стака",
-    "ReplaceTags": false,
-    "Target": "3 стаков"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "4 стака",
-    "ReplaceTags": false,
-    "Target": "4 стаков"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в конце скилла",
     "ReplaceTags": false,
@@ -1538,7 +1438,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в этом ходу",
     "ReplaceTags": false,
@@ -1548,17 +1448,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "независимо от",
-    "ReplaceTags": false,
-    "Target": "regardless off"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в этой битве",
     "ReplaceTags": false,
@@ -1568,7 +1458,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "заменяет базовый скилл",
     "ReplaceTags": false,
@@ -1578,7 +1468,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "выходит из стаггера",
     "ReplaceTags": false,
@@ -1588,7 +1478,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Когда впервые попадает в стаггер",
     "ReplaceTags": false,
@@ -1596,19 +1486,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "на панели скиллов этого юнита",
     "ReplaceTags": false,
-    "Target": "на этом юните's Dashboard"
+    "Target": "на этом юните's Dashboard\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Начало битвы",
     "ReplaceTags": false,
@@ -1616,9 +1506,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "при ударе",
+    "ReplaceTags": false,
+    "Target": "\\bwhen hitting\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "при получении удара",
     "ReplaceTags": false,
@@ -1628,7 +1528,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Начало столкновения",
     "ReplaceTags": false,
@@ -1648,7 +1548,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "если эта Айдишка погибла",
     "ReplaceTags": false,
@@ -1658,7 +1558,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "раз за ход",
     "ReplaceTags": false,
@@ -1668,7 +1568,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "получает следующие эффекты",
     "ReplaceTags": false,
@@ -1678,7 +1578,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "если этот скилл убил",
     "ReplaceTags": false,
@@ -1688,17 +1588,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "контратаки",
-    "ReplaceTags": false,
-    "Target": "контратакаs"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Если союзник попавший под эффект является",
     "ReplaceTags": false,
@@ -1718,7 +1608,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на союзниках, кто экипировал",
     "ReplaceTags": false,
@@ -1728,7 +1618,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "союзника из",
     "ReplaceTags": false,
@@ -1748,7 +1638,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "активирует следующие эффекты",
     "ReplaceTags": false,
@@ -1758,7 +1648,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот скилл не активирует защитные скиллы",
     "ReplaceTags": false,
@@ -1768,11 +1658,21 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "Если союзник, являющийся целью был убит",
     "ReplaceTags": false,
     "Target": "If a targeted ally is killed"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Если на цели есть",
+    "ReplaceTags": false,
+    "Target": "\\bIf target has\\b"
   },
   {
     "FileWhiteList": [],
@@ -1786,19 +1686,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "финального урона каждой монеты",
     "ReplaceTags": false,
-    "Target": "of each Coin's final урона"
+    "Target": "\\bof each Coin's final урона"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "количеству монет в этом скилле",
     "ReplaceTags": false,
@@ -1818,17 +1718,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": true,
-    "Replacement": "Если на цели есть",
-    "ReplaceTags": false,
-    "Target": "If target has"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "что скилл наносит",
     "ReplaceTags": false,
@@ -1836,13 +1726,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "равный базовому числу",
     "ReplaceTags": false,
-    "Target": "by the base amount of "
+    "Target": "\\bby the base amount of "
   },
   {
     "FileWhiteList": [],
@@ -1856,19 +1746,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": true,
     "Replacement": "мин. и",
     "ReplaceTags": false,
-    "Target": "Min &"
+    "Target": "\\bMin &"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот урон не стаггерит этого юнита, и не может понизить его ХП ниже 1",
     "ReplaceTags": false,
@@ -1878,7 +1768,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "один раз за скилл",
     "ReplaceTags": false,
@@ -1886,19 +1776,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "при ударе указанным скиллом",
     "ReplaceTags": false,
-    "Target": "On Hit with the affected Skill "
+    "Target": "\\bOn Hit with the affected Skill "
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "исчезает",
     "ReplaceTags": false,
@@ -1906,13 +1796,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "минимальная и максимальная скорость",
     "ReplaceTags": false,
-    "Target": "мин. и макс. Speed"
+    "Target": "мин\\. и макс\\. Speed\\b"
   },
   {
     "FileWhiteList": [],
@@ -1922,13 +1812,13 @@
     "PreserveCase": false,
     "Replacement": "использует скилл \"$1\"",
     "ReplaceTags": true,
-    "Target": "use the \"([^\"]+)\" Skill"
+    "Target": "\\buse the \"([^\"]+)\" Skill\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на всех юнитов на поле боя",
     "ReplaceTags": false,
@@ -1948,7 +1838,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "выигрывает клеш",
     "ReplaceTags": false,
@@ -1958,7 +1848,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "активированный в качестве каунтера",
     "ReplaceTags": false,
@@ -1968,7 +1858,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "не",
     "ReplaceTags": false,
@@ -1978,7 +1868,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "он был первым скиллом",
     "ReplaceTags": false,
@@ -1988,7 +1878,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "от использования треснувших монет",
     "ReplaceTags": false,
@@ -1998,7 +1888,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "скилл, что ударил",
     "ReplaceTags": false,
@@ -2008,7 +1898,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "раз за битву",
     "ReplaceTags": false,
@@ -2018,7 +1908,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "исключая контратаки с клешем",
     "ReplaceTags": false,
@@ -2038,7 +1928,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при раскумаре",
     "ReplaceTags": false,
@@ -2061,24 +1951,24 @@
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Забив][вибаЗ",
-    "ReplaceTags": false,
+    "ReplaceTags": true,
     "Target": "Reflectrial][lairtcelfeR"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
+    "IsRegex": true,
+    "MatchCase": true,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Пройди",
     "ReplaceTags": false,
-    "Target": "Clear "
+    "Target": "\\bClear(?= (?!(?:bonus|rewards?|Turn|Info)\\b))"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на сложности Для Петухов",
     "ReplaceTags": false,
@@ -2088,7 +1978,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на сложности Для Ровных",
     "ReplaceTags": false,
@@ -2098,7 +1988,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Индийское кино",
     "ReplaceTags": false,
@@ -2106,39 +1996,39 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Ультраговно",
     "ReplaceTags": true,
-    "Target": "Façade"
+    "Target": "\\bFaçades?\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "(Лимитированная хуйня)",
     "ReplaceTags": false,
-    "Target": "Limited Reward"
+    "Target": "\\bLimited Rewards?\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Используется для покупки лимитных наград за Забив][вибаЗ",
     "ReplaceTags": true,
-    "Target": "Used for purchasing (Лимитированная хуйня)s from the \"Забив][вибаЗ]\" Reward Exchange shop."
+    "Target": "\\bUsed for purchasing \\(Лимитированная хуйня\\)s from the \"Забив]\\[вибаЗ]\" Reward Exchange shop\\."
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при ударе цель скилла этого юнита имела менее",
     "ReplaceTags": false,
@@ -2148,7 +2038,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "больше чем",
     "ReplaceTags": false,
@@ -2158,7 +2048,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "излишек",
     "ReplaceTags": false,
@@ -2168,7 +2058,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "следующие условия были соблюдены",
     "ReplaceTags": false,
@@ -2178,7 +2068,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "использует паттерн",
     "ReplaceTags": false,
@@ -2186,19 +2076,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Мин. & Макс.",
     "ReplaceTags": false,
-    "Target": "Min. & Max."
+    "Target": "\\bMin\\. & Max\\."
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "использует мощный скилл незасимо от ",
     "ReplaceTags": false,
@@ -2206,19 +2096,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При смерти",
     "ReplaceTags": false,
-    "Target": "On death"
+    "Target": "\\b(?:up)?on death\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "ресурс наименее имеющегося типа Греха",
     "ReplaceTags": false,
@@ -2228,7 +2118,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "для всех балбесов",
     "ReplaceTags": false,
@@ -2236,19 +2126,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "недостающего у себя процента ХП",
     "ReplaceTags": false,
-    "Target": "missing ХП percentage на себе"
+    "Target": "\\bmissing ХП percentage на себе"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "каждым ударом этого скилла",
     "ReplaceTags": false,
@@ -2258,7 +2148,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "раз за скилл",
     "ReplaceTags": false,
@@ -2266,33 +2156,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " раз",
     "ReplaceTags": false,
-    "Target": " times"
+    "Target": " times\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "уменьшает у цели счётчик",
     "ReplaceTags": false,
-    "Target": "reduce target's счётчика"
+    "Target": "\\breduce target's счётчика"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "затем,",
     "ReplaceTags": false,
-    "Target": "then,"
+    "Target": "\\bthen,"
   },
   {
     "FileWhiteList": [],
@@ -2306,19 +2196,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "[VibrationExplosion:*Трясёт сучку*]",
     "ReplaceTags": true,
-    "Target": "Trigger [VibrationExplosion]"
+    "Target": "\\bTrigger \\[VibrationExplosion]"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "один раз за цель",
     "ReplaceTags": false,
@@ -2328,7 +2218,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "считается для каждой цели",
     "ReplaceTags": false,
@@ -2338,21 +2228,11 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на все цели по которым попало",
     "ReplaceTags": false,
     "Target": "on all targets hit"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": true,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "потраченого $1",
-    "ReplaceTags": true,
-    "Target": "(\\[[^\\]]+\\])\\s*consumed"
   },
   {
     "FileWhiteList": [],
@@ -2368,7 +2248,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "если у главной цели есть",
     "ReplaceTags": false,
@@ -2378,7 +2258,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "следующие эффекты, основываясь на",
     "ReplaceTags": false,
@@ -2388,7 +2268,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "эффект выше не активируется",
     "ReplaceTags": false,
@@ -2396,29 +2276,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", активирует",
     "ReplaceTags": false,
-    "Target": ", activate"
+    "Target": ", activate\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "+ стаков",
     "ReplaceTags": false,
-    "Target": "+ Stacks"
+    "Target": "\\+ Stacks\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "Может получить до",
     "ReplaceTags": false,
@@ -2428,7 +2308,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "стаков за ход",
     "ReplaceTags": false,
@@ -2438,7 +2318,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "стаков",
     "ReplaceTags": false,
@@ -2448,7 +2328,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При попадании базовым скиллом",
     "ReplaceTags": false,
@@ -2458,7 +2338,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "счётчика изжоги",
     "ReplaceTags": false,
@@ -2468,17 +2348,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Если на цели есть",
-    "ReplaceTags": false,
-    "Target": "Если target has"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "следующие эффекты",
     "ReplaceTags": false,
@@ -2488,7 +2358,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Повторно подбрасывает последнюю монету",
     "ReplaceTags": false,
@@ -2496,19 +2366,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " один раз",
     "ReplaceTags": false,
-    "Target": " once"
+    "Target": " once\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на всех целях",
     "ReplaceTags": false,
@@ -2518,7 +2388,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Повторно использует эту монету",
     "ReplaceTags": false,
@@ -2528,7 +2398,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Тратит до",
     "ReplaceTags": false,
@@ -2538,7 +2408,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "включая бекап юнитов",
     "ReplaceTags": false,
@@ -2548,7 +2418,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Считается как активация",
     "ReplaceTags": false,
@@ -2558,7 +2428,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "против данного врага",
     "ReplaceTags": false,
@@ -2566,29 +2436,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "В конце атаки следующими скиллами",
     "ReplaceTags": false,
-    "Target": "При Attack End of the following Skills"
+    "Target": "При Attack End of the following Skills\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", использует",
     "ReplaceTags": false,
-    "Target": ", use"
+    "Target": ", use\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При ударе повторно использованными монетами",
     "ReplaceTags": false,
@@ -2596,39 +2466,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если остается только одна выжившая айдишка",
     "ReplaceTags": false,
-    "Target": "Если there is only 1 surviving Identity"
+    "Target": "Если there is only 1 surviving Identity\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "нет",
-    "ReplaceTags": false,
-    "Target": "есть no"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": true,
     "Replacement": "ебашит [Switch_Vibration]",
     "ReplaceTags": true,
-    "Target": "trigger [Switch_Vibration]"
+    "Target": "\\btrigger \\[Switch_Vibration]"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При первом выходе на поле боя",
     "ReplaceTags": false,
@@ -2638,7 +2498,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "выполняют следующие условия",
     "ReplaceTags": false,
@@ -2648,7 +2508,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "ставит в приоритет цели в стаггере",
     "ReplaceTags": false,
@@ -2656,29 +2516,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "В конце атаки базовым скиллом",
     "ReplaceTags": false,
-    "Target": "При Base Skill Attack End"
+    "Target": "При Base Skill Attack End\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "не активируется",
     "ReplaceTags": false,
-    "Target": "не activate"
+    "Target": "не activate\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "данный враг уже был",
     "ReplaceTags": false,
@@ -2688,7 +2548,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Не может застаггерится",
     "ReplaceTags": false,
@@ -2696,13 +2556,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "умереть",
     "ReplaceTags": false,
-    "Target": "fall below 1 ХП"
+    "Target": "\\bfall below 1 ХП"
   },
   {
     "FileWhiteList": [],
@@ -2712,7 +2572,7 @@
     "PreserveCase": false,
     "Replacement": "в следствии урона $1",
     "ReplaceTags": true,
-    "Target": "due to (\\[[^\\]]+\\])\\s*урона"
+    "Target": "\\bdue to (\\[[^\\]]+\\])\\s*урона"
   },
   {
     "FileWhiteList": [],
@@ -2722,7 +2582,7 @@
     "PreserveCase": false,
     "Replacement": "конвертирует $1 на",
     "ReplaceTags": true,
-    "Target": "convert (\\[[^\\]]+\\])\\s*on"
+    "Target": "\\bconvert (\\[[^\\]]+\\])\\s*on\\b"
   },
   {
     "FileWhiteList": [],
@@ -2732,13 +2592,13 @@
     "PreserveCase": false,
     "Replacement": "от эффектов $1",
     "ReplaceTags": true,
-    "Target": "from (\\[[^\\]]+\\])\\s*effects"
+    "Target": "\\bfrom (\\[[^\\]]+\\])\\s*effects\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "использует",
     "ReplaceTags": false,
@@ -2746,29 +2606,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "на цели",
-    "ReplaceTags": false,
-    "Target": "на целиed enemy"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "урон гневом",
     "ReplaceTags": false,
-    "Target": "Wrath урон"
+    "Target": "\\bWrath урона?(?![а-я])"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на враге, которому нанёсся урон",
     "ReplaceTags": false,
@@ -2776,43 +2626,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "на цели",
-    "ReplaceTags": false,
-    "Target": "on the targeted enemy"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если на цели нет",
     "ReplaceTags": false,
-    "Target": "Если target не have"
+    "Target": "Если target не have\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Тратит ",
     "ReplaceTags": false,
-    "Target": "Consume "
+    "Target": "\\bConsume "
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "для получения",
     "ReplaceTags": false,
-    "Target": "to получает"
+    "Target": "\\bto получает"
   },
   {
     "FileWhiteList": [],
@@ -2822,33 +2662,13 @@
     "PreserveCase": false,
     "Replacement": "силы $1",
     "ReplaceTags": true,
-    "Target": "(\\[[^\\]]+\\])\\s*Potency"
+    "Target": "(\\[[^\\]]+\\])\\s*Potency\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "] Наносит",
-    "ReplaceTags": true,
-    "Target": "] наносит"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "] Получает",
-    "ReplaceTags": true,
-    "Target": "] получает"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "всем целям",
     "ReplaceTags": false,
@@ -2858,7 +2678,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "менее",
     "ReplaceTags": false,
@@ -2868,7 +2688,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "до",
     "ReplaceTags": false,
@@ -2878,7 +2698,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "из-за этого эффекта",
     "ReplaceTags": false,
@@ -2886,19 +2706,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "ХП этого юнита",
     "ReplaceTags": false,
-    "Target": "This unit's ХП"
+    "Target": "\\bThis unit's ХП"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "IQ этого юнита",
     "ReplaceTags": false,
@@ -2908,7 +2728,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "отменяет смерть",
     "ReplaceTags": false,
@@ -2916,19 +2736,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При получении урона, что понижает ХП этого юнита до 0",
     "ReplaceTags": false,
-    "Target": "Когда taking урона that brings ХП этого юнита to 0"
+    "Target": "Когда taking урона that brings ХП этого юнита to 0\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "не может понизится до",
     "ReplaceTags": false,
@@ -2946,19 +2766,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "1 дополнительный стак",
     "ReplaceTags": false,
-    "Target": "1 дополнительных стака"
+    "Target": "\\b1 дополнительных стака"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "вышеописанных эффектов",
     "ReplaceTags": false,
@@ -2978,17 +2798,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "весь счётчик",
-    "ReplaceTags": false,
-    "Target": "все счётчика"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Перед получением удара",
     "ReplaceTags": false,
@@ -3016,19 +2826,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Скиллы этого юнита наносят",
     "ReplaceTags": false,
-    "Target": "This unit's Skills наносит"
+    "Target": "\\bThis unit's Skills наносит"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "сила Солей",
     "ReplaceTags": false,
@@ -3038,7 +2848,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "от скиллов этого юнита",
     "ReplaceTags": false,
@@ -3048,7 +2858,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "счётчик Солей",
     "ReplaceTags": false,
@@ -3056,39 +2866,39 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Э.Г.О LCE",
     "ReplaceTags": false,
-    "Target": "LCE Э.Г.О"
+    "Target": "\\bLCE Э\\.Г\\.О"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "для повторного использования этой монеты",
     "ReplaceTags": false,
-    "Target": "to Повторно использует эту монету"
+    "Target": "\\bto Повторно использует эту монету"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "кумулятивного счётчика",
     "ReplaceTags": false,
-    "Target": "cumulative счётчика"
+    "Target": "\\bcumulative счётчика"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "каждый раз, когда этот юнит тратит",
     "ReplaceTags": false,
@@ -3096,19 +2906,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в конце атаки",
     "ReplaceTags": false,
-    "Target": "при Attack End"
+    "Target": "при Attack End\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при использовании скилла",
     "ReplaceTags": false,
@@ -3116,29 +2926,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Повышается на",
     "ReplaceTags": false,
-    "Target": "Increases на"
+    "Target": "\\bIncreases на"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Понижается на",
     "ReplaceTags": false,
-    "Target": "Decreases на"
+    "Target": "\\bDecreases на"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "чтобы активировать",
     "ReplaceTags": false,
@@ -3148,7 +2958,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "скилл союзника попадает по врагу",
     "ReplaceTags": false,
@@ -3156,39 +2966,39 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит находится в",
     "ReplaceTags": false,
-    "Target": "Если this unit is in"
+    "Target": "Если this unit is in\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "нанести урон в этом ходу",
     "ReplaceTags": false,
-    "Target": "наносит урона this turn"
+    "Target": "наносит урона this turn\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит не смог",
     "ReplaceTags": false,
-    "Target": "Если this unit failed to"
+    "Target": "Если this unit failed to\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на всех врагов",
     "ReplaceTags": false,
@@ -3202,23 +3012,23 @@
     "PreserveCase": false,
     "Replacement": "на +$1 больше",
     "ReplaceTags": false,
-    "Target": "\\+(\\d+) more"
+    "Target": "\\+(\\d+) more\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Когда умирает",
     "ReplaceTags": false,
-    "Target": "Когда defeated"
+    "Target": "Когда defeated\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "возвращает урон атакующему",
     "ReplaceTags": false,
@@ -3228,7 +3038,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот юнит получает стак выше максимума",
     "ReplaceTags": false,
@@ -3238,7 +3048,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот юнит получает",
     "ReplaceTags": false,
@@ -3246,43 +3056,43 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "мин. и макс. скорость",
     "ReplaceTags": false,
-    "Target": "мин. и Max Speed"
+    "Target": "мин\\. и Max Speed\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "- Паника",
     "ReplaceTags": false,
-    "Target": "- Panic"
+    "Target": "- Panic\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "- Низкий дух",
     "ReplaceTags": false,
-    "Target": "- Low Morale"
+    "Target": "- Low Morale\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При клеше",
     "ReplaceTags": false,
-    "Target": "On Clash"
+    "Target": "\\b(?:up)?on Clash(?:ing)?\\b"
   },
   {
     "FileWhiteList": [],
@@ -3298,7 +3108,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Юниты без IQ",
     "ReplaceTags": false,
@@ -3308,7 +3118,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Юниты с IQ",
     "ReplaceTags": false,
@@ -3318,7 +3128,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "меняет тип паники на",
     "ReplaceTags": false,
@@ -3328,7 +3138,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "счётчик Депрессии",
     "ReplaceTags": false,
@@ -3338,7 +3148,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "скорость этого юнита",
     "ReplaceTags": false,
@@ -3348,7 +3158,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "выше, чем у цели",
     "ReplaceTags": false,
@@ -3358,7 +3168,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "разница в скорости",
     "ReplaceTags": false,
@@ -3368,7 +3178,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "союзник с наивысшей скоростью",
     "ReplaceTags": false,
@@ -3378,7 +3188,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "использует скилл, что",
     "ReplaceTags": false,
@@ -3388,7 +3198,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "получает или тратит",
     "ReplaceTags": false,
@@ -3408,7 +3218,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "против этой цели",
     "ReplaceTags": false,
@@ -3416,29 +3226,39 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "при выполнении условия",
     "ReplaceTags": false,
-    "Target": "когда conditions are met"
+    "Target": "когда conditions are met\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
+    "IsRegex": true,
+    "MatchCase": true,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "* сила",
     "ReplaceTags": false,
-    "Target": "x силы"
+    "Target": "\\bx силы"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Макс. сила",
+    "ReplaceTags": false,
+    "Target": "\\bMax силы\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Урон, нанесённый этим скиллом",
     "ReplaceTags": false,
@@ -3448,7 +3268,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "не может застаггерить цель",
     "ReplaceTags": false,
@@ -3469,8 +3289,8 @@
     "IsRegex": false,
     "MatchCase": false,
     "MatchWholeWord": false,
-    "PreserveCase": true,
-    "Replacement": "все части",
+    "PreserveCase": false,
+    "Replacement": " все части",
     "ReplaceTags": false,
     "Target": " Все Parts"
   },
@@ -3478,7 +3298,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "каждый ход",
     "ReplaceTags": false,
@@ -3488,7 +3308,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Начиная с хода номер",
     "ReplaceTags": false,
@@ -3498,7 +3318,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот юнит теряет",
     "ReplaceTags": false,
@@ -3508,7 +3328,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Пока",
     "ReplaceTags": false,
@@ -3516,19 +3336,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "меньше ХП ядра",
     "ReplaceTags": false,
-    "Target": "less Core ХП"
+    "Target": "\\bless Core ХП"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "убит пока находится в",
     "ReplaceTags": false,
@@ -3536,19 +3356,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "на слабый (1.5)",
     "ReplaceTags": false,
-    "Target": "to Weak(1.5)"
+    "Target": "\\bto Weak\\(1\\.5\\)"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на всех союзников",
     "ReplaceTags": false,
@@ -3558,7 +3378,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот скилл наносит",
     "ReplaceTags": false,
@@ -3568,7 +3388,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "является нечётным числом",
     "ReplaceTags": false,
@@ -3576,19 +3396,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если у этого юнита",
     "ReplaceTags": false,
-    "Target": "Если this unit's"
+    "Target": "Если this unit's\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "является чётным числом",
     "ReplaceTags": false,
@@ -3598,7 +3418,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Урон от этого скилла не может застаггерить цель",
     "ReplaceTags": false,
@@ -3606,19 +3426,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "эффектом этого скилла",
     "ReplaceTags": false,
-    "Target": "with this Skill's effect"
+    "Target": "\\bwith this Skill's effects?\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "округляется вверх",
     "ReplaceTags": false,
@@ -3628,7 +3448,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При ударе",
     "ReplaceTags": false,
@@ -3636,19 +3456,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "не активирует",
     "ReplaceTags": false,
-    "Target": "не trigger"
+    "Target": "не trigger\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "меньше стаков",
     "ReplaceTags": false,
@@ -3656,19 +3476,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждый тип негативного эффекта",
     "ReplaceTags": false,
-    "Target": "каждые type of negative effect"
+    "Target": "каждые type of negative effect\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на каждой цели",
     "ReplaceTags": false,
@@ -3676,19 +3496,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "есть экипированные защитные скиллы",
     "ReplaceTags": false,
-    "Target": "есть equipped Defense Skills"
+    "Target": "есть equipped Defense Skills\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "после проигрыша в клеше",
     "ReplaceTags": false,
@@ -3698,7 +3518,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Эта монета наносит урон всем целям",
     "ReplaceTags": false,
@@ -3708,7 +3528,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "исключая защиту с клешем",
     "ReplaceTags": false,
@@ -3718,7 +3538,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Ставит в приоритет цели, у которых есть",
     "ReplaceTags": false,
@@ -3726,79 +3546,79 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Когда в стаггере",
     "ReplaceTags": false,
-    "Target": "Когда Staggered"
+    "Target": "Когда Staggered\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Поднимает порог стаггера на число",
     "ReplaceTags": false,
-    "Target": "Raise Stagger Threshold равный"
+    "Target": "\\bRaise Stagger Threshold равный"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "или выше",
     "ReplaceTags": false,
-    "Target": "или higher"
+    "Target": "или higher\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "когда сумма",
     "ReplaceTags": false,
-    "Target": "когда the sum of"
+    "Target": "когда the sum of\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "складывается до",
     "ReplaceTags": false,
-    "Target": "adds до"
+    "Target": "\\badds до"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "поднимает стадию стаггера",
     "ReplaceTags": false,
-    "Target": "raise Stagger Уровень"
+    "Target": "\\braise Stagger Уровень"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "повышения Уровня сваги",
     "ReplaceTags": false,
-    "Target": "Уровень сваги Up"
+    "Target": "Уровень сваги Up\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "повышения силы атаки",
     "ReplaceTags": false,
@@ -3806,19 +3626,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "ХП не падает ниже",
     "ReplaceTags": false,
-    "Target": "ХП не drop below"
+    "Target": "ХП не drop below\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Пока есть хоть один выживший союзник",
     "ReplaceTags": false,
@@ -3826,29 +3646,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ": Отнимает",
     "ReplaceTags": false,
-    "Target": ": Reduce"
+    "Target": ": Reduce\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в начале хода",
     "ReplaceTags": false,
-    "Target": "при Turn Start"
+    "Target": "при Turn Start\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Накладывает в два раза больше",
     "ReplaceTags": false,
@@ -3858,7 +3678,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "так же работает на уникальные статусы",
     "ReplaceTags": false,
@@ -3868,7 +3688,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "шанс выбросить орла",
     "ReplaceTags": false,
@@ -3876,19 +3696,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Сила позитивных монет скилла",
     "ReplaceTags": false,
-    "Target": "Skill Plus Сила монет"
+    "Target": "\\bSkill Plus Сила монет"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Сила негативных монет скилла",
     "ReplaceTags": false,
@@ -3896,43 +3716,43 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Базовая сила скилла",
     "ReplaceTags": false,
-    "Target": "Skill Базовая сила"
+    "Target": "\\bSkill Базовая сила"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Уровень сваги скилла",
     "ReplaceTags": false,
-    "Target": "Skill Уровень сваги"
+    "Target": "\\bSkill Уровень сваги"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Финальная сила скилла",
     "ReplaceTags": false,
-    "Target": "Skill Финальная сила"
+    "Target": "\\bSkill Финальная сила"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Сила скилла +",
     "ReplaceTags": false,
-    "Target": "Skill Power +"
+    "Target": "\\bSkill Power \\+"
   },
   {
     "FileWhiteList": [],
@@ -3946,19 +3766,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": true,
     "Replacement": "если у цели нет IQ",
     "ReplaceTags": false,
-    "Target": "если target is a non-IQ unit"
+    "Target": "если target is a non-IQ unit\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "Цель теряет",
     "ReplaceTags": false,
@@ -3968,7 +3788,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Против юнитов без IQ",
     "ReplaceTags": false,
@@ -3978,7 +3798,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Вес атаки",
     "ReplaceTags": false,
@@ -3986,33 +3806,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "всем целям, по которым был нанесен удар",
     "ReplaceTags": false,
-    "Target": "всем целям that were hit"
+    "Target": "всем целям that were hit\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
-    "PreserveCase": true,
+    "PreserveCase": false,
     "Replacement": "Если цель является",
     "ReplaceTags": false,
-    "Target": "Если target is a"
+    "Target": "Если target is an?\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "хилит себя на это число",
     "ReplaceTags": false,
-    "Target": "хилит self на the same amount"
+    "Target": "хилит self на the same amount\\b"
   },
   {
     "FileWhiteList": [],
@@ -4026,23 +3846,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "урон от этого эффекта не может застаггерить цель или опустить её ХП ниже",
     "ReplaceTags": false,
-    "Target": "урона dealt на this effect не Stagger или reduce the target's ХП below"
+    "Target": "урона dealt на this effect не Stagger или reduce the target's ХП below\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если у цели макс. IQ",
     "ReplaceTags": false,
-    "Target": "Если target is при макс. IQ"
+    "Target": "Если target is при макс\\. IQ\\b"
   },
   {
     "FileWhiteList": [],
@@ -4052,7 +3872,7 @@
     "PreserveCase": false,
     "Replacement": "убирает $1 снимаемый негативный эффект на цели",
     "ReplaceTags": false,
-    "Target": "remove (\\d+) removable negative effect applied на цели"
+    "Target": "\\bremove (\\d+) removable negative effect applied на цели"
   },
   {
     "FileWhiteList": [],
@@ -4062,23 +3882,23 @@
     "PreserveCase": false,
     "Replacement": "Если цель является юнитом \"$1\"",
     "ReplaceTags": false,
-    "Target": "Если цель является \"([^\"]+)\" unit"
+    "Target": "Если цель является \"([^\"]+)\" unit\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "финальной силе этого скилла",
     "ReplaceTags": false,
-    "Target": "this Skill's Финальная сила"
+    "Target": "\\bthis Skill's Финальная сила"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Снимает стаггер с цели",
     "ReplaceTags": false,
@@ -4086,49 +3906,49 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "макс. ХП цели",
     "ReplaceTags": false,
-    "Target": "of target's макс. ХП"
+    "Target": "\\bof target's макс\\. ХП"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Накладывает щит",
     "ReplaceTags": false,
-    "Target": "Накладывает Shield"
+    "Target": "Накладывает Shield\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "недостающего ХП",
     "ReplaceTags": false,
-    "Target": "missing ХП"
+    "Target": "\\bmissing ХП"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "раз макс",
     "ReplaceTags": false,
-    "Target": "time макс"
+    "Target": "\\btime макс"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "всем союзникам",
     "ReplaceTags": false,
@@ -4138,7 +3958,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "включая этого юнита",
     "ReplaceTags": false,
@@ -4148,17 +3968,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "потраченного",
-    "ReplaceTags": false,
-    "Target": "потраченого"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "С этим скиллом можно клешится независимо от скорости",
     "ReplaceTags": false,
@@ -4176,23 +3986,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", стаггерит цель",
     "ReplaceTags": false,
-    "Target": ", Stagger target"
+    "Target": ", Stagger target\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": true,
     "Replacement": "есть ",
     "ReplaceTags": false,
-    "Target": "has "
+    "Target": "\\bhas "
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": true,
+    "PreserveCase": false,
+    "Replacement": "нет",
+    "ReplaceTags": false,
+    "Target": "есть no"
   },
   {
     "FileWhiteList": [],
@@ -4206,19 +4026,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "затем убирает все",
     "ReplaceTags": false,
-    "Target": "then remove все"
+    "Target": "\\bthen remove все"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "затем убирает половину",
     "ReplaceTags": false,
@@ -4228,7 +4048,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "с части, которая использовала этот скилл",
     "ReplaceTags": false,
@@ -4238,7 +4058,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "Исключая цели, у которых есть",
     "ReplaceTags": false,
@@ -4248,7 +4068,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на целях, у которых есть",
     "ReplaceTags": false,
@@ -4256,13 +4076,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "целям атаки",
     "ReplaceTags": false,
-    "Target": "целям of the attack"
+    "Target": "целям of the attack\\b"
   },
   {
     "FileWhiteList": [],
@@ -4278,27 +4098,27 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "Сбрасывает",
     "ReplaceTags": false,
-    "Target": "Reset "
+    "Target": "Reset"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Этот скилл не",
     "ReplaceTags": false,
-    "Target": "This Skill не"
+    "Target": "\\bThis Skill не"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "защитный скилл цели",
     "ReplaceTags": false,
@@ -4306,19 +4126,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "цель не в панике или коррозии",
     "ReplaceTags": false,
-    "Target": "у цели is not Panicked или Corroded"
+    "Target": "у цели is not Panicked или Corroded\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "отменяет эту атаку",
     "ReplaceTags": false,
@@ -4348,7 +4168,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Урон этого скилла всегда равен 0",
     "ReplaceTags": false,
@@ -4356,23 +4176,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "до максимума",
     "ReplaceTags": false,
-    "Target": "до the maximum cap"
+    "Target": "до the maximum cap\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Пополняет счётчик",
     "ReplaceTags": false,
-    "Target": "Regain счётчика"
+    "Target": "\\bRegain счётчика"
   },
   {
     "FileWhiteList": [],
@@ -4388,7 +4208,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Конвертирует все монеты в",
     "ReplaceTags": false,
@@ -4396,19 +4216,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если это -",
     "ReplaceTags": false,
-    "Target": "Если this is an"
+    "Target": "Если this is an\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "накладывает следующее на цели, у которых есть",
     "ReplaceTags": false,
@@ -4418,7 +4238,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Стаггерится",
     "ReplaceTags": false,
@@ -4426,83 +4246,83 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "урона Похотью",
     "ReplaceTags": false,
-    "Target": "Lust урона"
+    "Target": "\\bLust урона"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Активирует ",
     "ReplaceTags": false,
-    "Target": "Activate "
+    "Target": "\\bActivate "
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "1 счётчик",
     "ReplaceTags": false,
-    "Target": "1 счётчика"
+    "Target": "\\b1 счётчика"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждый потраченный счётчик",
     "ReplaceTags": false,
-    "Target": "каждые Count consumed"
+    "Target": "каждые Count consumed\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "чтобы нанести",
     "ReplaceTags": false,
-    "Target": "to наносит"
+    "Target": "\\bto наносит"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "оставшегося счётчика",
     "ReplaceTags": false,
-    "Target": "remaining счётчика"
+    "Target": "\\bremaining счётчика"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если бьёт по главной цели",
     "ReplaceTags": false,
-    "Target": "Если it is the main target"
+    "Target": "Если it is the main target\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Целится на ",
     "ReplaceTags": false,
-    "Target": "Targets "
+    "Target": "\\bTargets "
   },
   {
     "FileWhiteList": [],
@@ -4516,39 +4336,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если грешник, являющийся целью",
     "ReplaceTags": false,
-    "Target": "Если the targeted Sinner"
+    "Target": "Если the targeted Sinner\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "имеет экипированный защитный скилл",
-    "ReplaceTags": false,
-    "Target": "есть equipped Defense Skills"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "не имеет экипированного защитного скилла",
     "ReplaceTags": false,
-    "Target": "есть not equipped Defense Skills"
+    "Target": "есть not equipped Defense Skills\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "После клеша",
     "ReplaceTags": false,
@@ -4556,13 +4366,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Финальная сила клеша грешника",
     "ReplaceTags": false,
-    "Target": "Clashing Sinner's final Сила клеша"
+    "Target": "\\bClashing Sinner's final Сила клеша"
   },
   {
     "FileWhiteList": [],
@@ -4578,7 +4388,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "экипированный врагами",
     "ReplaceTags": false,
@@ -4586,23 +4396,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждый защитный скилл",
     "ReplaceTags": false,
-    "Target": "каждые Defense Skill"
+    "Target": "каждые Defense Skill\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если главная цель",
     "ReplaceTags": false,
-    "Target": "Если the main target"
+    "Target": "Если the main target\\b"
   },
   {
     "FileWhiteList": [],
@@ -4618,7 +4428,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "для этого скилла",
     "ReplaceTags": false,
@@ -4626,19 +4436,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Не может застаггерится пока не использует этот скилл",
     "ReplaceTags": false,
-    "Target": "Не может застаггерится before using this Skill"
+    "Target": "Не может застаггерится before using this Skill\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Цель получает",
     "ReplaceTags": false,
@@ -4648,7 +4458,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "финального урона от этой монеты",
     "ReplaceTags": false,
@@ -4656,49 +4466,59 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Урон этой монеты",
     "ReplaceTags": false,
-    "Target": "This Coin's урона"
+    "Target": "\\bThis Coin's урона"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Убирает ",
     "ReplaceTags": false,
-    "Target": "Remove "
+    "Target": "\\bRemove "
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "финального урона этой монеты",
     "ReplaceTags": false,
-    "Target": "this Coin's final урона"
+    "Target": "\\bthis Coin's final урона"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "является союзником",
     "ReplaceTags": false,
-    "Target": "являетсяn ally"
+    "Target": "является ally\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "является врагом",
+    "ReplaceTags": false,
+    "Target": "является enemy\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Союзная цель использует рандомный атакующий скилл",
     "ReplaceTags": false,
@@ -4708,7 +4528,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Заканчивает этот ход",
     "ReplaceTags": false,
@@ -4716,53 +4536,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "дополнительных раз",
     "ReplaceTags": false,
-    "Target": "дополнительный time"
+    "Target": "дополнительный time\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "1 дополнительный раз",
     "ReplaceTags": false,
-    "Target": "1 дополнительных раз"
+    "Target": "\\b1 дополнительных раз"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "3 раза",
+    "Replacement": "$1 раза",
     "ReplaceTags": false,
-    "Target": "3 раз"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "4 раза",
-    "ReplaceTags": false,
-    "Target": "4 раз"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "2 раза",
-    "ReplaceTags": false,
-    "Target": "2 раз"
+    "Target": "\\b((?:\\d*[02-9])?[234]) раз\\b"
   },
   {
     "FileWhiteList": [],
@@ -4772,13 +4572,13 @@
     "PreserveCase": false,
     "Replacement": "Призывает $1 союзников $2",
     "ReplaceTags": false,
-    "Target": "Summon (\\d+) (.+?) allies"
+    "Target": "\\bSummon (\\d+) (.+?) allies\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "число союзников на полее не может превышать",
     "ReplaceTags": false,
@@ -4788,7 +4588,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "конвертирует финальную монету в",
     "ReplaceTags": false,
@@ -4796,29 +4596,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "от макс. ХП этого юнита",
     "ReplaceTags": false,
-    "Target": "of this unit's макс. ХП"
+    "Target": "\\bof this unit's макс\\. ХП"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "остается до начала следующего хода",
     "ReplaceTags": false,
-    "Target": "lasts until на следующий ход"
+    "Target": "\\blasts until на следующий ход"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "щит, полученный",
     "ReplaceTags": false,
@@ -4826,19 +4626,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит потратил",
     "ReplaceTags": false,
-    "Target": "Если у этого юнита есть consumed"
+    "Target": "Если у этого юнита есть consumed\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Срабатывает еще раз",
     "ReplaceTags": false,
@@ -4846,19 +4646,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "урон по союзникам всегда равен 0",
     "ReplaceTags": false,
-    "Target": "урона dealt to allies is fixed to"
+    "Target": "урона dealt to allies is fixed to\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Этот скилл может хуярить союзников",
     "ReplaceTags": false,
@@ -4866,13 +4666,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Цель получает ",
     "ReplaceTags": false,
-    "Target": "Target gains "
+    "Target": "\\bTarget gains "
   },
   {
     "FileWhiteList": [],
@@ -4888,7 +4688,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": true,
     "Replacement": "в этом ходу",
     "ReplaceTags": false,
@@ -4906,19 +4706,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "на максимуме",
     "ReplaceTags": false,
-    "Target": "is при макс."
+    "Target": "\\bis при макс\\."
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "полученных счётчика",
     "ReplaceTags": false,
@@ -4926,29 +4726,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Тратит половину",
     "ReplaceTags": false,
-    "Target": "Тратит half of"
+    "Target": "Тратит half of\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "пока у этого юнита есть щит",
-    "ReplaceTags": false,
-    "Target": "while this unit hв качестве щита"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на атакующем",
     "ReplaceTags": false,
@@ -4958,7 +4748,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на поле",
     "ReplaceTags": false,
@@ -4966,39 +4756,39 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "за каждого живого",
     "ReplaceTags": false,
-    "Target": "за каждые surviving"
+    "Target": "за каждые surviving\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Этот скилл ставит в приоритет союзников с наименьшим ХП",
     "ReplaceTags": false,
-    "Target": "This Skill prioritizes allies that have the lowest ХП"
+    "Target": "\\bThis Skill prioritizes allies that have the lowest ХП"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит не смог атаковать цель",
     "ReplaceTags": false,
-    "Target": "Если этот юнит не смог attack the targeted unit"
+    "Target": "Если этот юнит не смог attack the targeted unit\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "отменяет этот скилл",
     "ReplaceTags": false,
@@ -5006,33 +4796,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если цель - союзник",
     "ReplaceTags": false,
-    "Target": "Если the target is an ally"
+    "Target": "Если the target is an ally\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Призывает до",
     "ReplaceTags": false,
-    "Target": "Summon до"
+    "Target": "\\bSummon до"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждого призванного",
     "ReplaceTags": false,
-    "Target": "каждые summoned"
+    "Target": "каждые summoned\\b"
   },
   {
     "FileWhiteList": [],
@@ -5042,7 +4832,7 @@
     "PreserveCase": false,
     "Replacement": "Количество призванных $1 не может превышать $2",
     "ReplaceTags": false,
-    "Target": "Summoned (.+?) cannot exceed (\\d+) units"
+    "Target": "\\bSummoned (.+?) cannot exceed (\\d+) units\\b"
   },
   {
     "FileWhiteList": [],
@@ -5058,7 +4848,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Отключает этот эффект при соблюдении любого из следующих условий",
     "ReplaceTags": false,
@@ -5072,13 +4862,13 @@
     "PreserveCase": false,
     "Replacement": "слот, использующий этот скилл является главной целью $1+ атакующих скиллов",
     "ReplaceTags": false,
-    "Target": "the Skill Slot using this Skill is a main target of (\\d+)\\+ Attack Skills"
+    "Target": "\\bthe Skill Slot using this Skill is a main target of (\\d+)\\+ Attack Skills\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "включая защиту с клешем",
     "ReplaceTags": false,
@@ -5088,7 +4878,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "против цели",
     "ReplaceTags": false,
@@ -5098,7 +4888,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "ставит в приоритет союзников без стаггера",
     "ReplaceTags": false,
@@ -5112,7 +4902,7 @@
     "PreserveCase": false,
     "Replacement": "Заставляет $1 случайных $2 использовать рандомные скиллы",
     "ReplaceTags": false,
-    "Target": "Order (\\d+) random (.+?) to use random Skills"
+    "Target": "\\bOrder (\\d+) random (.+?) to use random Skills\\b"
   },
   {
     "FileWhiteList": [],
@@ -5122,13 +4912,13 @@
     "PreserveCase": false,
     "Replacement": "частям и ядру $1",
     "ReplaceTags": false,
-    "Target": "to (.+?)'s Parts и Core"
+    "Target": "\\bto (.+?)'s Parts и Core\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Ядро и часть не получают урон от",
     "ReplaceTags": false,
@@ -5138,7 +4928,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "является главной целью",
     "ReplaceTags": false,
@@ -5158,7 +4948,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Конвертирует все монеты в",
     "ReplaceTags": false,
@@ -5166,19 +4956,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Все атаки целятся в",
     "ReplaceTags": false,
-    "Target": "Все Attacks target"
+    "Target": "Все Attacks target\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Эффекты скиллов этого юнита",
     "ReplaceTags": false,
@@ -5186,19 +4976,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в панике",
     "ReplaceTags": false,
-    "Target": "в Panic state"
+    "Target": "в Panic state\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "низкая мораль",
     "ReplaceTags": false,
@@ -5206,29 +4996,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "и паника",
     "ReplaceTags": false,
-    "Target": "и Panic"
+    "Target": "и Panic\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "может быть уменьшено либо при",
     "ReplaceTags": false,
-    "Target": "can be reduced either на"
+    "Target": "\\bcan be reduced either на"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "использовании защитных скиллов",
     "ReplaceTags": false,
@@ -5238,7 +5028,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при помощи некоторых",
     "ReplaceTags": false,
@@ -5246,13 +5036,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "некоторых скиллов этого юнита",
     "ReplaceTags": false,
-    "Target": "некоторых Skills of this unit"
+    "Target": "некоторых Skills of this unit\\b"
   },
   {
     "FileWhiteList": [],
@@ -5266,29 +5056,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если какая-либо часть становится",
     "ReplaceTags": false,
-    "Target": "Если a Part becomes"
+    "Target": "Если a Part becomes\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "и заканчивает ход",
     "ReplaceTags": false,
-    "Target": "и end the turn"
+    "Target": "и end the turn\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "полоску стаггера с других частей",
     "ReplaceTags": false,
@@ -5296,19 +5086,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " закончился",
     "ReplaceTags": false,
-    "Target": " expired"
+    "Target": " expired\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "от получения удара",
     "ReplaceTags": false,
@@ -5318,7 +5108,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "был получен свыше",
     "ReplaceTags": false,
@@ -5326,19 +5116,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "свыше максимума",
     "ReplaceTags": false,
-    "Target": "свыше макс. cap"
+    "Target": "свыше макс\\. cap\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "остаток силы",
     "ReplaceTags": false,
@@ -5346,19 +5136,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "урона от",
     "ReplaceTags": false,
-    "Target": "урона from"
+    "Target": "урона from\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Тип паники этого юнита не изменяется от эффектов, меняющих панику",
     "ReplaceTags": false,
@@ -5368,7 +5158,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "возвращается на",
     "ReplaceTags": false,
@@ -5376,49 +5166,49 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в панике",
     "ReplaceTags": false,
-    "Target": "в Panic"
+    "Target": "в Panic\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "к повышению порога стаггера от",
     "ReplaceTags": false,
-    "Target": "to Stagger Threshold raised на"
+    "Target": "\\bto Stagger Threshold raised на"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "до максимального",
     "ReplaceTags": false,
-    "Target": "to макс."
+    "Target": "\\bto макс\\."
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит попадает в стаггер",
     "ReplaceTags": false,
-    "Target": "Если this unit becomes Staggered"
+    "Target": "Если this unit becomes Staggered\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "грешникам",
     "ReplaceTags": false,
@@ -5426,23 +5216,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "и вспомогательным юнитам",
     "ReplaceTags": false,
-    "Target": "и Assist Units"
+    "Target": "и Assist Units\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит вышел из стаггера",
     "ReplaceTags": false,
-    "Target": "Если this unit recovered from Stagger"
+    "Target": "Если this unit recovered from Stagger\\b"
   },
   {
     "FileWhiteList": [],
@@ -5452,17 +5242,17 @@
     "PreserveCase": false,
     "Replacement": "Сбрасывает $1 до",
     "ReplaceTags": true,
-    "Target": "Сбрасывает (\\[[^\\]]+\\]) to"
+    "Target": "Сбрасывает (\\[[^\\]]+\\]) to\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если ни у одного врага нет",
     "ReplaceTags": false,
-    "Target": "Если no enemies have"
+    "Target": "Если no enemies have\\b"
   },
   {
     "FileWhiteList": [],
@@ -5472,13 +5262,13 @@
     "PreserveCase": false,
     "Replacement": "экипирует скилл \"$1\"",
     "ReplaceTags": false,
-    "Target": "equip the \"([^\"]+)\" Skill"
+    "Target": "\\bequip the \"([^\"]+)\" Skill\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Экипирует упомянутый скилл",
     "ReplaceTags": false,
@@ -5488,7 +5278,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот юнит экипировал",
     "ReplaceTags": false,
@@ -5498,7 +5288,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "использованных на врагах, у которых нет",
     "ReplaceTags": false,
@@ -5506,19 +5296,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "от врагов, у которых есть",
     "ReplaceTags": false,
-    "Target": "от enemies that have"
+    "Target": "от enemies that have\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "врагам в стаггере",
     "ReplaceTags": false,
@@ -5526,19 +5316,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если на поле есть цель в",
     "ReplaceTags": false,
-    "Target": "Если there is a target in"
+    "Target": "Если there is a target in\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "панике или коррозии",
     "ReplaceTags": false,
@@ -5548,7 +5338,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на данной цели",
     "ReplaceTags": false,
@@ -5558,7 +5348,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "ставит в приоритет самых медленных врагов",
     "ReplaceTags": false,
@@ -5568,7 +5358,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "исключая вспомогательных юнитов",
     "ReplaceTags": false,
@@ -5576,43 +5366,43 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в возвышающемся порядке скорости",
     "ReplaceTags": false,
-    "Target": "in ascending order of Speed"
+    "Target": "\\bin ascending order of Speeds?\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", призывает",
     "ReplaceTags": false,
-    "Target": ", summon"
+    "Target": ", summon\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если данный скилл убил цель",
     "ReplaceTags": false,
-    "Target": "Если the said Skill killed the target"
+    "Target": "Если the said Skill killed the target\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Этот эффект не активируется",
     "ReplaceTags": false,
-    "Target": "This effect не активируется"
+    "Target": "\\bThis effect не активируется"
   },
   {
     "FileWhiteList": [],
@@ -5622,43 +5412,43 @@
     "PreserveCase": false,
     "Replacement": "когда на поле есть $1 \"$2\"",
     "ReplaceTags": false,
-    "Target": "there are (\\d+) \"([^\"]+)\" на поле"
+    "Target": "\\bthere are (\\d+) \"([^\"]+)\" на поле"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Этот юнит не",
     "ReplaceTags": false,
-    "Target": "This unit не"
+    "Target": "\\bThis unit не"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Этот юнит автоматически умирает при попадании в стаггер",
     "ReplaceTags": false,
-    "Target": "This unit is defeated Когда в стаггере"
+    "Target": "\\bThis unit is defeated Когда в стаггере"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если у цели",
     "ReplaceTags": false,
-    "Target": "Если target's"
+    "Target": "Если target's\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "скорость ниже, чем",
     "ReplaceTags": false,
@@ -5666,23 +5456,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "чем у этого юнита",
     "ReplaceTags": false,
-    "Target": "чем this unit's"
+    "Target": "чем this unit's\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "использует сильный скилл",
     "ReplaceTags": false,
-    "Target": "использует a powerful Skill"
+    "Target": "использует a powerful Skill\\b"
   },
   {
     "FileWhiteList": [],
@@ -5696,19 +5486,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в конце хода",
     "ReplaceTags": false,
-    "Target": "при the end of the turn"
+    "Target": "при the end of the turn\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот юнит использовал скилл",
     "ReplaceTags": false,
@@ -5716,13 +5506,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "или меньше",
     "ReplaceTags": false,
-    "Target": "или less"
+    "Target": "или less\\b"
   },
   {
     "FileWhiteList": [],
@@ -5738,7 +5528,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "застаггеренным или обездвиженным целям",
     "ReplaceTags": false,
@@ -5748,7 +5538,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на цель, у которой есть",
     "ReplaceTags": false,
@@ -5756,13 +5546,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Скиллы наносят",
     "ReplaceTags": false,
-    "Target": "Skills наносит"
+    "Target": "\\bSkills наносит"
   },
   {
     "FileWhiteList": [],
@@ -5772,23 +5562,23 @@
     "PreserveCase": false,
     "Replacement": "больше силы и счётчика $1",
     "ReplaceTags": true,
-    "Target": "more силы (\\[[^\\]]+\\]) и Count"
+    "Target": "\\bmore силы (\\[[^\\]]+\\]) и Count\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "на случайного врага, у которого есть",
     "ReplaceTags": false,
-    "Target": "on a random enemy that есть"
+    "Target": "\\bon a random enemy that есть"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "целям ударов этого скилла",
     "ReplaceTags": false,
@@ -5798,7 +5588,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Входит в состояние паники",
     "ReplaceTags": false,
@@ -5808,7 +5598,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "исключая цель, которая",
     "ReplaceTags": false,
@@ -5816,29 +5606,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "уже получила этот эффект",
     "ReplaceTags": false,
-    "Target": "есть been inflicted"
+    "Target": "есть been inflicted\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Когда наносит",
     "ReplaceTags": false,
-    "Target": "Когда inflicting"
+    "Target": "Когда inflicting\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "при помощи вышеописанного эффекта",
     "ReplaceTags": false,
@@ -5848,7 +5638,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "если целится на юнитов, у которых есть",
     "ReplaceTags": false,
@@ -5858,7 +5648,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "потраченного этим юнитом",
     "ReplaceTags": false,
@@ -5866,19 +5656,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "больше всего урона",
     "ReplaceTags": false,
-    "Target": "the most урона"
+    "Target": "\\bthe most урона"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на грешника, что нанёс",
     "ReplaceTags": false,
@@ -5886,13 +5676,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "этому юниту в прошлом ходу",
     "ReplaceTags": false,
-    "Target": "этому юниту last turn"
+    "Target": "этому юниту last turn\\b"
   },
   {
     "FileWhiteList": [],
@@ -5902,7 +5692,7 @@
     "PreserveCase": false,
     "Replacement": "Если у грешника с $1",
     "ReplaceTags": true,
-    "Target": "Если the (\\[[^\\]]+\\]) Sinner"
+    "Target": "Если the (\\[[^\\]]+\\]) Sinner\\b"
   },
   {
     "FileWhiteList": [],
@@ -5912,13 +5702,13 @@
     "PreserveCase": false,
     "Replacement": "активирует \"$1\" как",
     "ReplaceTags": false,
-    "Target": "активирует \"([^\"]+)\" as"
+    "Target": "активирует \"([^\"]+)\" as\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на данного грешника",
     "ReplaceTags": false,
@@ -5928,7 +5718,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Каждый раз, когда этот скилл ударяет грешника",
     "ReplaceTags": false,
@@ -5938,7 +5728,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "за ход",
     "ReplaceTags": false,
@@ -5948,7 +5738,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "за грешника",
     "ReplaceTags": false,
@@ -5976,19 +5766,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в начале хода, в котором этот",
     "ReplaceTags": false,
-    "Target": "при the start of the turn this"
+    "Target": "при the start of the turn this\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "юнит вышел из стаггера",
     "ReplaceTags": false,
@@ -6002,7 +5792,7 @@
     "PreserveCase": false,
     "Replacement": "эффект $1",
     "ReplaceTags": true,
-    "Target": "the (\\[[^\\]]+\\]) effect"
+    "Target": "\\bthe (\\[[^\\]]+\\]) effect\\b"
   },
   {
     "FileWhiteList": [],
@@ -6030,29 +5820,49 @@
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "Каждый раз, когда $1 получает удар от грешника",
-    "ReplaceTags": false,
-    "Target": "Every time (.+?) is hit на a Sinner"
+    "Replacement": "потраченого $1",
+    "ReplaceTags": true,
+    "Target": "(\\[[^\\]]+\\])\\s*consumed\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "потраченного",
+    "ReplaceTags": false,
+    "Target": "потраченого"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "Каждый раз, когда $1 получает удар от грешника",
+    "ReplaceTags": false,
+    "Target": "\\bEvery time (.+?) is hit на a Sinner\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "теряет весь щит",
     "ReplaceTags": false,
-    "Target": "теряет все Shield"
+    "Target": "теряет все Shield\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Если этот юнит попал в стаггер",
     "ReplaceTags": false,
-    "Target": "Если this unit is Staggered"
+    "Target": "Если this unit is Staggered\\b"
   },
   {
     "FileWhiteList": [],
@@ -6062,13 +5872,13 @@
     "PreserveCase": false,
     "Replacement": "$1-ю монету у \"$2\" в",
     "ReplaceTags": false,
-    "Target": "Coin (\\d+) of \"([^\"]+)\" to"
+    "Target": "\\bCoin (\\d+) of \"([^\"]+)\" to\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Конвертирует финальную монету",
     "ReplaceTags": false,
@@ -6076,13 +5886,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", что этот юнит тратит",
     "ReplaceTags": false,
-    "Target": " this unit consumes"
+    "Target": " this unit consumes\\b"
   },
   {
     "FileWhiteList": [],
@@ -6092,7 +5902,7 @@
     "PreserveCase": false,
     "Replacement": "максимальный счётчик $1",
     "ReplaceTags": true,
-    "Target": "счётчика (\\[[^\\]]+\\]) макс\\. cap"
+    "Target": "счётчика (\\[[^\\]]+\\]) макс\\. cap\\b"
   },
   {
     "FileWhiteList": [],
@@ -6102,7 +5912,7 @@
     "PreserveCase": false,
     "Replacement": "Все союзники \"$1\"",
     "ReplaceTags": false,
-    "Target": "Все \"([^\"]+)\" allies"
+    "Target": "Все \"([^\"]+)\" allies\\b"
   },
   {
     "FileWhiteList": [],
@@ -6122,13 +5932,13 @@
     "PreserveCase": false,
     "Replacement": "каждого выжившего союзника \"$1\"",
     "ReplaceTags": false,
-    "Target": "каждые living \"([^\"]+)\" ally"
+    "Target": "каждые living \"([^\"]+)\" ally\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "включая только призванных юнитов",
     "ReplaceTags": false,
@@ -6136,13 +5946,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Когда этот юнит выходит из стаггера",
     "ReplaceTags": false,
-    "Target": "Когда this unit recovers from Stagger"
+    "Target": "Когда this unit recovers from Stagger\\b"
   },
   {
     "FileWhiteList": [],
@@ -6176,19 +5986,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "пока у этого юнита",
     "ReplaceTags": false,
-    "Target": "while у этого юнита"
+    "Target": "\\bwhile у этого юнита"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "больше, чем у цели",
     "ReplaceTags": false,
@@ -6196,23 +6006,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждую разницу в Уровне жирности",
     "ReplaceTags": false,
-    "Target": "каждые Уровень жирности difference"
+    "Target": "каждые Уровень жирности difference\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждую разницу в Уровне сваги",
     "ReplaceTags": false,
-    "Target": "каждые Уровень сваги difference"
+    "Target": "каждые Уровень сваги difference\\b"
   },
   {
     "FileWhiteList": [],
@@ -6222,13 +6032,13 @@
     "PreserveCase": false,
     "Replacement": "выше на $1+ уровней",
     "ReplaceTags": false,
-    "Target": "is (\\d+)\\+ levels higher"
+    "Target": "\\bis (\\d+)\\+ levels higher\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При использовании атакующего скилла",
     "ReplaceTags": false,
@@ -6236,13 +6046,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "получает дополнительный слот",
     "ReplaceTags": false,
-    "Target": "получает дополнительный Slot"
+    "Target": "получает дополнительный Slot\\b"
   },
   {
     "FileWhiteList": [],
@@ -6258,7 +6068,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "с меньше, чем",
     "ReplaceTags": false,
@@ -6268,7 +6078,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "исключая этого юнита",
     "ReplaceTags": false,
@@ -6276,29 +6086,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "если есть союзник",
     "ReplaceTags": false,
-    "Target": "когда there is an ally"
+    "Target": "когда there is an ally\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "ХП ядра",
     "ReplaceTags": false,
-    "Target": "Core ХП"
+    "Target": "\\bCore ХП"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "заканчивает ход",
     "ReplaceTags": false,
@@ -6306,33 +6116,33 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "и получает новый паттерн",
     "ReplaceTags": false,
-    "Target": "и enter a new pattern"
+    "Target": "и enter a new pattern\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждый союзник",
     "ReplaceTags": false,
-    "Target": "все allies"
+    "Target": "все allies\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в начале каждого хода",
     "ReplaceTags": false,
-    "Target": "при the start of each turn"
+    "Target": "при the start of each turn\\b"
   },
   {
     "FileWhiteList": [],
@@ -6342,7 +6152,7 @@
     "PreserveCase": false,
     "Replacement": "случайно наносит $1 из",
     "ReplaceTags": false,
-    "Target": "randomly наносит (\\d+) of"
+    "Target": "\\brandomly наносит (\\d+) of\\b"
   },
   {
     "FileWhiteList": [],
@@ -6362,13 +6172,13 @@
     "PreserveCase": false,
     "Replacement": "на $1-х случайных врагов",
     "ReplaceTags": false,
-    "Target": "on (\\d+) random enemies"
+    "Target": "\\bon (\\d+) random enemies\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Правило нарушено",
     "ReplaceTags": false,
@@ -6378,7 +6188,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на всегда теряет",
     "ReplaceTags": false,
@@ -6386,29 +6196,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Начинает битву с",
     "ReplaceTags": false,
-    "Target": "Start this Encounter with"
+    "Target": "\\bStart (?:this|the) Encounter with\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Начинает битву с",
-    "ReplaceTags": false,
-    "Target": "Start the Encounter with"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Не может быть обездвижен",
     "ReplaceTags": false,
@@ -6418,7 +6218,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "постоянного щита",
     "ReplaceTags": false,
@@ -6428,17 +6228,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "Этот юнит не может быть обездвижен",
-    "ReplaceTags": false,
-    "Target": "This unit Не может быть обездвижен"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в ходу, когда",
     "ReplaceTags": false,
@@ -6448,7 +6238,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При входе в фазу",
     "ReplaceTags": false,
@@ -6462,53 +6252,43 @@
     "PreserveCase": false,
     "Replacement": "наносит $1 на врага",
     "ReplaceTags": true,
-    "Target": "наносит (\\[[^\\]]+\\]) on the enemy"
+    "Target": "наносит (\\[[^\\]]+\\]) on the enemy\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "3 стака",
+    "Replacement": "$1 стак",
     "ReplaceTags": false,
-    "Target": "3 стаков"
+    "Target": "\\b((?:\\d*[02-9])?1) стаков\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "4 стака",
+    "Replacement": "$1 стака",
     "ReplaceTags": false,
-    "Target": "4 стаков"
+    "Target": "\\b((?:\\d*[02-9])?[234]) стаков\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "2 стака",
-    "ReplaceTags": false,
-    "Target": "2 стаков"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "теряет половину",
     "ReplaceTags": false,
-    "Target": "теряет half of the"
+    "Target": "теряет half of the\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При использовании защитного скилла",
     "ReplaceTags": false,
@@ -6518,7 +6298,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "на каждую Часть",
     "ReplaceTags": false,
@@ -6536,13 +6316,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Макс. стаков",
     "ReplaceTags": false,
-    "Target": "Max стаков"
+    "Target": "\\bMax стаков"
   },
   {
     "FileWhiteList": [],
@@ -6558,7 +6338,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Макс. сила",
     "ReplaceTags": false,
@@ -6568,7 +6348,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Макс. счётчик",
     "ReplaceTags": false,
@@ -6576,33 +6356,53 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Получает вес слота",
     "ReplaceTags": false,
-    "Target": "Получает Slot Weight"
+    "Target": "Получает Slot Weight\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": true,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " силу",
     "ReplaceTags": false,
-    "Target": " Potency"
+    "Target": " Potency\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
+    "MatchCase": true,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": " счётчики",
+    "ReplaceTags": false,
+    "Target": " Counts\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
     "MatchCase": true,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " счётчик",
     "ReplaceTags": false,
-    "Target": " Count"
+    "Target": " Count\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "весь счётчик",
+    "ReplaceTags": false,
+    "Target": "все счётчика"
   },
   {
     "FileWhiteList": [],
@@ -6628,7 +6428,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При односторонней атаке",
     "ReplaceTags": false,
@@ -6636,19 +6436,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "каждую часть",
     "ReplaceTags": false,
-    "Target": "каждые Part"
+    "Target": "каждые Part\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "этот эффект",
     "ReplaceTags": false,
@@ -6676,29 +6476,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "в Вечные монеты",
     "ReplaceTags": false,
-    "Target": "в Unbreakable Coins"
+    "Target": "в Unbreakable Coins\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Конвертирует все",
     "ReplaceTags": false,
-    "Target": "Convert все"
+    "Target": "\\bConvert все"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "монеты скилла",
     "ReplaceTags": false,
@@ -6706,13 +6506,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При победе в клеше:",
     "ReplaceTags": false,
-    "Target": "Clash Win:"
+    "Target": "\\bClash Win:"
   },
   {
     "FileWhiteList": [],
@@ -6736,13 +6536,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "всем союзникам",
     "ReplaceTags": false,
-    "Target": "for все союзники"
+    "Target": "\\bfor все союзники"
   },
   {
     "FileWhiteList": [],
@@ -6758,7 +6558,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "При потрясении сучки",
     "ReplaceTags": false,
@@ -6768,7 +6568,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "других случайных союзников",
     "ReplaceTags": false,
@@ -6782,13 +6582,13 @@
     "PreserveCase": false,
     "Replacement": "на $1",
     "ReplaceTags": false,
-    "Target": "on (\\d+)"
+    "Target": "\\bon (\\d+)"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "провоцирует потрясение сучки",
     "ReplaceTags": false,
@@ -6798,7 +6598,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "до конца хода",
     "ReplaceTags": false,
@@ -6806,13 +6606,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Не может получить этот статус",
     "ReplaceTags": false,
-    "Target": "Cannot получает"
+    "Target": "\\bCannot получает"
   },
   {
     "FileWhiteList": [],
@@ -6822,13 +6622,13 @@
     "PreserveCase": false,
     "Replacement": "половину $1 этого юнита",
     "ReplaceTags": false,
-    "Target": "half of this unit's (.+)"
+    "Target": "\\bhalf of this unit's (.+)"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "случайно между",
     "ReplaceTags": false,
@@ -6838,7 +6638,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "союзниками этого юнита",
     "ReplaceTags": false,
@@ -6848,7 +6648,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "в этом ходу",
     "ReplaceTags": false,
@@ -6862,7 +6662,7 @@
     "PreserveCase": false,
     "Replacement": "При $1-и стаках",
     "ReplaceTags": false,
-    "Target": "При (\\d+) стака"
+    "Target": "\\bПри (\\d+) стака\\b"
   },
   {
     "FileWhiteList": [],
@@ -6876,39 +6676,19 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "При 2-х стаках",
+    "Replacement": "При $1-х стаках",
     "ReplaceTags": false,
-    "Target": "При 2-и стаках"
+    "Target": "\\bПри ([24])-и стаках"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "При 3-и стаках",
-    "ReplaceTags": false,
-    "Target": "При 3-и стаках"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "При 4-х стаках",
-    "ReplaceTags": false,
-    "Target": "При 4-и стаках"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "пока имеет",
     "ReplaceTags": false,
@@ -6916,13 +6696,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", что будет наложен",
     "ReplaceTags": false,
-    "Target": " that will be applied"
+    "Target": " that will be applied\\b"
   },
   {
     "FileWhiteList": [],
@@ -6952,7 +6732,7 @@
     "PreserveCase": false,
     "Replacement": "наносит на $1 больше",
     "ReplaceTags": false,
-    "Target": "наносит (\\d+) more"
+    "Target": "наносит (\\d+) more\\b"
   },
   {
     "FileWhiteList": [],
@@ -6968,7 +6748,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "данный скилл получает",
     "ReplaceTags": false,
@@ -6976,29 +6756,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "и наносит",
     "ReplaceTags": false,
-    "Target": "и deals"
+    "Target": "и deals\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "(мин.",
     "ReplaceTags": false,
-    "Target": "(min"
+    "Target": "\\(min\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "учитывая уникальную соль",
     "ReplaceTags": false,
@@ -7008,7 +6788,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "щит был сломан",
     "ReplaceTags": false,
@@ -7018,7 +6798,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "против грешников",
     "ReplaceTags": false,
@@ -7026,23 +6806,23 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "скилла против",
     "ReplaceTags": false,
-    "Target": "скилла against"
+    "Target": "скилла against\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": " грешников",
     "ReplaceTags": false,
-    "Target": " Sinners"
+    "Target": " Sinners\\b"
   },
   {
     "FileWhiteList": [],
@@ -7058,7 +6838,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "скилл получает",
     "ReplaceTags": false,
@@ -7068,7 +6848,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "первый использованный",
     "ReplaceTags": false,
@@ -7078,7 +6858,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "экипированный защитный скилл",
     "ReplaceTags": false,
@@ -7086,29 +6866,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "уменьшения регенерации ХП",
     "ReplaceTags": false,
-    "Target": "ХП Healing Down"
+    "Target": "ХП Healing Down\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "При клеше против",
     "ReplaceTags": false,
-    "Target": "UpПри клешеing against"
+    "Target": "(?:UpПри клешеing|При клеше) against\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Каждый раз, когда этот юнит получает урон",
     "ReplaceTags": false,
@@ -7128,17 +6908,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
-    "PreserveCase": false,
-    "Replacement": "на цели",
-    "ReplaceTags": false,
-    "Target": "on the target"
-  },
-  {
-    "FileWhiteList": [],
-    "IsRegex": false,
-    "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Часть получает щит",
     "ReplaceTags": false,
@@ -7152,23 +6922,23 @@
     "PreserveCase": false,
     "Replacement": "считается как эффект \"$1\"",
     "ReplaceTags": false,
-    "Target": "counts as a \"([^\"]+)\" effect"
+    "Target": "\\bcounts as a \"([^\"]+)\" effect\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "когда теряет щит",
     "ReplaceTags": false,
-    "Target": "когда losing Shield"
+    "Target": "когда losing Shield\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "к повышению порога стаггера",
     "ReplaceTags": false,
@@ -7176,29 +6946,29 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": ", соответственно",
     "ReplaceTags": false,
-    "Target": " respectively"
+    "Target": " respectively\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "всем союзникам",
     "ReplaceTags": false,
-    "Target": "to Все союзники"
+    "Target": "\\bto Все союзники"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Сила атаки",
     "ReplaceTags": false,
@@ -7208,7 +6978,7 @@
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "Макс. скорость",
     "ReplaceTags": false,
@@ -7222,7 +6992,7 @@
     "PreserveCase": false,
     "Replacement": "Скиллы \"$1\" всех союзников",
     "ReplaceTags": false,
-    "Target": "Все союзники \"([^\"]+)\"' Skills"
+    "Target": "Все союзники \"([^\"]+)\"' Skills\\b"
   },
   {
     "FileWhiteList": [],
@@ -7236,13 +7006,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "всем",
     "ReplaceTags": false,
-    "Target": "to все"
+    "Target": "\\bto все"
   },
   {
     "FileWhiteList": [],
@@ -7252,13 +7022,13 @@
     "PreserveCase": false,
     "Replacement": "врагам, не являющимся \"$1\"",
     "ReplaceTags": false,
-    "Target": "non-\"([^\"]+)\" enemies"
+    "Target": "\\bnon-\"([^\"]+)\" enemies\\b"
   },
   {
     "FileWhiteList": [],
     "IsRegex": false,
     "MatchCase": false,
-    "MatchWholeWord": false,
+    "MatchWholeWord": true,
     "PreserveCase": false,
     "Replacement": "потрясение сучки провоцируется",
     "ReplaceTags": false,
@@ -7276,13 +7046,13 @@
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "Все цели",
     "ReplaceTags": false,
-    "Target": "Все targets"
+    "Target": "Все targets\\b"
   },
   {
     "FileWhiteList": [],
@@ -7292,27 +7062,37 @@
     "PreserveCase": false,
     "Replacement": "каждые $1 хода",
     "ReplaceTags": false,
-    "Target": "every (\\d+) turns"
+    "Target": "\\bevery (\\d+) turns\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "на всех скиллах",
     "ReplaceTags": false,
-    "Target": "в on все Skills"
+    "Target": "в on все Skills\\b"
   },
   {
     "FileWhiteList": [],
-    "IsRegex": false,
+    "IsRegex": true,
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
     "Replacement": "% больше",
     "ReplaceTags": false,
-    "Target": "% more"
+    "Target": "% more\\b"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": true,
+    "PreserveCase": false,
+    "Replacement": "исключая насильные стаггеры",
+    "ReplaceTags": false,
+    "Target": "excluding forced Staggers"
   },
   {
     "FileWhiteList": [],
@@ -7320,8 +7100,28 @@
     "MatchCase": false,
     "MatchWholeWord": false,
     "PreserveCase": false,
-    "Replacement": "исключая насильные стаггеры",
+    "Replacement": "] Наносит",
+    "ReplaceTags": true,
+    "Target": "] наносит"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": false,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "] Получает",
+    "ReplaceTags": true,
+    "Target": "] получает"
+  },
+  {
+    "FileWhiteList": [],
+    "IsRegex": true,
+    "MatchCase": false,
+    "MatchWholeWord": false,
+    "PreserveCase": false,
+    "Replacement": "независимо от",
     "ReplaceTags": false,
-    "Target": "excluding forced Staggers"
+    "Target": "\\bregardless of\\b"
   }
 ]
