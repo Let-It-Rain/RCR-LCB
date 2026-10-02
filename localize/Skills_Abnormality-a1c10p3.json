@@ -31,7 +31,7 @@
         {
           "level": "1",
           "name": "Atone.",
-          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждые Упавшая сигатера на поле</u></b></mark></color> (макс. 8)\n- При 15+ счётчика [ChargeNoir], Тратит 5 счётчика [ChargeNoir] для получения Финальная сила +2\n[WhenUse] Получает +5 счётчика [ChargeNoir]\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "[WhenUse]\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждые Упавшая сигатера на поле</u></b></mark></color> (макс. 8)\n- При 15+ счётчика [ChargeNoir], Тратит 5 счётчика [ChargeNoir] для получения Финальной силы +2\n[WhenUse] Получает +5 счётчика [ChargeNoir]\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -63,7 +63,7 @@
         {
           "level": "1",
           "name": "Condemnation",
-          "desc": "С этим скиллом можно клешится независимо от скорости\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>получает +(# of Упавшая сигатера на поле) Вес атаки (макс. 2)</u></b></mark></color>\n[WhenUse]\n- Если главная цель <color=#ff6000><mark=#ff000040><b><u>есть 1 Speed</u></b></mark></color>, наносит +50% урона\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждые Упавшая сигатера на поле (макс. 8)</u></b></mark></color>\n- При 15+ счётчика [ChargeNoir], Тратит 10 счётчика [ChargeNoir] для получения Сила монет +1\n[DefeatDuel] Получает 3 [Paralysis], наносит -50% урона и урон нанесённый этим скиллом не может застаггерить цель",
+          "desc": "С этим скиллом можно клешится независимо от скорости\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>получает +(# Упавшая сигатера на поле) Вес атаки (макс. 2)</u></b></mark></color>\n[WhenUse]\n- Если главная цель <color=#ff6000><mark=#ff000040><b><u>имеет 1 Скорость</u></b></mark></color>, наносит +50% урона\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждую Упавшую сигатеру на поле (макс. 8)</u></b></mark></color>\n- При 15+ счётчика [ChargeNoir], Тратит 10 счётчика [ChargeNoir] для получения Силы монет +1\n[DefeatDuel] Получает 3 [Paralysis], наносит -50% урона и урон нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -85,7 +85,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 2 [Binding]</u></b></mark></color> на следующий ход\n- <color=#ff6000><mark=#ff000040><b><u>Наносит 4 [Binding]</u></b></mark></color> вместо этого to main targets"
+=======
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 2 [Binding]</u></b></mark></color> на следующий ход\n- <color=#ff6000><mark=#ff000040><b><u>Наносит 4 [Binding]</u></b></mark></color> вместо этого главной цели"
+>>>>>>> 94ab58f0 (.)
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:*Депрессии*] и +3 счётчика [Sinking:*Депрессии*]"
@@ -102,7 +106,7 @@
         {
           "level": "1",
           "name": "Your sinfulness shall constrict you.",
-          "desc": "С этим скиллом можно клешится независимо от скорости\n[BeforeAttack] Получает +(# of Упавшая сигатера на поле) Вес атаки (макс. 4)\n[WhenUse]\n- Если главная цель <color=#ff6000><mark=#ff000040><b><u>есть 1 Speed</u></b></mark></color>, наносит +100% урона\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждые Упавшая сигатера на поле (макс. 8)</u></b></mark></color>\n- Если there are no Упавшая сигатера на поле, Сила клеша -3\n- При 15+ счётчика [ChargeNoir], Тратит 10 счётчика [ChargeNoir] для получения Финальная сила +1 и Сила монет +1\n[DefeatDuel] Получает 4 [Paralysis], наносит -50% урона, и урон нанесённый этим скиллом не может застаггерить цель",
+          "desc": "С этим скиллом можно клешится независимо от скорости\n[BeforeAttack] Получает +(# Упавшая сигатера на поле) Вес атаки (макс. 4)\n[WhenUse]\n- Если главная цель <color=#ff6000><mark=#ff000040><b><u>имеет 1 Скорость</u></b></mark></color>, наносит +100% урона\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждую Упавшую сигатеру на поле (макс. 8)</u></b></mark></color>\n- Если на поле нету Упавших Сигарет, Сила клеша -3\n- При 15+ счётчика [ChargeNoir], Тратит 10 счётчика [ChargeNoir] для получения Финальной силы +1 и Силу монет +1\n[DefeatDuel] Получает 4 [Paralysis], наносит -50% урона, и урон нанесённый этим скиллом не может застаггерить цель",
           "flavor": "\"Mannequins are singing...\"",
           "coinlist": [
             {
@@ -111,7 +115,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
+<<<<<<< HEAD
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [Binding]</u></b></mark></color> на следующий ход\n- <color=#ff6000><mark=#ff000040><b><u>Наносит 3 [Binding]</u></b></mark></color> вместо этого to main targets"
+=======
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [Binding]</u></b></mark></color> на следующий ход\n- <color=#ff6000><mark=#ff000040><b><u>Наносит 3 [Binding]</u></b></mark></color> вместо этого главной цели"
+>>>>>>> 94ab58f0 (.)
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +2 счётчика [Sinking:*Депрессии*]"
@@ -161,7 +169,7 @@
         {
           "level": "1",
           "name": "Divine Retribution",
-          "desc": "С этим скиллом можно клешится независимо от скорости\n[WhenUse]\n- Если у главной цели есть <color=#ff6000><mark=#ff000040><b><u>1 Speed</u></b></mark></color>, наносит +100% урона\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждые Упавшая сигатера на поле (макс. 8)</u></b></mark></color>\n- Если there are no Упавшая сигатера на поле, Сила клеша -5\n- Если у этого юнита есть счётчика [ChargeNoir], тратит весь счётчик [ChargeNoir] на себе для получения Сила монет +2\n[DefeatDuel] Получает 4 [Paralysis], наносит -50% урона, и урон нанесённый этим скиллом не может застаггерить цель",
+          "desc": "С этим скиллом можно клешится независимо от скорости\n[WhenUse]\n- Если главная цель имеет <color=#ff6000><mark=#ff000040><b><u>1 скорость</u></b></mark></color>, наносит +100% урона\n- <color=#ff6000><mark=#ff000040><b><u>Финальная сила +2 за каждую Упавшую сигатеру на поле (макс. 8)</u></b></mark></color>\n- Если на поле нету Упавших Сигарет, Сила клеша -5\n- Если у этого юнита есть счётчика [ChargeNoir], тратит весь счётчик [ChargeNoir] на себе для получения Силы монет +2\n[DefeatDuel] Получает 4 [Paralysis], наносит -50% урона, и урон нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -208,7 +216,7 @@
         {
           "level": "1",
           "name": "Nail of Penance",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если Майнкрафт варден is при 50% или lower ХП</u></b></mark></color>, convert the <color=#ff6000><mark=#ff000040><b><u>first Coin of this Skill в an [SuperCoin]</u></b></mark></color>\nЕсли на цели есть <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Финальная сила +2</u></b></mark></color>\n[WhenUse] Получает +4 счётчика [ChargeNoir]\n[WhenUse] Получает 1 [Breath:*Кумара*] и +1 счётчик [Breath:*Кумара*]\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если Майнкрафт Варден при 50% или меньше ХП</u></b></mark></color>, превращает <color=#ff6000><mark=#ff000040><b><u>первую монету этого скилла в [SuperCoin]</u></b></mark></color>\nЕсли на цели есть <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Финальная сила +2</u></b></mark></color>\n[WhenUse] Получает +4 счётчика [ChargeNoir]\n[WhenUse] Получает 1 [Breath:*Кумара*] и +1 счётчик [Breath:*Кумара*]\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -243,7 +251,7 @@
         {
           "level": "1",
           "name": "Nail of Punishment",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если Майнкрафт варден is при 50% или lower ХП</u></b></mark></color>, convert the <color=#ff6000><mark=#ff000040><b><u>first Coin of this Skill в an [SuperCoin]</u></b></mark></color>\nЕсли на цели есть <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionSecondPhase], Финальная сила +2/+3</u></b></mark></color>\n[WhenUse] Получает +4 счётчика [ChargeNoir]\n[WhenUse] Получает 2 [Breath:*Кумара*] и +2 счётчика [Breath:*Кумара*]\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если Майнкрафт Варден при 50% или меньше ХП</u></b></mark></color>, превращает <color=#ff6000><mark=#ff000040><b><u>первую монету этого скилла в [SuperCoin]</u></b></mark></color>\nЕсли на цели есть <color=#ff6000><mark=#ff000040><b><u>6+/9+ [ConfessionSecondPhase], Финальная сила +2/+3</u></b></mark></color>\n[WhenUse] Получает +4 счётчика [ChargeNoir]\n[WhenUse] Получает 2 [Breath:*Кумара*] и +2 счётчика [Breath:*Кумара*]\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -278,7 +286,7 @@
         {
           "level": "1",
           "name": "Judgment",
-          "desc": "С этим скиллом можно клешится независимо от скорости\nЕсли у главной цели есть <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Финальная сила +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть 5+/9+ [ConfessionSecondPhase], получает +1/+3 Вес атаки</u></b></mark></color>\n[WhenUse] Если у этого юнита есть счётчика [ChargeNoir], тратит весь счётчик [ChargeNoir] на себе для получения Сила монет +2\n[DefeatDuel] Получает 3 [Paralysis], наносит -50% урона, и урон нанесённый этим скиллом не может застаггерить цель",
+          "desc": "С этим скиллом можно клешится независимо от скорости\nЕсли у главной цели есть <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Финальная сила +2/+3/+5</u></b></mark></color>\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть 5+/9+ [ConfessionSecondPhase], получает +1/+3 Вес атаки</u></b></mark></color>\n[WhenUse] Если у этого юнита есть счётчика [ChargeNoir], тратит весь счётчик [ChargeNoir] на себе для получения Силы монет +2\n[DefeatDuel] Получает 3 [Paralysis], наносит -50% урона, и урон нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -300,7 +308,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "This Coin <color=#ff6000><mark=#ff000040><b><u>hits only the main target</u></b></mark></color>"
+                  "desc": "Эта монета <color=#ff6000><mark=#ff000040><b><u>бьет только главную цель</u></b></mark></color>"
                 },
                 {
                   "desc": "Наносит +(недостающего у себя процента ХП)% урона (макс. 100%)"
@@ -320,7 +328,7 @@
         {
           "level": "1",
           "name": "Atone before God.",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Когда the Sinner, у которого есть [GoldenFabricWarderSecondPhase]</u></b></mark></color> attacks the Slot equipped with this Skill as its main target in the Chaining Phase, the said Skill used на the Sinner deals +100% урона (for Э.Г.О Skills, +200% урона)\n[EndBattle] При менее 100 стаки [EncompassingVoiceSecondPhase], получает до 100 стаков\n- Майнкрафт варден loses IQ равный стакам gained (макс. 45)",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Когда Грешник, у которого есть [GoldenFabricWarderSecondPhase]</u></b></mark></color> атакует слот с этим скиллом, Грешник наносит +100% урона (для Э.Г.О Скиллов, +200% урона)\n[EndBattle] При менее 100 стаки [EncompassingVoiceSecondPhase], получает до 100 стаков\n- Майнкрафт Варден теряет IQ равный получаемому стаку(макс. 45)",
           "coinlist": [
             {
               "coindescs": []
@@ -413,7 +421,7 @@
         {
           "level": "1",
           "name": "Judgment... Sentencing... Condemnation!",
-          "desc": "С этим скиллом можно клешится независимо от скорости\nЭтот скилл не активирует защитный скилл цели\nНе может застаггерится пока не использует этот скилл\nЕсли у главной цели есть <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Финальная сила +2/+3/+5</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [GoldenFabricWarderSecondPhase]:</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- Финальная сила -5, Сила клеша -5</u></b></mark></color>\n[WhenUse] Тратит до 40 [SpreadingVoiceSecondPhase] to:\n- Получает Финальная сила +3\n- Наносит +50% урона\n[WhenUse] Наносит +(стаки [SpreadingVoiceSecondPhase])% урона; в конце атаки, тратит все [SpreadingVoiceSecondPhase] на себе\n- <color=#ff6000><mark=#ff000040><b><u>При клеше Теряет, Этот эффект не активируется</u></b></mark></color>\n[WhenUse] Если у этого юнита есть счётчика [ChargeNoir], тратит весь счётчик [ChargeNoir] на себе для получения Сила монет +2\n[DefeatDuel] Получает 5 [Paralysis], наносит -75% урона, и урон нанесённый этим скиллом не может застаггерить цель\n[EndSkill]\n- Получает 2 [Vulnerable] на следующий ход\n- Заканчивает этот ход",
+          "desc": "С этим скиллом можно клешится независимо от скорости\nЭтот скилл не активирует защитный скилл цели\nНе может застаггерится пока не использует этот скилл\nЕсли у главной цели есть <color=#ff6000><mark=#ff000040><b><u>3+/6+/9+ [ConfessionSecondPhase], Финальная сила +2/+3/+5</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [GoldenFabricWarderSecondPhase]:</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- Финальная сила -5, Сила клеша -5</u></b></mark></color>\n[WhenUse] Тратит до 40 [SpreadingVoiceSecondPhase] для:\n- Финальная сила +3\n- Наносит +50% урона\n[WhenUse] Наносит +(стаки [SpreadingVoiceSecondPhase])% урона; в конце атаки, тратит все [SpreadingVoiceSecondPhase] на себе\n- <color=#ff6000><mark=#ff000040><b><u>При поражении в клеше, этот эффект не активируется</u></b></mark></color>\n[WhenUse] Если у этого юнита есть счётчика [ChargeNoir], тратит весь счётчик [ChargeNoir] на себе для получения Силы монет +2\n[DefeatDuel] Получает 5 [Paralysis], наносит -75% урона, и урон нанесённый этим скиллом не может застаггерить цель\n[EndSkill]\n- Получает 2 [Vulnerable] на следующий ход\n- Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": []
@@ -427,14 +435,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует the effects of [ConfessionSecondPhase] на цели, then Тратит them все</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует эффекты [ConfessionSecondPhase] на цели, затем тратит их все</u></b></mark></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "On <color=#ff6000><mark=#ff000040><b><u>Clash Теряет</u></b></mark></color>, this Coin <color=#ff6000><mark=#ff000040><b><u>hits only the main target</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Наносит 9 [RestrainingNailSecondPhase]</u></b></mark></color>"
+                  "desc": "При <color=#ff6000><mark=#ff000040><b><u>Поражении в клеше</u></b></mark></color>, эта монетка <color=#ff6000><mark=#ff000040><b><u>бьет только главную цель</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>- [DefeatDuelAttack] Наносит 9 [RestrainingNailSecondPhase]</u></b></mark></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если бьёт по главной цели, наносит 3 [BlackStigmata]"
@@ -451,7 +459,7 @@
         {
           "level": "1",
           "name": "Death Unto the Condemned",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Sinners that have [GoldenHideWarderSecondPhase] can Clash with this Skill</u></b></mark></color> независимо от Speed\nPrioritizes грешников that have [RestrainingNailSecondPhase]\nне активирует защитный скилл цели\nНе может застаггерится пока не использует этот скилл\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если на цели есть [GoldenHideWarderSecondPhase], Сила клеша -15</u></b></mark></color>\n[DefeatDuel] Получает 5 [Vulnerable] на следующий ход\n[EndBattle] тратит все [SpreadingVoiceSecondPhase] на себе",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Грешники, которые имеют [GoldenHideWarderSecondPhase] могут клешится с этим скиллом</u></b></mark></color> независимо от скорости\nВ приоритете грешники которые имеют [RestrainingNailSecondPhase]\nНе активирует защитный скилл цели\nНе может застаггерится пока не использует этот скилл\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если на цели есть [GoldenHideWarderSecondPhase], Сила клеша -15</u></b></mark></color>\n[DefeatDuel] Получает 5 [Vulnerable] на следующий ход\n[EndBattle] Тратит все [SpreadingVoiceSecondPhase] на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -1440,9 +1448,15 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Жё м’экспюльс",
           "desc": "[WhenUse] Если у главной цели есть 6+ [Laceration:*Кетчупа*], Сила монет +1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если главная цель не имеет [Laceration:*Кетчупа*], Конвертирует все монеты в [SuperCoin:*Вечные монеты*]</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
           "flavor": "Выделяй.",
+=======
+          "name": "Je m'expulse",
+          "desc": "[WhenUse] Если у главной цели есть 6+ [Laceration:*Кетчупа*], Сила монет +1\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если главная цель не имеет [Laceration:*Кетчупа*], Конвертирует все монеты в on this Skill to [SuperCoin:*Вечные монеты*]</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
+          "flavor": "Excrete.",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1467,7 +1481,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Жё мё краш",
+=======
+          "name": "Je me crache",
+>>>>>>> 94ab58f0 (.)
           "desc": "[WhenUse] Если на цели есть 6+ [Laceration:*Кетчупа*], Базовая сила +2\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
           "flavor": "Тошни.",
           "coinlist": [
@@ -1490,7 +1508,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Жё м’абжект",
+=======
+          "name": "Je m'abjecte",
+>>>>>>> 94ab58f0 (.)
           "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на главной цели (макс. 2)\n[WhenUse] Получает +1 Вес атаки за каждые 2 силы [ChargeRouge] на себе (макс. 2)",
           "flavor": "И яви это миру.",
           "coinlist": [
@@ -1523,8 +1545,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ля Пюльсьон",
           "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nЦелится на Хуесосов Олвейс\n\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] и получает +2 Вес атаки",
+=======
+          "name": "La Pulsion",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nЦелится на Le Rouge Senior Staff\n\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит до 10 счётчика [ChargeRouge] и получает +2 Вес атаки",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1548,7 +1575,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Лё Манк-а-этр",
+=======
+          "name": "Le Manque-à-être",
+>>>>>>> 94ab58f0 (.)
           "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
           "coinlist": [
             {
@@ -1573,8 +1604,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ля Жуиссанс",
           "desc": "Не может застаггерится пока не использует этот скилл\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Хилит 15 IQ и получает Силу клеша +2 за каждых Хуесосов Олвейс</u></b></mark></color> на поле\n[WhenUse] Если <color=#ff6000><mark=#ff000040><b><u>все Хуесосы Олвейс побеждены</u></b></mark></color>, Сила клеша -3\n[DefeatDuel] Наносит -80% урона, урон нанесённый этим скиллом не может застаггерить цель, <color=#ff6000><mark=#ff000040><b><u>и получает 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Конвертирует [BuffetScruple] на главной цели в [BuffetResolve]",
+=======
+          "name": "La Jouissance",
+          "desc": "Не может застаггерится пока не использует этот скилл\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Хилит 15 IQ и получает Силу клеша +2 за каждые Le Rouge Senior Staff</u></b></mark></color> на поле\n[WhenUse] Если <color=#ff6000><mark=#ff000040><b><u>все Le Rouge Senior Staff are defeated</u></b></mark></color>, Сила клеша -3\n[DefeatDuel] Наносит -80% урона, урон нанесённый этим скиллом не может застаггерить цель, <color=#ff6000><mark=#ff000040><b><u>и получает 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] на главной цели в [BuffetResolve]",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1621,7 +1657,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ля Дёманд",
+=======
+          "name": "La Demande",
+>>>>>>> 94ab58f0 (.)
           "desc": "[CantDuel]\n[CantChangeTarget]\nэтот скилл не активирует защитные скиллы\n[WhenUse] Убирает все [BoneNail] на главной цели\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на главной цели (макс. 2)\n[EndSkill] Убирает [BuffetScruple] на главной цели",
           "coinlist": [
             {
@@ -1654,8 +1694,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Лё Ном-дю-Пэр",
           "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть [BuffetRouge]</u></b></mark></color>, Конвертирует все монеты в [SuperCoin:*Вечные монеты*]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на главной цели (макс. 2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [BuffetScruple], теряет 2 Вес атаки</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель\n[EndSkill] Убирает [BuffetScruple] на главной цели",
+=======
+          "name": "Le Nom-du-Père",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть [BuffetRouge]</u></b></mark></color>, Конвертирует все монеты в on this Skill to [SuperCoin:*Вечные монеты*]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на главной цели (макс. 2)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [BuffetScruple], теряет 2 Вес атаки</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель\n[EndSkill] Убирает [BuffetScruple] на главной цели",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1699,8 +1744,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ля Кастрасьон",
           "desc": "С этим скиллом можно клешится независимо от скорости\nНе может застаггерится пока не использует этот скилл\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть менее 5 [BuffetDream], Конвертирует все монеты в [SuperCoin:*Вечные*]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [BuffetScruple]</u></b></mark></color>, Сила монет -3\n[WhenUse] Финальная сила +2 за каждые 6 [Laceration:*Кетчупа*] на главной цели (макс. 6)\n[DefeatDuel] Наносит -80% урона, урон нанесённый этим скиллом не может застаггерить цель, <color=#ff6000><mark=#ff000040><b><u>и получает 1 [BuffetDream]</u></b></mark></color>",
+=======
+          "name": "La Castration",
+          "desc": "С этим скиллом можно клешится независимо от скорости\nНе может застаггерится пока не использует этот скилл\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть менее 5 [BuffetDream], Конвертирует все монеты в on this Skill to [SuperCoin]</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [BuffetScruple]</u></b></mark></color>, Coin Power -3\n[WhenUse] Финальная сила +2 за каждые 6 [Laceration:*Кетчупа*] на главной цели (макс. 6)\n[DefeatDuel] Наносит -80% урона, урон нанесённый этим скиллом не может застаггерить цель, <color=#ff6000><mark=#ff000040><b><u>и получает 1 [BuffetDream]</u></b></mark></color>",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1751,8 +1801,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Лё Трэ Юнэр",
           "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на главной цели (макс. 2)\n[WhenUse] Получает +1 Вес атаки за каждые 5 общей суммы [BoneNail] на всех врагов (макс. 4)",
+=======
+          "name": "Le Trait Unaire",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:*Кетчупа*] на главной цели (макс. 2)\n[WhenUse] Получает +1 Вес атаки за каждые 5 total sum of [BoneNail] на всех врагов (макс. 4)",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1799,8 +1854,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Дегаже",
           "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на цели нет [Laceration:*Кетчупа*], Конвертирует все монеты в [SuperCoin:*Вечные монеты*]</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
+=======
+          "name": "Dégagé",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на цели нет [Laceration:*Кетчупа*], Конвертирует все монеты в on this Skill to [SuperCoin:*Вечные монеты*]</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1824,8 +1884,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Лё Пуэн дё Капитон",
           "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на цели нет [Laceration:*Кетчупа*], Конвертирует все монеты в [SuperCoin:*Вечные монеты*]</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
+=======
+          "name": "Le Point de Capiton",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на цели нет [Laceration:*Кетчупа*], Конвертирует все монеты в on this Skill to [SuperCoin:*Вечные монеты*]</u></b></mark></color>\n[DefeatDuel] Наносит -80% урона и урон нанесённый этим скиллом не может застаггерить цель",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1862,8 +1927,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ля Жуиссанс",
           "desc": "Не может застаггерится пока не использует этот скилл\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [BuffetScruple]</u></b></mark></color>, теряет 10 IQ, Сила монет -2\n[DefeatDuel] Наносит -80% урона, урон нанесённый этим скиллом не может застаггерить цель, <color=#ff6000><mark=#ff000040><b><u>и получает 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Конвертирует [BuffetScruple] на главной цели в [BuffetResolve]",
+=======
+          "name": "La Jouissance",
+          "desc": "Не может застаггерится пока не использует этот скилл\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у главной цели есть [BuffetScruple]</u></b></mark></color>, теряет 10 IQ, Coin Power -2\n[DefeatDuel] Наносит -80% урона, урон нанесённый этим скиллом не может застаггерить цель, <color=#ff6000><mark=#ff000040><b><u>и получает 1 [BuffetDream]</u></b></mark></color>\n[EndSkill] Convert [BuffetScruple] на главной цели в [BuffetResolve]",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1910,8 +1980,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ля Метафор Патернель",
           "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nЭтот скилл юзается в конце каждого хода\n[EndSkill] Хилит 25% ХП",
+=======
+          "name": "La Métaphore Paternelle",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nThis Skill is used при the very end of the turn\n[EndSkill] Хилит 25% ХП",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -1929,7 +2004,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Прими нас внутрь...",
+=======
+          "name": "Получает Us In...",
+>>>>>>> 94ab58f0 (.)
           "desc": "",
           "coinlist": [
             {
@@ -1951,8 +2030,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Ох... Наш Алый Голос...",
           "desc": "Наносит +1 счётчик [Laceration:*Кетчупа*] против атакующего при получении удара пока этот юнит имеет щит\n[StartBattle] Получает щит равный 25% от макс. ХП этого юнита\n[EndBattle] Если у этого юнита есть Щит, теряет 1 [BuffetRevival]",
+=======
+          "name": "Oh... Our Crimson Voice...",
+          "desc": "Наносит +1 счётчик [Laceration:*Кетчупа*] against the attacker при получении удара as long as this unit есть remaining shield\n[StartBattle] Получает щит равный 25% от макс. ХП этого юнита\n[EndBattle] Если у этого юнита есть Shield, теряет 1 [BuffetRevival]",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": []
@@ -1966,7 +2050,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Своими серпами Я откликаюсь на зов твой",
+=======
+          "name": "With sickles mine I answer your calling!",
+>>>>>>> 94ab58f0 (.)
           "desc": "[WhenUse] Получает +6 счётчика [ChargeRouge]\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит 5 счётчика [ChargeRouge] для получения Базовая сила +2",
           "coinlist": [
             {
@@ -1988,7 +2076,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Прими подношение моё из плоти!",
+=======
+          "name": "Accept my offering of flesh!",
+>>>>>>> 94ab58f0 (.)
           "desc": "[WhenUse] Получает +4 счётчика [ChargeRouge]\n[WhenUse] Если на цели есть 6+ [Laceration:*Кетчупа*], Сила монет +1\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит 10 счётчика [ChargeRouge] для получения Сила монет +1",
           "coinlist": [
             {
@@ -2020,8 +2112,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Дар из моих объятий!",
           "desc": "[StartBattle] Если у этого юнита менее 50% ХП, Конвертирует все монеты в [SuperCoin:*Вечные*]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит 10 счётчика [ChargeRouge] для получения Сила монет +1\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+=======
+          "name": "An offering from my embrace!",
+          "desc": "[StartBattle] Если у этого юнита есть less than 50% ХП, Конвертирует все монеты в on this Skill to [SuperCoin]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит 10 счётчика [ChargeRouge] для получения Сила монет +1\n[DefeatDuel] Урон, нанесённый этим скиллом не может застаггерить цель",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -2062,8 +2159,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Мы должны пожрать всё это!",
           "desc": "[StartBattle] Если у этого юнита менее 50% ХП, Конвертирует все монеты в [SuperCoin:*Вечные*]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит 10 счётчика [ChargeRouge] для получения Сила монет +1\n[WinDuel] Получает +10 счётчика [ChargeRouge]\n[DefeatDuel] Наносит -80% урона; урон нанесённый этим скиллом не может застаггерить цель",
+=======
+          "name": "We shall devour it все!",
+          "desc": "[StartBattle] Если у этого юнита есть less than 50% ХП, Конвертирует все монеты в on this Skill to [SuperCoin]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 10+ счётчика [ChargeRouge], Тратит 10 счётчика [ChargeRouge] для получения Сила монет +1\n[WinDuel] Получает +10 счётчика [ChargeRouge]\n[DefeatDuel] Наносит -80% урона; урон нанесённый этим скиллом не может застаггерить цель",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": [
@@ -2114,7 +2216,11 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Нас ещё не предадут земле!",
+=======
+          "name": "We shan't yet be laid to rest!",
+>>>>>>> 94ab58f0 (.)
           "desc": "[DuelCounter]\n[WhenUse] Финальная сила +1 за каждые 5 счётчика [ChargeRouge] на себе (макс. 3)\n[WhenUse] Если на цели есть 6+ [Laceration:*Кетчупа*], Сила монет +1",
           "coinlist": [
             {
@@ -2143,8 +2249,13 @@
       "levelList": [
         {
           "level": "1",
+<<<<<<< HEAD
           "name": "Мольба, обращенная к голосу",
           "desc": "[CantDuel]\n[CantChangeTarget]\nЦелится на Старого бога 【Прайм】\n\nЭтот скилл имеет следующие условия:\n- не активирует Защитные скиллы\n- Внешние эффекты не могут использовать этот скилл повторно\n- Эта атака не наносит урона\n\n[EndCoin] Цель Хилит 20 IQ",
+=======
+          "name": "Supplication Toward the Voice",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nЦелится на The Crimson God 【Adulthood】\n\nThis Skill есть the following properties:\n- не активирует Defense Skills\n- Внешние эффекты не могут использовать этот скилл повторно\n- Its attack не hit\n\n[EndCoin] Target heals 20 IQ",
+>>>>>>> 94ab58f0 (.)
           "coinlist": [
             {
               "coindescs": []
