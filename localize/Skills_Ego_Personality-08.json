@@ -35,7 +35,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 1 случайному союзнику<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead] даёт 1 <sprite name=\"PenetrateResultUp\"><color=#f8c200><u><link=\"PenetrateResultUp\">Повышение силы Пронзающей атаки</link></u></color> и 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> четырём союзникам с наибольшей IQ</style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead] Даёт 1 <sprite name=\"PenetrateResultUp\"><color=#f8c200><u><link=\"PenetrateResultUp\">Повышение силы Пронзающей атаки</link></u></color> и 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> четырём союзникам с наибольшей IQ</style>"
                 }
               ]
             }
@@ -103,7 +103,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"IndigoTakeDamageUp\"><color=#e30000><u><link=\"IndigoTakeDamageUp\">Уязвимости к Гордыне</link></u></color> на этот и следующий ход<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail] даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> четырём союзникам с наименьшей IQ на этот и следующий ход</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail] Даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> четырём союзникам с наименьшей IQ на этот и следующий ход</style>"
                 }
               ]
             }
@@ -886,7 +886,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Binding] в следующем ходу<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Binding] В следующем ходу<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -933,7 +933,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает <style=\"highlight\">2</style> [Binding] в следующий ход\n"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает <style=\"highlight\">2</style> [Binding] В следующий ход\n"
                 }
               ]
             },
@@ -964,7 +964,7 @@
           "abName": "Задави меня ляжками",
           "level": "1",
           "name": "Самка дельфина",
-          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] Если у основной цели 5+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> , сила в столкновении +1\n[BeforeAttack] Получает следующих эффектов за каждые 3 наивысших резонанса:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] на следующем ходу на случайных союзников (с наивысшим резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)",
+          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] Если у основной цели 5+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color> , сила в столкновении +1\n[BeforeAttack] Получает следующих эффектов за каждые 3 наивысших резонанса:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] На следующем ходу на случайных союзников (с наивысшим резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1003,7 +1003,7 @@
           "abName": "Задави меня ляжками",
           "level": "3",
           "name": "Самка дельфина",
-          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] <style=\"highlight\">Сила в столкновении +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  на основной цели (макс. 2)</style>\n[BeforeAttack] Получает следующих эффектов за каждые 3 наивысших резонанса:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] на следующем ходу на случайных союзников (с наивысшим резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)\n<style=\"highlight\">- Если указанный резонанс был резонансом Уныния или A-резонансом, накладывает также 1 [AzureDamageUp]</style>",
+          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] <style=\"highlight\">Сила в столкновении +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  на основной цели (макс. 2)</style>\n[BeforeAttack] Получает следующих эффектов за каждые 3 наивысших резонанса:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] На следующем ходу на случайных союзников (с наивысшим резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)\n<style=\"highlight\">- Если указанный резонанс был резонансом Уныния или A-резонансом, накладывает также 1 [AzureDamageUp]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1032,7 +1032,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если среди целей есть стаггернутые, частично сломанные или уничтоженные юниты, накладывает 1 [AzureTakeDamageUp] в следующий ход на случайного нецелевого врага (Один раз за ход; в сфокусированных битвах каждая часть считается 1 целью)</style>\n"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если среди целей есть стаггернутые, частично сломанные или уничтоженные юниты, накладывает 1 [AzureTakeDamageUp] В следующий ход на случайного нецелевого врага (Один раз за ход; в сфокусированных битвах каждая часть считается 1 целью)</style>\n"
                 },
                 {
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>\n"
@@ -1045,7 +1045,7 @@
           "abName": "Задави меня ляжками",
           "level": "4",
           "name": "Самка дельфина",
-          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] Сила в столкновении +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  на основной цели (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает следующих эффектов за каждые 3 наивысших резонанса <style=\"highlight\">(если это был резонанс Уныния, за каждые 2 наивысших резонанса)</style>:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] на следующем ходу на случайных союзников (с наивысшим резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)\n- Если указанный резонанс был резонансом Уныния или A-резонансом, накладывает также 1 [AzureDamageUp]",
+          "desc": "[CantIdentify]\nЦели выбираются случайным образом\n[WhenUse] Сила в столкновении +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>Депрессии</noparse></link></u></color>  на основной цели (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получает следующих эффектов за каждые 3 наивысших резонанса <style=\"highlight\">(если это был резонанс Уныния, за каждые 2 наивысших резонанса)</style>:\n- Получает +1 вес атаки (макс. 2)\n- Наносит +15% урона (макс. 30%)\n[EndSkill] Накладывает 1 [HitDamageUp] На следующем ходу на случайных союзников (с наивысшим резонансом, включая этого юнита; макс. 4 союзника; один раз за ход)\n- Если указанный резонанс был резонансом Уныния или A-резонансом, накладывает также 1 [AzureDamageUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -1074,7 +1074,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если среди целей есть стаггернутые, частично сломанные или уничтоженные юниты, накладывает 1 [AzureTakeDamageUp] в следующий ход на случайного нецелевого врага (Один раз за ход; в сфокусированных битвах каждая часть считается 1 целью)<style=\"highlight\"></style>\n"
+                  "desc": "[OnSucceedAttack] Если среди целей есть стаггернутые, частично сломанные или уничтоженные юниты, накладывает 1 [AzureTakeDamageUp] В следующий ход на случайного нецелевого врага (Один раз за ход; в сфокусированных битвах каждая часть считается 1 целью)<style=\"highlight\"></style>\n"
                 },
                 {
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion]; затем уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>\n"
