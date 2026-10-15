@@ -10,7 +10,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             }
@@ -29,17 +29,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе / 2) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 5; один раз за ход; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе / 2) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 5; один раз за ход; округляется вниз)"
                 }
               ]
             }
@@ -53,7 +53,7 @@
         {
           "level": "1",
           "name": "Прихлопнуть",
-          "desc": "Если на цели есть 4+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Финальная сила +1\n[WhenUse] наносит +1% урона за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на себе (макс. 20%)",
+          "desc": "Если на цели есть 4+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Финальная сила +1\n[WhenUse] Наносит +1% урона за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на себе (макс. 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -61,13 +61,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 8; один раз за ход)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 8; один раз за ход)"
                 }
               ]
             },
@@ -91,7 +91,7 @@
         {
           "level": "1",
           "name": "Защита",
-          "desc": "[StartBattle] хилит 5 IQ\n[StartBattle] получает 1 [ResultEnhancement] на следующий ход",
+          "desc": "[StartBattle] Хилит 5 IQ\n[StartBattle] Получает 1 [ResultEnhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": []
@@ -111,7 +111,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             }
@@ -130,17 +130,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе / 2) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 5; один раз за ход; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе / 2) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 5; один раз за ход; округляется вниз)"
                 }
               ]
             }
@@ -154,7 +154,7 @@
         {
           "level": "1",
           "name": "Прихлопнуть",
-          "desc": "Если на цели есть 4+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Финальная сила +1\n[WhenUse] наносит +1% урона за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на себе (макс. 20%)",
+          "desc": "Если на цели есть 4+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Финальная сила +1\n[WhenUse] Наносит +1% урона за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на себе (макс. 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -162,13 +162,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 8; один раз за ход)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у этого юнита есть <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color>, наносит (силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на себе) счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 8; один раз за ход)"
                 }
               ]
             },
@@ -192,7 +192,7 @@
         {
           "level": "1",
           "name": "Блок",
-          "desc": "[StartBattle] хилит 5 IQ\n[StartBattle] получает 1 [ResultEnhancement] на следующий ход",
+          "desc": "[StartBattle] Хилит 5 IQ\n[StartBattle] Получает 1 [ResultEnhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": []
@@ -207,26 +207,26 @@
         {
           "level": "1",
           "name": "Не трогай меня...!",
-          "desc": "[WhenUse]\n- Если на цели есть 6+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Сила монет +1\n- При 10+ счётчика [ChargeNoir], Сила монет +1\n\n[WhenUse] получает +2 счётчика [ChargeNoir]",
+          "desc": "[WhenUse]\n- Если на цели есть 6+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Сила монет +1\n- При 10+ счётчика [ChargeNoir], Сила монет +1\n\n[WhenUse] Получает +2 счётчика [ChargeNoir]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика [ChargeNoir]"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [ChargeNoir]"
                 }
               ]
             }
@@ -240,26 +240,26 @@
         {
           "level": "1",
           "name": "Руки прочь от меня...!",
-          "desc": "[WhenUse]\n- Если на цели есть 6+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Сила монет +1\n- При 10+ счётчика [ChargeNoir], Сила монет +1\n\n[WhenUse] получает +4 счётчика [ChargeNoir]",
+          "desc": "[WhenUse]\n- Если на цели есть 6+ <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>, Сила монет +1\n- При 10+ счётчика [ChargeNoir], Сила монет +1\n\n[WhenUse] Получает +4 счётчика [ChargeNoir]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] получает +2 счётчика [ChargeNoir]"
+                  "desc": "[OnSucceedAttack] Получает +2 счётчика [ChargeNoir]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             }
@@ -273,26 +273,26 @@
         {
           "level": "1",
           "name": "Мы не должны ничего делать...!",
-          "desc": "Наносит +4% урона за каждую силу [ChargeNoir] на себе (макс. 20%)\n\n[WhenUse] при 10+ счётчика [ChargeNoir], Тратит 10 счётчика [ChargeNoir] для получения Силы монет +1 и наносит +20% урона",
+          "desc": "Наносит +4% урона за каждую силу [ChargeNoir] На себе (макс. 20%)\n\n[WhenUse] При 10+ счётчика [ChargeNoir], Тратит 10 счётчика [ChargeNoir] для получения Силы монет +1 и наносит +20% урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
@@ -319,7 +319,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -339,17 +339,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -363,12 +363,12 @@
         {
           "level": "1",
           "name": "Схватила один!",
-          "desc": "Финальная сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 3)\n[WhenUse] при менее 50% ХП, или если на цели есть 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
+          "desc": "Финальная сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 3)\n[WhenUse] При менее 50% ХП, или если на цели есть 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
@@ -378,10 +378,10 @@
                   "desc": "Наносит +30% урона при раскумаре"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -395,19 +395,19 @@
         {
           "level": "1",
           "name": "Нет! Этот мой!",
-          "desc": "[WhenUse] получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> за каждые 2 типа эффектов на цели (макс. 5)\n[WhenUse] если на цели есть 4+ эффектов, получает +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "desc": "[WhenUse] Получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> за каждые 2 типа эффектов на цели (макс. 5)\n[WhenUse] Если на цели есть 4+ эффектов, получает +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -427,7 +427,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -447,17 +447,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -471,12 +471,12 @@
         {
           "level": "1",
           "name": "Схватила один!",
-          "desc": "Финальная сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 3)\n[WhenUse] при менее чем 50% ХП, или если на цели есть 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
+          "desc": "Финальная сила +1 за каждые 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 3)\n[WhenUse] При менее чем 50% ХП, или если на цели есть 10+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
@@ -486,10 +486,10 @@
                   "desc": "Наносит +30% урона при раскумаре"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -503,19 +503,19 @@
         {
           "level": "1",
           "name": "Нет! Этот мой!",
-          "desc": "[WhenUse] получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> за каждые 2 типа эффектов на цели (макс. 5)\n[WhenUse] если на цели есть 4+ эффектов, получает +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
+          "desc": "[WhenUse] Получает 2  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> за каждые 2 типа эффектов на цели (макс. 5)\n[WhenUse] Если на цели есть 4+ эффектов, получает +1 счётчик  <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             }
@@ -529,15 +529,15 @@
         {
           "level": "1",
           "name": "Шов Вперёд - Основа",
-          "desc": "Если на цели есть 4+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, Финальная сила +1\n\n[WhenUse] если на цели есть 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
+          "desc": "Если на цели есть 4+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, Финальная сила +1\n\n[WhenUse] Если на цели есть 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [PenetrateResistDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateResistDown] на следующий ход"
                 }
               ]
             }
@@ -556,17 +556,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [NiddlePin]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NiddlePin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поноса</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поноса</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -580,7 +580,7 @@
         {
           "level": "1",
           "name": "Стежок Назад - Основа",
-          "desc": "Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n\n[WhenUse] наносит +1% урона за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели (макс. 20%)",
+          "desc": "Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n\n[WhenUse] Наносит +1% урона за каждые <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели (макс. 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -588,16 +588,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] повторно использует эту монету один раз (один раз за скилл)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повторно использует эту монету один раз (один раз за скилл)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит пронзающий урон равный силе <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит пронзающий урон равный силе <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 30)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] наносит 1 [NiddlePin]"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [NiddlePin]"
                 }
               ]
             }
@@ -611,7 +611,7 @@
         {
           "level": "1",
           "name": "Слепой Стежок - Основа",
-          "desc": "[StartBattle] получает 1 [PenetrateResultUp] на следующий ход",
+          "desc": "[StartBattle] Получает 1 [PenetrateResultUp] на следующий ход",
           "coinlist": []
         }
       ],
@@ -622,15 +622,15 @@
         {
           "level": "1",
           "name": "Шов Вперёд - Основа",
-          "desc": "Если на цели есть 4+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, Финальная сила +1\n\n[WhenUse] если на цели есть 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
+          "desc": "Если на цели есть 4+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, Финальная сила +1\n\n[WhenUse] Если на цели есть 6+ <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, конвертирует все монеты в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечные монеты</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [PenetrateTakeDamageUp] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp] на следующий ход"
                 }
               ]
             }
@@ -649,17 +649,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [NiddlePin]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [NiddlePin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поноса</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Поноса</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -673,7 +673,7 @@
         {
           "level": "1",
           "name": "Стежок Назад - Основа",
-          "desc": "Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n\n[WhenUse] наносит +1% урона за каждый <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели (макс. 20%)",
+          "desc": "Финальная сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 2)\n\n[WhenUse] Наносит +1% урона за каждый <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчуп</noparse></link></u></color> на цели (макс. 20%)",
           "coinlist": [
             {
               "coindescs": [
@@ -681,16 +681,16 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и +2 счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] повторно использует эту монету один раз (один раз за скилл)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повторно использует эту монету один раз (один раз за скилл)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит пронзающий урон равный силе <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит пронзающий урон равный силе <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (макс. 30)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] наносит 1 [NiddlePin]"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [NiddlePin]"
                 }
               ]
             }
@@ -704,7 +704,7 @@
         {
           "level": "1",
           "name": "Слепой Стежок - Основа",
-          "desc": "[StartBattle] получает 1 [PenetrateResultUp] на следующий ход",
+          "desc": "[StartBattle] Получает 1 [PenetrateResultUp] на следующий ход",
           "coinlist": []
         }
       ],

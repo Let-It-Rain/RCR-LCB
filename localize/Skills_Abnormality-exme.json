@@ -6,22 +6,22 @@
         {
           "level": 1,
           "name": "Сужение алых пут",
-          "desc": "[WhenUse] базовая сила +1, если сумма силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели равна 6 и более\n[WhenUse] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n- Если быстрее цели, то повышает его ещё на 1",
+          "desc": "[WhenUse] Базовая сила +1, если сумма силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели равна 6 и более\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n- Если быстрее цели, то повышает его ещё на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [ScratchesHurt:`Отрывную рану`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScratchesHurt:`Отрывную рану`] на следующий ход"
                 }
               ]
             }
@@ -35,22 +35,22 @@
         {
           "level": 1,
           "name": "Перерезание сухожилия",
-          "desc": "[WhenUse] базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color>\n[WhenUse] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 3\n- Если быстрее цели, то получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 3\n- Если быстрее цели, то получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
                 }
               ]
             }
@@ -64,35 +64,35 @@
         {
           "level": 1,
           "name": "Отрывной разрез",
-          "desc": "[WhenUse] сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>\n[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит ещё 1 [ScratchesHurt:`Отрывную рану`] на следующий ход"
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurt:`Отрывную рану`] на следующий ход"
                 }
               ]
             }
@@ -106,26 +106,26 @@
         {
           "level": 1,
           "name": "Клеймение",
-          "desc": "Нацеливается на противников с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
+          "desc": "Нацеливается на противников с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -139,15 +139,15 @@
         {
           "level": 1,
           "name": "Отрезание отступления",
-          "desc": "[DuelCounter]\n[WhenUse] базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3",
+          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScratchesHurt:`Отрывных раны`] на следующий ход"
                 }
               ]
             }
@@ -161,22 +161,22 @@
         {
           "level": 1,
           "name": "Препятствование",
-          "desc": "[WhenUse] базовая сила +1, если сумма силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели равна 6 и более\n[WhenUse] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n- Если быстрее цели, то повышает его ещё на 1",
+          "desc": "[WhenUse] Базовая сила +1, если сумма силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели равна 6 и более\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n- Если быстрее цели, то повышает его ещё на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -190,22 +190,22 @@
         {
           "level": 1,
           "name": "Удушающий захват",
-          "desc": "[WhenUse] базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color>\n[WhenUse] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 2\n- Если быстрее цели, то получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 2\n- Если быстрее цели, то получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -219,35 +219,35 @@
         {
           "level": 1,
           "name": "Охотничья чистка",
-          "desc": "[WhenUse] сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color>\n[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] получает ещё 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то последняя монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color>\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] Получает ещё 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на этот и следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на этот и следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит [TiedRope] с шансом (<sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на цели × 20)%\n- Если цель оглушена, то всё равно наносит [TiedRope]"
+                  "desc": "[OnSucceedAttack] Наносит [TiedRope] с шансом (<sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на цели × 20)%\n- Если цель оглушена, то всё равно наносит [TiedRope]"
                 }
               ]
             }
@@ -261,26 +261,26 @@
         {
           "level": 1,
           "name": "Клеймение",
-          "desc": "Нацеливается на противников с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
+          "desc": "Нацеливается на противников с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -294,15 +294,15 @@
         {
           "level": 1,
           "name": "Отрезание пути",
-          "desc": "[DuelCounter]\n[WhenUse] базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3",
+          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WinDuel] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывание</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -316,25 +316,25 @@
         {
           "level": 1,
           "name": "Приём углом чемодана",
-          "desc": "Базовая сила +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>\n[WhenUse] получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> на следующий ход (Единожды за ход)",
+          "desc": "Базовая сила +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>\n[WhenUse] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             }
@@ -348,25 +348,25 @@
         {
           "level": 1,
           "name": "Удар весом",
-          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешки</noparse></link></u></color> на следующий ход (Единожды за ход)",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешки</noparse></link></u></color> на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремор</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремор</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             },
@@ -387,22 +387,22 @@
         {
           "level": 1,
           "name": "Запечатлеть субъект",
-          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует Тремор</noparse></link></u></color> и понижает его счётчик на 1"
@@ -415,10 +415,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] наносит 1 [TakePicture:`Сбор разведданных`] на следующий ход"
+                  "desc": "[EndCoin] Наносит 1 [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
@@ -432,18 +432,18 @@
         {
           "level": 1,
           "name": "Снимок",
-          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\"><noparse>Понижения уровня сваги</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\"><noparse>Понижения уровня сваги</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] наносит 1 [TakePicture:`Сбор разведданных`] на следующий ход"
+                  "desc": "[EndCoin] Наносит 1 [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
@@ -457,25 +457,25 @@
         {
           "level": 1,
           "name": "Удар стальной пластиной",
-          "desc": "Базовая сила +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>\n[WhenUse] получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> на следующий ход (Единожды за ход)",
+          "desc": "Базовая сила +1 против целей с 6 и более единицами в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>\n[WhenUse] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешку</noparse></link></u></color> на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремор</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремор</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 3"
                 }
               ]
             }
@@ -489,25 +489,25 @@
         {
           "level": 1,
           "name": "Укол гвоздём",
-          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешка</noparse></link></u></color> на следующий ход (Единожды за ход)",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешка</noparse></link></u></color> на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 2"
                 }
               ]
             },
@@ -528,22 +528,22 @@
         {
           "level": 1,
           "name": "Рекомпозиция фокуса",
-          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 [LensmanNail:`Забитый гвоздь`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [LensmanNail:`Забитый гвоздь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Провоцирует Тремор</noparse></link></u></color> и понижает его счётчик на 1"
@@ -556,10 +556,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] наносит [TakePicture:`Сбор разведданных`] на следующий ход"
+                  "desc": "[EndCoin] Наносит [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
@@ -573,18 +573,18 @@
         {
           "level": 1,
           "name": "Снимок",
-          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
+          "desc": "[DuelCounter]\nБазовая сила +1 за каждые 4 единицы в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тремора</noparse></link></u></color> на цели (До 2)\n[WhenUse] Если быстрее цели, то все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\"><noparse>Понижения уровня сваги</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\"><noparse>Понижения уровня сваги</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[EndCoin] наносит [TakePicture:`Сбор разведданных`] на следующий ход"
+                  "desc": "[EndCoin] Наносит [TakePicture:`Сбор разведданных`] на следующий ход"
                 }
               ]
             }
@@ -598,15 +598,15 @@
         {
           "level": 1,
           "name": "Разделка быка",
-          "desc": "[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -620,15 +620,15 @@
         {
           "level": 1,
           "name": "Разделка медведя",
-          "desc": "[WhenUse] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -642,15 +642,15 @@
         {
           "level": 1,
           "name": "Разрушение медвежьего позвоночника",
-          "desc": "[WhenUse] наносит на 40% больше урона при критических попаданиях при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> и критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] равно 7 и более</color></mark></b></u>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] Наносит на 40% больше урона при критических попаданиях при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> и критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] Равно 7 и более</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 3"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 3"
                 }
               ]
             }
@@ -664,26 +664,26 @@
         {
           "level": 1,
           "name": "Форма меча родины - Раскол Саля",
-          "desc": "[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -697,26 +697,26 @@
         {
           "level": 1,
           "name": "Охота на тигра",
-          "desc": "[WhenUse] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -730,33 +730,33 @@
         {
           "level": 1,
           "name": "Разделка тигра",
-          "desc": "[WhenUse] на 40% больше урона при критическом попадании при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] равно 3 и менее</color></mark></b></u>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] На 40% больше урона при критическом попадании при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] Равно 3 и менее</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
                 }
               ]
             }
@@ -796,7 +796,7 @@
         {
           "level": 1,
           "name": "Форма меча родины【Саль】- Выпущенная стрела",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nНацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] тратит 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>, чтобы получить +2 к Итоговой силе",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nНацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] Тратит 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>, чтобы получить +2 к Итоговой силе",
           "coinlist": [
             {
               "coindescs": [
@@ -804,16 +804,16 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 4"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] поднимает границу выносливости цели на 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
                 }
               ]
             }
@@ -827,7 +827,7 @@
         {
           "level": 1,
           "name": "Защитная форма",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 3\n[WhenUse] получает 2 <sprite name=\"CriticalDamageUp\"><color=#f8c200><u><link=\"CriticalDamageUp\"><noparse>Повышения критического урона</noparse></link></u></color> на следующий ход",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 3\n[WhenUse] Получает 2 <sprite name=\"CriticalDamageUp\"><color=#f8c200><u><link=\"CriticalDamageUp\"><noparse>Повышения критического урона</noparse></link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -840,19 +840,19 @@
         {
           "level": 1,
           "name": "Контратакующая форма",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 5",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -866,15 +866,15 @@
         {
           "level": 1,
           "name": "Разделка быка",
-          "desc": "[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -888,15 +888,15 @@
         {
           "level": 1,
           "name": "Разделка медведя",
-          "desc": "[WhenUse] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -910,15 +910,15 @@
         {
           "level": 1,
           "name": "Разрушение медвежьего позвоночника",
-          "desc": "[WhenUse] наносит на 40% больше урона при критических попаданиях при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] итоговая сила +1 за каждую единицу значения [ChoiSwordsmanship] свыше 6 (До 3)\n[WhenUse] монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color> и её критический урон повышается на 20%, если значение [ChoiSwordsmanship] равно 7 и более\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] Наносит на 40% больше урона при критических попаданиях при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждую единицу значения [ChoiSwordsmanship] свыше 6 (До 3)\n[WhenUse] Монета этого навыка становится <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечной</noparse></link></u></color> и её критический урон повышается на 20%, если значение [ChoiSwordsmanship] Равно 7 и более\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 3"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 3"
                 }
               ]
             }
@@ -932,7 +932,7 @@
         {
           "level": 1,
           "name": "Даже Сангуны будут рассечены этим мечом",
-          "desc": "Нацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n\n[WhenUse] не может быть оглушена до конца использования этого навыка\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 3)\n[WhenUse] итоговая сила +2 за каждую единицу значения [ChoiSwordsmanship] свыше 6 (До 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Монета этого навыка выпадает орлом с шансом 100%, попадает критически, а также не тратит счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> при этом</color></mark></b></u>\n[BeforeAttack] наносит на 20% больше урона за каждые 2 [ChoiSwordsmanship] (До 80%)\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "Нацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n\n[WhenUse] Не может быть оглушена до конца использования этого навыка\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 3)\n[WhenUse] Итоговая сила +2 за каждую единицу значения [ChoiSwordsmanship] свыше 6 (До 6)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Монета этого навыка выпадает орлом с шансом 100%, попадает критически, а также не тратит счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> при этом</color></mark></b></u>\n[BeforeAttack] Наносит на 20% больше урона за каждые 2 [ChoiSwordsmanship] (До 80%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
@@ -940,13 +940,13 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит дополнительный Рубящий урон, равный (Сила своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> × 10)% от итогового урона этой монеты (До 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Сила своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> × 10)% от итогового урона этой монеты (До 100%)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит дополнительный урон Похотью, равный (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели × 10)% от итогового урона этой монеты (До 100%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Похотью, равный (Сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели × 10)% от итогового урона этой монеты (До 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -960,26 +960,26 @@
         {
           "level": 1,
           "name": "Форма меча родины - Раскол Саля",
-          "desc": "[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
@@ -993,26 +993,26 @@
         {
           "level": 1,
           "name": "Охота на тигра",
-          "desc": "[WhenUse] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> на 3\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> при 6 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -1026,33 +1026,33 @@
         {
           "level": 1,
           "name": "Разделка тигра",
-          "desc": "[WhenUse] на 40% больше урона при критическом попадании при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] равно 3 и менее</color></mark></b></u>\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "[WhenUse] На 40% больше урона при критическом попадании при 8 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color> и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] Равно 3 и менее</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижение сопротивления к Рубящему урону</noparse></link></u></color> на этот и следующий ход"
                 }
               ]
             }
@@ -1066,7 +1066,7 @@
         {
           "level": 1,
           "name": "Не должно остаться неразрезанной тигриной плоти",
-          "desc": "С этим навыком можно столкнуться независимо от скорости\n\nНацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] не может быть оглушена до конца использования этого навыка\n[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на главной цели (До 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Все монеты этого навыка выпадают орлом, попадают критически, а также не тратят счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> при этом</color></mark></b></u>\n[BeforeAttack] наносит на 20% больше урона за каждые 2 [ChoiSwordsmanship] (До 80%)\n[DefeatDuel] наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] не может попасть критически",
+          "desc": "С этим навыком можно столкнуться независимо от скорости\n\nНацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] Не может быть оглушена до конца использования этого навыка\n[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на главной цели (До 3)\n[WinDuel] <color=#ff6000><mark color=#ff000040><b><u>Все монеты этого навыка выпадают орлом, попадают критически, а также не тратят счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> при этом</color></mark></b></u>\n[BeforeAttack] Наносит на 20% больше урона за каждые 2 [ChoiSwordsmanship] (До 80%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[DefeatDuel] Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
@@ -1074,10 +1074,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -1087,10 +1087,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -1100,10 +1100,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечение</noparse></link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -1113,10 +1113,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] если главная цель имеет 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>, то повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 4 всем целям, по которым попала этой монетой"
+                  "desc": "[OnSucceedAttack] Если главная цель имеет 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>, то повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 4 всем целям, по которым попала этой монетой"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 8"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 8"
                 }
               ]
             }
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "Форма меча родины【Саль】- Выпущенная стрела",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nНацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] тратит 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>, чтобы получить +2 к Итоговой силе",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nНацеливается на противника с наибольшей силой <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>\n[WhenUse] Тратит 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color>, чтобы получить +2 к Итоговой силе",
           "coinlist": [
             {
               "coindescs": [
@@ -1164,16 +1164,16 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 4"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] поднимает границу выносливости цели на 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связывания</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>"
                 }
               ]
             }
@@ -1187,7 +1187,7 @@
         {
           "level": 1,
           "name": "Защитная форма",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 5\n[WhenUse] получает 2 <sprite name=\"CriticalDamageUp\"><color=#f8c200><u><link=\"CriticalDamageUp\"><noparse>Повышения критического урона</noparse></link></u></color> на следующий ход",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 5\n[WhenUse] Получает 2 <sprite name=\"CriticalDamageUp\"><color=#f8c200><u><link=\"CriticalDamageUp\"><noparse>Повышения критического урона</noparse></link></u></color> на следующий ход",
           "coinlist": [
             {}
           ]
@@ -1200,19 +1200,19 @@
         {
           "level": 1,
           "name": "Контратакующая форма",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 5",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\n[StartBattle] Получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Дыхания</noparse></link></u></color> и повышает его счётчик на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color> на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кровотечения</noparse></link></u></color>"
                 }
               ]
             }
