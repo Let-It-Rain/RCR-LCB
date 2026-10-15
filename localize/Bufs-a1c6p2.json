@@ -4,33 +4,81 @@
       "name": "Меченая добыча",
       "desc": "Максимальное значение: 1\n· При получении удара так же получает 10% от этого урона в виде Рубящего, а эффект исчезает в конце хода\n· Если не было получено урона в течение хода, при ударе наносит 1 <sprite name=\"AaCfPbBf\"><color=#e30000><u><link=\"AaCfPbBf\">Комплекс неполноценности</link></u></color> после атаки, а сам эффект исчезает",
       "summary": "Получает дополнительный Рубящий урон, равный 10% от полученного урона по ХП",
-      "id": "AaCfPbBe"
+      "id": "AaCfPbBe",
+      "undefined": "-"
     },
     {
       "name": "Комплекс неполноценности",
       "desc": "Максимальное значение: 5\n· При каждом полученном ударе, получает дополнительный урон, равный ((20% от полученного урона по ХП) × значение)",
       "summary": "Получает урон, равный ((20% от полученного урона по ХП) × Значение)",
-      "id": "AaCfPbBf"
+      "id": "AaCfPbBf",
+      "undefined": "-"
     },
     {
       "name": "Взрывное Уныние",
       "desc": "· Сопротивление к греху Уныния ослабляется на 0.3\n· Сопротивление остальным грехам усиливается на 0.5\n· При получении удара наносит 3 урона по IQ атакующему, получает 1 счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Депрессии</link></u></color>, а так же 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color> на следующий ход (До 9 раз за ход)",
-      "id": "AaCfPbBa"
+      "id": "AaCfPbBa",
+      "summary": "Resistance to Gloom(and only Gloom) becomes Fatal.\nWhen hit: Inflict 3 SP damage on the attacker, gain 1 Sinking Count, and gain 1 Offense Level Up next turn.",
+      "undefined": "-"
     },
     {
       "name": "Взрывная Зависть",
       "desc": "· Сопротивление к греху Зависти ослабляется на 0.3\n· Сопротивление остальным грехам усиливается на 0.5\n· При получении удара накладывает на атаковавшего 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color>, 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2, а так же сам получает 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня жирности</link></u></color> (До 9 раз за ход)",
-      "id": "AaCfPbBb"
+      "id": "AaCfPbBb",
+      "summary": "Resistance to Envy(and only Envy) becomes Fatal\nWhen hit: apply 1 Offense Level Up, 2 Bleed, and 2 Bleed Count on target, and gain 1 Defense Level Down next turn",
+      "undefined": "-"
     },
     {
       "name": "Взрывной Гнев",
       "desc": "· Сопротивление к греху Гнева ослабляется на 0.3\n· Сопротивление остальным грехам усиливается на 0.5\n· При получении удара получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color> и 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня жирности</link></u></color> на следующий ход (До 9 раз за ход)",
-      "id": "AaCfPbBc"
+      "id": "AaCfPbBc",
+      "summary": "Resistance to Wrath(and only Wrath) becomes Fatal.\nWhen hit, gain 1 Offense Level Up and 1 Defense Level Down.",
+      "undefined": "-"
     },
     {
       "name": "Глубокая Скорбь",
       "desc": "В начале хода теряет 5 скорости и получает 5 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня жирности</link></u></color>",
-      "id": "AaCfPbBd"
+      "id": "AaCfPbBd",
+      "undefined": "-"
+    },
+    {
+      "id": "Vengeance_LowMorale",
+      "name": "Revenge",
+      "desc": "- Low Morale\n- Gain 3 Defense Level Down and 3 Damage Up",
+      "summary": "Gain 3 Defense Level Down and 3 Damage Up",
+      "undefined": "-"
+    },
+    {
+      "id": "Vengeance_Panic",
+      "name": "Revenge",
+      "desc": "- Panic\n- Gain 6 Defense Level Down and 5 Damage Up",
+      "summary": "Gain 6 Defense Level Down and 5 Damage Up",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBg",
+      "name": "Misshapen Painting",
+      "desc": "- Low Morale\n- Gain 1 Attack Power Up & 1 Fragile",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBh",
+      "name": "Misshapen Painting",
+      "desc": "- Panic\n- Gain 1 Plus Coin Boost & 3 Fragile",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBi",
+      "name": "Hatred",
+      "desc": "- Low Morale\n- Clash Win: Gain 1 Offense Level Up next turn. (max 3 per turn)\nClash Lose: Gain 1 Defense Level Up. (max 3 per turn)",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCfPbBj",
+      "iconID": "Vengeanse_LowMoral",
+      "name": "Hatred",
+      "desc": "- Panic\n- Clash Win: Gain 1 Offense Level Up this turn and next turn. (max 3 per turn)\nClash Lose: Gain 1 Defense Level Up. (max 3 per turn)\nTurn End: Gain 2 Haste next turn",
+      "undefined": "-"
     }
   ]
 }
