@@ -2432,12 +2432,12 @@
         {
           "level": "1",
           "name": "Ты сделаешь мне ням-ням",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +5 счётчика [ChargeRougeAlly] \n- Если цель союзник, получает дополнительные +5 счётчика [ChargeRougeAlly] ",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +5 счётчиков [ChargeRougeAlly] \n- Если цель была союзником, получает ещё +5 счётчиков [ChargeRougeAlly] ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит 10 ХП\n  · Если цель это союзник из \"Олвейс Комфорт\", тратит 20% её макс. ХП чтобы наложить 2 [ResultEnhancement] \n- Цель хилит 10 СП.\n  · Если цель на макс. СП, даёт +4 счётчика [Charge:*Солей*] "
+                  "desc": "[EndCoin] Если цель была союзником, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит 10 ХП\n  · Если цель была союзником из \"Олвейс Комфорт\", тратит 20% от её макс. ХП чтобы наложить 2 [ResultEnhancement] \n- Цель хилит 10 IQ.\n  · Если цель имела макс. IQ, даёт +4 счётчика [Charge:*Солей*] "
                 }
               ]
             }
@@ -2446,12 +2446,12 @@
         {
           "level": "2",
           "name": "Ты сделаешь мне ням-ням",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила в клеше +1 за каждые 4 [Laceration] на цели (макс. 2)</style>\n[WhenUse] Получает +5 счётчика [ChargeRougeAlly] \n- Если цель союзник, получает дополнительные +5 счётчика [ChargeRougeAlly] ",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила в клеше +1 за каждые 4 [Laceration] на цели (макс. 2)</style>\n[WhenUse] Получает +5 счётчиков [ChargeRougeAlly] \n- Если цель была союзником, получает ещё +5 счётчиков [ChargeRougeAlly] ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит  10% ХП\n  · Если цель это союзник из \"Олвейс Комфорт\", тратит её 20% макс. ХП  и накладывает  2 [ResultEnhancement] \n- Цель хилит 10 СП\n  · Если цель на макс. СП, накладывает +4  счетчика [Charge:*Солей*] "
+                  "desc": "[EndCoin] Если цель была союзником, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит 10 ХП\n  · Если цель была союзником из \"Олвейс Комфорт\", тратит 20% от её макс. ХП чтобы наложить 2 [ResultEnhancement] \n- Цель хилит 10 IQ.\n  · Если цель имела макс. IQ, даёт +4 счётчика [Charge:*Солей*] "
                 }
               ]
             }
@@ -2460,12 +2460,12 @@
         {
           "level": "4",
           "name": "Ты сделаешь мне ням-ням",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +(силы [ChargeRougeAlly] на себе  - 1) Веса Атаки (макс. 2)\n- Приоритизирует союзников \"Олвейс Комфорт\"; выбирает в возрастающем порядке от ХП</style>\n\n[WhenUse] Сила клеша +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +5 счётчика [ChargeRougeAlly] \n- Если цель союзник, получает дополнительные +5 счётчика [ChargeRougeAlly]",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +(сила [ChargeRougeAlly] на себе  - 1) к Весу атаки (макс. 2)\n- Приоритизирует союзников фракции \"Олвейс Комфорт\"; выбирает в возрастающем порядке от ХП</style>\n\n[WhenUse] Сила клеша +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +5 счётчиков [ChargeRougeAlly] \n- Если цель была союзником, получает ещё +5 счётчиков [ChargeRougeAlly] ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе)% ХП (макс. 15%)</style>\n  · Если цель это союзник из \"Олвейс Комфорт\", тратит 20% макс. ХП на ней и накладывает 2 [ResultEnhancement] \n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе) СП (макс. 15)</style>\n  · Если цель на макс. СП, накладывает +4 счётчика [Charge:*Солей*] "
+                  "desc": "[EndCoin] Если цель была союзником, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе)% ХП (макс. 15%)</style>\n  · Если цель была союзником фракции \"Олвейс Комфорт\", тратит 20% от её макс. ХП и накладывает 2 [ResultEnhancement] \n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе) IQ (макс. 15)</style>\n  · Если цель имела макс. IQ, даёт +4 счётчика [Charge:*Солей*] "
                 }
               ]
             }
@@ -2479,7 +2479,7 @@
         {
           "level": "1",
           "name": "Прострел Прокладкой",
-          "desc": "[CantDuel]\nЭтот Скилл не активирует Защитные Скиллы\n\nКогда в [BuffetSinclair], наносит +50% урона\n[WhenUse] получает 5 [HungrySinclair]",
+          "desc": "[CantDuel]\nЭтот скилл не активирует защитные скиллы\n\nКогда в состоянии [BuffetSinclair], наносит +50% урона\n[WhenUse] Получает 5 [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
@@ -2493,7 +2493,7 @@
         {
           "level": "2",
           "name": "Прострел Прокладкой",
-          "desc": "[CantDuel]\nЭтот Скилл не активирует Защитные Скиллы\n\nКогда в [BuffetSinclair], наносит +50% дамага\n<style=\"highlight\">[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 4)</style>\n[WhenUse] Получает 5 [HungrySinclair]",
+          "desc": "[CantDuel]\nЭтот скилл не активирует защитные скиллы\n\nКогда в состоянии [BuffetSinclair], наносит +50% урона\n<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 4)</style>\n[WhenUse] Получает 5 [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
@@ -2507,7 +2507,7 @@
         {
           "level": "4",
           "name": "Прострел Прокладкой",
-          "desc": "[CantDuel]\nЭтот Скилл не активирует Защитные Скиллы\n\nКогда в [BuffetSinclair], наносит +50% дамага\n<style=\"highlight\"> Наносит +5% дамага за каждый 1% отсутствующего ХП на цели (макс. 100%)</style>\n[WhenUse] Финальная Сила +1 за каждые  4 [Laceration:*Кетчупа*] на цели (макс. 4)\n[WhenUse] Получает 5 [HungrySinclair]",
+          "desc": "[CantDuel]\nЭтот скилл не активирует защитные скиллы\n\nКогда в состоянии [BuffetSinclair], наносит +50% урона\n<style=\"highlight\"> Наносит +5% урона за каждый 1% отсутствующего ХП у цели (макс. 100%)</style>\n[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 4)\n[WhenUse] Получает 5 [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
@@ -2529,7 +2529,7 @@
         {
           "level": "3",
           "name": "Массовый Аборт",
-          "desc": "[TransformSinclair] эксклюзивный скилл\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] ",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] ",
           "coinlist": [
             {
               "coindescs": [
@@ -2557,7 +2557,7 @@
         {
           "level": "4",
           "name": "Массовый Аборт",
-          "desc": "[TransformSinclair] эксклюзивный скилл\n<style=\"highlight\">[WhenUse] Если на цели 6+ [Laceration:*Кетчупа*], Сила Монет +1</style>\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] ",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\n<style=\"highlight\">[WhenUse] Если на цели 6+ [Laceration:*Кетчупа*], +1 к Силе монет</style>\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] ",
           "coinlist": [
             {
               "coindescs": [
@@ -2576,7 +2576,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Накладывает 2 [BoneNailSinclair]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [BoneNailSinclair]</style>"
                 }
               ]
             }
@@ -2590,19 +2590,19 @@
         {
           "level": "1",
           "name": "Перекус Таксиста ЧЕЕЕК",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] \n[WhenUse] Если цель союзник, заканчивает скилл после активации первой монетки",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] \n[WhenUse] Если цель была союзником, заканчивает скилл после первой монетки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты:\n- Накладывает 1 [BuffetThirst]\n- Если цель является [PersonalityCharge], даёт +4 счётчика [Charge:*Солей*] \n- Если цель это союзник из \"Олвейс Комфорт\", тратит 10% её макс. ХП и накладывает 2 [AttackUp]"
+                  "desc": "[EndCoin] Если цель была союзником, накладывает следующие эффекты:\n- Накладывает 1 [BuffetThirst]\n- Если цель была [PersonalityCharge], даёт +4 счётчика [Charge:*Солей*] \n- Если цель это союзник из фракции \"Олвейс Комфорт\", тратит 10% её макс. ХП и накладывает 2 [AttackUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 3 [Laceration:*Кетчупа*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*]"
                 }
               ]
             }
@@ -2611,12 +2611,12 @@
         {
           "level": "2",
           "name": "Перекус Таксиста ЧЕЕЕК",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила Клеша +1 за каждые 3 счётчика [ChargeRougeAlly] на себе (макс. 3)</style>\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly]\n[WhenUse] Если цель это союзник, заканчивает Скилл после активации первой монетки.",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила клеша +1 за каждые 3 счётчика [ChargeRougeAlly] на себе (макс. 3)</style>\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly]\n[WhenUse] Если цель была союзником, заканчивает скилл после первой монетки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель это союзник, накладывает следующие эффекты:\n- Накладывает 1 [BuffetThirst]\n- Если цель является [PersonalityCharge], даёт ей +4 счётчика [Charge:*Солей*] \n- Если цель это союзник из \"Олвейс Комфорт\", тратит 10% её макс. ХП и накладывает 2 [AttackUp]"
+                  "desc": "[EndCoin] Если цель это союзник, накладывает следующие эффекты:\n- Накладывает 1 [BuffetThirst]\n- Если цель была [PersonalityCharge], даёт ей +4 счётчика [Charge:*Солей*] \n- Если цель это союзник из фракции \"Олвейс Комфорт\", тратит 10% её макс. ХП и накладывает 2 [AttackUp]"
                 }
               ]
             },
@@ -2632,12 +2632,12 @@
         {
           "level": "4",
           "name": "Перекус Таксиста ЧЕЕЕК",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +1 Вес Атаки за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)\n- Приоритизирует \"Олвейс Комфорт\" союзников как доп. целей; выбирается в убывающей последовательности в зависимости от ХП</style>\n\n[WhenUse] Сила Клеша +1 за каждые 3 счётчика [ChargeRougeAlly] на себе (макс. 3)\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] \n[WhenUse] Если цель является союзником, заканчивает Скилл после активации 1 монетки.",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +1 Вес Атаки за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)\n- Приоритизирует \"Олвейс Комфорт\" союзников как доп. целей; выбирается в убывающей последовательности в зависимости от ХП</style>\n\n[WhenUse] Сила Клеша +1 за каждые 3 счётчика [ChargeRougeAlly] на себе (макс. 3)\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] \n[WhenUse] Если цель была союзником, заканчивает скилл после первой монетки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель является союзником, накладывает следующие эффекты:\n- Даёт <style=\"highlight\">1 [ParryingResultUp] и</style> 1 [BuffetThirst]\n- Если цель является [PersonalityCharge], даёт +4 счётчика [Charge:*Солей*] \n- Если цель является союзником из \"Олвейс Комфорт\", тратит 10% её макс. ХП и даёт 2 [AttackUp]"
+                  "desc": "[EndCoin] Если цель является союзником, накладывает следующие эффекты:\n- Даёт <style=\"highlight\">1 [ParryingResultUp] и</style> 1 [BuffetThirst]\n- Если цель была [PersonalityCharge], даёт +4 счётчика [Charge:*Солей*] \n- Если цель является союзником из \"Олвейс Комфорт\", тратит 10% её макс. ХП и даёт 2 [AttackUp]"
                 }
               ]
             },
@@ -2658,7 +2658,7 @@
         {
           "level": "3",
           "name": "Время Замутить Перекусончик",
-          "desc": "[TransformSinclair] эксклюзивный скилл\n[WhenUse] При 3+ силе [ChargeRougeAlly], сила монеток +1\n\n[BeforeAttack] Тратит 15% макс. ХП у двух других союзников\n- Приоритизирует союзников \"Олвейс Комфорт\"; выбираются в убывающем порядке взависимости от текущего ХП.\n- Наносит +15% урона за каждого союзника, у которого данный скилл потратил ХП.",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\n[WhenUse] При 3+ силе [ChargeRougeAlly], Сила монет +1\n\n[BeforeAttack] Тратит 15% от макс. ХП у двух других союзников\n- Приоритизирует союзников фракции \"Олвейс Комфорт\"; выбираются в убывающем порядке в зависимости от текущего ХП.\n- Наносит +15% урона за каждого союзника, у которого данный скилл потратил ХП.",
           "coinlist": [
             {
               "coindescs": [
@@ -2666,7 +2666,7 @@
                   "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*] "
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoneNailSinclair]"
                 }
               ]
             },
@@ -2676,14 +2676,14 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack]Накладывает 1 [BoneNailSinclair]\n- Когда в [BuffetSinclair], накладывает 2 [BoneNailSinclair] вместо этого"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]\n- Если был в [BuffetSinclair], вместо этого наносит 2 [BoneNailSinclair]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] накладывает 1 [ScarletTakeDamageUp] (один раз за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp] (один раз за ход)"
                 }
               ]
             }
@@ -2692,7 +2692,7 @@
         {
           "level": "4",
           "name": "Время Замутить Перекусончик",
-          "desc": "[TransformSinclair] эксклюзивный скилл\n<style=\"highlight\">[WhenUse] Если у цели 6+ силы [Laceration:*Кетчупа*], Сила Монеты +1</style>\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монеты +1\n\n[BeforeAttack] Тратит 15% макс. ХП у двух союзников\n- Приоритизирует союзников \"Олвейс Комфорт\"; выбирает в убывающем порядке в зависимости от текущего ХП.\n- Наносит +15% урона за каждого союзника, у которого потратил ХП этим эффектом",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\n<style=\"highlight\">[WhenUse] Если у цели 6+ силы [Laceration:*Кетчупа*], Сила монет +1</style>\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила монет +1\n\n[BeforeAttack] Тратит 15% макс. ХП у двух союзников\n- Приоритизирует союзников фракции \"Олвейс Комфорт\"; выбираются в убывающем порядке в зависимости от текущего ХП.\n- Наносит +15% урона за каждого союзника, у которого данный скилл потратил ХП.",
           "coinlist": [
             {
               "coindescs": [
@@ -2700,7 +2700,7 @@
                   "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoneNailSinclair]"
                 }
               ]
             },
@@ -2710,14 +2710,14 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]\n- Когда в  [BuffetSinclair], накладывает 2 [BoneNailSinclair] вместо этого"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]\n- Если был в [BuffetSinclair], вместо этого наносит 2 [BoneNailSinclair]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [ScarletTakeDamageUp] (один раз за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp] (один раз за ход)"
                 }
               ]
             }
@@ -2731,7 +2731,7 @@
         {
           "level": "3",
           "name": "Кровавый БДСМ Месячными",
-          "desc": "[CantDuel]\n[TransformSinclair] эксклюзивный скилл\nЭтот скилл не активирует Защитные Скиллы.\n\nНаносит +5% урона за каждые 3 силы [Laceration:*Кетчупа*] на цели (макс. 30%)",
+          "desc": "[CantDuel]\nЭксклюзивный скилл для [TransformSinclair] \nЭтот скилл не активирует защитные скиллы\n\nНаносит +5% урона за каждые 3 силы [Laceration:*Кетчупа*] на цели (макс. 30%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2743,10 +2743,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] наносит 3 [Laceration:*Кетчупа*]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Снимает все [BoneNailSinclair] на цели и накладывает 1 [ScarletTakeDamageUp] на следующий ход (один раз за ход)"
+                  "desc": "[OnSucceedAttack] Снимает с цели все [BoneNailSinclair] и наносит 1 [ScarletTakeDamageUp] на следующий ход (один раз за ход)"
                 }
               ]
             }
@@ -2755,7 +2755,7 @@
         {
           "level": "4",
           "name": "Кровавый БДСМ Месячными",
-          "desc": "[CantDuel]\n[TransformSinclair] эксклюзивный скилл.\nЭтот Скилл не активирует Защитные Скиллы.\n\nНаносит +5% урона за каждые 3 силы [Laceration] на цели (макс 30%)\n<style=\"highlight\">[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монет +1</style>",
+          "desc": "[CantDuel]\nЭксклюзивный скилл для [TransformSinclair] \nЭтот скилл не активирует защитные скиллы\n\nНаносит +5% урона за каждые 3 силы [Laceration:*Кетчупа*] на цели (макс 30%)\n<style=\"highlight\">[WhenUse] При 3+ силы [ChargeRougeAlly], Сила монет +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2770,7 +2770,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает все [BoneNailSinclair] на цели и накладывает<style=\"highlight\">2</style> [ScarletTakeDamageUp] на следующий ход (один раз за ход)"
+                  "desc": "[OnSucceedAttack] Снимает с цели все [BoneNailSinclair] и наносит 2 [ScarletTakeDamageUp] на следующий ход (один раз за ход)"
                 }
               ]
             }
@@ -2784,7 +2784,7 @@
         {
           "level": "3",
           "name": "Фантомные Месячные",
-          "desc": "[StartBattle] Тратит 15% макс. ХП у 2 союзников и накладывает им 3 [AttackUp]\n- Выбирается в убывающем порядке из текущих союзников с 50%+ HP\n- \"Олвейс Комфорт\" союзники:\n  · Приоритизирует первыми не смотря на ХП, пока у них есть 2+ ХП.\n  · Тратит 25% ХП вместо 15%; еще дополнительно накладывает 1 [Enhancement]\n\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монеты +1\n\n[WhenUse] Когда в  [BuffetSinclair], конвертирует все монеты в [SuperCoin:*Вечные Монеты*]\n- При 10+ счётчике [ChargeRougeAlly], тратит до 10 счётчика[ChargeRougeAlly]  чтобы получить +2 Веса Атаки и Силу Монеты +1.",
+          "desc": "[StartBattle] Тратит 15% от макс. ХП у 2 союзников чтобы они получили 3 [AttackUp]\n- Выбирается в убывающем порядке из текущих союзников с 50%+ HP\n- Союзники из фракции \"Олвейс Комфорт\":\n  · Приоритезируются первыми несмотря на ХП, только если они не на 1 ХП\n  · Тратит 25% ХП вместо 15%; Накладывает [Enhancement]\n\n[WhenUse] При 3+ силе [ChargeRougeAlly], Сила монет +1\n\n[WhenUse] Когда в состоянии [BuffetSinclair], все монеты становятся [SuperCoin:*Вечными*]\n- При 10+ счётчиках [ChargeRougeAlly], тратит до 10 счётчиков [ChargeRougeAlly] чтобы получить +2 к Весу атаки и +1 к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -2812,7 +2812,7 @@
         {
           "level": "4",
           "name": "Фантомные Месячные",
-          "desc": "[StartBattle] Тратит 15% ХП двум союзникам и накладывает им 3 [AttackUp]\n- Выбирается в убывающем порядке между союзниками, у которых есть 50%+ ХП\n- \"Олвейс Комфорт\" союзники:\n  · Приоритизирует их вне зависимости от ХП пока у них есть 2+ ХП.\n  · Тратит 25% ХП вместо 15%; дополнительно накладывает 1 [Enhancement]\n\n<style=\"highlight\">[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)</style>\n[WhenUse] При 3+ силе [ChargeRougeAlly], Сила Монет +1\n\n[WhenUse] Когда в [BuffetSinclair], конвертирует все монетки в  [SuperCoin:*Вечные Монеты*]\n- При 10+ счётчика [ChargeRougeAlly], тратит до  10 счётчика [ChargeRougeAlly] чтобы получить +2 Вес Атаки и +1 Силу Монет.\n<style=\"highlight\">[WhenUse] Наносите на 50% больше урона за каждую единицу Веса Атаки, превышающую количество фактических целей (в Фокусированных Битвах, частей)</style>",
+          "desc": "[StartBattle] Тратит 15% от макс. ХП у 2 союзников чтобы они получили 3 [AttackUp]\n- Выбирается в убывающем порядке из текущих союзников с 50%+ HP\n- Союзники из фракции \"Олвейс Комфорт\":\n  · Приоритезируются первыми несмотря на ХП, только если они не на 1 ХП\n  · Тратит 25% ХП вместо 15%; Накладывает [Enhancement]\n\n<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)</style>\n[WhenUse] При 3+ силе [ChargeRougeAlly], Сила монет +1\n\n[WhenUse] Когда в состоянии [BuffetSinclair], все монеты становятся [SuperCoin:*Вечными*]\n- При 10+ счётчиках [ChargeRougeAlly], тратит до 10 счётчиков [ChargeRougeAlly] чтобы получить +2 к Весу атаки и +1 к Силе монет\n<style=\"highlight\">[WhenUse] Наносит на 50% больше урона за каждую единицу Веса атаки, превышающую количество целей на поле боя (в фокусированных битвах -В частей)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2827,20 +2827,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 счётчика [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain 3 [HungrySinclair]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 3 [HungrySinclair]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Gain 3 [HungrySinclair]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 3 [HungrySinclair]</style>"
                 }
               ]
             }
@@ -2859,7 +2859,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Убирает Стаггер с цели"
+                  "desc": "[EndCoin] Убирает состояние стаггера с цели"
                 }
               ]
             }
@@ -2873,10 +2873,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Убирает Стаггер с цели"
+                  "desc": "[EndCoin] Убирает состояние стаггера с цели"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndCoin] Хилит цель на 15% её макс. ХП</style>"
+                  "desc": "<style=\"highlight\">[EndCoin] Хилит цель на 15% от её макс. ХП</style>"
                 }
               ]
             }
@@ -2890,7 +2890,7 @@
         {
           "level": "3",
           "name": "Срезание Фимоза",
-          "desc": "[TransformSinclair] эксклюзивный Скилл.\nНачало хода: При 150 [HungrySinclair], заменяет этот скилл на \"Чик-Чик и нет Яичек!\" (один раз за ход)\n\n[WhenUse] Когда в [BuffetSinclair], конвертирует все монеты в  [SuperCoin]\n- При 10+ счётчика [ChargeRougeAlly], тратит до 10 [ChargeRougeAlly] счётчика чтобы получить +2 Веса Атаки и +1 Силу Монет\n\n[BeforeAttack] Тратит 15% макс. ХП на 3 союзниках.\n- Приоритизирует союзников \"Олвейс Комфорт\"; выбирается в убывающем порядке в зависимости от текущего ХП.\n- Наносит +10% урона за каждого союзника, у которого этот эффект потратил ХП.",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\nНачало хода: При 150 [HungrySinclair], заменяет этот скилл на \"Чик-Чик и нет Яичек!\" (один раз за ход)\n\n[WhenUse] Когда в состоянии [BuffetSinclair], все монеты становятся [SuperCoin:*Вечными*]\n- При 10+ счётчиках [ChargeRougeAlly], тратит до 10 счётчиков [ChargeRougeAlly] чтобы получить +2 к Весу атаки и +1 к Силе монет\n\n[BeforeAttack] Тратит 15% от макс. ХП на 3 союзниках\n- Приоритизирует союзников фракции \"Олвейс Комфорт\"; они выбирается в убывающем порядке в зависимости от их текущего ХП.\n- Наносит +10% урона за каждого союзника, у которого этот эффект потратил ХП.",
           "coinlist": [
             {
               "coindescs": [
@@ -2898,10 +2898,10 @@
                   "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если это основная цель, накладывает 1 дополнительный [BoneNailSinclair] за каждый Вес Атаки, превышающий количество фактических целей."
+                  "desc": "[OnSucceedAttack] Наносит 1 дополнительный [BoneNailSinclair] по главной цели за каждый Вес атаки, превышающий количество целей на поле боя"
                 }
               ]
             },
@@ -2922,7 +2922,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели один раз. Цель теряет 1 счётчик [Laceration:*Кетчупа*] "
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели один раз и понижает её счётчик [Laceration:*Кетчупа*] на 1"
                 }
               ]
             }
@@ -2931,7 +2931,7 @@
         {
           "level": "4",
           "name": "Срезание Фимоза",
-          "desc": "[TransformSinclair] эксклюзивный скилл.\nНачало хода: При 150 [HungrySinclair], заменяет этот скилл на \"Чик-Чик и нет Яичек!\" (один раз за ход).\n\n<style=\"highlight\">[WhenUse] Финальная Сила +1 за каждые 4 силы [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монет +1</style>\n\n[WhenUse] Когда в [BuffetSinclair], кон [SuperCoin]s\n- При 10+ счётчике [ChargeRougeAlly], тратит до 10 счётчика [ChargeRougeAlly] чтобы получить +2 Веса Атаки и +1 Силу Монет\n<style=\"highlight\">[WhenUse] Наносит +50% урона за каждый Вес Атаки, превышающий количество фактических целей (в Фокусированных Битвах, части).</style>\n\n[BeforeAttack]\n- Приоритизирует \"Олвейс Комфорт\" союзников; выбирается в убывающем порядке в зависимости от текущего ХП.\n- Наносит +10% урона за каждого союзника, у которого потрачено ХП этим скиллом.",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\nНачало хода: При 150 [HungrySinclair], заменяет этот скилл на \"Чик-Чик и нет Яичек!\" (один раз за ход)\n\n<style=\"highlight\">[WhenUse] Финальная Сила +1 за каждые 4 силы [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монет +1</style>\n\n[WhenUse] Когда в состоянии [BuffetSinclair], все монеты становятся [SuperCoin:*Вечными*]\n- При 10+ счётчиках [ChargeRougeAlly], тратит до 10 счётчиков [ChargeRougeAlly] чтобы получить +2 к Весу атаки и +1 к Силе монет\n<style=\"highlight\">[WhenUse] Наносит +50% урона за каждый Вес атаки, превышающий количество целей на поле боя (в фокусированных битвах - части).</style>\n\n[BeforeAttack] Тратит 15% от макс. ХП на 3 союзниках\n- Приоритизирует союзников фракции \"Олвейс Комфорт\"; они выбирается в убывающем порядке в зависимости от их текущего ХП.\n- Наносит +10% урона за каждого союзника, у которого этот эффект потратил ХП.",
           "coinlist": [
             {
               "coindescs": [
@@ -2939,10 +2939,10 @@
                   "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*] "
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если это основная цель, наносит 1 дополнительные [BoneNailSinclair] за каждый Вес Атаки, превышающий количество фактических целей."
+                  "desc": "[OnSucceedAttack] Наносит 1 дополнительный [BoneNailSinclair] по главной цели за каждый Вес атаки, превышающий количество целей на поле боя"
                 }
               ]
             },
@@ -2963,7 +2963,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели один раз. Цель теряет 1 счётчик [Laceration:*Кетчупа*] "
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели один раз и понижает её счётчик [Laceration:*Кетчупа*] на 1"
                 }
               ]
             }
@@ -2977,7 +2977,7 @@
         {
           "level": "3",
           "name": "Чик-Чик и нет Яичек!",
-          "desc": "[TransformSinclair] эксклюзивный скилл\n[BeforeUse] При меньше чем 150 [HungrySinclair], заменяет этот скилл на \"Срезание Фимоза\"\n\n[StartBattle] Тратит 50% от их текущего ХП на всех \"Олвейс Комфорт\" союзниках и накладывает 3 [BuffetSinclair] на них.\n\n[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на основной цели (макс. 2)\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монет +1\n[EndSkill] Тратит все [HungrySinclair]",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\n[BeforeUse] При менее чем 150 [HungrySinclair], заменяет этот скилл на \"Срезание Фимоза\"\n\n[StartBattle] Тратит 50% от текущего ХП на всех союзниках фракции \"Олвейс Комфорт\" и накладывает 3 [BuffetSinclair] на них\n\n[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на основной цели (макс. 2)\n[WhenUse] При 3+ силы [ChargeRougeAlly], +1 к Силе монет\n[EndSkill] Тратит все [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
@@ -2988,10 +2988,10 @@
                   "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если это основная цель, накладывает 1 дополнительный [BoneNailSinclair] за каждый Вес Атаки, превышающий количество фактических целей."
+                  "desc": "[OnSucceedAttack] Наносит 1 дополнительный [BoneNailSinclair] по главной цели за каждый Вес атаки, превышающий количество целей на поле боя"
                 }
               ]
             },
@@ -3043,7 +3043,7 @@
         {
           "level": "4",
           "name": "Чик-Чик и нет Яичек!",
-          "desc": "[TransformSinclair] эксклюзивный скилл\n[BeforeUse] При меньше чем 150 [HungrySinclair], заменяет этот скилл на \"Срезание Фимоза\"\n\n[StartBattle] Тратит 50% от их текущего ХП на всех \"Олвейс Комфорт\" союзниках и накладывает 3 [BuffetSinclair] на них\n\n[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на основной цели (макс. 2)\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монет +1\n<style=\"highlight\">[WhenUse] Когда в [BuffetSinclair], Сила Монет +1\n[WhenUse] Наносит +50% урона за каждый Вес Атаки, превышающий количество фактических целей (в Фокусированных Поединках - частей)</style>\n\n[EndSkill] Тратит все [HungrySinclair]",
+          "desc": "Эксклюзивный скилл для [TransformSinclair]\n[BeforeUse] При менее чем 150 [HungrySinclair], заменяет этот скилл на \"Срезание Фимоза\"\n\n[StartBattle] Тратит 50% от текущего ХП на всех союзниках фракции \"Олвейс Комфорт\" и накладывает 3 [BuffetSinclair] на них\n\n[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на основной цели (макс. 2)\n[WhenUse] При 3+ силы [ChargeRougeAlly], Сила Монет +1\n<style=\"highlight\">[WhenUse] Когда в состоянии [BuffetSinclair], +1 к Силе монет\n[WhenUse] Наносит +50% урона за каждый Вес атаки, превышающий количество целей на поле боя (в фокусированных битвах - частей)</style>\n\n[EndSkill] Тратит все [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
@@ -3057,7 +3057,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если это основная цель, накладывает 1 дополнительный [BoneNailSinclair] за каждый Вес Атаки, превышающий количество фактических целей."
+                  "desc": "[OnSucceedAttack] Наносит 1 дополнительный [BoneNailSinclair] по главной цели за каждый Вес атаки, превышающий количество целей на поле боя"
                 }
               ]
             },
@@ -3090,7 +3090,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает все [BoneNailSinclair] на цели и накладывает(кол-во [BoneNailSinclair] убранных) [ScarletTakeDamageUp] на следующий ход (макс. 3)"
+                  "desc": "[OnSucceedAttack] Тратит все [BoneNailSinclair] на цели и наносит (кол-во потраченных [BoneNailSinclair]) [ScarletTakeDamageUp] на следующий ход (макс. 3)"
                 }
               ]
             },
@@ -3100,10 +3100,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnStartCoin] Тратит до 15 счётчика [ChargeRougeAlly] на себе и наносит +(потраченного счётчика[ChargeRougeAlly]  x 3)% урона</style>"
+                  "desc": "<style=\"highlight\">[OnStartCoin] Тратит до 15 счётчиков [ChargeRougeAlly] на себе чтобы нанести +(потраченный счётчик [ChargeRougeAlly] x 3)% урона</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели. Цель теряет 1 счётчик [Laceration:*Кетчупа*] <style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и уменьшает её счётчик [Laceration:*Кетчупа*] на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3117,7 +3117,7 @@
         {
           "level": "1",
           "name": "Пополнение Колы в БК",
-          "desc": "[StartBattle] Если у этого юнита нет [BuffetSinclair], и когда у него меньше 15 счётчика [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% ХП чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[OnSucceedEvade] Получает +2 счётчика [ChargeRougeAlly] (2 раза за ход)",
+          "desc": "[StartBattle] Если у этого юнита не было [BuffetSinclair] и у него менее 15 счётчиков [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% ХП чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[OnSucceedEvade] Получает +2 счётчика [ChargeRougeAlly] (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": []
@@ -3127,7 +3127,7 @@
         {
           "level": "4",
           "name": "Пополнение Колы в БК",
-          "desc": "[StartBattle] Если у этого юнита нет [BuffetSinclair], и когда меньше 15 счётчика [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% ХП чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[OnSucceedEvade] Получает +2 счётчика [ChargeRougeAlly] (2 раза за ход)",
+          "desc": "[StartBattle] Если у этого юнита не было [BuffetSinclair] и у него менее 15 счётчиков [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% ХП чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[OnSucceedEvade] Получает +2 счётчика [ChargeRougeAlly] (2 раза за ход)",
           "coinlist": [
             {
               "coindescs": []
@@ -3142,7 +3142,7 @@
         {
           "level": "1",
           "name": "ЭТО МОЙ ЧИКЕНБУРГЕР",
-          "desc": "[CanDuelGuard]\nЭтот Скилл считается как <noparse>Вспомогательная Защита</noparse> только для юнита, который использовал этот Скилл.\nКогда юзер этого скилла получает урон, Секонд Хенд::Жертва Аборта Фембойчик получает 2 [HungrySinclair]\n\n[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс 3)",
+          "desc": "[CanDuelGuard]\nЭтот скилл считается как <noparse>Вспомогательная защита</noparse> только для юнита, который использовал этот скилл.\nЕсли получил урон в время этого скилла, получает 2 [HungrySinclair]\n\n[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -3161,7 +3161,7 @@
         {
           "level": "3",
           "name": "Разделывание на картошечку-фри",
-          "desc": "[DuelCounter]\n[TransformSinclair] эксклюзивный скилл.\n[StartBattle] Если у этого юнита нет [BuffetSinclair], и когда у него меньше 15 счётчика [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% HP чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)",
+          "desc": "[DuelCounter]\nЭксклюзивный скилл для [TransformSinclair]\n[StartBattle] Если у этого юнита не было [BuffetSinclair] и у него менее 15 счётчиков [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% ХП чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -3188,7 +3188,7 @@
         {
           "level": "4",
           "name": "Разделывание на картошечку-фри",
-          "desc": "[DuelCounter]\n[TransformSinclair] эксклюзивный скилл\n[StartBattle] Если у этого юнита нет [BuffetSinclair], и когда у него меньше чем 15 счётчика [ChargeRougeAlly], тратит (15 - текущий счётчик[ChargeRougeAlly])% ХП чтобы повысить счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n<style=\"highlight\">[WhenUse] При 3+/5+ силе [ChargeRougeAlly], Сила Монет +1/+2</style>",
+          "desc": "[DuelCounter]\nЭксклюзивный скилл для [TransformSinclair]\n[StartBattle] Если у этого юнита не было [BuffetSinclair] и у него менее 15 счётчиков [ChargeRougeAlly], тратит (15 - текущий счётчик [ChargeRougeAlly])% ХП чтобы поднять счётчик [ChargeRougeAlly] до 15 (один раз за ход)\n\n[WhenUse] Финальная сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n<style=\"highlight\">[WhenUse] При 3+/5+ силе [ChargeRougeAlly], Сила монет +1/+2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3196,7 +3196,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]"
                 }
               ]
             },
@@ -3206,10 +3206,10 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Когда в [BuffetSinclair], накладывает 1 [BoneNailSinclair]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Когда в состоянии [BuffetSinclair], наносит 1 [BoneNailSinclair]</style>"
                 }
               ]
             }
