@@ -6,15 +6,15 @@
         {
           "level": 1,
           "name": "Тыловой огонь",
-          "desc": "Наносит на 10% больше урона при критическом попадании\n[WhenUse] Базовая сила +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
+          "desc": "Наносит на 10% больше урона при критическом попадании\n[WhenUse] базовая сила +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -28,15 +28,15 @@
         {
           "level": 1,
           "name": "Фронтовой огонь",
-          "desc": "Наносит на 10% больше урона при критическом попадании\n[WhenUse] Базовая сила +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3",
+          "desc": "Наносит на 10% больше урона при критическом попадании\n[WhenUse] базовая сила +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 3"
+                  "desc": "[CriticalOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 3"
                 }
               ]
             }
@@ -50,7 +50,7 @@
         {
           "level": 1,
           "name": "Пробить насквозь",
-          "desc": "[WhenUse] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Базовая сила +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Сила монет +1 за каждые 5 единиц своего счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 2)\n[WinDuel] Наносит на 50% больше урона при критическом попадании",
+          "desc": "[WhenUse] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] базовая сила +1 при 10 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] сила монет +1 за каждые 5 единиц своего счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 2)\n[WinDuel] наносит на 50% больше урона при критическом попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -61,7 +61,7 @@
                   "desc": "Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2"
                 }
               ]
             },
@@ -74,10 +74,10 @@
                   "desc": "Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, или же цель не была оглушена, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -91,12 +91,12 @@
         {
           "level": 1,
           "name": "Перезарядка, огонь",
-          "desc": "Наносит на 50% больше урона при критическом попадании\n[WhenUse] Сила монет +1 за каждые 5 единиц счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
+          "desc": "Наносит на 50% больше урона при критическом попадании\n[WhenUse] сила монет +1 за каждые 5 единиц счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[WhenUse] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету 1 раз"
+                  "desc": "[CriticalOnSucceedAttack] вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -110,15 +110,15 @@
         {
           "level": 1,
           "name": "Взор сквозь защиту",
-          "desc": "[DefeatDuel] Теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, а всё полученное в этом ходу <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> также сокращается вдвое\n[DefeatDuel] Получает 4 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход",
+          "desc": "[DefeatDuel] теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, а всё полученное в этом ходу <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумар</link></u></color> также сокращается вдвое\n[DefeatDuel] получает 4 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -132,7 +132,7 @@
         {
           "level": 1,
           "name": "Прицельный огонь",
-          "desc": "Атакует <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизированных</link></u></color> целей\nСила монет +1 за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 2)\nБазовая сила +1 за каждые 3 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[WhenUse] Если главная цель не <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>\n[EnemyKill] Получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, а все противники теряют 15 IQ",
+          "desc": "Атакует <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизированных</link></u></color> целей\nСила монет +1 за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 2)\nБазовая сила +1 за каждые 3 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[WhenUse] если главная цель не <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, получает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>\n[EnemyKill] получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, а все противники теряют 15 IQ",
           "coinlist": [
             {
               "coindescs": [
@@ -146,7 +146,7 @@
                   "desc": "Если цель <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, урон повышается на 100%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] если цель <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -159,7 +159,7 @@
                   "desc": "Эта монета наносит урон только дополнительным целям\nЕсли первой монете не удалось убить цель, 2 случайные дополнительные цели получают урон"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Корректировка цели",
-          "desc": "[CantChangeTarget]\nВ приоритете <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизированные</link></u></color> цели\n- Если цель оказывается убита к моменту атаки, отменяет её \n\nСила монет +1 за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 2)\nБазовая сила +1 за каждые 3 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[EnemyKill] Получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, а все противники теряют 15 IQ",
+          "desc": "[CantChangeTarget]\nВ приоритете <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизированные</link></u></color> цели\n- Если цель оказывается убита к моменту атаки, отменяет её \n\nСила монет +1 за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 2)\nБазовая сила +1 за каждые 3 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[EnemyKill] получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>, а все противники теряют 15 IQ",
           "coinlist": [
             {
               "coindescs": [
@@ -184,10 +184,10 @@
                   "desc": "Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если цель <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, убивает её "
+                  "desc": "[UnBrokenCoinOnSucceedAttack] если цель <sprite name=\"FellBulletMark\"><color=#e30000><u><link=\"FellBulletMark\">Стигматизирована</link></u></color>, убивает её "
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] получает 10 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -200,7 +200,7 @@
                   "desc": "Эта монета наносит урон только дополнительным целям\nЕсли первой монете не удалось убить цель, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -214,15 +214,15 @@
         {
           "level": 1,
           "name": "Искалечить",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)",
+          "desc": "[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>"
+                  "desc": "[OnSucceedAttack] получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3"
+                  "desc": "[CriticalOnSucceedAttack] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3"
                 }
               ]
             }
@@ -236,25 +236,25 @@
         {
           "level": 1,
           "name": "Опустошить",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)",
+          "desc": "[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>"
+                  "desc": "[OnSucceedAttack] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2"
+                  "desc": "[CriticalOnSucceedAttack] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>"
+                  "desc": "[OnSucceedAttack] получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2"
+                  "desc": "[CriticalOnSucceedAttack] повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 2"
                 }
               ]
             }
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Затруднённое дыхание",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[WhenUse] Сила монет +1 за каждые 8 единиц счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[DefeatDuel] Теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[EndSkill] Теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и его счётчика",
+          "desc": "[WhenUse] итоговая сила +1 за каждые 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[WhenUse] сила монет +1 за каждые 8 единиц счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[DefeatDuel] теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[EndSkill] теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и его счётчика",
           "coinlist": [
             {},
             {},
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Присесть",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[WhenUse] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] Если текущие ОЗ ниже 50%, повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 4",
+          "desc": "[WhenUse] итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[WhenUse] получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color>\n[WhenUse] если текущие ОЗ ниже 50%, повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -311,7 +311,7 @@
         {
           "level": 1,
           "name": "Это... МОЁ!!",
-          "desc": "[CantChangeTarget]\n[WhenUse] Сила в столкновении +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[WhenUse] Сила в столкновении +1 за каждые 4 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)",
+          "desc": "[CantChangeTarget]\n[WhenUse] сила в столкновении +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)\n[WhenUse] сила в столкновении +1 за каждые 4 единицы счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -319,10 +319,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Поглощает силу и счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> цели (До 6 каждого)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] поглощает силу и счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> цели (До 6 каждого)"
                 },
                 {
-                  "desc": "[DefeatDuelAttack] Поглощает 1/3 силы и счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> цели (До 2 каждого)"
+                  "desc": "[DefeatDuelAttack] поглощает 1/3 силы и счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> цели (До 2 каждого)"
                 }
               ]
             }
@@ -336,7 +336,7 @@
         {
           "level": 1,
           "name": "Разделить страдание",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[WhenUse] Сила монет +1 за каждые 8 единиц счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[DefeatDuel] Наносит на 75% меньше урона и не может оглушить целей\n[EndSkill] Теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и его счётчика",
+          "desc": "[WhenUse] итоговая сила +1 за каждые 8 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[WhenUse] сила монет +1 за каждые 8 единиц счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> (До 5)\n[DefeatDuel] наносит на 75% меньше урона и не может оглушить целей\n[EndSkill] теряет половину своего <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и его счётчика",
           "coinlist": [
             {
               "coindescs": [
@@ -344,7 +344,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход"
+                  "desc": "[WinDuelAttack] наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -354,7 +354,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
+                  "desc": "[WinDuelAttack] наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
                 }
               ]
             },
@@ -378,7 +378,7 @@
         {
           "level": 1,
           "name": "Освобождение от жизни в страданиях",
-          "desc": "[StartBattle] Получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
+          "desc": "[StartBattle] получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -405,7 +405,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
                 }
               ]
             },
@@ -415,7 +415,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -434,14 +434,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -463,10 +463,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 }
               ]
             }
@@ -480,19 +480,19 @@
         {
           "level": 1,
           "name": "Полідіпсичні пелюстки",
-          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>\n[WhenUse] Итоговая сила +2 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
+          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>\n[WhenUse] итоговая сила +2 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"ScarletTakeDamageUp\"><color=#e30000><u><link=\"ScarletTakeDamageUp\">Уязвимости к Похоти</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"ScarletTakeDamageUp\"><color=#e30000><u><link=\"ScarletTakeDamageUp\">Уязвимости к Похоти</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -506,19 +506,19 @@
         {
           "level": 1,
           "name": "Рвучі пелюстки",
-          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>\n[WhenUse] Итоговая сила +2 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
+          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>\n[WhenUse] итоговая сила +2 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"ScarletTakeDamageUp\"><color=#e30000><u><link=\"ScarletTakeDamageUp\">Уязвимости к Похоти</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"ScarletTakeDamageUp\"><color=#e30000><u><link=\"ScarletTakeDamageUp\">Уязвимости к Похоти</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует всё <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и тратит весь его счётчик"
+                  "desc": "[OnSucceedAttack] активирует всё <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и тратит весь его счётчик"
                 }
               ]
             }
@@ -532,12 +532,12 @@
         {
           "level": 1,
           "name": "Град шипів",
-          "desc": "[WhenUse] Итоговая сила +2 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
+          "desc": "[WhenUse] итоговая сила +2 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -551,7 +551,7 @@
         {
           "level": 1,
           "name": "Спраглий шип",
-          "desc": "[StartBattle] Получает 3 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
+          "desc": "[StartBattle] получает 3 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -559,10 +559,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
                 }
               ]
             },
@@ -572,10 +572,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
                 }
               ]
             },
@@ -585,10 +585,10 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[OnSucceedAttack] наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 1"
                 }
               ]
             }
@@ -602,7 +602,7 @@
         {
           "level": 1,
           "name": "Нескінченний потік борщу",
-          "desc": "[DuelCounter]\n[WhenUse] Противник, который сталкивается с этой атакой, не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
+          "desc": "[DuelCounter]\n[WhenUse] противник, который сталкивается с этой атакой, не теряет счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -610,7 +610,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>, полученное от него"
+                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>, полученное от него"
                 }
               ]
             },
@@ -620,7 +620,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>, полученное от него"
+                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>, полученное от него"
                 }
               ]
             },
@@ -630,7 +630,7 @@
                   "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>, полученное от него"
+                  "desc": "[OnSucceedAttack] активирует <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кетчуп</link></u></color> на цели и поглощает <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>, полученное от него"
                 }
               ]
             }
@@ -644,7 +644,7 @@
         {
           "level": 1,
           "name": "Спрага",
-          "desc": "Активируется при 100 и более <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>:\n[EndBattle] Поглощает до 100 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color> для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>\n- Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color> на следующий ход за каждые 20 поглиненого<sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>",
+          "desc": "Активируется при 100 и более <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>:\n[EndBattle] поглощает до 100 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color> для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>\n- Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color> на следующий ход за каждые 20 поглиненого<sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -663,7 +663,7 @@
         {
           "level": 1,
           "name": "Тужлива тернова лоза",
-          "desc": "[WhenUse] Поглощает до 100 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color> для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>\n- Итоговая сила +1 за каждые 20 поглиненого<sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>\n[DefeatDuel] Итоговая сила -5\n[EndSkill] Если эта атака поглотила менее 30 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>, получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход",
+          "desc": "[WhenUse] поглощает до 100 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color> для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірка з борщем</link></u></color>\n- Итоговая сила +1 за каждые 20 поглиненого<sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>\n[DefeatDuel] итоговая сила -5\n[EndSkill] если эта атака поглотила менее 30 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Вечірок з борщем</link></u></color>, получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
