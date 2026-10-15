@@ -2437,7 +2437,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит 10 ХП\n  · Если цель из \"Олвейс Комфорт\", тратит 20% макс. ХП чтобы наложить 2 [ResultEnhancement] \n- Цель хилит 10 СП.\n  · Если цель на макс. СП, даёт +4 счётчика [Charge] "
+                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит 10 ХП\n  · Если цель это союзник из \"Олвейс Комфорт\", тратит 20% её макс. ХП чтобы наложить 2 [ResultEnhancement] \n- Цель хилит 10 СП.\n  · Если цель на макс. СП, даёт +4 счётчика [Charge:*Солей*] "
                 }
               ]
             }
@@ -2451,7 +2451,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит  10% ХП\n  · Если цель из \"Олвейс Комфорт\", тратит 20% макс. ХП на ней и накладывает  2 [ResultEnhancement] \n- Цель хилит 10 СП\n  · Если цель на макс. СП, накладывает +4  счетчика [Charge] "
+                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит  10% ХП\n  · Если цель это союзник из \"Олвейс Комфорт\", тратит её 20% макс. ХП  и накладывает  2 [ResultEnhancement] \n- Цель хилит 10 СП\n  · Если цель на макс. СП, накладывает +4  счетчика [Charge:*Солей*] "
                 }
               ]
             }
@@ -2460,12 +2460,12 @@
         {
           "level": "4",
           "name": "Ты сделаешь мне ням-ням",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +(силы [ChargeRougeAlly] на себе  - 1) Веса Атаки (макс. 2)\n- Приоритизирует союзников \"Олвейс Комфорт\"; выбирает в возрастающем порядке от ХП</style>\n\n[WhenUse] Сила клеша +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] Получает +5 счётчика [ChargeRougeAlly] \n- Если цель союзник, получает дополнительные +5 счётчика [ChargeRougeAlly]",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +(силы [ChargeRougeAlly] на себе  - 1) Веса Атаки (макс. 2)\n- Приоритизирует союзников \"Олвейс Комфорт\"; выбирает в возрастающем порядке от ХП</style>\n\n[WhenUse] Сила клеша +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 2)\n[WhenUse] Получает +5 счётчика [ChargeRougeAlly] \n- Если цель союзник, получает дополнительные +5 счётчика [ChargeRougeAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе)% ХП (макс. 15%)</style>\n  · Если цель из \"Олвейс Комфорт\", тратит 20% макс. ХП на ней и накладывает 2 [ResultEnhancement] \n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе) СП (макс. 15)</style>\n  · Если цель на макс. СП, накладывает +4 счётчика [Charge] "
+                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты (2 раза за ход):\n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе)% ХП (макс. 15%)</style>\n  · Если цель это союзник из \"Олвейс Комфорт\", тратит 20% макс. ХП на ней и накладывает 2 [ResultEnhancement] \n- Цель хилит <style=\"highlight\">(10 + сила [ChargeRougeAlly] на себе) СП (макс. 15)</style>\n  · Если цель на макс. СП, накладывает +4 счётчика [Charge:*Солей*] "
                 }
               ]
             }
@@ -2478,13 +2478,13 @@
       "levelList": [
         {
           "level": "1",
-          "name": "Je vous aide",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills\n\nWhen in [BuffetSinclair] state, deal +50% damage\n[WhenUse] Gain 5 [HungrySinclair]",
+          "name": "Прострел Прокладкой",
+          "desc": "[CantDuel]\nЭтот Скилл не активирует Защитные Скиллы\n\nКогда в [BuffetSinclair], наносит +50% урона\n[WhenUse] получает 5 [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*] "
                 }
               ]
             }
@@ -2492,13 +2492,13 @@
         },
         {
           "level": "2",
-          "name": "Je vous aide",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills\n\nWhen in [BuffetSinclair] state, deal +50% damage\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 4)</style>\n[WhenUse] Gain 5 [HungrySinclair]",
+          "name": "Прострел Прокладкой",
+          "desc": "[CantDuel]\nЭтот Скилл не активирует Защитные Скиллы\n\nКогда в [BuffetSinclair], наносит +50% дамага\n<style=\"highlight\">[WhenUse] Финальная Сила +1 за каждые 4 [Laceration:*Кетчупа*] на цели (макс. 4)</style>\n[WhenUse] Получает 5 [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*] "
                 }
               ]
             }
@@ -2506,16 +2506,16 @@
         },
         {
           "level": "4",
-          "name": "Je vous aide",
-          "desc": "[CantDuel]\nThis Skill does not trigger Defense Skills\n\nWhen in [BuffetSinclair] state, deal +50% damage\n<style=\"highlight\">Deal +5% damage for every 1% missing HP on target (max 100%)</style>\n[WhenUse] Final Power +1 for every 4 [Laceration] on target (max 4)\n[WhenUse] Gain 5 [HungrySinclair]",
+          "name": "Прострел Прокладкой",
+          "desc": "[CantDuel]\nЭтот Скилл не активирует Защитные Скиллы\n\nКогда в [BuffetSinclair], наносит +50% дамага\n<style=\"highlight\"> Наносит +5% дамага за каждый 1% отсутствующего ХП на цели (макс. 100%)</style>\n[WhenUse] Финальная Сила +1 за каждые  4 [Laceration:*Кетчупа*] на цели (макс. 4)\n[WhenUse] Gain 5 [HungrySinclair]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*] "
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [ScarletTakeDamageUp] (once per turn)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Накладывает 1 [ScarletTakeDamageUp] (один раз за ход)</style>"
                 }
               ]
             }
@@ -2528,27 +2528,27 @@
       "levelList": [
         {
           "level": "3",
-          "name": "Je m'expulse",
-          "desc": "[TransformSinclair] exclusive Skill\n[WhenUse] Gain +3 [ChargeRougeAlly] Count",
+          "name": "Массовый Аборт",
+          "desc": "[TransformSinclair] эксклюзивный скилл\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly:*Пульсации (в клиторе)*] ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кетчупа*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BoneNailSinclair]"
+                  "desc": "[OnSucceedAttack] Накладывает 1 [BoneNailSinclair:*Камень в почке*]"
                 }
               ]
             }
@@ -2556,27 +2556,27 @@
         },
         {
           "level": "4",
-          "name": "Je m'expulse",
-          "desc": "[TransformSinclair] exclusive Skill\n<style=\"highlight\">[WhenUse] If target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain +3 [ChargeRougeAlly] Count",
+          "name": "Массовый Аборт",
+          "desc": "[TransformSinclair] эксклюзивный скилл\n<style=\"highlight\">[WhenUse] Если на цели 6+ [Laceration:*Кетчупа*], Сила Монет +1</style>\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly:*Пульсации (в клиторе)*] ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:*Кетчупа*] "
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:*Кетчупа*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 2 [BoneNailSinclair]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Накладывает 2 [BoneNailSinclair:*Камня в почке*]</style>"
                 }
               ]
             }
@@ -2589,20 +2589,20 @@
       "levelList": [
         {
           "level": "1",
-          "name": "L'Appétit",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Gain +3 [ChargeRougeAlly] Count\n[WhenUse] If target is an ally, end Skill after activating Coin 1 effects",
+          "name": "Перекус Таксиста ЧЕЕЕК",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] \n[WhenUse] Если цель союзник, заканчивает скилл после активации первой монетки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] If target is an ally, apply the following effects:\n- Apply 1 [BuffetThirst]\n- If target is a [PersonalityCharge], apply +4 [Charge] Count\n- If target is a \"Le Rouge\" ally, consume 10% of its max HP and apply 2 [AttackUp]"
+                  "desc": "[EndCoin] Если цель союзник, накладывает следующие эффекты:\n- Накладывает 1 [BuffetThirst]\n- Если цель является [PersonalityCharge], даёт +4 счётчика [Charge:*Солей*] \n- Если цель это союзник из \"Олвейс Комфорт\", тратит 10% её макс. ХП и накладывает 2 [AttackUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Laceration:*Кетчупа*]"
                 }
               ]
             }
@@ -2610,20 +2610,20 @@
         },
         {
           "level": "2",
-          "name": "L'Appétit",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Clash Power +1 for every 3 [ChargeRougeAlly] Count on self (max 3)</style>\n[WhenUse] Gain +3 [ChargeRougeAlly] Count\n[WhenUse] If target is an ally, end Skill after activating Coin 1 effects",
+          "name": "Перекус Таксиста ЧЕЕЕК",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила Клеша +1 за каждые 3 счётчика [ChargeRougeAlly] на себе (макс. 3)</style>\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly]\n[WhenUse] Если цель это союзник, заканчивает Скилл после активации первой монетки.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] If target is an ally, apply the following effects:\n- Apply 1 [BuffetThirst]\n- If target is a [PersonalityCharge], apply +4 [Charge] Count\n- If target is a \"Le Rouge\" ally, consume 10% of its max HP and apply 2 [AttackUp]"
+                  "desc": "[EndCoin] Если цель это союзник, накладывает следующие эффекты:\n- Накладывает 1 [BuffetThirst]\n- Если цель является [PersonalityCharge], даёт ей +4 счётчика [Charge:*Солей*] \n- Если цель это союзник из \"Олвейс Комфорт\", тратит 10% её макс. ХП и накладывает 2 [AttackUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Laceration:*Кетчупа*]"
                 }
               ]
             }
@@ -2631,20 +2631,20 @@
         },
         {
           "level": "4",
-          "name": "L'Appétit",
-          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Gain +1 Atk Weight for every 2 [ChargeRougeAlly] Potency on self (max 2)\n- Prioritize \"Le Rouge\" allies as sub-targets; selected in descending order of HP percentage</style>\n\n[WhenUse] Clash Power +1 for every 3 [ChargeRougeAlly] Count on self (max 3)\n[WhenUse] Gain +3 [ChargeRougeAlly] Count\n[WhenUse] If target is an ally, end Skill after activating Coin 1 effects",
+          "name": "Перекус Таксиста ЧЕЕЕК",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Получает +1 Вес Атаки за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)\n- Приоритизирует \"Олвейс Комфорт\" союзников как доп. целей; выбирается в убывающей последовательности в зависимости от ХП</style>\n\n[WhenUse] Сила Клеша +1 за каждые 3 счётчика [ChargeRougeAlly] на себе (макс. 3)\n[WhenUse] Получает +3 счётчика [ChargeRougeAlly] \n[WhenUse] Если цель является союзником, заканчивает Скилл после активации 1 монетки.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] If target is an ally, apply the following effects:\n- Apply <style=\"highlight\">1 [ParryingResultUp] and</style> 1 [BuffetThirst]\n- If target is a [PersonalityCharge], apply +4 [Charge] Count\n- If target is a \"Le Rouge\" ally, consume 10% of its max HP and apply 2 [AttackUp]"
+                  "desc": "[EndCoin] Если цель является союзником, накладывает следующие эффекты:\n- Даёт <style=\"highlight\">1 [ParryingResultUp] и</style> 1 [BuffetThirst]\n- Если цель является [PersonalityCharge], даёт +4 счётчика [Charge:*Солей*] \n- Если цель является союзником из \"Олвейс Комфорт\", тратит 10% её макс. ХП и даёт 2 [AttackUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:*Кетчупа*]"
                 }
               ]
             }
