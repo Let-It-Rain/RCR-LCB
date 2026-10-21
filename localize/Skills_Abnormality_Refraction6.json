@@ -1214,25 +1214,25 @@
         {
           "level": "1",
           "name": "Ларпрьозо - Играл в лимбус",
-          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированный залп</link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышет его счётчик на 3\n[WhenUse] Сила в столкновении +5 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 8 <sprite name=\"KarmaOfIndexStudent\"></u><color=#e30000><u><link=\"KarmaOfIndexRien\">Сбежавших детей</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя IQ равна 0 и выше, создаёт 1 <nobr>Ман (望)</nobr>: получает +3 к Итоговой силе и наносит на 20% больше урона\n\n[WinDuel] Получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышет его счётчик на 3\n[WinDuel] Наносит в конце атаки 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Получает 4 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижения урона</link></u></color> и 9 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличей</link></u></color>\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 20 IQ\n[EndSkill] Заканчивает этот ход",
+          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\"><noparse>Нефокусированный залп</noparse></link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и повышет его счётчик на 3\n[WhenUse] Сила в столкновении +5 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 8 <sprite name=\"KarmaOfIndexStudent\"></u><color=#e30000><u><link=\"KarmaOfIndexRien\">Сбежавших детей</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя IQ равна 0 и выше, создаёт 1 <nobr>Ман (望)</nobr>: получает +3 к Итоговой силе и наносит на 20% больше урона\n\n[WinDuel] Получает ещё 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и повышет его счётчик на 3\n[WinDuel] Наносит в конце атаки 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Получает 4 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\"><noparse>Понижения урона</noparse></link></u></color> и 9 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color>\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 20 IQ\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 9 раз по итогу)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color>"
                 }
               ]
             }
@@ -1384,25 +1384,25 @@
         {
           "level": "1",
           "name": "Ларпрьозо<nobr>【Играл в либру】</nobr>",
-          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированный залп</link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 6 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышет его счётчик на 6\n[WhenUse] Сила в столкновении +10 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 8 <sprite name=\"KarmaOfIndexRien_2Phase\"></u><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Сбежавших детей 【Фортуна】</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 2 <nobr>Ман (望)</nobr>: получает +5 к Итоговой силе и наносит на 40% больше урона\n\n[WinDuel] Наносит в конце атаки 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Получает 6 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижений урона</link></u></color> и 9 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличей</link></u></color>\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 25 IQ\n[EndSkill] Заканчивает этот ход",
+          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\"><noparse>Нефокусированный залп</noparse></link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n\n[WhenUse] Получает 6 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и повышет его счётчик на 6\n[WhenUse] Сила в столкновении +10 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 8 <sprite name=\"KarmaOfIndexRien_2Phase\"></u><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Сбежавших детей 【Фортуна】</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 2 <nobr>Ман (望)</nobr>: получает +5 к Итоговой силе и наносит на 40% больше урона\n\n[WinDuel] Наносит в конце атаки 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Получает 6 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\"><noparse>Понижений урона</noparse></link></u></color> и 9 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color>\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 25 IQ\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 9 раз по итогу)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color>"
                 }
               ]
             }
@@ -1416,25 +1416,25 @@
         {
           "level": "1",
           "name": "Ларпрьозо<nobr>【Все игры и новеллы】</nobr>",
-          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\">Нефокусированный залп</link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n[WhenUse] Получает 9 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышет его счётчик на 9\n[WhenUse] Сила в столкновении +15 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 8 <sprite name=\"KarmaOfIndexRien_2Phase\"></u><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Сбежавших детей 【Фортуна】</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 3 <nobr>Ман (望):</nobr> получает +8 к Итоговой силе и наносит на 60% больше урона\n\n[WinDuel] Наносит в конце атаки 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>, 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Получает 8 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижений урона</link></u></color> и 9 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличей</link></u></color>\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 30 СД\n[EndSkill] Заканчивает этот ход",
+          "desc": "<sprite name=\"WideAreaRampage\"><color=#9f6a3a><u><link=\"WideAreaRampage\"><noparse>Нефокусированный залп</noparse></link></u></color>\n\n<color=#ff6000><mark=#ff000040><b><u>Не вызывает активацию защитных навыков целей</u></b></mark></color>\nМожно столкнуться независимо от скорости\n[WhenUse] Получает 9 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и повышет его счётчик на 9\n[WhenUse] Сила в столкновении +15 (<color=#ff6000><mark=#ff000040><b><u>Получаемая Сила в столкновении понижается на 1 за каждые 8 <sprite name=\"KarmaOfIndexRien_2Phase\"></u><color=#e30000><u><link=\"KarmaOfIndexRien_2Phase\">Сбежавших детей 【Фортуна】</link></u></color><u>, вплоть до 0</u></b></mark></color>)\n[WhenUse] Если своя СД равна 0 и выше, создаёт 3 <nobr>Ман (望):</nobr> получает +8 к Итоговой силе и наносит на 60% больше урона\n\n[WinDuel] Наносит в конце атаки 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>, 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color> на следующий ход всем противникам, по которым попал этим навыком\n[DefeatDuel] Получает 8 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\"><noparse>Понижений урона</noparse></link></u></color> и 9 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color>\n[DefeatDuel] Не может оглушить цель или активировать эффект <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> при попадании\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 30 СД\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 9 раз по итогу)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color>"
                 }
               ]
             }
@@ -1634,7 +1634,7 @@
         {
           "level": "1",
           "name": "Мазок говна №3: Пики точёные или Хуи дрочёные",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных скиллов цели\n[WhenUse] Сила монет +1 за каждые 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на цели (До 2)",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных скиллов цели\n[WhenUse] Сила монет +1 за каждые 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1659,12 +1659,12 @@
         {
           "level": "1",
           "name": "Стоны Тибии - Уебу неуебанных уебанкой в 6 целей",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\">Ослабление положительной монеты</link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижение силы</link></u></color> (Один раз  за навык противника; до 3 раза за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на всех целях этого навыка (До 40%)\n[DefeatDuel] Наносит на 90% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\">Произведение искусства: Тибия</link></u></color>",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если получает удар от атакующих навыков перед использованием этого навыка</u></b></mark></color>, то получает 1 <sprite name=\"PlusCoinValueDown\"><color=#e30000><u><link=\"PlusCoinValueDown\"><noparse>Ослабление положительной монеты</noparse></link></u></color> и 1 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\"><noparse>Понижение силы</noparse></link></u></color> (Один раз  за навык противника; до 3 раза за ход)\nНе может быть оглушён до использования этого навыка\n\nПри убийстве этим навыком восстанавливает по 15 IQ за каждую убитую им цель\n[StartBattle] Получает 4 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\"><noparse>Защищённости</noparse></link></u></color>\n[WhenUse] Наносит на 3% больше урона за каждые 6 единиц в сумме силы <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на всех целях этого навыка (До 40%)\n[DefeatDuel] Наносит на 90% меньше урона и не может оглушить цель\n[EndSkill] Теряет <sprite name=\"MineTheRings\"><color=#f8c200><u><link=\"MineTheRings\"><noparse>Произведение искусства: Тибия</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по IQ"
@@ -1677,10 +1677,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз за скилл)"
@@ -1690,10 +1690,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\">Понижение урона</link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\"><noparse>Понижение урона</noparse></link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (один раз за скилл)"
@@ -1703,10 +1703,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на 3"
                 }
               ]
             }

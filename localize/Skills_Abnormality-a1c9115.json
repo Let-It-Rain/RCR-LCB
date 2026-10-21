@@ -6,47 +6,47 @@
         {
           "level": 1,
           "name": "Низвержение",
-          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3\nАтака теряет 10 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечную монету</link></u></color> монету",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на 3\nАтака теряет 10 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечную монету</noparse></link></u></color> монету",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> цели на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\">Повышения Рубящего урона</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"SlashDamageUp\"><color=#f8c200><u><link=\"SlashDamageUp\"><noparse>Повышения Рубящего урона</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\">Понижения сопротивления к Рубящему урону</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижения сопротивления к Рубящему урону</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> на 3"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на 3"
                 }
               ]
             }
@@ -60,38 +60,38 @@
         {
           "level": 1,
           "name": "Дабы забрать их кости",
-          "desc": "[StartBattle] Получает 100 ОЗ Щита\n[WhenUse] Сила в столкновении +5 с оставшимся щитом\nАтака теряет 20 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечную монету</link></u></color> монету",
+          "desc": "[StartBattle] Получает 100 ОЗ Щита\n[WhenUse] Сила в столкновении +5 с оставшимся щитом\nАтака теряет 20 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечную монету</noparse></link></u></color> монету",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\">Понижения сопротивления Рубящему урону</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижения сопротивления Рубящему урону</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] На 100% больше критического урона"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если щит не был снят, разделяет <sprite name=\"Grudge\"><color=#4b679d><u><link=\"Grudge\">Растущую горечь</link></u></color> между целями атаки фиксированным уроном"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если щит не был снят, разделяет <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\"><noparse>Растущую горечь</noparse></link></u></color> между целями атаки фиксированным уроном"
                 }
               ]
             }
@@ -105,41 +105,41 @@
         {
           "level": 1,
           "name": "Дабы забрать их кости",
-          "desc": "[StartBattle] Получает 250 ОЗ Щита\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Кумара</link></u></color> на 3\n[WhenUse] Сила в столкновении +10 с оставшимся щитом\nАтака теряет 23 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечную монету</link></u></color> монету",
+          "desc": "[StartBattle] Получает 250 ОЗ Щита\n[WhenUse] Повышает свой счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на 3\n[WhenUse] Сила в столкновении +10 с оставшимся щитом\nАтака теряет 23 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечную монету</noparse></link></u></color> монету",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\">Понижения сопротивления Рубящему урону</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"SlashResistDown\"><color=#e30000><u><link=\"SlashResistDown\"><noparse>Понижения сопротивления Рубящему урону</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] На 100% больше критического урона"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличей</link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Параличей</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кетчупа</link></u></color> и повышает его счётчик на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если щит не был снят, разделяет <sprite name=\"Grudge\"><color=#4b679d><u><link=\"Grudge\">Растущую горечь</link></u></color> между целями атаки фиксированным уроном"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если щит не был снят, разделяет <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\"><noparse>Растущую горечь</noparse></link></u></color> между целями атаки фиксированным уроном"
                 }
               ]
             }
@@ -153,29 +153,29 @@
         {
           "level": 1,
           "name": "Дабы забрать их кости",
-          "desc": "[CantChangeTarget]\nАтакует цель с наименьшими ОЗ\n[EnemyKill] Удваивает <sprite name=\"Grudge\"><color=#4b679d><u><link=\"Grudge\">Растущую горечь</link></u></color>\n[EnemyKill] Восстанавливает ОЗ на количество <sprite name=\"Grudge\"><color=#4b679d><u><link=\"Grudge\">Растущей горечи</link></u></color>\nАтака теряет 25 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечную монету</link></u></color> монету",
+          "desc": "[CantChangeTarget]\nАтакует цель с наименьшими ОЗ\n[EnemyKill] Удваивает <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\"><noparse>Растущую горечь</noparse></link></u></color>\n[EnemyKill] Восстанавливает ОЗ на количество <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\"><noparse>Растущей горечи</noparse></link></u></color>\nАтака теряет 25 Итоговой силы за каждую расколотую в столкновении <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечную монету</noparse></link></u></color> монету",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит фиксированный урон в количестве своей <sprite name=\"Grudge\"><color=#4b679d><u><link=\"Grudge\">Растущей горечи</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон в количестве своей <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\"><noparse>Растущей горечи</noparse></link></u></color>"
                 }
               ]
             }

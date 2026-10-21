@@ -24,7 +24,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             }
@@ -56,7 +56,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -152,7 +152,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Повышает порог Стаггера на 30"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралич</noparse></link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает [RicardoBookRaid] цели на 5"
@@ -169,19 +169,19 @@
         {
           "level": 1,
           "name": "Покусай бордюр, уебок",
-          "desc": "В приоритете цели с самым высоким стаком [RicardoBookRaid]\n[WhenUse] Если цель имеет <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> то все Монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>",
+          "desc": "В приоритете цели с самым высоким стаком [RicardoBookRaid]\n[WhenUse] Если цель имеет <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> то все Монеты становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечными</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на этот и следующий Ходы"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color> на этот и следующий Ходы"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на этот и следующий Ходы"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color> на этот и следующий Ходы"
                 }
               ]
             },
@@ -258,7 +258,7 @@
         {
           "level": 1,
           "name": "ТАК МИДДЛЫ ВСЁ ЖЕ НАХУЙ ПОШЛИ??!!",
-          "desc": "[StartBattle] Теряет 20 IQ\n[StartBattle] Получает 6 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня сваги</link></u></color>\n[StartBattle] Получает 4 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>",
+          "desc": "[StartBattle] Теряет 20 IQ\n[StartBattle] Получает 6 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышений уровня сваги</noparse></link></u></color>\n[StartBattle] Получает 4 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимости</noparse></link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -277,7 +277,7 @@
         {
           "level": 1,
           "name": "Всё, я готов, щас я те всеку",
-          "desc": "[EndBattle] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня сваги</link></u></color> на следующий ход\n- Если слот, использующий этот Скилл, <color=#ff6000><mark=#ff000040><b><u>является основной целью Атакующего Скилла</u></b></mark></color>, получает меньше Стаков <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня сваги</link></u></color> на 1 от этого эффекта",
+          "desc": "[EndBattle] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышения уровня сваги</noparse></link></u></color> на следующий ход\n- Если слот, использующий этот Скилл, <color=#ff6000><mark=#ff000040><b><u>является основной целью Атакующего Скилла</u></b></mark></color>, получает меньше Стаков <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышения уровня сваги</noparse></link></u></color> на 1 от этого эффекта",
           "coinlist": [
             {}
           ]
@@ -322,7 +322,7 @@
         {
           "level": 1,
           "name": "Не бойтесь деточки, больно не будет",
-          "desc": "[WhenUse] Получает 3 <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\">Повышения дробящего урона</link></u></color> на следующий ход\n[WhenUse] Если основная цель имеет <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, все Монеты Скилла становятся [<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечными</link></u></color>",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"HitDamageUp\"><color=#f8c200><u><link=\"HitDamageUp\"><noparse>Повышения дробящего урона</noparse></link></u></color> на следующий ход\n[WhenUse] Если основная цель имеет <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, все Монеты Скилла становятся [[SuperCoin:*Вечными*]",
           "coinlist": [
             {},
             {}

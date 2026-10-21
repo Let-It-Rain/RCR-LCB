@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "Копьё, пронзающее прилив",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холодом</link></u></color> на поле боя (До 2)\n[WhenUse] Итоговая сила +1 за каждый <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холод</link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холодом</noparse></link></u></color> на поле боя (До 2)\n[WhenUse] Итоговая сила +1 за каждый <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холод</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 2"
                 }
               ]
             }
@@ -25,22 +25,22 @@
         {
           "level": 1,
           "name": "Копьё, разрушающее волны",
-          "desc": "[WhenUse] Базовая сила +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холодом</link></u></color> на поле боя (До 2)\n[WhenUse] Если на цели есть <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холод</link></u></color>, Количество целей повышается на 1\n[WhenUse] Итоговая сила +1 за каждый <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холод</link></u></color> на главной цели (До 2)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей",
+          "desc": "[WhenUse] Базовая сила +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холодом</noparse></link></u></color> на поле боя (До 2)\n[WhenUse] Если на цели есть <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холод</noparse></link></u></color>, Количество целей повышается на 1\n[WhenUse] Итоговая сила +1 за каждый <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холод</noparse></link></u></color> на главной цели (До 2)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 2\n- Если на цели есть <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холод</link></u></color>, также наносит ей 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 2\n- Если на цели есть <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холод</noparse></link></u></color>, также наносит ей 1 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             }
@@ -54,29 +54,29 @@
         {
           "level": 1,
           "name": "Охота за волнами",
-          "desc": "Нацеливается на противников с <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\">Обморожением</link></u></color>\nМожно столкнуться независимо от скорости\n[WhenUse] Если главная цель в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\">Обморожения</link></u></color>, Количество целей повышается на 2\n[WhenUse] Сила монет +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холодом</link></u></color> на поле боя (До 2)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "desc": "Нацеливается на противников с <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\"><noparse>Обморожением</noparse></link></u></color>\nМожно столкнуться независимо от скорости\n[WhenUse] Если главная цель в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\"><noparse>Обморожения</noparse></link></u></color>, Количество целей повышается на 2\n[WhenUse] Сила монет +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холодом</noparse></link></u></color> на поле боя (До 2)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня сваги</link></u></color> (Один раз за ход)"
+                  "desc": "[OnSucceedAttackHead] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышения уровня сваги</noparse></link></u></color> (Один раз за ход)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[EnemyKill] Восстанавливает 20 IQ, если цель находилась в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\">Обморожения</link></u></color>"
+                  "desc": "[EnemyKill] Восстанавливает 20 IQ, если цель находилась в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\"><noparse>Обморожения</noparse></link></u></color>"
                 }
               ]
             }
@@ -90,32 +90,32 @@
         {
           "level": 1,
           "name": "Убить океан, убить океан!!",
-          "desc": "[CantDuel]\n[WhenUse] Наносит на 5% больше урона за каждого противника с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холодом</link></u></color> на поле боя (До 30%)",
+          "desc": "[CantDuel]\n[WhenUse] Наносит на 5% больше урона за каждого противника с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холодом</noparse></link></u></color> на поле боя (До 30%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня сваги</link></u></color> (Один раз за ход)"
+                  "desc": "[OnSucceedAttackHead] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышения уровня сваги</noparse></link></u></color> (Один раз за ход)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (10 × (<sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холод</link></u></color> цели + 1)) дополнительного урона Унынием"
+                  "desc": "[OnSucceedAttack] Наносит (10 × (<sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холод</noparse></link></u></color> цели + 1)) дополнительного урона Унынием"
                 },
                 {
-                  "desc": "[EnemyKill] Восстанавливает 20 IQ, если цель находилась в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\">Обморожения</link></u></color>"
+                  "desc": "[EnemyKill] Восстанавливает 20 IQ, если цель находилась в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\"><noparse>Обморожения</noparse></link></u></color>"
                 }
               ]
             }
@@ -129,41 +129,41 @@
         {
           "level": 1,
           "name": "Убить океан, убить океан!!",
-          "desc": "Нацеливается на противников с <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\">Обморожением</link></u></color>\nМожно столкнуться независимо от скорости\n[WhenUse] Наносит на 5% больше урона за каждого противника с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холодом</link></u></color> на поле боя (До 30%)\n[WhenUse] Сила монет +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холодом</link></u></color> на поле боя (До 3)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
+          "desc": "Нацеливается на противников с <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\"><noparse>Обморожением</noparse></link></u></color>\nМожно столкнуться независимо от скорости\n[WhenUse] Наносит на 5% больше урона за каждого противника с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холодом</noparse></link></u></color> на поле боя (До 30%)\n[WhenUse] Сила монет +1 за каждых двух противников с <sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холодом</noparse></link></u></color> на поле боя (До 3)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня сваги</link></u></color> (Один раз за ход)"
+                  "desc": "[OnSucceedAttackHead] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышения уровня сваги</noparse></link></u></color> (Один раз за ход)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (10 × (<sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\">Холод</link></u></color> цели + 1)) дополнительного урона Унынием"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (10 × (<sprite name=\"ColdAirDOQ\"><color=#e30000><u><link=\"ColdAirDOQ\"><noparse>Холод</noparse></link></u></color> цели + 1)) дополнительного урона Унынием"
                 },
                 {
-                  "desc": "[EnemyKill] Восстанавливает 20 IQ, если цель находилась в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\">Обморожения</link></u></color>"
+                  "desc": "[EnemyKill] Восстанавливает 20 IQ, если цель находилась в состоянии <sprite name=\"FreezingDOQ\"><color=#e30000><u><link=\"FreezingDOQ\"><noparse>Обморожения</noparse></link></u></color>"
                 }
               ]
             }
@@ -177,12 +177,12 @@
         {
           "level": 1,
           "name": "Неукротимый рыцарь",
-          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход (Один раз за ход)\n[WinDuel] Восстанавливает 15 IQ\n[DefeatDuel] Теряет 10 IQ",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\"><noparse>Блок столкновением</noparse></link></u></color>\n[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешки</noparse></link></u></color> на следующий ход (Один раз за ход)\n[WinDuel] Восстанавливает 15 IQ\n[DefeatDuel] Теряет 10 IQ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             }
@@ -201,13 +201,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\">Ассимиляцию с морем</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\"><noparse>Ассимиляцию с морем</noparse></link></u></color>"
                 }
               ]
             }
@@ -221,19 +221,19 @@
         {
           "level": 1,
           "name": "Раздирающий срез",
-          "desc": "Итоговая сила +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 2)",
+          "desc": "Итоговая сила +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -247,26 +247,26 @@
         {
           "level": 1,
           "name": "Качающийся срез",
-          "desc": "[WhenUse] Сила монет +1 за каждое <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Сила монет +1 за каждое <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>"
                 }
               ]
             }
@@ -280,19 +280,19 @@
         {
           "level": 1,
           "name": "Множественные удары",
-          "desc": "Итоговая сила +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 2)",
+          "desc": "Итоговая сила +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели"
                 }
               ]
             }
@@ -306,22 +306,22 @@
         {
           "level": 1,
           "name": "Единая воля",
-          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 2)\n[StartBattle] Даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход Культисту с наименьшей скоростью",
+          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 2)\n[StartBattle] Даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\"><noparse>Спешки</noparse></link></u></color> на следующий ход Культисту с наименьшей скоростью",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражение нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражение нервов</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> на следующий ход"
                 }
               ]
             }
@@ -335,19 +335,19 @@
         {
           "level": 1,
           "name": "Распространяющий блаженство",
-          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 2)\n[StartBattle] Даёт 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход Культисту с наибольшей скоростью",
+          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 2)\n[StartBattle] Даёт 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\"><noparse>Повышения силы атаки</noparse></link></u></color> на следующий ход Культисту с наибольшей скоростью",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -361,31 +361,31 @@
         {
           "level": 1,
           "name": "Обряд освобождения",
-          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 2)\n[WhenUse] Итоговая сила +2 против целей со <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связыванием</link></u></color>\n[WinDuel] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> цели",
+          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 2)\n[WhenUse] Итоговая сила +2 против целей со <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Связыванием</noparse></link></u></color>\n[WinDuel] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Понос</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\"><noparse>Понос</noparse></link></u></color> на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -399,7 +399,7 @@
         {
           "level": 1,
           "name": "Адаптация к окружению",
-          "desc": "Итоговая сила +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 2)\n[StartBattle] Получает 50 ОЗ Щита\n[EndBattle] Если щит не истощён, получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход",
+          "desc": "Итоговая сила +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 2)\n[StartBattle] Получает 50 ОЗ Щита\n[EndBattle] Если щит не истощён, получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\"><noparse>Повышения силы атаки</noparse></link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -425,44 +425,44 @@
         {
           "level": 1,
           "name": "Для привязанных к земле родичей",
-          "desc": "[WhenUse] Итоговая сила +3, если находится на территории <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Заражения подморья</link></u></color>\n- Итоговая сила повышается ещё на 1 с каждой стадией <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Заражения подморья</link></u></color>\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на главной цели (До 2)\n[BeforeAttack] Если <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Заражения подморья</link></u></color> достигло 2 стадии и выше, наносит на 1 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражение нервов</link></u></color> больше этой атакой",
+          "desc": "[WhenUse] Итоговая сила +3, если находится на территории <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\"><noparse>Заражения подморья</noparse></link></u></color>\n- Итоговая сила повышается ещё на 1 с каждой стадией <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\"><noparse>Заражения подморья</noparse></link></u></color>\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на главной цели (До 2)\n[BeforeAttack] Если <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\"><noparse>Заражения подморья</noparse></link></u></color> достигло 2 стадии и выше, наносит на 1 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражение нервов</noparse></link></u></color> больше этой атакой",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\">Ассимиляцию с морем</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\"><noparse>Ассимиляцию с морем</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\">Ассимиляцию с морем</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\"><noparse>Ассимиляцию с морем</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\">Ассимиляцию с морем</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"SeaTerrorCell\"><color=#e30000><u><link=\"SeaTerrorCell\"><noparse>Ассимиляцию с морем</noparse></link></u></color>"
                 }
               ]
             }
@@ -477,7 +477,7 @@
         {
           "level": 1,
           "name": "Путь поспешного Э.Г.О",
-          "desc": "[CantDuel]\nНе наносит урона целям\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>",
+          "desc": "[CantDuel]\nНе наносит урона целям\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>",
           "coinlist": [
             {}
           ]
@@ -491,15 +491,15 @@
         {
           "level": 1,
           "name": "Отголоски передышки",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наименьшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 4)\n[StartBattle] Если среди целей есть союзники, восстанавливает им 20% от максимальных ОЗ",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наименьшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 4)\n[StartBattle] Если среди целей есть союзники, восстанавливает им 20% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышению уровня жирности</link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>, потраченной на его призыв (До 5)"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\"><noparse>Повышению уровня жирности</noparse></link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>, потраченной на его призыв (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -514,15 +514,15 @@
         {
           "level": 1,
           "name": "Отголоски вознесения",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наибольшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 4)",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наибольшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышению уровня сваги</link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>, потраченной на его призыв (До 5)"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышению уровня сваги</noparse></link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>, потраченной на его призыв (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -537,12 +537,12 @@
         {
           "level": 1,
           "name": "Цикличная экосистема",
-          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[EndBattle] Тратит <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинную адаптацию</link></u></color> за каждого живого союзника и даёт им всем <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход в количестве ходов, которые они живы (До 3)\n[DefeatDuel] Не даёт <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> союзникам от эффекта выше",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\"><noparse>Блок столкновением</noparse></link></u></color>\n[EndBattle] Тратит <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинную адаптацию</noparse></link></u></color> за каждого живого союзника и даёт им всем <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\"><noparse>Повышение урона</noparse></link></u></color> на следующий ход в количестве ходов, которые они живы (До 3)\n[DefeatDuel] Не даёт <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\"><noparse>Повышение урона</noparse></link></u></color> союзникам от эффекта выше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             }
@@ -557,44 +557,44 @@
         {
           "level": 1,
           "name": "С глубоким сними милосердием.",
-          "desc": "[CantIdentify]\nМожно столкнуться независимо от скорости\nНе наносит урона союзникам\nБазовая сила +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на главной цели (До 9)\n\n[DefeatDuel]\n- Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Наносит вдвое меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> этой атакой, а также не наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color> и не повышает его счётчик\n- Получает вдвое меньше <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> от эффекта ниже\n\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>\n[EndBattle] Создаёт <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Заражение подморья</link></u></color> первой стадии в следующем ходе",
+          "desc": "[CantIdentify]\nМожно столкнуться независимо от скорости\nНе наносит урона союзникам\nБазовая сила +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на главной цели (До 9)\n\n[DefeatDuel]\n- Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\"><noparse>Понижения силы</noparse></link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Наносит вдвое меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> этой атакой, а также не наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color> и не повышает его счётчик\n- Получает вдвое меньше <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> от эффекта ниже\n\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>\n[EndBattle] Создаёт <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\"><noparse>Заражение подморья</noparse></link></u></color> первой стадии в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 10% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 10% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 10% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>\n[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и повышает его счётчик на 4"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>\n[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и повышает его счётчик на 4"
                 }
               ]
             }
@@ -609,28 +609,28 @@
         {
           "level": 1,
           "name": "Движение волн",
-          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> тратит 5 её единиц, чтобы нанести на 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> больше монетами этой атаки\n[WhenUse] Тратит по 1 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> за каждые 5 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели, чтобы получить +1 к Силе в столкновении (До 5)",
+          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> тратит 5 её единиц, чтобы нанести на 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> больше монетами этой атаки\n[WhenUse] Тратит по 1 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> за каждые 5 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели, чтобы получить +1 к Силе в столкновении (До 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -645,28 +645,28 @@
         {
           "level": 1,
           "name": "Агрессивные течения",
-          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> тратит 4 её единицы, чтобы получить +1 к Силе монет\n[WhenUse] Тратит по 3 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> за каждые 10 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели, чтобы получить +1 к Силе монет <nobr>(До 2)</nobr>",
+          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> тратит 4 её единицы, чтобы получить +1 к Силе монет\n[WhenUse] Тратит по 3 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> за каждые 10 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели, чтобы получить +1 к Силе монет <nobr>(До 2)</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> <nobr>на 3</nobr>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> <nobr>на 3</nobr>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -681,18 +681,18 @@
         {
           "level": 1,
           "name": "Колышущиеся волны",
-          "desc": "[WhenUse] Сила монет +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели (До 9)\n[EndBattle] Тратит до 10 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> и получает половину от потраченного значения в виде <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня сваги</link></u></color> на следующий ход (До 5; округляется вверх)\n[DefeatDuel] Не получает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color> на следующий ход от эффекта выше",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели (До 9)\n[EndBattle] Тратит до 10 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> и получает половину от потраченного значения в виде <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышений уровня сваги</noparse></link></u></color> на следующий ход (До 5; округляется вверх)\n[DefeatDuel] Не получает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышение уровня сваги</noparse></link></u></color> на следующий ход от эффекта выше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и повышает его счётчик на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -706,44 +706,44 @@
         {
           "level": 1,
           "name": "Прежде чем сострадание, в которое они верят… станет совершенно бесполезным.",
-          "desc": "Можно столкнуться независимо от скорости\nНацеливается на противника с наибольшим <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражением нервов</link></u></color>\nБазовая сила +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на главной цели (До 9)\n\n[DefeatDuel]\n- Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Наносит вдвое меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> этой атакой, а также не наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color> и не повышает его счётчик\n- Получает вдвое меньше <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> и ОЗ Щита от эффектов ниже\n\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> и ОЗ Щита в размере 20% от своих максимальных ОЗ, а затем заканчивает этот ход\n[EndBattle] Создаёт <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Заражение подморья</link></u></color> первой стадии в следующем ходе",
+          "desc": "Можно столкнуться независимо от скорости\nНацеливается на противника с наибольшим <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражением нервов</noparse></link></u></color>\nБазовая сила +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на главной цели (До 9)\n\n[DefeatDuel]\n- Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\"><noparse>Понижения силы</noparse></link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Наносит вдвое меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> этой атакой, а также не наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color> и не повышает его счётчик\n- Получает вдвое меньше <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> и ОЗ Щита от эффектов ниже\n\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> и ОЗ Щита в размере 20% от своих максимальных ОЗ, а затем заканчивает этот ход\n[EndBattle] Создаёт <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\"><noparse>Заражение подморья</noparse></link></u></color> первой стадии в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на 4"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и повышает его счётчик на 4"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -757,7 +757,7 @@
         {
           "level": 1,
           "name": "Путь поспешного Э.Г.О",
-          "desc": "[CantDuel]\nНе наносит урона целям\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>",
+          "desc": "[CantDuel]\nНе наносит урона целям\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>",
           "coinlist": [
             {}
           ]
@@ -770,15 +770,15 @@
         {
           "level": 1,
           "name": "Отголоски передышки",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наименьшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 4)\n[StartBattle] Если среди целей есть союзники, восстанавливает им 20% от максимальных ОЗ",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наименьшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 4)\n[StartBattle] Если среди целей есть союзники, восстанавливает им 20% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышению уровня жирности</link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>, потраченной на его призыв (До 5)"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\"><noparse>Повышению уровня жирности</noparse></link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>, потраченной на его призыв (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -792,15 +792,15 @@
         {
           "level": 1,
           "name": "Отголоски вознесения",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наибольшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> на цели (До 4)",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзников с наибольшими текущими ОЗ\nНе наносит урона союзникам\nСила в столкновении +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> на цели (До 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышению уровня сваги</link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>, потраченной на его призыв (До 5)"
+                  "desc": "[OnSucceedAttack] Если целью является союзник, даёт ему по 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышению уровня сваги</noparse></link></u></color> на этот и следующий ход за каждые 4 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>, потраченной на его призыв (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -814,12 +814,12 @@
         {
           "level": 1,
           "name": "Цикличная экосистема",
-          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\">Блок столкновением</link></u></color>\n[EndBattle] Тратит <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинную адаптацию</link></u></color> за каждого живого союзника и даёт им всем <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> на следующий ход в количестве ходов, которые они живы (До 3)\n[DefeatDuel] Не даёт <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> союзникам от эффекта выше",
+          "desc": "<sprite name=\"CanDuelGuard\"><color=#9f6a3a><u><link=\"CanDuelGuard\"><noparse>Блок столкновением</noparse></link></u></color>\n[EndBattle] Тратит <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинную адаптацию</noparse></link></u></color> за каждого живого союзника и даёт им всем <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\"><noparse>Повышение урона</noparse></link></u></color> на следующий ход в количестве ходов, которые они живы (До 3)\n[DefeatDuel] Не даёт <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\"><noparse>Повышение урона</noparse></link></u></color> союзникам от эффекта выше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 }
               ]
             }
@@ -833,44 +833,44 @@
         {
           "level": 1,
           "name": "С глубоким сними милосердием.",
-          "desc": "[CantIdentify]\nМожно столкнуться независимо от скорости\nНе наносит урона союзникам\nБазовая сила +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на главной цели (До 9)\n\n[DefeatDuel]\n- Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Наносит вдвое меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> этой атакой, а также не наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессия</link></u></color> и не повышает его счётчик\n- Получает вдвое меньше <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> от эффекта ниже\n\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color>\n[EndBattle] Создаёт <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Заражение подморья</link></u></color> первой стадии в следующем ходе",
+          "desc": "[CantIdentify]\nМожно столкнуться независимо от скорости\nНе наносит урона союзникам\nБазовая сила +1 за каждые 3 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на главной цели (До 9)\n\n[DefeatDuel]\n- Получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\"><noparse>Понижения силы</noparse></link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\"><noparse>Паралича</noparse></link></u></color>\n- Наносит на 80% меньше урона и не может оглушить целей\n- Наносит вдвое меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> этой атакой, а также не наносит <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессия</noparse></link></u></color> и не повышает его счётчик\n- Получает вдвое меньше <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> от эффекта ниже\n\n[EndSkill] Получает 100 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color>\n[EndBattle] Создаёт <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\"><noparse>Заражение подморья</noparse></link></u></color> первой стадии в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 10% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 10% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 10% от максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>\n[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и повышает его счётчик на 4"
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>\n[OnSucceedAttack] Если целью является противник, наносит ему 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и повышает его счётчик на 4"
                 }
               ]
             }
@@ -884,25 +884,25 @@
         {
           "level": 1,
           "name": "Движение волн",
-          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> тратит 5 её единиц, чтобы нанести на 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> больше монетами этой атаки\n[WhenUse] Тратит по 1 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> за каждые 10 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели, чтобы получить +1 к Силе в столкновении (До 2)",
+          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> тратит 5 её единиц, чтобы нанести на 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> больше монетами этой атаки\n[WhenUse] Тратит по 1 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> за каждые 10 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели, чтобы получить +1 к Силе в столкновении (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -916,28 +916,28 @@
         {
           "level": 1,
           "name": "Агрессивные течения",
-          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> тратит 4 её единицы, чтобы получить +1 к Силе монет\n[WhenUse] Тратит по 3 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> за каждые 10 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели, чтобы получить +1 к Силе монет <nobr>(До 2)</nobr>",
+          "desc": "[WhenUse] При 50 и более <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> тратит 4 её единицы, чтобы получить +1 к Силе монет\n[WhenUse] Тратит по 3 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> за каждые 10 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели, чтобы получить +1 к Силе монет <nobr>(До 2)</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> <nobr>на 3</nobr>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> <nobr>на 3</nobr>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
@@ -951,18 +951,18 @@
         {
           "level": 1,
           "name": "Колышущиеся волны",
-          "desc": "[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color> на цели (До 5)\n[EndBattle] Тратит до 10 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной адаптации</link></u></color> и получает половину от потраченного значения в виде <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня сваги</link></u></color> на следующий ход (До 5; округляется вверх)\n[DefeatDuel] Не получает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня сваги</link></u></color> на следующий ход от эффекта выше",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color> на цели (До 5)\n[EndBattle] Тратит до 10 <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\"><noparse>Глубинной адаптации</noparse></link></u></color> и получает половину от потраченного значения в виде <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышений уровня сваги</noparse></link></u></color> на следующий ход (До 5; округляется вверх)\n[DefeatDuel] Не получает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\"><noparse>Повышение уровня сваги</noparse></link></u></color> на следующий ход от эффекта выше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">Вечная монета</link></u></color>"
+                  "desc": "<sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\"><noparse>Вечная монета</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">депрессии</link></u></color> и повышает его счётчик на 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\"><noparse>депрессии</noparse></link></u></color> и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Поражения нервов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\"><noparse>Поражения нервов</noparse></link></u></color>"
                 }
               ]
             }
