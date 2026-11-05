@@ -117,6 +117,72 @@
         }
       ],
       "id": "29291"
+    },
+    {
+      "name": "Захоронение Саддама Хусейна",
+      "desc": "Конец хода: если находился в стаггере, выходит из него; затем, в начале следующего хода, наносит 4 силы и счётчика [Sinking:*Депрессии*] всем врагам (один раз за битву)\n- Вышеуказанный эффект может активироваться ещё ((айдишки \"Грозового Пивзавода\" в команде + айдишки \"Дома престарелых\" в команде) / 2) раза (макс. 4 раза; включая юнитов в бекапе)\n\nПри убийстве, 1 враг с наименьшим счётчиком [Sinking:*Депрессии*] получает +2 счётчика [Sinking:*Депрессии*] (в фокусированном бое, часть тела)\n\nПри ударе врагов, которые имеют IQ, если цель имела -45 IQ, наносит Грустный урон равный силе [Sinking:*Депрессии*] на цели\n\nВ фокусированных битвах, при ударе врагов с 10+ (сила [Sinking:*Депрессии*] + её счётчик):\nНаносит ((сила [Sinking:*Депрессии*] на цели) / 2) Грустного урона (один раз за скилл)\n\nЕсли атакующий скилл умеет наносить любую [Sinking:*Депрессию*], вместо нанесения (сила [Sinking:*Депрессии*] на цели / 2), наносит (сила [Sinking:*Депрессии*] на цели) Грустного урона\n(Каждый ход, этот эффект применяется только для первого скилла, наносящего Депрессию)\n\n[Эксклюзивный эффект для \"Охота крепкое\"]\nНачало хода: Если не имел [NightPathfinding], получает 1 [NightPathfinding]\n- При 5/10 [Coffin], получает 2/3 [NightPathfinding]\n- Даёт 1 [SoundOfStorm] на айдишки фракций \"Грозовой пивзавод\" и \"Дом престарелых\" (3 раза за айдишку за битву)\n\nУдваивает получаемое количество [Coffin]\n- Получает 2 [Coffin] когда айдишки фракции \"Грозовой пивзавод\" или \"Дом престарелых\" убивают врага\n\nЭффекты для скилла \"24 Часа в гробу челлендж\":\n- Теряет на 15 IQ больше от эффекта \"При использовании\"\n  · Не может опустить своё IQ ниже -40 этим эффектом\n- При ударе последней монетой, если враг имел 20+ [Sinking:*Депрессии*] наносит Грустный урон равный 100% от финального урона этой монеты",
+      "simpleDesc": [
+        {
+          "simpleDesc": "Inflict 4 [Sinking] Potency and Count against all enemies next turn",
+          "id": ""
+        },
+        {
+          "simpleDesc": "The enemy with the least [Sinking] Count gains +2 [Sinking] Count",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Deal Gloom damage based on [Sinking] on target",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Deal Gloom damage based on [Sinking] on target",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Gain [NightPathfinding]; apply [SoundOfStorm] to Identities of certain trait keywords",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Double the amount of [Coffin] gained",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Gain [Coffin] when Identities of certain trait keywords defeat an enemy",
+          "id": ""
+        },
+        {
+          "simpleDesc": "\"Lament, Mourn, and Despair\" loses more SP On Use",
+          "id": ""
+        },
+        {
+          "simpleDesc": "\"Lament, Mourn, and Despair\" deals Gloom damage on final Coin Hit",
+          "id": ""
+        }
+      ],
+      "id": "9301"
+    },
+    {
+      "name": "Когда прогулялся зимой по улице без трусов",
+      "desc": "Начало хода: При 40+ или -40 IQ, получает 1 [GainSinStockAdder]\n\n[Эксклюзивный эффект для айдишек с 2+ скиллами с отрицательными монетами]\nНачало хода: Теряет 15 IQ (IQ не падает ниже -40 от этого эффекта)\n\nОдин раз за битву, при получении урона по IQ, которое опустит его до -45, IQ не может опуститься ниже -44 в этом ходе\n(※ Учитывается только урон по IQ; не применяется на изменения эффектов IQ или использование ЭГО скиллов)\n\nПеред атакой 3-м скиллом или ЭГО, тратит до 5 ЭГО ресурсов того же типа, что и использованный скилл чтобы нанести +(потраченное кол-во ЭГО ресурсов x 10)% урона",
+      "simpleDesc": [
+        {
+          "simpleDesc": "Gain [GainSinStockAdder] when SP conditions are met",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Turn Start: Lose SP",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Maintain SP at -44 once when taking SP damage that would reduce SP to -45",
+          "id": ""
+        },
+        {
+          "simpleDesc": "Consume E.G.O Resources to deal more damage using Skill 3 and E.G.O Skills",
+          "id": ""
+        }
+      ],
+      "id": "9302"
     }
   ]
 }
