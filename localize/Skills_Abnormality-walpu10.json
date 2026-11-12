@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Handle Request",
-          "desc": "[BeforeAttack] Heal 10 SP\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[BeforeAttack] Хилит 10 IQ\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -14,7 +14,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -24,7 +24,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [ResultEnhancement] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
                 }
               ]
             }
@@ -38,25 +38,25 @@
         {
           "level": 1,
           "name": "Flash of Sunup",
-          "desc": "[WhenUse] At 15+ [DawnOfficeStigmaSOne], this Skill gains an extra Coin 2 as an [SuperCoin]",
+          "desc": "[WhenUse] При 15+ [DawnOfficeStigmaSOne], Этот скилл получает an extra Coin 2 as an [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -70,32 +70,32 @@
         {
           "level": 1,
           "name": "Sunset Blade",
-          "desc": "[WhenUse] At 15+ [DawnOfficeStigmaSOne], apply the following effects:\n- Gains an extra Coin 3 as an [SuperCoin]\n- On Hit using the extra Coin, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+          "desc": "[WhenUse] При 15+ [DawnOfficeStigmaSOne], накладывает следующие эффекты:\n- Gains an extra Coin 3 as an [SuperCoin]\n- При ударе using the extra Coin, [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -109,7 +109,7 @@
         {
           "level": 1,
           "name": "Dawnsplitter",
-          "desc": "[WhenUse] Final Power +1 and deal +10% damage for every 10 [DawnOfficeStigmaSOne] on self\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Финальная сила +1 и наносит +10% урона за каждые 10 [DawnOfficeStigmaSOne] на себе\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -117,7 +117,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ебашит [Switch_Vibration] в [VibrationIgnition]"
                 }
               ]
             },
@@ -127,10 +127,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once. Target loses 1 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели один раз. Цель теряет 1 счётчик [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -144,8 +144,8 @@
         {
           "level": 1,
           "name": "Crack of Dawn",
-          "desc": "[WhenUse] Deal +20% damage for every target (max 60%)\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target\n[EndSkill] Heal (total sum of [Combustion] Potency on all targets x 2)% HP (max 30%)\n[EndSkill] Consume all [DawnOfficeStigmaSOne] and [Combustion] on self",
-          "flavor": "At one of the countless raging battlefields of the Smoke War, this very technique melted down and cleaved through a certain decisive weapon's last pair of wings and the space it inhabited, heralding the dawn's end.\n\n\"Hah... That almost killed me...!\"\n\"Lady, do you think... you can finish that monster off?\"",
+          "desc": "[WhenUse] Наносит +20% урона за каждые target (макс. 60%)\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n[EndSkill] Хилит (total sum of силы [Combustion:*Изжоги*] на всех целях x 2)% ХП (макс. 30%)\n[EndSkill] тратит все [DawnOfficeStigmaSOne] и [Combustion:*Изжоги*] на себе",
+          "flavor": "При one of the countless raging battlefields of the Smoke War, this very technique melted down и cleaved through a certain decisive weapon's last pair of wings и the space it inhabited, heralding the dawn's end.\n\n\"Hah... That almost killed me...!\"\n\"Lady, do you think... you can finish that monster off?\"",
           "coinlist": [
             {
               "coindescs": [
@@ -153,13 +153,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ебашит [Switch_Vibration] в [VibrationIgnition]"
                 }
               ]
             },
@@ -169,10 +169,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on the target 2 times"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели 2 раза"
                 }
               ]
             }
@@ -186,7 +186,7 @@
         {
           "level": 1,
           "name": "Guardian",
-          "desc": "[CanDuelGuard]\n[StartBattle] Gain 1 [SupportProtect]\n[StartBattle] Gain Shield equal to 20% of max HP\n[StartBattle] Gain [Protection] equal to number of enemies that have [Combustion]",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect]\n[StartBattle] Получает щит равный 20% of макс. ХП\n[StartBattle] Получает [Protection] равный number of enemies that have [Combustion:*Изжоги*]",
           "coinlist": [
             {
               "coindescs": [
@@ -205,19 +205,19 @@
         {
           "level": 1,
           "name": "Heat Haze",
-          "desc": "[DuelCounter]\n[SupportProtect] exclusive Skill\n[WhenUse] Gain 5 [DawnOfficeStigmaSOne]\n[WhenUse] All allies heal 6 SP",
+          "desc": "[DuelCounter]\n[SupportProtect] Эксклюзивный скилл\n[WhenUse] Получает 5 [DawnOfficeStigmaSOne]\n[WhenUse] Все Союзники хилят 6 IQ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -231,7 +231,7 @@
         {
           "level": 1,
           "name": "Handle Request",
-          "desc": "[BeforeAttack] Heal 10 SP\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[BeforeAttack] Хилит 10 IQ\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -239,7 +239,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -249,7 +249,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [PlusCoinValueUp] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [PlusCoinValueUp] на следующий ход"
                 }
               ]
             }
@@ -263,38 +263,38 @@
         {
           "level": 1,
           "name": "Butterfly Slash",
-          "desc": "[WhenUse] Gain 6 [DawnOfficeStigmaYOne]",
+          "desc": "[WhenUse] Получает 6 [DawnOfficeStigmaYOne]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Reuse this Coin once for every 10 [DawnOfficeStigmaYOne] on self (max 2 times per Skill)"
+                  "desc": "Повторно использует эту монету один раз за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 2 раза за скилл)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[ReUseOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -308,7 +308,7 @@
         {
           "level": 1,
           "name": "Eject",
-          "desc": "[WhenUse] Gain 8 [DawnOfficeStigmaYOne]\n[WhenUse] Final Power +1 for every 10 [DawnOfficeStigmaYOne] on self\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Получает 8 [DawnOfficeStigmaYOne]\n[WhenUse] Финальная сила +1 за каждые 10 [DawnOfficeStigmaYOne] на себе\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [Switch_Vibration] into [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] ебашит [Switch_Vibration] в [VibrationIgnition]"
                 }
               ]
             },
@@ -326,10 +326,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once. Target loses 1 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели один раз. Цель теряет 1 счётчик [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -339,13 +339,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin once for every 10 [DawnOfficeStigmaYOne] on self (max 2 times per Skill)"
+                  "desc": "Повторно использует эту монету один раз за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 2 раза за скилл)"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target once. Target loses 1 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели один раз. Цель теряет 1 счётчик [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -359,7 +359,7 @@
         {
           "level": 1,
           "name": "Eject - High Noon",
-          "desc": "[WideAreaRampage]\n[WhenUse] Deal +20% damage for every target (max 60%)\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target\n[BeforeAttack] Trigger [Switch_Vibration] on all targets into [VibrationIgnition]\n[EndSkill] Heal (total sum of [Combustion] Potency on all targets)% HP (max 15%)\n[EndSkill] Heal ([Combustion] Potency on self)% HP (max 15%)\n[EndSkill] Consume all [DawnOfficeStigmaYOne] and [Combustion] on self",
+          "desc": "[WideAreaRampage]\n[WhenUse] Наносит +20% урона за каждые target (макс. 60%)\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n[BeforeAttack] ебашит [Switch_Vibration] на всех целях в [VibrationIgnition]\n[EndSkill] Хилит (total sum of силы [Combustion:*Изжоги*] на всех целях)% ХП (макс. 15%)\n[EndSkill] Хилит (силы [Combustion:*Изжоги*] на себе)% ХП (макс. 15%)\n[EndSkill] тратит все [DawnOfficeStigmaYOne] и [Combustion:*Изжоги*] на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -367,7 +367,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -377,7 +377,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -387,22 +387,22 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Reuse this Coin once for every 10 [DawnOfficeStigmaYOne] on self (max 2 times per Skill)"
+                  "desc": "Повторно использует эту монету один раз за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 2 раза за скилл)"
                 },
                 {
-                  "desc": "- On Reuse, this Coin hits all targets of the attack"
+                  "desc": "- On Reuse, Эта монета наносит урон всем целям атаки"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack]"
                 },
                 {
-                  "desc": "- [UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times"
+                  "desc": "- [UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза"
                 },
                 {
-                  "desc": "- [UnBrokenCoinOnSucceedAttack] Activate [Combustion] on the target 2 times"
+                  "desc": "- [UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели 2 раза"
                 }
               ]
             }
@@ -416,25 +416,25 @@
         {
           "level": 1,
           "name": "Stigmatize",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>When hit, Reuse this Skill once for every 10 [DawnOfficeStigmaYOne] on self at Turn Start (max 2 times)</color></mark></b></u>\n[StartBattle] Final Power +1 for every 2 [DawnOfficeStigmaYOne] (max 5)\n[StartBattle] Gain [DefenseUp] equal to the number of enemies that have [Combustion]\n[WhenUse] Inflict +1 more negative effect for every 10 [DawnOfficeStigmaYOne] on self",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>при получении удара, Reuse this Skill один раз за каждые 10 [DawnOfficeStigmaYOne] на себе в начале хода (макс. 2 раза)</color></mark></b></u>\n[StartBattle] Финальная сила +1 за каждые 2 [DawnOfficeStigmaYOne] (макс. 5)\n[StartBattle] Получает [DefenseUp] равное number of enemies that have [Combustion:*Изжоги*]\n[WhenUse] Наносит на +1 больше negative effect за каждые 10 [DawnOfficeStigmaYOne] на себе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -448,19 +448,19 @@
         {
           "level": 1,
           "name": "Seconded Offensive",
-          "desc": "[WhenUse]\n- Deal +2% damage for every [DawnOfficeStigmaYOne] on self\n- Final Power +1 for every 10 [DawnOfficeStigmaYOne] on self (max 3)",
+          "desc": "[WhenUse]\n- Наносит +2% урона за каждые [DawnOfficeStigmaYOne] на себе\n- Финальная сила +1 за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -474,7 +474,7 @@
         {
           "level": 1,
           "name": "Handle Request",
-          "desc": "[BeforeAttack] Heal 20 SP\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[BeforeAttack] Хилит 20 IQ\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -482,7 +482,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -492,7 +492,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Gain 1 [ResultEnhancement] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
                 }
               ]
             }
@@ -506,26 +506,26 @@
         {
           "level": 1,
           "name": "Sunset Blade",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Combustion] on target (max 3)",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Combustion:*Изжоги*] на цели (макс. 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -539,7 +539,7 @@
         {
           "level": 1,
           "name": "Stigmatize",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Combustion] on target (max 2)\n[BeforeAttack] Heal 15 SP\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Combustion:*Изжоги*] на цели (макс. 2)\n[BeforeAttack] Хилит 15 IQ\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -547,7 +547,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -557,7 +557,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target 2 times. Target loses 2 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели 2 раза. Цель теряет 2 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -571,7 +571,7 @@
         {
           "level": 1,
           "name": "Evade",
-          "desc": "[WhenUse] Final Power +1 for every 4 [Combustion] on target (max 3)\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] Heal 15% HP</color></mark></b></u>",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 [Combustion:*Изжоги*] на цели (макс. 3)\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] Хилит 15% ХП</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -584,26 +584,26 @@
         {
           "level": 1,
           "name": "High-speed Stabbing",
-          "desc": "[WhenUse] At 3 [WalpuTenWedgeOffice], Clash Power +1\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] При 3 [WalpuTenWedgeOffice], Сила клеша +1\n[WinDuel] Получает +2 счётчика [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[CriticalOnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -617,22 +617,22 @@
         {
           "level": 1,
           "name": "Sparking Spear",
-          "desc": "[WhenUse] At 3 [WalpuTenWedgeOffice], Clash Power +2\n[WinDuel] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] При 3 [WalpuTenWedgeOffice], Сила клеша +2\n[WinDuel] Получает +2 счётчика [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 3 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*] и +1 счётчик [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -646,7 +646,7 @@
         {
           "level": 1,
           "name": "Transpierce",
-          "desc": "Deal +(<color=#ff6000><mark color=#ff000040><b><u>current HP percentage on target</color></mark></b></u> - 50)% damage (max 50%, min 0%)\nDeal +(([Breath] Potency on self + [Vibration] Potency on target) x 2.5)% damage on Critical Hit (max 50%)\n[WhenUse] At 3 [WalpuTenWedgeOffice], Clash Power +6\n[WinDuel] Gain 2 [Breath] and +3 [Breath] Count",
+          "desc": "Наносит +(<color=#ff6000><mark color=#ff000040><b><u>current ХП percentage на цели</color></mark></b></u> - 50)% урона (макс. 50%, min 0%)\nНаносит +((силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) x 2.5)% урона при раскумаре (макс. 50%)\n[WhenUse] При 3 [WalpuTenWedgeOffice], Сила клеша +6\n[WinDuel] Получает 2 [Breath:*Кумара*] и +3 счётчика [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
@@ -654,19 +654,19 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>If target is in [Switch_Vibration] or [FusionVibration] states,</color></mark></b></u> this Coin deals +50% damage"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> this Coin deals +50% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration] and +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*] и +2 счётчика [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [PenetrateTakeDamageUp] (once per turn)"
+                  "desc": "[OnSucceedAttack] Наносит 2 [PenetrateTakeDamageUp] (один раз за ход)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1 (once per Skill)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (один раз за скилл)"
                 }
               ]
             }
@@ -680,7 +680,7 @@
         {
           "level": 1,
           "name": "Assume Wedge Formation",
-          "desc": "Deal +30% damage for every excess Atk Weight beyond the # of actual targets\n[WhenUse]\n- Gain +3 [Breath] Count\n- <color=#ff6000><mark color=#ff000040><b><u>Gain Atk Weight equal to the number of other non-immobilized \"Wedge Office[TabExplain]\" allies</color></mark></b></u> (max 2)\n[EndSkill]\n- Consume 25 [WalpuTenComboWedge] on self\n- Gain [WalpuTenComboWedge] next turn equal to (# of Coins that weren't used x 5)\n- Apply 1 [PenetrateResultUp] next turn to other \"Wedge Office[TabExplain]\" allies",
+          "desc": "Наносит +30% урона за каждые excess Вес атаки beyond the # of actual targets\n[WhenUse]\n- получает +3 счётчика [Breath:*Кумара*]\n- <color=#ff6000><mark color=#ff000040><b><u>Получает Вес атаки равное number of other non-immobilized \"Wedge Office[TabExplain]\" allies</color></mark></b></u> (макс. 2)\n[EndSkill]\n- Тратит 25 [WalpuTenComboWedge] на себе\n- Получает [WalpuTenComboWedge] на следующий ход равный (# of Coins that weren't used x 5)\n- Накладывает 1 [PenetrateResultUp] на следующий ход to other \"Wedge Office[TabExplain]\" allies",
           "coinlist": [
             {
               "coindescs": [
@@ -688,13 +688,13 @@
                   "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela"
                 },
                 {
-                  "desc": "- Deal +30% damage"
+                  "desc": "- Наносит +30% урона"
                 },
                 {
-                  "desc": "- On final Coin Hit, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "- On final Coin Hit, [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
@@ -704,26 +704,26 @@
                   "desc": "[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli"
                 },
                 {
-                  "desc": "- Deal +30% damage"
+                  "desc": "- Наносит +30% урона"
                 },
                 {
-                  "desc": "- On final Coin Hit, trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "- On final Coin Hit, [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +30% damage on Critical Hit"
+                  "desc": "Наносит +30% урона при раскумаре"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -737,7 +737,7 @@
         {
           "level": 1,
           "name": "Catch Breath",
-          "desc": "[WhenUse] Coin Power +1 for every 3 [Breath] Potency on self (max 2)\n[OnSucceedEvade]\n- Gain 2 [Breath] (3 times per turn)\n- Gain 2 [Agility] next turn (once per turn)\n[EndBattle] Gain 1 [PenetrateResultUp] and 1 [PenetrateDamageUp] next turn (once per turn)",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 силы [Breath:*Кумара*] на себе (макс. 2)\n[OnSucceedEvade]\n- Получает 2 [Breath:*Кумара*] (3 раза за ход)\n- Получает 2 [Agility] на следующий ход (один раз за ход)\n[EndBattle] Получает 1 [PenetrateResultUp] и 1 [PenetrateDamageUp] на следующий ход (один раз за ход)",
           "coinlist": [
             {}
           ]
@@ -750,7 +750,7 @@
         {
           "level": 1,
           "name": "Step Aside.",
-          "desc": "[DuelCounter]\nAssist Defense[TabExplain] exclusive Skill\n[WhenUse] Clash Power +1 for every 20% missing HP on self (max 4)\n[WhenUse]\n- This unit and the ally this unit used [SupportProtect] on heal 5 SP\n- Gain Shield equal to 15% of this unit's max HP (once per turn)\n- Gain 2 [Protection] (once per turn)",
+          "desc": "[DuelCounter]\nAssist Defense[TabExplain] Эксклюзивный скилл\n[WhenUse] Сила клеша +1 за каждые 20% недостающего ХП на себе (макс. 4)\n[WhenUse]\n- This unit и the ally this unit used [SupportProtect] on хилит 5 IQ\n- получает щит равный 15% от макс. ХП этого юнита (один раз за ход)\n- Получает 2 [Protection] (один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -758,10 +758,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 }
               ]
             },
@@ -771,10 +771,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 }
               ]
             }
@@ -788,25 +788,25 @@
         {
           "level": 1,
           "name": "Collision",
-          "desc": "[WhenUse] Final Power +1 for every 4 ([Breath] Potency on self + [Vibration] Potency on target) (max 3)\n[WhenUse] Gain 2 [Breath]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela</color></mark></b></u> (once per turn)\n- Gain 1 [WalpuTenBattleFieldKnow]\n- Reuse the final Coin (once per Skill)",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela</color></mark></b></u> (один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Повторно подбрасывает последнюю монету (один раз за скилл)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [WalpuTenBattleFieldKnow] on self (max 20%)"
+                  "desc": "Наносит +5% урона за каждые [WalpuTenBattleFieldKnow] на себе (макс. 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [WalpuTenWedgeMarkSilver]"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [WalpuTenWedgeMarkSilver]"
                 }
               ]
             }
@@ -820,29 +820,29 @@
         {
           "level": 1,
           "name": "Riding the Tide of the Offensive",
-          "desc": "[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1\n[WhenUse] Gain 3 [Breath]",
+          "desc": "[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 3 [Breath:*Кумара*]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +5% damage for every [WalpuTenBattleFieldKnow] on self (max 20%)"
+                  "desc": "Наносит +5% урона за каждые [WalpuTenBattleFieldKnow] на себе (макс. 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -856,39 +856,39 @@
         {
           "level": 1,
           "name": "Speared Sweep",
-          "desc": "[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1\n[WhenUse] Gain 2 [Breath]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela</color></mark></b></u> (once per turn)\n- Gain 1 [WalpuTenBattleFieldKnow]\n- Deal +30% damage",
+          "desc": "[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela</color></mark></b></u> (один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +30% урона",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +10% damage for every [WalpuTenBattleFieldKnow] on self (max 40%)"
+                  "desc": "Наносит +10% урона за каждые [WalpuTenBattleFieldKnow] на себе (макс. 40%)"
                 },
                 {
-                  "desc": "Deal +2% damage for every 1 [Vibration] Potency on target (max 20%)"
+                  "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 20%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>If target is in [Switch_Vibration] or [FusionVibration] states,</color></mark></b></u> deal +30% damage"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
@@ -902,44 +902,44 @@
         {
           "level": 1,
           "name": "I'll Run You Through Quick & True",
-          "desc": "Clash Power +1 for every [WalpuTenWedgeMarkSilver] on target (max 5)\n[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1\n[WhenUse] Gain 2 [Breath]\n[WhenUse] Convert all Coins into [SuperCoin]s\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela</color></mark></b></u> (once per turn)\n- Gain 1 [WalpuTenBattleFieldKnow]\n- Deal +30% damage\n[EndSkill] Consume all [WalpuTenWedgeMarkSilver] on target",
+          "desc": "Сила клеша +1 за каждые [WalpuTenWedgeMarkSilver] на цели (макс. 5)\n[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] Конвертирует все монеты в в [SuperCoin:*Вечные монеты*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pamela</color></mark></b></u> (один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +30% урона\n[EndSkill] тратит все [WalpuTenWedgeMarkSilver] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +10% damage for every [WalpuTenBattleFieldKnow] on self (max 40%)"
+                  "desc": "Наносит +10% урона за каждые [WalpuTenBattleFieldKnow] на себе (макс. 40%)"
                 },
                 {
-                  "desc": "Deal +2% damage for every 1 [Vibration] Potency on target (max 40%)"
+                  "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 40%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>If target is in [Switch_Vibration] or [FusionVibration] states,</color></mark></b></u> deal +30% damage"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Reuse this Coin (once per Skill)"
+                  "desc": "[OnSucceedAttack] Повторно использует эту монету (один раз за скилл)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[ReUseOnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Deal Pierce damage equal to ([WalpuTenWedgeMarkSilver] on target x 10)% of this Coin's final damage (max 50%)"
+                  "desc": "[ReUseOnSucceedAttack] Наносит пронзающий урон равный ([WalpuTenWedgeMarkSilver] на цели x 10)% финального урона этой монеты (макс. 50%)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[ReUseOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
@@ -953,7 +953,7 @@
         {
           "level": 1,
           "name": "Catch Breath",
-          "desc": "[WhenUse] At 6+ [Breath] Potency, Coin Power +1\n[OnSucceedEvade] Gain 2 [Breath] (once per Skill)\n[OnSucceedEvade] Gain 1 [Agility] next turn (once per turn)\n[EndBattle] Gain 1 [PenetrateResultUp] next turn (once per turn)",
+          "desc": "[WhenUse] При 6+ силы [Breath:*Кумара*], Сила монет +1\n[OnSucceedEvade] Получает 2 [Breath:*Кумара*] (один раз за скилл)\n[OnSucceedEvade] Получает 1 [Agility] на следующий ход (один раз за ход)\n[EndBattle] Получает 1 [PenetrateResultUp] на следующий ход (один раз за ход)",
           "coinlist": [
             {}
           ]
@@ -966,15 +966,15 @@
         {
           "level": 1,
           "name": "Collision",
-          "desc": "[WhenUse] Final Power +1 for every 4 ([Breath] Potency on self + [Vibration] Potency on target) (max 3)\n[WhenUse] Gain 4 [Breath]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli</color></mark></b></u> (once per turn)\n- Gain 1 [WalpuTenBattleFieldKnow]\n- Reuse the final Coin (once per Skill)\n[WinDuel] Gain 1 [PenetrateDamageUp] next turn (once per turn)\n[BeforeAttack] The final Coin gains Final Power +1 for every [WalpuTenBattleFieldKnow] on self (max 2)",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 4 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli</color></mark></b></u> (один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Повторно подбрасывает последнюю монету (один раз за скилл)\n[WinDuel] Получает 1 [PenetrateDamageUp] на следующий ход (один раз за ход)\n[BeforeAttack] The final Coin gains Финальная сила +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 1 [WalpuTenWedgeMarkGold]"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [WalpuTenWedgeMarkGold]"
                 }
               ]
             }
@@ -988,19 +988,19 @@
         {
           "level": 1,
           "name": "Gap Strike",
-          "desc": "[WhenUse] Final Power +1 for every 4 ([Breath] Potency on self + [Vibration] Potency on target) (max 3)\n[WhenUse] Gain 3 [Breath]\n[WinDuel] Inflict 1 [Vibration], then trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n[BeforeAttack] The final Coin gains Final Power +1 for every [WalpuTenBattleFieldKnow] on self (max 3)",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 3 [Breath:*Кумара*]\n[WinDuel] Наносит 1 [Vibration:*Тряски*], then [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1\n[BeforeAttack] The final Coin gains Финальная сила +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 3)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Vibration:*Тряски*]"
                 }
               ]
             }
@@ -1014,35 +1014,35 @@
         {
           "level": 1,
           "name": "Speared Sweep",
-          "desc": "[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1\n[WhenUse] Gain 2 [Breath]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli</color></mark></b></u> (once per turn)\n- Gain 1 [WalpuTenBattleFieldKnow]\n- Deal +40% damage\n[WinDuel] Inflict 2 [Vibration], then trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1\n[BeforeAttack] The final Coin gains Final Power +1 for every [WalpuTenBattleFieldKnow] on self (max 4)",
+          "desc": "[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli</color></mark></b></u> (один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +40% урона\n[WinDuel] Наносит 2 [Vibration:*Тряски*], then [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1\n[BeforeAttack] The final Coin gains Финальная сила +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 4)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2% damage for every 1 [Vibration] Potency on target (max 20%)"
+                  "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 20%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>If target is in [Switch_Vibration] or [FusionVibration] states,</color></mark></b></u> deal +30% damage"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
                 }
               ]
             }
@@ -1056,35 +1056,35 @@
         {
           "level": 1,
           "name": "My Spear Will Puncture You True.",
-          "desc": "Clash Power +1 for every [WalpuTenWedgeMarkGold] on target (max 5)\n[WhenUse] At 6+ ([Breath] Potency on self + [Vibration] Potency on target), Coin Power +1\n[WhenUse] Gain 2 [Breath]\n[WhenUse] Convert all Coins into [SuperCoin]s\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli</color></mark></b></u> (once per turn)\n- Gain 1 [WalpuTenBattleFieldKnow]\n- Deal +30% damage\n[WinDuel] Inflict 4 [Vibration] on target, then trigger [VibrationExplosion]\n[BeforeAttack] The final Coin gains +([WalpuTenBattleFieldKnow] on self + [WalpuTenWedgeMarkGold] on target) Final Power (max 8)\n[EndSkill] Consume all [WalpuTenWedgeMarkGold] on target",
+          "desc": "Сила клеша +1 за каждые [WalpuTenWedgeMarkGold] на цели (макс. 5)\n[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] Конвертирует все монеты в в [SuperCoin:*Вечные монеты*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Wedge Office[TabExplain] Fixer Pameli</color></mark></b></u> (один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +30% урона\n[WinDuel] Наносит 4 [Vibration:*Тряски*] на цели, then [VibrationExplosion:*Трясёт сучку*]\n[BeforeAttack] The final Coin gains +([WalpuTenBattleFieldKnow] на себе + [WalpuTenWedgeMarkGold] на цели) Финальная сила (макс. 8)\n[EndSkill] тратит все [WalpuTenWedgeMarkGold] на цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath:*Кумара*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Vibration:*Тряски*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Deal +2% damage for every 1 [Vibration] Potency on target (max 40%)"
+                  "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 40%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>If target is in [Switch_Vibration] or [FusionVibration] states,</color></mark></b></u> deal +30% damage"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target isn't in an [Switch_Vibration] state, trigger [Switch_Vibration] into [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
@@ -1098,7 +1098,7 @@
         {
           "level": 1,
           "name": "Catch Breath",
-          "desc": "[WhenUse] At 6+ [Breath] Potency, Coin Power +1\n[OnSucceedEvade] Gain 3 [Breath] (once per Skill)\n[OnSucceedEvade] Gain 1 [Agility] next turn (once per turn)\n[EndBattle] Gain 1 [PenetrateResultUp] next turn (once per turn)",
+          "desc": "[WhenUse] При 6+ силы [Breath:*Кумара*], Сила монет +1\n[OnSucceedEvade] Получает 3 [Breath:*Кумара*] (один раз за скилл)\n[OnSucceedEvade] Получает 1 [Agility] на следующий ход (один раз за ход)\n[EndBattle] Получает 1 [PenetrateResultUp] на следующий ход (один раз за ход)",
           "coinlist": [
             {}
           ]
@@ -1111,7 +1111,7 @@
         {
           "level": 1,
           "name": "Rue",
-          "desc": "[WhenUse] Final Power +2 for every 4 [Combustion] on target (max 4)\n[BeforeAttack] <color=#ff6000><mark color=#ff000040><b><u>At 20+/40+ SP,</color></mark></b></u> deal +50%/+100% damage\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target",
+          "desc": "[WhenUse] Финальная сила +2 за каждые 4 [Combustion:*Изжоги*] на цели (макс. 4)\n[BeforeAttack] <color=#ff6000><mark color=#ff000040><b><u>При 20+/40+ IQ,</color></mark></b></u> наносит +50%/+100% урона\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1119,10 +1119,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Vibration:*Тряски*]"
                 }
               ]
             },
@@ -1132,10 +1132,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target 2 times. Target loses 2 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели 2 раза. Цель теряет 2 счётчика [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Trigger [VibrationExplosion] 2 times; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
                 }
               ]
             }
@@ -1149,19 +1149,19 @@
         {
           "level": 1,
           "name": "Rueful Eventide",
-          "desc": "[WhenUse] At 40+ SP, gain 1 [ParryingResultUp] next turn\n[BeforeAttack] Heal 10 SP",
+          "desc": "[WhenUse] При 40+ IQ, получает 1 [ParryingResultUp] на следующий ход\n[BeforeAttack] Хилит 10 IQ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -1175,19 +1175,19 @@
         {
           "level": 1,
           "name": "Feather Shield",
-          "desc": "[WhenUse] Gain 2 [Protection]\n- <color=#ff6000><mark color=#ff000040><b><u>If target has [Combustion]</color></mark></b></u>, gain 2 additional [Protection]\n[WhenUse] At 30+ SP, gain 2 [DefenseUp] next turn",
+          "desc": "[WhenUse] Получает 2 [Protection]\n- <color=#ff6000><mark color=#ff000040><b><u>Если на цели есть [Combustion:*Изжоги*]</color></mark></b></u>, получает 2 дополнительный [Protection]\n[WhenUse] При 30+ IQ, получает 2 [DefenseUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             }
@@ -1201,7 +1201,7 @@
         {
           "level": 1,
           "name": "Searing Sword",
-          "desc": "[WhenUse] Final Power +1 for every 6 [Combustion] on target (max 2)\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target\n[BeforeAttack] At 40+/45+ SP, gain +1/+2 Atk Weight",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 6 [Combustion:*Изжоги*] на цели (макс. 2)\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n[BeforeAttack] При 40+/45+ IQ, получает +1/+2 Вес атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1209,7 +1209,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +3 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -1219,7 +1219,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion:*Изжоги*]"
                 }
               ]
             },
@@ -1229,7 +1229,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [PhilipWax]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [PhilipWax]"
                 }
               ]
             }
@@ -1243,21 +1243,21 @@
         {
           "level": 1,
           "name": "Fierce Charge",
-          "desc": "[WhenUse] Final Power +1 for every 6 [Combustion] on target (max 2)\n[BeforeAttack] Deal +2% damage for every 2 [Combustion] on target (max 30%)\n[EndSkill] Lose (# of Coin 1 Reused) SP",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 6 [Combustion:*Изжоги*] на цели (макс. 2)\n[BeforeAttack] Наносит +2% урона за каждые 2 [Combustion:*Изжоги*] на цели (макс. 30%)\n[EndSkill] Теряет (# of Coin 1 Reused) IQ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Reuse this Coin (2 times per Skill)"
+                  "desc": "[OnSucceedAttackHead] Повторно использует эту монету (2 раза за скилл)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[ReUseOnSucceedAttack] Наносит +2 счётчика [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Inflict 2 [PhilipWax]"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 2 [PhilipWax]"
                 }
               ]
             }
@@ -1271,7 +1271,7 @@
         {
           "level": 1,
           "name": "Blazing Strike",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Can Clash with this Skill regardless of Speed</color></mark></b></u>\nDuring the turn this unit has this Skill equipped, <color=#ff6000><mark color=#ff000040><b><u>gain 2 [ResultReduction] when hit by Attack Skills</color></mark></b></u> (once per Skill; 3 times per turn)\n[WhenUse] Final Power +2 for every 4 [Combustion] on the main target (max 4)\n[BeforeAttack] At 20+/40+ SP, deal +50%/+100% damage\n[DefeatDuel]\n- Deal -80% damage\n- Damage dealt by this Skill cannot Stagger the target\n[EndSkill] End this turn",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>С этим скиллом можно клешится независимо от скорости</color></mark></b></u>\nDuring the turn this unit есть this Skill equipped, <color=#ff6000><mark color=#ff000040><b><u>получает 2 [ResultReduction] при получении удара на Attack Skills</color></mark></b></u> (один раз за скилл; 3 раза за ход)\n[WhenUse] Финальная сила +2 за каждые 4 [Combustion:*Изжоги*] на главной цели (макс. 4)\n[BeforeAttack] При 20+/40+ IQ, наносит +50%/+100% урона\n[DefeatDuel]\n- Наносит -80% урона\n- Урон, нанесённый этим скиллом не может застаггерить цель\n[EndSkill] Заканчивает этот ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1279,10 +1279,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion:*Изжоги*]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Activate [Combustion] on target 2 times. Target loses 2 [Combustion] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:*Изжоги*] на цели 2 раза. Цель теряет 2 счётчика [Combustion:*Изжоги*]"
                 }
               ]
             }
