@@ -637,6 +637,24 @@
       "desc": "[AlwaysUseEGOPassive]\nЕсли у этого юнита есть 5 [BulletHole], не тратит Э.Г.О Ресурсы при использовании этого ЭГО (и дефолтное, и коррозию)\n\nНачало хода: Получает 1 [BulletHole]\n\n[WhenUseEGOPassive]\nНачало хода: Получает 1 [BlackWingHole]\n\nХилит 5 IQ каждый раз, когда этот юнит тратит или теряет 3 <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампона</noparse></link></u></color>, затем получает 1 [ResultEnhancement] На следующий ход (включая уникальные <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампоны</noparse></link></u></color>; счёт до 9 <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\"><noparse>Тампонов</noparse></link></u></color> За ход)",
       "flavor": "Чужой взгляд вонзается в меня, оставляя зияющую пустоту, из которой исторгаются сонмы. \r\nИз этого излияния выковывается пуля, что выбивает брешь и в тебя.",
       "id": "2051011"
+    },
+    {
+      "id": 2061111,
+      "name": "From the Depths of Despair",
+      "desc": "This unit's Attack Type Resist. that are higher than 1.5 are adjusted to 1.5 (except while Staggered)\nIf this unit is Staggered, take -30% damage (including forced Staggers)\n\nAt 999 [DespairKnightEGOMind], does not consume E.G.O resource when using the \"The Sword Sharpened with Tears\" E.G.O Skill (both Awakening and Corrosion)\n\nGain [DespairKnightEGOMind] equal to damage taken by allies (including this unit; including Shield damage)\nOn Ally Death, gain 1 [DespairKnightEGOSword] (once per turn)\nWhen an ally that has [DespairKnightEGOProtect] is defeated, gain 1 [DespairKnightEGOSword] (once per turn)\n\nOffense Level +1 and Defense Level -1 for every 2 defeated allies (max 5)",
+      "summary": "Strengthen Resist., take less damage"
+    },
+    {
+      "id": 50001,
+      "name": "Magical Arcana",
+      "desc": "Activate the following effects based on the number of \"Magical Girl\" Identities or \"Magical Girl\" E.G.O on the field (Identities and E.G.O are counted together)\n(2) Allied \"Magical Girl\" Identity's or allied \"Magical Girl\" E.G.O's Skills deal +10% damage",
+      "summary": "(2) Magical Girl Identities / E.G.O deal +10% damage using Skills"
+    },
+    {
+      "id": 50002,
+      "name": "Magical Arcana",
+      "desc": "(3) All allies' Minus Coin Skills deal +10% damage\nAt Attack End against the enemy main target of \"The Sword Sharpened with Tears\" E.G.O Skill, inflict 1 [DespairKnightEGOAlly] (once per turn)",
+      "summary": "(3) All allies' Minus Coin Skills deal +10% damage\nAttack End of \"The Sword Sharpened with Tears\": Inflict 1 [DespairKnightEGOAlly]"
     }
   ]
 }
