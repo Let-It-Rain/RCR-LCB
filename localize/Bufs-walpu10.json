@@ -1,232 +1,230 @@
 {
   "dataList": [
     {
-      "id": "Emulation",
       "name": "Learning на Example",
       "desc": "Макс. стаков: 30\nПолучает стаков based on the following conditions:\n- При победе в клеше, получает 2 стаков; При ударе using Base Attack Skills, получает 1 стаков; в конце атаки, если the enemy was defeated, получает 3 стаков\n- При победе в клеше using Base Attack Skills на other allies, получает 2 стаков\n · При победе в клеше using Base Attack Skills на other allies in the same faction as this unit, получает 4 стаков вместо этого\n\nПолучает следующих эффектов cumulatively based on стаков:\n- Base Attack Скиллы наносят +1% урона за каждый стак (макс. 30%)\n- 10+: Base Attack Skills Сила клеша +1\n- 20+: Base Attack Skills Сила монет +1",
-      "summary": "Получает стаков based on certain conditions\nнаносит больше урона, получает Силу клеша, получает Coin Power based on стаков"
+      "summary": "Получает стаков based on certain conditions\nнаносит больше урона, получает Силу клеша, получает Coin Power based on стаков",
+      "id": "Emulation"
     },
     {
-      "id": "CursedBlessing",
       "name": "A Test of Despair",
       "desc": "- Все Slots получает +20 Aggro\n- При использовании атакующего скилла, теряет 20 IQ\n- При смерти, все other allies теряет 20 IQ",
-      "summary": ""
+      "summary": "",
+      "id": "CursedBlessing"
     },
     {
-      "id": "BeyondDespair",
       "name": "The One Beyond Despair",
       "desc": "- Начало хода: Получает 2 Protection и 1 повышения силы атаки\n- При использовании защитного скилла, получает 3 Defense Power Up (один раз за ход)\n- При победе в клеше, хилит 5 IQ (2 раза за ход)\n · При макс. IQ, Убирает 1 removable negative effect applied to self\n- При Base Skill End, наносит Pride урон равный 10% of урона the said Skill dealt to each enemy\n\n- Когда this unit takes урона that brings its ХП down to 0, it не получает урона for the turn (один раз за бой)\n · After the above effect activates, хилит все ХП на следующий ход; затем, наносит +10% урона за каждые Protection на себе until Combat End (макс. 80%)",
-      "summary": ""
+      "summary": "",
+      "id": "BeyondDespair"
     },
     {
-      "id": "EmbeddedSpearhead",
       "name": "Embedded Spearhead",
       "desc": "- Макс. стаков: 1\n- On Crit using Pierce Base Attack Skills на Целится на other than the target that inflicted этот эффект, получает +15% урона\n- при получении удара на Skills that have the \"Joint Combo\" effect, получает дополнительно +20% урона\n- в конце скилла of скилл, что ударил, исчезает",
-      "summary": ""
+      "summary": "",
+      "id": "EmbeddedSpearhead"
     },
     {
-      "id": "WalpuTenWedgeOffice",
       "name": "Wedge Office",
       "desc": "- Макс. стаков: 3\n- Уровень сваги +1 за каждый стак\n- Начало хода: При 3 стаков, получает 1 Pierce DMG Up\n- Начало хода: Если все other allies that have \"Wedge Office\" are defeated, этот эффект исчезает",
-      "summary": ""
+      "summary": "",
+      "id": "WalpuTenWedgeOffice"
     },
     {
-      "id": "WalpuTenComboWedge",
       "name": "Momentum",
       "desc": "- Макс. стаков: 30\n- Consumed на certain Skills\n- Может получить до 20 стаков за ход",
-      "summary": ""
+      "summary": "",
+      "id": "WalpuTenComboWedge"
     },
     {
-      "id": "WalpuTenBattleFieldKnow",
       "name": "Field Analysis",
       "desc": "- Макс. стаков: 4\n- получает +2 Poise счётчик когда gaining этот эффект\n- Конец хода: получает +(стаков x 2) Poise счётчик\n- Skills получает следующих эффектов, основываясь на стаков:\n · 1+: Наносит +(стаков x 2.5)% урона against enemies\n · 2+: In a Clash, Сила клеша +1 за каждые 2 Clashes (макс. 2)\n · 3+: Сила монет +1, the final Coin becomes Unbreakable Coin\n · 4+: Target's Pierce Resist. +0.1 until Attack End",
-      "summary": ""
+      "summary": "",
+      "id": "WalpuTenBattleFieldKnow"
     },
     {
-      "id": "WalpuTenWedgeMarkSilver",
       "name": "Silver Mark [Wedge]",
       "desc": "- Макс. стаков: 5\n- Конец хода: получает +1 Tremor счётчик\n- Начало хода: Если there are no \"Wedge Office\" enemies на поле, этот эффект исчезает",
-      "summary": ""
+      "summary": "",
+      "id": "WalpuTenWedgeMarkSilver"
     },
     {
-      "id": "WalpuTenWedgeMarkGold",
       "name": "Golden Mark [Wedge]",
       "desc": "- Макс. стаков: 5\n- Конец хода: получает +1 Tremor счётчик\n- Начало хода: Если there are no \"Wedge Office\" enemies на поле, этот эффект исчезает",
-      "summary": ""
+      "summary": "",
+      "id": "WalpuTenWedgeMarkGold"
     },
     {
-      "id": "DawnOfficeStigmaSOne",
       "name": "Light of Daybreak",
       "desc": "- Макс. стаков: 30\n- Начало хода: Получает 1 Burn за каждые 5 стаков\n- Начало хода: получает +1 счётчик изжоги за каждые 10 стаков\n- При 10+ стаков, наносит на +1 больше Burn силу using Базовые скиллы against the enemy\n- При 20+ стаков, наносит на +1 больше счётчика изжоги using Базовые скиллы against the enemy",
       "summary": "",
-      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people.",
+      "id": "DawnOfficeStigmaSOne"
     },
     {
-      "id": "DawnOfficeStigmaSTwo",
       "name": "Light of Daybreak",
       "desc": "- Макс. стаков: 30\n- Начало хода: Получает 1 Burn за каждые 5 стаков\n- Начало хода: получает +1 счётчик изжоги за каждые 10 стаков\n- При 10+ стаков, наносит на +1 больше Burn силу using Базовые скиллы against the enemy\n- При 20+ стаков, наносит на +1 больше счётчика изжоги using Базовые скиллы against the enemy",
       "summary": "",
-      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people.",
+      "id": "DawnOfficeStigmaSTwo"
     },
     {
-      "id": "DawnOfficeStigmaSThree",
       "name": "Light of Daybreak",
       "desc": "- Макс. стаков: 30\n- Начало хода: Получает 1 Burn за каждые 5 стаков\n- Начало хода: получает +1 счётчик изжоги за каждые 10 стаков\n- При 10+ стаков, наносит на +1 больше Burn силу using Базовые скиллы against the enemy\n- При 20+ стаков, наносит на +1 больше счётчика изжоги using Базовые скиллы against the enemy",
       "summary": "",
-      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people.",
+      "id": "DawnOfficeStigmaSThree"
     },
     {
-      "id": "DawnOfficeStigmaYOne",
       "name": "Fire Butterfly Coffin",
       "desc": "- Макс. стаков: 30\n- При ударе using Базовые скиллы, получает 3 стаков\n · Если the said Skill is Skill 1 used via the \"Dawn Office - Seonbae\" Passive, получает 1 more стаков\n · Если на цели есть Burn, получает 1 more стаков\n- Конец хода: При больше чем 20 стаков, получает (excess стаков / 2) Burn на следующий ход (округляется вниз)\n · При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
       "summary": "",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to при least learn how it works.\"\n\n\"Все those blades inside the coffin make it much easier чтобы нанести with multiple opponents при один раз. That way, you can even получает on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to при least learn how it works.\"\n\n\"Все those blades inside the coffin make it much easier чтобы нанести with multiple opponents при один раз. That way, you can even получает on jobs that would normally be too much for a single Fixer to handle.\"",
+      "id": "DawnOfficeStigmaYOne"
     },
     {
-      "id": "DawnOfficeStigmaYTwo",
       "name": "Fire Butterfly Coffin",
       "desc": "- Макс. стаков: 30\n- При ударе using Базовые скиллы, получает 3 стаков\n · Если the said Skill is Skill 1 used via the \"Dawn Office - Seonbae\" Passive, получает 1 more стаков\n · Если на цели есть Burn, получает 1 more стаков\n- Конец хода: При больше чем 20 стаков, получает (excess стаков / 2) Burn на следующий ход (округляется вниз)\n · При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
       "summary": "",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to при least learn how it works.\"\n\n\"Все those blades inside the coffin make it much easier чтобы нанести with multiple opponents при один раз. That way, you can even получает on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to при least learn how it works.\"\n\n\"Все those blades inside the coffin make it much easier чтобы нанести with multiple opponents при один раз. That way, you can even получает on jobs that would normally be too much for a single Fixer to handle.\"",
+      "id": "DawnOfficeStigmaYTwo"
     },
     {
-      "id": "DawnOfficeStigmaYThree",
       "name": "Fire Butterfly Coffin",
       "desc": "- Макс. стаков: 30\n- При ударе using Базовые скиллы, получает 3 стаков\n · Если the said Skill is Skill 1 used via the \"Dawn Office - Seonbae\" Passive, получает 1 more стаков\n · Если на цели есть Burn, получает 1 more стаков\n- Конец хода: При больше чем 20 стаков, получает (excess стаков / 2) Burn на следующий ход (округляется вниз)\n · При 30 стаков, получает 5 Burn и +2 счётчика изжоги вместо этого",
       "summary": "",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to при least learn how it works.\"\n\n\"Все those blades inside the coffin make it much easier чтобы нанести with multiple opponents при один раз. That way, you can even получает on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt и tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to при least learn how it works.\"\n\n\"Все those blades inside the coffin make it much easier чтобы нанести with multiple opponents при один раз. That way, you can even получает on jobs that would normally be too much for a single Fixer to handle.\"",
+      "id": "DawnOfficeStigmaYThree"
     },
     {
-      "id": "LoneFixer",
       "name": "The Lone Fixer",
       "desc": "- Финальная сила +3\n- Уровень сваги +3\n- Уровень жирности +3",
-      "summary": ""
+      "summary": "",
+      "id": "LoneFixer"
     },
     {
-      "id": "PhilipReady",
       "name": "Readying Blazing Strike",
-      "desc": "Use \"Blazing Strike\" after {0} turns",
-      "summary": ""
+      "desc": "Use \"Blazing Strike\" after a certain number of turns",
+      "summary": "",
+      "id": "PhilipReady"
     },
     {
-      "id": "PhilipShield",
       "name": "Feather Shield",
       "desc": "- при получении удара, наносит 2 Burn на атакующем\n- Получает -5% урона от Attack Skills",
-      "summary": ""
+      "summary": "",
+      "id": "PhilipShield"
     },
     {
-      "id": "PhilipSword",
       "name": "Searing Sword",
       "desc": "При ударе, наносит 2 Burn",
-      "summary": ""
+      "summary": "",
+      "id": "PhilipSword"
     },
     {
-      "id": "PhilipPower",
       "name": "Getting Back on One's Feet Amid Sadness",
       "desc": "- в конце скилла, хилит 5 IQ\n- Наносит +20% урона to enemies that have Tremor\n- Начало хода: Когда в стаггере, выходит из стаггера; затем, все Resist. на себе are fixed to 1.5 for the turn",
       "summary": "",
-      "flavor": "'For me, who's feeling sadder than anyone...'"
+      "flavor": "'For me, who's feeling sadder than anyone...'",
+      "id": "PhilipPower"
     },
     {
-      "id": "PhilipWax",
       "name": "Emotion of Uncertain Sorrow",
       "desc": "- Макс. стаков: 5\n- Burn силу Cap +10 за каждый стак\n · Когда этот эффект исчезает или is reduced, the излишек Burn силу исчезает\n- Получает +10% урона от Burn activation за каждый стак\n- Когда Burn activates, теряет 1 стаков",
-      "summary": ""
+      "summary": "",
+      "id": "PhilipWax"
     },
     {
-      "id": "PatronLibrarianofHistorysPage",
       "name": "Patron Librarian [Floor of History]",
       "desc": "- Skill Slot +1, теряет 1 use of Skill 1, получает 1 use of Skill 3\n- Increase the amount of Burn, Bleed, Rupture, Sinking, или Tremor inflicted using Skills на +1 (including Unique Status Effects)\n- Increase the amount of Poise или Charge (учитывая уникальную соль) gained от скиллов на +1\n- Pierce Скиллы наносят +30% урона On Use\n- При ударе using Skills, получает 1 random least-owned Э.Г.О resource (2 раза за скилл)",
-      "summary": ""
+      "summary": "",
+      "id": "PatronLibrarianofHistorysPage"
     },
     {
-      "id": "EmotionLevelZero",
       "name": "Emotion Уровень 0",
       "desc": "- Макс. стаков: 30\n- не increase beyond 9 стаков until каждый союзник are при 9 Emotion Уровень стаков\n- Получает 3 стаков При победе в клеше, On Heads Hit, и On Kill\n- Получает 1 стаков При клеше Теряет, On Tails Hit, и on Ally Death\n- Конец хода: Если каждый союзник are при 9 Emotion Уровень стаков, получает 1 more стаков и increase Emotion Уровень стадии",
-      "summary": ""
+      "summary": "",
+      "id": "EmotionLevelZero"
     },
     {
-      "id": "EmotionLevelOne",
       "name": "Emotion Уровень 1",
       "desc": "- Макс. стаков: 30\n- Финальная сила +1\n- не increase beyond 19 стаков until каждый союзник are при 19 Emotion Уровень стаков\n- Получает 3 стаков При победе в клеше, On Heads Hit, и On Kill\n- Получает 1 стаков При клеше Теряет, On Tails Hit, и on Ally Death\n- Конец хода: Если каждый союзник are при 19 Emotion Уровень стаков, получает 1 more стаков и increase Emotion Уровень стадии\n\n[Patron Librarian Exclusive Effect]\n- Ashes: при получении удара, наносит 1~3 Burn на атакующем и 40% chance для получения the \"При ударе using Skills, наносит 1 Burn\" effect for the на следующий ход (не стаков)",
-      "summary": ""
+      "summary": "",
+      "id": "EmotionLevelOne"
     },
     {
-      "id": "EmotionLevelTwo",
       "name": "Emotion Уровень 2",
       "desc": "- Макс. стаков: 30\n- Финальная сила +2\n- не increase beyond 29 стаков until каждый союзник are при 29 Emotion Уровень стаков\n- Получает 3 стаков При победе в клеше, On Heads Hit, и On Kill\n- Получает 1 стаков При клеше Теряет, On Tails Hit, и on Ally Death\n- Конец хода: Если каждый союзник are при 29 Emotion Уровень стаков, получает 1 more стаков и increase Emotion Уровень стадии\n\n[Patron Librarian Exclusive Effect]\n- Ashes: при получении удара, наносит 1~3 Burn на атакующем и 40% chance для получения the \"При ударе using Skills, наносит 1 Burn\" effect for the на следующий ход (не стаков)\n- Nostalgic Embrace of the Old Days: При победе в клеше, 20% chance to провоцирует потрясение сучки на цели; chance increases with every Clash against the same target (2% за каждые Clash, макс. 50%)",
-      "summary": ""
+      "summary": "",
+      "id": "EmotionLevelTwo"
     },
     {
-      "id": "EmotionLevelThree",
       "name": "Emotion Уровень 3",
       "desc": "- Макс. стаков: 30\n- Финальная сила +3\n\n[Patron Librarian Exclusive Effect]\n- Ashes: при получении удара, наносит 1~3 Burn на атакующем и 40% chance для получения the \"При ударе using Skills, наносит 1 Burn\" effect for the на следующий ход (не стаков)\n- Nostalgic Embrace of the Old Days: При победе в клеше, 20% chance to провоцирует потрясение сучки на цели; chance increases with every Clash against the same target (2% за каждые Clash, макс. 50%)\n- Gluttony: Если у этого юнита attack target есть taken урона в этом ходу, наносит 1-3 дополнительный урона При ударе и хилит 2-5 ХП",
-      "summary": ""
+      "summary": "",
+      "id": "EmotionLevelThree"
     },
     {
-      "id": "WalpuTenHard",
       "name": "Hard Difficulty",
       "desc": "- Max ХП +50%\n- Убирает the first Stagger Threshold\n- Уровень сваги +3\n- Макс. сила cap for Burn, Bleed, Tremor, Rupture, Sinking: 30\n- Макс. счётчик cap for Burn, Bleed, Tremor, Rupture, Sinking: 10\n- Получает -30% урона от Bleed, Tremor, Rupture, Sinking",
-      "summary": ""
+      "summary": "",
+      "id": "WalpuTenHard"
     },
     {
-      "id": "HistoryAshes",
       "name": "Pages of the Library - Ashes",
       "desc": "при получении удара, наносит 1~3 Burn на атакующем и 40% chance для получения the \"При ударе using Skills, наносит 1 Burn\" effect for the на следующий ход (не стаков)",
       "summary": "",
-      "flavor": "\"The charred body represents the child's crumbled hope, Пока ever-blazing flame represents the obsession for affection.\""
+      "flavor": "\"The charred body represents the child's crumbled hope, Пока ever-blazing flame represents the obsession for affection.\"",
+      "id": "HistoryAshes"
     },
     {
-      "id": "HistoryNostalgicEmbraceOfTheOldDays",
       "name": "Pages of the Library - Nostalgic Embrace of the Old Days",
       "desc": "При победе в клеше, 20% chance to провоцирует потрясение сучки на цели; chance increases with every Clash against the same target (2% за каждые Clash, макс. 50%)",
       "summary": "",
-      "flavor": "Teddy was hugging someone tightly. Teddy loved hugs. But something was odd."
+      "flavor": "Teddy was hugging someone tightly. Teddy loved hugs. But something was odd.",
+      "id": "HistoryNostalgicEmbraceOfTheOldDays"
     },
     {
-      "id": "HistoryGluttony",
       "name": "Pages of the Library - Gluttony",
       "desc": "Если у этого юнита attack target есть taken урона в этом ходу, наносит 1-3 дополнительный урона При ударе и хилит 2-5 ХП",
       "summary": "",
-      "flavor": "The fairies were no больше чем carnivorous monsters, и their \"protection\" was their method to keep the meat fresh."
+      "flavor": "The fairies were no больше чем carnivorous monsters, и their \"protection\" was their method to keep the meat fresh.",
+      "id": "HistoryGluttony"
     },
     {
-      "id": "DawnOffice_LowMorale",
       "name": "Dawn Office",
       "desc": "- Низкий дух\n- Наносит -5% урона to enemies that have Burn\n- +5% к повышению порога стаггера against enemies that have Tremor",
-      "summary": ""
+      "summary": "",
+      "id": "DawnOffice_LowMorale"
     },
     {
-      "id": "DawnOffice_Panic",
       "name": "Dawn Office",
       "desc": "- Паника\n- Наносит -10% урона to enemies that have Burn\n- +10% к повышению порога стаггера against enemies that have Tremor",
-      "summary": ""
+      "summary": "",
+      "id": "DawnOffice_Panic"
     },
     {
-      "id": "WedgeOffice_LowMorale",
       "name": "Wedge Office",
       "desc": "- Низкий дух\n- Наносит -5% урона при раскумаре\n- +5% к повышению порога стаггера against enemies that have Tremor",
-      "summary": ""
+      "summary": "",
+      "id": "WedgeOffice_LowMorale"
     },
     {
-      "id": "WedgeOffice_Panic",
       "name": "Wedge Office",
       "desc": "- Паника\n- Наносит -10% урона при раскумаре\n- +10% к повышению порога стаггера against enemies that have Tremor",
-      "summary": ""
+      "summary": "",
+      "id": "WedgeOffice_Panic"
     },
     {
-      "id": "WaxWing_LowMorale",
       "name": "Waxen Pinion",
-      "excludeAutoLink": true,
       "desc": "- Низкий дух\n- Получает 1 Fragile\n- Наносит +10% урона to enemies that have Burn",
-      "summary": ""
+      "summary": "",
+      "id": "WaxWing_LowMorale"
     },
     {
-      "id": "WaxWing_Panic",
       "name": "Waxen Pinion",
-      "excludeAutoLink": true,
-      "desc": "- Низкий дух\n- Получает 1 Fragile\n- Наносит +25% урона to enemies that have Burn",
-      "summary": ""
+      "desc": "- Паника\n- Получает 1 Fragile\n- Наносит +25% урона to enemies that have Burn",
+      "summary": "",
+      "id": "WaxWing_Panic"
     }
   ]
 }
