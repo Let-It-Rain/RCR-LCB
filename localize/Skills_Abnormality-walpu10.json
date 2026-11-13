@@ -654,7 +654,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> this Coin deals +50% урона"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если цель находится в [Switch_Vibration] или [FusionVibration],</color></mark></b></u> this Coin deals +50% урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*] и +2 счётчика [Vibration:*Тряски*]"
@@ -663,7 +663,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [PenetrateTakeDamageUp] (Один раз за ход)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если цель не находится в [Switch_Vibration], ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1 (Один раз за скилл)"
@@ -680,7 +680,7 @@
         {
           "level": 1,
           "name": "Assume Wedge Formation",
-          "desc": "Наносит +30% урона за каждые excess Вес атаки beyond the # of actual targets\n[WhenUse]\n- получает +3 счётчика [Breath:*Кумара*]\n- <color=#ff6000><mark color=#ff000040><b><u>Получает Вес атаки равное number of other non-immobilized \"Офис Глиномесов[TabExplain]\" allies</color></mark></b></u> (макс. 2)\n[EndSkill]\n- Тратит 25 [WalpuTenComboWedge] на себе\n- Получает [WalpuTenComboWedge] на следующий ход равный (# of Coins that weren't used x 5)\n- Накладывает 1 [PenetrateResultUp] на следующий ход to other \"Офис Глиномесов[TabExplain]\" allies",
+          "desc": "Наносит +30% урона за за каждый вес атаки, превышающий количество целей\n[WhenUse]\n- Получает +3 счётчика [Breath:*Кумара*]\n- <color=#ff6000><mark color=#ff000040><b><u>Получает Вес атаки равное number of other non-immobilized \"Офис Глиномесов[TabExplain]\" allies</color></mark></b></u> (макс. 2)\n[EndSkill]\n- Тратит 25 [WalpuTenComboWedge] на себе\n- Получает [WalpuTenComboWedge] на следующий ход равный (Количество монет, которые не были использованы x 5)\n- Накладывает 1 [PenetrateResultUp] на следующий ход to other \"Офис Глиномесов[TabExplain]\" allies",
           "coinlist": [
             {
               "coindescs": [
@@ -750,7 +750,7 @@
         {
           "level": 1,
           "name": "Step Aside.",
-          "desc": "[DuelCounter]\nAssist Defense[TabExplain] Эксклюзивный скилл\n[WhenUse] Сила клеша +1 за каждые 20% недостающего ХП на себе (макс. 4)\n[WhenUse]\n- This unit и the ally this unit used [SupportProtect] on хилит 5 IQ\n- получает щит равный 15% от макс. ХП этого юнита (Один раз за ход)\n- Получает 2 [Protection] (Один раз за ход)",
+          "desc": "[DuelCounter]\nAssist Defense[TabExplain] Эксклюзивный скилл\n[WhenUse] Сила клеша +1 за каждые 20% недостающего ХП на себе (макс. 4)\n[WhenUse]\n- Этот юнит и союзники, на которых этот юнит использовал [SupportProtect] хилит 5 IQ\n- Получает щит равный 15% от макс. ХП этого юнита (Один раз за ход)\n- Получает 2 [Protection] (Один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -882,10 +882,10 @@
                   "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 20%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если цель находится в [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если цель не находится в [Switch_Vibration], ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
@@ -927,13 +927,13 @@
                   "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 40%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если цель находится в [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повторно использует эту монету (Один раз за скилл)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[ReUseOnSucceedAttack] Если цель не находится в [Switch_Vibration], ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Наносит пронзающий урон равный ([WalpuTenWedgeMarkSilver] на цели x 10)% финального урона этой монеты (макс. 50%)"
@@ -966,7 +966,7 @@
         {
           "level": 1,
           "name": "Collision",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 4 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Офис Глиномесов[TabExplain] Fixer Pameli</color></mark></b></u> (Один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Повторно подбрасывает последнюю монету (Один раз за скилл)\n[WinDuel] Получает 1 [PenetrateDamageUp] на следующий ход (Один раз за ход)\n[BeforeAttack] The final Coin gains Финальная сила +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 2)",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 4 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Офис Глиномесов[TabExplain] Fixer Pameli</color></mark></b></u> (Один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Повторно подбрасывает последнюю монету (Один раз за скилл)\n[WinDuel] Получает 1 [PenetrateDamageUp] на следующий ход (Один раз за ход)\n[BeforeAttack] Последняя монета получает Финальную силу +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -988,7 +988,7 @@
         {
           "level": 1,
           "name": "Gap Strike",
-          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 3 [Breath:*Кумара*]\n[WinDuel] Наносит 1 [Vibration:*Тряски*], then [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1\n[BeforeAttack] The final Coin gains Финальная сила +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 3)",
+          "desc": "[WhenUse] Финальная сила +1 за каждые 4 (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели) (макс. 3)\n[WhenUse] Получает 3 [Breath:*Кумара*]\n[WinDuel] Наносит 1 [Vibration:*Тряски*], then [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1\n[BeforeAttack] Последняя монета получает Финальную силу +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -1014,7 +1014,7 @@
         {
           "level": 1,
           "name": "Speared Sweep",
-          "desc": "[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Офис Глиномесов[TabExplain] Fixer Pameli</color></mark></b></u> (Один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +40% урона\n[WinDuel] Наносит 2 [Vibration:*Тряски*], then [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1\n[BeforeAttack] The final Coin gains Финальная сила +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 4)",
+          "desc": "[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Офис Глиномесов[TabExplain] Fixer Pameli</color></mark></b></u> (Один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +40% урона\n[WinDuel] Наносит 2 [Vibration:*Тряски*], then [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1\n[BeforeAttack] Последняя монета получает Финальную силу +1 за каждые [WalpuTenBattleFieldKnow] на себе (макс. 4)",
           "coinlist": [
             {
               "coindescs": [
@@ -1036,10 +1036,10 @@
                   "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 20%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если цель находится в [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если цель не находится в [Switch_Vibration], ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
@@ -1056,7 +1056,7 @@
         {
           "level": 1,
           "name": "My Spear Will Puncture You True.",
-          "desc": "Сила клеша +1 за каждые [WalpuTenWedgeMarkGold] на цели (макс. 5)\n[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] Конвертирует все монеты в в [SuperCoin:*Вечные монеты*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Офис Глиномесов[TabExplain] Fixer Pameli</color></mark></b></u> (Один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +30% урона\n[WinDuel] Наносит 4 [Vibration:*Тряски*] на цели, then [VibrationExplosion:*Трясёт сучку*]\n[BeforeAttack] The final Coin gains +([WalpuTenBattleFieldKnow] на себе + [WalpuTenWedgeMarkGold] на цели) Финальная сила (макс. 8)\n[EndSkill] тратит все [WalpuTenWedgeMarkGold] на цели",
+          "desc": "Сила клеша +1 за каждые [WalpuTenWedgeMarkGold] на цели (макс. 5)\n[WhenUse] При 6+ (силы [Breath:*Кумара*] на себе + сила [Vibration:*Тряски*] на цели), Сила монет +1\n[WhenUse] Получает 2 [Breath:*Кумара*]\n[WhenUse] Конвертирует все монеты в в [SuperCoin:*Вечные монеты*]\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: Офис Глиномесов[TabExplain] Fixer Pameli</color></mark></b></u> (Один раз за ход)\n- Получает 1 [WalpuTenBattleFieldKnow]\n- Наносит +30% урона\n[WinDuel] Наносит 4 [Vibration:*Тряски*] на цели, then [VibrationExplosion:*Трясёт сучку*]\n[BeforeAttack] Последняя монета получает +([WalpuTenBattleFieldKnow] на себе + [WalpuTenWedgeMarkGold] на цели) Финальная сила (макс. 8)\n[EndSkill] тратит все [WalpuTenWedgeMarkGold] на цели",
           "coinlist": [
             {
               "coindescs": [
@@ -1078,10 +1078,10 @@
                   "desc": "Наносит +2% урона за каждые 1 сила [Vibration:*Тряски*] на цели (макс. 40%)"
                 },
                 {
-                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели is in [Switch_Vibration] или [FusionVibration] states,</color></mark></b></u> наносит +30% урона"
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если цель находится в [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели isn't in an [Switch_Vibration] state, ебашит [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если цель не находится в [Switch_Vibration], ебашит [Switch_Vibration] в [VibrationCollapse]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*] 2 раза; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 2"
