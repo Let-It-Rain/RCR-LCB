@@ -495,7 +495,7 @@
         {
           "level": "1",
           "name": "Покарать нечестивых",
-          "desc": "Можно столкнуться с этим скиллом независимо от скорости  \n[WhenUse] \n- Финальная сила +1 и наносит +20% урона за каждые 6 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе (макс. 6 и 120%, соответственно)  \n- Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +4 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>  \n- <color=#ff6000><mark=#ff000040><b><u>Наносит +([StackPresentActivate] X 4)% урона (макс. 120%)</u></b></mark></color>  \n[BeforeAttack] Если у этого юнита есть 20+ счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, расходует до 20 избыточной силы <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> свыше 20, чтобы нанести +( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> израсходованных x 5)% урона (макс. 100%)  \n- При проигрыше столкновения этот эффект не срабатывает  \n[WinDuel] Получает 5 [StackPresentActivate] \n[DefeatDuel] \n- Уменьшает [StackPresentActivate] Вдвое (округляется вниз)  \n- Получает 2 [AttackDmgDown] И 1 [Paralysis] \n- Цель не может быть оглушена до окончания атаки этого скилла  \n[EndSkill] Если цель убита, повторно использует этот скилл на цели с наибольшим ХП (один раз за ход)  \n- При проигрыше столкновения этот эффект не срабатывает",
+          "desc": "Можно столкнуться с этим скиллом независимо от скорости  \n[WhenUse] \n- Финальная сила +1 и наносит +20% урона за каждые 6 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> на себе (макс. 6 и 120%, соответственно)  \n- Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> и +4 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>  \n- <color=#ff6000><mark=#ff000040><b><u>Наносит +([StackPresentActivate] X 4)% урона (макс. 120%)</u></b></mark></color>  \n[BeforeAttack] Если у этого юнита есть 20+ счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color>, расходует до 20 избыточной силы <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> свыше 20, чтобы нанести +( <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\"><noparse>Кумара</noparse></link></u></color> израсходованных x 5)% урона (макс. 100%)  \n- При проигрыше столкновения этот эффект не срабатывает  \n[WinDuel] Получает 5 [StackPresentActivate] \n[DefeatDuel] \n- Уменьшает [StackPresentActivate] Вдвое (округляется вниз)  \n- Получает 2 [AttackDmgDown] И 1 [Paralysis] \n- Цель не может быть оглушена до окончания атаки этого скилла  \n[EndSkill] Если цель убита, повторно использует этот скилл на цели с наибольшим ХП (Один раз за ход)  \n- При проигрыше столкновения этот эффект не срабатывает",
           "coinlist": [
             {
               "coindescs": [
@@ -1670,7 +1670,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по IQ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Хилит 5 IQ (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Хилит 5 IQ (Один раз за скилл)"
                 }
               ]
             },
@@ -1683,7 +1683,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\"><noparse>Уязвимость</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Один раз за скилл)"
                 }
               ]
             },
@@ -1696,7 +1696,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 <sprite name=\"AttackDmgDown\"><color=#e30000><u><link=\"AttackDmgDown\"><noparse>Понижение урона</noparse></link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Один раз за скилл)"
                 }
               ]
             },
@@ -1746,7 +1746,7 @@
         {
           "level": "1",
           "name": "Нравится видеть меня без одежды?)))",
-          "desc": "Во время хода которого экипирован этот скилл, получает 1 [PlusCoinValueDown] И 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при получении удара от атакующих скиллов</u></b></mark></color> (один раз за скилл; макс. 3 раза за ход)\nНе может быть оглушён перед использованием этого скилла\nПри убийстве этим скиллом: восстанавливает 15 IQ за каждую убитую цель\n[StartBattle] Получает 4 [Protection]\n[WhenUse] Наносит +3% урона за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на основной цели + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на дополнительной цели) (макс. 30%)\n[DefeatDuel] Наносит -90% урона, и нанесённый этим навыком урон не может застаггерить цель\n[EndSkill] Теряет [BoneBladeTheRings]",
+          "desc": "Во время хода которого экипирован этот скилл, получает 1 [PlusCoinValueDown] И 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при получении удара от атакующих скиллов</u></b></mark></color> (Один раз за скилл; макс. 3 раза за ход)\nНе может быть оглушён перед использованием этого скилла\nПри убийстве этим скиллом: восстанавливает 15 IQ за каждую убитую цель\n[StartBattle] Получает 4 [Protection]\n[WhenUse] Наносит +3% урона за каждые 6 (<sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на основной цели + <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\"><noparse>Кетчупа</noparse></link></u></color> на дополнительной цели) (макс. 30%)\n[DefeatDuel] Наносит -90% урона, и нанесённый этим навыком урон не может застаггерить цель\n[EndSkill] Теряет [BoneBladeTheRings]",
           "coinlist": [
             {
               "coindescs": [
@@ -1757,7 +1757,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Цель теряет 5 IQ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Хилит 5 IQ (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Хилит 5 IQ (Один раз за скилл)"
                 }
               ]
             },
@@ -1770,7 +1770,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Один раз за скилл)"
                 }
               ]
             },
@@ -1783,7 +1783,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (один раз за скилл)"
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Один раз за скилл)"
                 }
               ]
             },
