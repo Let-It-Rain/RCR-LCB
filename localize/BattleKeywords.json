@@ -3747,7 +3747,7 @@
     },
     {
       "name": "Ammo - Prisoner",
-      "desc": "- Unique Ammo\n- Max Capacity: 6\n- При ударе, если Ammo - Prisoner was spent, наносит (Ammo - Prisoner spent) Tanned Prisoner стаков на главной цели\n- This Ammo's count cannot be gained или raised due to external effects other than \"Replenish Personnel\"\n- не expire при 0 стаков",
+      "desc": "- Уникальный Тампон\n- Максимальное значение: 6\n- При ударе, если Ammo - Prisoner был потрачен, наносит ( потраченный Ammo - Prisoner) Tanned Prisoner стаков на главной цели\n- Счетчик этого Тампона не может быть получен или повышен другими способами кроме \"Replenish Personnel\"\n- не исчезает при 0 стаков",
       "summary": "",
       "id": "BulletJoesu"
     },
@@ -3759,25 +3759,25 @@
     },
     {
       "name": "Rule: Targeting Le Noir Prohibited",
-      "desc": "- <color=#ff0000>Начало столкновения:</color> Если главная цель of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is a \"Le Noir\" enemy,</color> Активирует the following (including Assist Units):\n  · Получает 1 Tannery Rule Violation\n  · этот эффект исчезает\n- Конец хода: этот эффект исчезает",
+      "desc": "- <color=#ff0000>Начало столкновения:</color> Если главная цель самого левого <color=#ff0000>атакующего скилла это ле нуар,</color> Активирует следующее (включая ассист юнитов):\n  · Получает 1 Tannery Rule Violation\n  · этот эффект исчезает\n- Конец хода: этот эффект исчезает",
       "summary": "",
       "id": "RuleDontA"
     },
     {
       "name": "Rule: Targeting Attack Skills Prohibited",
-      "desc": "- <color=#ff0000>Начало столкновения:</color> Если главная цель of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is an enemy Attack Skill,</color> Активирует the following (including Assist Units):\n  · Получает 1 Tannery Rule Violation\n  · этот эффект исчезает\n- Конец хода: этот эффект исчезает",
+      "desc": "- <color=#ff0000>Начало столкновения:</color> Если главная цель самого левого <color=#ff0000>скилла это враг с атакующим скиллом,</color> Активирует следующее (включая ассист юнитов):\n  · Получает 1 Tannery Rule Violation\n  · этот эффект исчезает\n- Конец хода: этот эффект исчезает",
       "summary": "",
       "id": "RuleDontB"
     },
     {
       "name": "Rule: Targeting Defense Skills Prohibited",
-      "desc": "- <color=#ff0000>Начало столкновения:</color> Если главная цель of this unit's leftmost <color=#ff0000>Attack Skill on its Skill Slots is an enemy Defense Skill,</color> Активирует the following (including Assist Units):\n  · Получает 1 Tannery Rule Violation\n  · этот эффект исчезает\n- Конец хода: этот эффект исчезает",
+      "desc": "- <color=#ff0000>Начало столкновения:</color> Если главная цель самого левого  <color=#ff0000>скилла это враг с защитным скиллом,</color> Активирует следующее (включая ассист юнитов):\n  · Получает 1 Tannery Rule Violation\n  · этот эффект исчезает\n- Конец хода: этот эффект исчезает",
       "summary": "",
       "id": "RuleDontC"
     },
     {
       "name": "Tannery Rule Violation",
-      "desc": "- Макс. стаков: 3\n- Получает +(стаков x 5)% урона от Haute Couture::Le Noir B3F Drying Room Yi Sang's Base Attack Skills\n- Получает +(стаков x 20)% урона от Haute Couture::Le Noir B3F Drying Room Yi Sang's \"Punishing Burnishing Finishing\" Skill\n- если эта Айдишка погибла, при the на следующий ход Start, наносит этот эффект on the ally (Part), у которого есть the highest ХП ядра (стаков carries over; excluding untargetable allies; не carry over to the next wave)\n- Начало хода: Если there is no enemy Haute Couture::Le Noir B3F Drying Room Yi Sang, исчезает",
+      "desc": "- Макс. стаков: 3\n- Получает +(стаков x 5)% урона от скиллов Haute Couture::Le Noir B3F Drying Room Yi Sang\n- Получает +(стаков x 20)% урона от скилла Haute Couture::Le Noir B3F Drying Room Yi Sang's \"Punishing Burnishing Finishing\" \n- если эта Айдишка погибла, при следующем начале хода, наносит этот эффект на союзника (Часть), у которого самое большое количество ХП ядра (все стаки переносятся; исключая союзников, которые нельзя атаковать ; не переносится на следующую волну)\n- Начало хода: Если нету врагов Haute Couture::Le Noir B3F Drying Room Yi Sang, исчезает",
       "summary": "",
       "id": "RuleViolation"
     },
@@ -3789,7 +3789,7 @@
     },
     {
       "name": "Replenish Personnel",
-      "desc": "- Effect applied to Ammo - Prisoner\n- Тратит Preservation счётчик until this unit есть макс. Ammo - Prisoner стаков (Получает 1 Ammo - Prisoner за каждые 2 Preservation счётчик consumed)\n- Если у этого юнита есть менее 2 Preservation счётчик, не активируется",
+      "desc": "- Примененный эффект к Ammo - Prisoner\n- Тратит Preservation счётчик до получения макс. Ammo - Prisoner стаков (Получает 1 Ammo - Prisoner за каждые 2 потраченных Preservation счётчика)\n- Если у этого юнита менее 2 Preservation счётчик, не активируется",
       "summary": "",
       "id": "MoreJoesu"
     },
