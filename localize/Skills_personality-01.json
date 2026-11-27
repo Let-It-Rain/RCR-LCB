@@ -3396,7 +3396,7 @@
         {
           "level": "1",
           "name": "Размахивание елдой",
-          "desc": "[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +1\n[DefeatDuel] Получает щит равный 5% от макс. ХП этого юнита и получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)",
+          "desc": "[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения +1 Финальной силы\n[DefeatDuel] Получает щит равный 5% от своего макс. ХП и получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3408,7 +3408,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряску</noparse></link></u></color>"
                 }
               ]
             }
@@ -3417,7 +3417,7 @@
         {
           "level": "2",
           "name": "Размахивание елдой",
-          "desc": "[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +1\n<style=\"highlight\">[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и наносит +10% урона</style>\n[DefeatDuel] Получает щит равный 5% от макс. ХП этого юнита и получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)",
+          "desc": "[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +1\n<style=\"highlight\">[WhenUse] При 3+ силы [ChargeNoirAlly], +1 к Силе монет и +10% урона</style>\n[DefeatDuel] Получает щит равный 5% от своего макс. ХП и получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3429,7 +3429,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             }
@@ -3438,7 +3438,7 @@
         {
           "level": "4",
           "name": "Размахивание елдой",
-          "desc": "<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 (силы [Vibration:*Тряски*] + [MoodooJoesu]) на цели (макс. 3)</style>\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +1\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и наносит +<style=\"highlight\">20</style>% урона\n[DefeatDuel] Получает щит равный 5% от макс. ХП этого юнита и получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Финальная сила +1 за каждые 4 (силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> + [MoodooJoesu]) на цели (макс. 3)</style>\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +1\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и  +<style=\"highlight\">20</style>% урона\n[DefeatDuel] Получает щит равный 5% от своего макс. ХП и получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3450,7 +3450,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             }
@@ -3469,14 +3469,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +8 счётчика [ChargeNoirAlly]"
+                  "desc": "[OnSucceedAttack] Получает +8 счётчиков [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 3+ [BulletJoesu], наносит 1 [HitTakeDamageUp] (Один раз за ход)"
@@ -3486,10 +3486,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spend 3 [BulletJoesu]"
+                  "desc": "Тратит 3 [BulletJoesu]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
                 }
               ]
             }
@@ -3503,14 +3503,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +8 счётчика [ChargeNoirAlly]"
+                  "desc": "[OnSucceedAttack] Получает +8 счётчиков [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 3+ [BulletJoesu], наносит 1 [HitTakeDamageUp] (Один раз за ход)"
@@ -3520,13 +3520,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spend 3 [BulletJoesu]"
+                  "desc": "Тратит 3 [BulletJoesu]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3535,19 +3535,19 @@
         {
           "level": "4",
           "name": "Показываю товар",
-          "desc": "<style=\"highlight\">[WhenUse] Если на цели есть 6+ (силы [Vibration:*Тряски*] + [MoodooJoesu]), Сила монет +1</style>\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +1\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и наносит +<style=\"highlight\">20</style>% урона",
+          "desc": "<style=\"highlight\">[WhenUse] Если цель имела 6+ (силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> + [MoodooJoesu]), +1 к Силе монет</style>\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] чтобы получить +1 к Финальной силе\n[WhenUse] При 3+ силе [ChargeNoirAlly], Сила монет +1 и наносит +<style=\"highlight\">20</style>% урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +8 счётчика [ChargeNoirAlly]"
+                  "desc": "[OnSucceedAttack] Получает +8 счётчиков [ChargeNoirAlly]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] При 3+ [BulletJoesu], наносит 1 [HitTakeDamageUp] (Один раз за ход)"
@@ -3557,13 +3557,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "Spend 3 [BulletJoesu]"
+                  "desc": "Тратит 3 [BulletJoesu]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3576,8 +3576,8 @@
       "levelList": [
         {
           "level": "3",
-          "name": "Нападение голых негров",
-          "desc": "[BeforeUse] При 6 [BulletJoesu], активируется как [WideAreaRampage] и получает +2 Вес атаки (Один раз за ход)\n\n[WhenUse] Если у главной цели есть 6+ (силы [Vibration:*Тряски*] + [MoodooJoesu]), Сила монет +1\n[WhenUse] Тратит 5 счётчика [ChargeNoirAlly] для получения Финальной силы +2\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и наносит +10% урона\n[WhenUse] Наносит +20% урона за каждое превышение веса атаки над количеством реальных целей (в сфокусированных боях, частей)",
+          "name": "<color=#e8ebff>Нападение голых негров",
+          "desc": "[BeforeUse] При 6 [BulletJoesu], получает свойство [WideAreaRampage] и +2 Веса атаки (Один раз за ход)\n\n[WhenUse] Если у главной цели было 6+ (силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> + [MoodooJoesu]), Сила монет +1\n[WhenUse] Тратит 5 счётчиков [ChargeNoirAlly] для получения Финальной силы +2\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и +10% урона\n[WhenUse] Наносит +20% урона за каждую единицу Веса атаки, превышающую количество целей на поле боя (в сфокусированных боях, частей)",
           "coinlist": [
             {
               "coindescs": [
@@ -3589,23 +3589,23 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 6 [BulletJoesu]"
+                  "desc": "Тратит 6 [BulletJoesu]"
                 },
                 {
                   "desc": "Эта монета наносит урон всем целям атаки"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +1 счётчик [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит +1 счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
                 }
               ]
             }
@@ -3613,8 +3613,8 @@
         },
         {
           "level": "4",
-          "name": "Нападение голых негров",
-          "desc": "[BeforeUse] При 6 [BulletJoesu], активируется как [WideAreaRampage] и получает +2 Вес атаки (Один раз за ход)\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (силы [Vibration:*Тряски*] + [MoodooJoesu]) на главной цели (макс. 2)</style>\n[WhenUse] Тратит 5 счётчика [ChargeNoirAlly] для получения Финальной силы +2\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и наносит +<style=\"highlight\">20</style>% урона\n[WhenUse] Наносит +<style=\"highlight\">30</style>% урона за каждое превышение веса атаки над количеством реальных целей (в сфокусированном бою, частей)",
+          "name": "<color=#e8ebff>Нападение голых негров",
+          "desc": "[BeforeUse] При 6 [BulletJoesu], получает свойство [WideAreaRampage] и +2 Веса атаки (Один раз за ход)\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 (силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> + [MoodooJoesu]) на главной цели (макс. 2)</style>\n[WhenUse] Тратит 5 счётчика [ChargeNoirAlly] для получения Финальной силы +2\n[WhenUse] При 3+ силы [ChargeNoirAlly], Сила монет +1 и +<style=\"highlight\">20</style>% урона\n[WhenUse] Наносит +30% урона за каждую единицу Веса атаки, превышающую количество целей на поле боя (в сфокусированных боях, частей)",
           "coinlist": [
             {
               "coindescs": [
@@ -3626,23 +3626,23 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "Spend 6 [BulletJoesu]"
+                  "desc": "Тратит 6 [BulletJoesu]"
                 },
                 {
                   "desc": "Эта монета наносит урон всем целям атаки"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит +<style=\"highlight\">2</style> счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
                 }
               ]
             }
@@ -3655,7 +3655,7 @@
       "levelList": [
         {
           "level": "1",
-          "name": "Акция 2+1",
+          "name": "<color=#e8ebff>Акция 2+1",
           "desc": "[CanDuelGuard]\n\n[StartBattle] Получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)\n\n[WhenUse] Сила монет +1 за каждые 2 [MoodooJoesu] на цели (макс. 3)",
           "coinlist": [
             {
@@ -3669,7 +3669,7 @@
         },
         {
           "level": "3",
-          "name": "Акция 2+1",
+          "name": "<color=#e8ebff>Акция 2+1",
           "desc": "[CanDuelGuard]\n\n[StartBattle] Получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)\n\n[WhenUse] Сила монет +1 за каждые 2 [MoodooJoesu] на цели (макс. 3)\n\n<style=\"highlight\">[StartDuel] Получает 1 [RuleSanction] (Один раз за ход)</style>\n<style=\"highlight\">[WinDuel] Наносит 1 [RuleViolation] (Один раз за ход)</style>",
           "coinlist": [
             {
@@ -3683,7 +3683,7 @@
         },
         {
           "level": "4",
-          "name": "Акция 2+1",
+          "name": "<color=#e8ebff>Акция 2+1",
           "desc": "[CanDuelGuard]\n\n[StartBattle] Получает +4 счётчика [ChargeNoirAlly] (Один раз за ход)\n\n<style=\"highlight\">[WhenUse] При 3+ силы [ChargeNoirAlly], Финальная сила +1</style>\n[WhenUse] Сила монет +1 за каждые 2 [MoodooJoesu] на цели (макс. 3)\n\n[StartDuel] Получает 1 [RuleSanction] (Один раз за ход)\n[WinDuel] Наносит 1 [RuleViolation] (Один раз за ход)",
           "coinlist": [
             {
@@ -3702,8 +3702,8 @@
       "levelList": [
         {
           "level": "3",
-          "name": "У-хо-ди!~",
-          "desc": "[CantDuel]\n[WhenUse] Финальная сила +1 за каждые 4 (силы [Vibration:*Тряски*] + [MoodooJoesu]) на цели (макс. 2)\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной сила +2 и наносит +20% урона\n[WhenUse] При 3+ силы [ChargeNoirAlly], Финальная сила +1 и наносит +30% урона\n\n[EndSkill] Теряет 3 [RuleSanction]",
+          "name": "<color=#e8ebff>У-хо-ди!~",
+          "desc": "[CantDuel]\n[WhenUse] Финальная сила +1 за каждые 4 (силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> + [MoodooJoesu]) на цели (макс. 2)\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения +2 к Финальной силе и +20% урона\n[WhenUse] При 3+ силы [ChargeNoirAlly], +1 к Финальной силе и +30% урона\n\n[EndSkill] Теряет 3 [RuleSanction]",
           "coinlist": [
             {
               "coindescs": [
@@ -3714,13 +3714,13 @@
                   "desc": "[OnSucceedAttack] Получает +4 счётчика [ChargeNoirAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит дробящий урон равный ([MoodooJoesu] x 4)% финального урона этой монеты (макс. 16%; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Наносит дробящий урон равный ([MoodooJoesu] x 4)% от финального урона этой монеты (макс. 16%; округляется вниз)"
                 }
               ]
             }
@@ -3728,8 +3728,8 @@
         },
         {
           "level": "4",
-          "name": "У-хо-ди!~",
-          "desc": "[CantDuel]\n[WhenUse] Финальная сила +1 за каждые 4 (силы [Vibration:*Тряски*] + [MoodooJoesu]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения Финальной силы +2 и наносит +<style=\"highlight\">40</style>% урона\n[WhenUse] При 3+ силы [ChargeNoirAlly], Финальная сила +<style=\"highlight\">2</style> и наносит +<style=\"highlight\">60</style>% урона\n\n[EndSkill] Теряет 3 [RuleSanction]",
+          "name": "<color=#e8ebff>У-хо-ди!~",
+          "desc": "[CantDuel]\n[WhenUse] Финальная сила +1 за каждые 4 (силы <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> + [MoodooJoesu]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] Тратит 3 счётчика [ChargeNoirAlly] для получения +2 к Финальной силе и +<style=\"highlight\">40</style>% урона\n[WhenUse] При 3+ силы [ChargeNoirAlly], +2 к Финальной силе <style=\"highlight\"></style> и +<style=\"highlight\">60</style>% урона\n\n[EndSkill] Теряет 3 [RuleSanction]",
           "coinlist": [
             {
               "coindescs": [
@@ -3740,13 +3740,13 @@
                   "desc": "[OnSucceedAttack] Получает +4 счётчика [ChargeNoirAlly]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:*Тряски*]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:*Трясёт сучку*]; затем, уменьшает у цели счётчик [Vibration:*Тряски*] на 1"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\"><noparse>Трясёт сучку</noparse></link></u></color>; затем, уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\"><noparse>Тряски</noparse></link></u></color> цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит дробящий урон равный ([MoodooJoesu] x <style=\"highlight\">5</style>)% финального урона этой монеты (макс. <style=\"highlight\">20%</style>; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Наносит дробящий урон равный ([MoodooJoesu] x <style=\"highlight\">5</style>)% от финального урона этой монеты (макс. <style=\"highlight\">20%</style>; округляется вниз)"
                 }
               ]
             }
